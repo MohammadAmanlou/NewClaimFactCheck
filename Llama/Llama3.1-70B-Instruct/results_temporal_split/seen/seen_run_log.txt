@@ -1,0 +1,10 @@
+2025-10-14 23:17:43,320 - seen_eval - INFO - ============================================================
+2025-10-14 23:17:43,320 - seen_eval - INFO - Starting evaluation on SEEN data
+2025-10-14 23:17:43,320 - seen_eval - INFO - Model: meta.llama3-1-70b-instruct-v1:0
+2025-10-14 23:17:43,320 - seen_eval - INFO - Results directory: results_temporal_split\seen
+2025-10-14 23:17:43,320 - seen_eval - INFO - ============================================================
+2025-10-14 23:17:43,320 - seen_eval - INFO - Total items to process: 36
+2025-10-14 23:17:43,343 - seen_eval - INFO - Got batch with keys: ['id', 'text', 'image', 'date', 'author', 'label', 'review', 'date_ts', 'date_raw']
+2025-10-14 23:17:43,344 - seen_eval - INFO - Extracted 1 claims from batch
+2025-10-14 23:17:43,345 - seen_eval - INFO - About to iterate over 1 claims
+2025-10-14 23:17:43,345 - seen_eval - INFO - Processing item 0: claim_text=“We have scaled up our investment in the healthcar, gold=not enough information

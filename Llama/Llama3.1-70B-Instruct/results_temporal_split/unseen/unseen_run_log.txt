@@ -1,0 +1,10 @@
+2025-10-14 23:19:34,527 - unseen_eval - INFO - ============================================================
+2025-10-14 23:19:34,527 - unseen_eval - INFO - Starting evaluation on UNSEEN data
+2025-10-14 23:19:34,527 - unseen_eval - INFO - Model: meta.llama3-1-70b-instruct-v1:0
+2025-10-14 23:19:34,539 - unseen_eval - INFO - Results directory: results_temporal_split\unseen
+2025-10-14 23:19:34,540 - unseen_eval - INFO - ============================================================
+2025-10-14 23:19:34,541 - unseen_eval - INFO - Total items to process: 163
+2025-10-14 23:19:34,556 - unseen_eval - INFO - Got batch with keys: ['id', 'text', 'image', 'date', 'author', 'label', 'review', 'date_ts', 'date_raw']
+2025-10-14 23:19:34,558 - unseen_eval - INFO - Extracted 1 claims from batch
+2025-10-14 23:19:34,559 - unseen_eval - INFO - About to iterate over 1 claims
+2025-10-14 23:19:34,559 - unseen_eval - INFO - Processing item 0: claim_text='Photo released by the US defense department shows, gold=refuted
