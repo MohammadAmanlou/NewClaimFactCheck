@@ -1,34 +1,34 @@
 {
-  "accuracy": 0.675,
+  "accuracy": 0.5030674846625767,
   "macro": {
-    "precision": 0.30872388481084134,
-    "recall": 0.3355855855855856,
-    "f1": 0.293218085106383
+    "precision": 0.2429130009775171,
+    "recall": 0.3855855855855856,
+    "f1": 0.2638888888888889
   },
   "per_label": {
     "Supported": {
-      "precision": 0.2608695652173913,
+      "precision": 0.18181818181818182,
       "recall": 0.6666666666666666,
-      "f1": 0.375,
+      "f1": 0.2857142857142857,
       "support": 9
     },
     "Refuted": {
-      "precision": 0.974025974025974,
+      "precision": 0.7575757575757576,
       "recall": 0.6756756756756757,
-      "f1": 0.7978723404255319,
+      "f1": 0.7142857142857143,
       "support": 111
     },
     "Not Enough Evidence": {
-      "precision": 0.0,
-      "recall": 0.0,
-      "f1": 0.0,
-      "support": 0
+      "precision": 0.03225806451612903,
+      "recall": 0.2,
+      "f1": 0.05555555555555555,
+      "support": 5
     },
     "Conflicting Evidence/Cherry-picking": {
       "precision": 0.0,
       "recall": 0.0,
       "f1": 0.0,
-      "support": 0
+      "support": 38
     }
   },
   "confusion_matrix": {
@@ -52,22 +52,22 @@
         0
       ],
       [
-        0,
-        0,
-        0,
+        2,
+        2,
+        1,
         0
       ],
       [
-        0,
-        0,
-        0,
+        8,
+        20,
+        10,
         0
       ]
     ]
   },
-  "n_total_with_gold": 120,
-  "n_valid_preds": 120,
+  "n_total_with_gold": 163,
+  "n_valid_preds": 163,
   "invalid_outputs": 0,
-  "runtime_sec": 497.31518268585205,
+  "runtime_sec": 311.1295428276062,
   "n_items_processed": 163
 }

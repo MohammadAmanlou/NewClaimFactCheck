@@ -1,47 +1,5 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""
-FEVER8 / AVeriTeC-style Evaluator — updated to work with your dataset schema
-----------------------------------------------------------------------------
-Works with items shaped like:
-[
-  {
-    "claim": "Kenyan counties allocated KSh361.05 billion (64%) to recurrent expenditure.",
-    "claim_id": 0,
-    "claim_date": "06-10-2024",
-    "speaker": "Anne Waiguru",
-    "original_claim_url": "https://...",
-    "reporting_source": "...",
-    "location_ISO_code": "KE"
-  },
-  ...
-]
-
-What’s new vs. your previous script:
-- Loader accepts JSON array or JSONL, with your exact fields. If a gold `label` exists, we use it; otherwise we still run predictions and skip metrics.
-- Flexible **date parsing** (DD-MM-YYYY by default) + optional `--start-date/--end-date` filter.
-- Safer **API key handling**: read AVALAI_API_KEY from env (no hardcoded secrets).
-- Predictions CSV/JSONL now include your metadata (claim_id, speaker, location_ISO_code, URL, ...).
-- Metrics are computed only if gold labels are present; otherwise a minimal metrics.json is written.
-- Small CLI polish and clearer logs.
-
-Run examples:
-  python fever8_evaluator_updated_for_AVeriTeC_like_dataset.py \
-      --input your_dataset.json \
-      --out runs/gpt-4o-mini --model gpt-4o-mini --start-date 2024-01-01
-
-  # If your dates are definitely day-first (e.g., 06-10-2024 => 6 Oct 2024):
-  python fever8_evaluator_updated_for_AVeriTeC_like_dataset.py --input your.json --dayfirst
-
-Environment:
-  export AVALAI_API_KEY=...   # REQUIRED
-  export AVALAI_BASE_URL=https://api.avalai.ir/v1   # optional (default below)
-
-Notes:
-- Endpoint uses OpenAI-compatible Chat Completions with JSON mode.
-- Label set is: Supported | Refuted | Not Enough Evidence | Conflicting Evidence/Cherry-picking
-"""
-
 from __future__ import annotations
 import os
 import sys
