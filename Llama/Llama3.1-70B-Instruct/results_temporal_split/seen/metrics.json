@@ -1,73 +1,43 @@
 {
-  "accuracy": 0.41935483870967744,
+  "accuracy": 0.75,
   "macro": {
-    "precision": 0.25,
-    "recall": 0.4087301587301587,
-    "f1": 0.3090909090909091
+    "precision": 0.7342657342657343,
+    "recall": 0.7815126050420168,
+    "f1": 0.7333333333333334
   },
   "per_label": {
     "Supported": {
-      "precision": 0.5384615384615384,
-      "recall": 0.7777777777777778,
-      "f1": 0.6363636363636364,
-      "support": 9
-    },
-    "Refuted": {
-      "precision": 0.46153846153846156,
+      "precision": 0.5454545454545454,
       "recall": 0.8571428571428571,
-      "f1": 0.6,
+      "f1": 0.6666666666666666,
       "support": 7
     },
-    "Not Enough Information": {
-      "precision": 0.0,
-      "recall": 0.0,
-      "f1": 0.0,
-      "support": 4
-    },
-    "Misleading": {
-      "precision": 0.0,
-      "recall": 0.0,
-      "f1": 0.0,
-      "support": 11
+    "Refuted": {
+      "precision": 0.9230769230769231,
+      "recall": 0.7058823529411765,
+      "f1": 0.8,
+      "support": 17
     }
   },
   "confusion_matrix": {
     "labels": [
       "Supported",
-      "Refuted",
-      "Not Enough Information",
-      "Misleading"
+      "Refuted"
     ],
     "matrix": [
       [
-        7,
-        0,
-        2,
-        0
-      ],
-      [
-        0,
         6,
-        0,
         1
       ],
       [
-        3,
-        1,
-        0,
-        0
-      ],
-      [
-        3,
-        6,
-        2,
-        0
+        5,
+        12
       ]
     ]
   },
-  "n_total_with_gold": 36,
-  "n_valid_preds": 31,
-  "invalid_outputs": 5,
-  "runtime_sec": 177.45843768119812,
-  "n_items_processed": 36
+  "n_total_with_gold": 24,
+  "n_valid_preds": 24,
+  "invalid_outputs": 0,
+  "runtime_sec": 77.7871446609497,
+  "n_items_processed": 24
 }
