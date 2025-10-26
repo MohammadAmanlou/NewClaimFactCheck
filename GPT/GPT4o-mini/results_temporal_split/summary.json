@@ -1,0 +1,161 @@
+{
+  "model": "gpt-4o-mini",
+  "split_date": "2023-12-30",
+  "evaluation_timestamp": "2025-10-15T18:18:09.636109",
+  "seen": {
+    "accuracy": 0.125,
+    "macro": {
+      "precision": 0.03571428571428571,
+      "recall": 0.25,
+      "f1": 0.0625
+    },
+    "per_label": {
+      "Supported": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 1
+      },
+      "Refuted": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 3
+      },
+      "Not Enough Information": {
+        "precision": 0.14285714285714285,
+        "recall": 1.0,
+        "f1": 0.25,
+        "support": 1
+      },
+      "Misleading": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 3
+      }
+    },
+    "confusion_matrix": {
+      "labels": [
+        "Supported",
+        "Refuted",
+        "Not Enough Information",
+        "Misleading"
+      ],
+      "matrix": [
+        [
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          1,
+          2,
+          0
+        ]
+      ]
+    },
+    "n_total_with_gold": 8,
+    "n_valid_preds": 8,
+    "invalid_outputs": 0,
+    "runtime_sec": 9.399940967559814,
+    "n_items_processed": 8
+  },
+  "unseen": {
+    "accuracy": 0.27225130890052357,
+    "macro": {
+      "precision": 0.4252118644067797,
+      "recall": 0.3275201106083459,
+      "f1": 0.2512647287934932
+    },
+    "per_label": {
+      "Supported": {
+        "precision": 0.5714285714285714,
+        "recall": 0.23529411764705882,
+        "f1": 0.3333333333333333,
+        "support": 17
+      },
+      "Refuted": {
+        "precision": 0.6785714285714286,
+        "recall": 0.3247863247863248,
+        "f1": 0.43930635838150295,
+        "support": 117
+      },
+      "Not Enough Information": {
+        "precision": 0.05084745762711865,
+        "recall": 0.6666666666666666,
+        "f1": 0.09448818897637797,
+        "support": 9
+      },
+      "Misleading": {
+        "precision": 0.4,
+        "recall": 0.08333333333333333,
+        "f1": 0.13793103448275862,
+        "support": 48
+      }
+    },
+    "confusion_matrix": {
+      "labels": [
+        "Supported",
+        "Refuted",
+        "Not Enough Information",
+        "Misleading"
+      ],
+      "matrix": [
+        [
+          4,
+          2,
+          11,
+          0
+        ],
+        [
+          3,
+          38,
+          70,
+          6
+        ],
+        [
+          0,
+          3,
+          6,
+          0
+        ],
+        [
+          0,
+          13,
+          31,
+          4
+        ]
+      ]
+    },
+    "n_total_with_gold": 191,
+    "n_valid_preds": 191,
+    "invalid_outputs": 0,
+    "runtime_sec": 239.44561195373535,
+    "n_items_processed": 191
+  },
+  "data_counts": {
+    "seen": 8,
+    "unseen": 191,
+    "total": 199
+  },
+  "config": {
+    "batch_size": 1,
+    "sleep_between": 0.2,
+    "max_items_per_split": -1
+  }
+}

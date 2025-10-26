@@ -1,0 +1,809 @@
+2025-10-15 18:14:09,439 - unseen_eval - INFO - ============================================================
+2025-10-15 18:14:09,440 - unseen_eval - INFO - Starting evaluation on UNSEEN data
+2025-10-15 18:14:09,441 - unseen_eval - INFO - Model: gpt-4o-mini
+2025-10-15 18:14:09,442 - unseen_eval - INFO - Results directory: results_temporal_split\unseen
+2025-10-15 18:14:09,444 - unseen_eval - INFO - ============================================================
+2025-10-15 18:14:09,446 - unseen_eval - INFO - Total items to process: 191
+2025-10-15 18:14:09,482 - unseen_eval - INFO - Got batch with keys: ['id', 'text', 'image', 'date', 'author', 'label', 'review', 'date_ts', 'date_raw']
+2025-10-15 18:14:09,484 - unseen_eval - INFO - Extracted 1 claims from batch
+2025-10-15 18:14:09,485 - unseen_eval - INFO - About to iterate over 1 claims
+2025-10-15 18:14:09,486 - unseen_eval - INFO - Processing item 0: claim_text=“There are more cases of food insecurity and hunge, gold=not enough information
+2025-10-15 18:14:10,639 - unseen_eval - INFO - Got batch with keys: ['id', 'text', 'image', 'date', 'author', 'label', 'review', 'date_ts', 'date_raw']
+2025-10-15 18:14:10,640 - unseen_eval - INFO - Extracted 1 claims from batch
+2025-10-15 18:14:10,641 - unseen_eval - INFO - About to iterate over 1 claims
+2025-10-15 18:14:10,642 - unseen_eval - INFO - Processing item 1: claim_text=“We then overthrow the Ukraine government, in 2014, gold=not enough information
+2025-10-15 18:14:11,682 - unseen_eval - INFO - Got batch with keys: ['id', 'text', 'image', 'date', 'author', 'label', 'review', 'date_ts', 'date_raw']
+2025-10-15 18:14:11,683 - unseen_eval - INFO - Extracted 1 claims from batch
+2025-10-15 18:14:11,683 - unseen_eval - INFO - About to iterate over 1 claims
+2025-10-15 18:14:11,684 - unseen_eval - INFO - Processing item 2: claim_text='Israelis get free US healthcare', gold=misleading
+2025-10-15 18:14:12,819 - unseen_eval - INFO - Got batch with keys: ['id', 'text', 'image', 'date', 'author', 'label', 'review', 'date_ts', 'date_raw']
+2025-10-15 18:14:12,820 - unseen_eval - INFO - Extracted 1 claims from batch
+2025-10-15 18:14:12,821 - unseen_eval - INFO - About to iterate over 1 claims
+2025-10-15 18:14:12,822 - unseen_eval - INFO - Processing item 3: claim_text='Hamburg was so full during recent protests that p, gold=refuted
+2025-10-15 18:14:13,868 - unseen_eval - INFO - Got batch with keys: ['id', 'text', 'image', 'date', 'author', 'label', 'review', 'date_ts', 'date_raw']
+2025-10-15 18:14:13,869 - unseen_eval - INFO - Extracted 1 claims from batch
+2025-10-15 18:14:13,870 - unseen_eval - INFO - About to iterate over 1 claims
+2025-10-15 18:14:13,871 - unseen_eval - INFO - Processing item 4: claim_text="(The) top issue for college students is the econo, gold=supported
+2025-10-15 18:14:15,094 - unseen_eval - INFO - Got batch with keys: ['id', 'text', 'image', 'date', 'author', 'label', 'review', 'date_ts', 'date_raw']
+2025-10-15 18:14:15,095 - unseen_eval - INFO - Extracted 1 claims from batch
+2025-10-15 18:14:15,096 - unseen_eval - INFO - About to iterate over 1 claims
+2025-10-15 18:14:15,097 - unseen_eval - INFO - Processing item 5: claim_text='Maddie de Garay's case shows that COVID-19 vaccin, gold=misleading
+2025-10-15 18:14:16,260 - unseen_eval - INFO - Got batch with keys: ['id', 'text', 'image', 'date', 'author', 'label', 'review', 'date_ts', 'date_raw']
+2025-10-15 18:14:16,262 - unseen_eval - INFO - Extracted 1 claims from batch
+2025-10-15 18:14:16,262 - unseen_eval - INFO - About to iterate over 1 claims
+2025-10-15 18:14:16,263 - unseen_eval - INFO - Processing item 6: claim_text='Russian kids sing "I will grow up to be a militar, gold=supported
+2025-10-15 18:14:17,370 - unseen_eval - INFO - Got batch with keys: ['id', 'text', 'image', 'date', 'author', 'label', 'review', 'date_ts', 'date_raw']
+2025-10-15 18:14:17,371 - unseen_eval - INFO - Extracted 1 claims from batch
+2025-10-15 18:14:17,372 - unseen_eval - INFO - About to iterate over 1 claims
+2025-10-15 18:14:17,372 - unseen_eval - INFO - Processing item 7: claim_text='The 2014 Euromaidan protests in Ukraine were a co, gold=refuted
+2025-10-15 18:14:18,410 - unseen_eval - INFO - Got batch with keys: ['id', 'text', 'image', 'date', 'author', 'label', 'review', 'date_ts', 'date_raw']
+2025-10-15 18:14:18,411 - unseen_eval - INFO - Extracted 1 claims from batch
+2025-10-15 18:14:18,412 - unseen_eval - INFO - About to iterate over 1 claims
+2025-10-15 18:14:18,413 - unseen_eval - INFO - Processing item 8: claim_text='WikiLeaks released the footage of moon landing sc, gold=refuted
+2025-10-15 18:14:19,542 - unseen_eval - INFO - Got batch with keys: ['id', 'text', 'image', 'date', 'author', 'label', 'review', 'date_ts', 'date_raw']
+2025-10-15 18:14:19,543 - unseen_eval - INFO - Extracted 1 claims from batch
+2025-10-15 18:14:19,544 - unseen_eval - INFO - About to iterate over 1 claims
+2025-10-15 18:14:19,545 - unseen_eval - INFO - Processing item 9: claim_text=“He [President Donald Trump] did not move on makin, gold=misleading
+2025-10-15 18:14:20,581 - unseen_eval - INFO - Got batch with keys: ['id', 'text', 'image', 'date', 'author', 'label', 'review', 'date_ts', 'date_raw']
+2025-10-15 18:14:20,582 - unseen_eval - INFO - Extracted 1 claims from batch
+2025-10-15 18:14:20,583 - unseen_eval - INFO - About to iterate over 1 claims
+2025-10-15 18:14:20,583 - unseen_eval - INFO - Processing item 10: claim_text='Under Joe Biden, there are “record numbers of new, gold=supported
+2025-10-15 18:14:21,660 - unseen_eval - INFO - Got batch with keys: ['id', 'text', 'image', 'date', 'author', 'label', 'review', 'date_ts', 'date_raw']
+2025-10-15 18:14:21,661 - unseen_eval - INFO - Extracted 1 claims from batch
+2025-10-15 18:14:21,662 - unseen_eval - INFO - About to iterate over 1 claims
+2025-10-15 18:14:21,663 - unseen_eval - INFO - Processing item 11: claim_text=That map shows areas of the United States with hig, gold=refuted
+2025-10-15 18:14:22,767 - unseen_eval - INFO - Got batch with keys: ['id', 'text', 'image', 'date', 'author', 'label', 'review', 'date_ts', 'date_raw']
+2025-10-15 18:14:22,768 - unseen_eval - INFO - Extracted 1 claims from batch
+2025-10-15 18:14:22,769 - unseen_eval - INFO - About to iterate over 1 claims
+2025-10-15 18:14:22,770 - unseen_eval - INFO - Processing item 12: claim_text='Study of 99 million Covid vaccine recipients show, gold=misleading
+2025-10-15 18:14:23,796 - unseen_eval - INFO - Got batch with keys: ['id', 'text', 'image', 'date', 'author', 'label', 'review', 'date_ts', 'date_raw']
+2025-10-15 18:14:23,797 - unseen_eval - INFO - Extracted 1 claims from batch
+2025-10-15 18:14:23,798 - unseen_eval - INFO - About to iterate over 1 claims
+2025-10-15 18:14:23,800 - unseen_eval - INFO - Processing item 13: claim_text='COVID-19 vaccine recipients might not be eligible, gold=misleading
+2025-10-15 18:14:24,902 - unseen_eval - INFO - Got batch with keys: ['id', 'text', 'image', 'date', 'author', 'label', 'review', 'date_ts', 'date_raw']
+2025-10-15 18:14:24,903 - unseen_eval - INFO - Extracted 1 claims from batch
+2025-10-15 18:14:24,903 - unseen_eval - INFO - About to iterate over 1 claims
+2025-10-15 18:14:24,904 - unseen_eval - INFO - Processing item 14: claim_text='Cote d’Ivoire’s GDP better than Ghana’s over the , gold=supported
+2025-10-15 18:14:25,999 - unseen_eval - INFO - Got batch with keys: ['id', 'text', 'image', 'date', 'author', 'label', 'review', 'date_ts', 'date_raw']
+2025-10-15 18:14:25,999 - unseen_eval - INFO - Extracted 1 claims from batch
+2025-10-15 18:14:26,000 - unseen_eval - INFO - About to iterate over 1 claims
+2025-10-15 18:14:26,001 - unseen_eval - INFO - Processing item 15: claim_text='There's a wall in Antarctica that planes cannot c, gold=refuted
+2025-10-15 18:14:27,286 - unseen_eval - INFO - Got batch with keys: ['id', 'text', 'image', 'date', 'author', 'label', 'review', 'date_ts', 'date_raw']
+2025-10-15 18:14:27,287 - unseen_eval - INFO - Extracted 1 claims from batch
+2025-10-15 18:14:27,287 - unseen_eval - INFO - About to iterate over 1 claims
+2025-10-15 18:14:27,288 - unseen_eval - INFO - Processing item 16: claim_text='Samantha endorsed TDP ahead of Andhra Elections', gold=misleading
+2025-10-15 18:14:28,298 - unseen_eval - INFO - Got batch with keys: ['id', 'text', 'image', 'date', 'author', 'label', 'review', 'date_ts', 'date_raw']
+2025-10-15 18:14:28,299 - unseen_eval - INFO - Extracted 1 claims from batch
+2025-10-15 18:14:28,299 - unseen_eval - INFO - About to iterate over 1 claims
+2025-10-15 18:14:28,300 - unseen_eval - INFO - Processing item 17: claim_text=“It is estimated that 121 million Africans are fac, gold=misleading
+2025-10-15 18:14:29,367 - unseen_eval - INFO - Got batch with keys: ['id', 'text', 'image', 'date', 'author', 'label', 'review', 'date_ts', 'date_raw']
+2025-10-15 18:14:29,368 - unseen_eval - INFO - Extracted 1 claims from batch
+2025-10-15 18:14:29,369 - unseen_eval - INFO - About to iterate over 1 claims
+2025-10-15 18:14:29,369 - unseen_eval - INFO - Processing item 18: claim_text='COVID-19 has symptoms similar to the flu.', gold=supported
+2025-10-15 18:14:30,393 - unseen_eval - INFO - Got batch with keys: ['id', 'text', 'image', 'date', 'author', 'label', 'review', 'date_ts', 'date_raw']
+2025-10-15 18:14:30,393 - unseen_eval - INFO - Extracted 1 claims from batch
+2025-10-15 18:14:30,394 - unseen_eval - INFO - About to iterate over 1 claims
+2025-10-15 18:14:30,396 - unseen_eval - INFO - Processing item 19: claim_text='New guidance says one day of isolation is suffici, gold=misleading
+2025-10-15 18:14:31,687 - unseen_eval - INFO - Got batch with keys: ['id', 'text', 'image', 'date', 'author', 'label', 'review', 'date_ts', 'date_raw']
+2025-10-15 18:14:31,688 - unseen_eval - INFO - Extracted 1 claims from batch
+2025-10-15 18:14:31,688 - unseen_eval - INFO - About to iterate over 1 claims
+2025-10-15 18:14:31,689 - unseen_eval - INFO - Processing item 20: claim_text='COVID-19 has been like the flu since the beginnin, gold=misleading
+2025-10-15 18:14:32,808 - unseen_eval - INFO - Got batch with keys: ['id', 'text', 'image', 'date', 'author', 'label', 'review', 'date_ts', 'date_raw']
+2025-10-15 18:14:32,809 - unseen_eval - INFO - Extracted 1 claims from batch
+2025-10-15 18:14:32,809 - unseen_eval - INFO - About to iterate over 1 claims
+2025-10-15 18:14:32,810 - unseen_eval - INFO - Processing item 21: claim_text=“We’ve had 12 elections in 24 years in Wisconsin t, gold=supported
+2025-10-15 18:14:34,099 - unseen_eval - INFO - Got batch with keys: ['id', 'text', 'image', 'date', 'author', 'label', 'review', 'date_ts', 'date_raw']
+2025-10-15 18:14:34,100 - unseen_eval - INFO - Extracted 1 claims from batch
+2025-10-15 18:14:34,100 - unseen_eval - INFO - About to iterate over 1 claims
+2025-10-15 18:14:34,101 - unseen_eval - INFO - Processing item 22: claim_text='Liquefied natural gas offers significant environm, gold=misleading
+2025-10-15 18:14:35,364 - unseen_eval - INFO - Got batch with keys: ['id', 'text', 'image', 'date', 'author', 'label', 'review', 'date_ts', 'date_raw']
+2025-10-15 18:14:35,366 - unseen_eval - INFO - Extracted 1 claims from batch
+2025-10-15 18:14:35,366 - unseen_eval - INFO - About to iterate over 1 claims
+2025-10-15 18:14:35,366 - unseen_eval - INFO - Processing item 23: claim_text='Widespread vote rigging in South Korea's 2020 ele, gold=not enough information
+2025-10-15 18:14:36,487 - unseen_eval - INFO - Got batch with keys: ['id', 'text', 'image', 'date', 'author', 'label', 'review', 'date_ts', 'date_raw']
+2025-10-15 18:14:36,487 - unseen_eval - INFO - Extracted 1 claims from batch
+2025-10-15 18:14:36,488 - unseen_eval - INFO - About to iterate over 1 claims
+2025-10-15 18:14:36,489 - unseen_eval - INFO - Processing item 24: claim_text='COVID vaccines are being used to beat cancer.', gold=supported
+2025-10-15 18:14:37,579 - unseen_eval - INFO - Got batch with keys: ['id', 'text', 'image', 'date', 'author', 'label', 'review', 'date_ts', 'date_raw']
+2025-10-15 18:14:37,580 - unseen_eval - INFO - Extracted 1 claims from batch
+2025-10-15 18:14:37,581 - unseen_eval - INFO - About to iterate over 1 claims
+2025-10-15 18:14:37,582 - unseen_eval - INFO - Processing item 25: claim_text='Covid-19 vaccine worsens thyroid issues', gold=not enough information
+2025-10-15 18:14:38,638 - unseen_eval - INFO - Got batch with keys: ['id', 'text', 'image', 'date', 'author', 'label', 'review', 'date_ts', 'date_raw']
+2025-10-15 18:14:38,639 - unseen_eval - INFO - Extracted 1 claims from batch
+2025-10-15 18:14:38,640 - unseen_eval - INFO - About to iterate over 1 claims
+2025-10-15 18:14:38,641 - unseen_eval - INFO - Processing item 26: claim_text='Gaza has “the highest number of people facing cat, gold=supported
+2025-10-15 18:14:39,742 - unseen_eval - INFO - Got batch with keys: ['id', 'text', 'image', 'date', 'author', 'label', 'review', 'date_ts', 'date_raw']
+2025-10-15 18:14:39,743 - unseen_eval - INFO - Extracted 1 claims from batch
+2025-10-15 18:14:39,743 - unseen_eval - INFO - About to iterate over 1 claims
+2025-10-15 18:14:39,744 - unseen_eval - INFO - Processing item 27: claim_text='Chemtrails blocking the sun.', gold=refuted
+2025-10-15 18:14:40,973 - unseen_eval - INFO - Got batch with keys: ['id', 'text', 'image', 'date', 'author', 'label', 'review', 'date_ts', 'date_raw']
+2025-10-15 18:14:40,974 - unseen_eval - INFO - Extracted 1 claims from batch
+2025-10-15 18:14:40,975 - unseen_eval - INFO - About to iterate over 1 claims
+2025-10-15 18:14:40,976 - unseen_eval - INFO - Processing item 28: claim_text='Photo released by the US defense department shows, gold=refuted
+2025-10-15 18:14:42,008 - unseen_eval - INFO - Got batch with keys: ['id', 'text', 'image', 'date', 'author', 'label', 'review', 'date_ts', 'date_raw']
+2025-10-15 18:14:42,009 - unseen_eval - INFO - Extracted 1 claims from batch
+2025-10-15 18:14:42,010 - unseen_eval - INFO - About to iterate over 1 claims
+2025-10-15 18:14:42,010 - unseen_eval - INFO - Processing item 29: claim_text="CoViD vaccine connected to O.J. Simpson's death., gold=refuted
+2025-10-15 18:14:43,050 - unseen_eval - INFO - Got batch with keys: ['id', 'text', 'image', 'date', 'author', 'label', 'review', 'date_ts', 'date_raw']
+2025-10-15 18:14:43,051 - unseen_eval - INFO - Extracted 1 claims from batch
+2025-10-15 18:14:43,052 - unseen_eval - INFO - About to iterate over 1 claims
+2025-10-15 18:14:43,053 - unseen_eval - INFO - Processing item 30: claim_text='Kelly Powers died from 'turbo cancer' caused by t, gold=refuted
+2025-10-15 18:14:44,337 - unseen_eval - INFO - Got batch with keys: ['id', 'text', 'image', 'date', 'author', 'label', 'review', 'date_ts', 'date_raw']
+2025-10-15 18:14:44,337 - unseen_eval - INFO - Extracted 1 claims from batch
+2025-10-15 18:14:44,338 - unseen_eval - INFO - About to iterate over 1 claims
+2025-10-15 18:14:44,338 - unseen_eval - INFO - Processing item 31: claim_text='An 81-year-old roadside parrot astrologer was arr, gold=misleading
+2025-10-15 18:14:45,428 - unseen_eval - INFO - Got batch with keys: ['id', 'text', 'image', 'date', 'author', 'label', 'review', 'date_ts', 'date_raw']
+2025-10-15 18:14:45,429 - unseen_eval - INFO - Extracted 1 claims from batch
+2025-10-15 18:14:45,429 - unseen_eval - INFO - About to iterate over 1 claims
+2025-10-15 18:14:45,430 - unseen_eval - INFO - Processing item 32: claim_text='Two different trails left by planes. The short on, gold=refuted
+2025-10-15 18:14:46,511 - unseen_eval - INFO - Got batch with keys: ['id', 'text', 'image', 'date', 'author', 'label', 'review', 'date_ts', 'date_raw']
+2025-10-15 18:14:46,513 - unseen_eval - INFO - Extracted 1 claims from batch
+2025-10-15 18:14:46,515 - unseen_eval - INFO - About to iterate over 1 claims
+2025-10-15 18:14:46,517 - unseen_eval - INFO - Processing item 33: claim_text='Review article "has found that COVID-19 mRNA vacc, gold=refuted
+2025-10-15 18:14:47,659 - unseen_eval - INFO - Got batch with keys: ['id', 'text', 'image', 'date', 'author', 'label', 'review', 'date_ts', 'date_raw']
+2025-10-15 18:14:47,660 - unseen_eval - INFO - Extracted 1 claims from batch
+2025-10-15 18:14:47,661 - unseen_eval - INFO - About to iterate over 1 claims
+2025-10-15 18:14:47,662 - unseen_eval - INFO - Processing item 34: claim_text=South Korea voter fraud, gold=refuted
+2025-10-15 18:14:48,743 - unseen_eval - INFO - Got batch with keys: ['id', 'text', 'image', 'date', 'author', 'label', 'review', 'date_ts', 'date_raw']
+2025-10-15 18:14:48,744 - unseen_eval - INFO - Extracted 1 claims from batch
+2025-10-15 18:14:48,744 - unseen_eval - INFO - About to iterate over 1 claims
+2025-10-15 18:14:48,746 - unseen_eval - INFO - Processing item 35: claim_text='GRACIA LATTE is a healthy way to lose weight in o, gold=misleading
+2025-10-15 18:14:49,866 - unseen_eval - INFO - Got batch with keys: ['id', 'text', 'image', 'date', 'author', 'label', 'review', 'date_ts', 'date_raw']
+2025-10-15 18:14:49,866 - unseen_eval - INFO - Extracted 1 claims from batch
+2025-10-15 18:14:49,867 - unseen_eval - INFO - About to iterate over 1 claims
+2025-10-15 18:14:49,867 - unseen_eval - INFO - Processing item 36: claim_text='Fake fingers used for voter fraud in Indian elect, gold=refuted
+2025-10-15 18:14:50,955 - unseen_eval - INFO - Got batch with keys: ['id', 'text', 'image', 'date', 'author', 'label', 'review', 'date_ts', 'date_raw']
+2025-10-15 18:14:50,956 - unseen_eval - INFO - Extracted 1 claims from batch
+2025-10-15 18:14:50,958 - unseen_eval - INFO - About to iterate over 1 claims
+2025-10-15 18:14:50,960 - unseen_eval - INFO - Processing item 37: claim_text=“Our electricity generation is almost 95% renewabl, gold=refuted
+2025-10-15 18:14:52,169 - unseen_eval - INFO - Got batch with keys: ['id', 'text', 'image', 'date', 'author', 'label', 'review', 'date_ts', 'date_raw']
+2025-10-15 18:14:52,170 - unseen_eval - INFO - Extracted 1 claims from batch
+2025-10-15 18:14:52,171 - unseen_eval - INFO - About to iterate over 1 claims
+2025-10-15 18:14:52,172 - unseen_eval - INFO - Processing item 38: claim_text='US Moon landing was faked.', gold=refuted
+2025-10-15 18:14:53,179 - unseen_eval - INFO - Got batch with keys: ['id', 'text', 'image', 'date', 'author', 'label', 'review', 'date_ts', 'date_raw']
+2025-10-15 18:14:53,180 - unseen_eval - INFO - Extracted 1 claims from batch
+2025-10-15 18:14:53,181 - unseen_eval - INFO - About to iterate over 1 claims
+2025-10-15 18:14:53,182 - unseen_eval - INFO - Processing item 39: claim_text=“AstraZeneca finally WITHDRAW Covid vaccine worldw, gold=misleading
+2025-10-15 18:14:54,178 - unseen_eval - INFO - Got batch with keys: ['id', 'text', 'image', 'date', 'author', 'label', 'review', 'date_ts', 'date_raw']
+2025-10-15 18:14:54,179 - unseen_eval - INFO - Extracted 1 claims from batch
+2025-10-15 18:14:54,180 - unseen_eval - INFO - About to iterate over 1 claims
+2025-10-15 18:14:54,181 - unseen_eval - INFO - Processing item 40: claim_text='Visuals of Akhilesh Yadav recently meeting the Pr, gold=misleading
+2025-10-15 18:14:55,235 - unseen_eval - INFO - Got batch with keys: ['id', 'text', 'image', 'date', 'author', 'label', 'review', 'date_ts', 'date_raw']
+2025-10-15 18:14:55,236 - unseen_eval - INFO - Extracted 1 claims from batch
+2025-10-15 18:14:55,237 - unseen_eval - INFO - About to iterate over 1 claims
+2025-10-15 18:14:55,238 - unseen_eval - INFO - Processing item 41: claim_text='Wilders and Le Pen “unanimously” win recent elect, gold=misleading
+2025-10-15 18:14:56,414 - unseen_eval - INFO - Got batch with keys: ['id', 'text', 'image', 'date', 'author', 'label', 'review', 'date_ts', 'date_raw']
+2025-10-15 18:14:56,415 - unseen_eval - INFO - Extracted 1 claims from batch
+2025-10-15 18:14:56,415 - unseen_eval - INFO - About to iterate over 1 claims
+2025-10-15 18:14:56,416 - unseen_eval - INFO - Processing item 42: claim_text='Turkish flag doodled by Drone over Raisi helicopt, gold=supported
+2025-10-15 18:14:57,935 - unseen_eval - INFO - Got batch with keys: ['id', 'text', 'image', 'date', 'author', 'label', 'review', 'date_ts', 'date_raw']
+2025-10-15 18:14:57,935 - unseen_eval - INFO - Extracted 1 claims from batch
+2025-10-15 18:14:57,936 - unseen_eval - INFO - About to iterate over 1 claims
+2025-10-15 18:14:57,937 - unseen_eval - INFO - Processing item 43: claim_text='Sweden, France, Finland, the UK and Germany have , gold=refuted
+2025-10-15 18:14:59,214 - unseen_eval - INFO - Got batch with keys: ['id', 'text', 'image', 'date', 'author', 'label', 'review', 'date_ts', 'date_raw']
+2025-10-15 18:14:59,215 - unseen_eval - INFO - Extracted 1 claims from batch
+2025-10-15 18:14:59,216 - unseen_eval - INFO - About to iterate over 1 claims
+2025-10-15 18:14:59,217 - unseen_eval - INFO - Processing item 44: claim_text='Image shows NASA astronauts posing for picture on, gold=refuted
+2025-10-15 18:15:00,351 - unseen_eval - INFO - Got batch with keys: ['id', 'text', 'image', 'date', 'author', 'label', 'review', 'date_ts', 'date_raw']
+2025-10-15 18:15:00,353 - unseen_eval - INFO - Extracted 1 claims from batch
+2025-10-15 18:15:00,353 - unseen_eval - INFO - About to iterate over 1 claims
+2025-10-15 18:15:00,354 - unseen_eval - INFO - Processing item 45: claim_text='Voting fraud where the polling agent is seen cast, gold=not enough information
+2025-10-15 18:15:02,112 - unseen_eval - INFO - Got batch with keys: ['id', 'text', 'image', 'date', 'author', 'label', 'review', 'date_ts', 'date_raw']
+2025-10-15 18:15:02,113 - unseen_eval - INFO - Extracted 1 claims from batch
+2025-10-15 18:15:02,114 - unseen_eval - INFO - About to iterate over 1 claims
+2025-10-15 18:15:02,115 - unseen_eval - INFO - Processing item 46: claim_text='More than 100% of Scotland’s electricity needs co, gold=supported
+2025-10-15 18:15:03,171 - unseen_eval - INFO - Got batch with keys: ['id', 'text', 'image', 'date', 'author', 'label', 'review', 'date_ts', 'date_raw']
+2025-10-15 18:15:03,171 - unseen_eval - INFO - Extracted 1 claims from batch
+2025-10-15 18:15:03,172 - unseen_eval - INFO - About to iterate over 1 claims
+2025-10-15 18:15:03,174 - unseen_eval - INFO - Processing item 47: claim_text='Tubular clouds seen over NSW were dangerous ‘chem, gold=refuted
+2025-10-15 18:15:04,263 - unseen_eval - INFO - Got batch with keys: ['id', 'text', 'image', 'date', 'author', 'label', 'review', 'date_ts', 'date_raw']
+2025-10-15 18:15:04,264 - unseen_eval - INFO - Extracted 1 claims from batch
+2025-10-15 18:15:04,265 - unseen_eval - INFO - About to iterate over 1 claims
+2025-10-15 18:15:04,266 - unseen_eval - INFO - Processing item 48: claim_text='BMJ reports record excess deaths after Covid vacc, gold=misleading
+2025-10-15 18:15:05,629 - unseen_eval - INFO - Got batch with keys: ['id', 'text', 'image', 'date', 'author', 'label', 'review', 'date_ts', 'date_raw']
+2025-10-15 18:15:05,630 - unseen_eval - INFO - Extracted 1 claims from batch
+2025-10-15 18:15:05,631 - unseen_eval - INFO - About to iterate over 1 claims
+2025-10-15 18:15:05,632 - unseen_eval - INFO - Processing item 49: claim_text='All white people picnicking at Black church where, gold=refuted
+2025-10-15 18:15:06,655 - unseen_eval - INFO - Got batch with keys: ['id', 'text', 'image', 'date', 'author', 'label', 'review', 'date_ts', 'date_raw']
+2025-10-15 18:15:06,656 - unseen_eval - INFO - Extracted 1 claims from batch
+2025-10-15 18:15:06,657 - unseen_eval - INFO - About to iterate over 1 claims
+2025-10-15 18:15:06,657 - unseen_eval - INFO - Processing item 50: claim_text='Study proves link between Covid-19 and sudden dea, gold=misleading
+2025-10-15 18:15:07,761 - unseen_eval - INFO - Got batch with keys: ['id', 'text', 'image', 'date', 'author', 'label', 'review', 'date_ts', 'date_raw']
+2025-10-15 18:15:07,762 - unseen_eval - INFO - Extracted 1 claims from batch
+2025-10-15 18:15:07,762 - unseen_eval - INFO - About to iterate over 1 claims
+2025-10-15 18:15:07,762 - unseen_eval - INFO - Processing item 51: claim_text='A woman burns a French flag during a pro-Palestin, gold=refuted
+2025-10-15 18:15:09,014 - unseen_eval - INFO - Got batch with keys: ['id', 'text', 'image', 'date', 'author', 'label', 'review', 'date_ts', 'date_raw']
+2025-10-15 18:15:09,016 - unseen_eval - INFO - Extracted 1 claims from batch
+2025-10-15 18:15:09,016 - unseen_eval - INFO - About to iterate over 1 claims
+2025-10-15 18:15:09,017 - unseen_eval - INFO - Processing item 52: claim_text='US Moon landing is staged', gold=refuted
+2025-10-15 18:15:10,044 - unseen_eval - INFO - Got batch with keys: ['id', 'text', 'image', 'date', 'author', 'label', 'review', 'date_ts', 'date_raw']
+2025-10-15 18:15:10,045 - unseen_eval - INFO - Extracted 1 claims from batch
+2025-10-15 18:15:10,045 - unseen_eval - INFO - About to iterate over 1 claims
+2025-10-15 18:15:10,046 - unseen_eval - INFO - Processing item 53: claim_text='Great Barrier Reef broke coral population record , gold=misleading
+2025-10-15 18:15:11,307 - unseen_eval - INFO - Got batch with keys: ['id', 'text', 'image', 'date', 'author', 'label', 'review', 'date_ts', 'date_raw']
+2025-10-15 18:15:11,307 - unseen_eval - INFO - Extracted 1 claims from batch
+2025-10-15 18:15:11,308 - unseen_eval - INFO - About to iterate over 1 claims
+2025-10-15 18:15:11,309 - unseen_eval - INFO - Processing item 54: claim_text='Spike protein from Covid-19 vaccines could promot, gold=misleading
+2025-10-15 18:15:12,456 - unseen_eval - INFO - Got batch with keys: ['id', 'text', 'image', 'date', 'author', 'label', 'review', 'date_ts', 'date_raw']
+2025-10-15 18:15:12,457 - unseen_eval - INFO - Extracted 1 claims from batch
+2025-10-15 18:15:12,458 - unseen_eval - INFO - About to iterate over 1 claims
+2025-10-15 18:15:12,459 - unseen_eval - INFO - Processing item 55: claim_text=“Covid vaccines may have helped fuel rise in exces, gold=misleading
+2025-10-15 18:15:13,605 - unseen_eval - INFO - Got batch with keys: ['id', 'text', 'image', 'date', 'author', 'label', 'review', 'date_ts', 'date_raw']
+2025-10-15 18:15:13,606 - unseen_eval - INFO - Extracted 1 claims from batch
+2025-10-15 18:15:13,607 - unseen_eval - INFO - About to iterate over 1 claims
+2025-10-15 18:15:13,607 - unseen_eval - INFO - Processing item 56: claim_text='Mark Violet, a “known antifa extremist”, who has , gold=refuted
+2025-10-15 18:15:14,940 - unseen_eval - INFO - Got batch with keys: ['id', 'text', 'image', 'date', 'author', 'label', 'review', 'date_ts', 'date_raw']
+2025-10-15 18:15:14,940 - unseen_eval - INFO - Extracted 1 claims from batch
+2025-10-15 18:15:14,941 - unseen_eval - INFO - About to iterate over 1 claims
+2025-10-15 18:15:14,942 - unseen_eval - INFO - Processing item 57: claim_text="Homeownership is now out of reach unless you make, gold=supported
+2025-10-15 18:15:16,064 - unseen_eval - INFO - Got batch with keys: ['id', 'text', 'image', 'date', 'author', 'label', 'review', 'date_ts', 'date_raw']
+2025-10-15 18:15:16,064 - unseen_eval - INFO - Extracted 1 claims from batch
+2025-10-15 18:15:16,065 - unseen_eval - INFO - About to iterate over 1 claims
+2025-10-15 18:15:16,067 - unseen_eval - INFO - Processing item 58: claim_text='Trump said "A vaccination that is like 38 differe, gold=supported
+2025-10-15 18:15:17,247 - unseen_eval - INFO - Got batch with keys: ['id', 'text', 'image', 'date', 'author', 'label', 'review', 'date_ts', 'date_raw']
+2025-10-15 18:15:17,247 - unseen_eval - INFO - Extracted 1 claims from batch
+2025-10-15 18:15:17,248 - unseen_eval - INFO - About to iterate over 1 claims
+2025-10-15 18:15:17,249 - unseen_eval - INFO - Processing item 59: claim_text='Pilot in Siberia accidentally switches on stratos, gold=refuted
+2025-10-15 18:15:18,275 - unseen_eval - INFO - Got batch with keys: ['id', 'text', 'image', 'date', 'author', 'label', 'review', 'date_ts', 'date_raw']
+2025-10-15 18:15:18,276 - unseen_eval - INFO - Extracted 1 claims from batch
+2025-10-15 18:15:18,277 - unseen_eval - INFO - About to iterate over 1 claims
+2025-10-15 18:15:18,278 - unseen_eval - INFO - Processing item 60: claim_text=Kamala Harris cast the deciding vote for the so-ca, gold=refuted
+2025-10-15 18:15:19,584 - unseen_eval - INFO - Got batch with keys: ['id', 'text', 'image', 'date', 'author', 'label', 'review', 'date_ts', 'date_raw']
+2025-10-15 18:15:19,585 - unseen_eval - INFO - Extracted 1 claims from batch
+2025-10-15 18:15:19,586 - unseen_eval - INFO - About to iterate over 1 claims
+2025-10-15 18:15:19,587 - unseen_eval - INFO - Processing item 61: claim_text='One of Trump’s proposals is "shutting down the De, gold=supported
+2025-10-15 18:15:20,638 - unseen_eval - INFO - Got batch with keys: ['id', 'text', 'image', 'date', 'author', 'label', 'review', 'date_ts', 'date_raw']
+2025-10-15 18:15:20,638 - unseen_eval - INFO - Extracted 1 claims from batch
+2025-10-15 18:15:20,639 - unseen_eval - INFO - About to iterate over 1 claims
+2025-10-15 18:15:20,640 - unseen_eval - INFO - Processing item 62: claim_text='Screenshot of ETV Bharat report stating that the , gold=refuted
+2025-10-15 18:15:21,790 - unseen_eval - INFO - Got batch with keys: ['id', 'text', 'image', 'date', 'author', 'label', 'review', 'date_ts', 'date_raw']
+2025-10-15 18:15:21,791 - unseen_eval - INFO - Extracted 1 claims from batch
+2025-10-15 18:15:21,791 - unseen_eval - INFO - About to iterate over 1 claims
+2025-10-15 18:15:21,792 - unseen_eval - INFO - Processing item 63: claim_text='The government has secured a record-breaking numb, gold=misleading
+2025-10-15 18:15:22,865 - unseen_eval - INFO - Got batch with keys: ['id', 'text', 'image', 'date', 'author', 'label', 'review', 'date_ts', 'date_raw']
+2025-10-15 18:15:22,866 - unseen_eval - INFO - Extracted 1 claims from batch
+2025-10-15 18:15:22,867 - unseen_eval - INFO - About to iterate over 1 claims
+2025-10-15 18:15:22,868 - unseen_eval - INFO - Processing item 64: claim_text='The Prime Minister inherited the fastest growing , gold=misleading
+2025-10-15 18:15:24,011 - unseen_eval - INFO - Got batch with keys: ['id', 'text', 'image', 'date', 'author', 'label', 'review', 'date_ts', 'date_raw']
+2025-10-15 18:15:24,012 - unseen_eval - INFO - Extracted 1 claims from batch
+2025-10-15 18:15:24,012 - unseen_eval - INFO - About to iterate over 1 claims
+2025-10-15 18:15:24,013 - unseen_eval - INFO - Processing item 65: claim_text='Each one of those shots is billed as a medical ad, gold=misleading
+2025-10-15 18:15:25,410 - unseen_eval - INFO - Got batch with keys: ['id', 'text', 'image', 'date', 'author', 'label', 'review', 'date_ts', 'date_raw']
+2025-10-15 18:15:25,411 - unseen_eval - INFO - Extracted 1 claims from batch
+2025-10-15 18:15:25,411 - unseen_eval - INFO - About to iterate over 1 claims
+2025-10-15 18:15:25,412 - unseen_eval - INFO - Processing item 66: claim_text='There were no hurricanes this season even despite, gold=misleading
+2025-10-15 18:15:26,492 - unseen_eval - INFO - Got batch with keys: ['id', 'text', 'image', 'date', 'author', 'label', 'review', 'date_ts', 'date_raw']
+2025-10-15 18:15:26,493 - unseen_eval - INFO - Extracted 1 claims from batch
+2025-10-15 18:15:26,494 - unseen_eval - INFO - About to iterate over 1 claims
+2025-10-15 18:15:26,494 - unseen_eval - INFO - Processing item 67: claim_text='Every American can slash their electricity bill b, gold=refuted
+2025-10-15 18:15:27,707 - unseen_eval - INFO - Got batch with keys: ['id', 'text', 'image', 'date', 'author', 'label', 'review', 'date_ts', 'date_raw']
+2025-10-15 18:15:27,708 - unseen_eval - INFO - Extracted 1 claims from batch
+2025-10-15 18:15:27,709 - unseen_eval - INFO - About to iterate over 1 claims
+2025-10-15 18:15:27,710 - unseen_eval - INFO - Processing item 68: claim_text='More deaths from COVID-19 occurred during Biden's, gold=misleading
+2025-10-15 18:15:28,782 - unseen_eval - INFO - Got batch with keys: ['id', 'text', 'image', 'date', 'author', 'label', 'review', 'date_ts', 'date_raw']
+2025-10-15 18:15:28,783 - unseen_eval - INFO - Extracted 1 claims from batch
+2025-10-15 18:15:28,784 - unseen_eval - INFO - About to iterate over 1 claims
+2025-10-15 18:15:28,785 - unseen_eval - INFO - Processing item 69: claim_text='Heavy israeli strikes on Damascus, Tartous and Ho, gold=misleading
+2025-10-15 18:15:29,935 - unseen_eval - INFO - Got batch with keys: ['id', 'text', 'image', 'date', 'author', 'label', 'review', 'date_ts', 'date_raw']
+2025-10-15 18:15:29,935 - unseen_eval - INFO - Extracted 1 claims from batch
+2025-10-15 18:15:29,936 - unseen_eval - INFO - About to iterate over 1 claims
+2025-10-15 18:15:29,937 - unseen_eval - INFO - Processing item 70: claim_text='mRNA COVID-19 vaccine causes cancer.', gold=misleading
+2025-10-15 18:15:30,977 - unseen_eval - INFO - Got batch with keys: ['id', 'text', 'image', 'date', 'author', 'label', 'review', 'date_ts', 'date_raw']
+2025-10-15 18:15:30,977 - unseen_eval - INFO - Extracted 1 claims from batch
+2025-10-15 18:15:30,978 - unseen_eval - INFO - About to iterate over 1 claims
+2025-10-15 18:15:30,979 - unseen_eval - INFO - Processing item 71: claim_text='The updated COVID-19 vaccines do “not protect aga, gold=misleading
+2025-10-15 18:15:32,049 - unseen_eval - INFO - Got batch with keys: ['id', 'text', 'image', 'date', 'author', 'label', 'review', 'date_ts', 'date_raw']
+2025-10-15 18:15:32,050 - unseen_eval - INFO - Extracted 1 claims from batch
+2025-10-15 18:15:32,050 - unseen_eval - INFO - About to iterate over 1 claims
+2025-10-15 18:15:32,051 - unseen_eval - INFO - Processing item 72: claim_text='This image authentically shows drones delivering , gold=refuted
+2025-10-15 18:15:33,109 - unseen_eval - INFO - Got batch with keys: ['id', 'text', 'image', 'date', 'author', 'label', 'review', 'date_ts', 'date_raw']
+2025-10-15 18:15:33,109 - unseen_eval - INFO - Extracted 1 claims from batch
+2025-10-15 18:15:33,110 - unseen_eval - INFO - About to iterate over 1 claims
+2025-10-15 18:15:33,111 - unseen_eval - INFO - Processing item 73: claim_text=“Oprah is a sex trafficker. She’s been caught and , gold=refuted
+2025-10-15 18:15:34,096 - unseen_eval - INFO - Got batch with keys: ['id', 'text', 'image', 'date', 'author', 'label', 'review', 'date_ts', 'date_raw']
+2025-10-15 18:15:34,097 - unseen_eval - INFO - Extracted 1 claims from batch
+2025-10-15 18:15:34,098 - unseen_eval - INFO - About to iterate over 1 claims
+2025-10-15 18:15:34,100 - unseen_eval - INFO - Processing item 74: claim_text='Bangladesh Chief Adviser Muhammad Yunus announced, gold=refuted
+2025-10-15 18:15:35,147 - unseen_eval - INFO - Got batch with keys: ['id', 'text', 'image', 'date', 'author', 'label', 'review', 'date_ts', 'date_raw']
+2025-10-15 18:15:35,148 - unseen_eval - INFO - Extracted 1 claims from batch
+2025-10-15 18:15:35,149 - unseen_eval - INFO - About to iterate over 1 claims
+2025-10-15 18:15:35,150 - unseen_eval - INFO - Processing item 75: claim_text='Sudha Murthy endorsed an online investment app.', gold=refuted
+2025-10-15 18:15:36,249 - unseen_eval - INFO - Got batch with keys: ['id', 'text', 'image', 'date', 'author', 'label', 'review', 'date_ts', 'date_raw']
+2025-10-15 18:15:36,251 - unseen_eval - INFO - Extracted 1 claims from batch
+2025-10-15 18:15:36,252 - unseen_eval - INFO - About to iterate over 1 claims
+2025-10-15 18:15:36,253 - unseen_eval - INFO - Processing item 76: claim_text='Renewable energy isn’t green; by 2050, 78 million, gold=misleading
+2025-10-15 18:15:37,357 - unseen_eval - INFO - Got batch with keys: ['id', 'text', 'image', 'date', 'author', 'label', 'review', 'date_ts', 'date_raw']
+2025-10-15 18:15:37,357 - unseen_eval - INFO - Extracted 1 claims from batch
+2025-10-15 18:15:37,358 - unseen_eval - INFO - About to iterate over 1 claims
+2025-10-15 18:15:37,359 - unseen_eval - INFO - Processing item 77: claim_text="Sen. Vance has said that there's a climate proble, gold=supported
+2025-10-15 18:15:38,415 - unseen_eval - INFO - Got batch with keys: ['id', 'text', 'image', 'date', 'author', 'label', 'review', 'date_ts', 'date_raw']
+2025-10-15 18:15:38,415 - unseen_eval - INFO - Extracted 1 claims from batch
+2025-10-15 18:15:38,417 - unseen_eval - INFO - About to iterate over 1 claims
+2025-10-15 18:15:38,417 - unseen_eval - INFO - Processing item 78: claim_text='Weather control systems pushing Helene up the eas, gold=refuted
+2025-10-15 18:15:39,512 - unseen_eval - INFO - Got batch with keys: ['id', 'text', 'image', 'date', 'author', 'label', 'review', 'date_ts', 'date_raw']
+2025-10-15 18:15:39,513 - unseen_eval - INFO - Extracted 1 claims from batch
+2025-10-15 18:15:39,514 - unseen_eval - INFO - About to iterate over 1 claims
+2025-10-15 18:15:39,514 - unseen_eval - INFO - Processing item 79: claim_text='Within one year, our government has eliminated Bo, gold=not enough information
+2025-10-15 18:15:40,629 - unseen_eval - INFO - Got batch with keys: ['id', 'text', 'image', 'date', 'author', 'label', 'review', 'date_ts', 'date_raw']
+2025-10-15 18:15:40,630 - unseen_eval - INFO - Extracted 1 claims from batch
+2025-10-15 18:15:40,631 - unseen_eval - INFO - About to iterate over 1 claims
+2025-10-15 18:15:40,632 - unseen_eval - INFO - Processing item 80: claim_text='We have managed to keep our foreign reserves at $, gold=supported
+2025-10-15 18:15:41,640 - unseen_eval - INFO - Got batch with keys: ['id', 'text', 'image', 'date', 'author', 'label', 'review', 'date_ts', 'date_raw']
+2025-10-15 18:15:41,641 - unseen_eval - INFO - Extracted 1 claims from batch
+2025-10-15 18:15:41,643 - unseen_eval - INFO - About to iterate over 1 claims
+2025-10-15 18:15:41,644 - unseen_eval - INFO - Processing item 81: claim_text='We have reduced the debt service ratio from 97 % , gold=not enough information
+2025-10-15 18:15:42,792 - unseen_eval - INFO - Got batch with keys: ['id', 'text', 'image', 'date', 'author', 'label', 'review', 'date_ts', 'date_raw']
+2025-10-15 18:15:42,793 - unseen_eval - INFO - Extracted 1 claims from batch
+2025-10-15 18:15:42,794 - unseen_eval - INFO - About to iterate over 1 claims
+2025-10-15 18:15:42,794 - unseen_eval - INFO - Processing item 82: claim_text='We inherited a reserve of over $33 billion 16 mon, gold=refuted
+2025-10-15 18:15:43,943 - unseen_eval - INFO - Got batch with keys: ['id', 'text', 'image', 'date', 'author', 'label', 'review', 'date_ts', 'date_raw']
+2025-10-15 18:15:43,943 - unseen_eval - INFO - Extracted 1 claims from batch
+2025-10-15 18:15:43,944 - unseen_eval - INFO - About to iterate over 1 claims
+2025-10-15 18:15:43,945 - unseen_eval - INFO - Processing item 83: claim_text='Our country attracted foreign direct investments , gold=refuted
+2025-10-15 18:15:45,108 - unseen_eval - INFO - Got batch with keys: ['id', 'text', 'image', 'date', 'author', 'label', 'review', 'date_ts', 'date_raw']
+2025-10-15 18:15:45,109 - unseen_eval - INFO - Extracted 1 claims from batch
+2025-10-15 18:15:45,110 - unseen_eval - INFO - About to iterate over 1 claims
+2025-10-15 18:15:45,111 - unseen_eval - INFO - Processing item 84: claim_text='Our young people … constitute more than 60% of ou, gold=refuted
+2025-10-15 18:15:46,201 - unseen_eval - INFO - Got batch with keys: ['id', 'text', 'image', 'date', 'author', 'label', 'review', 'date_ts', 'date_raw']
+2025-10-15 18:15:46,202 - unseen_eval - INFO - Extracted 1 claims from batch
+2025-10-15 18:15:46,202 - unseen_eval - INFO - About to iterate over 1 claims
+2025-10-15 18:15:46,203 - unseen_eval - INFO - Processing item 85: claim_text='These viral photos show Kumbhakarna’s sword from , gold=refuted
+2025-10-15 18:15:47,297 - unseen_eval - INFO - Got batch with keys: ['id', 'text', 'image', 'date', 'author', 'label', 'review', 'date_ts', 'date_raw']
+2025-10-15 18:15:47,298 - unseen_eval - INFO - Extracted 1 claims from batch
+2025-10-15 18:15:47,299 - unseen_eval - INFO - About to iterate over 1 claims
+2025-10-15 18:15:47,300 - unseen_eval - INFO - Processing item 86: claim_text='Rodrigo Duterte is running for senator in the 202, gold=misleading
+2025-10-15 18:15:48,458 - unseen_eval - INFO - Got batch with keys: ['id', 'text', 'image', 'date', 'author', 'label', 'review', 'date_ts', 'date_raw']
+2025-10-15 18:15:48,459 - unseen_eval - INFO - Extracted 1 claims from batch
+2025-10-15 18:15:48,460 - unseen_eval - INFO - About to iterate over 1 claims
+2025-10-15 18:15:48,460 - unseen_eval - INFO - Processing item 87: claim_text='There’s a £22 billion black hole in the economy.', gold=misleading
+2025-10-15 18:15:49,562 - unseen_eval - INFO - Got batch with keys: ['id', 'text', 'image', 'date', 'author', 'label', 'review', 'date_ts', 'date_raw']
+2025-10-15 18:15:49,563 - unseen_eval - INFO - Extracted 1 claims from batch
+2025-10-15 18:15:49,564 - unseen_eval - INFO - About to iterate over 1 claims
+2025-10-15 18:15:49,565 - unseen_eval - INFO - Processing item 88: claim_text='The World Economic Forum (WEF) demanded a ban on , gold=refuted
+2025-10-15 18:15:50,652 - unseen_eval - INFO - Got batch with keys: ['id', 'text', 'image', 'date', 'author', 'label', 'review', 'date_ts', 'date_raw']
+2025-10-15 18:15:50,652 - unseen_eval - INFO - Extracted 1 claims from batch
+2025-10-15 18:15:50,653 - unseen_eval - INFO - About to iterate over 1 claims
+2025-10-15 18:15:50,654 - unseen_eval - INFO - Processing item 89: claim_text='A study into global warming proves it is a hoax.', gold=refuted
+2025-10-15 18:15:51,832 - unseen_eval - INFO - Got batch with keys: ['id', 'text', 'image', 'date', 'author', 'label', 'review', 'date_ts', 'date_raw']
+2025-10-15 18:15:51,833 - unseen_eval - INFO - Extracted 1 claims from batch
+2025-10-15 18:15:51,834 - unseen_eval - INFO - About to iterate over 1 claims
+2025-10-15 18:15:51,834 - unseen_eval - INFO - Processing item 90: claim_text='Two white dome structures prove weather control t, gold=refuted
+2025-10-15 18:15:53,015 - unseen_eval - INFO - Got batch with keys: ['id', 'text', 'image', 'date', 'author', 'label', 'review', 'date_ts', 'date_raw']
+2025-10-15 18:15:53,015 - unseen_eval - INFO - Extracted 1 claims from batch
+2025-10-15 18:15:53,016 - unseen_eval - INFO - About to iterate over 1 claims
+2025-10-15 18:15:53,017 - unseen_eval - INFO - Processing item 91: claim_text='Amendment to health act will force Malaysians to , gold=misleading
+2025-10-15 18:15:54,165 - unseen_eval - INFO - Got batch with keys: ['id', 'text', 'image', 'date', 'author', 'label', 'review', 'date_ts', 'date_raw']
+2025-10-15 18:15:54,166 - unseen_eval - INFO - Extracted 1 claims from batch
+2025-10-15 18:15:54,166 - unseen_eval - INFO - About to iterate over 1 claims
+2025-10-15 18:15:54,167 - unseen_eval - INFO - Processing item 92: claim_text='There is a primary school Social, Personal and He, gold=supported
+2025-10-15 18:15:55,346 - unseen_eval - INFO - Got batch with keys: ['id', 'text', 'image', 'date', 'author', 'label', 'review', 'date_ts', 'date_raw']
+2025-10-15 18:15:55,346 - unseen_eval - INFO - Extracted 1 claims from batch
+2025-10-15 18:15:55,347 - unseen_eval - INFO - About to iterate over 1 claims
+2025-10-15 18:15:55,348 - unseen_eval - INFO - Processing item 93: claim_text='Clip shows 2024 anti-government protest in northe, gold=refuted
+2025-10-15 18:15:56,371 - unseen_eval - INFO - Got batch with keys: ['id', 'text', 'image', 'date', 'author', 'label', 'review', 'date_ts', 'date_raw']
+2025-10-15 18:15:56,372 - unseen_eval - INFO - Extracted 1 claims from batch
+2025-10-15 18:15:56,373 - unseen_eval - INFO - About to iterate over 1 claims
+2025-10-15 18:15:56,373 - unseen_eval - INFO - Processing item 94: claim_text='Kamala Harris “destroyed our economy.”', gold=refuted
+2025-10-15 18:15:57,780 - unseen_eval - INFO - Got batch with keys: ['id', 'text', 'image', 'date', 'author', 'label', 'review', 'date_ts', 'date_raw']
+2025-10-15 18:15:57,781 - unseen_eval - INFO - Extracted 1 claims from batch
+2025-10-15 18:15:57,782 - unseen_eval - INFO - About to iterate over 1 claims
+2025-10-15 18:15:57,782 - unseen_eval - INFO - Processing item 95: claim_text=Molly Shannon: Catholicism is a cancer, destroying, gold=refuted
+2025-10-15 18:15:58,756 - unseen_eval - INFO - Got batch with keys: ['id', 'text', 'image', 'date', 'author', 'label', 'review', 'date_ts', 'date_raw']
+2025-10-15 18:15:58,756 - unseen_eval - INFO - Extracted 1 claims from batch
+2025-10-15 18:15:58,757 - unseen_eval - INFO - About to iterate over 1 claims
+2025-10-15 18:15:58,757 - unseen_eval - INFO - Processing item 96: claim_text='Michigan has “more registered voters than eligibl, gold=refuted
+2025-10-15 18:15:59,705 - unseen_eval - INFO - Got batch with keys: ['id', 'text', 'image', 'date', 'author', 'label', 'review', 'date_ts', 'date_raw']
+2025-10-15 18:15:59,706 - unseen_eval - INFO - Extracted 1 claims from batch
+2025-10-15 18:15:59,706 - unseen_eval - INFO - About to iterate over 1 claims
+2025-10-15 18:15:59,707 - unseen_eval - INFO - Processing item 97: claim_text='Climate change has only had 'positive effects' on, gold=refuted
+2025-10-15 18:16:00,889 - unseen_eval - INFO - Got batch with keys: ['id', 'text', 'image', 'date', 'author', 'label', 'review', 'date_ts', 'date_raw']
+2025-10-15 18:16:00,890 - unseen_eval - INFO - Extracted 1 claims from batch
+2025-10-15 18:16:00,891 - unseen_eval - INFO - About to iterate over 1 claims
+2025-10-15 18:16:00,892 - unseen_eval - INFO - Processing item 98: claim_text='COVID-19 vaccines are unsafe, they cause deaths b, gold=misleading
+2025-10-15 18:16:01,911 - unseen_eval - INFO - Got batch with keys: ['id', 'text', 'image', 'date', 'author', 'label', 'review', 'date_ts', 'date_raw']
+2025-10-15 18:16:01,911 - unseen_eval - INFO - Extracted 1 claims from batch
+2025-10-15 18:16:01,912 - unseen_eval - INFO - About to iterate over 1 claims
+2025-10-15 18:16:01,913 - unseen_eval - INFO - Processing item 99: claim_text='A viral claim on X suggests that 159 out of 195 c, gold=refuted
+2025-10-15 18:16:03,191 - unseen_eval - INFO - Got batch with keys: ['id', 'text', 'image', 'date', 'author', 'label', 'review', 'date_ts', 'date_raw']
+2025-10-15 18:16:03,192 - unseen_eval - INFO - Extracted 1 claims from batch
+2025-10-15 18:16:03,193 - unseen_eval - INFO - About to iterate over 1 claims
+2025-10-15 18:16:03,194 - unseen_eval - INFO - Processing item 100: claim_text='Burger King mocked McDonald's with this advert in, gold=misleading
+2025-10-15 18:16:04,230 - unseen_eval - INFO - Got batch with keys: ['id', 'text', 'image', 'date', 'author', 'label', 'review', 'date_ts', 'date_raw']
+2025-10-15 18:16:04,231 - unseen_eval - INFO - Extracted 1 claims from batch
+2025-10-15 18:16:04,232 - unseen_eval - INFO - About to iterate over 1 claims
+2025-10-15 18:16:04,233 - unseen_eval - INFO - Processing item 101: claim_text='A staggering $41 billion has gone missing from th, gold=refuted
+2025-10-15 18:16:05,303 - unseen_eval - INFO - Got batch with keys: ['id', 'text', 'image', 'date', 'author', 'label', 'review', 'date_ts', 'date_raw']
+2025-10-15 18:16:05,303 - unseen_eval - INFO - Extracted 1 claims from batch
+2025-10-15 18:16:05,304 - unseen_eval - INFO - About to iterate over 1 claims
+2025-10-15 18:16:05,305 - unseen_eval - INFO - Processing item 102: claim_text='Rising CO2 and temperatures are behind the global, gold=misleading
+2025-10-15 18:16:06,623 - unseen_eval - INFO - Got batch with keys: ['id', 'text', 'image', 'date', 'author', 'label', 'review', 'date_ts', 'date_raw']
+2025-10-15 18:16:06,624 - unseen_eval - INFO - Extracted 1 claims from batch
+2025-10-15 18:16:06,625 - unseen_eval - INFO - About to iterate over 1 claims
+2025-10-15 18:16:06,626 - unseen_eval - INFO - Processing item 103: claim_text='A misspelling of Donald Trump's name on a ballot , gold=refuted
+2025-10-15 18:16:07,944 - unseen_eval - INFO - Got batch with keys: ['id', 'text', 'image', 'date', 'author', 'label', 'review', 'date_ts', 'date_raw']
+2025-10-15 18:16:07,945 - unseen_eval - INFO - Extracted 1 claims from batch
+2025-10-15 18:16:07,946 - unseen_eval - INFO - About to iterate over 1 claims
+2025-10-15 18:16:07,946 - unseen_eval - INFO - Processing item 104: claim_text='Image shows an auto rickshaw with a political gra, gold=refuted
+2025-10-15 18:16:09,001 - unseen_eval - INFO - Got batch with keys: ['id', 'text', 'image', 'date', 'author', 'label', 'review', 'date_ts', 'date_raw']
+2025-10-15 18:16:09,002 - unseen_eval - INFO - Extracted 1 claims from batch
+2025-10-15 18:16:09,003 - unseen_eval - INFO - About to iterate over 1 claims
+2025-10-15 18:16:09,003 - unseen_eval - INFO - Processing item 105: claim_text='HAARP is responsible for recent floods in Spain, , gold=refuted
+2025-10-15 18:16:10,183 - unseen_eval - INFO - Got batch with keys: ['id', 'text', 'image', 'date', 'author', 'label', 'review', 'date_ts', 'date_raw']
+2025-10-15 18:16:10,184 - unseen_eval - INFO - Extracted 1 claims from batch
+2025-10-15 18:16:10,184 - unseen_eval - INFO - About to iterate over 1 claims
+2025-10-15 18:16:10,185 - unseen_eval - INFO - Processing item 106: claim_text='Trump's name on second page of CA ballot is evide, gold=refuted
+2025-10-15 18:16:11,239 - unseen_eval - INFO - Got batch with keys: ['id', 'text', 'image', 'date', 'author', 'label', 'review', 'date_ts', 'date_raw']
+2025-10-15 18:16:11,239 - unseen_eval - INFO - Extracted 1 claims from batch
+2025-10-15 18:16:11,240 - unseen_eval - INFO - About to iterate over 1 claims
+2025-10-15 18:16:11,241 - unseen_eval - INFO - Processing item 107: claim_text='This picture was taken 3 HOURS ago of people line, gold=misleading
+2025-10-15 18:16:12,440 - unseen_eval - INFO - Got batch with keys: ['id', 'text', 'image', 'date', 'author', 'label', 'review', 'date_ts', 'date_raw']
+2025-10-15 18:16:12,440 - unseen_eval - INFO - Extracted 1 claims from batch
+2025-10-15 18:16:12,441 - unseen_eval - INFO - About to iterate over 1 claims
+2025-10-15 18:16:12,442 - unseen_eval - INFO - Processing item 108: claim_text=“The Ondo state governor drew more than 1.2 billio, gold=not enough information
+2025-10-15 18:16:13,474 - unseen_eval - INFO - Got batch with keys: ['id', 'text', 'image', 'date', 'author', 'label', 'review', 'date_ts', 'date_raw']
+2025-10-15 18:16:13,475 - unseen_eval - INFO - Extracted 1 claims from batch
+2025-10-15 18:16:13,476 - unseen_eval - INFO - About to iterate over 1 claims
+2025-10-15 18:16:13,477 - unseen_eval - INFO - Processing item 109: claim_text='Zimbabwe's economic grew a steady 3-6%.', gold=refuted
+2025-10-15 18:16:14,826 - unseen_eval - INFO - Got batch with keys: ['id', 'text', 'image', 'date', 'author', 'label', 'review', 'date_ts', 'date_raw']
+2025-10-15 18:16:14,827 - unseen_eval - INFO - Extracted 1 claims from batch
+2025-10-15 18:16:14,829 - unseen_eval - INFO - About to iterate over 1 claims
+2025-10-15 18:16:14,831 - unseen_eval - INFO - Processing item 110: claim_text='CNN broadcasting poll results before Election Day, gold=refuted
+2025-10-15 18:16:17,166 - unseen_eval - INFO - Got batch with keys: ['id', 'text', 'image', 'date', 'author', 'label', 'review', 'date_ts', 'date_raw']
+2025-10-15 18:16:17,168 - unseen_eval - INFO - Extracted 1 claims from batch
+2025-10-15 18:16:17,169 - unseen_eval - INFO - About to iterate over 1 claims
+2025-10-15 18:16:17,170 - unseen_eval - INFO - Processing item 111: claim_text='First-ever snowfall on record in the Al-Jouf (or , gold=refuted
+2025-10-15 18:16:18,492 - unseen_eval - INFO - Got batch with keys: ['id', 'text', 'image', 'date', 'author', 'label', 'review', 'date_ts', 'date_raw']
+2025-10-15 18:16:18,493 - unseen_eval - INFO - Extracted 1 claims from batch
+2025-10-15 18:16:18,494 - unseen_eval - INFO - About to iterate over 1 claims
+2025-10-15 18:16:18,495 - unseen_eval - INFO - Processing item 112: claim_text='A pre-marked dot on the U.S. election ballot make, gold=misleading
+2025-10-15 18:16:20,012 - unseen_eval - INFO - Got batch with keys: ['id', 'text', 'image', 'date', 'author', 'label', 'review', 'date_ts', 'date_raw']
+2025-10-15 18:16:20,013 - unseen_eval - INFO - Extracted 1 claims from batch
+2025-10-15 18:16:20,013 - unseen_eval - INFO - About to iterate over 1 claims
+2025-10-15 18:16:20,015 - unseen_eval - INFO - Processing item 113: claim_text='Truck with ballots is from 2024, proof of electio, gold=refuted
+2025-10-15 18:16:21,367 - unseen_eval - INFO - Got batch with keys: ['id', 'text', 'image', 'date', 'author', 'label', 'review', 'date_ts', 'date_raw']
+2025-10-15 18:16:21,368 - unseen_eval - INFO - Extracted 1 claims from batch
+2025-10-15 18:16:21,369 - unseen_eval - INFO - About to iterate over 1 claims
+2025-10-15 18:16:21,371 - unseen_eval - INFO - Processing item 114: claim_text='A video shows a life-like AI robot strolling thro, gold=refuted
+2025-10-15 18:16:22,911 - unseen_eval - INFO - Got batch with keys: ['id', 'text', 'image', 'date', 'author', 'label', 'review', 'date_ts', 'date_raw']
+2025-10-15 18:16:22,911 - unseen_eval - INFO - Extracted 1 claims from batch
+2025-10-15 18:16:22,912 - unseen_eval - INFO - About to iterate over 1 claims
+2025-10-15 18:16:22,914 - unseen_eval - INFO - Processing item 115: claim_text='Evidence of vote-rigging more votes in 2020', gold=refuted
+2025-10-15 18:16:24,276 - unseen_eval - INFO - Got batch with keys: ['id', 'text', 'image', 'date', 'author', 'label', 'review', 'date_ts', 'date_raw']
+2025-10-15 18:16:24,278 - unseen_eval - INFO - Extracted 1 claims from batch
+2025-10-15 18:16:24,279 - unseen_eval - INFO - About to iterate over 1 claims
+2025-10-15 18:16:24,281 - unseen_eval - INFO - Processing item 116: claim_text='Fraudulently discarded Republican ballots in US e, gold=refuted
+2025-10-15 18:16:25,569 - unseen_eval - INFO - Got batch with keys: ['id', 'text', 'image', 'date', 'author', 'label', 'review', 'date_ts', 'date_raw']
+2025-10-15 18:16:25,570 - unseen_eval - INFO - Extracted 1 claims from batch
+2025-10-15 18:16:25,571 - unseen_eval - INFO - About to iterate over 1 claims
+2025-10-15 18:16:25,572 - unseen_eval - INFO - Processing item 117: claim_text='Kamala Harris Failed To Top Joe Biden's 2020 Elec, gold=refuted
+2025-10-15 18:16:26,814 - unseen_eval - INFO - Got batch with keys: ['id', 'text', 'image', 'date', 'author', 'label', 'review', 'date_ts', 'date_raw']
+2025-10-15 18:16:26,817 - unseen_eval - INFO - Extracted 1 claims from batch
+2025-10-15 18:16:26,818 - unseen_eval - INFO - About to iterate over 1 claims
+2025-10-15 18:16:26,819 - unseen_eval - INFO - Processing item 118: claim_text='A 360-degree image on Google Maps shows weather m, gold=misleading
+2025-10-15 18:16:28,034 - unseen_eval - INFO - Got batch with keys: ['id', 'text', 'image', 'date', 'author', 'label', 'review', 'date_ts', 'date_raw']
+2025-10-15 18:16:28,035 - unseen_eval - INFO - Extracted 1 claims from batch
+2025-10-15 18:16:28,035 - unseen_eval - INFO - About to iterate over 1 claims
+2025-10-15 18:16:28,037 - unseen_eval - INFO - Processing item 119: claim_text='"These [Moldovan presidential] elections were nei, gold=misleading
+2025-10-15 18:16:29,313 - unseen_eval - INFO - Got batch with keys: ['id', 'text', 'image', 'date', 'author', 'label', 'review', 'date_ts', 'date_raw']
+2025-10-15 18:16:29,314 - unseen_eval - INFO - Extracted 1 claims from batch
+2025-10-15 18:16:29,315 - unseen_eval - INFO - About to iterate over 1 claims
+2025-10-15 18:16:29,316 - unseen_eval - INFO - Processing item 120: claim_text='Picture shows Donald Trump recently invited a Hin, gold=misleading
+2025-10-15 18:16:30,605 - unseen_eval - INFO - Got batch with keys: ['id', 'text', 'image', 'date', 'author', 'label', 'review', 'date_ts', 'date_raw']
+2025-10-15 18:16:30,605 - unseen_eval - INFO - Extracted 1 claims from batch
+2025-10-15 18:16:30,606 - unseen_eval - INFO - About to iterate over 1 claims
+2025-10-15 18:16:30,606 - unseen_eval - INFO - Processing item 121: claim_text='Impact of human-induced CO2 is insignificant when, gold=refuted
+2025-10-15 18:16:32,385 - unseen_eval - INFO - Got batch with keys: ['id', 'text', 'image', 'date', 'author', 'label', 'review', 'date_ts', 'date_raw']
+2025-10-15 18:16:32,386 - unseen_eval - INFO - Extracted 1 claims from batch
+2025-10-15 18:16:32,388 - unseen_eval - INFO - About to iterate over 1 claims
+2025-10-15 18:16:32,390 - unseen_eval - INFO - Processing item 122: claim_text='George Soros and Bill Gates owned Mologic Ltd, a , gold=misleading
+2025-10-15 18:16:33,816 - unseen_eval - INFO - Got batch with keys: ['id', 'text', 'image', 'date', 'author', 'label', 'review', 'date_ts', 'date_raw']
+2025-10-15 18:16:33,818 - unseen_eval - INFO - Extracted 1 claims from batch
+2025-10-15 18:16:33,819 - unseen_eval - INFO - About to iterate over 1 claims
+2025-10-15 18:16:33,821 - unseen_eval - INFO - Processing item 123: claim_text='Clip shows Hasina congratulating Trump after 2024, gold=refuted
+2025-10-15 18:16:35,194 - unseen_eval - INFO - Got batch with keys: ['id', 'text', 'image', 'date', 'author', 'label', 'review', 'date_ts', 'date_raw']
+2025-10-15 18:16:35,195 - unseen_eval - INFO - Extracted 1 claims from batch
+2025-10-15 18:16:35,196 - unseen_eval - INFO - About to iterate over 1 claims
+2025-10-15 18:16:35,196 - unseen_eval - INFO - Processing item 124: claim_text='Japan named COVID-19 mRNA vaccine the 'deadliest , gold=refuted
+2025-10-15 18:16:36,750 - unseen_eval - INFO - Got batch with keys: ['id', 'text', 'image', 'date', 'author', 'label', 'review', 'date_ts', 'date_raw']
+2025-10-15 18:16:36,751 - unseen_eval - INFO - Extracted 1 claims from batch
+2025-10-15 18:16:36,752 - unseen_eval - INFO - About to iterate over 1 claims
+2025-10-15 18:16:36,753 - unseen_eval - INFO - Processing item 125: claim_text=“Rather than respecting her dignity and focusing o, gold=misleading
+2025-10-15 18:16:38,062 - unseen_eval - INFO - Got batch with keys: ['id', 'text', 'image', 'date', 'author', 'label', 'review', 'date_ts', 'date_raw']
+2025-10-15 18:16:38,063 - unseen_eval - INFO - Extracted 1 claims from batch
+2025-10-15 18:16:38,064 - unseen_eval - INFO - About to iterate over 1 claims
+2025-10-15 18:16:38,064 - unseen_eval - INFO - Processing item 126: claim_text='Spain floods made worse by weather control, remov, gold=refuted
+2025-10-15 18:16:39,742 - unseen_eval - INFO - Got batch with keys: ['id', 'text', 'image', 'date', 'author', 'label', 'review', 'date_ts', 'date_raw']
+2025-10-15 18:16:39,743 - unseen_eval - INFO - Extracted 1 claims from batch
+2025-10-15 18:16:39,744 - unseen_eval - INFO - About to iterate over 1 claims
+2025-10-15 18:16:39,745 - unseen_eval - INFO - Processing item 127: claim_text='Study Finds 1.7 Million Vaccinated Kids Now Have , gold=refuted
+2025-10-15 18:16:41,115 - unseen_eval - INFO - Got batch with keys: ['id', 'text', 'image', 'date', 'author', 'label', 'review', 'date_ts', 'date_raw']
+2025-10-15 18:16:41,117 - unseen_eval - INFO - Extracted 1 claims from batch
+2025-10-15 18:16:41,120 - unseen_eval - INFO - About to iterate over 1 claims
+2025-10-15 18:16:41,121 - unseen_eval - INFO - Processing item 128: claim_text='Swiss church is having confessions heard by ‘AI J, gold=refuted
+2025-10-15 18:16:42,501 - unseen_eval - INFO - Got batch with keys: ['id', 'text', 'image', 'date', 'author', 'label', 'review', 'date_ts', 'date_raw']
+2025-10-15 18:16:42,502 - unseen_eval - INFO - Extracted 1 claims from batch
+2025-10-15 18:16:42,502 - unseen_eval - INFO - About to iterate over 1 claims
+2025-10-15 18:16:42,504 - unseen_eval - INFO - Processing item 129: claim_text='Cow farts [methane emissions from cattle] are bla, gold=refuted
+2025-10-15 18:16:43,838 - unseen_eval - INFO - Got batch with keys: ['id', 'text', 'image', 'date', 'author', 'label', 'review', 'date_ts', 'date_raw']
+2025-10-15 18:16:43,839 - unseen_eval - INFO - Extracted 1 claims from batch
+2025-10-15 18:16:43,840 - unseen_eval - INFO - About to iterate over 1 claims
+2025-10-15 18:16:43,840 - unseen_eval - INFO - Processing item 130: claim_text='New study shows that climate change is greatly ov, gold=refuted
+2025-10-15 18:16:45,093 - unseen_eval - INFO - Got batch with keys: ['id', 'text', 'image', 'date', 'author', 'label', 'review', 'date_ts', 'date_raw']
+2025-10-15 18:16:45,094 - unseen_eval - INFO - Extracted 1 claims from batch
+2025-10-15 18:16:45,094 - unseen_eval - INFO - About to iterate over 1 claims
+2025-10-15 18:16:45,095 - unseen_eval - INFO - Processing item 131: claim_text='The UK government is to fund “Bill Gates’ geoengi, gold=misleading
+2025-10-15 18:16:46,450 - unseen_eval - INFO - Got batch with keys: ['id', 'text', 'image', 'date', 'author', 'label', 'review', 'date_ts', 'date_raw']
+2025-10-15 18:16:46,452 - unseen_eval - INFO - Extracted 1 claims from batch
+2025-10-15 18:16:46,454 - unseen_eval - INFO - About to iterate over 1 claims
+2025-10-15 18:16:46,457 - unseen_eval - INFO - Processing item 132: claim_text='Indian election commission said opposition candid, gold=refuted
+2025-10-15 18:16:48,285 - unseen_eval - INFO - Got batch with keys: ['id', 'text', 'image', 'date', 'author', 'label', 'review', 'date_ts', 'date_raw']
+2025-10-15 18:16:48,286 - unseen_eval - INFO - Extracted 1 claims from batch
+2025-10-15 18:16:48,287 - unseen_eval - INFO - About to iterate over 1 claims
+2025-10-15 18:16:48,288 - unseen_eval - INFO - Processing item 133: claim_text='India Today magazine's cover dated Nov 23 feature, gold=refuted
+2025-10-15 18:16:49,575 - unseen_eval - INFO - Got batch with keys: ['id', 'text', 'image', 'date', 'author', 'label', 'review', 'date_ts', 'date_raw']
+2025-10-15 18:16:49,576 - unseen_eval - INFO - Extracted 1 claims from batch
+2025-10-15 18:16:49,576 - unseen_eval - INFO - About to iterate over 1 claims
+2025-10-15 18:16:49,577 - unseen_eval - INFO - Processing item 134: claim_text='Recurring ear infections in children are a vaccin, gold=refuted
+2025-10-15 18:16:50,879 - unseen_eval - INFO - Got batch with keys: ['id', 'text', 'image', 'date', 'author', 'label', 'review', 'date_ts', 'date_raw']
+2025-10-15 18:16:50,880 - unseen_eval - INFO - Extracted 1 claims from batch
+2025-10-15 18:16:50,881 - unseen_eval - INFO - About to iterate over 1 claims
+2025-10-15 18:16:50,883 - unseen_eval - INFO - Processing item 135: claim_text='Chemicals being sprayed in Florida skies', gold=refuted
+2025-10-15 18:16:52,293 - unseen_eval - INFO - Got batch with keys: ['id', 'text', 'image', 'date', 'author', 'label', 'review', 'date_ts', 'date_raw']
+2025-10-15 18:16:52,294 - unseen_eval - INFO - Extracted 1 claims from batch
+2025-10-15 18:16:52,295 - unseen_eval - INFO - About to iterate over 1 claims
+2025-10-15 18:16:52,298 - unseen_eval - INFO - Processing item 136: claim_text='Hunter Biden was "singled out" and "unfairly" pro, gold=not enough information
+2025-10-15 18:16:53,631 - unseen_eval - INFO - Got batch with keys: ['id', 'text', 'image', 'date', 'author', 'label', 'review', 'date_ts', 'date_raw']
+2025-10-15 18:16:53,632 - unseen_eval - INFO - Extracted 1 claims from batch
+2025-10-15 18:16:53,633 - unseen_eval - INFO - About to iterate over 1 claims
+2025-10-15 18:16:53,634 - unseen_eval - INFO - Processing item 137: claim_text='Vandalism of Hindu Goddess Kali Idol in Banglades, gold=refuted
+2025-10-15 18:16:55,256 - unseen_eval - INFO - Got batch with keys: ['id', 'text', 'image', 'date', 'author', 'label', 'review', 'date_ts', 'date_raw']
+2025-10-15 18:16:55,257 - unseen_eval - INFO - Extracted 1 claims from batch
+2025-10-15 18:16:55,258 - unseen_eval - INFO - About to iterate over 1 claims
+2025-10-15 18:16:55,260 - unseen_eval - INFO - Processing item 138: claim_text=A GMA News report shows cardiologist and online he, gold=refuted
+2025-10-15 18:16:56,591 - unseen_eval - INFO - Got batch with keys: ['id', 'text', 'image', 'date', 'author', 'label', 'review', 'date_ts', 'date_raw']
+2025-10-15 18:16:56,593 - unseen_eval - INFO - Extracted 1 claims from batch
+2025-10-15 18:16:56,597 - unseen_eval - INFO - About to iterate over 1 claims
+2025-10-15 18:16:56,600 - unseen_eval - INFO - Processing item 139: claim_text='North Maluku politician will give out financial a, gold=refuted
+2025-10-15 18:16:57,903 - unseen_eval - INFO - Got batch with keys: ['id', 'text', 'image', 'date', 'author', 'label', 'review', 'date_ts', 'date_raw']
+2025-10-15 18:16:57,904 - unseen_eval - INFO - Extracted 1 claims from batch
+2025-10-15 18:16:57,905 - unseen_eval - INFO - About to iterate over 1 claims
+2025-10-15 18:16:57,906 - unseen_eval - INFO - Processing item 140: claim_text='Christmas tree decorated with Ukrainian flags dis, gold=refuted
+2025-10-15 18:16:59,256 - unseen_eval - INFO - Got batch with keys: ['id', 'text', 'image', 'date', 'author', 'label', 'review', 'date_ts', 'date_raw']
+2025-10-15 18:16:59,257 - unseen_eval - INFO - Extracted 1 claims from batch
+2025-10-15 18:16:59,257 - unseen_eval - INFO - About to iterate over 1 claims
+2025-10-15 18:16:59,258 - unseen_eval - INFO - Processing item 141: claim_text='Vaccine researcher warned ‘multiple viruses will , gold=refuted
+2025-10-15 18:17:00,536 - unseen_eval - INFO - Got batch with keys: ['id', 'text', 'image', 'date', 'author', 'label', 'review', 'date_ts', 'date_raw']
+2025-10-15 18:17:00,536 - unseen_eval - INFO - Extracted 1 claims from batch
+2025-10-15 18:17:00,537 - unseen_eval - INFO - About to iterate over 1 claims
+2025-10-15 18:17:00,538 - unseen_eval - INFO - Processing item 142: claim_text='Kurt Russell quote saying Biden cheated election', gold=refuted
+2025-10-15 18:17:01,861 - unseen_eval - INFO - Got batch with keys: ['id', 'text', 'image', 'date', 'author', 'label', 'review', 'date_ts', 'date_raw']
+2025-10-15 18:17:01,862 - unseen_eval - INFO - Extracted 1 claims from batch
+2025-10-15 18:17:01,862 - unseen_eval - INFO - About to iterate over 1 claims
+2025-10-15 18:17:01,863 - unseen_eval - INFO - Processing item 143: claim_text='Jason Momoa Said He Is Leaving the U.S. In Respon, gold=refuted
+2025-10-15 18:17:03,328 - unseen_eval - INFO - Got batch with keys: ['id', 'text', 'image', 'date', 'author', 'label', 'review', 'date_ts', 'date_raw']
+2025-10-15 18:17:03,329 - unseen_eval - INFO - Extracted 1 claims from batch
+2025-10-15 18:17:03,330 - unseen_eval - INFO - About to iterate over 1 claims
+2025-10-15 18:17:03,331 - unseen_eval - INFO - Processing item 144: claim_text='Dr. Anthony Fauci said that 72 mandatory childhoo, gold=refuted
+2025-10-15 18:17:04,588 - unseen_eval - INFO - Got batch with keys: ['id', 'text', 'image', 'date', 'author', 'label', 'review', 'date_ts', 'date_raw']
+2025-10-15 18:17:04,589 - unseen_eval - INFO - Extracted 1 claims from batch
+2025-10-15 18:17:04,590 - unseen_eval - INFO - About to iterate over 1 claims
+2025-10-15 18:17:04,592 - unseen_eval - INFO - Processing item 145: claim_text='Manifesto of Luigi Mangione, the suspect in healt, gold=refuted
+2025-10-15 18:17:06,032 - unseen_eval - INFO - Got batch with keys: ['id', 'text', 'image', 'date', 'author', 'label', 'review', 'date_ts', 'date_raw']
+2025-10-15 18:17:06,033 - unseen_eval - INFO - Extracted 1 claims from batch
+2025-10-15 18:17:06,034 - unseen_eval - INFO - About to iterate over 1 claims
+2025-10-15 18:17:06,035 - unseen_eval - INFO - Processing item 146: claim_text=“Ivermectin is a treatment after Covid and after v, gold=refuted
+2025-10-15 18:17:07,461 - unseen_eval - INFO - Got batch with keys: ['id', 'text', 'image', 'date', 'author', 'label', 'review', 'date_ts', 'date_raw']
+2025-10-15 18:17:07,462 - unseen_eval - INFO - Extracted 1 claims from batch
+2025-10-15 18:17:07,462 - unseen_eval - INFO - About to iterate over 1 claims
+2025-10-15 18:17:07,463 - unseen_eval - INFO - Processing item 147: claim_text='RFK Jr's only statement on vaccines is that they , gold=refuted
+2025-10-15 18:17:08,827 - unseen_eval - INFO - Got batch with keys: ['id', 'text', 'image', 'date', 'author', 'label', 'review', 'date_ts', 'date_raw']
+2025-10-15 18:17:08,828 - unseen_eval - INFO - Extracted 1 claims from batch
+2025-10-15 18:17:08,828 - unseen_eval - INFO - About to iterate over 1 claims
+2025-10-15 18:17:08,829 - unseen_eval - INFO - Processing item 148: claim_text=New study shows that climate change is greatly ove, gold=refuted
+2025-10-15 18:17:10,363 - unseen_eval - INFO - Got batch with keys: ['id', 'text', 'image', 'date', 'author', 'label', 'review', 'date_ts', 'date_raw']
+2025-10-15 18:17:10,365 - unseen_eval - INFO - Extracted 1 claims from batch
+2025-10-15 18:17:10,365 - unseen_eval - INFO - About to iterate over 1 claims
+2025-10-15 18:17:10,366 - unseen_eval - INFO - Processing item 149: claim_text='Ancient Greek mosaics of the 2nd century BC disco, gold=refuted
+2025-10-15 18:17:11,945 - unseen_eval - INFO - Got batch with keys: ['id', 'text', 'image', 'date', 'author', 'label', 'review', 'date_ts', 'date_raw']
+2025-10-15 18:17:11,949 - unseen_eval - INFO - Extracted 1 claims from batch
+2025-10-15 18:17:11,951 - unseen_eval - INFO - About to iterate over 1 claims
+2025-10-15 18:17:11,953 - unseen_eval - INFO - Processing item 150: claim_text='Dire state of an inmate at infamous Saydnaya pris, gold=refuted
+2025-10-15 18:17:13,256 - unseen_eval - INFO - Got batch with keys: ['id', 'text', 'image', 'date', 'author', 'label', 'review', 'date_ts', 'date_raw']
+2025-10-15 18:17:13,258 - unseen_eval - INFO - Extracted 1 claims from batch
+2025-10-15 18:17:13,259 - unseen_eval - INFO - About to iterate over 1 claims
+2025-10-15 18:17:13,260 - unseen_eval - INFO - Processing item 151: claim_text='Facebook users must post a statement on their pro, gold=refuted
+2025-10-15 18:17:14,503 - unseen_eval - INFO - Got batch with keys: ['id', 'text', 'image', 'date', 'author', 'label', 'review', 'date_ts', 'date_raw']
+2025-10-15 18:17:14,504 - unseen_eval - INFO - Extracted 1 claims from batch
+2025-10-15 18:17:14,505 - unseen_eval - INFO - About to iterate over 1 claims
+2025-10-15 18:17:14,506 - unseen_eval - INFO - Processing item 152: claim_text='Trump Deported More Migrants Than Biden', gold=refuted
+2025-10-15 18:17:15,845 - unseen_eval - INFO - Got batch with keys: ['id', 'text', 'image', 'date', 'author', 'label', 'review', 'date_ts', 'date_raw']
+2025-10-15 18:17:15,845 - unseen_eval - INFO - Extracted 1 claims from batch
+2025-10-15 18:17:15,846 - unseen_eval - INFO - About to iterate over 1 claims
+2025-10-15 18:17:15,847 - unseen_eval - INFO - Processing item 153: claim_text='A picture shows Syria’s former president Bashar a, gold=refuted
+2025-10-15 18:17:17,125 - unseen_eval - INFO - Got batch with keys: ['id', 'text', 'image', 'date', 'author', 'label', 'review', 'date_ts', 'date_raw']
+2025-10-15 18:17:17,126 - unseen_eval - INFO - Extracted 1 claims from batch
+2025-10-15 18:17:17,128 - unseen_eval - INFO - About to iterate over 1 claims
+2025-10-15 18:17:17,130 - unseen_eval - INFO - Processing item 154: claim_text=“79.4% of babies who die of SIDS had a vaccine the, gold=refuted
+2025-10-15 18:17:18,515 - unseen_eval - INFO - Got batch with keys: ['id', 'text', 'image', 'date', 'author', 'label', 'review', 'date_ts', 'date_raw']
+2025-10-15 18:17:18,515 - unseen_eval - INFO - Extracted 1 claims from batch
+2025-10-15 18:17:18,516 - unseen_eval - INFO - About to iterate over 1 claims
+2025-10-15 18:17:18,516 - unseen_eval - INFO - Processing item 155: claim_text='South African trauma surgeon Dr Vicky Jennings di, gold=refuted
+2025-10-15 18:17:20,041 - unseen_eval - INFO - Got batch with keys: ['id', 'text', 'image', 'date', 'author', 'label', 'review', 'date_ts', 'date_raw']
+2025-10-15 18:17:20,042 - unseen_eval - INFO - Extracted 1 claims from batch
+2025-10-15 18:17:20,043 - unseen_eval - INFO - About to iterate over 1 claims
+2025-10-15 18:17:20,044 - unseen_eval - INFO - Processing item 156: claim_text='Australian officials have warned that vaccine-lin, gold=refuted
+2025-10-15 18:17:21,503 - unseen_eval - INFO - Got batch with keys: ['id', 'text', 'image', 'date', 'author', 'label', 'review', 'date_ts', 'date_raw']
+2025-10-15 18:17:21,503 - unseen_eval - INFO - Extracted 1 claims from batch
+2025-10-15 18:17:21,504 - unseen_eval - INFO - About to iterate over 1 claims
+2025-10-15 18:17:21,504 - unseen_eval - INFO - Processing item 157: claim_text='Michelle Obama has urged Congress to recount elec, gold=refuted
+2025-10-15 18:17:22,896 - unseen_eval - INFO - Got batch with keys: ['id', 'text', 'image', 'date', 'author', 'label', 'review', 'date_ts', 'date_raw']
+2025-10-15 18:17:22,897 - unseen_eval - INFO - Extracted 1 claims from batch
+2025-10-15 18:17:22,897 - unseen_eval - INFO - About to iterate over 1 claims
+2025-10-15 18:17:22,898 - unseen_eval - INFO - Processing item 158: claim_text='Products from cows fed Bovaer causes health issue, gold=misleading
+2025-10-15 18:17:24,318 - unseen_eval - INFO - Got batch with keys: ['id', 'text', 'image', 'date', 'author', 'label', 'review', 'date_ts', 'date_raw']
+2025-10-15 18:17:24,318 - unseen_eval - INFO - Extracted 1 claims from batch
+2025-10-15 18:17:24,319 - unseen_eval - INFO - About to iterate over 1 claims
+2025-10-15 18:17:24,320 - unseen_eval - INFO - Processing item 159: claim_text='Oprah Winfrey Said She Is Leaving The US Over The, gold=refuted
+2025-10-15 18:17:25,649 - unseen_eval - INFO - Got batch with keys: ['id', 'text', 'image', 'date', 'author', 'label', 'review', 'date_ts', 'date_raw']
+2025-10-15 18:17:25,650 - unseen_eval - INFO - Extracted 1 claims from batch
+2025-10-15 18:17:25,651 - unseen_eval - INFO - About to iterate over 1 claims
+2025-10-15 18:17:25,652 - unseen_eval - INFO - Processing item 160: claim_text='Jensen Huang got drunk in Vietnam in December 202, gold=refuted
+2025-10-15 18:17:26,932 - unseen_eval - INFO - Got batch with keys: ['id', 'text', 'image', 'date', 'author', 'label', 'review', 'date_ts', 'date_raw']
+2025-10-15 18:17:26,933 - unseen_eval - INFO - Extracted 1 claims from batch
+2025-10-15 18:17:26,935 - unseen_eval - INFO - About to iterate over 1 claims
+2025-10-15 18:17:26,937 - unseen_eval - INFO - Processing item 161: claim_text='Lok Sabha passed bills related ‘One Nation, One E, gold=misleading
+2025-10-15 18:17:28,189 - unseen_eval - INFO - Got batch with keys: ['id', 'text', 'image', 'date', 'author', 'label', 'review', 'date_ts', 'date_raw']
+2025-10-15 18:17:28,191 - unseen_eval - INFO - Extracted 1 claims from batch
+2025-10-15 18:17:28,191 - unseen_eval - INFO - About to iterate over 1 claims
+2025-10-15 18:17:28,192 - unseen_eval - INFO - Processing item 162: claim_text='Government shutdowns in 2013 and 2018 “cost our e, gold=supported
+2025-10-15 18:17:29,506 - unseen_eval - INFO - Got batch with keys: ['id', 'text', 'image', 'date', 'author', 'label', 'review', 'date_ts', 'date_raw']
+2025-10-15 18:17:29,508 - unseen_eval - INFO - Extracted 1 claims from batch
+2025-10-15 18:17:29,510 - unseen_eval - INFO - About to iterate over 1 claims
+2025-10-15 18:17:29,513 - unseen_eval - INFO - Processing item 163: claim_text='The CEO of BioNTech, which developed a COVID-19 v, gold=refuted
+2025-10-15 18:17:30,907 - unseen_eval - INFO - Got batch with keys: ['id', 'text', 'image', 'date', 'author', 'label', 'review', 'date_ts', 'date_raw']
+2025-10-15 18:17:30,907 - unseen_eval - INFO - Extracted 1 claims from batch
+2025-10-15 18:17:30,908 - unseen_eval - INFO - About to iterate over 1 claims
+2025-10-15 18:17:30,910 - unseen_eval - INFO - Processing item 164: claim_text='Russian passport of deposed Syrian dictator Basha, gold=refuted
+2025-10-15 18:17:32,360 - unseen_eval - INFO - Got batch with keys: ['id', 'text', 'image', 'date', 'author', 'label', 'review', 'date_ts', 'date_raw']
+2025-10-15 18:17:32,361 - unseen_eval - INFO - Extracted 1 claims from batch
+2025-10-15 18:17:32,361 - unseen_eval - INFO - About to iterate over 1 claims
+2025-10-15 18:17:32,362 - unseen_eval - INFO - Processing item 165: claim_text='ABP Opinion poll states BJP will win in the upcom, gold=refuted
+2025-10-15 18:17:33,652 - unseen_eval - INFO - Got batch with keys: ['id', 'text', 'image', 'date', 'author', 'label', 'review', 'date_ts', 'date_raw']
+2025-10-15 18:17:33,653 - unseen_eval - INFO - Extracted 1 claims from batch
+2025-10-15 18:17:33,654 - unseen_eval - INFO - About to iterate over 1 claims
+2025-10-15 18:17:33,657 - unseen_eval - INFO - Processing item 166: claim_text='‘One Nation One Election’ Bill got Lok Sabha nod', gold=refuted
+2025-10-15 18:17:35,036 - unseen_eval - INFO - Got batch with keys: ['id', 'text', 'image', 'date', 'author', 'label', 'review', 'date_ts', 'date_raw']
+2025-10-15 18:17:35,037 - unseen_eval - INFO - Extracted 1 claims from batch
+2025-10-15 18:17:35,039 - unseen_eval - INFO - About to iterate over 1 claims
+2025-10-15 18:17:35,041 - unseen_eval - INFO - Processing item 167: claim_text='S. Korea's National Election Commission's falseho, gold=refuted
+2025-10-15 18:17:36,455 - unseen_eval - INFO - Got batch with keys: ['id', 'text', 'image', 'date', 'author', 'label', 'review', 'date_ts', 'date_raw']
+2025-10-15 18:17:36,456 - unseen_eval - INFO - Extracted 1 claims from batch
+2025-10-15 18:17:36,457 - unseen_eval - INFO - About to iterate over 1 claims
+2025-10-15 18:17:36,460 - unseen_eval - INFO - Processing item 168: claim_text='A period of great change in technology Artificial, gold=refuted
+2025-10-15 18:17:37,684 - unseen_eval - INFO - Got batch with keys: ['id', 'text', 'image', 'date', 'author', 'label', 'review', 'date_ts', 'date_raw']
+2025-10-15 18:17:37,684 - unseen_eval - INFO - Extracted 1 claims from batch
+2025-10-15 18:17:37,685 - unseen_eval - INFO - About to iterate over 1 claims
+2025-10-15 18:17:37,687 - unseen_eval - INFO - Processing item 169: claim_text='There is a lovely photo of Sania Mirza with Moham, gold=refuted
+2025-10-15 18:17:38,899 - unseen_eval - INFO - Got batch with keys: ['id', 'text', 'image', 'date', 'author', 'label', 'review', 'date_ts', 'date_raw']
+2025-10-15 18:17:38,900 - unseen_eval - INFO - Extracted 1 claims from batch
+2025-10-15 18:17:38,901 - unseen_eval - INFO - About to iterate over 1 claims
+2025-10-15 18:17:38,902 - unseen_eval - INFO - Processing item 170: claim_text=This picture shows the December 22 plane crash in , gold=refuted
+2025-10-15 18:17:40,320 - unseen_eval - INFO - Got batch with keys: ['id', 'text', 'image', 'date', 'author', 'label', 'review', 'date_ts', 'date_raw']
+2025-10-15 18:17:40,322 - unseen_eval - INFO - Extracted 1 claims from batch
+2025-10-15 18:17:40,323 - unseen_eval - INFO - About to iterate over 1 claims
+2025-10-15 18:17:40,324 - unseen_eval - INFO - Processing item 171: claim_text='Cristiano Ronaldo has converted to Islam.', gold=refuted
+2025-10-15 18:17:41,726 - unseen_eval - INFO - Got batch with keys: ['id', 'text', 'image', 'date', 'author', 'label', 'review', 'date_ts', 'date_raw']
+2025-10-15 18:17:41,727 - unseen_eval - INFO - Extracted 1 claims from batch
+2025-10-15 18:17:41,728 - unseen_eval - INFO - About to iterate over 1 claims
+2025-10-15 18:17:41,728 - unseen_eval - INFO - Processing item 172: claim_text=Pictures show that Ambedkar’s photo was placed on , gold=refuted
+2025-10-15 18:17:43,374 - unseen_eval - INFO - Got batch with keys: ['id', 'text', 'image', 'date', 'author', 'label', 'review', 'date_ts', 'date_raw']
+2025-10-15 18:17:43,376 - unseen_eval - INFO - Extracted 1 claims from batch
+2025-10-15 18:17:43,377 - unseen_eval - INFO - About to iterate over 1 claims
+2025-10-15 18:17:43,378 - unseen_eval - INFO - Processing item 173: claim_text=Video shows former Delhi Chief Minister Arvind Kej, gold=misleading
+2025-10-15 18:17:44,778 - unseen_eval - INFO - Got batch with keys: ['id', 'text', 'image', 'date', 'author', 'label', 'review', 'date_ts', 'date_raw']
+2025-10-15 18:17:44,779 - unseen_eval - INFO - Extracted 1 claims from batch
+2025-10-15 18:17:44,780 - unseen_eval - INFO - About to iterate over 1 claims
+2025-10-15 18:17:44,782 - unseen_eval - INFO - Processing item 174: claim_text=2021 photo of former PM Manmohan Singh shared on s, gold=refuted
+2025-10-15 18:17:46,100 - unseen_eval - INFO - Got batch with keys: ['id', 'text', 'image', 'date', 'author', 'label', 'review', 'date_ts', 'date_raw']
+2025-10-15 18:17:46,102 - unseen_eval - INFO - Extracted 1 claims from batch
+2025-10-15 18:17:46,103 - unseen_eval - INFO - About to iterate over 1 claims
+2025-10-15 18:17:46,104 - unseen_eval - INFO - Processing item 175: claim_text=Wind turbines are a colossal failure for the envir, gold=refuted
+2025-10-15 18:17:47,501 - unseen_eval - INFO - Got batch with keys: ['id', 'text', 'image', 'date', 'author', 'label', 'review', 'date_ts', 'date_raw']
+2025-10-15 18:17:47,502 - unseen_eval - INFO - Extracted 1 claims from batch
+2025-10-15 18:17:47,502 - unseen_eval - INFO - About to iterate over 1 claims
+2025-10-15 18:17:47,503 - unseen_eval - INFO - Processing item 176: claim_text='Man travelled 250 km hiding between wheels of tra, gold=refuted
+2025-10-15 18:17:48,743 - unseen_eval - INFO - Got batch with keys: ['id', 'text', 'image', 'date', 'author', 'label', 'review', 'date_ts', 'date_raw']
+2025-10-15 18:17:48,744 - unseen_eval - INFO - Extracted 1 claims from batch
+2025-10-15 18:17:48,745 - unseen_eval - INFO - About to iterate over 1 claims
+2025-10-15 18:17:48,747 - unseen_eval - INFO - Processing item 177: claim_text='Harbhajan Singh’s daughter identified as Virat Ko, gold=refuted
+2025-10-15 18:17:50,062 - unseen_eval - INFO - Got batch with keys: ['id', 'text', 'image', 'date', 'author', 'label', 'review', 'date_ts', 'date_raw']
+2025-10-15 18:17:50,062 - unseen_eval - INFO - Extracted 1 claims from batch
+2025-10-15 18:17:50,063 - unseen_eval - INFO - About to iterate over 1 claims
+2025-10-15 18:17:50,064 - unseen_eval - INFO - Processing item 178: claim_text='Chinese hospitals overwhelmed during 'state of em, gold=refuted
+2025-10-15 18:17:51,356 - unseen_eval - INFO - Got batch with keys: ['id', 'text', 'image', 'date', 'author', 'label', 'review', 'date_ts', 'date_raw']
+2025-10-15 18:17:51,357 - unseen_eval - INFO - Extracted 1 claims from batch
+2025-10-15 18:17:51,358 - unseen_eval - INFO - About to iterate over 1 claims
+2025-10-15 18:17:51,360 - unseen_eval - INFO - Processing item 179: claim_text='China has declared a state of emergency', gold=refuted
+2025-10-15 18:17:52,663 - unseen_eval - INFO - Got batch with keys: ['id', 'text', 'image', 'date', 'author', 'label', 'review', 'date_ts', 'date_raw']
+2025-10-15 18:17:52,664 - unseen_eval - INFO - Extracted 1 claims from batch
+2025-10-15 18:17:52,665 - unseen_eval - INFO - About to iterate over 1 claims
+2025-10-15 18:17:52,666 - unseen_eval - INFO - Processing item 180: claim_text='Molestation of South Korean YouTuber by two men i, gold=refuted
+2025-10-15 18:17:53,995 - unseen_eval - INFO - Got batch with keys: ['id', 'text', 'image', 'date', 'author', 'label', 'review', 'date_ts', 'date_raw']
+2025-10-15 18:17:53,996 - unseen_eval - INFO - Extracted 1 claims from batch
+2025-10-15 18:17:53,997 - unseen_eval - INFO - About to iterate over 1 claims
+2025-10-15 18:17:53,998 - unseen_eval - INFO - Processing item 181: claim_text='a January 3 tweet from President-Elect Trump read, gold=refuted
+2025-10-15 18:17:55,231 - unseen_eval - INFO - Got batch with keys: ['id', 'text', 'image', 'date', 'author', 'label', 'review', 'date_ts', 'date_raw']
+2025-10-15 18:17:55,233 - unseen_eval - INFO - Extracted 1 claims from batch
+2025-10-15 18:17:55,235 - unseen_eval - INFO - About to iterate over 1 claims
+2025-10-15 18:17:55,236 - unseen_eval - INFO - Processing item 182: claim_text='A Centers for Disease Control and Prevention stud, gold=refuted
+2025-10-15 18:17:57,136 - unseen_eval - INFO - Got batch with keys: ['id', 'text', 'image', 'date', 'author', 'label', 'review', 'date_ts', 'date_raw']
+2025-10-15 18:17:57,138 - unseen_eval - INFO - Extracted 1 claims from batch
+2025-10-15 18:17:57,140 - unseen_eval - INFO - About to iterate over 1 claims
+2025-10-15 18:17:57,142 - unseen_eval - INFO - Processing item 183: claim_text='ISIS transporting oil to Turkey.', gold=misleading
+2025-10-15 18:17:58,571 - unseen_eval - INFO - Got batch with keys: ['id', 'text', 'image', 'date', 'author', 'label', 'review', 'date_ts', 'date_raw']
+2025-10-15 18:17:58,572 - unseen_eval - INFO - Extracted 1 claims from batch
+2025-10-15 18:17:58,574 - unseen_eval - INFO - About to iterate over 1 claims
+2025-10-15 18:17:58,575 - unseen_eval - INFO - Processing item 184: claim_text='Two victims of the Jeju Air crash in an embrace', gold=refuted
+2025-10-15 18:18:00,415 - unseen_eval - INFO - Got batch with keys: ['id', 'text', 'image', 'date', 'author', 'label', 'review', 'date_ts', 'date_raw']
+2025-10-15 18:18:00,415 - unseen_eval - INFO - Extracted 1 claims from batch
+2025-10-15 18:18:00,416 - unseen_eval - INFO - About to iterate over 1 claims
+2025-10-15 18:18:00,417 - unseen_eval - INFO - Processing item 185: claim_text='22 states failed to upload their Electoral Colleg, gold=refuted
+2025-10-15 18:18:01,791 - unseen_eval - INFO - Got batch with keys: ['id', 'text', 'image', 'date', 'author', 'label', 'review', 'date_ts', 'date_raw']
+2025-10-15 18:18:01,793 - unseen_eval - INFO - Extracted 1 claims from batch
+2025-10-15 18:18:01,795 - unseen_eval - INFO - About to iterate over 1 claims
+2025-10-15 18:18:01,796 - unseen_eval - INFO - Processing item 186: claim_text='Speaker Emerita Nancy Pelosi fall down while usin, gold=refuted
+2025-10-15 18:18:03,196 - unseen_eval - INFO - Got batch with keys: ['id', 'text', 'image', 'date', 'author', 'label', 'review', 'date_ts', 'date_raw']
+2025-10-15 18:18:03,197 - unseen_eval - INFO - Extracted 1 claims from batch
+2025-10-15 18:18:03,198 - unseen_eval - INFO - About to iterate over 1 claims
+2025-10-15 18:18:03,202 - unseen_eval - INFO - Processing item 187: claim_text=“Mysterious virus HMPV reported in China!”, gold=misleading
+2025-10-15 18:18:04,786 - unseen_eval - INFO - Got batch with keys: ['id', 'text', 'image', 'date', 'author', 'label', 'review', 'date_ts', 'date_raw']
+2025-10-15 18:18:04,787 - unseen_eval - INFO - Extracted 1 claims from batch
+2025-10-15 18:18:04,788 - unseen_eval - INFO - About to iterate over 1 claims
+2025-10-15 18:18:04,789 - unseen_eval - INFO - Processing item 188: claim_text='President-elect Donald Trump's ear shows he was n, gold=refuted
+2025-10-15 18:18:06,094 - unseen_eval - INFO - Got batch with keys: ['id', 'text', 'image', 'date', 'author', 'label', 'review', 'date_ts', 'date_raw']
+2025-10-15 18:18:06,095 - unseen_eval - INFO - Extracted 1 claims from batch
+2025-10-15 18:18:06,097 - unseen_eval - INFO - About to iterate over 1 claims
+2025-10-15 18:18:06,099 - unseen_eval - INFO - Processing item 189: claim_text=Coal plant construction shows CO2 doesn't cause cl, gold=refuted
+2025-10-15 18:18:07,538 - unseen_eval - INFO - Got batch with keys: ['id', 'text', 'image', 'date', 'author', 'label', 'review', 'date_ts', 'date_raw']
+2025-10-15 18:18:07,539 - unseen_eval - INFO - Extracted 1 claims from batch
+2025-10-15 18:18:07,542 - unseen_eval - INFO - About to iterate over 1 claims
+2025-10-15 18:18:07,543 - unseen_eval - INFO - Processing item 190: claim_text='UK Prime Minister Kier Starmer as a child with al, gold=refuted
+2025-10-15 18:18:08,892 - unseen_eval - INFO - Processed 191 items in 239.45 seconds (0.80 items/sec)
+2025-10-15 18:18:08,893 - unseen_eval - INFO - Invalid outputs: 0
+2025-10-15 18:18:08,894 - unseen_eval - INFO - Saving predictions to results_temporal_split\unseen\predictions.csv
+2025-10-15 18:18:08,899 - unseen_eval - INFO - Computing metrics on 191 valid predictions (out of 191 total)
+2025-10-15 18:18:08,906 - unseen_eval - INFO - Accuracy: 0.2723
+2025-10-15 18:18:08,908 - unseen_eval - INFO - Macro F1: 0.2513
+2025-10-15 18:18:08,909 - unseen_eval - INFO - Macro Precision: 0.4252
+2025-10-15 18:18:08,910 - unseen_eval - INFO - Macro Recall: 0.3275
+2025-10-15 18:18:08,911 - unseen_eval - INFO - 
+Per-label metrics:
+2025-10-15 18:18:08,912 - unseen_eval - INFO -   Supported:
+2025-10-15 18:18:08,913 - unseen_eval - INFO -     Precision: 0.5714
+2025-10-15 18:18:08,914 - unseen_eval - INFO -     Recall: 0.2353
+2025-10-15 18:18:08,915 - unseen_eval - INFO -     F1: 0.3333
+2025-10-15 18:18:08,917 - unseen_eval - INFO -     Support: 17
+2025-10-15 18:18:08,919 - unseen_eval - INFO -   Refuted:
+2025-10-15 18:18:08,920 - unseen_eval - INFO -     Precision: 0.6786
+2025-10-15 18:18:08,920 - unseen_eval - INFO -     Recall: 0.3248
+2025-10-15 18:18:08,921 - unseen_eval - INFO -     F1: 0.4393
+2025-10-15 18:18:08,922 - unseen_eval - INFO -     Support: 117
+2025-10-15 18:18:08,923 - unseen_eval - INFO -   Not Enough Information:
+2025-10-15 18:18:08,924 - unseen_eval - INFO -     Precision: 0.0508
+2025-10-15 18:18:08,924 - unseen_eval - INFO -     Recall: 0.6667
+2025-10-15 18:18:08,925 - unseen_eval - INFO -     F1: 0.0945
+2025-10-15 18:18:08,926 - unseen_eval - INFO -     Support: 9
+2025-10-15 18:18:08,927 - unseen_eval - INFO -   Misleading:
+2025-10-15 18:18:08,928 - unseen_eval - INFO -     Precision: 0.4000
+2025-10-15 18:18:08,929 - unseen_eval - INFO -     Recall: 0.0833
+2025-10-15 18:18:08,930 - unseen_eval - INFO -     F1: 0.1379
+2025-10-15 18:18:08,931 - unseen_eval - INFO -     Support: 48
+2025-10-15 18:18:08,932 - unseen_eval - INFO - Saving metrics to results_temporal_split\unseen\metrics.json
+2025-10-15 18:18:08,935 - unseen_eval - INFO - Generating visualizations...
+2025-10-15 18:18:09,258 - unseen_eval - INFO - Confusion matrix saved to results_temporal_split\unseen\confusion_matrix.png
+2025-10-15 18:18:09,447 - unseen_eval - INFO - Per-label accuracy plot saved to results_temporal_split\unseen\per_label_accuracy.png
+2025-10-15 18:18:09,632 - unseen_eval - INFO - Label distribution plot saved to results_temporal_split\unseen\label_distribution.png
+2025-10-15 18:18:09,633 - unseen_eval - INFO - ============================================================
+2025-10-15 18:18:09,634 - unseen_eval - INFO - Evaluation completed for UNSEEN data
+2025-10-15 18:18:09,635 - unseen_eval - INFO - ============================================================
+

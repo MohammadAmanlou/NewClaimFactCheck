@@ -1,0 +1,15 @@
+{
+    "pai.job.v2.upload": {
+        "master.garching.cluster.campar.in.tum.de": {
+            "enable": true,
+            "include": [
+                "**/*.py"
+            ],
+            "exclude": [],
+            "storageType": "cluster",
+            "storageName": "ceph-datasets",
+            "storageMountPoint": "mnt/ceph-datasets"
+        }
+    },
+    "pai.job.generateJobName.enabled": true
+}
