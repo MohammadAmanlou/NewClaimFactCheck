@@ -1,0 +1,73 @@
+{
+  "accuracy": 1.0,
+  "macro": {
+    "precision": 0.1607142857142857,
+    "recall": 0.5,
+    "f1": 0.22916666666666666
+  },
+  "per_label": {
+    "Supported": {
+      "precision": 0.5,
+      "recall": 1.0,
+      "f1": 0.6666666666666666,
+      "support": 6
+    },
+    "Refuted": {
+      "precision": 0.14285714285714285,
+      "recall": 1.0,
+      "f1": 0.25,
+      "support": 1
+    },
+    "misleading": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 0
+    },
+    "not enough information": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 0
+    }
+  },
+  "confusion_matrix": {
+    "labels": [
+      "Supported",
+      "Refuted",
+      "misleading",
+      "not enough information"
+    ],
+    "matrix": [
+      [
+        6,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ]
+    ]
+  },
+  "n_total_with_gold": 24,
+  "n_valid_preds": 19,
+  "invalid_outputs": 0,
+  "runtime_sec": 56.52509140968323,
+  "n_items_processed": 24
+}

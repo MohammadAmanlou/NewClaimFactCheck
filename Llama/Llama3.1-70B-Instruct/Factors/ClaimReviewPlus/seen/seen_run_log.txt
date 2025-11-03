@@ -1,0 +1,309 @@
+2025-11-03 20:50:43,234 - INFO - ============================================================
+2025-11-03 20:50:43,234 - INFO - Starting evaluation on SEEN data
+2025-11-03 20:50:43,234 - INFO - Model: meta.llama3-1-70b-instruct-v1:0
+2025-11-03 20:50:43,234 - INFO - Results directory: ClaimReviewPlus\seen
+2025-11-03 20:50:43,234 - INFO - ============================================================
+2025-11-03 20:50:43,234 - INFO - Total items to process: 24
+2025-11-03 20:50:43,271 - INFO - 
+================================================================================
+2025-11-03 20:50:43,273 - INFO - Processing item #0
+2025-11-03 20:50:43,273 - INFO - Gold label: not enough information -> Not enough information
+2025-11-03 20:50:43,273 - INFO - Asking model: meta.llama3-1-70b-instruct-v1:0
+2025-11-03 20:50:43,273 - INFO - Claim: “We have scaled up our investment in the healthcare workforce [by] employing 20,000 new healthcare workers.”
+2025-11-03 20:50:45,393 - INFO - API Response Status: 200
+2025-11-03 20:50:45,393 - INFO - Raw model response: {"label": "Supported"}
+2025-11-03 20:50:45,393 - INFO - Extracted label: Supported -> Normalized: Supported
+2025-11-03 20:50:45,395 - INFO - Final prediction: Supported
+2025-11-03 20:50:45,395 - INFO - Match: False
+2025-11-03 20:50:45,901 - INFO - 
+================================================================================
+2025-11-03 20:50:45,901 - INFO - Processing item #1
+2025-11-03 20:50:45,901 - INFO - Gold label: misleading -> Misleading
+2025-11-03 20:50:45,901 - INFO - Asking model: meta.llama3-1-70b-instruct-v1:0
+2025-11-03 20:50:45,901 - INFO - Claim: 'A CNN broadcast captured an Ohio woman placing multiple ballots into a drop box on Election Day.'
+2025-11-03 20:50:49,235 - INFO - API Response Status: 200
+2025-11-03 20:50:49,235 - INFO - Raw model response: {"label": "Refuted"}
+2025-11-03 20:50:49,235 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2025-11-03 20:50:49,235 - INFO - Final prediction: Refuted
+2025-11-03 20:50:49,236 - INFO - Match: False
+2025-11-03 20:50:49,742 - INFO - 
+================================================================================
+2025-11-03 20:50:49,742 - INFO - Processing item #2
+2025-11-03 20:50:49,742 - INFO - Gold label: misleading -> Misleading
+2025-11-03 20:50:49,742 - INFO - Asking model: meta.llama3-1-70b-instruct-v1:0
+2025-11-03 20:50:49,742 - INFO - Claim: 'Former health minister of Italy under investigation for murder'
+2025-11-03 20:50:51,824 - INFO - API Response Status: 200
+2025-11-03 20:50:51,824 - INFO - Raw model response: {"label": "Not enough information"}
+2025-11-03 20:50:51,824 - INFO - Extracted label: Not enough information -> Normalized: Not enough information
+2025-11-03 20:50:51,825 - INFO - Final prediction: Not enough information
+2025-11-03 20:50:51,825 - INFO - Match: False
+2025-11-03 20:50:52,329 - INFO - 
+================================================================================
+2025-11-03 20:50:52,329 - INFO - Processing item #3
+2025-11-03 20:50:52,329 - INFO - Gold label: misleading -> Misleading
+2025-11-03 20:50:52,329 - INFO - Asking model: meta.llama3-1-70b-instruct-v1:0
+2025-11-03 20:50:52,329 - INFO - Claim: 'Former Italian health minister facing murder charges over COVID-19 vaccines'
+2025-11-03 20:50:54,012 - INFO - API Response Status: 200
+2025-11-03 20:50:54,012 - INFO - Raw model response: {"label": "Not enough information"}
+2025-11-03 20:50:54,012 - INFO - Extracted label: Not enough information -> Normalized: Not enough information
+2025-11-03 20:50:54,012 - INFO - Final prediction: Not enough information
+2025-11-03 20:50:54,012 - INFO - Match: False
+2025-11-03 20:50:54,523 - INFO - 
+================================================================================
+2025-11-03 20:50:54,523 - INFO - Processing item #4
+2025-11-03 20:50:54,523 - INFO - Gold label: not enough information -> Not enough information
+2025-11-03 20:50:54,523 - INFO - Asking model: meta.llama3-1-70b-instruct-v1:0
+2025-11-03 20:50:54,523 - INFO - Claim: “There are more cases of food insecurity and hunger in South Africa today than there were in 1994.”
+2025-11-03 20:50:56,038 - INFO - API Response Status: 200
+2025-11-03 20:50:56,039 - INFO - Raw model response: {"label": "Supported"}
+2025-11-03 20:50:56,039 - INFO - Extracted label: Supported -> Normalized: Supported
+2025-11-03 20:50:56,039 - INFO - Final prediction: Supported
+2025-11-03 20:50:56,039 - INFO - Match: False
+2025-11-03 20:50:56,541 - INFO - 
+================================================================================
+2025-11-03 20:50:56,541 - INFO - Processing item #5
+2025-11-03 20:50:56,541 - INFO - Gold label: misleading -> Misleading
+2025-11-03 20:50:56,541 - INFO - Asking model: meta.llama3-1-70b-instruct-v1:0
+2025-11-03 20:50:56,541 - INFO - Claim: 'Israelis get free US healthcare'
+2025-11-03 20:50:58,142 - INFO - API Response Status: 200
+2025-11-03 20:50:58,143 - INFO - Raw model response: {"label": "Refuted"}
+2025-11-03 20:50:58,143 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2025-11-03 20:50:58,143 - INFO - Final prediction: Refuted
+2025-11-03 20:50:58,143 - INFO - Match: False
+2025-11-03 20:50:58,660 - INFO - 
+================================================================================
+2025-11-03 20:50:58,660 - INFO - Processing item #6
+2025-11-03 20:50:58,660 - INFO - Gold label: supported -> Supported
+2025-11-03 20:50:58,660 - INFO - Asking model: meta.llama3-1-70b-instruct-v1:0
+2025-11-03 20:50:58,660 - INFO - Claim: "(The) top issue for college students is the economy."
+2025-11-03 20:51:00,731 - INFO - API Response Status: 200
+2025-11-03 20:51:00,731 - INFO - Raw model response: {"label": "Supported"}
+2025-11-03 20:51:00,731 - INFO - Extracted label: Supported -> Normalized: Supported
+2025-11-03 20:51:00,731 - INFO - Final prediction: Supported
+2025-11-03 20:51:00,732 - INFO - Match: True
+2025-11-03 20:51:01,244 - INFO - 
+================================================================================
+2025-11-03 20:51:01,244 - INFO - Processing item #7
+2025-11-03 20:51:01,244 - INFO - Gold label: misleading -> Misleading
+2025-11-03 20:51:01,244 - INFO - Asking model: meta.llama3-1-70b-instruct-v1:0
+2025-11-03 20:51:01,244 - INFO - Claim: 'Maddie de Garay's case shows that COVID-19 vaccines can cause functional neurological disorder and are thus harmful.'
+2025-11-03 20:51:02,872 - INFO - API Response Status: 200
+2025-11-03 20:51:02,872 - INFO - Raw model response: {"label": "Refuted"}
+2025-11-03 20:51:02,872 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2025-11-03 20:51:02,873 - INFO - Final prediction: Refuted
+2025-11-03 20:51:02,873 - INFO - Match: False
+2025-11-03 20:51:03,389 - INFO - 
+================================================================================
+2025-11-03 20:51:03,389 - INFO - Processing item #8
+2025-11-03 20:51:03,389 - INFO - Gold label: refuted -> Refuted
+2025-11-03 20:51:03,389 - INFO - Asking model: meta.llama3-1-70b-instruct-v1:0
+2025-11-03 20:51:03,389 - INFO - Claim: 'The 2014 Euromaidan protests in Ukraine were a coup'
+2025-11-03 20:51:05,160 - INFO - API Response Status: 200
+2025-11-03 20:51:05,160 - INFO - Raw model response: {"label": "Refuted"}
+2025-11-03 20:51:05,160 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2025-11-03 20:51:05,161 - INFO - Final prediction: Refuted
+2025-11-03 20:51:05,161 - INFO - Match: True
+2025-11-03 20:51:05,663 - INFO - 
+================================================================================
+2025-11-03 20:51:05,663 - INFO - Processing item #9
+2025-11-03 20:51:05,663 - INFO - Gold label: misleading -> Misleading
+2025-11-03 20:51:05,663 - INFO - Asking model: meta.llama3-1-70b-instruct-v1:0
+2025-11-03 20:51:05,663 - INFO - Claim: “He [President Donald Trump] did not move on making sure that we dealt with vaccinating the American public. We ended up losing over a million people dead — a million people.”
+2025-11-03 20:51:08,415 - INFO - API Response Status: 200
+2025-11-03 20:51:08,416 - INFO - Raw model response: {"label": "Supported"}
+2025-11-03 20:51:08,416 - INFO - Extracted label: Supported -> Normalized: Supported
+2025-11-03 20:51:08,418 - INFO - Final prediction: Supported
+2025-11-03 20:51:08,418 - INFO - Match: False
+2025-11-03 20:51:08,933 - INFO - 
+================================================================================
+2025-11-03 20:51:08,933 - INFO - Processing item #10
+2025-11-03 20:51:08,933 - INFO - Gold label: supported -> Supported
+2025-11-03 20:51:08,933 - INFO - Asking model: meta.llama3-1-70b-instruct-v1:0
+2025-11-03 20:51:08,933 - INFO - Claim: 'Under Joe Biden, there are “record numbers of new Black entrepreneurs”'
+2025-11-03 20:51:10,483 - INFO - API Response Status: 200
+2025-11-03 20:51:10,483 - INFO - Raw model response: {"label": "Supported"}
+2025-11-03 20:51:10,483 - INFO - Extracted label: Supported -> Normalized: Supported
+2025-11-03 20:51:10,483 - INFO - Final prediction: Supported
+2025-11-03 20:51:10,484 - INFO - Match: True
+2025-11-03 20:51:10,993 - INFO - 
+================================================================================
+2025-11-03 20:51:10,993 - INFO - Processing item #11
+2025-11-03 20:51:10,993 - INFO - Gold label: misleading -> Misleading
+2025-11-03 20:51:10,993 - INFO - Asking model: meta.llama3-1-70b-instruct-v1:0
+2025-11-03 20:51:10,993 - INFO - Claim: 'Study of 99 million Covid vaccine recipients shows the shots are dangerous'
+2025-11-03 20:51:12,595 - INFO - API Response Status: 200
+2025-11-03 20:51:12,595 - INFO - Raw model response: {"label": "Misleading"}
+2025-11-03 20:51:12,595 - INFO - Extracted label: Misleading -> Normalized: Misleading
+2025-11-03 20:51:12,596 - INFO - Final prediction: Misleading
+2025-11-03 20:51:12,596 - INFO - Match: True
+2025-11-03 20:51:13,106 - INFO - 
+================================================================================
+2025-11-03 20:51:13,106 - INFO - Processing item #12
+2025-11-03 20:51:13,106 - INFO - Gold label: misleading -> Misleading
+2025-11-03 20:51:13,106 - INFO - Asking model: meta.llama3-1-70b-instruct-v1:0
+2025-11-03 20:51:13,106 - INFO - Claim: 'COVID-19 vaccine recipients might not be eligible for blood donation'
+2025-11-03 20:51:14,722 - INFO - API Response Status: 200
+2025-11-03 20:51:14,722 - INFO - Raw model response: {"label": "Supported"}
+2025-11-03 20:51:14,722 - INFO - Extracted label: Supported -> Normalized: Supported
+2025-11-03 20:51:14,723 - INFO - Final prediction: Supported
+2025-11-03 20:51:14,723 - INFO - Match: False
+2025-11-03 20:51:15,236 - INFO - 
+================================================================================
+2025-11-03 20:51:15,236 - INFO - Processing item #13
+2025-11-03 20:51:15,236 - INFO - Gold label: supported -> Supported
+2025-11-03 20:51:15,236 - INFO - Asking model: meta.llama3-1-70b-instruct-v1:0
+2025-11-03 20:51:15,236 - INFO - Claim: 'Cote d’Ivoire’s GDP better than Ghana’s over the last 3 years'
+2025-11-03 20:51:17,050 - INFO - API Response Status: 200
+2025-11-03 20:51:17,050 - INFO - Raw model response: {"label": "Supported"}
+2025-11-03 20:51:17,050 - INFO - Extracted label: Supported -> Normalized: Supported
+2025-11-03 20:51:17,051 - INFO - Final prediction: Supported
+2025-11-03 20:51:17,051 - INFO - Match: True
+2025-11-03 20:51:17,563 - INFO - 
+================================================================================
+2025-11-03 20:51:17,563 - INFO - Processing item #14
+2025-11-03 20:51:17,563 - INFO - Gold label: misleading -> Misleading
+2025-11-03 20:51:17,563 - INFO - Asking model: meta.llama3-1-70b-instruct-v1:0
+2025-11-03 20:51:17,563 - INFO - Claim: 'Samantha endorsed TDP ahead of Andhra Elections'
+2025-11-03 20:51:19,188 - INFO - API Response Status: 200
+2025-11-03 20:51:19,189 - INFO - Raw model response: {"label": "Refuted"}
+2025-11-03 20:51:19,189 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2025-11-03 20:51:19,189 - INFO - Final prediction: Refuted
+2025-11-03 20:51:19,189 - INFO - Match: False
+2025-11-03 20:51:19,696 - INFO - 
+================================================================================
+2025-11-03 20:51:19,696 - INFO - Processing item #15
+2025-11-03 20:51:19,696 - INFO - Gold label: misleading -> Misleading
+2025-11-03 20:51:19,696 - INFO - Asking model: meta.llama3-1-70b-instruct-v1:0
+2025-11-03 20:51:19,696 - INFO - Claim: “It is estimated that 121 million Africans are facing severe acute food insecurity.”
+2025-11-03 20:51:21,249 - INFO - API Response Status: 200
+2025-11-03 20:51:21,249 - INFO - Raw model response: {"label": "Supported"}
+2025-11-03 20:51:21,249 - INFO - Extracted label: Supported -> Normalized: Supported
+2025-11-03 20:51:21,250 - INFO - Final prediction: Supported
+2025-11-03 20:51:21,250 - INFO - Match: False
+2025-11-03 20:51:21,754 - INFO - 
+================================================================================
+2025-11-03 20:51:21,754 - INFO - Processing item #16
+2025-11-03 20:51:21,754 - INFO - Gold label: supported -> Supported
+2025-11-03 20:51:21,754 - INFO - Asking model: meta.llama3-1-70b-instruct-v1:0
+2025-11-03 20:51:21,754 - INFO - Claim: 'COVID-19 has symptoms similar to the flu.'
+2025-11-03 20:51:23,334 - INFO - API Response Status: 200
+2025-11-03 20:51:23,334 - INFO - Raw model response: {"label": "Supported"}
+2025-11-03 20:51:23,334 - INFO - Extracted label: Supported -> Normalized: Supported
+2025-11-03 20:51:23,335 - INFO - Final prediction: Supported
+2025-11-03 20:51:23,335 - INFO - Match: True
+2025-11-03 20:51:23,843 - INFO - 
+================================================================================
+2025-11-03 20:51:23,843 - INFO - Processing item #17
+2025-11-03 20:51:23,843 - INFO - Gold label: misleading -> Misleading
+2025-11-03 20:51:23,843 - INFO - Asking model: meta.llama3-1-70b-instruct-v1:0
+2025-11-03 20:51:23,843 - INFO - Claim: 'New guidance says one day of isolation is sufficient for people with COVID-19.'
+2025-11-03 20:51:25,937 - INFO - API Response Status: 200
+2025-11-03 20:51:25,938 - INFO - Raw model response: {"label": "Not enough information"}
+2025-11-03 20:51:25,938 - INFO - Extracted label: Not enough information -> Normalized: Not enough information
+2025-11-03 20:51:25,938 - INFO - Final prediction: Not enough information
+2025-11-03 20:51:25,938 - INFO - Match: False
+2025-11-03 20:51:26,444 - INFO - 
+================================================================================
+2025-11-03 20:51:26,445 - INFO - Processing item #18
+2025-11-03 20:51:26,445 - INFO - Gold label: misleading -> Misleading
+2025-11-03 20:51:26,445 - INFO - Asking model: meta.llama3-1-70b-instruct-v1:0
+2025-11-03 20:51:26,445 - INFO - Claim: 'COVID-19 has been like the flu since the beginning of the pandemic.'
+2025-11-03 20:51:28,140 - INFO - API Response Status: 200
+2025-11-03 20:51:28,140 - INFO - Raw model response: {"label": "Refuted"}
+2025-11-03 20:51:28,140 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2025-11-03 20:51:28,140 - INFO - Final prediction: Refuted
+2025-11-03 20:51:28,140 - INFO - Match: False
+2025-11-03 20:51:28,657 - INFO - 
+================================================================================
+2025-11-03 20:51:28,657 - INFO - Processing item #19
+2025-11-03 20:51:28,657 - INFO - Gold label: supported -> Supported
+2025-11-03 20:51:28,657 - INFO - Asking model: meta.llama3-1-70b-instruct-v1:0
+2025-11-03 20:51:28,657 - INFO - Claim: “We’ve had 12 elections in 24 years in Wisconsin that have been decided by less than 30,000 votes.”
+2025-11-03 20:51:30,261 - INFO - API Response Status: 200
+2025-11-03 20:51:30,261 - INFO - Raw model response: {"label": "Supported"}
+2025-11-03 20:51:30,262 - INFO - Extracted label: Supported -> Normalized: Supported
+2025-11-03 20:51:30,262 - INFO - Final prediction: Supported
+2025-11-03 20:51:30,262 - INFO - Match: True
+2025-11-03 20:51:30,778 - INFO - 
+================================================================================
+2025-11-03 20:51:30,778 - INFO - Processing item #20
+2025-11-03 20:51:30,778 - INFO - Gold label: misleading -> Misleading
+2025-11-03 20:51:30,778 - INFO - Asking model: meta.llama3-1-70b-instruct-v1:0
+2025-11-03 20:51:30,778 - INFO - Claim: 'Liquefied natural gas offers significant environmental advantages over traditional fossil fuels contributing to reduced greenhouse gas emissions, combating climate change, improving air quality and e...
+2025-11-03 20:51:32,309 - INFO - API Response Status: 200
+2025-11-03 20:51:32,309 - INFO - Raw model response: {"label": "Supported"}
+2025-11-03 20:51:32,309 - INFO - Extracted label: Supported -> Normalized: Supported
+2025-11-03 20:51:32,310 - INFO - Final prediction: Supported
+2025-11-03 20:51:32,310 - INFO - Match: False
+2025-11-03 20:51:32,826 - INFO - 
+================================================================================
+2025-11-03 20:51:32,827 - INFO - Processing item #21
+2025-11-03 20:51:32,827 - INFO - Gold label: supported -> Supported
+2025-11-03 20:51:32,827 - INFO - Asking model: meta.llama3-1-70b-instruct-v1:0
+2025-11-03 20:51:32,827 - INFO - Claim: 'COVID vaccines are being used to beat cancer.'
+2025-11-03 20:51:34,480 - INFO - API Response Status: 200
+2025-11-03 20:51:34,480 - INFO - Raw model response: {"label": "Not enough information"}
+2025-11-03 20:51:34,480 - INFO - Extracted label: Not enough information -> Normalized: Not enough information
+2025-11-03 20:51:34,480 - INFO - Final prediction: Not enough information
+2025-11-03 20:51:34,481 - INFO - Match: False
+2025-11-03 20:51:34,989 - INFO - 
+================================================================================
+2025-11-03 20:51:34,989 - INFO - Processing item #22
+2025-11-03 20:51:34,989 - INFO - Gold label: not enough information -> Not enough information
+2025-11-03 20:51:34,989 - INFO - Asking model: meta.llama3-1-70b-instruct-v1:0
+2025-11-03 20:51:34,989 - INFO - Claim: 'Covid-19 vaccine worsens thyroid issues'
+2025-11-03 20:51:36,858 - INFO - API Response Status: 200
+2025-11-03 20:51:36,858 - INFO - Raw model response: {"label": "Refuted"}
+2025-11-03 20:51:36,858 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2025-11-03 20:51:36,859 - INFO - Final prediction: Refuted
+2025-11-03 20:51:36,859 - INFO - Match: False
+2025-11-03 20:51:37,370 - INFO - 
+================================================================================
+2025-11-03 20:51:37,370 - INFO - Processing item #23
+2025-11-03 20:51:37,370 - INFO - Gold label: supported -> Supported
+2025-11-03 20:51:37,370 - INFO - Asking model: meta.llama3-1-70b-instruct-v1:0
+2025-11-03 20:51:37,370 - INFO - Claim: 'Gaza has “the highest number of people facing catastrophic hunger ever recorded by the Integrated Food Security Classification system — anywhere, anytime.”'
+2025-11-03 20:51:39,251 - INFO - API Response Status: 200
+2025-11-03 20:51:39,251 - INFO - Raw model response: {"label": "Supported"}
+2025-11-03 20:51:39,252 - INFO - Extracted label: Supported -> Normalized: Supported
+2025-11-03 20:51:39,253 - INFO - Final prediction: Supported
+2025-11-03 20:51:39,253 - INFO - Match: True
+2025-11-03 20:51:39,759 - INFO - Processed 24 items in 56.53 seconds (0.42 items/sec)
+2025-11-03 20:51:39,759 - INFO - Invalid outputs: 0
+2025-11-03 20:51:39,759 - INFO - Saving predictions to ClaimReviewPlus\seen\predictions.csv
+2025-11-03 20:51:39,767 - INFO - Computing metrics on 19 valid predictions (out of 24 total)
+2025-11-03 20:51:39,771 - INFO - Accuracy: 1.0000
+2025-11-03 20:51:39,771 - INFO - Macro F1: 0.2292
+2025-11-03 20:51:39,771 - INFO - Macro Precision: 0.1607
+2025-11-03 20:51:39,771 - INFO - Macro Recall: 0.5000
+2025-11-03 20:51:39,771 - INFO - 
+Per-label metrics:
+2025-11-03 20:51:39,771 - INFO -   Supported:
+2025-11-03 20:51:39,771 - INFO -     Precision: 0.5000
+2025-11-03 20:51:39,771 - INFO -     Recall: 1.0000
+2025-11-03 20:51:39,771 - INFO -     F1: 0.6667
+2025-11-03 20:51:39,771 - INFO -     Support: 6
+2025-11-03 20:51:39,772 - INFO -   Refuted:
+2025-11-03 20:51:39,772 - INFO -     Precision: 0.1429
+2025-11-03 20:51:39,772 - INFO -     Recall: 1.0000
+2025-11-03 20:51:39,772 - INFO -     F1: 0.2500
+2025-11-03 20:51:39,772 - INFO -     Support: 1
+2025-11-03 20:51:39,772 - INFO -   misleading:
+2025-11-03 20:51:39,772 - INFO -     Precision: 0.0000
+2025-11-03 20:51:39,772 - INFO -     Recall: 0.0000
+2025-11-03 20:51:39,772 - INFO -     F1: 0.0000
+2025-11-03 20:51:39,772 - INFO -     Support: 0
+2025-11-03 20:51:39,772 - INFO -   not enough information:
+2025-11-03 20:51:39,772 - INFO -     Precision: 0.0000
+2025-11-03 20:51:39,772 - INFO -     Recall: 0.0000
+2025-11-03 20:51:39,772 - INFO -     F1: 0.0000
+2025-11-03 20:51:39,772 - INFO -     Support: 0
+2025-11-03 20:51:39,772 - INFO - Saving metrics to ClaimReviewPlus\seen\metrics.json
+2025-11-03 20:51:39,775 - INFO - Generating visualizations...
+2025-11-03 20:51:40,159 - INFO - Confusion matrix saved to ClaimReviewPlus\seen\confusion_matrix.png
+2025-11-03 20:51:40,358 - INFO - Per-label accuracy plot saved to ClaimReviewPlus\seen\per_label_accuracy.png
+2025-11-03 20:51:40,556 - INFO - Label distribution plot saved to ClaimReviewPlus\seen\label_distribution.png
+2025-11-03 20:51:40,556 - INFO - ============================================================
+2025-11-03 20:51:40,556 - INFO - Evaluation completed for SEEN data
+2025-11-03 20:51:40,556 - INFO - ============================================================
+
