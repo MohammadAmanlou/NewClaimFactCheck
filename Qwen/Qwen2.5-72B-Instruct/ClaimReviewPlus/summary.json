@@ -1,0 +1,163 @@
+{
+  "model": "qwen2.5-72b-instruct",
+  "split_date": "2024-09-20",
+  "evaluation_timestamp": "2025-11-03T23:11:46.892342",
+  "results_directory": "ClaimReviewPlus",
+  "seen": {
+    "accuracy": 0.1836734693877551,
+    "macro": {
+      "precision": 0.34497549019607837,
+      "recall": 0.4255952380952381,
+      "f1": 0.22997506435006435
+    },
+    "per_label": {
+      "Supported": {
+        "precision": 0.6666666666666666,
+        "recall": 0.16666666666666666,
+        "f1": 0.26666666666666666,
+        "support": 12
+      },
+      "Refuted": {
+        "precision": 0.375,
+        "recall": 0.5,
+        "f1": 0.42857142857142855,
+        "support": 6
+      },
+      "Misleading": {
+        "precision": 0.25,
+        "recall": 0.03571428571428571,
+        "f1": 0.0625,
+        "support": 28
+      },
+      "Not enough information": {
+        "precision": 0.08823529411764706,
+        "recall": 1.0,
+        "f1": 0.16216216216216217,
+        "support": 3
+      }
+    },
+    "confusion_matrix": {
+      "labels": [
+        "Supported",
+        "Refuted",
+        "Misleading",
+        "Not enough information"
+      ],
+      "matrix": [
+        [
+          2,
+          0,
+          1,
+          9
+        ],
+        [
+          0,
+          3,
+          2,
+          1
+        ],
+        [
+          1,
+          5,
+          1,
+          21
+        ],
+        [
+          0,
+          0,
+          0,
+          3
+        ]
+      ]
+    },
+    "n_total_with_gold": 49,
+    "n_valid_preds": 49,
+    "invalid_outputs": 0,
+    "runtime_sec": 97.54073071479797,
+    "n_items_processed": 49
+  },
+  "unseen": {
+    "accuracy": 0.3064516129032258,
+    "macro": {
+      "precision": 0.530952380952381,
+      "recall": 0.5892857142857142,
+      "f1": 0.42759740259740264
+    },
+    "per_label": {
+      "Supported": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 2
+      },
+      "Refuted": {
+        "precision": 0.8571428571428571,
+        "recall": 0.2857142857142857,
+        "f1": 0.42857142857142855,
+        "support": 42
+      },
+      "Misleading": {
+        "precision": 0.16666666666666666,
+        "recall": 0.07142857142857142,
+        "f1": 0.1,
+        "support": 14
+      },
+      "Not enough information": {
+        "precision": 0.1,
+        "recall": 1.0,
+        "f1": 0.18181818181818182,
+        "support": 4
+      }
+    },
+    "confusion_matrix": {
+      "labels": [
+        "Supported",
+        "Refuted",
+        "Misleading",
+        "Not enough information"
+      ],
+      "matrix": [
+        [
+          2,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          12,
+          5,
+          25
+        ],
+        [
+          0,
+          2,
+          1,
+          11
+        ],
+        [
+          0,
+          0,
+          0,
+          4
+        ]
+      ]
+    },
+    "n_total_with_gold": 62,
+    "n_valid_preds": 62,
+    "invalid_outputs": 0,
+    "runtime_sec": 116.18578481674194,
+    "n_items_processed": 62
+  },
+  "data_counts": {
+    "seen": 49,
+    "unseen": 62,
+    "total": 111
+  },
+  "config": {
+    "batch_size": 1,
+    "sleep_between": 0.5,
+    "max_items_per_split": -1,
+    "text_only": true
+  }
+}

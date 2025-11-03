@@ -1,0 +1,73 @@
+{
+  "accuracy": 0.3064516129032258,
+  "macro": {
+    "precision": 0.530952380952381,
+    "recall": 0.5892857142857142,
+    "f1": 0.42759740259740264
+  },
+  "per_label": {
+    "Supported": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 2
+    },
+    "Refuted": {
+      "precision": 0.8571428571428571,
+      "recall": 0.2857142857142857,
+      "f1": 0.42857142857142855,
+      "support": 42
+    },
+    "Misleading": {
+      "precision": 0.16666666666666666,
+      "recall": 0.07142857142857142,
+      "f1": 0.1,
+      "support": 14
+    },
+    "Not enough information": {
+      "precision": 0.1,
+      "recall": 1.0,
+      "f1": 0.18181818181818182,
+      "support": 4
+    }
+  },
+  "confusion_matrix": {
+    "labels": [
+      "Supported",
+      "Refuted",
+      "Misleading",
+      "Not enough information"
+    ],
+    "matrix": [
+      [
+        2,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        12,
+        5,
+        25
+      ],
+      [
+        0,
+        2,
+        1,
+        11
+      ],
+      [
+        0,
+        0,
+        0,
+        4
+      ]
+    ]
+  },
+  "n_total_with_gold": 62,
+  "n_valid_preds": 62,
+  "invalid_outputs": 0,
+  "runtime_sec": 116.18578481674194,
+  "n_items_processed": 62
+}

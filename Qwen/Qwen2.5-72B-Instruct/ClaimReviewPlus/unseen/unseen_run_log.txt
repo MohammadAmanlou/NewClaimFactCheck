@@ -1,0 +1,727 @@
+2025-11-03 23:09:50,175 - INFO - ============================================================
+2025-11-03 23:09:50,176 - INFO - Starting evaluation on UNSEEN data
+2025-11-03 23:09:50,176 - INFO - Model: qwen2.5-72b-instruct
+2025-11-03 23:09:50,176 - INFO - Results directory: ClaimReviewPlus\unseen
+2025-11-03 23:09:50,176 - INFO - ============================================================
+2025-11-03 23:09:50,176 - INFO - Total items to process: 62
+2025-11-03 23:09:50,195 - INFO - 
+================================================================================
+2025-11-03 23:09:50,196 - INFO - Processing item #0
+2025-11-03 23:09:50,196 - INFO - Gold label: refuted -> Refuted
+2025-11-03 23:09:50,196 - INFO - Asking model: qwen2.5-72b-instruct
+2025-11-03 23:09:50,197 - INFO - Claim: “Oprah is a sex trafficker. She’s been caught and now has to be escorted around by U.S. marshals.”
+2025-11-03 23:09:51,478 - INFO - API Response Status: 200
+2025-11-03 23:09:51,478 - INFO - Raw model response: {"label": "Refuted"}
+2025-11-03 23:09:51,478 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2025-11-03 23:09:51,480 - INFO - Final prediction: Refuted
+2025-11-03 23:09:51,480 - INFO - Match: True
+2025-11-03 23:09:51,990 - INFO - 
+================================================================================
+2025-11-03 23:09:51,991 - INFO - Processing item #1
+2025-11-03 23:09:51,991 - INFO - Gold label: refuted -> Refuted
+2025-11-03 23:09:51,991 - INFO - Asking model: qwen2.5-72b-instruct
+2025-11-03 23:09:51,991 - INFO - Claim: 'Bangladesh Chief Adviser Muhammad Yunus announced his retirement.'
+2025-11-03 23:09:53,411 - INFO - API Response Status: 200
+2025-11-03 23:09:53,411 - INFO - Raw model response: {"label": "Not enough information"}
+2025-11-03 23:09:53,412 - INFO - Extracted label: Not enough information -> Normalized: Not enough information
+2025-11-03 23:09:53,412 - INFO - Final prediction: Not enough information
+2025-11-03 23:09:53,412 - INFO - Match: False
+2025-11-03 23:09:53,916 - INFO - 
+================================================================================
+2025-11-03 23:09:53,916 - INFO - Processing item #2
+2025-11-03 23:09:53,916 - INFO - Gold label: misleading -> Misleading
+2025-11-03 23:09:53,916 - INFO - Asking model: qwen2.5-72b-instruct
+2025-11-03 23:09:53,916 - INFO - Claim: 'Renewable energy isn’t green; by 2050, 78 million metric tonnes of solar panels will reach the end of their lives and can't be recycled.'
+2025-11-03 23:09:55,245 - INFO - API Response Status: 200
+2025-11-03 23:09:55,245 - INFO - Raw model response: {"label": "Misleading"}
+2025-11-03 23:09:55,246 - INFO - Extracted label: Misleading -> Normalized: Misleading
+2025-11-03 23:09:55,246 - INFO - Final prediction: Misleading
+2025-11-03 23:09:55,246 - INFO - Match: True
+2025-11-03 23:09:55,754 - INFO - 
+================================================================================
+2025-11-03 23:09:55,755 - INFO - Processing item #3
+2025-11-03 23:09:55,755 - INFO - Gold label: supported -> Supported
+2025-11-03 23:09:55,755 - INFO - Asking model: qwen2.5-72b-instruct
+2025-11-03 23:09:55,755 - INFO - Claim: "Sen. Vance has said that there's a climate problem in the past. Donald Trump called it (climate change) a hoax and then joked that these things would make more beachfront property to be able to inves...
+2025-11-03 23:09:56,996 - INFO - API Response Status: 200
+2025-11-03 23:09:56,996 - INFO - Raw model response: {"label": "Supported"}
+2025-11-03 23:09:56,997 - INFO - Extracted label: Supported -> Normalized: Supported
+2025-11-03 23:09:56,997 - INFO - Final prediction: Supported
+2025-11-03 23:09:56,997 - INFO - Match: True
+2025-11-03 23:09:57,500 - INFO - 
+================================================================================
+2025-11-03 23:09:57,501 - INFO - Processing item #4
+2025-11-03 23:09:57,501 - INFO - Gold label: not enough information -> Not enough information
+2025-11-03 23:09:57,501 - INFO - Asking model: qwen2.5-72b-instruct
+2025-11-03 23:09:57,501 - INFO - Claim: 'Within one year, our government has eliminated Boko Haram and bandit commanders faster than ever, over 300 as of the last count.'
+2025-11-03 23:09:59,086 - INFO - API Response Status: 200
+2025-11-03 23:09:59,086 - INFO - Raw model response: {"label": "Not enough information"}
+2025-11-03 23:09:59,086 - INFO - Extracted label: Not enough information -> Normalized: Not enough information
+2025-11-03 23:09:59,086 - INFO - Final prediction: Not enough information
+2025-11-03 23:09:59,086 - INFO - Match: True
+2025-11-03 23:09:59,594 - INFO - 
+================================================================================
+2025-11-03 23:09:59,594 - INFO - Processing item #5
+2025-11-03 23:09:59,594 - INFO - Gold label: not enough information -> Not enough information
+2025-11-03 23:09:59,594 - INFO - Asking model: qwen2.5-72b-instruct
+2025-11-03 23:09:59,594 - INFO - Claim: 'We have reduced the debt service ratio from 97 % to 68 %.'
+2025-11-03 23:10:01,350 - INFO - API Response Status: 200
+2025-11-03 23:10:01,350 - INFO - Raw model response: {"label": "Not enough information"}
+2025-11-03 23:10:01,350 - INFO - Extracted label: Not enough information -> Normalized: Not enough information
+2025-11-03 23:10:01,350 - INFO - Final prediction: Not enough information
+2025-11-03 23:10:01,351 - INFO - Match: True
+2025-11-03 23:10:01,855 - INFO - 
+================================================================================
+2025-11-03 23:10:01,855 - INFO - Processing item #6
+2025-11-03 23:10:01,856 - INFO - Gold label: refuted -> Refuted
+2025-11-03 23:10:01,856 - INFO - Asking model: qwen2.5-72b-instruct
+2025-11-03 23:10:01,856 - INFO - Claim: 'We inherited a reserve of over $33 billion 16 months ago.'
+2025-11-03 23:10:03,263 - INFO - API Response Status: 200
+2025-11-03 23:10:03,263 - INFO - Raw model response: {"label": "Not enough information"}
+2025-11-03 23:10:03,263 - INFO - Extracted label: Not enough information -> Normalized: Not enough information
+2025-11-03 23:10:03,264 - INFO - Final prediction: Not enough information
+2025-11-03 23:10:03,264 - INFO - Match: False
+2025-11-03 23:10:03,780 - INFO - 
+================================================================================
+2025-11-03 23:10:03,780 - INFO - Processing item #7
+2025-11-03 23:10:03,780 - INFO - Gold label: refuted -> Refuted
+2025-11-03 23:10:03,780 - INFO - Asking model: qwen2.5-72b-instruct
+2025-11-03 23:10:03,780 - INFO - Claim: 'Our country attracted foreign direct investments worth more than US$30 billion in the last year.'
+2025-11-03 23:10:05,177 - INFO - API Response Status: 200
+2025-11-03 23:10:05,177 - INFO - Raw model response: {"label": "Not enough information"}
+2025-11-03 23:10:05,178 - INFO - Extracted label: Not enough information -> Normalized: Not enough information
+2025-11-03 23:10:05,179 - INFO - Final prediction: Not enough information
+2025-11-03 23:10:05,179 - INFO - Match: False
+2025-11-03 23:10:05,689 - INFO - 
+================================================================================
+2025-11-03 23:10:05,689 - INFO - Processing item #8
+2025-11-03 23:10:05,689 - INFO - Gold label: refuted -> Refuted
+2025-11-03 23:10:05,689 - INFO - Asking model: qwen2.5-72b-instruct
+2025-11-03 23:10:05,689 - INFO - Claim: 'Our young people … constitute more than 60% of our population.'
+2025-11-03 23:10:07,032 - INFO - API Response Status: 200
+2025-11-03 23:10:07,033 - INFO - Raw model response: {"label": "Not enough information"}
+2025-11-03 23:10:07,033 - INFO - Extracted label: Not enough information -> Normalized: Not enough information
+2025-11-03 23:10:07,035 - INFO - Final prediction: Not enough information
+2025-11-03 23:10:07,035 - INFO - Match: False
+2025-11-03 23:10:07,545 - INFO - 
+================================================================================
+2025-11-03 23:10:07,545 - INFO - Processing item #9
+2025-11-03 23:10:07,545 - INFO - Gold label: misleading -> Misleading
+2025-11-03 23:10:07,545 - INFO - Asking model: qwen2.5-72b-instruct
+2025-11-03 23:10:07,545 - INFO - Claim: 'Rodrigo Duterte is running for senator in the 2025 elections.'
+2025-11-03 23:10:08,846 - INFO - API Response Status: 200
+2025-11-03 23:10:08,846 - INFO - Raw model response: {"label": "Not enough information"}
+2025-11-03 23:10:08,846 - INFO - Extracted label: Not enough information -> Normalized: Not enough information
+2025-11-03 23:10:08,847 - INFO - Final prediction: Not enough information
+2025-11-03 23:10:08,847 - INFO - Match: False
+2025-11-03 23:10:09,364 - INFO - 
+================================================================================
+2025-11-03 23:10:09,365 - INFO - Processing item #10
+2025-11-03 23:10:09,365 - INFO - Gold label: misleading -> Misleading
+2025-11-03 23:10:09,365 - INFO - Asking model: qwen2.5-72b-instruct
+2025-11-03 23:10:09,365 - INFO - Claim: 'There’s a £22 billion black hole in the economy.'
+2025-11-03 23:10:10,713 - INFO - API Response Status: 200
+2025-11-03 23:10:10,713 - INFO - Raw model response: {"label": "Not enough information"}
+2025-11-03 23:10:10,713 - INFO - Extracted label: Not enough information -> Normalized: Not enough information
+2025-11-03 23:10:10,714 - INFO - Final prediction: Not enough information
+2025-11-03 23:10:10,714 - INFO - Match: False
+2025-11-03 23:10:11,217 - INFO - 
+================================================================================
+2025-11-03 23:10:11,217 - INFO - Processing item #11
+2025-11-03 23:10:11,217 - INFO - Gold label: refuted -> Refuted
+2025-11-03 23:10:11,217 - INFO - Asking model: qwen2.5-72b-instruct
+2025-11-03 23:10:11,217 - INFO - Claim: 'The World Economic Forum (WEF) demanded a ban on homegrown plants to check global warming.'
+2025-11-03 23:10:12,634 - INFO - API Response Status: 200
+2025-11-03 23:10:12,634 - INFO - Raw model response: {"label": "Not enough information"}
+2025-11-03 23:10:12,634 - INFO - Extracted label: Not enough information -> Normalized: Not enough information
+2025-11-03 23:10:12,634 - INFO - Final prediction: Not enough information
+2025-11-03 23:10:12,634 - INFO - Match: False
+2025-11-03 23:10:13,147 - INFO - 
+================================================================================
+2025-11-03 23:10:13,198 - INFO - Processing item #12
+2025-11-03 23:10:13,198 - INFO - Gold label: refuted -> Refuted
+2025-11-03 23:10:13,198 - INFO - Asking model: qwen2.5-72b-instruct
+2025-11-03 23:10:13,198 - INFO - Claim: 'A study into global warming proves it is a hoax.'
+2025-11-03 23:10:14,469 - INFO - API Response Status: 200
+2025-11-03 23:10:14,469 - INFO - Raw model response: {"label": "Refuted"}
+2025-11-03 23:10:14,469 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2025-11-03 23:10:14,469 - INFO - Final prediction: Refuted
+2025-11-03 23:10:14,470 - INFO - Match: True
+2025-11-03 23:10:14,971 - INFO - 
+================================================================================
+2025-11-03 23:10:14,971 - INFO - Processing item #13
+2025-11-03 23:10:14,971 - INFO - Gold label: misleading -> Misleading
+2025-11-03 23:10:14,971 - INFO - Asking model: qwen2.5-72b-instruct
+2025-11-03 23:10:14,971 - INFO - Claim: 'Amendment to health act will force Malaysians to be vaccinated.'
+2025-11-03 23:10:16,292 - INFO - API Response Status: 200
+2025-11-03 23:10:16,293 - INFO - Raw model response: {"label": "Not enough information"}
+2025-11-03 23:10:16,293 - INFO - Extracted label: Not enough information -> Normalized: Not enough information
+2025-11-03 23:10:16,294 - INFO - Final prediction: Not enough information
+2025-11-03 23:10:16,294 - INFO - Match: False
+2025-11-03 23:10:16,803 - INFO - 
+================================================================================
+2025-11-03 23:10:16,803 - INFO - Processing item #14
+2025-11-03 23:10:16,803 - INFO - Gold label: refuted -> Refuted
+2025-11-03 23:10:16,803 - INFO - Asking model: qwen2.5-72b-instruct
+2025-11-03 23:10:16,803 - INFO - Claim: 'Kamala Harris “destroyed our economy.”'
+2025-11-03 23:10:18,169 - INFO - API Response Status: 200
+2025-11-03 23:10:18,169 - INFO - Raw model response: {"label": "Refuted"}
+2025-11-03 23:10:18,169 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2025-11-03 23:10:18,170 - INFO - Final prediction: Refuted
+2025-11-03 23:10:18,170 - INFO - Match: True
+2025-11-03 23:10:18,676 - INFO - 
+================================================================================
+2025-11-03 23:10:18,676 - INFO - Processing item #15
+2025-11-03 23:10:18,676 - INFO - Gold label: refuted -> Refuted
+2025-11-03 23:10:18,676 - INFO - Asking model: qwen2.5-72b-instruct
+2025-11-03 23:10:18,676 - INFO - Claim: 'Climate change has only had 'positive effects' on global food production.'
+2025-11-03 23:10:19,904 - INFO - API Response Status: 200
+2025-11-03 23:10:19,904 - INFO - Raw model response: {"label": "Refuted"}
+2025-11-03 23:10:19,904 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2025-11-03 23:10:19,904 - INFO - Final prediction: Refuted
+2025-11-03 23:10:19,904 - INFO - Match: True
+2025-11-03 23:10:20,419 - INFO - 
+================================================================================
+2025-11-03 23:10:20,419 - INFO - Processing item #16
+2025-11-03 23:10:20,419 - INFO - Gold label: misleading -> Misleading
+2025-11-03 23:10:20,419 - INFO - Asking model: qwen2.5-72b-instruct
+2025-11-03 23:10:20,419 - INFO - Claim: 'COVID-19 vaccines are unsafe, they cause deaths by cardiac arrest and blood clots.'
+2025-11-03 23:10:21,679 - INFO - API Response Status: 200
+2025-11-03 23:10:21,679 - INFO - Raw model response: {"label": "Refuted"}
+2025-11-03 23:10:21,679 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2025-11-03 23:10:21,680 - INFO - Final prediction: Refuted
+2025-11-03 23:10:21,680 - INFO - Match: False
+2025-11-03 23:10:22,184 - INFO - 
+================================================================================
+2025-11-03 23:10:22,184 - INFO - Processing item #17
+2025-11-03 23:10:22,184 - INFO - Gold label: refuted -> Refuted
+2025-11-03 23:10:22,184 - INFO - Asking model: qwen2.5-72b-instruct
+2025-11-03 23:10:22,184 - INFO - Claim: 'A viral claim on X suggests that 159 out of 195 countries are to join a new BRICS settlement system, implying a significant shift toward BRICS dominance in the global economy and a movement away from...
+2025-11-03 23:10:23,393 - INFO - API Response Status: 200
+2025-11-03 23:10:23,393 - INFO - Raw model response: {"label": "Not enough information"}
+2025-11-03 23:10:23,393 - INFO - Extracted label: Not enough information -> Normalized: Not enough information
+2025-11-03 23:10:23,394 - INFO - Final prediction: Not enough information
+2025-11-03 23:10:23,394 - INFO - Match: False
+2025-11-03 23:10:23,908 - INFO - 
+================================================================================
+2025-11-03 23:10:23,908 - INFO - Processing item #18
+2025-11-03 23:10:23,908 - INFO - Gold label: refuted -> Refuted
+2025-11-03 23:10:23,908 - INFO - Asking model: qwen2.5-72b-instruct
+2025-11-03 23:10:23,908 - INFO - Claim: 'A staggering $41 billion has gone missing from the globalist World Bank’s Climate Change fund under the watch of Ajay Banga.'
+2025-11-03 23:10:25,301 - INFO - API Response Status: 200
+2025-11-03 23:10:25,301 - INFO - Raw model response: {"label": "Not enough information"}
+2025-11-03 23:10:25,301 - INFO - Extracted label: Not enough information -> Normalized: Not enough information
+2025-11-03 23:10:25,301 - INFO - Final prediction: Not enough information
+2025-11-03 23:10:25,302 - INFO - Match: False
+2025-11-03 23:10:25,816 - INFO - 
+================================================================================
+2025-11-03 23:10:25,817 - INFO - Processing item #19
+2025-11-03 23:10:25,817 - INFO - Gold label: misleading -> Misleading
+2025-11-03 23:10:25,817 - INFO - Asking model: qwen2.5-72b-instruct
+2025-11-03 23:10:25,817 - INFO - Claim: 'Rising CO2 and temperatures are behind the global boost in grain production over the last 60 years.'
+2025-11-03 23:10:27,073 - INFO - API Response Status: 200
+2025-11-03 23:10:27,073 - INFO - Raw model response: {"label": "Not enough information"}
+2025-11-03 23:10:27,073 - INFO - Extracted label: Not enough information -> Normalized: Not enough information
+2025-11-03 23:10:27,074 - INFO - Final prediction: Not enough information
+2025-11-03 23:10:27,074 - INFO - Match: False
+2025-11-03 23:10:27,586 - INFO - 
+================================================================================
+2025-11-03 23:10:27,586 - INFO - Processing item #20
+2025-11-03 23:10:27,586 - INFO - Gold label: refuted -> Refuted
+2025-11-03 23:10:27,586 - INFO - Asking model: qwen2.5-72b-instruct
+2025-11-03 23:10:27,586 - INFO - Claim: 'HAARP is responsible for recent floods in Spain, New Mexico, and elsewhere.'
+2025-11-03 23:10:28,851 - INFO - API Response Status: 200
+2025-11-03 23:10:28,851 - INFO - Raw model response: {"label": "Misleading"}
+2025-11-03 23:10:28,851 - INFO - Extracted label: Misleading -> Normalized: Misleading
+2025-11-03 23:10:28,852 - INFO - Final prediction: Misleading
+2025-11-03 23:10:28,852 - INFO - Match: False
+2025-11-03 23:10:29,363 - INFO - 
+================================================================================
+2025-11-03 23:10:29,363 - INFO - Processing item #21
+2025-11-03 23:10:29,363 - INFO - Gold label: not enough information -> Not enough information
+2025-11-03 23:10:29,363 - INFO - Asking model: qwen2.5-72b-instruct
+2025-11-03 23:10:29,363 - INFO - Claim: “The Ondo state governor drew more than 1.2 billion security votes in September 2024 in the week of the Edo election.”
+2025-11-03 23:10:30,613 - INFO - API Response Status: 200
+2025-11-03 23:10:30,613 - INFO - Raw model response: {"label": "Not enough information"}
+2025-11-03 23:10:30,613 - INFO - Extracted label: Not enough information -> Normalized: Not enough information
+2025-11-03 23:10:30,613 - INFO - Final prediction: Not enough information
+2025-11-03 23:10:30,614 - INFO - Match: True
+2025-11-03 23:10:31,125 - INFO - 
+================================================================================
+2025-11-03 23:10:31,125 - INFO - Processing item #22
+2025-11-03 23:10:31,126 - INFO - Gold label: refuted -> Refuted
+2025-11-03 23:10:31,126 - INFO - Asking model: qwen2.5-72b-instruct
+2025-11-03 23:10:31,126 - INFO - Claim: 'Zimbabwe's economic grew a steady 3-6%.'
+2025-11-03 23:10:32,403 - INFO - API Response Status: 200
+2025-11-03 23:10:32,403 - INFO - Raw model response: {"label": "Not enough information"}
+2025-11-03 23:10:32,403 - INFO - Extracted label: Not enough information -> Normalized: Not enough information
+2025-11-03 23:10:32,403 - INFO - Final prediction: Not enough information
+2025-11-03 23:10:32,404 - INFO - Match: False
+2025-11-03 23:10:32,907 - INFO - 
+================================================================================
+2025-11-03 23:10:32,908 - INFO - Processing item #23
+2025-11-03 23:10:32,908 - INFO - Gold label: refuted -> Refuted
+2025-11-03 23:10:32,908 - INFO - Asking model: qwen2.5-72b-instruct
+2025-11-03 23:10:32,908 - INFO - Claim: 'First-ever snowfall on record in the Al-Jouf (or Al-Jawf) desert in Saudi Arabia occurred in early November 2024.'
+2025-11-03 23:10:34,276 - INFO - API Response Status: 200
+2025-11-03 23:10:34,276 - INFO - Raw model response: {"label": "Not enough information"}
+2025-11-03 23:10:34,276 - INFO - Extracted label: Not enough information -> Normalized: Not enough information
+2025-11-03 23:10:34,277 - INFO - Final prediction: Not enough information
+2025-11-03 23:10:34,277 - INFO - Match: False
+2025-11-03 23:10:34,791 - INFO - 
+================================================================================
+2025-11-03 23:10:34,791 - INFO - Processing item #24
+2025-11-03 23:10:34,791 - INFO - Gold label: misleading -> Misleading
+2025-11-03 23:10:34,791 - INFO - Asking model: qwen2.5-72b-instruct
+2025-11-03 23:10:34,791 - INFO - Claim: 'A pre-marked dot on the U.S. election ballot makes the vote void.'
+2025-11-03 23:10:36,074 - INFO - API Response Status: 200
+2025-11-03 23:10:36,075 - INFO - Raw model response: {"label": "Not enough information"}
+2025-11-03 23:10:36,075 - INFO - Extracted label: Not enough information -> Normalized: Not enough information
+2025-11-03 23:10:36,075 - INFO - Final prediction: Not enough information
+2025-11-03 23:10:36,075 - INFO - Match: False
+2025-11-03 23:10:36,582 - INFO - 
+================================================================================
+2025-11-03 23:10:36,582 - INFO - Processing item #25
+2025-11-03 23:10:36,582 - INFO - Gold label: misleading -> Misleading
+2025-11-03 23:10:36,582 - INFO - Asking model: qwen2.5-72b-instruct
+2025-11-03 23:10:36,582 - INFO - Claim: '"These [Moldovan presidential] elections were neither democratic nor fair. They were full of electoral manipulations."'
+2025-11-03 23:10:37,831 - INFO - API Response Status: 200
+2025-11-03 23:10:37,831 - INFO - Raw model response: {"label": "Not enough information"}
+2025-11-03 23:10:37,831 - INFO - Extracted label: Not enough information -> Normalized: Not enough information
+2025-11-03 23:10:37,831 - INFO - Final prediction: Not enough information
+2025-11-03 23:10:37,832 - INFO - Match: False
+2025-11-03 23:10:38,342 - INFO - 
+================================================================================
+2025-11-03 23:10:38,342 - INFO - Processing item #26
+2025-11-03 23:10:38,342 - INFO - Gold label: refuted -> Refuted
+2025-11-03 23:10:38,342 - INFO - Asking model: qwen2.5-72b-instruct
+2025-11-03 23:10:38,342 - INFO - Claim: 'Impact of human-induced CO2 is insignificant when compared to natural climate variations.'
+2025-11-03 23:10:39,715 - INFO - API Response Status: 200
+2025-11-03 23:10:39,715 - INFO - Raw model response: {"label": "Refuted"}
+2025-11-03 23:10:39,716 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2025-11-03 23:10:39,716 - INFO - Final prediction: Refuted
+2025-11-03 23:10:39,716 - INFO - Match: True
+2025-11-03 23:10:40,221 - INFO - 
+================================================================================
+2025-11-03 23:10:40,221 - INFO - Processing item #27
+2025-11-03 23:10:40,221 - INFO - Gold label: misleading -> Misleading
+2025-11-03 23:10:40,221 - INFO - Asking model: qwen2.5-72b-instruct
+2025-11-03 23:10:40,221 - INFO - Claim: 'George Soros and Bill Gates owned Mologic Ltd, a company producing rapid COVID-19 tests, prior to the pandemic.'
+2025-11-03 23:10:41,425 - INFO - API Response Status: 200
+2025-11-03 23:10:41,425 - INFO - Raw model response: {"label": "Refuted"}
+2025-11-03 23:10:41,425 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2025-11-03 23:10:41,427 - INFO - Final prediction: Refuted
+2025-11-03 23:10:41,427 - INFO - Match: False
+2025-11-03 23:10:41,944 - INFO - 
+================================================================================
+2025-11-03 23:10:41,944 - INFO - Processing item #28
+2025-11-03 23:10:41,944 - INFO - Gold label: refuted -> Refuted
+2025-11-03 23:10:41,944 - INFO - Asking model: qwen2.5-72b-instruct
+2025-11-03 23:10:41,944 - INFO - Claim: 'Japan named COVID-19 mRNA vaccine the 'deadliest drug in history''
+2025-11-03 23:10:43,222 - INFO - API Response Status: 200
+2025-11-03 23:10:43,223 - INFO - Raw model response: {"label": "Refuted"}
+2025-11-03 23:10:43,223 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2025-11-03 23:10:43,223 - INFO - Final prediction: Refuted
+2025-11-03 23:10:43,223 - INFO - Match: True
+2025-11-03 23:10:43,733 - INFO - 
+================================================================================
+2025-11-03 23:10:43,734 - INFO - Processing item #29
+2025-11-03 23:10:43,735 - INFO - Gold label: misleading -> Misleading
+2025-11-03 23:10:43,735 - INFO - Asking model: qwen2.5-72b-instruct
+2025-11-03 23:10:43,735 - INFO - Claim: “Rather than respecting her dignity and focusing on the mental health challenges she was facing, these groups saw an opportunity to fuel their anti-government agenda.”
+2025-11-03 23:10:45,213 - INFO - API Response Status: 200
+2025-11-03 23:10:45,213 - INFO - Raw model response: {"label": "Not enough information"}
+2025-11-03 23:10:45,213 - INFO - Extracted label: Not enough information -> Normalized: Not enough information
+2025-11-03 23:10:45,214 - INFO - Final prediction: Not enough information
+2025-11-03 23:10:45,214 - INFO - Match: False
+2025-11-03 23:10:45,728 - INFO - 
+================================================================================
+2025-11-03 23:10:45,728 - INFO - Processing item #30
+2025-11-03 23:10:45,728 - INFO - Gold label: refuted -> Refuted
+2025-11-03 23:10:45,728 - INFO - Asking model: qwen2.5-72b-instruct
+2025-11-03 23:10:45,728 - INFO - Claim: 'Swiss church is having confessions heard by ‘AI Jesus’'
+2025-11-03 23:10:47,003 - INFO - API Response Status: 200
+2025-11-03 23:10:47,004 - INFO - Raw model response: {"label": "Not enough information"}
+2025-11-03 23:10:47,004 - INFO - Extracted label: Not enough information -> Normalized: Not enough information
+2025-11-03 23:10:47,004 - INFO - Final prediction: Not enough information
+2025-11-03 23:10:47,004 - INFO - Match: False
+2025-11-03 23:10:47,508 - INFO - 
+================================================================================
+2025-11-03 23:10:47,508 - INFO - Processing item #31
+2025-11-03 23:10:47,508 - INFO - Gold label: refuted -> Refuted
+2025-11-03 23:10:47,508 - INFO - Asking model: qwen2.5-72b-instruct
+2025-11-03 23:10:47,508 - INFO - Claim: 'Cow farts [methane emissions from cattle] are blamed for climate change, but there are bigger issues like people burning millions of tires in the deserts of Kuwait.'
+2025-11-03 23:10:48,938 - INFO - API Response Status: 200
+2025-11-03 23:10:48,938 - INFO - Raw model response: {"label": "Misleading"}
+2025-11-03 23:10:48,938 - INFO - Extracted label: Misleading -> Normalized: Misleading
+2025-11-03 23:10:48,938 - INFO - Final prediction: Misleading
+2025-11-03 23:10:48,939 - INFO - Match: False
+2025-11-03 23:10:49,441 - INFO - 
+================================================================================
+2025-11-03 23:10:49,441 - INFO - Processing item #32
+2025-11-03 23:10:49,441 - INFO - Gold label: refuted -> Refuted
+2025-11-03 23:10:49,441 - INFO - Asking model: qwen2.5-72b-instruct
+2025-11-03 23:10:49,441 - INFO - Claim: 'New study shows that climate change is greatly overestimated because oceans are cooling Earth far more than we thought.'
+2025-11-03 23:10:50,687 - INFO - API Response Status: 200
+2025-11-03 23:10:50,687 - INFO - Raw model response: {"label": "Refuted"}
+2025-11-03 23:10:50,687 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2025-11-03 23:10:50,688 - INFO - Final prediction: Refuted
+2025-11-03 23:10:50,688 - INFO - Match: True
+2025-11-03 23:10:51,205 - INFO - 
+================================================================================
+2025-11-03 23:10:51,205 - INFO - Processing item #33
+2025-11-03 23:10:51,205 - INFO - Gold label: misleading -> Misleading
+2025-11-03 23:10:51,205 - INFO - Asking model: qwen2.5-72b-instruct
+2025-11-03 23:10:51,205 - INFO - Claim: 'The UK government is to fund “Bill Gates’ geoengineering experiments” to explore combatting global warming by cooling the earth.'
+2025-11-03 23:10:52,491 - INFO - API Response Status: 200
+2025-11-03 23:10:52,493 - INFO - Raw model response: {"label": "Not enough information"}
+2025-11-03 23:10:52,493 - INFO - Extracted label: Not enough information -> Normalized: Not enough information
+2025-11-03 23:10:52,495 - INFO - Final prediction: Not enough information
+2025-11-03 23:10:52,496 - INFO - Match: False
+2025-11-03 23:10:53,001 - INFO - 
+================================================================================
+2025-11-03 23:10:53,001 - INFO - Processing item #34
+2025-11-03 23:10:53,001 - INFO - Gold label: refuted -> Refuted
+2025-11-03 23:10:53,001 - INFO - Asking model: qwen2.5-72b-instruct
+2025-11-03 23:10:53,001 - INFO - Claim: 'Indian election commission said opposition candidate got 0 votes'
+2025-11-03 23:10:54,331 - INFO - API Response Status: 200
+2025-11-03 23:10:54,331 - INFO - Raw model response: {"label": "Not enough information"}
+2025-11-03 23:10:54,331 - INFO - Extracted label: Not enough information -> Normalized: Not enough information
+2025-11-03 23:10:54,332 - INFO - Final prediction: Not enough information
+2025-11-03 23:10:54,332 - INFO - Match: False
+2025-11-03 23:10:54,845 - INFO - 
+================================================================================
+2025-11-03 23:10:54,845 - INFO - Processing item #35
+2025-11-03 23:10:54,845 - INFO - Gold label: refuted -> Refuted
+2025-11-03 23:10:54,845 - INFO - Asking model: qwen2.5-72b-instruct
+2025-11-03 23:10:54,845 - INFO - Claim: 'India Today magazine's cover dated Nov 23 featured Rahul Gandhi with a title: "Maha-Raja of Mishap" after Congress defeat in Maharashtra elections.'
+2025-11-03 23:10:56,264 - INFO - API Response Status: 200
+2025-11-03 23:10:56,264 - INFO - Raw model response: {"label": "Not enough information"}
+2025-11-03 23:10:56,264 - INFO - Extracted label: Not enough information -> Normalized: Not enough information
+2025-11-03 23:10:56,264 - INFO - Final prediction: Not enough information
+2025-11-03 23:10:56,264 - INFO - Match: False
+2025-11-03 23:10:56,767 - INFO - 
+================================================================================
+2025-11-03 23:10:56,767 - INFO - Processing item #36
+2025-11-03 23:10:56,767 - INFO - Gold label: refuted -> Refuted
+2025-11-03 23:10:56,767 - INFO - Asking model: qwen2.5-72b-instruct
+2025-11-03 23:10:56,767 - INFO - Claim: 'Recurring ear infections in children are a vaccine side effect.'
+2025-11-03 23:10:58,070 - INFO - API Response Status: 200
+2025-11-03 23:10:58,070 - INFO - Raw model response: {"label": "Not enough information"}
+2025-11-03 23:10:58,070 - INFO - Extracted label: Not enough information -> Normalized: Not enough information
+2025-11-03 23:10:58,072 - INFO - Final prediction: Not enough information
+2025-11-03 23:10:58,072 - INFO - Match: False
+2025-11-03 23:10:58,575 - INFO - 
+================================================================================
+2025-11-03 23:10:58,575 - INFO - Processing item #37
+2025-11-03 23:10:58,575 - INFO - Gold label: not enough information -> Not enough information
+2025-11-03 23:10:58,575 - INFO - Asking model: qwen2.5-72b-instruct
+2025-11-03 23:10:58,575 - INFO - Claim: 'Hunter Biden was "singled out" and "unfairly" prosecuted "only because he is my son."'
+2025-11-03 23:10:59,876 - INFO - API Response Status: 200
+2025-11-03 23:10:59,876 - INFO - Raw model response: {"label": "Not enough information"}
+2025-11-03 23:10:59,876 - INFO - Extracted label: Not enough information -> Normalized: Not enough information
+2025-11-03 23:10:59,878 - INFO - Final prediction: Not enough information
+2025-11-03 23:10:59,878 - INFO - Match: True
+2025-11-03 23:11:00,392 - INFO - 
+================================================================================
+2025-11-03 23:11:00,392 - INFO - Processing item #38
+2025-11-03 23:11:00,392 - INFO - Gold label: refuted -> Refuted
+2025-11-03 23:11:00,392 - INFO - Asking model: qwen2.5-72b-instruct
+2025-11-03 23:11:00,392 - INFO - Claim: 'North Maluku politician will give out financial aid after winning election.'
+2025-11-03 23:11:01,686 - INFO - API Response Status: 200
+2025-11-03 23:11:01,686 - INFO - Raw model response: {"label": "Not enough information"}
+2025-11-03 23:11:01,686 - INFO - Extracted label: Not enough information -> Normalized: Not enough information
+2025-11-03 23:11:01,687 - INFO - Final prediction: Not enough information
+2025-11-03 23:11:01,687 - INFO - Match: False
+2025-11-03 23:11:02,204 - INFO - 
+================================================================================
+2025-11-03 23:11:02,205 - INFO - Processing item #39
+2025-11-03 23:11:02,205 - INFO - Gold label: refuted -> Refuted
+2025-11-03 23:11:02,205 - INFO - Asking model: qwen2.5-72b-instruct
+2025-11-03 23:11:02,205 - INFO - Claim: 'Vaccine researcher warned ‘multiple viruses will be unleashed’ in January'
+2025-11-03 23:11:03,533 - INFO - API Response Status: 200
+2025-11-03 23:11:03,533 - INFO - Raw model response: {"label": "Not enough information"}
+2025-11-03 23:11:03,533 - INFO - Extracted label: Not enough information -> Normalized: Not enough information
+2025-11-03 23:11:03,534 - INFO - Final prediction: Not enough information
+2025-11-03 23:11:03,534 - INFO - Match: False
+2025-11-03 23:11:04,050 - INFO - 
+================================================================================
+2025-11-03 23:11:04,050 - INFO - Processing item #40
+2025-11-03 23:11:04,050 - INFO - Gold label: refuted -> Refuted
+2025-11-03 23:11:04,050 - INFO - Asking model: qwen2.5-72b-instruct
+2025-11-03 23:11:04,050 - INFO - Claim: 'Kurt Russell quote saying Biden cheated election'
+2025-11-03 23:11:05,324 - INFO - API Response Status: 200
+2025-11-03 23:11:05,324 - INFO - Raw model response: {"label": "Not enough information"}
+2025-11-03 23:11:05,324 - INFO - Extracted label: Not enough information -> Normalized: Not enough information
+2025-11-03 23:11:05,325 - INFO - Final prediction: Not enough information
+2025-11-03 23:11:05,325 - INFO - Match: False
+2025-11-03 23:11:05,833 - INFO - 
+================================================================================
+2025-11-03 23:11:05,833 - INFO - Processing item #41
+2025-11-03 23:11:05,833 - INFO - Gold label: refuted -> Refuted
+2025-11-03 23:11:05,833 - INFO - Asking model: qwen2.5-72b-instruct
+2025-11-03 23:11:05,834 - INFO - Claim: 'Jason Momoa Said He Is Leaving the U.S. In Response To The 2024 U.S. Presidential Election Results'
+2025-11-03 23:11:07,726 - INFO - API Response Status: 200
+2025-11-03 23:11:07,726 - INFO - Raw model response: {"label": "Not enough information"}
+2025-11-03 23:11:07,726 - INFO - Extracted label: Not enough information -> Normalized: Not enough information
+2025-11-03 23:11:07,726 - INFO - Final prediction: Not enough information
+2025-11-03 23:11:07,727 - INFO - Match: False
+2025-11-03 23:11:08,234 - INFO - 
+================================================================================
+2025-11-03 23:11:08,234 - INFO - Processing item #42
+2025-11-03 23:11:08,234 - INFO - Gold label: refuted -> Refuted
+2025-11-03 23:11:08,234 - INFO - Asking model: qwen2.5-72b-instruct
+2025-11-03 23:11:08,234 - INFO - Claim: 'Dr. Anthony Fauci said that 72 mandatory childhood vaccines were never safety tested.'
+2025-11-03 23:11:10,149 - INFO - API Response Status: 200
+2025-11-03 23:11:10,149 - INFO - Raw model response: {"label": "Refuted"}
+2025-11-03 23:11:10,149 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2025-11-03 23:11:10,150 - INFO - Final prediction: Refuted
+2025-11-03 23:11:10,150 - INFO - Match: True
+2025-11-03 23:11:10,659 - INFO - 
+================================================================================
+2025-11-03 23:11:10,659 - INFO - Processing item #43
+2025-11-03 23:11:10,659 - INFO - Gold label: refuted -> Refuted
+2025-11-03 23:11:10,659 - INFO - Asking model: qwen2.5-72b-instruct
+2025-11-03 23:11:10,659 - INFO - Claim: “Ivermectin is a treatment after Covid and after vaccination, it is an effective medicine in all phases of Covid 19.”
+2025-11-03 23:11:12,191 - INFO - API Response Status: 200
+2025-11-03 23:11:12,191 - INFO - Raw model response: {"label": "Misleading"}
+2025-11-03 23:11:12,191 - INFO - Extracted label: Misleading -> Normalized: Misleading
+2025-11-03 23:11:12,191 - INFO - Final prediction: Misleading
+2025-11-03 23:11:12,192 - INFO - Match: False
+2025-11-03 23:11:12,707 - INFO - 
+================================================================================
+2025-11-03 23:11:12,707 - INFO - Processing item #44
+2025-11-03 23:11:12,707 - INFO - Gold label: refuted -> Refuted
+2025-11-03 23:11:12,707 - INFO - Asking model: qwen2.5-72b-instruct
+2025-11-03 23:11:12,707 - INFO - Claim: 'RFK Jr's only statement on vaccines is that they need to be studied.'
+2025-11-03 23:11:14,050 - INFO - API Response Status: 200
+2025-11-03 23:11:14,050 - INFO - Raw model response: {"label": "Not enough information"}
+2025-11-03 23:11:14,050 - INFO - Extracted label: Not enough information -> Normalized: Not enough information
+2025-11-03 23:11:14,053 - INFO - Final prediction: Not enough information
+2025-11-03 23:11:14,054 - INFO - Match: False
+2025-11-03 23:11:14,570 - INFO - 
+================================================================================
+2025-11-03 23:11:14,570 - INFO - Processing item #45
+2025-11-03 23:11:14,570 - INFO - Gold label: refuted -> Refuted
+2025-11-03 23:11:14,570 - INFO - Asking model: qwen2.5-72b-instruct
+2025-11-03 23:11:14,570 - INFO - Claim: New study shows that climate change is greatly overestimated because oceans are cooling Earth far more than we thought
+2025-11-03 23:11:15,970 - INFO - API Response Status: 200
+2025-11-03 23:11:15,970 - INFO - Raw model response: {"label": "Refuted"}
+2025-11-03 23:11:15,970 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2025-11-03 23:11:15,974 - INFO - Final prediction: Refuted
+2025-11-03 23:11:15,975 - INFO - Match: True
+2025-11-03 23:11:16,487 - INFO - 
+================================================================================
+2025-11-03 23:11:16,487 - INFO - Processing item #46
+2025-11-03 23:11:16,487 - INFO - Gold label: refuted -> Refuted
+2025-11-03 23:11:16,487 - INFO - Asking model: qwen2.5-72b-instruct
+2025-11-03 23:11:16,487 - INFO - Claim: 'Facebook users must post a statement on their profiles to bar Meta and its generative artificial intelligence (AI) models from using their “photos, information, messages or posts, past or future.”'
+2025-11-03 23:11:18,022 - INFO - API Response Status: 200
+2025-11-03 23:11:18,022 - INFO - Raw model response: {"label": "Misleading"}
+2025-11-03 23:11:18,022 - INFO - Extracted label: Misleading -> Normalized: Misleading
+2025-11-03 23:11:18,024 - INFO - Final prediction: Misleading
+2025-11-03 23:11:18,024 - INFO - Match: False
+2025-11-03 23:11:18,541 - INFO - 
+================================================================================
+2025-11-03 23:11:18,541 - INFO - Processing item #47
+2025-11-03 23:11:18,541 - INFO - Gold label: refuted -> Refuted
+2025-11-03 23:11:18,541 - INFO - Asking model: qwen2.5-72b-instruct
+2025-11-03 23:11:18,541 - INFO - Claim: “79.4% of babies who die of SIDS had a vaccine the same day”
+2025-11-03 23:11:19,983 - INFO - API Response Status: 200
+2025-11-03 23:11:19,983 - INFO - Raw model response: {"label": "Refuted"}
+2025-11-03 23:11:19,984 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2025-11-03 23:11:19,984 - INFO - Final prediction: Refuted
+2025-11-03 23:11:19,984 - INFO - Match: True
+2025-11-03 23:11:20,488 - INFO - 
+================================================================================
+2025-11-03 23:11:20,488 - INFO - Processing item #48
+2025-11-03 23:11:20,488 - INFO - Gold label: refuted -> Refuted
+2025-11-03 23:11:20,488 - INFO - Asking model: qwen2.5-72b-instruct
+2025-11-03 23:11:20,488 - INFO - Claim: 'South African trauma surgeon Dr Vicky Jennings die after suffering a sudden heart attack due to COVID19 vaccine'
+2025-11-03 23:11:21,772 - INFO - API Response Status: 200
+2025-11-03 23:11:21,773 - INFO - Raw model response: {"label": "Not enough information"}
+2025-11-03 23:11:21,774 - INFO - Extracted label: Not enough information -> Normalized: Not enough information
+2025-11-03 23:11:21,775 - INFO - Final prediction: Not enough information
+2025-11-03 23:11:21,775 - INFO - Match: False
+2025-11-03 23:11:22,280 - INFO - 
+================================================================================
+2025-11-03 23:11:22,280 - INFO - Processing item #49
+2025-11-03 23:11:22,280 - INFO - Gold label: refuted -> Refuted
+2025-11-03 23:11:22,280 - INFO - Asking model: qwen2.5-72b-instruct
+2025-11-03 23:11:22,280 - INFO - Claim: 'Australian officials have warned that vaccine-linked turbo cancers will kill billions.'
+2025-11-03 23:11:23,624 - INFO - API Response Status: 200
+2025-11-03 23:11:23,624 - INFO - Raw model response: {"label": "Refuted"}
+2025-11-03 23:11:23,624 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2025-11-03 23:11:23,624 - INFO - Final prediction: Refuted
+2025-11-03 23:11:23,624 - INFO - Match: True
+2025-11-03 23:11:24,132 - INFO - 
+================================================================================
+2025-11-03 23:11:24,132 - INFO - Processing item #50
+2025-11-03 23:11:24,132 - INFO - Gold label: refuted -> Refuted
+2025-11-03 23:11:24,132 - INFO - Asking model: qwen2.5-72b-instruct
+2025-11-03 23:11:24,132 - INFO - Claim: 'Michelle Obama has urged Congress to recount election votes saying that the 2024 presidential election result was influenced by ‘Russian disinformation’.'
+2025-11-03 23:11:25,390 - INFO - API Response Status: 200
+2025-11-03 23:11:25,390 - INFO - Raw model response: {"label": "Not enough information"}
+2025-11-03 23:11:25,390 - INFO - Extracted label: Not enough information -> Normalized: Not enough information
+2025-11-03 23:11:25,390 - INFO - Final prediction: Not enough information
+2025-11-03 23:11:25,390 - INFO - Match: False
+2025-11-03 23:11:25,903 - INFO - 
+================================================================================
+2025-11-03 23:11:25,903 - INFO - Processing item #51
+2025-11-03 23:11:25,903 - INFO - Gold label: misleading -> Misleading
+2025-11-03 23:11:25,903 - INFO - Asking model: qwen2.5-72b-instruct
+2025-11-03 23:11:25,904 - INFO - Claim: 'Products from cows fed Bovaer causes health issues in humans'
+2025-11-03 23:11:27,141 - INFO - API Response Status: 200
+2025-11-03 23:11:27,141 - INFO - Raw model response: {"label": "Not enough information"}
+2025-11-03 23:11:27,141 - INFO - Extracted label: Not enough information -> Normalized: Not enough information
+2025-11-03 23:11:27,141 - INFO - Final prediction: Not enough information
+2025-11-03 23:11:27,142 - INFO - Match: False
+2025-11-03 23:11:27,658 - INFO - 
+================================================================================
+2025-11-03 23:11:27,658 - INFO - Processing item #52
+2025-11-03 23:11:27,658 - INFO - Gold label: refuted -> Refuted
+2025-11-03 23:11:27,658 - INFO - Asking model: qwen2.5-72b-instruct
+2025-11-03 23:11:27,658 - INFO - Claim: 'Oprah Winfrey Said She Is Leaving The US Over The 2024 Presidential Election Results'
+2025-11-03 23:11:29,156 - INFO - API Response Status: 200
+2025-11-03 23:11:29,156 - INFO - Raw model response: {"label": "Not enough information"}
+2025-11-03 23:11:29,156 - INFO - Extracted label: Not enough information -> Normalized: Not enough information
+2025-11-03 23:11:29,157 - INFO - Final prediction: Not enough information
+2025-11-03 23:11:29,158 - INFO - Match: False
+2025-11-03 23:11:29,669 - INFO - 
+================================================================================
+2025-11-03 23:11:29,669 - INFO - Processing item #53
+2025-11-03 23:11:29,669 - INFO - Gold label: misleading -> Misleading
+2025-11-03 23:11:29,669 - INFO - Asking model: qwen2.5-72b-instruct
+2025-11-03 23:11:29,669 - INFO - Claim: 'Lok Sabha passed bills related ‘One Nation, One Election’ on December 17, 2024.'
+2025-11-03 23:11:30,877 - INFO - API Response Status: 200
+2025-11-03 23:11:30,877 - INFO - Raw model response: {"label": "Not enough information"}
+2025-11-03 23:11:30,877 - INFO - Extracted label: Not enough information -> Normalized: Not enough information
+2025-11-03 23:11:30,878 - INFO - Final prediction: Not enough information
+2025-11-03 23:11:30,879 - INFO - Match: False
+2025-11-03 23:11:31,394 - INFO - 
+================================================================================
+2025-11-03 23:11:31,394 - INFO - Processing item #54
+2025-11-03 23:11:31,394 - INFO - Gold label: supported -> Supported
+2025-11-03 23:11:31,394 - INFO - Asking model: qwen2.5-72b-instruct
+2025-11-03 23:11:31,394 - INFO - Claim: 'Government shutdowns in 2013 and 2018 “cost our economy billions of dollars each.”'
+2025-11-03 23:11:32,670 - INFO - API Response Status: 200
+2025-11-03 23:11:32,670 - INFO - Raw model response: {"label": "Supported"}
+2025-11-03 23:11:32,670 - INFO - Extracted label: Supported -> Normalized: Supported
+2025-11-03 23:11:32,671 - INFO - Final prediction: Supported
+2025-11-03 23:11:32,672 - INFO - Match: True
+2025-11-03 23:11:33,177 - INFO - 
+================================================================================
+2025-11-03 23:11:33,177 - INFO - Processing item #55
+2025-11-03 23:11:33,177 - INFO - Gold label: refuted -> Refuted
+2025-11-03 23:11:33,177 - INFO - Asking model: qwen2.5-72b-instruct
+2025-11-03 23:11:33,177 - INFO - Claim: 'The CEO of BioNTech, which developed a COVID-19 vaccine with Pfizer, did not get vaccinated.'
+2025-11-03 23:11:34,637 - INFO - API Response Status: 200
+2025-11-03 23:11:34,637 - INFO - Raw model response: {"label": "Not enough information"}
+2025-11-03 23:11:34,637 - INFO - Extracted label: Not enough information -> Normalized: Not enough information
+2025-11-03 23:11:34,638 - INFO - Final prediction: Not enough information
+2025-11-03 23:11:34,638 - INFO - Match: False
+2025-11-03 23:11:35,150 - INFO - 
+================================================================================
+2025-11-03 23:11:35,150 - INFO - Processing item #56
+2025-11-03 23:11:35,150 - INFO - Gold label: refuted -> Refuted
+2025-11-03 23:11:35,150 - INFO - Asking model: qwen2.5-72b-instruct
+2025-11-03 23:11:35,150 - INFO - Claim: 'ABP Opinion poll states BJP will win in the upcoming Delhi election.'
+2025-11-03 23:11:36,667 - INFO - API Response Status: 200
+2025-11-03 23:11:36,667 - INFO - Raw model response: {"label": "Not enough information"}
+2025-11-03 23:11:36,667 - INFO - Extracted label: Not enough information -> Normalized: Not enough information
+2025-11-03 23:11:36,668 - INFO - Final prediction: Not enough information
+2025-11-03 23:11:36,668 - INFO - Match: False
+2025-11-03 23:11:37,184 - INFO - 
+================================================================================
+2025-11-03 23:11:37,184 - INFO - Processing item #57
+2025-11-03 23:11:37,185 - INFO - Gold label: refuted -> Refuted
+2025-11-03 23:11:37,185 - INFO - Asking model: qwen2.5-72b-instruct
+2025-11-03 23:11:37,185 - INFO - Claim: 'S. Korea's National Election Commission's falsehoods were revealed in court'
+2025-11-03 23:11:38,694 - INFO - API Response Status: 200
+2025-11-03 23:11:38,694 - INFO - Raw model response: {"label": "Not enough information"}
+2025-11-03 23:11:38,694 - INFO - Extracted label: Not enough information -> Normalized: Not enough information
+2025-11-03 23:11:38,694 - INFO - Final prediction: Not enough information
+2025-11-03 23:11:38,694 - INFO - Match: False
+2025-11-03 23:11:39,200 - INFO - 
+================================================================================
+2025-11-03 23:11:39,200 - INFO - Processing item #58
+2025-11-03 23:11:39,200 - INFO - Gold label: refuted -> Refuted
+2025-11-03 23:11:39,200 - INFO - Asking model: qwen2.5-72b-instruct
+2025-11-03 23:11:39,200 - INFO - Claim: 'A Centers for Disease Control and Prevention study finds children who received the Pfizer covid vaccine are more likely to get covid infection than unvaccinated.'
+2025-11-03 23:11:40,447 - INFO - API Response Status: 200
+2025-11-03 23:11:40,447 - INFO - Raw model response: {"label": "Refuted"}
+2025-11-03 23:11:40,447 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2025-11-03 23:11:40,447 - INFO - Final prediction: Refuted
+2025-11-03 23:11:40,448 - INFO - Match: True
+2025-11-03 23:11:40,963 - INFO - 
+================================================================================
+2025-11-03 23:11:40,963 - INFO - Processing item #59
+2025-11-03 23:11:40,963 - INFO - Gold label: refuted -> Refuted
+2025-11-03 23:11:40,963 - INFO - Asking model: qwen2.5-72b-instruct
+2025-11-03 23:11:40,963 - INFO - Claim: '22 states failed to upload their Electoral College certifications, which are needed to certify election results on January 6, 2025.'
+2025-11-03 23:11:42,184 - INFO - API Response Status: 200
+2025-11-03 23:11:42,185 - INFO - Raw model response: {"label": "Not enough information"}
+2025-11-03 23:11:42,185 - INFO - Extracted label: Not enough information -> Normalized: Not enough information
+2025-11-03 23:11:42,185 - INFO - Final prediction: Not enough information
+2025-11-03 23:11:42,185 - INFO - Match: False
+2025-11-03 23:11:42,701 - INFO - 
+================================================================================
+2025-11-03 23:11:42,701 - INFO - Processing item #60
+2025-11-03 23:11:42,701 - INFO - Gold label: misleading -> Misleading
+2025-11-03 23:11:42,701 - INFO - Asking model: qwen2.5-72b-instruct
+2025-11-03 23:11:42,701 - INFO - Claim: “Mysterious virus HMPV reported in China!”
+2025-11-03 23:11:44,038 - INFO - API Response Status: 200
+2025-11-03 23:11:44,038 - INFO - Raw model response: {"label": "Not enough information"}
+2025-11-03 23:11:44,038 - INFO - Extracted label: Not enough information -> Normalized: Not enough information
+2025-11-03 23:11:44,038 - INFO - Final prediction: Not enough information
+2025-11-03 23:11:44,038 - INFO - Match: False
+2025-11-03 23:11:44,549 - INFO - 
+================================================================================
+2025-11-03 23:11:44,549 - INFO - Processing item #61
+2025-11-03 23:11:44,549 - INFO - Gold label: refuted -> Refuted
+2025-11-03 23:11:44,549 - INFO - Asking model: qwen2.5-72b-instruct
+2025-11-03 23:11:44,549 - INFO - Claim: Coal plant construction shows CO2 doesn't cause climate change
+2025-11-03 23:11:45,844 - INFO - API Response Status: 200
+2025-11-03 23:11:45,844 - INFO - Raw model response: {"label": "Misleading"}
+2025-11-03 23:11:45,844 - INFO - Extracted label: Misleading -> Normalized: Misleading
+2025-11-03 23:11:45,845 - INFO - Final prediction: Misleading
+2025-11-03 23:11:45,845 - INFO - Match: False
+2025-11-03 23:11:46,361 - INFO - Processed 62 items in 116.19 seconds (0.53 items/sec)
+2025-11-03 23:11:46,362 - INFO - Invalid outputs: 0
+2025-11-03 23:11:46,362 - INFO - Saving predictions to ClaimReviewPlus\unseen\predictions.csv
+2025-11-03 23:11:46,364 - INFO - Computing metrics on 62 valid predictions (out of 62 total)
+2025-11-03 23:11:46,369 - INFO - Accuracy: 0.3065
+2025-11-03 23:11:46,369 - INFO - Macro F1: 0.4276
+2025-11-03 23:11:46,369 - INFO - Macro Precision: 0.5310
+2025-11-03 23:11:46,369 - INFO - Macro Recall: 0.5893
+2025-11-03 23:11:46,369 - INFO - 
+Per-label metrics:
+2025-11-03 23:11:46,369 - INFO -   Supported:
+2025-11-03 23:11:46,369 - INFO -     Precision: 1.0000
+2025-11-03 23:11:46,369 - INFO -     Recall: 1.0000
+2025-11-03 23:11:46,369 - INFO -     F1: 1.0000
+2025-11-03 23:11:46,369 - INFO -     Support: 2
+2025-11-03 23:11:46,369 - INFO -   Refuted:
+2025-11-03 23:11:46,369 - INFO -     Precision: 0.8571
+2025-11-03 23:11:46,369 - INFO -     Recall: 0.2857
+2025-11-03 23:11:46,369 - INFO -     F1: 0.4286
+2025-11-03 23:11:46,369 - INFO -     Support: 42
+2025-11-03 23:11:46,369 - INFO -   Misleading:
+2025-11-03 23:11:46,369 - INFO -     Precision: 0.1667
+2025-11-03 23:11:46,369 - INFO -     Recall: 0.0714
+2025-11-03 23:11:46,369 - INFO -     F1: 0.1000
+2025-11-03 23:11:46,370 - INFO -     Support: 14
+2025-11-03 23:11:46,370 - INFO -   Not enough information:
+2025-11-03 23:11:46,370 - INFO -     Precision: 0.1000
+2025-11-03 23:11:46,370 - INFO -     Recall: 1.0000
+2025-11-03 23:11:46,370 - INFO -     F1: 0.1818
+2025-11-03 23:11:46,370 - INFO -     Support: 4
+2025-11-03 23:11:46,370 - INFO - Saving metrics to ClaimReviewPlus\unseen\metrics.json
+2025-11-03 23:11:46,372 - INFO - Generating visualizations...
+2025-11-03 23:11:46,588 - INFO - Confusion matrix saved to ClaimReviewPlus\unseen\confusion_matrix.png
+2025-11-03 23:11:46,735 - INFO - Per-label accuracy plot saved to ClaimReviewPlus\unseen\per_label_accuracy.png
+2025-11-03 23:11:46,891 - INFO - Label distribution plot saved to ClaimReviewPlus\unseen\label_distribution.png
+2025-11-03 23:11:46,891 - INFO - ============================================================
+2025-11-03 23:11:46,891 - INFO - Evaluation completed for UNSEEN data
+2025-11-03 23:11:46,891 - INFO - ============================================================
+
