@@ -1,0 +1,2261 @@
+2025-11-11 16:55:41,829 - INFO - ============================================================
+2025-11-11 16:55:41,830 - INFO - Starting evaluation on SEEN data
+2025-11-11 16:55:41,830 - INFO - Model: grok-3-latest
+2025-11-11 16:55:41,830 - INFO - Results directory: ClaimReviewPlus\seen
+2025-11-11 16:55:41,830 - INFO - ============================================================
+2025-11-11 16:55:41,830 - INFO - Total items to process: 111
+2025-11-11 16:55:41,904 - INFO - 
+================================================================================
+2025-11-11 16:55:41,905 - INFO - Processing item #0
+2025-11-11 16:55:41,905 - INFO - Gold label: not enough information -> Not enough information
+2025-11-11 16:55:41,906 - INFO - Asking model: grok-3-latest
+2025-11-11 16:55:41,906 - INFO - Claim: “We have scaled up our investment in the healthcare workforce [by] employing 20,000 new healthcare workers.”
+2025-11-11 16:55:42,871 - INFO - API Response Status: 400
+2025-11-11 16:55:42,872 - WARNING - API returned non-200 status: 400
+2025-11-11 16:55:42,872 - WARNING - Response body: {
+  "error": {
+    "message": "{\"code\":\"Client specified an invalid argument\",\"error\":\"top_p must be positive but top_p = 0\"}No fallback model group found for original Please contact support at support@avalai.ir and include the request ID 019a7317-f8f7-77e3-a640-4af83154046c in your email if you believe this is an error.",
+    "type": "invalid_request",
+    "param": null,
+    "code": "invalid_request",
+    "request_id": "019a7317-f8f7-77e3-a640-4af83154046c"
+  }
+}
+2025-11-11 16:55:42,872 - WARNING - Invalid/unparseable response for claim 0 after 3 retries
+2025-11-11 16:55:42,872 - INFO - Final prediction: __INVALID__
+2025-11-11 16:55:42,872 - INFO - Match: False
+2025-11-11 16:55:43,389 - INFO - 
+================================================================================
+2025-11-11 16:55:43,389 - INFO - Processing item #1
+2025-11-11 16:55:43,389 - INFO - Gold label: misleading -> Misleading
+2025-11-11 16:55:43,390 - INFO - Asking model: grok-3-latest
+2025-11-11 16:55:43,390 - INFO - Claim: 'A CNN broadcast captured an Ohio woman placing multiple ballots into a drop box on Election Day.'
+2025-11-11 16:55:44,306 - INFO - API Response Status: 400
+2025-11-11 16:55:44,306 - WARNING - API returned non-200 status: 400
+2025-11-11 16:55:44,306 - WARNING - Response body: {
+  "error": {
+    "message": "{\"code\":\"Client specified an invalid argument\",\"error\":\"top_p must be positive but top_p = 0\"}No fallback model group found for original Please contact support at support@avalai.ir and include the request ID 019a7317-fe9c-78c1-b99d-74ff67b04548 in your email if you believe this is an error.",
+    "type": "invalid_request",
+    "param": null,
+    "code": "invalid_request",
+    "request_id": "019a7317-fe9c-78c1-b99d-74ff67b04548"
+  }
+}
+2025-11-11 16:55:44,307 - WARNING - Invalid/unparseable response for claim 1 after 3 retries
+2025-11-11 16:55:44,307 - INFO - Final prediction: __INVALID__
+2025-11-11 16:55:44,307 - INFO - Match: False
+2025-11-11 16:55:44,817 - INFO - 
+================================================================================
+2025-11-11 16:55:44,817 - INFO - Processing item #2
+2025-11-11 16:55:44,817 - INFO - Gold label: misleading -> Misleading
+2025-11-11 16:55:44,817 - INFO - Asking model: grok-3-latest
+2025-11-11 16:55:44,817 - INFO - Claim: 'Former health minister of Italy under investigation for murder'
+2025-11-11 16:55:45,694 - INFO - API Response Status: 400
+2025-11-11 16:55:45,694 - WARNING - API returned non-200 status: 400
+2025-11-11 16:55:45,695 - WARNING - Response body: {
+  "error": {
+    "message": "{\"code\":\"Client specified an invalid argument\",\"error\":\"top_p must be positive but top_p = 0\"}No fallback model group found for original Please contact support at support@avalai.ir and include the request ID 019a7318-0422-7962-904d-1c32f3fa6575 in your email if you believe this is an error.",
+    "type": "invalid_request",
+    "param": null,
+    "code": "invalid_request",
+    "request_id": "019a7318-0422-7962-904d-1c32f3fa6575"
+  }
+}
+2025-11-11 16:55:45,695 - WARNING - Invalid/unparseable response for claim 2 after 3 retries
+2025-11-11 16:55:45,695 - INFO - Final prediction: __INVALID__
+2025-11-11 16:55:45,695 - INFO - Match: False
+2025-11-11 16:55:46,202 - INFO - 
+================================================================================
+2025-11-11 16:55:46,202 - INFO - Processing item #3
+2025-11-11 16:55:46,202 - INFO - Gold label: misleading -> Misleading
+2025-11-11 16:55:46,202 - INFO - Asking model: grok-3-latest
+2025-11-11 16:55:46,202 - INFO - Claim: 'Former Italian health minister facing murder charges over COVID-19 vaccines'
+2025-11-11 16:55:47,055 - INFO - API Response Status: 400
+2025-11-11 16:55:47,056 - WARNING - API returned non-200 status: 400
+2025-11-11 16:55:47,056 - WARNING - Response body: {
+  "error": {
+    "message": "{\"code\":\"Client specified an invalid argument\",\"error\":\"top_p must be positive but top_p = 0\"}No fallback model group found for original Please contact support at support@avalai.ir and include the request ID 019a7318-098a-7d02-a2e9-6aa2cf5625d9 in your email if you believe this is an error.",
+    "type": "invalid_request",
+    "param": null,
+    "code": "invalid_request",
+    "request_id": "019a7318-098a-7d02-a2e9-6aa2cf5625d9"
+  }
+}
+2025-11-11 16:55:47,056 - WARNING - Invalid/unparseable response for claim 3 after 3 retries
+2025-11-11 16:55:47,056 - INFO - Final prediction: __INVALID__
+2025-11-11 16:55:47,056 - INFO - Match: False
+2025-11-11 16:55:47,565 - INFO - 
+================================================================================
+2025-11-11 16:55:47,565 - INFO - Processing item #4
+2025-11-11 16:55:47,565 - INFO - Gold label: not enough information -> Not enough information
+2025-11-11 16:55:47,566 - INFO - Asking model: grok-3-latest
+2025-11-11 16:55:47,566 - INFO - Claim: “There are more cases of food insecurity and hunger in South Africa today than there were in 1994.”
+2025-11-11 16:55:48,391 - INFO - API Response Status: 400
+2025-11-11 16:55:48,392 - WARNING - API returned non-200 status: 400
+2025-11-11 16:55:48,392 - WARNING - Response body: {
+  "error": {
+    "message": "{\"code\":\"Client specified an invalid argument\",\"error\":\"top_p must be positive but top_p = 0\"}No fallback model group found for original Please contact support at support@avalai.ir and include the request ID 019a7318-0efe-70a0-b778-03942e59c1c8 in your email if you believe this is an error.",
+    "type": "invalid_request",
+    "param": null,
+    "code": "invalid_request",
+    "request_id": "019a7318-0efe-70a0-b778-03942e59c1c8"
+  }
+}
+2025-11-11 16:55:48,392 - WARNING - Invalid/unparseable response for claim 4 after 3 retries
+2025-11-11 16:55:48,393 - INFO - Final prediction: __INVALID__
+2025-11-11 16:55:48,393 - INFO - Match: False
+2025-11-11 16:55:48,903 - INFO - 
+================================================================================
+2025-11-11 16:55:48,903 - INFO - Processing item #5
+2025-11-11 16:55:48,903 - INFO - Gold label: misleading -> Misleading
+2025-11-11 16:55:48,903 - INFO - Asking model: grok-3-latest
+2025-11-11 16:55:48,903 - INFO - Claim: 'Israelis get free US healthcare'
+2025-11-11 16:55:49,688 - INFO - API Response Status: 400
+2025-11-11 16:55:49,689 - WARNING - API returned non-200 status: 400
+2025-11-11 16:55:49,689 - WARNING - Response body: {
+  "error": {
+    "message": "{\"code\":\"Client specified an invalid argument\",\"error\":\"top_p must be positive but top_p = 0\"}No fallback model group found for original Please contact support at support@avalai.ir and include the request ID 019a7318-1411-7e01-ac99-f7b001fe2854 in your email if you believe this is an error.",
+    "type": "invalid_request",
+    "param": null,
+    "code": "invalid_request",
+    "request_id": "019a7318-1411-7e01-ac99-f7b001fe2854"
+  }
+}
+2025-11-11 16:55:49,689 - WARNING - Invalid/unparseable response for claim 5 after 3 retries
+2025-11-11 16:55:49,689 - INFO - Final prediction: __INVALID__
+2025-11-11 16:55:49,689 - INFO - Match: False
+2025-11-11 16:55:50,205 - INFO - 
+================================================================================
+2025-11-11 16:55:50,205 - INFO - Processing item #6
+2025-11-11 16:55:50,205 - INFO - Gold label: supported -> Supported
+2025-11-11 16:55:50,205 - INFO - Asking model: grok-3-latest
+2025-11-11 16:55:50,205 - INFO - Claim: "(The) top issue for college students is the economy."
+2025-11-11 16:55:51,054 - INFO - API Response Status: 400
+2025-11-11 16:55:51,054 - WARNING - API returned non-200 status: 400
+2025-11-11 16:55:51,054 - WARNING - Response body: {
+  "error": {
+    "message": "{\"code\":\"Client specified an invalid argument\",\"error\":\"top_p must be positive but top_p = 0\"}No fallback model group found for original Please contact support at support@avalai.ir and include the request ID 019a7318-1977-7f83-8337-5f9a468fcd1f in your email if you believe this is an error.",
+    "type": "invalid_request",
+    "param": null,
+    "code": "invalid_request",
+    "request_id": "019a7318-1977-7f83-8337-5f9a468fcd1f"
+  }
+}
+2025-11-11 16:55:51,055 - WARNING - Invalid/unparseable response for claim 6 after 3 retries
+2025-11-11 16:55:51,055 - INFO - Final prediction: __INVALID__
+2025-11-11 16:55:51,055 - INFO - Match: False
+2025-11-11 16:55:51,573 - INFO - 
+================================================================================
+2025-11-11 16:55:51,573 - INFO - Processing item #7
+2025-11-11 16:55:51,573 - INFO - Gold label: misleading -> Misleading
+2025-11-11 16:55:51,574 - INFO - Asking model: grok-3-latest
+2025-11-11 16:55:51,574 - INFO - Claim: 'Maddie de Garay's case shows that COVID-19 vaccines can cause functional neurological disorder and are thus harmful.'
+2025-11-11 16:55:52,489 - INFO - API Response Status: 400
+2025-11-11 16:55:52,490 - WARNING - API returned non-200 status: 400
+2025-11-11 16:55:52,490 - WARNING - Response body: {
+  "error": {
+    "message": "{\"code\":\"Client specified an invalid argument\",\"error\":\"top_p must be positive but top_p = 0\"}No fallback model group found for original Please contact support at support@avalai.ir and include the request ID 019a7318-1e7a-7832-9201-883a785956b2 in your email if you believe this is an error.",
+    "type": "invalid_request",
+    "param": null,
+    "code": "invalid_request",
+    "request_id": "019a7318-1e7a-7832-9201-883a785956b2"
+  }
+}
+2025-11-11 16:55:52,490 - WARNING - Invalid/unparseable response for claim 7 after 3 retries
+2025-11-11 16:55:52,490 - INFO - Final prediction: __INVALID__
+2025-11-11 16:55:52,490 - INFO - Match: False
+2025-11-11 16:55:52,999 - INFO - 
+================================================================================
+2025-11-11 16:55:52,999 - INFO - Processing item #8
+2025-11-11 16:55:52,999 - INFO - Gold label: refuted -> Refuted
+2025-11-11 16:55:52,999 - INFO - Asking model: grok-3-latest
+2025-11-11 16:55:52,999 - INFO - Claim: 'The 2014 Euromaidan protests in Ukraine were a coup'
+2025-11-11 16:55:53,774 - INFO - API Response Status: 400
+2025-11-11 16:55:53,774 - WARNING - API returned non-200 status: 400
+2025-11-11 16:55:53,774 - WARNING - Response body: {
+  "error": {
+    "message": "{\"code\":\"Client specified an invalid argument\",\"error\":\"top_p must be positive but top_p = 0\"}No fallback model group found for original Please contact support at support@avalai.ir and include the request ID 019a7318-2428-79b2-84ab-2cc20bcfc1ca in your email if you believe this is an error.",
+    "type": "invalid_request",
+    "param": null,
+    "code": "invalid_request",
+    "request_id": "019a7318-2428-79b2-84ab-2cc20bcfc1ca"
+  }
+}
+2025-11-11 16:55:53,774 - WARNING - Invalid/unparseable response for claim 8 after 3 retries
+2025-11-11 16:55:53,774 - INFO - Final prediction: __INVALID__
+2025-11-11 16:55:53,774 - INFO - Match: False
+2025-11-11 16:55:54,289 - INFO - 
+================================================================================
+2025-11-11 16:55:54,289 - INFO - Processing item #9
+2025-11-11 16:55:54,289 - INFO - Gold label: misleading -> Misleading
+2025-11-11 16:55:54,289 - INFO - Asking model: grok-3-latest
+2025-11-11 16:55:54,289 - INFO - Claim: “He [President Donald Trump] did not move on making sure that we dealt with vaccinating the American public. We ended up losing over a million people dead — a million people.”
+2025-11-11 16:55:55,267 - INFO - API Response Status: 400
+2025-11-11 16:55:55,267 - WARNING - API returned non-200 status: 400
+2025-11-11 16:55:55,267 - WARNING - Response body: {
+  "error": {
+    "message": "{\"code\":\"Client specified an invalid argument\",\"error\":\"top_p must be positive but top_p = 0\"}No fallback model group found for original Please contact support at support@avalai.ir and include the request ID 019a7318-293b-7c22-9654-b02b71ca8106 in your email if you believe this is an error.",
+    "type": "invalid_request",
+    "param": null,
+    "code": "invalid_request",
+    "request_id": "019a7318-293b-7c22-9654-b02b71ca8106"
+  }
+}
+2025-11-11 16:55:55,267 - WARNING - Invalid/unparseable response for claim 9 after 3 retries
+2025-11-11 16:55:55,267 - INFO - Final prediction: __INVALID__
+2025-11-11 16:55:55,267 - INFO - Match: False
+2025-11-11 16:55:55,776 - INFO - 
+================================================================================
+2025-11-11 16:55:55,776 - INFO - Processing item #10
+2025-11-11 16:55:55,776 - INFO - Gold label: supported -> Supported
+2025-11-11 16:55:55,776 - INFO - Asking model: grok-3-latest
+2025-11-11 16:55:55,776 - INFO - Claim: 'Under Joe Biden, there are “record numbers of new Black entrepreneurs”'
+2025-11-11 16:55:56,622 - INFO - API Response Status: 400
+2025-11-11 16:55:56,622 - WARNING - API returned non-200 status: 400
+2025-11-11 16:55:56,622 - WARNING - Response body: {
+  "error": {
+    "message": "{\"code\":\"Client specified an invalid argument\",\"error\":\"top_p must be positive but top_p = 0\"}No fallback model group found for original Please contact support at support@avalai.ir and include the request ID 019a7318-2f12-7c42-af6e-88418170cc10 in your email if you believe this is an error.",
+    "type": "invalid_request",
+    "param": null,
+    "code": "invalid_request",
+    "request_id": "019a7318-2f12-7c42-af6e-88418170cc10"
+  }
+}
+2025-11-11 16:55:56,622 - WARNING - Invalid/unparseable response for claim 10 after 3 retries
+2025-11-11 16:55:56,622 - INFO - Final prediction: __INVALID__
+2025-11-11 16:55:56,622 - INFO - Match: False
+2025-11-11 16:55:57,129 - INFO - 
+================================================================================
+2025-11-11 16:55:57,130 - INFO - Processing item #11
+2025-11-11 16:55:57,130 - INFO - Gold label: misleading -> Misleading
+2025-11-11 16:55:57,131 - INFO - Asking model: grok-3-latest
+2025-11-11 16:55:57,131 - INFO - Claim: 'Study of 99 million Covid vaccine recipients shows the shots are dangerous'
+2025-11-11 16:55:57,898 - INFO - API Response Status: 400
+2025-11-11 16:55:57,898 - WARNING - API returned non-200 status: 400
+2025-11-11 16:55:57,898 - WARNING - Response body: {
+  "error": {
+    "message": "{\"code\":\"Client specified an invalid argument\",\"error\":\"top_p must be positive but top_p = 0\"}No fallback model group found for original Please contact support at support@avalai.ir and include the request ID 019a7318-3438-7360-b09c-299ade09727d in your email if you believe this is an error.",
+    "type": "invalid_request",
+    "param": null,
+    "code": "invalid_request",
+    "request_id": "019a7318-3438-7360-b09c-299ade09727d"
+  }
+}
+2025-11-11 16:55:57,898 - WARNING - Invalid/unparseable response for claim 11 after 3 retries
+2025-11-11 16:55:57,898 - INFO - Final prediction: __INVALID__
+2025-11-11 16:55:57,898 - INFO - Match: False
+2025-11-11 16:55:58,408 - INFO - 
+================================================================================
+2025-11-11 16:55:58,409 - INFO - Processing item #12
+2025-11-11 16:55:58,409 - INFO - Gold label: misleading -> Misleading
+2025-11-11 16:55:58,409 - INFO - Asking model: grok-3-latest
+2025-11-11 16:55:58,410 - INFO - Claim: 'COVID-19 vaccine recipients might not be eligible for blood donation'
+2025-11-11 16:55:59,147 - INFO - API Response Status: 400
+2025-11-11 16:55:59,148 - WARNING - API returned non-200 status: 400
+2025-11-11 16:55:59,148 - WARNING - Response body: {
+  "error": {
+    "message": "{\"code\":\"Client specified an invalid argument\",\"error\":\"top_p must be positive but top_p = 0\"}No fallback model group found for original Please contact support at support@avalai.ir and include the request ID 019a7318-3946-75d3-ac6c-04ae31060f55 in your email if you believe this is an error.",
+    "type": "invalid_request",
+    "param": null,
+    "code": "invalid_request",
+    "request_id": "019a7318-3946-75d3-ac6c-04ae31060f55"
+  }
+}
+2025-11-11 16:55:59,148 - WARNING - Invalid/unparseable response for claim 12 after 3 retries
+2025-11-11 16:55:59,148 - INFO - Final prediction: __INVALID__
+2025-11-11 16:55:59,148 - INFO - Match: False
+2025-11-11 16:55:59,668 - INFO - 
+================================================================================
+2025-11-11 16:55:59,668 - INFO - Processing item #13
+2025-11-11 16:55:59,669 - INFO - Gold label: supported -> Supported
+2025-11-11 16:55:59,669 - INFO - Asking model: grok-3-latest
+2025-11-11 16:55:59,669 - INFO - Claim: 'Cote d’Ivoire’s GDP better than Ghana’s over the last 3 years'
+2025-11-11 16:56:00,471 - INFO - API Response Status: 400
+2025-11-11 16:56:00,471 - WARNING - API returned non-200 status: 400
+2025-11-11 16:56:00,472 - WARNING - Response body: {
+  "error": {
+    "message": "{\"code\":\"Client specified an invalid argument\",\"error\":\"top_p must be positive but top_p = 0\"}No fallback model group found for original Please contact support at support@avalai.ir and include the request ID 019a7318-3e33-7522-a868-1eb4895a07e6 in your email if you believe this is an error.",
+    "type": "invalid_request",
+    "param": null,
+    "code": "invalid_request",
+    "request_id": "019a7318-3e33-7522-a868-1eb4895a07e6"
+  }
+}
+2025-11-11 16:56:00,472 - WARNING - Invalid/unparseable response for claim 13 after 3 retries
+2025-11-11 16:56:00,472 - INFO - Final prediction: __INVALID__
+2025-11-11 16:56:00,472 - INFO - Match: False
+2025-11-11 16:56:00,989 - INFO - 
+================================================================================
+2025-11-11 16:56:00,989 - INFO - Processing item #14
+2025-11-11 16:56:00,989 - INFO - Gold label: misleading -> Misleading
+2025-11-11 16:56:00,989 - INFO - Asking model: grok-3-latest
+2025-11-11 16:56:00,990 - INFO - Claim: 'Samantha endorsed TDP ahead of Andhra Elections'
+2025-11-11 16:56:01,857 - INFO - API Response Status: 400
+2025-11-11 16:56:01,858 - WARNING - API returned non-200 status: 400
+2025-11-11 16:56:01,858 - WARNING - Response body: {
+  "error": {
+    "message": "{\"code\":\"Client specified an invalid argument\",\"error\":\"top_p must be positive but top_p = 0\"}No fallback model group found for original Please contact support at support@avalai.ir and include the request ID 019a7318-438e-7f21-812f-61089374a239 in your email if you believe this is an error.",
+    "type": "invalid_request",
+    "param": null,
+    "code": "invalid_request",
+    "request_id": "019a7318-438e-7f21-812f-61089374a239"
+  }
+}
+2025-11-11 16:56:01,858 - WARNING - Invalid/unparseable response for claim 14 after 3 retries
+2025-11-11 16:56:01,858 - INFO - Final prediction: __INVALID__
+2025-11-11 16:56:01,858 - INFO - Match: False
+2025-11-11 16:56:02,372 - INFO - 
+================================================================================
+2025-11-11 16:56:02,372 - INFO - Processing item #15
+2025-11-11 16:56:02,372 - INFO - Gold label: misleading -> Misleading
+2025-11-11 16:56:02,372 - INFO - Asking model: grok-3-latest
+2025-11-11 16:56:02,372 - INFO - Claim: “It is estimated that 121 million Africans are facing severe acute food insecurity.”
+2025-11-11 16:56:03,134 - INFO - API Response Status: 400
+2025-11-11 16:56:03,134 - WARNING - API returned non-200 status: 400
+2025-11-11 16:56:03,134 - WARNING - Response body: {
+  "error": {
+    "message": "{\"code\":\"Client specified an invalid argument\",\"error\":\"top_p must be positive but top_p = 0\"}No fallback model group found for original Please contact support at support@avalai.ir and include the request ID 019a7318-48c1-7263-aa93-e186eceda010 in your email if you believe this is an error.",
+    "type": "invalid_request",
+    "param": null,
+    "code": "invalid_request",
+    "request_id": "019a7318-48c1-7263-aa93-e186eceda010"
+  }
+}
+2025-11-11 16:56:03,134 - WARNING - Invalid/unparseable response for claim 15 after 3 retries
+2025-11-11 16:56:03,134 - INFO - Final prediction: __INVALID__
+2025-11-11 16:56:03,134 - INFO - Match: False
+2025-11-11 16:56:03,652 - INFO - 
+================================================================================
+2025-11-11 16:56:03,652 - INFO - Processing item #16
+2025-11-11 16:56:03,652 - INFO - Gold label: supported -> Supported
+2025-11-11 16:56:03,652 - INFO - Asking model: grok-3-latest
+2025-11-11 16:56:03,652 - INFO - Claim: 'COVID-19 has symptoms similar to the flu.'
+2025-11-11 16:56:04,563 - INFO - API Response Status: 400
+2025-11-11 16:56:04,563 - WARNING - API returned non-200 status: 400
+2025-11-11 16:56:04,563 - WARNING - Response body: {
+  "error": {
+    "message": "{\"code\":\"Client specified an invalid argument\",\"error\":\"top_p must be positive but top_p = 0\"}No fallback model group found for original Please contact support at support@avalai.ir and include the request ID 019a7318-4db5-70f1-bda1-3442a449d906 in your email if you believe this is an error.",
+    "type": "invalid_request",
+    "param": null,
+    "code": "invalid_request",
+    "request_id": "019a7318-4db5-70f1-bda1-3442a449d906"
+  }
+}
+2025-11-11 16:56:04,564 - WARNING - Invalid/unparseable response for claim 16 after 3 retries
+2025-11-11 16:56:04,564 - INFO - Final prediction: __INVALID__
+2025-11-11 16:56:04,564 - INFO - Match: False
+2025-11-11 16:56:05,076 - INFO - 
+================================================================================
+2025-11-11 16:56:05,076 - INFO - Processing item #17
+2025-11-11 16:56:05,076 - INFO - Gold label: misleading -> Misleading
+2025-11-11 16:56:05,077 - INFO - Asking model: grok-3-latest
+2025-11-11 16:56:05,077 - INFO - Claim: 'New guidance says one day of isolation is sufficient for people with COVID-19.'
+2025-11-11 16:56:06,096 - INFO - API Response Status: 400
+2025-11-11 16:56:06,097 - WARNING - API returned non-200 status: 400
+2025-11-11 16:56:06,097 - WARNING - Response body: {
+  "error": {
+    "message": "{\"code\":\"Client specified an invalid argument\",\"error\":\"top_p must be positive but top_p = 0\"}No fallback model group found for original Please contact support at support@avalai.ir and include the request ID 019a7318-536e-7e82-91d3-d8f29bdc5f78 in your email if you believe this is an error.",
+    "type": "invalid_request",
+    "param": null,
+    "code": "invalid_request",
+    "request_id": "019a7318-536e-7e82-91d3-d8f29bdc5f78"
+  }
+}
+2025-11-11 16:56:06,097 - WARNING - Invalid/unparseable response for claim 17 after 3 retries
+2025-11-11 16:56:06,097 - INFO - Final prediction: __INVALID__
+2025-11-11 16:56:06,097 - INFO - Match: False
+2025-11-11 16:56:06,615 - INFO - 
+================================================================================
+2025-11-11 16:56:06,615 - INFO - Processing item #18
+2025-11-11 16:56:06,615 - INFO - Gold label: misleading -> Misleading
+2025-11-11 16:56:06,615 - INFO - Asking model: grok-3-latest
+2025-11-11 16:56:06,615 - INFO - Claim: 'COVID-19 has been like the flu since the beginning of the pandemic.'
+2025-11-11 16:56:07,485 - INFO - API Response Status: 400
+2025-11-11 16:56:07,485 - WARNING - API returned non-200 status: 400
+2025-11-11 16:56:07,486 - WARNING - Response body: {
+  "error": {
+    "message": "{\"code\":\"Client specified an invalid argument\",\"error\":\"top_p must be positive but top_p = 0\"}No fallback model group found for original Please contact support at support@avalai.ir and include the request ID 019a7318-5961-7e20-b4bf-f3b05af35e61 in your email if you believe this is an error.",
+    "type": "invalid_request",
+    "param": null,
+    "code": "invalid_request",
+    "request_id": "019a7318-5961-7e20-b4bf-f3b05af35e61"
+  }
+}
+2025-11-11 16:56:07,486 - WARNING - Invalid/unparseable response for claim 18 after 3 retries
+2025-11-11 16:56:07,486 - INFO - Final prediction: __INVALID__
+2025-11-11 16:56:07,486 - INFO - Match: False
+2025-11-11 16:56:07,992 - INFO - 
+================================================================================
+2025-11-11 16:56:07,993 - INFO - Processing item #19
+2025-11-11 16:56:07,993 - INFO - Gold label: supported -> Supported
+2025-11-11 16:56:07,993 - INFO - Asking model: grok-3-latest
+2025-11-11 16:56:07,993 - INFO - Claim: “We’ve had 12 elections in 24 years in Wisconsin that have been decided by less than 30,000 votes.”
+2025-11-11 16:56:08,755 - INFO - API Response Status: 400
+2025-11-11 16:56:08,755 - WARNING - API returned non-200 status: 400
+2025-11-11 16:56:08,756 - WARNING - Response body: {
+  "error": {
+    "message": "{\"code\":\"Client specified an invalid argument\",\"error\":\"top_p must be positive but top_p = 0\"}No fallback model group found for original Please contact support at support@avalai.ir and include the request ID 019a7318-5eb6-7d73-96cd-3f0ca5563996 in your email if you believe this is an error.",
+    "type": "invalid_request",
+    "param": null,
+    "code": "invalid_request",
+    "request_id": "019a7318-5eb6-7d73-96cd-3f0ca5563996"
+  }
+}
+2025-11-11 16:56:08,756 - WARNING - Invalid/unparseable response for claim 19 after 3 retries
+2025-11-11 16:56:08,756 - INFO - Final prediction: __INVALID__
+2025-11-11 16:56:08,756 - INFO - Match: False
+2025-11-11 16:56:09,268 - INFO - 
+================================================================================
+2025-11-11 16:56:09,269 - INFO - Processing item #20
+2025-11-11 16:56:09,269 - INFO - Gold label: misleading -> Misleading
+2025-11-11 16:56:09,269 - INFO - Asking model: grok-3-latest
+2025-11-11 16:56:09,269 - INFO - Claim: 'Liquefied natural gas offers significant environmental advantages over traditional fossil fuels contributing to reduced greenhouse gas emissions, combating climate change, improving air quality and e...
+2025-11-11 16:56:10,101 - INFO - API Response Status: 400
+2025-11-11 16:56:10,101 - WARNING - API returned non-200 status: 400
+2025-11-11 16:56:10,101 - WARNING - Response body: {
+  "error": {
+    "message": "{\"code\":\"Client specified an invalid argument\",\"error\":\"top_p must be positive but top_p = 0\"}No fallback model group found for original Please contact support at support@avalai.ir and include the request ID 019a7318-63b6-7532-a1d0-8446cd0409db in your email if you believe this is an error.",
+    "type": "invalid_request",
+    "param": null,
+    "code": "invalid_request",
+    "request_id": "019a7318-63b6-7532-a1d0-8446cd0409db"
+  }
+}
+2025-11-11 16:56:10,101 - WARNING - Invalid/unparseable response for claim 20 after 3 retries
+2025-11-11 16:56:10,102 - INFO - Final prediction: __INVALID__
+2025-11-11 16:56:10,102 - INFO - Match: False
+2025-11-11 16:56:10,619 - INFO - 
+================================================================================
+2025-11-11 16:56:10,619 - INFO - Processing item #21
+2025-11-11 16:56:10,619 - INFO - Gold label: supported -> Supported
+2025-11-11 16:56:10,620 - INFO - Asking model: grok-3-latest
+2025-11-11 16:56:10,620 - INFO - Claim: 'COVID vaccines are being used to beat cancer.'
+2025-11-11 16:56:11,417 - INFO - API Response Status: 400
+2025-11-11 16:56:11,418 - WARNING - API returned non-200 status: 400
+2025-11-11 16:56:11,418 - WARNING - Response body: {
+  "error": {
+    "message": "{\"code\":\"Client specified an invalid argument\",\"error\":\"top_p must be positive but top_p = 0\"}No fallback model group found for original Please contact support at support@avalai.ir and include the request ID 019a7318-68e2-7751-b9bf-a1e39f69bed9 in your email if you believe this is an error.",
+    "type": "invalid_request",
+    "param": null,
+    "code": "invalid_request",
+    "request_id": "019a7318-68e2-7751-b9bf-a1e39f69bed9"
+  }
+}
+2025-11-11 16:56:11,418 - WARNING - Invalid/unparseable response for claim 21 after 3 retries
+2025-11-11 16:56:11,418 - INFO - Final prediction: __INVALID__
+2025-11-11 16:56:11,418 - INFO - Match: False
+2025-11-11 16:56:11,933 - INFO - 
+================================================================================
+2025-11-11 16:56:11,934 - INFO - Processing item #22
+2025-11-11 16:56:11,934 - INFO - Gold label: not enough information -> Not enough information
+2025-11-11 16:56:11,934 - INFO - Asking model: grok-3-latest
+2025-11-11 16:56:11,934 - INFO - Claim: 'Covid-19 vaccine worsens thyroid issues'
+2025-11-11 16:56:13,036 - INFO - API Response Status: 400
+2025-11-11 16:56:13,037 - WARNING - API returned non-200 status: 400
+2025-11-11 16:56:13,038 - WARNING - Response body: {
+  "error": {
+    "message": "{\"code\":\"Client specified an invalid argument\",\"error\":\"top_p must be positive but top_p = 0\"}No fallback model group found for original Please contact support at support@avalai.ir and include the request ID 019a7318-6e42-74f3-aec5-966f4207ddc9 in your email if you believe this is an error.",
+    "type": "invalid_request",
+    "param": null,
+    "code": "invalid_request",
+    "request_id": "019a7318-6e42-74f3-aec5-966f4207ddc9"
+  }
+}
+2025-11-11 16:56:13,038 - WARNING - Invalid/unparseable response for claim 22 after 3 retries
+2025-11-11 16:56:13,038 - INFO - Final prediction: __INVALID__
+2025-11-11 16:56:13,038 - INFO - Match: False
+2025-11-11 16:56:13,560 - INFO - 
+================================================================================
+2025-11-11 16:56:13,560 - INFO - Processing item #23
+2025-11-11 16:56:13,560 - INFO - Gold label: supported -> Supported
+2025-11-11 16:56:13,561 - INFO - Asking model: grok-3-latest
+2025-11-11 16:56:13,561 - INFO - Claim: 'Gaza has “the highest number of people facing catastrophic hunger ever recorded by the Integrated Food Security Classification system — anywhere, anytime.”'
+2025-11-11 16:56:14,599 - INFO - API Response Status: 400
+2025-11-11 16:56:14,599 - WARNING - API returned non-200 status: 400
+2025-11-11 16:56:14,600 - WARNING - Response body: {
+  "error": {
+    "message": "{\"code\":\"Client specified an invalid argument\",\"error\":\"top_p must be positive but top_p = 0\"}No fallback model group found for original Please contact support at support@avalai.ir and include the request ID 019a7318-7534-7a90-9b90-0ece41204121 in your email if you believe this is an error.",
+    "type": "invalid_request",
+    "param": null,
+    "code": "invalid_request",
+    "request_id": "019a7318-7534-7a90-9b90-0ece41204121"
+  }
+}
+2025-11-11 16:56:14,600 - WARNING - Invalid/unparseable response for claim 23 after 3 retries
+2025-11-11 16:56:14,600 - INFO - Final prediction: __INVALID__
+2025-11-11 16:56:14,600 - INFO - Match: False
+2025-11-11 16:56:15,114 - INFO - 
+================================================================================
+2025-11-11 16:56:15,114 - INFO - Processing item #24
+2025-11-11 16:56:15,114 - INFO - Gold label: refuted -> Refuted
+2025-11-11 16:56:15,114 - INFO - Asking model: grok-3-latest
+2025-11-11 16:56:15,114 - INFO - Claim: 'Kelly Powers died from 'turbo cancer' caused by the Covid-19 vaccine'
+2025-11-11 16:56:16,002 - INFO - API Response Status: 400
+2025-11-11 16:56:16,002 - WARNING - API returned non-200 status: 400
+2025-11-11 16:56:16,002 - WARNING - Response body: {
+  "error": {
+    "message": "{\"code\":\"Client specified an invalid argument\",\"error\":\"top_p must be positive but top_p = 0\"}No fallback model group found for original Please contact support at support@avalai.ir and include the request ID 019a7318-7abb-73d3-9982-da07d4f4b752 in your email if you believe this is an error.",
+    "type": "invalid_request",
+    "param": null,
+    "code": "invalid_request",
+    "request_id": "019a7318-7abb-73d3-9982-da07d4f4b752"
+  }
+}
+2025-11-11 16:56:16,003 - WARNING - Invalid/unparseable response for claim 24 after 3 retries
+2025-11-11 16:56:16,003 - INFO - Final prediction: __INVALID__
+2025-11-11 16:56:16,003 - INFO - Match: False
+2025-11-11 16:56:16,529 - INFO - 
+================================================================================
+2025-11-11 16:56:16,529 - INFO - Processing item #25
+2025-11-11 16:56:16,529 - INFO - Gold label: misleading -> Misleading
+2025-11-11 16:56:16,530 - INFO - Asking model: grok-3-latest
+2025-11-11 16:56:16,530 - INFO - Claim: 'An 81-year-old roadside parrot astrologer was arrested from Cuddalore, Tamil Nadu by police because his parrot predicted that DMK would lose the 2024 election.'
+2025-11-11 16:56:17,405 - INFO - API Response Status: 400
+2025-11-11 16:56:17,405 - WARNING - API returned non-200 status: 400
+2025-11-11 16:56:17,405 - WARNING - Response body: {
+  "error": {
+    "message": "{\"code\":\"Client specified an invalid argument\",\"error\":\"top_p must be positive but top_p = 0\"}No fallback model group found for original Please contact support at support@avalai.ir and include the request ID 019a7318-8011-7513-87c4-ffc1f9b98c8e in your email if you believe this is an error.",
+    "type": "invalid_request",
+    "param": null,
+    "code": "invalid_request",
+    "request_id": "019a7318-8011-7513-87c4-ffc1f9b98c8e"
+  }
+}
+2025-11-11 16:56:17,405 - WARNING - Invalid/unparseable response for claim 25 after 3 retries
+2025-11-11 16:56:17,405 - INFO - Final prediction: __INVALID__
+2025-11-11 16:56:17,405 - INFO - Match: False
+2025-11-11 16:56:17,921 - INFO - 
+================================================================================
+2025-11-11 16:56:17,921 - INFO - Processing item #26
+2025-11-11 16:56:17,921 - INFO - Gold label: refuted -> Refuted
+2025-11-11 16:56:17,921 - INFO - Asking model: grok-3-latest
+2025-11-11 16:56:17,921 - INFO - Claim: 'Review article "has found that COVID-19 mRNA vaccines could aid cancer development”'
+2025-11-11 16:56:18,721 - INFO - API Response Status: 400
+2025-11-11 16:56:18,722 - WARNING - API returned non-200 status: 400
+2025-11-11 16:56:18,722 - WARNING - Response body: {
+  "error": {
+    "message": "{\"code\":\"Client specified an invalid argument\",\"error\":\"top_p must be positive but top_p = 0\"}No fallback model group found for original Please contact support at support@avalai.ir and include the request ID 019a7318-858e-7fe2-9dda-a8073ba16e06 in your email if you believe this is an error.",
+    "type": "invalid_request",
+    "param": null,
+    "code": "invalid_request",
+    "request_id": "019a7318-858e-7fe2-9dda-a8073ba16e06"
+  }
+}
+2025-11-11 16:56:18,723 - WARNING - Invalid/unparseable response for claim 26 after 3 retries
+2025-11-11 16:56:18,723 - INFO - Final prediction: __INVALID__
+2025-11-11 16:56:18,723 - INFO - Match: False
+2025-11-11 16:56:19,246 - INFO - 
+================================================================================
+2025-11-11 16:56:19,246 - INFO - Processing item #27
+2025-11-11 16:56:19,246 - INFO - Gold label: misleading -> Misleading
+2025-11-11 16:56:19,246 - INFO - Asking model: grok-3-latest
+2025-11-11 16:56:19,247 - INFO - Claim: 'GRACIA LATTE is a healthy way to lose weight in one week'
+2025-11-11 16:56:20,082 - INFO - API Response Status: 400
+2025-11-11 16:56:20,083 - WARNING - API returned non-200 status: 400
+2025-11-11 16:56:20,083 - WARNING - Response body: {
+  "error": {
+    "message": "{\"code\":\"Client specified an invalid argument\",\"error\":\"top_p must be positive but top_p = 0\"}No fallback model group found for original Please contact support at support@avalai.ir and include the request ID 019a7318-8ab1-7440-a230-00fcd92f0208 in your email if you believe this is an error.",
+    "type": "invalid_request",
+    "param": null,
+    "code": "invalid_request",
+    "request_id": "019a7318-8ab1-7440-a230-00fcd92f0208"
+  }
+}
+2025-11-11 16:56:20,083 - WARNING - Invalid/unparseable response for claim 27 after 3 retries
+2025-11-11 16:56:20,083 - INFO - Final prediction: __INVALID__
+2025-11-11 16:56:20,084 - INFO - Match: False
+2025-11-11 16:56:20,603 - INFO - 
+================================================================================
+2025-11-11 16:56:20,603 - INFO - Processing item #28
+2025-11-11 16:56:20,604 - INFO - Gold label: refuted -> Refuted
+2025-11-11 16:56:20,604 - INFO - Asking model: grok-3-latest
+2025-11-11 16:56:20,604 - INFO - Claim: “Our electricity generation is almost 95% renewable, from geothermal, hydro, wind, and solar energy.”
+2025-11-11 16:56:21,426 - INFO - API Response Status: 400
+2025-11-11 16:56:21,426 - WARNING - API returned non-200 status: 400
+2025-11-11 16:56:21,427 - WARNING - Response body: {
+  "error": {
+    "message": "{\"code\":\"Client specified an invalid argument\",\"error\":\"top_p must be positive but top_p = 0\"}No fallback model group found for original Please contact support at support@avalai.ir and include the request ID 019a7318-902b-7f72-9275-d8e80c0c5640 in your email if you believe this is an error.",
+    "type": "invalid_request",
+    "param": null,
+    "code": "invalid_request",
+    "request_id": "019a7318-902b-7f72-9275-d8e80c0c5640"
+  }
+}
+2025-11-11 16:56:21,427 - WARNING - Invalid/unparseable response for claim 28 after 3 retries
+2025-11-11 16:56:21,427 - INFO - Final prediction: __INVALID__
+2025-11-11 16:56:21,427 - INFO - Match: False
+2025-11-11 16:56:21,942 - INFO - 
+================================================================================
+2025-11-11 16:56:21,943 - INFO - Processing item #29
+2025-11-11 16:56:21,943 - INFO - Gold label: misleading -> Misleading
+2025-11-11 16:56:21,943 - INFO - Asking model: grok-3-latest
+2025-11-11 16:56:21,943 - INFO - Claim: “AstraZeneca finally WITHDRAW Covid vaccine worldwide, months after the company admitted rare side effect for the first time in court documents.”
+2025-11-11 16:56:22,778 - INFO - API Response Status: 400
+2025-11-11 16:56:22,778 - WARNING - API returned non-200 status: 400
+2025-11-11 16:56:22,778 - WARNING - Response body: {
+  "error": {
+    "message": "{\"code\":\"Client specified an invalid argument\",\"error\":\"top_p must be positive but top_p = 0\"}No fallback model group found for original Please contact support at support@avalai.ir and include the request ID 019a7318-956b-7383-baa1-c207f8d401ea in your email if you believe this is an error.",
+    "type": "invalid_request",
+    "param": null,
+    "code": "invalid_request",
+    "request_id": "019a7318-956b-7383-baa1-c207f8d401ea"
+  }
+}
+2025-11-11 16:56:22,779 - WARNING - Invalid/unparseable response for claim 29 after 3 retries
+2025-11-11 16:56:22,779 - INFO - Final prediction: __INVALID__
+2025-11-11 16:56:22,779 - INFO - Match: False
+2025-11-11 16:56:23,293 - INFO - 
+================================================================================
+2025-11-11 16:56:23,293 - INFO - Processing item #30
+2025-11-11 16:56:23,293 - INFO - Gold label: misleading -> Misleading
+2025-11-11 16:56:23,293 - INFO - Asking model: grok-3-latest
+2025-11-11 16:56:23,293 - INFO - Claim: 'Wilders and Le Pen “unanimously” win recent elections'
+2025-11-11 16:56:24,270 - INFO - API Response Status: 400
+2025-11-11 16:56:24,270 - WARNING - API returned non-200 status: 400
+2025-11-11 16:56:24,270 - WARNING - Response body: {
+  "error": {
+    "message": "{\"code\":\"Client specified an invalid argument\",\"error\":\"top_p must be positive but top_p = 0\"}No fallback model group found for original Please contact support at support@avalai.ir and include the request ID 019a7318-9a9d-73d2-b918-f8689bb50117 in your email if you believe this is an error.",
+    "type": "invalid_request",
+    "param": null,
+    "code": "invalid_request",
+    "request_id": "019a7318-9a9d-73d2-b918-f8689bb50117"
+  }
+}
+2025-11-11 16:56:24,270 - WARNING - Invalid/unparseable response for claim 30 after 3 retries
+2025-11-11 16:56:24,270 - INFO - Final prediction: __INVALID__
+2025-11-11 16:56:24,271 - INFO - Match: False
+2025-11-11 16:56:24,787 - INFO - 
+================================================================================
+2025-11-11 16:56:24,787 - INFO - Processing item #31
+2025-11-11 16:56:24,787 - INFO - Gold label: supported -> Supported
+2025-11-11 16:56:24,787 - INFO - Asking model: grok-3-latest
+2025-11-11 16:56:24,787 - INFO - Claim: 'Turkish flag doodled by Drone over Raisi helicopter crash site'
+2025-11-11 16:56:25,770 - INFO - API Response Status: 400
+2025-11-11 16:56:25,771 - WARNING - API returned non-200 status: 400
+2025-11-11 16:56:25,771 - WARNING - Response body: {
+  "error": {
+    "message": "{\"code\":\"Client specified an invalid argument\",\"error\":\"top_p must be positive but top_p = 0\"}No fallback model group found for original Please contact support at support@avalai.ir and include the request ID 019a7318-a06e-7460-a07d-d1f4231479ec in your email if you believe this is an error.",
+    "type": "invalid_request",
+    "param": null,
+    "code": "invalid_request",
+    "request_id": "019a7318-a06e-7460-a07d-d1f4231479ec"
+  }
+}
+2025-11-11 16:56:25,771 - WARNING - Invalid/unparseable response for claim 31 after 3 retries
+2025-11-11 16:56:25,771 - INFO - Final prediction: __INVALID__
+2025-11-11 16:56:25,771 - INFO - Match: False
+2025-11-11 16:56:26,274 - INFO - 
+================================================================================
+2025-11-11 16:56:26,274 - INFO - Processing item #32
+2025-11-11 16:56:26,275 - INFO - Gold label: refuted -> Refuted
+2025-11-11 16:56:26,275 - INFO - Asking model: grok-3-latest
+2025-11-11 16:56:26,275 - INFO - Claim: 'Sweden, France, Finland, the UK and Germany have abandoned renewable energy.'
+2025-11-11 16:56:27,011 - INFO - API Response Status: 400
+2025-11-11 16:56:27,011 - WARNING - API returned non-200 status: 400
+2025-11-11 16:56:27,011 - WARNING - Response body: {
+  "error": {
+    "message": "{\"code\":\"Client specified an invalid argument\",\"error\":\"top_p must be positive but top_p = 0\"}No fallback model group found for original Please contact support at support@avalai.ir and include the request ID 019a7318-a627-7732-bd4c-701ad696a8d1 in your email if you believe this is an error.",
+    "type": "invalid_request",
+    "param": null,
+    "code": "invalid_request",
+    "request_id": "019a7318-a627-7732-bd4c-701ad696a8d1"
+  }
+}
+2025-11-11 16:56:27,012 - WARNING - Invalid/unparseable response for claim 32 after 3 retries
+2025-11-11 16:56:27,012 - INFO - Final prediction: __INVALID__
+2025-11-11 16:56:27,012 - INFO - Match: False
+2025-11-11 16:56:27,533 - INFO - 
+================================================================================
+2025-11-11 16:56:27,533 - INFO - Processing item #33
+2025-11-11 16:56:27,533 - INFO - Gold label: supported -> Supported
+2025-11-11 16:56:27,533 - INFO - Asking model: grok-3-latest
+2025-11-11 16:56:27,534 - INFO - Claim: 'More than 100% of Scotland’s electricity needs come from renewable sources.'
+2025-11-11 16:56:28,336 - INFO - API Response Status: 400
+2025-11-11 16:56:28,338 - WARNING - API returned non-200 status: 400
+2025-11-11 16:56:28,338 - WARNING - Response body: {
+  "error": {
+    "message": "{\"code\":\"Client specified an invalid argument\",\"error\":\"top_p must be positive but top_p = 0\"}No fallback model group found for original Please contact support at support@avalai.ir and include the request ID 019a7318-ab17-7af0-9e98-b40624f70c05 in your email if you believe this is an error.",
+    "type": "invalid_request",
+    "param": null,
+    "code": "invalid_request",
+    "request_id": "019a7318-ab17-7af0-9e98-b40624f70c05"
+  }
+}
+2025-11-11 16:56:28,338 - WARNING - Invalid/unparseable response for claim 33 after 3 retries
+2025-11-11 16:56:28,338 - INFO - Final prediction: __INVALID__
+2025-11-11 16:56:28,338 - INFO - Match: False
+2025-11-11 16:56:28,850 - INFO - 
+================================================================================
+2025-11-11 16:56:28,850 - INFO - Processing item #34
+2025-11-11 16:56:28,851 - INFO - Gold label: misleading -> Misleading
+2025-11-11 16:56:28,851 - INFO - Asking model: grok-3-latest
+2025-11-11 16:56:28,851 - INFO - Claim: 'BMJ reports record excess deaths after Covid vaccine'
+2025-11-11 16:56:29,734 - INFO - API Response Status: 400
+2025-11-11 16:56:29,734 - WARNING - API returned non-200 status: 400
+2025-11-11 16:56:29,734 - WARNING - Response body: {
+  "error": {
+    "message": "{\"code\":\"Client specified an invalid argument\",\"error\":\"top_p must be positive but top_p = 0\"}No fallback model group found for original Please contact support at support@avalai.ir and include the request ID 019a7318-b05d-7c92-86bd-e0d6b3d8bc86 in your email if you believe this is an error.",
+    "type": "invalid_request",
+    "param": null,
+    "code": "invalid_request",
+    "request_id": "019a7318-b05d-7c92-86bd-e0d6b3d8bc86"
+  }
+}
+2025-11-11 16:56:29,735 - WARNING - Invalid/unparseable response for claim 34 after 3 retries
+2025-11-11 16:56:29,735 - INFO - Final prediction: __INVALID__
+2025-11-11 16:56:29,735 - INFO - Match: False
+2025-11-11 16:56:30,245 - INFO - 
+================================================================================
+2025-11-11 16:56:30,245 - INFO - Processing item #35
+2025-11-11 16:56:30,245 - INFO - Gold label: misleading -> Misleading
+2025-11-11 16:56:30,245 - INFO - Asking model: grok-3-latest
+2025-11-11 16:56:30,245 - INFO - Claim: 'Study proves link between Covid-19 and sudden death'
+2025-11-11 16:56:31,096 - INFO - API Response Status: 400
+2025-11-11 16:56:31,097 - WARNING - API returned non-200 status: 400
+2025-11-11 16:56:31,097 - WARNING - Response body: {
+  "error": {
+    "message": "{\"code\":\"Client specified an invalid argument\",\"error\":\"top_p must be positive but top_p = 0\"}No fallback model group found for original Please contact support at support@avalai.ir and include the request ID 019a7318-b5c1-7152-b4ad-3e14e9fc1d6d in your email if you believe this is an error.",
+    "type": "invalid_request",
+    "param": null,
+    "code": "invalid_request",
+    "request_id": "019a7318-b5c1-7152-b4ad-3e14e9fc1d6d"
+  }
+}
+2025-11-11 16:56:31,098 - WARNING - Invalid/unparseable response for claim 35 after 3 retries
+2025-11-11 16:56:31,098 - INFO - Final prediction: __INVALID__
+2025-11-11 16:56:31,098 - INFO - Match: False
+2025-11-11 16:56:31,613 - INFO - 
+================================================================================
+2025-11-11 16:56:31,613 - INFO - Processing item #36
+2025-11-11 16:56:31,613 - INFO - Gold label: misleading -> Misleading
+2025-11-11 16:56:31,613 - INFO - Asking model: grok-3-latest
+2025-11-11 16:56:31,613 - INFO - Claim: 'Great Barrier Reef broke coral population record for third year in a row'
+2025-11-11 16:56:32,435 - INFO - API Response Status: 400
+2025-11-11 16:56:32,435 - WARNING - API returned non-200 status: 400
+2025-11-11 16:56:32,435 - WARNING - Response body: {
+  "error": {
+    "message": "{\"code\":\"Client specified an invalid argument\",\"error\":\"top_p must be positive but top_p = 0\"}No fallback model group found for original Please contact support at support@avalai.ir and include the request ID 019a7318-bb14-7170-8bdb-0abe627cf0e8 in your email if you believe this is an error.",
+    "type": "invalid_request",
+    "param": null,
+    "code": "invalid_request",
+    "request_id": "019a7318-bb14-7170-8bdb-0abe627cf0e8"
+  }
+}
+2025-11-11 16:56:32,435 - WARNING - Invalid/unparseable response for claim 36 after 3 retries
+2025-11-11 16:56:32,436 - INFO - Final prediction: __INVALID__
+2025-11-11 16:56:32,436 - INFO - Match: False
+2025-11-11 16:56:32,951 - INFO - 
+================================================================================
+2025-11-11 16:56:32,951 - INFO - Processing item #37
+2025-11-11 16:56:32,951 - INFO - Gold label: misleading -> Misleading
+2025-11-11 16:56:32,951 - INFO - Asking model: grok-3-latest
+2025-11-11 16:56:32,951 - INFO - Claim: 'Spike protein from Covid-19 vaccines could promote cancer growth.'
+2025-11-11 16:56:33,800 - INFO - API Response Status: 400
+2025-11-11 16:56:33,800 - WARNING - API returned non-200 status: 400
+2025-11-11 16:56:33,800 - WARNING - Response body: {
+  "error": {
+    "message": "{\"code\":\"Client specified an invalid argument\",\"error\":\"top_p must be positive but top_p = 0\"}No fallback model group found for original Please contact support at support@avalai.ir and include the request ID 019a7318-c042-7f61-b9e0-174895a921e2 in your email if you believe this is an error.",
+    "type": "invalid_request",
+    "param": null,
+    "code": "invalid_request",
+    "request_id": "019a7318-c042-7f61-b9e0-174895a921e2"
+  }
+}
+2025-11-11 16:56:33,800 - WARNING - Invalid/unparseable response for claim 37 after 3 retries
+2025-11-11 16:56:33,800 - INFO - Final prediction: __INVALID__
+2025-11-11 16:56:33,800 - INFO - Match: False
+2025-11-11 16:56:34,317 - INFO - 
+================================================================================
+2025-11-11 16:56:34,317 - INFO - Processing item #38
+2025-11-11 16:56:34,318 - INFO - Gold label: misleading -> Misleading
+2025-11-11 16:56:34,318 - INFO - Asking model: grok-3-latest
+2025-11-11 16:56:34,318 - INFO - Claim: “Covid vaccines may have helped fuel rise in excess deaths”
+2025-11-11 16:56:35,131 - INFO - API Response Status: 400
+2025-11-11 16:56:35,131 - WARNING - API returned non-200 status: 400
+2025-11-11 16:56:35,131 - WARNING - Response body: {
+  "error": {
+    "message": "{\"code\":\"Client specified an invalid argument\",\"error\":\"top_p must be positive but top_p = 0\"}No fallback model group found for original Please contact support at support@avalai.ir and include the request ID 019a7318-c582-7f32-b9e0-c725db42e331 in your email if you believe this is an error.",
+    "type": "invalid_request",
+    "param": null,
+    "code": "invalid_request",
+    "request_id": "019a7318-c582-7f32-b9e0-c725db42e331"
+  }
+}
+2025-11-11 16:56:35,132 - WARNING - Invalid/unparseable response for claim 38 after 3 retries
+2025-11-11 16:56:35,132 - INFO - Final prediction: __INVALID__
+2025-11-11 16:56:35,132 - INFO - Match: False
+2025-11-11 16:56:35,637 - INFO - 
+================================================================================
+2025-11-11 16:56:35,637 - INFO - Processing item #39
+2025-11-11 16:56:35,637 - INFO - Gold label: supported -> Supported
+2025-11-11 16:56:35,637 - INFO - Asking model: grok-3-latest
+2025-11-11 16:56:35,638 - INFO - Claim: "Homeownership is now out of reach unless you make over $106,000."
+2025-11-11 16:56:36,452 - INFO - API Response Status: 400
+2025-11-11 16:56:36,452 - WARNING - API returned non-200 status: 400
+2025-11-11 16:56:36,452 - WARNING - Response body: {
+  "error": {
+    "message": "{\"code\":\"Client specified an invalid argument\",\"error\":\"top_p must be positive but top_p = 0\"}No fallback model group found for original Please contact support at support@avalai.ir and include the request ID 019a7318-cad1-70b3-8255-fb0aced444f1 in your email if you believe this is an error.",
+    "type": "invalid_request",
+    "param": null,
+    "code": "invalid_request",
+    "request_id": "019a7318-cad1-70b3-8255-fb0aced444f1"
+  }
+}
+2025-11-11 16:56:36,452 - WARNING - Invalid/unparseable response for claim 39 after 3 retries
+2025-11-11 16:56:36,452 - INFO - Final prediction: __INVALID__
+2025-11-11 16:56:36,452 - INFO - Match: False
+2025-11-11 16:56:36,960 - INFO - 
+================================================================================
+2025-11-11 16:56:36,960 - INFO - Processing item #40
+2025-11-11 16:56:36,961 - INFO - Gold label: supported -> Supported
+2025-11-11 16:56:36,961 - INFO - Asking model: grok-3-latest
+2025-11-11 16:56:36,961 - INFO - Claim: 'Trump said "A vaccination that is like 38 different vaccines, and it looks like it’s meant for a horse, not a, you know, 10-pound or 20-pound baby. ... And then you see the baby all of a sudden start...
+2025-11-11 16:56:37,711 - INFO - API Response Status: 400
+2025-11-11 16:56:37,711 - WARNING - API returned non-200 status: 400
+2025-11-11 16:56:37,712 - WARNING - Response body: {
+  "error": {
+    "message": "{\"code\":\"Client specified an invalid argument\",\"error\":\"top_p must be positive but top_p = 0\"}No fallback model group found for original Please contact support at support@avalai.ir and include the request ID 019a7318-cfce-7f42-9c92-760b1b7cb2f2 in your email if you believe this is an error.",
+    "type": "invalid_request",
+    "param": null,
+    "code": "invalid_request",
+    "request_id": "019a7318-cfce-7f42-9c92-760b1b7cb2f2"
+  }
+}
+2025-11-11 16:56:37,712 - WARNING - Invalid/unparseable response for claim 40 after 3 retries
+2025-11-11 16:56:37,712 - INFO - Final prediction: __INVALID__
+2025-11-11 16:56:37,712 - INFO - Match: False
+2025-11-11 16:56:38,222 - INFO - 
+================================================================================
+2025-11-11 16:56:38,222 - INFO - Processing item #41
+2025-11-11 16:56:38,222 - INFO - Gold label: refuted -> Refuted
+2025-11-11 16:56:38,222 - INFO - Asking model: grok-3-latest
+2025-11-11 16:56:38,222 - INFO - Claim: Kamala Harris cast the deciding vote for the so-called Inflation Reduction Act that sent a lot of our resources to China.”
+2025-11-11 16:56:39,099 - INFO - API Response Status: 400
+2025-11-11 16:56:39,100 - WARNING - API returned non-200 status: 400
+2025-11-11 16:56:39,100 - WARNING - Response body: {
+  "error": {
+    "message": "{\"code\":\"Client specified an invalid argument\",\"error\":\"top_p must be positive but top_p = 0\"}No fallback model group found for original Please contact support at support@avalai.ir and include the request ID 019a7318-d4ea-7e92-abc3-b9cabeb34e45 in your email if you believe this is an error.",
+    "type": "invalid_request",
+    "param": null,
+    "code": "invalid_request",
+    "request_id": "019a7318-d4ea-7e92-abc3-b9cabeb34e45"
+  }
+}
+2025-11-11 16:56:39,100 - WARNING - Invalid/unparseable response for claim 41 after 3 retries
+2025-11-11 16:56:39,100 - INFO - Final prediction: __INVALID__
+2025-11-11 16:56:39,100 - INFO - Match: False
+2025-11-11 16:56:39,614 - INFO - 
+================================================================================
+2025-11-11 16:56:39,614 - INFO - Processing item #42
+2025-11-11 16:56:39,614 - INFO - Gold label: supported -> Supported
+2025-11-11 16:56:39,614 - INFO - Asking model: grok-3-latest
+2025-11-11 16:56:39,615 - INFO - Claim: 'One of Trump’s proposals is "shutting down the Department of Education."'
+2025-11-11 16:56:40,625 - INFO - API Response Status: 400
+2025-11-11 16:56:40,625 - WARNING - API returned non-200 status: 400
+2025-11-11 16:56:40,625 - WARNING - Response body: {
+  "error": {
+    "message": "{\"code\":\"Client specified an invalid argument\",\"error\":\"top_p must be positive but top_p = 0\"}No fallback model group found for original Please contact support at support@avalai.ir and include the request ID 019a7318-da83-70a1-bd14-bdf2ae5cd6e6 in your email if you believe this is an error.",
+    "type": "invalid_request",
+    "param": null,
+    "code": "invalid_request",
+    "request_id": "019a7318-da83-70a1-bd14-bdf2ae5cd6e6"
+  }
+}
+2025-11-11 16:56:40,625 - WARNING - Invalid/unparseable response for claim 42 after 3 retries
+2025-11-11 16:56:40,625 - INFO - Final prediction: __INVALID__
+2025-11-11 16:56:40,625 - INFO - Match: False
+2025-11-11 16:56:41,133 - INFO - 
+================================================================================
+2025-11-11 16:56:41,134 - INFO - Processing item #43
+2025-11-11 16:56:41,134 - INFO - Gold label: misleading -> Misleading
+2025-11-11 16:56:41,134 - INFO - Asking model: grok-3-latest
+2025-11-11 16:56:41,134 - INFO - Claim: 'The government has secured a record-breaking number of clean energy projects in the latest renewables auction, after “Labour came in and fixed” last year’s failed auction.'
+2025-11-11 16:56:42,034 - INFO - API Response Status: 400
+2025-11-11 16:56:42,034 - WARNING - API returned non-200 status: 400
+2025-11-11 16:56:42,034 - WARNING - Response body: {
+  "error": {
+    "message": "{\"code\":\"Client specified an invalid argument\",\"error\":\"top_p must be positive but top_p = 0\"}No fallback model group found for original Please contact support at support@avalai.ir and include the request ID 019a7318-e069-70f2-b957-03ee1b21cd20 in your email if you believe this is an error.",
+    "type": "invalid_request",
+    "param": null,
+    "code": "invalid_request",
+    "request_id": "019a7318-e069-70f2-b957-03ee1b21cd20"
+  }
+}
+2025-11-11 16:56:42,035 - WARNING - Invalid/unparseable response for claim 43 after 3 retries
+2025-11-11 16:56:42,035 - INFO - Final prediction: __INVALID__
+2025-11-11 16:56:42,035 - INFO - Match: False
+2025-11-11 16:56:42,543 - INFO - 
+================================================================================
+2025-11-11 16:56:42,544 - INFO - Processing item #44
+2025-11-11 16:56:42,544 - INFO - Gold label: misleading -> Misleading
+2025-11-11 16:56:42,544 - INFO - Asking model: grok-3-latest
+2025-11-11 16:56:42,544 - INFO - Claim: 'The Prime Minister inherited the fastest growing economy in the G7.'
+2025-11-11 16:56:43,316 - INFO - API Response Status: 400
+2025-11-11 16:56:43,317 - WARNING - API returned non-200 status: 400
+2025-11-11 16:56:43,317 - WARNING - Response body: {
+  "error": {
+    "message": "{\"code\":\"Client specified an invalid argument\",\"error\":\"top_p must be positive but top_p = 0\"}No fallback model group found for original Please contact support at support@avalai.ir and include the request ID 019a7318-e5ae-7633-b8bc-6d3f9840f7bc in your email if you believe this is an error.",
+    "type": "invalid_request",
+    "param": null,
+    "code": "invalid_request",
+    "request_id": "019a7318-e5ae-7633-b8bc-6d3f9840f7bc"
+  }
+}
+2025-11-11 16:56:43,317 - WARNING - Invalid/unparseable response for claim 44 after 3 retries
+2025-11-11 16:56:43,317 - INFO - Final prediction: __INVALID__
+2025-11-11 16:56:43,317 - INFO - Match: False
+2025-11-11 16:56:43,828 - INFO - 
+================================================================================
+2025-11-11 16:56:43,829 - INFO - Processing item #45
+2025-11-11 16:56:43,829 - INFO - Gold label: misleading -> Misleading
+2025-11-11 16:56:43,829 - INFO - Asking model: grok-3-latest
+2025-11-11 16:56:43,829 - INFO - Claim: 'There were no hurricanes this season even despite forecasts for a high activity; it has been a light hurricane season.'
+2025-11-11 16:56:44,618 - INFO - API Response Status: 400
+2025-11-11 16:56:44,618 - WARNING - API returned non-200 status: 400
+2025-11-11 16:56:44,618 - WARNING - Response body: {
+  "error": {
+    "message": "{\"code\":\"Client specified an invalid argument\",\"error\":\"top_p must be positive but top_p = 0\"}No fallback model group found for original Please contact support at support@avalai.ir and include the request ID 019a7318-eab1-76c0-9276-5dd7409547ef in your email if you believe this is an error.",
+    "type": "invalid_request",
+    "param": null,
+    "code": "invalid_request",
+    "request_id": "019a7318-eab1-76c0-9276-5dd7409547ef"
+  }
+}
+2025-11-11 16:56:44,618 - WARNING - Invalid/unparseable response for claim 45 after 3 retries
+2025-11-11 16:56:44,619 - INFO - Final prediction: __INVALID__
+2025-11-11 16:56:44,619 - INFO - Match: False
+2025-11-11 16:56:45,129 - INFO - 
+================================================================================
+2025-11-11 16:56:45,129 - INFO - Processing item #46
+2025-11-11 16:56:45,129 - INFO - Gold label: misleading -> Misleading
+2025-11-11 16:56:45,129 - INFO - Asking model: grok-3-latest
+2025-11-11 16:56:45,129 - INFO - Claim: 'More deaths from COVID-19 occurred during Biden's administration than Trump's.'
+2025-11-11 16:56:45,947 - INFO - API Response Status: 400
+2025-11-11 16:56:45,947 - WARNING - API returned non-200 status: 400
+2025-11-11 16:56:45,948 - WARNING - Response body: {
+  "error": {
+    "message": "{\"code\":\"Client specified an invalid argument\",\"error\":\"top_p must be positive but top_p = 0\"}No fallback model group found for original Please contact support at support@avalai.ir and include the request ID 019a7318-efd7-7cb0-a6d6-ab9866700423 in your email if you believe this is an error.",
+    "type": "invalid_request",
+    "param": null,
+    "code": "invalid_request",
+    "request_id": "019a7318-efd7-7cb0-a6d6-ab9866700423"
+  }
+}
+2025-11-11 16:56:45,948 - WARNING - Invalid/unparseable response for claim 46 after 3 retries
+2025-11-11 16:56:45,948 - INFO - Final prediction: __INVALID__
+2025-11-11 16:56:45,948 - INFO - Match: False
+2025-11-11 16:56:46,463 - INFO - 
+================================================================================
+2025-11-11 16:56:46,463 - INFO - Processing item #47
+2025-11-11 16:56:46,463 - INFO - Gold label: misleading -> Misleading
+2025-11-11 16:56:46,463 - INFO - Asking model: grok-3-latest
+2025-11-11 16:56:46,463 - INFO - Claim: 'mRNA COVID-19 vaccine causes cancer.'
+2025-11-11 16:56:47,202 - INFO - API Response Status: 400
+2025-11-11 16:56:47,203 - WARNING - API returned non-200 status: 400
+2025-11-11 16:56:47,203 - WARNING - Response body: {
+  "error": {
+    "message": "{\"code\":\"Client specified an invalid argument\",\"error\":\"top_p must be positive but top_p = 0\"}No fallback model group found for original Please contact support at support@avalai.ir and include the request ID 019a7318-f503-7811-8de2-bd58c248c904 in your email if you believe this is an error.",
+    "type": "invalid_request",
+    "param": null,
+    "code": "invalid_request",
+    "request_id": "019a7318-f503-7811-8de2-bd58c248c904"
+  }
+}
+2025-11-11 16:56:47,203 - WARNING - Invalid/unparseable response for claim 47 after 3 retries
+2025-11-11 16:56:47,203 - INFO - Final prediction: __INVALID__
+2025-11-11 16:56:47,203 - INFO - Match: False
+2025-11-11 16:56:47,724 - INFO - 
+================================================================================
+2025-11-11 16:56:47,724 - INFO - Processing item #48
+2025-11-11 16:56:47,724 - INFO - Gold label: misleading -> Misleading
+2025-11-11 16:56:47,724 - INFO - Asking model: grok-3-latest
+2025-11-11 16:56:47,724 - INFO - Claim: 'The updated COVID-19 vaccines do “not protect against the currently dominant strain.”'
+2025-11-11 16:56:48,672 - INFO - API Response Status: 400
+2025-11-11 16:56:48,673 - WARNING - API returned non-200 status: 400
+2025-11-11 16:56:48,673 - WARNING - Response body: {
+  "error": {
+    "message": "{\"code\":\"Client specified an invalid argument\",\"error\":\"top_p must be positive but top_p = 0\"}No fallback model group found for original Please contact support at support@avalai.ir and include the request ID 019a7318-fa13-7ea3-87f0-0f34caf1ba22 in your email if you believe this is an error.",
+    "type": "invalid_request",
+    "param": null,
+    "code": "invalid_request",
+    "request_id": "019a7318-fa13-7ea3-87f0-0f34caf1ba22"
+  }
+}
+2025-11-11 16:56:48,673 - WARNING - Invalid/unparseable response for claim 48 after 3 retries
+2025-11-11 16:56:48,673 - INFO - Final prediction: __INVALID__
+2025-11-11 16:56:48,673 - INFO - Match: False
+2025-11-11 16:56:49,197 - INFO - 
+================================================================================
+2025-11-11 16:56:49,197 - INFO - Processing item #49
+2025-11-11 16:56:49,197 - INFO - Gold label: refuted -> Refuted
+2025-11-11 16:56:49,197 - INFO - Asking model: grok-3-latest
+2025-11-11 16:56:49,197 - INFO - Claim: “Oprah is a sex trafficker. She’s been caught and now has to be escorted around by U.S. marshals.”
+2025-11-11 16:56:50,121 - INFO - API Response Status: 400
+2025-11-11 16:56:50,121 - WARNING - API returned non-200 status: 400
+2025-11-11 16:56:50,122 - WARNING - Response body: {
+  "error": {
+    "message": "{\"code\":\"Client specified an invalid argument\",\"error\":\"top_p must be positive but top_p = 0\"}No fallback model group found for original Please contact support at support@avalai.ir and include the request ID 019a7318-ffa0-7721-811b-c75073e48185 in your email if you believe this is an error.",
+    "type": "invalid_request",
+    "param": null,
+    "code": "invalid_request",
+    "request_id": "019a7318-ffa0-7721-811b-c75073e48185"
+  }
+}
+2025-11-11 16:56:50,122 - WARNING - Invalid/unparseable response for claim 49 after 3 retries
+2025-11-11 16:56:50,122 - INFO - Final prediction: __INVALID__
+2025-11-11 16:56:50,122 - INFO - Match: False
+2025-11-11 16:56:50,642 - INFO - 
+================================================================================
+2025-11-11 16:56:50,642 - INFO - Processing item #50
+2025-11-11 16:56:50,642 - INFO - Gold label: refuted -> Refuted
+2025-11-11 16:56:50,642 - INFO - Asking model: grok-3-latest
+2025-11-11 16:56:50,642 - INFO - Claim: 'Bangladesh Chief Adviser Muhammad Yunus announced his retirement.'
+2025-11-11 16:56:51,724 - INFO - API Response Status: 400
+2025-11-11 16:56:51,724 - WARNING - API returned non-200 status: 400
+2025-11-11 16:56:51,725 - WARNING - Response body: {
+  "error": {
+    "message": "{\"code\":\"Client specified an invalid argument\",\"error\":\"top_p must be positive but top_p = 0\"}No fallback model group found for original Please contact support at support@avalai.ir and include the request ID 019a7319-0552-7ba2-8545-e8d61b6edfb9 in your email if you believe this is an error.",
+    "type": "invalid_request",
+    "param": null,
+    "code": "invalid_request",
+    "request_id": "019a7319-0552-7ba2-8545-e8d61b6edfb9"
+  }
+}
+2025-11-11 16:56:51,725 - WARNING - Invalid/unparseable response for claim 50 after 3 retries
+2025-11-11 16:56:51,725 - INFO - Final prediction: __INVALID__
+2025-11-11 16:56:51,725 - INFO - Match: False
+2025-11-11 16:56:52,243 - INFO - 
+================================================================================
+2025-11-11 16:56:52,244 - INFO - Processing item #51
+2025-11-11 16:56:52,244 - INFO - Gold label: misleading -> Misleading
+2025-11-11 16:56:52,244 - INFO - Asking model: grok-3-latest
+2025-11-11 16:56:52,244 - INFO - Claim: 'Renewable energy isn’t green; by 2050, 78 million metric tonnes of solar panels will reach the end of their lives and can't be recycled.'
+2025-11-11 16:56:53,101 - INFO - API Response Status: 400
+2025-11-11 16:56:53,101 - WARNING - API returned non-200 status: 400
+2025-11-11 16:56:53,101 - WARNING - Response body: {
+  "error": {
+    "message": "{\"code\":\"Client specified an invalid argument\",\"error\":\"top_p must be positive but top_p = 0\"}No fallback model group found for original Please contact support at support@avalai.ir and include the request ID 019a7319-0b89-7581-a27c-0f122ef8f530 in your email if you believe this is an error.",
+    "type": "invalid_request",
+    "param": null,
+    "code": "invalid_request",
+    "request_id": "019a7319-0b89-7581-a27c-0f122ef8f530"
+  }
+}
+2025-11-11 16:56:53,102 - WARNING - Invalid/unparseable response for claim 51 after 3 retries
+2025-11-11 16:56:53,102 - INFO - Final prediction: __INVALID__
+2025-11-11 16:56:53,102 - INFO - Match: False
+2025-11-11 16:56:53,621 - INFO - 
+================================================================================
+2025-11-11 16:56:53,621 - INFO - Processing item #52
+2025-11-11 16:56:53,621 - INFO - Gold label: supported -> Supported
+2025-11-11 16:56:53,621 - INFO - Asking model: grok-3-latest
+2025-11-11 16:56:53,621 - INFO - Claim: "Sen. Vance has said that there's a climate problem in the past. Donald Trump called it (climate change) a hoax and then joked that these things would make more beachfront property to be able to inves...
+2025-11-11 16:56:54,484 - INFO - API Response Status: 400
+2025-11-11 16:56:54,484 - WARNING - API returned non-200 status: 400
+2025-11-11 16:56:54,484 - WARNING - Response body: {
+  "error": {
+    "message": "{\"code\":\"Client specified an invalid argument\",\"error\":\"top_p must be positive but top_p = 0\"}No fallback model group found for original Please contact support at support@avalai.ir and include the request ID 019a7319-1126-7793-bbeb-2f0b78fe24eb in your email if you believe this is an error.",
+    "type": "invalid_request",
+    "param": null,
+    "code": "invalid_request",
+    "request_id": "019a7319-1126-7793-bbeb-2f0b78fe24eb"
+  }
+}
+2025-11-11 16:56:54,485 - WARNING - Invalid/unparseable response for claim 52 after 3 retries
+2025-11-11 16:56:54,485 - INFO - Final prediction: __INVALID__
+2025-11-11 16:56:54,485 - INFO - Match: False
+2025-11-11 16:56:54,989 - INFO - 
+================================================================================
+2025-11-11 16:56:54,990 - INFO - Processing item #53
+2025-11-11 16:56:54,990 - INFO - Gold label: not enough information -> Not enough information
+2025-11-11 16:56:54,990 - INFO - Asking model: grok-3-latest
+2025-11-11 16:56:54,990 - INFO - Claim: 'Within one year, our government has eliminated Boko Haram and bandit commanders faster than ever, over 300 as of the last count.'
+2025-11-11 16:56:55,775 - INFO - API Response Status: 400
+2025-11-11 16:56:55,775 - WARNING - API returned non-200 status: 400
+2025-11-11 16:56:55,776 - WARNING - Response body: {
+  "error": {
+    "message": "{\"code\":\"Client specified an invalid argument\",\"error\":\"top_p must be positive but top_p = 0\"}No fallback model group found for original Please contact support at support@avalai.ir and include the request ID 019a7319-164d-75c1-bec5-95dd7fe46636 in your email if you believe this is an error.",
+    "type": "invalid_request",
+    "param": null,
+    "code": "invalid_request",
+    "request_id": "019a7319-164d-75c1-bec5-95dd7fe46636"
+  }
+}
+2025-11-11 16:56:55,776 - WARNING - Invalid/unparseable response for claim 53 after 3 retries
+2025-11-11 16:56:55,776 - INFO - Final prediction: __INVALID__
+2025-11-11 16:56:55,776 - INFO - Match: False
+2025-11-11 16:56:56,295 - INFO - 
+================================================================================
+2025-11-11 16:56:56,295 - INFO - Processing item #54
+2025-11-11 16:56:56,296 - INFO - Gold label: not enough information -> Not enough information
+2025-11-11 16:56:56,296 - INFO - Asking model: grok-3-latest
+2025-11-11 16:56:56,296 - INFO - Claim: 'We have reduced the debt service ratio from 97 % to 68 %.'
+2025-11-11 16:56:57,468 - INFO - API Response Status: 400
+2025-11-11 16:56:57,468 - WARNING - API returned non-200 status: 400
+2025-11-11 16:56:57,468 - WARNING - Response body: {
+  "error": {
+    "message": "{\"code\":\"Client specified an invalid argument\",\"error\":\"top_p must be positive but top_p = 0\"}No fallback model group found for original Please contact support at support@avalai.ir and include the request ID 019a7319-1b7e-7392-aace-9484d6a990eb in your email if you believe this is an error.",
+    "type": "invalid_request",
+    "param": null,
+    "code": "invalid_request",
+    "request_id": "019a7319-1b7e-7392-aace-9484d6a990eb"
+  }
+}
+2025-11-11 16:56:57,468 - WARNING - Invalid/unparseable response for claim 54 after 3 retries
+2025-11-11 16:56:57,469 - INFO - Final prediction: __INVALID__
+2025-11-11 16:56:57,469 - INFO - Match: False
+2025-11-11 16:56:57,987 - INFO - 
+================================================================================
+2025-11-11 16:56:57,987 - INFO - Processing item #55
+2025-11-11 16:56:57,987 - INFO - Gold label: refuted -> Refuted
+2025-11-11 16:56:57,987 - INFO - Asking model: grok-3-latest
+2025-11-11 16:56:57,988 - INFO - Claim: 'We inherited a reserve of over $33 billion 16 months ago.'
+2025-11-11 16:56:58,858 - INFO - API Response Status: 400
+2025-11-11 16:56:58,858 - WARNING - API returned non-200 status: 400
+2025-11-11 16:56:58,858 - WARNING - Response body: {
+  "error": {
+    "message": "{\"code\":\"Client specified an invalid argument\",\"error\":\"top_p must be positive but top_p = 0\"}No fallback model group found for original Please contact support at support@avalai.ir and include the request ID 019a7319-2230-7791-841c-3ee8ed54c9e3 in your email if you believe this is an error.",
+    "type": "invalid_request",
+    "param": null,
+    "code": "invalid_request",
+    "request_id": "019a7319-2230-7791-841c-3ee8ed54c9e3"
+  }
+}
+2025-11-11 16:56:58,858 - WARNING - Invalid/unparseable response for claim 55 after 3 retries
+2025-11-11 16:56:58,858 - INFO - Final prediction: __INVALID__
+2025-11-11 16:56:58,858 - INFO - Match: False
+2025-11-11 16:56:59,367 - INFO - 
+================================================================================
+2025-11-11 16:56:59,367 - INFO - Processing item #56
+2025-11-11 16:56:59,367 - INFO - Gold label: refuted -> Refuted
+2025-11-11 16:56:59,367 - INFO - Asking model: grok-3-latest
+2025-11-11 16:56:59,368 - INFO - Claim: 'Our country attracted foreign direct investments worth more than US$30 billion in the last year.'
+2025-11-11 16:57:00,263 - INFO - API Response Status: 400
+2025-11-11 16:57:00,263 - WARNING - API returned non-200 status: 400
+2025-11-11 16:57:00,263 - WARNING - Response body: {
+  "error": {
+    "message": "{\"code\":\"Client specified an invalid argument\",\"error\":\"top_p must be positive but top_p = 0\"}No fallback model group found for original Please contact support at support@avalai.ir and include the request ID 019a7319-27ad-7591-a037-d7390ce4b060 in your email if you believe this is an error.",
+    "type": "invalid_request",
+    "param": null,
+    "code": "invalid_request",
+    "request_id": "019a7319-27ad-7591-a037-d7390ce4b060"
+  }
+}
+2025-11-11 16:57:00,263 - WARNING - Invalid/unparseable response for claim 56 after 3 retries
+2025-11-11 16:57:00,263 - INFO - Final prediction: __INVALID__
+2025-11-11 16:57:00,264 - INFO - Match: False
+2025-11-11 16:57:00,784 - INFO - 
+================================================================================
+2025-11-11 16:57:00,784 - INFO - Processing item #57
+2025-11-11 16:57:00,784 - INFO - Gold label: refuted -> Refuted
+2025-11-11 16:57:00,784 - INFO - Asking model: grok-3-latest
+2025-11-11 16:57:00,784 - INFO - Claim: 'Our young people … constitute more than 60% of our population.'
+2025-11-11 16:57:01,600 - INFO - API Response Status: 400
+2025-11-11 16:57:01,600 - WARNING - API returned non-200 status: 400
+2025-11-11 16:57:01,600 - WARNING - Response body: {
+  "error": {
+    "message": "{\"code\":\"Client specified an invalid argument\",\"error\":\"top_p must be positive but top_p = 0\"}No fallback model group found for original Please contact support at support@avalai.ir and include the request ID 019a7319-2d04-75d3-812f-fa42906804fb in your email if you believe this is an error.",
+    "type": "invalid_request",
+    "param": null,
+    "code": "invalid_request",
+    "request_id": "019a7319-2d04-75d3-812f-fa42906804fb"
+  }
+}
+2025-11-11 16:57:01,600 - WARNING - Invalid/unparseable response for claim 57 after 3 retries
+2025-11-11 16:57:01,601 - INFO - Final prediction: __INVALID__
+2025-11-11 16:57:01,601 - INFO - Match: False
+2025-11-11 16:57:02,119 - INFO - 
+================================================================================
+2025-11-11 16:57:02,119 - INFO - Processing item #58
+2025-11-11 16:57:02,119 - INFO - Gold label: misleading -> Misleading
+2025-11-11 16:57:02,119 - INFO - Asking model: grok-3-latest
+2025-11-11 16:57:02,119 - INFO - Claim: 'Rodrigo Duterte is running for senator in the 2025 elections.'
+2025-11-11 16:57:02,850 - INFO - API Response Status: 400
+2025-11-11 16:57:02,850 - WARNING - API returned non-200 status: 400
+2025-11-11 16:57:02,851 - WARNING - Response body: {
+  "error": {
+    "message": "{\"code\":\"Client specified an invalid argument\",\"error\":\"top_p must be positive but top_p = 0\"}No fallback model group found for original Please contact support at support@avalai.ir and include the request ID 019a7319-320a-7fc1-9a6c-4fddf85914ab in your email if you believe this is an error.",
+    "type": "invalid_request",
+    "param": null,
+    "code": "invalid_request",
+    "request_id": "019a7319-320a-7fc1-9a6c-4fddf85914ab"
+  }
+}
+2025-11-11 16:57:02,851 - WARNING - Invalid/unparseable response for claim 58 after 3 retries
+2025-11-11 16:57:02,851 - INFO - Final prediction: __INVALID__
+2025-11-11 16:57:02,851 - INFO - Match: False
+2025-11-11 16:57:03,363 - INFO - 
+================================================================================
+2025-11-11 16:57:03,364 - INFO - Processing item #59
+2025-11-11 16:57:03,364 - INFO - Gold label: misleading -> Misleading
+2025-11-11 16:57:03,364 - INFO - Asking model: grok-3-latest
+2025-11-11 16:57:03,364 - INFO - Claim: 'There’s a £22 billion black hole in the economy.'
+2025-11-11 16:57:04,187 - INFO - API Response Status: 400
+2025-11-11 16:57:04,187 - WARNING - API returned non-200 status: 400
+2025-11-11 16:57:04,187 - WARNING - Response body: {
+  "error": {
+    "message": "{\"code\":\"Client specified an invalid argument\",\"error\":\"top_p must be positive but top_p = 0\"}No fallback model group found for original Please contact support at support@avalai.ir and include the request ID 019a7319-371a-7630-b201-f232bcac0a23 in your email if you believe this is an error.",
+    "type": "invalid_request",
+    "param": null,
+    "code": "invalid_request",
+    "request_id": "019a7319-371a-7630-b201-f232bcac0a23"
+  }
+}
+2025-11-11 16:57:04,187 - WARNING - Invalid/unparseable response for claim 59 after 3 retries
+2025-11-11 16:57:04,187 - INFO - Final prediction: __INVALID__
+2025-11-11 16:57:04,187 - INFO - Match: False
+2025-11-11 16:57:04,699 - INFO - 
+================================================================================
+2025-11-11 16:57:04,700 - INFO - Processing item #60
+2025-11-11 16:57:04,700 - INFO - Gold label: refuted -> Refuted
+2025-11-11 16:57:04,700 - INFO - Asking model: grok-3-latest
+2025-11-11 16:57:04,700 - INFO - Claim: 'The World Economic Forum (WEF) demanded a ban on homegrown plants to check global warming.'
+2025-11-11 16:57:05,532 - INFO - API Response Status: 400
+2025-11-11 16:57:05,533 - WARNING - API returned non-200 status: 400
+2025-11-11 16:57:05,533 - WARNING - Response body: {
+  "error": {
+    "message": "{\"code\":\"Client specified an invalid argument\",\"error\":\"top_p must be positive but top_p = 0\"}No fallback model group found for original Please contact support at support@avalai.ir and include the request ID 019a7319-3c30-7461-8f82-9d8e2482277d in your email if you believe this is an error.",
+    "type": "invalid_request",
+    "param": null,
+    "code": "invalid_request",
+    "request_id": "019a7319-3c30-7461-8f82-9d8e2482277d"
+  }
+}
+2025-11-11 16:57:05,533 - WARNING - Invalid/unparseable response for claim 60 after 3 retries
+2025-11-11 16:57:05,533 - INFO - Final prediction: __INVALID__
+2025-11-11 16:57:05,533 - INFO - Match: False
+2025-11-11 16:57:06,046 - INFO - 
+================================================================================
+2025-11-11 16:57:06,046 - INFO - Processing item #61
+2025-11-11 16:57:06,046 - INFO - Gold label: refuted -> Refuted
+2025-11-11 16:57:06,046 - INFO - Asking model: grok-3-latest
+2025-11-11 16:57:06,046 - INFO - Claim: 'A study into global warming proves it is a hoax.'
+2025-11-11 16:57:07,062 - INFO - API Response Status: 400
+2025-11-11 16:57:07,062 - WARNING - API returned non-200 status: 400
+2025-11-11 16:57:07,063 - WARNING - Response body: {
+  "error": {
+    "message": "{\"code\":\"Client specified an invalid argument\",\"error\":\"top_p must be positive but top_p = 0\"}No fallback model group found for original Please contact support at support@avalai.ir and include the request ID 019a7319-419e-7100-89fd-36d158c8f1ce in your email if you believe this is an error.",
+    "type": "invalid_request",
+    "param": null,
+    "code": "invalid_request",
+    "request_id": "019a7319-419e-7100-89fd-36d158c8f1ce"
+  }
+}
+2025-11-11 16:57:07,063 - WARNING - Invalid/unparseable response for claim 61 after 3 retries
+2025-11-11 16:57:07,063 - INFO - Final prediction: __INVALID__
+2025-11-11 16:57:07,063 - INFO - Match: False
+2025-11-11 16:57:07,570 - INFO - 
+================================================================================
+2025-11-11 16:57:07,570 - INFO - Processing item #62
+2025-11-11 16:57:07,570 - INFO - Gold label: misleading -> Misleading
+2025-11-11 16:57:07,570 - INFO - Asking model: grok-3-latest
+2025-11-11 16:57:07,570 - INFO - Claim: 'Amendment to health act will force Malaysians to be vaccinated.'
+2025-11-11 16:57:08,481 - INFO - API Response Status: 400
+2025-11-11 16:57:08,481 - WARNING - API returned non-200 status: 400
+2025-11-11 16:57:08,481 - WARNING - Response body: {
+  "error": {
+    "message": "{\"code\":\"Client specified an invalid argument\",\"error\":\"top_p must be positive but top_p = 0\"}No fallback model group found for original Please contact support at support@avalai.ir and include the request ID 019a7319-477a-7de3-a713-ff1c99388b6f in your email if you believe this is an error.",
+    "type": "invalid_request",
+    "param": null,
+    "code": "invalid_request",
+    "request_id": "019a7319-477a-7de3-a713-ff1c99388b6f"
+  }
+}
+2025-11-11 16:57:08,482 - WARNING - Invalid/unparseable response for claim 62 after 3 retries
+2025-11-11 16:57:08,482 - INFO - Final prediction: __INVALID__
+2025-11-11 16:57:08,482 - INFO - Match: False
+2025-11-11 16:57:08,989 - INFO - 
+================================================================================
+2025-11-11 16:57:08,989 - INFO - Processing item #63
+2025-11-11 16:57:08,989 - INFO - Gold label: refuted -> Refuted
+2025-11-11 16:57:08,989 - INFO - Asking model: grok-3-latest
+2025-11-11 16:57:08,989 - INFO - Claim: 'Kamala Harris “destroyed our economy.”'
+2025-11-11 16:57:09,762 - INFO - API Response Status: 400
+2025-11-11 16:57:09,762 - WARNING - API returned non-200 status: 400
+2025-11-11 16:57:09,762 - WARNING - Response body: {
+  "error": {
+    "message": "{\"code\":\"Client specified an invalid argument\",\"error\":\"top_p must be positive but top_p = 0\"}No fallback model group found for original Please contact support at support@avalai.ir and include the request ID 019a7319-4cf4-7b51-b701-40c1695da9d7 in your email if you believe this is an error.",
+    "type": "invalid_request",
+    "param": null,
+    "code": "invalid_request",
+    "request_id": "019a7319-4cf4-7b51-b701-40c1695da9d7"
+  }
+}
+2025-11-11 16:57:09,762 - WARNING - Invalid/unparseable response for claim 63 after 3 retries
+2025-11-11 16:57:09,762 - INFO - Final prediction: __INVALID__
+2025-11-11 16:57:09,763 - INFO - Match: False
+2025-11-11 16:57:10,280 - INFO - 
+================================================================================
+2025-11-11 16:57:10,280 - INFO - Processing item #64
+2025-11-11 16:57:10,281 - INFO - Gold label: refuted -> Refuted
+2025-11-11 16:57:10,281 - INFO - Asking model: grok-3-latest
+2025-11-11 16:57:10,281 - INFO - Claim: 'Climate change has only had 'positive effects' on global food production.'
+2025-11-11 16:57:11,250 - INFO - API Response Status: 400
+2025-11-11 16:57:11,250 - WARNING - API returned non-200 status: 400
+2025-11-11 16:57:11,250 - WARNING - Response body: {
+  "error": {
+    "message": "{\"code\":\"Client specified an invalid argument\",\"error\":\"top_p must be positive but top_p = 0\"}No fallback model group found for original Please contact support at support@avalai.ir and include the request ID 019a7319-51ff-71a1-b5f9-c43e4c86b374 in your email if you believe this is an error.",
+    "type": "invalid_request",
+    "param": null,
+    "code": "invalid_request",
+    "request_id": "019a7319-51ff-71a1-b5f9-c43e4c86b374"
+  }
+}
+2025-11-11 16:57:11,251 - WARNING - Invalid/unparseable response for claim 64 after 3 retries
+2025-11-11 16:57:11,251 - INFO - Final prediction: __INVALID__
+2025-11-11 16:57:11,251 - INFO - Match: False
+2025-11-11 16:57:11,772 - INFO - 
+================================================================================
+2025-11-11 16:57:11,772 - INFO - Processing item #65
+2025-11-11 16:57:11,772 - INFO - Gold label: misleading -> Misleading
+2025-11-11 16:57:11,773 - INFO - Asking model: grok-3-latest
+2025-11-11 16:57:11,773 - INFO - Claim: 'COVID-19 vaccines are unsafe, they cause deaths by cardiac arrest and blood clots.'
+2025-11-11 16:57:12,594 - INFO - API Response Status: 400
+2025-11-11 16:57:12,594 - WARNING - API returned non-200 status: 400
+2025-11-11 16:57:12,594 - WARNING - Response body: {
+  "error": {
+    "message": "{\"code\":\"Client specified an invalid argument\",\"error\":\"top_p must be positive but top_p = 0\"}No fallback model group found for original Please contact support at support@avalai.ir and include the request ID 019a7319-57da-77b3-ba9d-1528b556a136 in your email if you believe this is an error.",
+    "type": "invalid_request",
+    "param": null,
+    "code": "invalid_request",
+    "request_id": "019a7319-57da-77b3-ba9d-1528b556a136"
+  }
+}
+2025-11-11 16:57:12,595 - WARNING - Invalid/unparseable response for claim 65 after 3 retries
+2025-11-11 16:57:12,595 - INFO - Final prediction: __INVALID__
+2025-11-11 16:57:12,595 - INFO - Match: False
+2025-11-11 16:57:13,105 - INFO - 
+================================================================================
+2025-11-11 16:57:13,107 - INFO - Processing item #66
+2025-11-11 16:57:13,107 - INFO - Gold label: refuted -> Refuted
+2025-11-11 16:57:13,107 - INFO - Asking model: grok-3-latest
+2025-11-11 16:57:13,107 - INFO - Claim: 'A viral claim on X suggests that 159 out of 195 countries are to join a new BRICS settlement system, implying a significant shift toward BRICS dominance in the global economy and a movement away from...
+2025-11-11 16:57:13,933 - INFO - API Response Status: 400
+2025-11-11 16:57:13,934 - WARNING - API returned non-200 status: 400
+2025-11-11 16:57:13,934 - WARNING - Response body: {
+  "error": {
+    "message": "{\"code\":\"Client specified an invalid argument\",\"error\":\"top_p must be positive but top_p = 0\"}No fallback model group found for original Please contact support at support@avalai.ir and include the request ID 019a7319-5d2a-7621-b003-31a1489ca824 in your email if you believe this is an error.",
+    "type": "invalid_request",
+    "param": null,
+    "code": "invalid_request",
+    "request_id": "019a7319-5d2a-7621-b003-31a1489ca824"
+  }
+}
+2025-11-11 16:57:13,934 - WARNING - Invalid/unparseable response for claim 66 after 3 retries
+2025-11-11 16:57:13,934 - INFO - Final prediction: __INVALID__
+2025-11-11 16:57:13,934 - INFO - Match: False
+2025-11-11 16:57:14,456 - INFO - 
+================================================================================
+2025-11-11 16:57:14,456 - INFO - Processing item #67
+2025-11-11 16:57:14,457 - INFO - Gold label: refuted -> Refuted
+2025-11-11 16:57:14,457 - INFO - Asking model: grok-3-latest
+2025-11-11 16:57:14,457 - INFO - Claim: 'A staggering $41 billion has gone missing from the globalist World Bank’s Climate Change fund under the watch of Ajay Banga.'
+2025-11-11 16:57:15,640 - INFO - API Response Status: 400
+2025-11-11 16:57:15,641 - WARNING - API returned non-200 status: 400
+2025-11-11 16:57:15,641 - WARNING - Response body: {
+  "error": {
+    "message": "{\"code\":\"Client specified an invalid argument\",\"error\":\"top_p must be positive but top_p = 0\"}No fallback model group found for original Please contact support at support@avalai.ir and include the request ID 019a7319-62c1-7fd3-a2cd-6d4927fb4ba5 in your email if you believe this is an error.",
+    "type": "invalid_request",
+    "param": null,
+    "code": "invalid_request",
+    "request_id": "019a7319-62c1-7fd3-a2cd-6d4927fb4ba5"
+  }
+}
+2025-11-11 16:57:15,641 - WARNING - Invalid/unparseable response for claim 67 after 3 retries
+2025-11-11 16:57:15,641 - INFO - Final prediction: __INVALID__
+2025-11-11 16:57:15,641 - INFO - Match: False
+2025-11-11 16:57:16,147 - INFO - 
+================================================================================
+2025-11-11 16:57:16,147 - INFO - Processing item #68
+2025-11-11 16:57:16,147 - INFO - Gold label: misleading -> Misleading
+2025-11-11 16:57:16,147 - INFO - Asking model: grok-3-latest
+2025-11-11 16:57:16,147 - INFO - Claim: 'Rising CO2 and temperatures are behind the global boost in grain production over the last 60 years.'
+2025-11-11 16:57:16,955 - INFO - API Response Status: 400
+2025-11-11 16:57:16,955 - WARNING - API returned non-200 status: 400
+2025-11-11 16:57:16,956 - WARNING - Response body: {
+  "error": {
+    "message": "{\"code\":\"Client specified an invalid argument\",\"error\":\"top_p must be positive but top_p = 0\"}No fallback model group found for original Please contact support at support@avalai.ir and include the request ID 019a7319-68fd-7133-b930-2713542c3de5 in your email if you believe this is an error.",
+    "type": "invalid_request",
+    "param": null,
+    "code": "invalid_request",
+    "request_id": "019a7319-68fd-7133-b930-2713542c3de5"
+  }
+}
+2025-11-11 16:57:16,956 - WARNING - Invalid/unparseable response for claim 68 after 3 retries
+2025-11-11 16:57:16,956 - INFO - Final prediction: __INVALID__
+2025-11-11 16:57:16,956 - INFO - Match: False
+2025-11-11 16:57:17,478 - INFO - 
+================================================================================
+2025-11-11 16:57:17,478 - INFO - Processing item #69
+2025-11-11 16:57:17,478 - INFO - Gold label: refuted -> Refuted
+2025-11-11 16:57:17,478 - INFO - Asking model: grok-3-latest
+2025-11-11 16:57:17,479 - INFO - Claim: 'HAARP is responsible for recent floods in Spain, New Mexico, and elsewhere.'
+2025-11-11 16:57:18,518 - INFO - API Response Status: 400
+2025-11-11 16:57:18,518 - WARNING - API returned non-200 status: 400
+2025-11-11 16:57:18,518 - WARNING - Response body: {
+  "error": {
+    "message": "{\"code\":\"Client specified an invalid argument\",\"error\":\"top_p must be positive but top_p = 0\"}No fallback model group found for original Please contact support at support@avalai.ir and include the request ID 019a7319-6e6c-7ef1-b179-09d8444e729a in your email if you believe this is an error.",
+    "type": "invalid_request",
+    "param": null,
+    "code": "invalid_request",
+    "request_id": "019a7319-6e6c-7ef1-b179-09d8444e729a"
+  }
+}
+2025-11-11 16:57:18,518 - WARNING - Invalid/unparseable response for claim 69 after 3 retries
+2025-11-11 16:57:18,518 - INFO - Final prediction: __INVALID__
+2025-11-11 16:57:18,519 - INFO - Match: False
+2025-11-11 16:57:19,028 - INFO - 
+================================================================================
+2025-11-11 16:57:19,029 - INFO - Processing item #70
+2025-11-11 16:57:19,029 - INFO - Gold label: not enough information -> Not enough information
+2025-11-11 16:57:19,029 - INFO - Asking model: grok-3-latest
+2025-11-11 16:57:19,029 - INFO - Claim: “The Ondo state governor drew more than 1.2 billion security votes in September 2024 in the week of the Edo election.”
+2025-11-11 16:57:19,876 - INFO - API Response Status: 400
+2025-11-11 16:57:19,876 - WARNING - API returned non-200 status: 400
+2025-11-11 16:57:19,876 - WARNING - Response body: {
+  "error": {
+    "message": "{\"code\":\"Client specified an invalid argument\",\"error\":\"top_p must be positive but top_p = 0\"}No fallback model group found for original Please contact support at support@avalai.ir and include the request ID 019a7319-7475-7cd1-b211-4350400a29ef in your email if you believe this is an error.",
+    "type": "invalid_request",
+    "param": null,
+    "code": "invalid_request",
+    "request_id": "019a7319-7475-7cd1-b211-4350400a29ef"
+  }
+}
+2025-11-11 16:57:19,876 - WARNING - Invalid/unparseable response for claim 70 after 3 retries
+2025-11-11 16:57:19,877 - INFO - Final prediction: __INVALID__
+2025-11-11 16:57:19,877 - INFO - Match: False
+2025-11-11 16:57:20,397 - INFO - 
+================================================================================
+2025-11-11 16:57:20,397 - INFO - Processing item #71
+2025-11-11 16:57:20,397 - INFO - Gold label: refuted -> Refuted
+2025-11-11 16:57:20,397 - INFO - Asking model: grok-3-latest
+2025-11-11 16:57:20,397 - INFO - Claim: 'Zimbabwe's economic grew a steady 3-6%.'
+2025-11-11 16:57:21,313 - INFO - API Response Status: 400
+2025-11-11 16:57:21,313 - WARNING - API returned non-200 status: 400
+2025-11-11 16:57:21,313 - WARNING - Response body: {
+  "error": {
+    "message": "{\"code\":\"Client specified an invalid argument\",\"error\":\"top_p must be positive but top_p = 0\"}No fallback model group found for original Please contact support at support@avalai.ir and include the request ID 019a7319-799d-7333-ab2b-28f17513c719 in your email if you believe this is an error.",
+    "type": "invalid_request",
+    "param": null,
+    "code": "invalid_request",
+    "request_id": "019a7319-799d-7333-ab2b-28f17513c719"
+  }
+}
+2025-11-11 16:57:21,313 - WARNING - Invalid/unparseable response for claim 71 after 3 retries
+2025-11-11 16:57:21,313 - INFO - Final prediction: __INVALID__
+2025-11-11 16:57:21,314 - INFO - Match: False
+2025-11-11 16:57:21,827 - INFO - 
+================================================================================
+2025-11-11 16:57:21,827 - INFO - Processing item #72
+2025-11-11 16:57:21,827 - INFO - Gold label: refuted -> Refuted
+2025-11-11 16:57:21,827 - INFO - Asking model: grok-3-latest
+2025-11-11 16:57:21,827 - INFO - Claim: 'First-ever snowfall on record in the Al-Jouf (or Al-Jawf) desert in Saudi Arabia occurred in early November 2024.'
+2025-11-11 16:57:22,602 - INFO - API Response Status: 400
+2025-11-11 16:57:22,602 - WARNING - API returned non-200 status: 400
+2025-11-11 16:57:22,602 - WARNING - Response body: {
+  "error": {
+    "message": "{\"code\":\"Client specified an invalid argument\",\"error\":\"top_p must be positive but top_p = 0\"}No fallback model group found for original Please contact support at support@avalai.ir and include the request ID 019a7319-7f14-7d92-a1d4-0f584e2e5b18 in your email if you believe this is an error.",
+    "type": "invalid_request",
+    "param": null,
+    "code": "invalid_request",
+    "request_id": "019a7319-7f14-7d92-a1d4-0f584e2e5b18"
+  }
+}
+2025-11-11 16:57:22,602 - WARNING - Invalid/unparseable response for claim 72 after 3 retries
+2025-11-11 16:57:22,602 - INFO - Final prediction: __INVALID__
+2025-11-11 16:57:22,603 - INFO - Match: False
+2025-11-11 16:57:23,117 - INFO - 
+================================================================================
+2025-11-11 16:57:23,118 - INFO - Processing item #73
+2025-11-11 16:57:23,118 - INFO - Gold label: misleading -> Misleading
+2025-11-11 16:57:23,118 - INFO - Asking model: grok-3-latest
+2025-11-11 16:57:23,118 - INFO - Claim: 'A pre-marked dot on the U.S. election ballot makes the vote void.'
+2025-11-11 16:57:23,946 - INFO - API Response Status: 400
+2025-11-11 16:57:23,946 - WARNING - API returned non-200 status: 400
+2025-11-11 16:57:23,946 - WARNING - Response body: {
+  "error": {
+    "message": "{\"code\":\"Client specified an invalid argument\",\"error\":\"top_p must be positive but top_p = 0\"}No fallback model group found for original Please contact support at support@avalai.ir and include the request ID 019a7319-8480-7353-ade8-b9cc68afbffd in your email if you believe this is an error.",
+    "type": "invalid_request",
+    "param": null,
+    "code": "invalid_request",
+    "request_id": "019a7319-8480-7353-ade8-b9cc68afbffd"
+  }
+}
+2025-11-11 16:57:23,946 - WARNING - Invalid/unparseable response for claim 73 after 3 retries
+2025-11-11 16:57:23,946 - INFO - Final prediction: __INVALID__
+2025-11-11 16:57:23,946 - INFO - Match: False
+2025-11-11 16:57:24,459 - INFO - 
+================================================================================
+2025-11-11 16:57:24,460 - INFO - Processing item #74
+2025-11-11 16:57:24,460 - INFO - Gold label: misleading -> Misleading
+2025-11-11 16:57:24,460 - INFO - Asking model: grok-3-latest
+2025-11-11 16:57:24,460 - INFO - Claim: '"These [Moldovan presidential] elections were neither democratic nor fair. They were full of electoral manipulations."'
+2025-11-11 16:57:25,317 - INFO - API Response Status: 400
+2025-11-11 16:57:25,317 - WARNING - API returned non-200 status: 400
+2025-11-11 16:57:25,317 - WARNING - Response body: {
+  "error": {
+    "message": "{\"code\":\"Client specified an invalid argument\",\"error\":\"top_p must be positive but top_p = 0\"}No fallback model group found for original Please contact support at support@avalai.ir and include the request ID 019a7319-8966-7842-a88a-82e3997ab3d5 in your email if you believe this is an error.",
+    "type": "invalid_request",
+    "param": null,
+    "code": "invalid_request",
+    "request_id": "019a7319-8966-7842-a88a-82e3997ab3d5"
+  }
+}
+2025-11-11 16:57:25,317 - WARNING - Invalid/unparseable response for claim 74 after 3 retries
+2025-11-11 16:57:25,317 - INFO - Final prediction: __INVALID__
+2025-11-11 16:57:25,317 - INFO - Match: False
+2025-11-11 16:57:25,829 - INFO - 
+================================================================================
+2025-11-11 16:57:25,829 - INFO - Processing item #75
+2025-11-11 16:57:25,830 - INFO - Gold label: refuted -> Refuted
+2025-11-11 16:57:25,830 - INFO - Asking model: grok-3-latest
+2025-11-11 16:57:25,830 - INFO - Claim: 'Impact of human-induced CO2 is insignificant when compared to natural climate variations.'
+2025-11-11 16:57:26,629 - INFO - API Response Status: 400
+2025-11-11 16:57:26,629 - WARNING - API returned non-200 status: 400
+2025-11-11 16:57:26,629 - WARNING - Response body: {
+  "error": {
+    "message": "{\"code\":\"Client specified an invalid argument\",\"error\":\"top_p must be positive but top_p = 0\"}No fallback model group found for original Please contact support at support@avalai.ir and include the request ID 019a7319-8ec3-75b3-b17a-a86fb89c8d45 in your email if you believe this is an error.",
+    "type": "invalid_request",
+    "param": null,
+    "code": "invalid_request",
+    "request_id": "019a7319-8ec3-75b3-b17a-a86fb89c8d45"
+  }
+}
+2025-11-11 16:57:26,629 - WARNING - Invalid/unparseable response for claim 75 after 3 retries
+2025-11-11 16:57:26,629 - INFO - Final prediction: __INVALID__
+2025-11-11 16:57:26,629 - INFO - Match: False
+2025-11-11 16:57:27,146 - INFO - 
+================================================================================
+2025-11-11 16:57:27,146 - INFO - Processing item #76
+2025-11-11 16:57:27,146 - INFO - Gold label: misleading -> Misleading
+2025-11-11 16:57:27,146 - INFO - Asking model: grok-3-latest
+2025-11-11 16:57:27,146 - INFO - Claim: 'George Soros and Bill Gates owned Mologic Ltd, a company producing rapid COVID-19 tests, prior to the pandemic.'
+2025-11-11 16:57:27,970 - INFO - API Response Status: 400
+2025-11-11 16:57:27,970 - WARNING - API returned non-200 status: 400
+2025-11-11 16:57:27,970 - WARNING - Response body: {
+  "error": {
+    "message": "{\"code\":\"Client specified an invalid argument\",\"error\":\"top_p must be positive but top_p = 0\"}No fallback model group found for original Please contact support at support@avalai.ir and include the request ID 019a7319-9407-7483-857c-74e9ab59c69b in your email if you believe this is an error.",
+    "type": "invalid_request",
+    "param": null,
+    "code": "invalid_request",
+    "request_id": "019a7319-9407-7483-857c-74e9ab59c69b"
+  }
+}
+2025-11-11 16:57:27,970 - WARNING - Invalid/unparseable response for claim 76 after 3 retries
+2025-11-11 16:57:27,970 - INFO - Final prediction: __INVALID__
+2025-11-11 16:57:27,970 - INFO - Match: False
+2025-11-11 16:57:28,493 - INFO - 
+================================================================================
+2025-11-11 16:57:28,493 - INFO - Processing item #77
+2025-11-11 16:57:28,494 - INFO - Gold label: refuted -> Refuted
+2025-11-11 16:57:28,494 - INFO - Asking model: grok-3-latest
+2025-11-11 16:57:28,494 - INFO - Claim: 'Japan named COVID-19 mRNA vaccine the 'deadliest drug in history''
+2025-11-11 16:57:29,525 - INFO - API Response Status: 400
+2025-11-11 16:57:29,525 - WARNING - API returned non-200 status: 400
+2025-11-11 16:57:29,525 - WARNING - Response body: {
+  "error": {
+    "message": "{\"code\":\"Client specified an invalid argument\",\"error\":\"top_p must be positive but top_p = 0\"}No fallback model group found for original Please contact support at support@avalai.ir and include the request ID 019a7319-992c-7081-991f-d909df9e9ba4 in your email if you believe this is an error.",
+    "type": "invalid_request",
+    "param": null,
+    "code": "invalid_request",
+    "request_id": "019a7319-992c-7081-991f-d909df9e9ba4"
+  }
+}
+2025-11-11 16:57:29,525 - WARNING - Invalid/unparseable response for claim 77 after 3 retries
+2025-11-11 16:57:29,526 - INFO - Final prediction: __INVALID__
+2025-11-11 16:57:29,526 - INFO - Match: False
+2025-11-11 16:57:30,037 - INFO - 
+================================================================================
+2025-11-11 16:57:30,038 - INFO - Processing item #78
+2025-11-11 16:57:30,038 - INFO - Gold label: misleading -> Misleading
+2025-11-11 16:57:30,038 - INFO - Asking model: grok-3-latest
+2025-11-11 16:57:30,038 - INFO - Claim: “Rather than respecting her dignity and focusing on the mental health challenges she was facing, these groups saw an opportunity to fuel their anti-government agenda.”
+2025-11-11 16:57:30,890 - INFO - API Response Status: 400
+2025-11-11 16:57:30,890 - WARNING - API returned non-200 status: 400
+2025-11-11 16:57:30,891 - WARNING - Response body: {
+  "error": {
+    "message": "{\"code\":\"Client specified an invalid argument\",\"error\":\"top_p must be positive but top_p = 0\"}No fallback model group found for original Please contact support at support@avalai.ir and include the request ID 019a7319-9f4c-7610-8c32-152ce983958e in your email if you believe this is an error.",
+    "type": "invalid_request",
+    "param": null,
+    "code": "invalid_request",
+    "request_id": "019a7319-9f4c-7610-8c32-152ce983958e"
+  }
+}
+2025-11-11 16:57:30,891 - WARNING - Invalid/unparseable response for claim 78 after 3 retries
+2025-11-11 16:57:30,891 - INFO - Final prediction: __INVALID__
+2025-11-11 16:57:30,891 - INFO - Match: False
+2025-11-11 16:57:31,409 - INFO - 
+================================================================================
+2025-11-11 16:57:31,409 - INFO - Processing item #79
+2025-11-11 16:57:31,409 - INFO - Gold label: refuted -> Refuted
+2025-11-11 16:57:31,409 - INFO - Asking model: grok-3-latest
+2025-11-11 16:57:31,410 - INFO - Claim: 'Swiss church is having confessions heard by ‘AI Jesus’'
+2025-11-11 16:57:32,204 - INFO - API Response Status: 400
+2025-11-11 16:57:32,204 - WARNING - API returned non-200 status: 400
+2025-11-11 16:57:32,204 - WARNING - Response body: {
+  "error": {
+    "message": "{\"code\":\"Client specified an invalid argument\",\"error\":\"top_p must be positive but top_p = 0\"}No fallback model group found for original Please contact support at support@avalai.ir and include the request ID 019a7319-a493-73a0-b593-ec94c5430618 in your email if you believe this is an error.",
+    "type": "invalid_request",
+    "param": null,
+    "code": "invalid_request",
+    "request_id": "019a7319-a493-73a0-b593-ec94c5430618"
+  }
+}
+2025-11-11 16:57:32,204 - WARNING - Invalid/unparseable response for claim 79 after 3 retries
+2025-11-11 16:57:32,205 - INFO - Final prediction: __INVALID__
+2025-11-11 16:57:32,205 - INFO - Match: False
+2025-11-11 16:57:32,714 - INFO - 
+================================================================================
+2025-11-11 16:57:32,716 - INFO - Processing item #80
+2025-11-11 16:57:32,716 - INFO - Gold label: refuted -> Refuted
+2025-11-11 16:57:32,716 - INFO - Asking model: grok-3-latest
+2025-11-11 16:57:32,716 - INFO - Claim: 'Cow farts [methane emissions from cattle] are blamed for climate change, but there are bigger issues like people burning millions of tires in the deserts of Kuwait.'
+2025-11-11 16:57:33,819 - INFO - API Response Status: 400
+2025-11-11 16:57:33,819 - WARNING - API returned non-200 status: 400
+2025-11-11 16:57:33,819 - WARNING - Response body: {
+  "error": {
+    "message": "{\"code\":\"Client specified an invalid argument\",\"error\":\"top_p must be positive but top_p = 0\"}No fallback model group found for original Please contact support at support@avalai.ir and include the request ID 019a7319-aada-7fc2-82bd-f5971279b252 in your email if you believe this is an error.",
+    "type": "invalid_request",
+    "param": null,
+    "code": "invalid_request",
+    "request_id": "019a7319-aada-7fc2-82bd-f5971279b252"
+  }
+}
+2025-11-11 16:57:33,819 - WARNING - Invalid/unparseable response for claim 80 after 3 retries
+2025-11-11 16:57:33,820 - INFO - Final prediction: __INVALID__
+2025-11-11 16:57:33,820 - INFO - Match: False
+2025-11-11 16:57:34,330 - INFO - 
+================================================================================
+2025-11-11 16:57:34,330 - INFO - Processing item #81
+2025-11-11 16:57:34,330 - INFO - Gold label: refuted -> Refuted
+2025-11-11 16:57:34,330 - INFO - Asking model: grok-3-latest
+2025-11-11 16:57:34,331 - INFO - Claim: 'New study shows that climate change is greatly overestimated because oceans are cooling Earth far more than we thought.'
+2025-11-11 16:57:35,194 - INFO - API Response Status: 400
+2025-11-11 16:57:35,195 - WARNING - API returned non-200 status: 400
+2025-11-11 16:57:35,195 - WARNING - Response body: {
+  "error": {
+    "message": "{\"code\":\"Client specified an invalid argument\",\"error\":\"top_p must be positive but top_p = 0\"}No fallback model group found for original Please contact support at support@avalai.ir and include the request ID 019a7319-b078-7e91-8e95-3feb508f971c in your email if you believe this is an error.",
+    "type": "invalid_request",
+    "param": null,
+    "code": "invalid_request",
+    "request_id": "019a7319-b078-7e91-8e95-3feb508f971c"
+  }
+}
+2025-11-11 16:57:35,195 - WARNING - Invalid/unparseable response for claim 81 after 3 retries
+2025-11-11 16:57:35,195 - INFO - Final prediction: __INVALID__
+2025-11-11 16:57:35,195 - INFO - Match: False
+2025-11-11 16:57:35,712 - INFO - 
+================================================================================
+2025-11-11 16:57:35,712 - INFO - Processing item #82
+2025-11-11 16:57:35,713 - INFO - Gold label: misleading -> Misleading
+2025-11-11 16:57:35,713 - INFO - Asking model: grok-3-latest
+2025-11-11 16:57:35,713 - INFO - Claim: 'The UK government is to fund “Bill Gates’ geoengineering experiments” to explore combatting global warming by cooling the earth.'
+2025-11-11 16:57:36,648 - INFO - API Response Status: 400
+2025-11-11 16:57:36,648 - WARNING - API returned non-200 status: 400
+2025-11-11 16:57:36,648 - WARNING - Response body: {
+  "error": {
+    "message": "{\"code\":\"Client specified an invalid argument\",\"error\":\"top_p must be positive but top_p = 0\"}No fallback model group found for original Please contact support at support@avalai.ir and include the request ID 019a7319-b5b9-75e1-91f0-4c768f12ceab in your email if you believe this is an error.",
+    "type": "invalid_request",
+    "param": null,
+    "code": "invalid_request",
+    "request_id": "019a7319-b5b9-75e1-91f0-4c768f12ceab"
+  }
+}
+2025-11-11 16:57:36,649 - WARNING - Invalid/unparseable response for claim 82 after 3 retries
+2025-11-11 16:57:36,649 - INFO - Final prediction: __INVALID__
+2025-11-11 16:57:36,649 - INFO - Match: False
+2025-11-11 16:57:37,160 - INFO - 
+================================================================================
+2025-11-11 16:57:37,160 - INFO - Processing item #83
+2025-11-11 16:57:37,161 - INFO - Gold label: refuted -> Refuted
+2025-11-11 16:57:37,161 - INFO - Asking model: grok-3-latest
+2025-11-11 16:57:37,161 - INFO - Claim: 'Indian election commission said opposition candidate got 0 votes'
+2025-11-11 16:57:38,007 - INFO - API Response Status: 400
+2025-11-11 16:57:38,008 - WARNING - API returned non-200 status: 400
+2025-11-11 16:57:38,008 - WARNING - Response body: {
+  "error": {
+    "message": "{\"code\":\"Client specified an invalid argument\",\"error\":\"top_p must be positive but top_p = 0\"}No fallback model group found for original Please contact support at support@avalai.ir and include the request ID 019a7319-bb53-70f1-ac74-c52b64638c7a in your email if you believe this is an error.",
+    "type": "invalid_request",
+    "param": null,
+    "code": "invalid_request",
+    "request_id": "019a7319-bb53-70f1-ac74-c52b64638c7a"
+  }
+}
+2025-11-11 16:57:38,008 - WARNING - Invalid/unparseable response for claim 83 after 3 retries
+2025-11-11 16:57:38,008 - INFO - Final prediction: __INVALID__
+2025-11-11 16:57:38,008 - INFO - Match: False
+2025-11-11 16:57:38,526 - INFO - 
+================================================================================
+2025-11-11 16:57:38,526 - INFO - Processing item #84
+2025-11-11 16:57:38,526 - INFO - Gold label: refuted -> Refuted
+2025-11-11 16:57:38,526 - INFO - Asking model: grok-3-latest
+2025-11-11 16:57:38,526 - INFO - Claim: 'India Today magazine's cover dated Nov 23 featured Rahul Gandhi with a title: "Maha-Raja of Mishap" after Congress defeat in Maharashtra elections.'
+2025-11-11 16:57:39,384 - INFO - API Response Status: 400
+2025-11-11 16:57:39,385 - WARNING - API returned non-200 status: 400
+2025-11-11 16:57:39,385 - WARNING - Response body: {
+  "error": {
+    "message": "{\"code\":\"Client specified an invalid argument\",\"error\":\"top_p must be positive but top_p = 0\"}No fallback model group found for original Please contact support at support@avalai.ir and include the request ID 019a7319-c0a4-7280-861b-0e0965222cda in your email if you believe this is an error.",
+    "type": "invalid_request",
+    "param": null,
+    "code": "invalid_request",
+    "request_id": "019a7319-c0a4-7280-861b-0e0965222cda"
+  }
+}
+2025-11-11 16:57:39,385 - WARNING - Invalid/unparseable response for claim 84 after 3 retries
+2025-11-11 16:57:39,385 - INFO - Final prediction: __INVALID__
+2025-11-11 16:57:39,386 - INFO - Match: False
+2025-11-11 16:57:39,901 - INFO - 
+================================================================================
+2025-11-11 16:57:39,901 - INFO - Processing item #85
+2025-11-11 16:57:39,901 - INFO - Gold label: refuted -> Refuted
+2025-11-11 16:57:39,902 - INFO - Asking model: grok-3-latest
+2025-11-11 16:57:39,902 - INFO - Claim: 'Recurring ear infections in children are a vaccine side effect.'
+2025-11-11 16:57:40,778 - INFO - API Response Status: 400
+2025-11-11 16:57:40,778 - WARNING - API returned non-200 status: 400
+2025-11-11 16:57:40,778 - WARNING - Response body: {
+  "error": {
+    "message": "{\"code\":\"Client specified an invalid argument\",\"error\":\"top_p must be positive but top_p = 0\"}No fallback model group found for original Please contact support at support@avalai.ir and include the request ID 019a7319-c5fd-7a92-a5c6-d153ced39015 in your email if you believe this is an error.",
+    "type": "invalid_request",
+    "param": null,
+    "code": "invalid_request",
+    "request_id": "019a7319-c5fd-7a92-a5c6-d153ced39015"
+  }
+}
+2025-11-11 16:57:40,779 - WARNING - Invalid/unparseable response for claim 85 after 3 retries
+2025-11-11 16:57:40,779 - INFO - Final prediction: __INVALID__
+2025-11-11 16:57:40,779 - INFO - Match: False
+2025-11-11 16:57:41,297 - INFO - 
+================================================================================
+2025-11-11 16:57:41,297 - INFO - Processing item #86
+2025-11-11 16:57:41,297 - INFO - Gold label: not enough information -> Not enough information
+2025-11-11 16:57:41,297 - INFO - Asking model: grok-3-latest
+2025-11-11 16:57:41,298 - INFO - Claim: 'Hunter Biden was "singled out" and "unfairly" prosecuted "only because he is my son."'
+2025-11-11 16:57:42,224 - INFO - API Response Status: 400
+2025-11-11 16:57:42,225 - WARNING - API returned non-200 status: 400
+2025-11-11 16:57:42,225 - WARNING - Response body: {
+  "error": {
+    "message": "{\"code\":\"Client specified an invalid argument\",\"error\":\"top_p must be positive but top_p = 0\"}No fallback model group found for original Please contact support at support@avalai.ir and include the request ID 019a7319-cb6d-78d1-927e-2c9171db3469 in your email if you believe this is an error.",
+    "type": "invalid_request",
+    "param": null,
+    "code": "invalid_request",
+    "request_id": "019a7319-cb6d-78d1-927e-2c9171db3469"
+  }
+}
+2025-11-11 16:57:42,225 - WARNING - Invalid/unparseable response for claim 86 after 3 retries
+2025-11-11 16:57:42,225 - INFO - Final prediction: __INVALID__
+2025-11-11 16:57:42,225 - INFO - Match: False
+2025-11-11 16:57:42,736 - INFO - 
+================================================================================
+2025-11-11 16:57:42,736 - INFO - Processing item #87
+2025-11-11 16:57:42,736 - INFO - Gold label: refuted -> Refuted
+2025-11-11 16:57:42,736 - INFO - Asking model: grok-3-latest
+2025-11-11 16:57:42,736 - INFO - Claim: 'North Maluku politician will give out financial aid after winning election.'
+2025-11-11 16:57:43,616 - INFO - API Response Status: 400
+2025-11-11 16:57:43,617 - WARNING - API returned non-200 status: 400
+2025-11-11 16:57:43,617 - WARNING - Response body: {
+  "error": {
+    "message": "{\"code\":\"Client specified an invalid argument\",\"error\":\"top_p must be positive but top_p = 0\"}No fallback model group found for original Please contact support at support@avalai.ir and include the request ID 019a7319-d11a-7da0-8cc8-6fb362c3c230 in your email if you believe this is an error.",
+    "type": "invalid_request",
+    "param": null,
+    "code": "invalid_request",
+    "request_id": "019a7319-d11a-7da0-8cc8-6fb362c3c230"
+  }
+}
+2025-11-11 16:57:43,617 - WARNING - Invalid/unparseable response for claim 87 after 3 retries
+2025-11-11 16:57:43,617 - INFO - Final prediction: __INVALID__
+2025-11-11 16:57:43,617 - INFO - Match: False
+2025-11-11 16:57:44,136 - INFO - 
+================================================================================
+2025-11-11 16:57:44,136 - INFO - Processing item #88
+2025-11-11 16:57:44,136 - INFO - Gold label: refuted -> Refuted
+2025-11-11 16:57:44,136 - INFO - Asking model: grok-3-latest
+2025-11-11 16:57:44,137 - INFO - Claim: 'Vaccine researcher warned ‘multiple viruses will be unleashed’ in January'
+2025-11-11 16:57:45,160 - INFO - API Response Status: 400
+2025-11-11 16:57:45,160 - WARNING - API returned non-200 status: 400
+2025-11-11 16:57:45,160 - WARNING - Response body: {
+  "error": {
+    "message": "{\"code\":\"Client specified an invalid argument\",\"error\":\"top_p must be positive but top_p = 0\"}No fallback model group found for original Please contact support at support@avalai.ir and include the request ID 019a7319-d706-7b72-be6a-44df9a217a48 in your email if you believe this is an error.",
+    "type": "invalid_request",
+    "param": null,
+    "code": "invalid_request",
+    "request_id": "019a7319-d706-7b72-be6a-44df9a217a48"
+  }
+}
+2025-11-11 16:57:45,161 - WARNING - Invalid/unparseable response for claim 88 after 3 retries
+2025-11-11 16:57:45,161 - INFO - Final prediction: __INVALID__
+2025-11-11 16:57:45,162 - INFO - Match: False
+2025-11-11 16:57:45,676 - INFO - 
+================================================================================
+2025-11-11 16:57:45,677 - INFO - Processing item #89
+2025-11-11 16:57:45,677 - INFO - Gold label: refuted -> Refuted
+2025-11-11 16:57:45,677 - INFO - Asking model: grok-3-latest
+2025-11-11 16:57:45,678 - INFO - Claim: 'Kurt Russell quote saying Biden cheated election'
+2025-11-11 16:57:46,683 - INFO - API Response Status: 400
+2025-11-11 16:57:46,683 - WARNING - API returned non-200 status: 400
+2025-11-11 16:57:46,683 - WARNING - Response body: {
+  "error": {
+    "message": "{\"code\":\"Client specified an invalid argument\",\"error\":\"top_p must be positive but top_p = 0\"}No fallback model group found for original Please contact support at support@avalai.ir and include the request ID 019a7319-dccd-77e1-83f4-b5628c00abf1 in your email if you believe this is an error.",
+    "type": "invalid_request",
+    "param": null,
+    "code": "invalid_request",
+    "request_id": "019a7319-dccd-77e1-83f4-b5628c00abf1"
+  }
+}
+2025-11-11 16:57:46,683 - WARNING - Invalid/unparseable response for claim 89 after 3 retries
+2025-11-11 16:57:46,683 - INFO - Final prediction: __INVALID__
+2025-11-11 16:57:46,684 - INFO - Match: False
+2025-11-11 16:57:47,203 - INFO - 
+================================================================================
+2025-11-11 16:57:47,204 - INFO - Processing item #90
+2025-11-11 16:57:47,204 - INFO - Gold label: refuted -> Refuted
+2025-11-11 16:57:47,204 - INFO - Asking model: grok-3-latest
+2025-11-11 16:57:47,204 - INFO - Claim: 'Jason Momoa Said He Is Leaving the U.S. In Response To The 2024 U.S. Presidential Election Results'
+2025-11-11 16:57:48,033 - INFO - API Response Status: 400
+2025-11-11 16:57:48,033 - WARNING - API returned non-200 status: 400
+2025-11-11 16:57:48,033 - WARNING - Response body: {
+  "error": {
+    "message": "{\"code\":\"Client specified an invalid argument\",\"error\":\"top_p must be positive but top_p = 0\"}No fallback model group found for original Please contact support at support@avalai.ir and include the request ID 019a7319-e284-7a61-83bc-28697de5650f in your email if you believe this is an error.",
+    "type": "invalid_request",
+    "param": null,
+    "code": "invalid_request",
+    "request_id": "019a7319-e284-7a61-83bc-28697de5650f"
+  }
+}
+2025-11-11 16:57:48,034 - WARNING - Invalid/unparseable response for claim 90 after 3 retries
+2025-11-11 16:57:48,034 - INFO - Final prediction: __INVALID__
+2025-11-11 16:57:48,034 - INFO - Match: False
+2025-11-11 16:57:48,553 - INFO - 
+================================================================================
+2025-11-11 16:57:48,553 - INFO - Processing item #91
+2025-11-11 16:57:48,553 - INFO - Gold label: refuted -> Refuted
+2025-11-11 16:57:48,554 - INFO - Asking model: grok-3-latest
+2025-11-11 16:57:48,554 - INFO - Claim: 'Dr. Anthony Fauci said that 72 mandatory childhood vaccines were never safety tested.'
+2025-11-11 16:57:49,377 - INFO - API Response Status: 400
+2025-11-11 16:57:49,377 - WARNING - API returned non-200 status: 400
+2025-11-11 16:57:49,377 - WARNING - Response body: {
+  "error": {
+    "message": "{\"code\":\"Client specified an invalid argument\",\"error\":\"top_p must be positive but top_p = 0\"}No fallback model group found for original Please contact support at support@avalai.ir and include the request ID 019a7319-e7c9-76c1-8040-598e7dcaf829 in your email if you believe this is an error.",
+    "type": "invalid_request",
+    "param": null,
+    "code": "invalid_request",
+    "request_id": "019a7319-e7c9-76c1-8040-598e7dcaf829"
+  }
+}
+2025-11-11 16:57:49,378 - WARNING - Invalid/unparseable response for claim 91 after 3 retries
+2025-11-11 16:57:49,378 - INFO - Final prediction: __INVALID__
+2025-11-11 16:57:49,378 - INFO - Match: False
+2025-11-11 16:57:49,887 - INFO - 
+================================================================================
+2025-11-11 16:57:49,887 - INFO - Processing item #92
+2025-11-11 16:57:49,887 - INFO - Gold label: refuted -> Refuted
+2025-11-11 16:57:49,887 - INFO - Asking model: grok-3-latest
+2025-11-11 16:57:49,887 - INFO - Claim: “Ivermectin is a treatment after Covid and after vaccination, it is an effective medicine in all phases of Covid 19.”
+2025-11-11 16:57:50,689 - INFO - API Response Status: 400
+2025-11-11 16:57:50,689 - WARNING - API returned non-200 status: 400
+2025-11-11 16:57:50,689 - WARNING - Response body: {
+  "error": {
+    "message": "{\"code\":\"Client specified an invalid argument\",\"error\":\"top_p must be positive but top_p = 0\"}No fallback model group found for original Please contact support at support@avalai.ir and include the request ID 019a7319-ecfa-74a1-b1ce-3b5a53c2d1d9 in your email if you believe this is an error.",
+    "type": "invalid_request",
+    "param": null,
+    "code": "invalid_request",
+    "request_id": "019a7319-ecfa-74a1-b1ce-3b5a53c2d1d9"
+  }
+}
+2025-11-11 16:57:50,689 - WARNING - Invalid/unparseable response for claim 92 after 3 retries
+2025-11-11 16:57:50,689 - INFO - Final prediction: __INVALID__
+2025-11-11 16:57:50,689 - INFO - Match: False
+2025-11-11 16:57:51,208 - INFO - 
+================================================================================
+2025-11-11 16:57:51,208 - INFO - Processing item #93
+2025-11-11 16:57:51,208 - INFO - Gold label: refuted -> Refuted
+2025-11-11 16:57:51,209 - INFO - Asking model: grok-3-latest
+2025-11-11 16:57:51,209 - INFO - Claim: 'RFK Jr's only statement on vaccines is that they need to be studied.'
+2025-11-11 16:57:52,122 - INFO - API Response Status: 400
+2025-11-11 16:57:52,122 - WARNING - API returned non-200 status: 400
+2025-11-11 16:57:52,122 - WARNING - Response body: {
+  "error": {
+    "message": "{\"code\":\"Client specified an invalid argument\",\"error\":\"top_p must be positive but top_p = 0\"}No fallback model group found for original Please contact support at support@avalai.ir and include the request ID 019a7319-f22b-7c80-a033-9cc416c2efad in your email if you believe this is an error.",
+    "type": "invalid_request",
+    "param": null,
+    "code": "invalid_request",
+    "request_id": "019a7319-f22b-7c80-a033-9cc416c2efad"
+  }
+}
+2025-11-11 16:57:52,122 - WARNING - Invalid/unparseable response for claim 93 after 3 retries
+2025-11-11 16:57:52,122 - INFO - Final prediction: __INVALID__
+2025-11-11 16:57:52,122 - INFO - Match: False
+2025-11-11 16:57:52,636 - INFO - 
+================================================================================
+2025-11-11 16:57:52,636 - INFO - Processing item #94
+2025-11-11 16:57:52,637 - INFO - Gold label: refuted -> Refuted
+2025-11-11 16:57:52,637 - INFO - Asking model: grok-3-latest
+2025-11-11 16:57:52,637 - INFO - Claim: New study shows that climate change is greatly overestimated because oceans are cooling Earth far more than we thought
+2025-11-11 16:57:53,519 - INFO - API Response Status: 400
+2025-11-11 16:57:53,519 - WARNING - API returned non-200 status: 400
+2025-11-11 16:57:53,519 - WARNING - Response body: {
+  "error": {
+    "message": "{\"code\":\"Client specified an invalid argument\",\"error\":\"top_p must be positive but top_p = 0\"}No fallback model group found for original Please contact support at support@avalai.ir and include the request ID 019a7319-f809-7e61-8363-68211a93e9a3 in your email if you believe this is an error.",
+    "type": "invalid_request",
+    "param": null,
+    "code": "invalid_request",
+    "request_id": "019a7319-f809-7e61-8363-68211a93e9a3"
+  }
+}
+2025-11-11 16:57:53,519 - WARNING - Invalid/unparseable response for claim 94 after 3 retries
+2025-11-11 16:57:53,519 - INFO - Final prediction: __INVALID__
+2025-11-11 16:57:53,519 - INFO - Match: False
+2025-11-11 16:57:54,040 - INFO - 
+================================================================================
+2025-11-11 16:57:54,041 - INFO - Processing item #95
+2025-11-11 16:57:54,041 - INFO - Gold label: refuted -> Refuted
+2025-11-11 16:57:54,041 - INFO - Asking model: grok-3-latest
+2025-11-11 16:57:54,042 - INFO - Claim: 'Facebook users must post a statement on their profiles to bar Meta and its generative artificial intelligence (AI) models from using their “photos, information, messages or posts, past or future.”'
+2025-11-11 16:57:54,995 - INFO - API Response Status: 400
+2025-11-11 16:57:54,995 - WARNING - API returned non-200 status: 400
+2025-11-11 16:57:54,995 - WARNING - Response body: {
+  "error": {
+    "message": "{\"code\":\"Client specified an invalid argument\",\"error\":\"top_p must be positive but top_p = 0\"}No fallback model group found for original Please contact support at support@avalai.ir and include the request ID 019a7319-fd8b-7dc2-a6fa-350a54e2f03f in your email if you believe this is an error.",
+    "type": "invalid_request",
+    "param": null,
+    "code": "invalid_request",
+    "request_id": "019a7319-fd8b-7dc2-a6fa-350a54e2f03f"
+  }
+}
+2025-11-11 16:57:54,995 - WARNING - Invalid/unparseable response for claim 95 after 3 retries
+2025-11-11 16:57:54,995 - INFO - Final prediction: __INVALID__
+2025-11-11 16:57:54,996 - INFO - Match: False
+2025-11-11 16:57:55,511 - INFO - 
+================================================================================
+2025-11-11 16:57:55,511 - INFO - Processing item #96
+2025-11-11 16:57:55,512 - INFO - Gold label: refuted -> Refuted
+2025-11-11 16:57:55,512 - INFO - Asking model: grok-3-latest
+2025-11-11 16:57:55,512 - INFO - Claim: “79.4% of babies who die of SIDS had a vaccine the same day”
+2025-11-11 16:57:56,404 - INFO - API Response Status: 400
+2025-11-11 16:57:56,404 - WARNING - API returned non-200 status: 400
+2025-11-11 16:57:56,405 - WARNING - Response body: {
+  "error": {
+    "message": "{\"code\":\"Client specified an invalid argument\",\"error\":\"top_p must be positive but top_p = 0\"}No fallback model group found for original Please contact support at support@avalai.ir and include the request ID 019a731a-0325-7b13-9bf8-2031b1125523 in your email if you believe this is an error.",
+    "type": "invalid_request",
+    "param": null,
+    "code": "invalid_request",
+    "request_id": "019a731a-0325-7b13-9bf8-2031b1125523"
+  }
+}
+2025-11-11 16:57:56,405 - WARNING - Invalid/unparseable response for claim 96 after 3 retries
+2025-11-11 16:57:56,405 - INFO - Final prediction: __INVALID__
+2025-11-11 16:57:56,405 - INFO - Match: False
+2025-11-11 16:57:56,927 - INFO - 
+================================================================================
+2025-11-11 16:57:56,927 - INFO - Processing item #97
+2025-11-11 16:57:56,927 - INFO - Gold label: refuted -> Refuted
+2025-11-11 16:57:56,927 - INFO - Asking model: grok-3-latest
+2025-11-11 16:57:56,928 - INFO - Claim: 'South African trauma surgeon Dr Vicky Jennings die after suffering a sudden heart attack due to COVID19 vaccine'
+2025-11-11 16:57:57,962 - INFO - API Response Status: 400
+2025-11-11 16:57:57,962 - WARNING - API returned non-200 status: 400
+2025-11-11 16:57:57,962 - WARNING - Response body: {
+  "error": {
+    "message": "{\"code\":\"Client specified an invalid argument\",\"error\":\"top_p must be positive but top_p = 0\"}No fallback model group found for original Please contact support at support@avalai.ir and include the request ID 019a731a-0919-7f91-882b-790876487796 in your email if you believe this is an error.",
+    "type": "invalid_request",
+    "param": null,
+    "code": "invalid_request",
+    "request_id": "019a731a-0919-7f91-882b-790876487796"
+  }
+}
+2025-11-11 16:57:57,962 - WARNING - Invalid/unparseable response for claim 97 after 3 retries
+2025-11-11 16:57:57,962 - INFO - Final prediction: __INVALID__
+2025-11-11 16:57:57,962 - INFO - Match: False
+2025-11-11 16:57:58,479 - INFO - 
+================================================================================
+2025-11-11 16:57:58,479 - INFO - Processing item #98
+2025-11-11 16:57:58,479 - INFO - Gold label: refuted -> Refuted
+2025-11-11 16:57:58,479 - INFO - Asking model: grok-3-latest
+2025-11-11 16:57:58,480 - INFO - Claim: 'Australian officials have warned that vaccine-linked turbo cancers will kill billions.'
+2025-11-11 16:57:59,435 - INFO - API Response Status: 400
+2025-11-11 16:57:59,435 - WARNING - API returned non-200 status: 400
+2025-11-11 16:57:59,435 - WARNING - Response body: {
+  "error": {
+    "message": "{\"code\":\"Client specified an invalid argument\",\"error\":\"top_p must be positive but top_p = 0\"}No fallback model group found for original Please contact support at support@avalai.ir and include the request ID 019a731a-0edf-7f62-b3df-1b93b1006db9 in your email if you believe this is an error.",
+    "type": "invalid_request",
+    "param": null,
+    "code": "invalid_request",
+    "request_id": "019a731a-0edf-7f62-b3df-1b93b1006db9"
+  }
+}
+2025-11-11 16:57:59,435 - WARNING - Invalid/unparseable response for claim 98 after 3 retries
+2025-11-11 16:57:59,435 - INFO - Final prediction: __INVALID__
+2025-11-11 16:57:59,435 - INFO - Match: False
+2025-11-11 16:57:59,941 - INFO - 
+================================================================================
+2025-11-11 16:57:59,942 - INFO - Processing item #99
+2025-11-11 16:57:59,942 - INFO - Gold label: refuted -> Refuted
+2025-11-11 16:57:59,942 - INFO - Asking model: grok-3-latest
+2025-11-11 16:57:59,942 - INFO - Claim: 'Michelle Obama has urged Congress to recount election votes saying that the 2024 presidential election result was influenced by ‘Russian disinformation’.'
+2025-11-11 16:58:00,801 - INFO - API Response Status: 400
+2025-11-11 16:58:00,802 - WARNING - API returned non-200 status: 400
+2025-11-11 16:58:00,802 - WARNING - Response body: {
+  "error": {
+    "message": "{\"code\":\"Client specified an invalid argument\",\"error\":\"top_p must be positive but top_p = 0\"}No fallback model group found for original Please contact support at support@avalai.ir and include the request ID 019a731a-144b-7342-8ff8-a8c9288d6798 in your email if you believe this is an error.",
+    "type": "invalid_request",
+    "param": null,
+    "code": "invalid_request",
+    "request_id": "019a731a-144b-7342-8ff8-a8c9288d6798"
+  }
+}
+2025-11-11 16:58:00,802 - WARNING - Invalid/unparseable response for claim 99 after 3 retries
+2025-11-11 16:58:00,802 - INFO - Final prediction: __INVALID__
+2025-11-11 16:58:00,802 - INFO - Match: False
+2025-11-11 16:58:01,323 - INFO - 
+================================================================================
+2025-11-11 16:58:01,324 - INFO - Processing item #100
+2025-11-11 16:58:01,324 - INFO - Gold label: misleading -> Misleading
+2025-11-11 16:58:01,324 - INFO - Asking model: grok-3-latest
+2025-11-11 16:58:01,324 - INFO - Claim: 'Products from cows fed Bovaer causes health issues in humans'
+2025-11-11 16:58:02,202 - INFO - API Response Status: 400
+2025-11-11 16:58:02,203 - WARNING - API returned non-200 status: 400
+2025-11-11 16:58:02,203 - WARNING - Response body: {
+  "error": {
+    "message": "{\"code\":\"Client specified an invalid argument\",\"error\":\"top_p must be positive but top_p = 0\"}No fallback model group found for original Please contact support at support@avalai.ir and include the request ID 019a731a-19da-7a91-b1c1-e92e70cbeb5e in your email if you believe this is an error.",
+    "type": "invalid_request",
+    "param": null,
+    "code": "invalid_request",
+    "request_id": "019a731a-19da-7a91-b1c1-e92e70cbeb5e"
+  }
+}
+2025-11-11 16:58:02,203 - WARNING - Invalid/unparseable response for claim 100 after 3 retries
+2025-11-11 16:58:02,203 - INFO - Final prediction: __INVALID__
+2025-11-11 16:58:02,203 - INFO - Match: False
+2025-11-11 16:58:02,722 - INFO - 
+================================================================================
+2025-11-11 16:58:02,722 - INFO - Processing item #101
+2025-11-11 16:58:02,722 - INFO - Gold label: refuted -> Refuted
+2025-11-11 16:58:02,722 - INFO - Asking model: grok-3-latest
+2025-11-11 16:58:02,723 - INFO - Claim: 'Oprah Winfrey Said She Is Leaving The US Over The 2024 Presidential Election Results'
+2025-11-11 16:58:03,639 - INFO - API Response Status: 400
+2025-11-11 16:58:03,639 - WARNING - API returned non-200 status: 400
+2025-11-11 16:58:03,640 - WARNING - Response body: {
+  "error": {
+    "message": "{\"code\":\"Client specified an invalid argument\",\"error\":\"top_p must be positive but top_p = 0\"}No fallback model group found for original Please contact support at support@avalai.ir and include the request ID 019a731a-1f17-7620-b699-ab35788eaf97 in your email if you believe this is an error.",
+    "type": "invalid_request",
+    "param": null,
+    "code": "invalid_request",
+    "request_id": "019a731a-1f17-7620-b699-ab35788eaf97"
+  }
+}
+2025-11-11 16:58:03,640 - WARNING - Invalid/unparseable response for claim 101 after 3 retries
+2025-11-11 16:58:03,640 - INFO - Final prediction: __INVALID__
+2025-11-11 16:58:03,640 - INFO - Match: False
+2025-11-11 16:58:04,157 - INFO - 
+================================================================================
+2025-11-11 16:58:04,157 - INFO - Processing item #102
+2025-11-11 16:58:04,157 - INFO - Gold label: misleading -> Misleading
+2025-11-11 16:58:04,158 - INFO - Asking model: grok-3-latest
+2025-11-11 16:58:04,158 - INFO - Claim: 'Lok Sabha passed bills related ‘One Nation, One Election’ on December 17, 2024.'
+2025-11-11 16:58:05,025 - INFO - API Response Status: 400
+2025-11-11 16:58:05,025 - WARNING - API returned non-200 status: 400
+2025-11-11 16:58:05,025 - WARNING - Response body: {
+  "error": {
+    "message": "{\"code\":\"Client specified an invalid argument\",\"error\":\"top_p must be positive but top_p = 0\"}No fallback model group found for original Please contact support at support@avalai.ir and include the request ID 019a731a-24b4-7ca2-81b4-76970470daa7 in your email if you believe this is an error.",
+    "type": "invalid_request",
+    "param": null,
+    "code": "invalid_request",
+    "request_id": "019a731a-24b4-7ca2-81b4-76970470daa7"
+  }
+}
+2025-11-11 16:58:05,026 - WARNING - Invalid/unparseable response for claim 102 after 3 retries
+2025-11-11 16:58:05,026 - INFO - Final prediction: __INVALID__
+2025-11-11 16:58:05,026 - INFO - Match: False
+2025-11-11 16:58:05,544 - INFO - 
+================================================================================
+2025-11-11 16:58:05,544 - INFO - Processing item #103
+2025-11-11 16:58:05,545 - INFO - Gold label: supported -> Supported
+2025-11-11 16:58:05,545 - INFO - Asking model: grok-3-latest
+2025-11-11 16:58:05,545 - INFO - Claim: 'Government shutdowns in 2013 and 2018 “cost our economy billions of dollars each.”'
+2025-11-11 16:58:06,444 - INFO - API Response Status: 400
+2025-11-11 16:58:06,445 - WARNING - API returned non-200 status: 400
+2025-11-11 16:58:06,445 - WARNING - Response body: {
+  "error": {
+    "message": "{\"code\":\"Client specified an invalid argument\",\"error\":\"top_p must be positive but top_p = 0\"}No fallback model group found for original Please contact support at support@avalai.ir and include the request ID 019a731a-2a26-7540-8669-fd5763fc5b11 in your email if you believe this is an error.",
+    "type": "invalid_request",
+    "param": null,
+    "code": "invalid_request",
+    "request_id": "019a731a-2a26-7540-8669-fd5763fc5b11"
+  }
+}
+2025-11-11 16:58:06,445 - WARNING - Invalid/unparseable response for claim 103 after 3 retries
+2025-11-11 16:58:06,445 - INFO - Final prediction: __INVALID__
+2025-11-11 16:58:06,445 - INFO - Match: False
+2025-11-11 16:58:06,960 - INFO - 
+================================================================================
+2025-11-11 16:58:06,960 - INFO - Processing item #104
+2025-11-11 16:58:06,960 - INFO - Gold label: refuted -> Refuted
+2025-11-11 16:58:06,960 - INFO - Asking model: grok-3-latest
+2025-11-11 16:58:06,960 - INFO - Claim: 'The CEO of BioNTech, which developed a COVID-19 vaccine with Pfizer, did not get vaccinated.'
+2025-11-11 16:58:08,003 - INFO - API Response Status: 400
+2025-11-11 16:58:08,003 - WARNING - API returned non-200 status: 400
+2025-11-11 16:58:08,004 - WARNING - Response body: {
+  "error": {
+    "message": "{\"code\":\"Client specified an invalid argument\",\"error\":\"top_p must be positive but top_p = 0\"}No fallback model group found for original Please contact support at support@avalai.ir and include the request ID 019a731a-2ff5-72c1-8182-3915049e1f6e in your email if you believe this is an error.",
+    "type": "invalid_request",
+    "param": null,
+    "code": "invalid_request",
+    "request_id": "019a731a-2ff5-72c1-8182-3915049e1f6e"
+  }
+}
+2025-11-11 16:58:08,004 - WARNING - Invalid/unparseable response for claim 104 after 3 retries
+2025-11-11 16:58:08,004 - INFO - Final prediction: __INVALID__
+2025-11-11 16:58:08,004 - INFO - Match: False
+2025-11-11 16:58:08,514 - INFO - 
+================================================================================
+2025-11-11 16:58:08,514 - INFO - Processing item #105
+2025-11-11 16:58:08,515 - INFO - Gold label: refuted -> Refuted
+2025-11-11 16:58:08,515 - INFO - Asking model: grok-3-latest
+2025-11-11 16:58:08,515 - INFO - Claim: 'ABP Opinion poll states BJP will win in the upcoming Delhi election.'
+2025-11-11 16:58:09,318 - INFO - API Response Status: 400
+2025-11-11 16:58:09,318 - WARNING - API returned non-200 status: 400
+2025-11-11 16:58:09,318 - WARNING - Response body: {
+  "error": {
+    "message": "{\"code\":\"Client specified an invalid argument\",\"error\":\"top_p must be positive but top_p = 0\"}No fallback model group found for original Please contact support at support@avalai.ir and include the request ID 019a731a-35a9-7e22-8ca1-f224c003b40e in your email if you believe this is an error.",
+    "type": "invalid_request",
+    "param": null,
+    "code": "invalid_request",
+    "request_id": "019a731a-35a9-7e22-8ca1-f224c003b40e"
+  }
+}
+2025-11-11 16:58:09,318 - WARNING - Invalid/unparseable response for claim 105 after 3 retries
+2025-11-11 16:58:09,318 - INFO - Final prediction: __INVALID__
+2025-11-11 16:58:09,319 - INFO - Match: False
+2025-11-11 16:58:09,831 - INFO - 
+================================================================================
+2025-11-11 16:58:09,831 - INFO - Processing item #106
+2025-11-11 16:58:09,831 - INFO - Gold label: refuted -> Refuted
+2025-11-11 16:58:09,831 - INFO - Asking model: grok-3-latest
+2025-11-11 16:58:09,831 - INFO - Claim: 'S. Korea's National Election Commission's falsehoods were revealed in court'
+2025-11-11 16:58:10,938 - INFO - API Response Status: 400
+2025-11-11 16:58:10,938 - WARNING - API returned non-200 status: 400
+2025-11-11 16:58:10,938 - WARNING - Response body: {
+  "error": {
+    "message": "{\"code\":\"Client specified an invalid argument\",\"error\":\"top_p must be positive but top_p = 0\"}No fallback model group found for original Please contact support at support@avalai.ir and include the request ID 019a731a-3b21-73e0-861b-c4ab6f6a09d9 in your email if you believe this is an error.",
+    "type": "invalid_request",
+    "param": null,
+    "code": "invalid_request",
+    "request_id": "019a731a-3b21-73e0-861b-c4ab6f6a09d9"
+  }
+}
+2025-11-11 16:58:10,938 - WARNING - Invalid/unparseable response for claim 106 after 3 retries
+2025-11-11 16:58:10,939 - INFO - Final prediction: __INVALID__
+2025-11-11 16:58:10,939 - INFO - Match: False
+2025-11-11 16:58:11,455 - INFO - 
+================================================================================
+2025-11-11 16:58:11,455 - INFO - Processing item #107
+2025-11-11 16:58:11,455 - INFO - Gold label: refuted -> Refuted
+2025-11-11 16:58:11,455 - INFO - Asking model: grok-3-latest
+2025-11-11 16:58:11,456 - INFO - Claim: 'A Centers for Disease Control and Prevention study finds children who received the Pfizer covid vaccine are more likely to get covid infection than unvaccinated.'
+2025-11-11 16:58:12,608 - INFO - API Response Status: 400
+2025-11-11 16:58:12,608 - WARNING - API returned non-200 status: 400
+2025-11-11 16:58:12,608 - WARNING - Response body: {
+  "error": {
+    "message": "{\"code\":\"Client specified an invalid argument\",\"error\":\"top_p must be positive but top_p = 0\"}No fallback model group found for original Please contact support at support@avalai.ir and include the request ID 019a731a-4287-7e60-9641-60f6252b556d in your email if you believe this is an error.",
+    "type": "invalid_request",
+    "param": null,
+    "code": "invalid_request",
+    "request_id": "019a731a-4287-7e60-9641-60f6252b556d"
+  }
+}
+2025-11-11 16:58:12,608 - WARNING - Invalid/unparseable response for claim 107 after 3 retries
+2025-11-11 16:58:12,608 - INFO - Final prediction: __INVALID__
+2025-11-11 16:58:12,608 - INFO - Match: False
+2025-11-11 16:58:13,117 - INFO - 
+================================================================================
+2025-11-11 16:58:13,117 - INFO - Processing item #108
+2025-11-11 16:58:13,118 - INFO - Gold label: refuted -> Refuted
+2025-11-11 16:58:13,118 - INFO - Asking model: grok-3-latest
+2025-11-11 16:58:13,118 - INFO - Claim: '22 states failed to upload their Electoral College certifications, which are needed to certify election results on January 6, 2025.'
+2025-11-11 16:58:14,092 - INFO - API Response Status: 400
+2025-11-11 16:58:14,092 - WARNING - API returned non-200 status: 400
+2025-11-11 16:58:14,092 - WARNING - Response body: {
+  "error": {
+    "message": "{\"code\":\"Client specified an invalid argument\",\"error\":\"top_p must be positive but top_p = 0\"}No fallback model group found for original Please contact support at support@avalai.ir and include the request ID 019a731a-481c-76b3-954c-8ac3066f6379 in your email if you believe this is an error.",
+    "type": "invalid_request",
+    "param": null,
+    "code": "invalid_request",
+    "request_id": "019a731a-481c-76b3-954c-8ac3066f6379"
+  }
+}
+2025-11-11 16:58:14,093 - WARNING - Invalid/unparseable response for claim 108 after 3 retries
+2025-11-11 16:58:14,093 - INFO - Final prediction: __INVALID__
+2025-11-11 16:58:14,093 - INFO - Match: False
+2025-11-11 16:58:14,608 - INFO - 
+================================================================================
+2025-11-11 16:58:14,608 - INFO - Processing item #109
+2025-11-11 16:58:14,609 - INFO - Gold label: misleading -> Misleading
+2025-11-11 16:58:14,609 - INFO - Asking model: grok-3-latest
+2025-11-11 16:58:14,609 - INFO - Claim: “Mysterious virus HMPV reported in China!”
+2025-11-11 16:58:15,468 - INFO - API Response Status: 400
+2025-11-11 16:58:15,468 - WARNING - API returned non-200 status: 400
+2025-11-11 16:58:15,468 - WARNING - Response body: {
+  "error": {
+    "message": "{\"code\":\"Client specified an invalid argument\",\"error\":\"top_p must be positive but top_p = 0\"}No fallback model group found for original Please contact support at support@avalai.ir and include the request ID 019a731a-4d83-7853-b84c-cfee2b789a95 in your email if you believe this is an error.",
+    "type": "invalid_request",
+    "param": null,
+    "code": "invalid_request",
+    "request_id": "019a731a-4d83-7853-b84c-cfee2b789a95"
+  }
+}
+2025-11-11 16:58:15,468 - WARNING - Invalid/unparseable response for claim 109 after 3 retries
+2025-11-11 16:58:15,468 - INFO - Final prediction: __INVALID__
+2025-11-11 16:58:15,468 - INFO - Match: False
+2025-11-11 16:58:15,975 - INFO - 
+================================================================================
+2025-11-11 16:58:15,975 - INFO - Processing item #110
+2025-11-11 16:58:15,977 - INFO - Gold label: refuted -> Refuted
+2025-11-11 16:58:15,977 - INFO - Asking model: grok-3-latest
+2025-11-11 16:58:15,977 - INFO - Claim: Coal plant construction shows CO2 doesn't cause climate change
+2025-11-11 16:58:17,273 - INFO - API Response Status: 400
+2025-11-11 16:58:17,273 - WARNING - API returned non-200 status: 400
+2025-11-11 16:58:17,273 - WARNING - Response body: {
+  "error": {
+    "message": "{\"code\":\"Client specified an invalid argument\",\"error\":\"top_p must be positive but top_p = 0\"}No fallback model group found for original Please contact support at support@avalai.ir and include the request ID 019a731a-54b3-7ea3-bba9-6285d921f150 in your email if you believe this is an error.",
+    "type": "invalid_request",
+    "param": null,
+    "code": "invalid_request",
+    "request_id": "019a731a-54b3-7ea3-bba9-6285d921f150"
+  }
+}
+2025-11-11 16:58:17,273 - WARNING - Invalid/unparseable response for claim 110 after 3 retries
+2025-11-11 16:58:17,273 - INFO - Final prediction: __INVALID__
+2025-11-11 16:58:17,273 - INFO - Match: False
+2025-11-11 16:58:17,788 - INFO - Processed 111 items in 155.96 seconds (0.71 items/sec)
+2025-11-11 16:58:17,788 - INFO - Invalid outputs: 111
+2025-11-11 16:58:17,788 - INFO - Saving predictions to ClaimReviewPlus\seen\predictions.csv
+2025-11-11 16:58:17,791 - INFO - Computing metrics on 0 valid predictions (out of 111 total)
+2025-11-11 16:58:17,795 - INFO - Accuracy: 0.0000
+2025-11-11 16:58:17,795 - INFO - Macro F1: 0.0000
+2025-11-11 16:58:17,795 - INFO - Macro Precision: 0.0000
+2025-11-11 16:58:17,795 - INFO - Macro Recall: 0.0000
+2025-11-11 16:58:17,795 - INFO - 
+Per-label metrics:
+2025-11-11 16:58:17,795 - INFO -   Supported:
+2025-11-11 16:58:17,795 - INFO -     Precision: 0.0000
+2025-11-11 16:58:17,795 - INFO -     Recall: 0.0000
+2025-11-11 16:58:17,795 - INFO -     F1: 0.0000
+2025-11-11 16:58:17,796 - INFO -     Support: 0
+2025-11-11 16:58:17,796 - INFO -   Refuted:
+2025-11-11 16:58:17,796 - INFO -     Precision: 0.0000
+2025-11-11 16:58:17,796 - INFO -     Recall: 0.0000
+2025-11-11 16:58:17,796 - INFO -     F1: 0.0000
+2025-11-11 16:58:17,796 - INFO -     Support: 0
+2025-11-11 16:58:17,796 - INFO -   Misleading:
+2025-11-11 16:58:17,796 - INFO -     Precision: 0.0000
+2025-11-11 16:58:17,796 - INFO -     Recall: 0.0000
+2025-11-11 16:58:17,796 - INFO -     F1: 0.0000
+2025-11-11 16:58:17,796 - INFO -     Support: 0
+2025-11-11 16:58:17,796 - INFO -   Not enough information:
+2025-11-11 16:58:17,796 - INFO -     Precision: 0.0000
+2025-11-11 16:58:17,796 - INFO -     Recall: 0.0000
+2025-11-11 16:58:17,796 - INFO -     F1: 0.0000
+2025-11-11 16:58:17,796 - INFO -     Support: 0
+2025-11-11 16:58:17,796 - INFO - Saving metrics to ClaimReviewPlus\seen\metrics.json
+2025-11-11 16:58:17,821 - INFO - ============================================================
+2025-11-11 16:58:17,821 - INFO - Evaluation completed for SEEN data
+2025-11-11 16:58:17,821 - INFO - ============================================================
+

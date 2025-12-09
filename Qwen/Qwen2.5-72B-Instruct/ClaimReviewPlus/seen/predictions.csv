@@ -1,50 +1,34 @@
 idx,claim,gold,pred
-0,"“We have scaled up our investment in the healthcare workforce [by] employing 20,000 new healthcare workers.”",Not enough information,Not enough information
-1,'A CNN broadcast captured an Ohio woman placing multiple ballots into a drop box on Election Day.',Misleading,Not enough information
-2,'Former health minister of Italy under investigation for murder',Misleading,Not enough information
-3,'Former Italian health minister facing murder charges over COVID-19 vaccines',Misleading,Not enough information
-4,“There are more cases of food insecurity and hunger in South Africa today than there were in 1994.”,Not enough information,Not enough information
-5,'Israelis get free US healthcare',Misleading,Refuted
-6,"""(The) top issue for college students is the economy.""",Supported,Not enough information
-7,'Maddie de Garay's case shows that COVID-19 vaccines can cause functional neurological disorder and are thus harmful.',Misleading,Refuted
-8,'The 2014 Euromaidan protests in Ukraine were a coup',Refuted,Misleading
-9,“He [President Donald Trump] did not move on making sure that we dealt with vaccinating the American public. We ended up losing over a million people dead — a million people.”,Misleading,Refuted
-10,"'Under Joe Biden, there are “record numbers of new Black entrepreneurs”'",Supported,Not enough information
-11,'Study of 99 million Covid vaccine recipients shows the shots are dangerous',Misleading,Not enough information
-12,'COVID-19 vaccine recipients might not be eligible for blood donation',Misleading,Not enough information
-13,'Cote d’Ivoire’s GDP better than Ghana’s over the last 3 years',Supported,Not enough information
-14,'Samantha endorsed TDP ahead of Andhra Elections',Misleading,Not enough information
-15,“It is estimated that 121 million Africans are facing severe acute food insecurity.”,Misleading,Not enough information
-16,'COVID-19 has symptoms similar to the flu.',Supported,Supported
-17,'New guidance says one day of isolation is sufficient for people with COVID-19.',Misleading,Not enough information
-18,'COVID-19 has been like the flu since the beginning of the pandemic.',Misleading,Refuted
-19,"“We’ve had 12 elections in 24 years in Wisconsin that have been decided by less than 30,000 votes.”",Supported,Not enough information
-20,"'Liquefied natural gas offers significant environmental advantages over traditional fossil fuels contributing to reduced greenhouse gas emissions, combating climate change, improving air quality and enhancing public health, making it the ideal transition fuel to a renewable energy future.'",Misleading,Supported
-21,'COVID vaccines are being used to beat cancer.',Supported,Misleading
-22,'Covid-19 vaccine worsens thyroid issues',Not enough information,Not enough information
-23,"'Gaza has “the highest number of people facing catastrophic hunger ever recorded by the Integrated Food Security Classification system — anywhere, anytime.”'",Supported,Not enough information
-24,'Kelly Powers died from 'turbo cancer' caused by the Covid-19 vaccine',Refuted,Refuted
-25,"'An 81-year-old roadside parrot astrologer was arrested from Cuddalore, Tamil Nadu by police because his parrot predicted that DMK would lose the 2024 election.'",Misleading,Not enough information
-26,"'Review article ""has found that COVID-19 mRNA vaccines could aid cancer development”'",Refuted,Refuted
-27,'GRACIA LATTE is a healthy way to lose weight in one week',Misleading,Not enough information
-28,"“Our electricity generation is almost 95% renewable, from geothermal, hydro, wind, and solar energy.”",Refuted,Not enough information
-29,"“AstraZeneca finally WITHDRAW Covid vaccine worldwide, months after the company admitted rare side effect for the first time in court documents.”",Misleading,Not enough information
-30,'Wilders and Le Pen “unanimously” win recent elections',Misleading,Not enough information
-31,'Turkish flag doodled by Drone over Raisi helicopter crash site',Supported,Not enough information
-32,"'Sweden, France, Finland, the UK and Germany have abandoned renewable energy.'",Refuted,Refuted
-33,'More than 100% of Scotland’s electricity needs come from renewable sources.',Supported,Not enough information
-34,'BMJ reports record excess deaths after Covid vaccine',Misleading,Not enough information
-35,'Study proves link between Covid-19 and sudden death',Misleading,Not enough information
-36,'Great Barrier Reef broke coral population record for third year in a row',Misleading,Not enough information
-37,'Spike protein from Covid-19 vaccines could promote cancer growth.',Misleading,Misleading
-38,“Covid vaccines may have helped fuel rise in excess deaths”,Misleading,Not enough information
-39,"""Homeownership is now out of reach unless you make over $106,000.""",Supported,Not enough information
-40,"'Trump said ""A vaccination that is like 38 different vaccines, and it looks like it’s meant for a horse, not a, you know, 10-pound or 20-pound baby. ... And then you see the baby all of a sudden starting to change radically.""'",Supported,Supported
-41,Kamala Harris cast the deciding vote for the so-called Inflation Reduction Act that sent a lot of our resources to China.”,Refuted,Misleading
-42,"'One of Trump’s proposals is ""shutting down the Department of Education.""'",Supported,Not enough information
-43,"'The government has secured a record-breaking number of clean energy projects in the latest renewables auction, after “Labour came in and fixed” last year’s failed auction.'",Misleading,Not enough information
-44,'The Prime Minister inherited the fastest growing economy in the G7.',Misleading,Not enough information
-45,'There were no hurricanes this season even despite forecasts for a high activity; it has been a light hurricane season.',Misleading,Not enough information
-46,'More deaths from COVID-19 occurred during Biden's administration than Trump's.',Misleading,Not enough information
-47,'mRNA COVID-19 vaccine causes cancer.',Misleading,Refuted
-48,'The updated COVID-19 vaccines do “not protect against the currently dominant strain.”',Misleading,Not enough information
+0,"“We have scaled up our investment in the healthcare workforce [by] employing 20,000 new healthcare workers.”",Not enough information,__INVALID__
+1,'A CNN broadcast captured an Ohio woman placing multiple ballots into a drop box on Election Day.',Misleading,__INVALID__
+2,'Former health minister of Italy under investigation for murder',Misleading,__INVALID__
+3,'Former Italian health minister facing murder charges over COVID-19 vaccines',Misleading,__INVALID__
+4,“There are more cases of food insecurity and hunger in South Africa today than there were in 1994.”,Not enough information,__INVALID__
+5,'Israelis get free US healthcare',Misleading,__INVALID__
+6,"""(The) top issue for college students is the economy.""",Supported,__INVALID__
+7,'Maddie de Garay's case shows that COVID-19 vaccines can cause functional neurological disorder and are thus harmful.',Misleading,__INVALID__
+8,'The 2014 Euromaidan protests in Ukraine were a coup',Refuted,__INVALID__
+9,“He [President Donald Trump] did not move on making sure that we dealt with vaccinating the American public. We ended up losing over a million people dead — a million people.”,Misleading,__INVALID__
+10,"'Under Joe Biden, there are “record numbers of new Black entrepreneurs”'",Supported,__INVALID__
+11,'Study of 99 million Covid vaccine recipients shows the shots are dangerous',Misleading,__INVALID__
+12,'COVID-19 vaccine recipients might not be eligible for blood donation',Misleading,__INVALID__
+13,'Cote d’Ivoire’s GDP better than Ghana’s over the last 3 years',Supported,__INVALID__
+14,'Samantha endorsed TDP ahead of Andhra Elections',Misleading,__INVALID__
+15,“It is estimated that 121 million Africans are facing severe acute food insecurity.”,Misleading,__INVALID__
+16,'COVID-19 has symptoms similar to the flu.',Supported,__INVALID__
+17,'New guidance says one day of isolation is sufficient for people with COVID-19.',Misleading,__INVALID__
+18,'COVID-19 has been like the flu since the beginning of the pandemic.',Misleading,__INVALID__
+19,"“We’ve had 12 elections in 24 years in Wisconsin that have been decided by less than 30,000 votes.”",Supported,__INVALID__
+20,"'Liquefied natural gas offers significant environmental advantages over traditional fossil fuels contributing to reduced greenhouse gas emissions, combating climate change, improving air quality and enhancing public health, making it the ideal transition fuel to a renewable energy future.'",Misleading,__INVALID__
+21,'COVID vaccines are being used to beat cancer.',Supported,__INVALID__
+22,'Covid-19 vaccine worsens thyroid issues',Not enough information,__INVALID__
+23,"'Gaza has “the highest number of people facing catastrophic hunger ever recorded by the Integrated Food Security Classification system — anywhere, anytime.”'",Supported,__INVALID__
+24,'Kelly Powers died from 'turbo cancer' caused by the Covid-19 vaccine',Refuted,__INVALID__
+25,"'An 81-year-old roadside parrot astrologer was arrested from Cuddalore, Tamil Nadu by police because his parrot predicted that DMK would lose the 2024 election.'",Misleading,__INVALID__
+26,"'Review article ""has found that COVID-19 mRNA vaccines could aid cancer development”'",Refuted,__INVALID__
+27,'GRACIA LATTE is a healthy way to lose weight in one week',Misleading,__INVALID__
+28,"“Our electricity generation is almost 95% renewable, from geothermal, hydro, wind, and solar energy.”",Refuted,__INVALID__
+29,"“AstraZeneca finally WITHDRAW Covid vaccine worldwide, months after the company admitted rare side effect for the first time in court documents.”",Misleading,__INVALID__
+30,'Wilders and Le Pen “unanimously” win recent elections',Misleading,__INVALID__
+31,'Turkish flag doodled by Drone over Raisi helicopter crash site',Supported,__INVALID__
+32,"'Sweden, France, Finland, the UK and Germany have abandoned renewable energy.'",Refuted,__INVALID__

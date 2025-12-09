@@ -1,0 +1,15 @@
+2025-11-11 16:58:17,822 - INFO - ============================================================
+2025-11-11 16:58:17,823 - INFO - Starting evaluation on UNSEEN data
+2025-11-11 16:58:17,823 - INFO - Model: grok-3-latest
+2025-11-11 16:58:17,823 - INFO - Results directory: ClaimReviewPlus\unseen
+2025-11-11 16:58:17,823 - INFO - ============================================================
+2025-11-11 16:58:17,823 - INFO - Total items to process: 0
+2025-11-11 16:58:17,844 - INFO - Processed 0 items in 0.02 seconds (0.00 items/sec)
+2025-11-11 16:58:17,845 - INFO - Invalid outputs: 0
+2025-11-11 16:58:17,845 - INFO - Saving predictions to ClaimReviewPlus\unseen\predictions.csv
+2025-11-11 16:58:17,847 - WARNING - No gold labels found in dataset
+2025-11-11 16:58:17,848 - INFO - Saving metrics to ClaimReviewPlus\unseen\metrics.json
+2025-11-11 16:58:17,849 - INFO - ============================================================
+2025-11-11 16:58:17,850 - INFO - Evaluation completed for UNSEEN data
+2025-11-11 16:58:17,850 - INFO - ============================================================
+

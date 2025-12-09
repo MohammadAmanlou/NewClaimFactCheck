@@ -1,584 +1,1216 @@
-2025-11-03 23:08:11,952 - INFO - ============================================================
-2025-11-03 23:08:11,952 - INFO - Starting evaluation on SEEN data
-2025-11-03 23:08:11,952 - INFO - Model: qwen2.5-72b-instruct
-2025-11-03 23:08:11,952 - INFO - Results directory: ClaimReviewPlus\seen
-2025-11-03 23:08:11,952 - INFO - ============================================================
-2025-11-03 23:08:11,952 - INFO - Total items to process: 49
-2025-11-03 23:08:11,978 - INFO - 
+2025-12-09 20:21:28,871 - INFO - ============================================================
+2025-12-09 20:21:28,871 - INFO - Starting evaluation on SEEN data
+2025-12-09 20:21:28,871 - INFO - Model: deepseek-v3.1
+2025-12-09 20:21:28,871 - INFO - Results directory: ClaimReviewPlus\seen
+2025-12-09 20:21:28,871 - INFO - ============================================================
+2025-12-09 20:21:28,871 - INFO - Total items to process: 33
+2025-12-09 20:21:28,895 - INFO - 
 ================================================================================
-2025-11-03 23:08:11,979 - INFO - Processing item #0
-2025-11-03 23:08:11,980 - INFO - Gold label: not enough information -> Not enough information
-2025-11-03 23:08:11,981 - INFO - Asking model: qwen2.5-72b-instruct
-2025-11-03 23:08:11,981 - INFO - Claim: “We have scaled up our investment in the healthcare workforce [by] employing 20,000 new healthcare workers.”
-2025-11-03 23:08:14,147 - INFO - API Response Status: 200
-2025-11-03 23:08:14,147 - INFO - Raw model response: {"label": "Not enough information"}
-2025-11-03 23:08:14,147 - INFO - Extracted label: Not enough information -> Normalized: Not enough information
-2025-11-03 23:08:14,148 - INFO - Final prediction: Not enough information
-2025-11-03 23:08:14,148 - INFO - Match: True
-2025-11-03 23:08:14,650 - INFO - 
+2025-12-09 20:21:28,897 - INFO - Processing item #0
+2025-12-09 20:21:28,897 - INFO - Gold label: not enough information -> Not enough information
+2025-12-09 20:21:28,897 - INFO - Asking model: deepseek-v3.1
+2025-12-09 20:21:28,897 - INFO - Claim: “We have scaled up our investment in the healthcare workforce [by] employing 20,000 new healthcare workers.”
+2025-12-09 20:21:37,298 - INFO - API Response Status: 200
+2025-12-09 20:21:37,298 - ERROR - Exception in ask_model (attempt 1): list index out of range
+Traceback (most recent call last):
+  File "<ipython-input-14-189391d54fca>", line 98, in ask_model
+    txt = data.get("choices", [{}])[0].get("message", {}).get("content", "").strip()
+IndexError: list index out of range
+2025-12-09 20:21:37,298 - INFO - Retry attempt 1/3 after 0.5s delay...
+2025-12-09 20:22:23,512 - WARNING - Request timeout. Attempt 2/4
+2025-12-09 20:22:23,513 - INFO - Retry attempt 2/3 after 1.0s delay...
+2025-12-09 20:22:26,104 - INFO - API Response Status: 200
+2025-12-09 20:22:26,104 - ERROR - Exception in ask_model (attempt 3): list index out of range
+Traceback (most recent call last):
+  File "<ipython-input-14-189391d54fca>", line 98, in ask_model
+    txt = data.get("choices", [{}])[0].get("message", {}).get("content", "").strip()
+IndexError: list index out of range
+2025-12-09 20:22:26,104 - INFO - Retry attempt 3/3 after 2.0s delay...
+2025-12-09 20:22:29,438 - INFO - API Response Status: 200
+2025-12-09 20:22:29,438 - ERROR - Exception in ask_model (attempt 4): list index out of range
+Traceback (most recent call last):
+  File "<ipython-input-14-189391d54fca>", line 98, in ask_model
+    txt = data.get("choices", [{}])[0].get("message", {}).get("content", "").strip()
+IndexError: list index out of range
+2025-12-09 20:22:29,439 - ERROR - Max retries reached for unknown exception
+2025-12-09 20:22:29,439 - WARNING - Invalid/unparseable response for claim 0 after 3 retries
+2025-12-09 20:22:29,440 - INFO - Final prediction: __INVALID__
+2025-12-09 20:22:29,440 - INFO - Match: False
+2025-12-09 20:22:29,948 - INFO - 
 ================================================================================
-2025-11-03 23:08:14,650 - INFO - Processing item #1
-2025-11-03 23:08:14,650 - INFO - Gold label: misleading -> Misleading
-2025-11-03 23:08:14,650 - INFO - Asking model: qwen2.5-72b-instruct
-2025-11-03 23:08:14,650 - INFO - Claim: 'A CNN broadcast captured an Ohio woman placing multiple ballots into a drop box on Election Day.'
-2025-11-03 23:08:16,361 - INFO - API Response Status: 200
-2025-11-03 23:08:16,361 - INFO - Raw model response: {"label": "Not enough information"}
-2025-11-03 23:08:16,361 - INFO - Extracted label: Not enough information -> Normalized: Not enough information
-2025-11-03 23:08:16,361 - INFO - Final prediction: Not enough information
-2025-11-03 23:08:16,361 - INFO - Match: False
-2025-11-03 23:08:16,873 - INFO - 
+2025-12-09 20:22:29,948 - INFO - Processing item #1
+2025-12-09 20:22:29,948 - INFO - Gold label: misleading -> Misleading
+2025-12-09 20:22:29,948 - INFO - Asking model: deepseek-v3.1
+2025-12-09 20:22:29,948 - INFO - Claim: 'A CNN broadcast captured an Ohio woman placing multiple ballots into a drop box on Election Day.'
+2025-12-09 20:22:33,028 - INFO - API Response Status: 200
+2025-12-09 20:22:33,028 - ERROR - Exception in ask_model (attempt 1): list index out of range
+Traceback (most recent call last):
+  File "<ipython-input-14-189391d54fca>", line 98, in ask_model
+    txt = data.get("choices", [{}])[0].get("message", {}).get("content", "").strip()
+IndexError: list index out of range
+2025-12-09 20:22:33,028 - INFO - Retry attempt 1/3 after 0.5s delay...
+2025-12-09 20:23:19,336 - WARNING - Request timeout. Attempt 2/4
+2025-12-09 20:23:19,336 - INFO - Retry attempt 2/3 after 1.0s delay...
+2025-12-09 20:23:21,448 - INFO - API Response Status: 200
+2025-12-09 20:23:21,448 - ERROR - Exception in ask_model (attempt 3): list index out of range
+Traceback (most recent call last):
+  File "<ipython-input-14-189391d54fca>", line 98, in ask_model
+    txt = data.get("choices", [{}])[0].get("message", {}).get("content", "").strip()
+IndexError: list index out of range
+2025-12-09 20:23:21,449 - INFO - Retry attempt 3/3 after 2.0s delay...
+2025-12-09 20:24:08,981 - WARNING - Request timeout. Attempt 4/4
+2025-12-09 20:24:08,982 - ERROR - Max retries reached for timeout
+2025-12-09 20:24:08,982 - WARNING - Invalid/unparseable response for claim 1 after 3 retries
+2025-12-09 20:24:08,982 - INFO - Final prediction: __INVALID__
+2025-12-09 20:24:08,982 - INFO - Match: False
+2025-12-09 20:24:09,501 - INFO - 
 ================================================================================
-2025-11-03 23:08:16,873 - INFO - Processing item #2
-2025-11-03 23:08:16,873 - INFO - Gold label: misleading -> Misleading
-2025-11-03 23:08:16,874 - INFO - Asking model: qwen2.5-72b-instruct
-2025-11-03 23:08:16,874 - INFO - Claim: 'Former health minister of Italy under investigation for murder'
-2025-11-03 23:08:19,437 - INFO - API Response Status: 200
-2025-11-03 23:08:19,438 - INFO - Raw model response: {"label": "Not enough information"}
-2025-11-03 23:08:19,438 - INFO - Extracted label: Not enough information -> Normalized: Not enough information
-2025-11-03 23:08:19,438 - INFO - Final prediction: Not enough information
-2025-11-03 23:08:19,439 - INFO - Match: False
-2025-11-03 23:08:19,947 - INFO - 
+2025-12-09 20:24:09,501 - INFO - Processing item #2
+2025-12-09 20:24:09,501 - INFO - Gold label: misleading -> Misleading
+2025-12-09 20:24:09,501 - INFO - Asking model: deepseek-v3.1
+2025-12-09 20:24:09,501 - INFO - Claim: 'Former health minister of Italy under investigation for murder'
+2025-12-09 20:24:16,390 - INFO - API Response Status: 200
+2025-12-09 20:24:16,391 - ERROR - Exception in ask_model (attempt 1): list index out of range
+Traceback (most recent call last):
+  File "<ipython-input-14-189391d54fca>", line 98, in ask_model
+    txt = data.get("choices", [{}])[0].get("message", {}).get("content", "").strip()
+IndexError: list index out of range
+2025-12-09 20:24:16,391 - INFO - Retry attempt 1/3 after 0.5s delay...
+2025-12-09 20:24:17,959 - INFO - API Response Status: 200
+2025-12-09 20:24:17,960 - ERROR - Exception in ask_model (attempt 2): list index out of range
+Traceback (most recent call last):
+  File "<ipython-input-14-189391d54fca>", line 98, in ask_model
+    txt = data.get("choices", [{}])[0].get("message", {}).get("content", "").strip()
+IndexError: list index out of range
+2025-12-09 20:24:17,960 - INFO - Retry attempt 2/3 after 1.0s delay...
+2025-12-09 20:24:19,979 - INFO - API Response Status: 200
+2025-12-09 20:24:19,979 - ERROR - Exception in ask_model (attempt 3): list index out of range
+Traceback (most recent call last):
+  File "<ipython-input-14-189391d54fca>", line 98, in ask_model
+    txt = data.get("choices", [{}])[0].get("message", {}).get("content", "").strip()
+IndexError: list index out of range
+2025-12-09 20:24:19,979 - INFO - Retry attempt 3/3 after 2.0s delay...
+2025-12-09 20:24:23,117 - INFO - API Response Status: 200
+2025-12-09 20:24:23,118 - ERROR - Exception in ask_model (attempt 4): list index out of range
+Traceback (most recent call last):
+  File "<ipython-input-14-189391d54fca>", line 98, in ask_model
+    txt = data.get("choices", [{}])[0].get("message", {}).get("content", "").strip()
+IndexError: list index out of range
+2025-12-09 20:24:23,118 - ERROR - Max retries reached for unknown exception
+2025-12-09 20:24:23,118 - WARNING - Invalid/unparseable response for claim 2 after 3 retries
+2025-12-09 20:24:23,118 - INFO - Final prediction: __INVALID__
+2025-12-09 20:24:23,118 - INFO - Match: False
+2025-12-09 20:24:23,638 - INFO - 
 ================================================================================
-2025-11-03 23:08:19,948 - INFO - Processing item #3
-2025-11-03 23:08:19,948 - INFO - Gold label: misleading -> Misleading
-2025-11-03 23:08:19,948 - INFO - Asking model: qwen2.5-72b-instruct
-2025-11-03 23:08:19,948 - INFO - Claim: 'Former Italian health minister facing murder charges over COVID-19 vaccines'
-2025-11-03 23:08:21,557 - INFO - API Response Status: 200
-2025-11-03 23:08:21,557 - INFO - Raw model response: {"label": "Not enough information"}
-2025-11-03 23:08:21,557 - INFO - Extracted label: Not enough information -> Normalized: Not enough information
-2025-11-03 23:08:21,557 - INFO - Final prediction: Not enough information
-2025-11-03 23:08:21,557 - INFO - Match: False
-2025-11-03 23:08:22,070 - INFO - 
+2025-12-09 20:24:23,638 - INFO - Processing item #3
+2025-12-09 20:24:23,639 - INFO - Gold label: misleading -> Misleading
+2025-12-09 20:24:23,639 - INFO - Asking model: deepseek-v3.1
+2025-12-09 20:24:23,639 - INFO - Claim: 'Former Italian health minister facing murder charges over COVID-19 vaccines'
+2025-12-09 20:24:25,125 - INFO - API Response Status: 200
+2025-12-09 20:24:25,125 - ERROR - Exception in ask_model (attempt 1): list index out of range
+Traceback (most recent call last):
+  File "<ipython-input-14-189391d54fca>", line 98, in ask_model
+    txt = data.get("choices", [{}])[0].get("message", {}).get("content", "").strip()
+IndexError: list index out of range
+2025-12-09 20:24:25,125 - INFO - Retry attempt 1/3 after 0.5s delay...
+2025-12-09 20:24:26,600 - INFO - API Response Status: 200
+2025-12-09 20:24:26,601 - ERROR - Exception in ask_model (attempt 2): list index out of range
+Traceback (most recent call last):
+  File "<ipython-input-14-189391d54fca>", line 98, in ask_model
+    txt = data.get("choices", [{}])[0].get("message", {}).get("content", "").strip()
+IndexError: list index out of range
+2025-12-09 20:24:26,601 - INFO - Retry attempt 2/3 after 1.0s delay...
+2025-12-09 20:24:28,671 - INFO - API Response Status: 200
+2025-12-09 20:24:28,671 - ERROR - Exception in ask_model (attempt 3): list index out of range
+Traceback (most recent call last):
+  File "<ipython-input-14-189391d54fca>", line 98, in ask_model
+    txt = data.get("choices", [{}])[0].get("message", {}).get("content", "").strip()
+IndexError: list index out of range
+2025-12-09 20:24:28,672 - INFO - Retry attempt 3/3 after 2.0s delay...
+2025-12-09 20:24:32,153 - INFO - API Response Status: 200
+2025-12-09 20:24:32,153 - ERROR - Exception in ask_model (attempt 4): list index out of range
+Traceback (most recent call last):
+  File "<ipython-input-14-189391d54fca>", line 98, in ask_model
+    txt = data.get("choices", [{}])[0].get("message", {}).get("content", "").strip()
+IndexError: list index out of range
+2025-12-09 20:24:32,153 - ERROR - Max retries reached for unknown exception
+2025-12-09 20:24:32,153 - WARNING - Invalid/unparseable response for claim 3 after 3 retries
+2025-12-09 20:24:32,153 - INFO - Final prediction: __INVALID__
+2025-12-09 20:24:32,153 - INFO - Match: False
+2025-12-09 20:24:32,656 - INFO - 
 ================================================================================
-2025-11-03 23:08:22,070 - INFO - Processing item #4
-2025-11-03 23:08:22,070 - INFO - Gold label: not enough information -> Not enough information
-2025-11-03 23:08:22,070 - INFO - Asking model: qwen2.5-72b-instruct
-2025-11-03 23:08:22,070 - INFO - Claim: “There are more cases of food insecurity and hunger in South Africa today than there were in 1994.”
-2025-11-03 23:08:23,388 - INFO - API Response Status: 200
-2025-11-03 23:08:23,389 - INFO - Raw model response: {"label": "Not enough information"}
-2025-11-03 23:08:23,389 - INFO - Extracted label: Not enough information -> Normalized: Not enough information
-2025-11-03 23:08:23,391 - INFO - Final prediction: Not enough information
-2025-11-03 23:08:23,391 - INFO - Match: True
-2025-11-03 23:08:23,906 - INFO - 
+2025-12-09 20:24:32,656 - INFO - Processing item #4
+2025-12-09 20:24:32,656 - INFO - Gold label: not enough information -> Not enough information
+2025-12-09 20:24:32,656 - INFO - Asking model: deepseek-v3.1
+2025-12-09 20:24:32,656 - INFO - Claim: “There are more cases of food insecurity and hunger in South Africa today than there were in 1994.”
+2025-12-09 20:24:33,576 - INFO - API Response Status: 200
+2025-12-09 20:24:33,576 - ERROR - Exception in ask_model (attempt 1): list index out of range
+Traceback (most recent call last):
+  File "<ipython-input-14-189391d54fca>", line 98, in ask_model
+    txt = data.get("choices", [{}])[0].get("message", {}).get("content", "").strip()
+IndexError: list index out of range
+2025-12-09 20:24:33,576 - INFO - Retry attempt 1/3 after 0.5s delay...
+2025-12-09 20:24:42,801 - INFO - API Response Status: 200
+2025-12-09 20:24:42,802 - ERROR - Exception in ask_model (attempt 2): list index out of range
+Traceback (most recent call last):
+  File "<ipython-input-14-189391d54fca>", line 98, in ask_model
+    txt = data.get("choices", [{}])[0].get("message", {}).get("content", "").strip()
+IndexError: list index out of range
+2025-12-09 20:24:42,802 - INFO - Retry attempt 2/3 after 1.0s delay...
+2025-12-09 20:24:44,784 - INFO - API Response Status: 200
+2025-12-09 20:24:44,784 - ERROR - Exception in ask_model (attempt 3): list index out of range
+Traceback (most recent call last):
+  File "<ipython-input-14-189391d54fca>", line 98, in ask_model
+    txt = data.get("choices", [{}])[0].get("message", {}).get("content", "").strip()
+IndexError: list index out of range
+2025-12-09 20:24:44,784 - INFO - Retry attempt 3/3 after 2.0s delay...
+2025-12-09 20:24:48,706 - INFO - API Response Status: 200
+2025-12-09 20:24:48,706 - ERROR - Exception in ask_model (attempt 4): list index out of range
+Traceback (most recent call last):
+  File "<ipython-input-14-189391d54fca>", line 98, in ask_model
+    txt = data.get("choices", [{}])[0].get("message", {}).get("content", "").strip()
+IndexError: list index out of range
+2025-12-09 20:24:48,706 - ERROR - Max retries reached for unknown exception
+2025-12-09 20:24:48,706 - WARNING - Invalid/unparseable response for claim 4 after 3 retries
+2025-12-09 20:24:48,706 - INFO - Final prediction: __INVALID__
+2025-12-09 20:24:48,706 - INFO - Match: False
+2025-12-09 20:24:49,224 - INFO - 
 ================================================================================
-2025-11-03 23:08:23,906 - INFO - Processing item #5
-2025-11-03 23:08:23,906 - INFO - Gold label: misleading -> Misleading
-2025-11-03 23:08:23,906 - INFO - Asking model: qwen2.5-72b-instruct
-2025-11-03 23:08:23,906 - INFO - Claim: 'Israelis get free US healthcare'
-2025-11-03 23:08:25,101 - INFO - API Response Status: 200
-2025-11-03 23:08:25,101 - INFO - Raw model response: {"label": "Refuted"}
-2025-11-03 23:08:25,101 - INFO - Extracted label: Refuted -> Normalized: Refuted
-2025-11-03 23:08:25,101 - INFO - Final prediction: Refuted
-2025-11-03 23:08:25,102 - INFO - Match: False
-2025-11-03 23:08:25,611 - INFO - 
+2025-12-09 20:24:49,224 - INFO - Processing item #5
+2025-12-09 20:24:49,224 - INFO - Gold label: misleading -> Misleading
+2025-12-09 20:24:49,224 - INFO - Asking model: deepseek-v3.1
+2025-12-09 20:24:49,224 - INFO - Claim: 'Israelis get free US healthcare'
+2025-12-09 20:24:50,864 - INFO - API Response Status: 200
+2025-12-09 20:24:50,864 - ERROR - Exception in ask_model (attempt 1): list index out of range
+Traceback (most recent call last):
+  File "<ipython-input-14-189391d54fca>", line 98, in ask_model
+    txt = data.get("choices", [{}])[0].get("message", {}).get("content", "").strip()
+IndexError: list index out of range
+2025-12-09 20:24:50,865 - INFO - Retry attempt 1/3 after 0.5s delay...
+2025-12-09 20:24:52,604 - INFO - API Response Status: 200
+2025-12-09 20:24:52,604 - ERROR - Exception in ask_model (attempt 2): list index out of range
+Traceback (most recent call last):
+  File "<ipython-input-14-189391d54fca>", line 98, in ask_model
+    txt = data.get("choices", [{}])[0].get("message", {}).get("content", "").strip()
+IndexError: list index out of range
+2025-12-09 20:24:52,604 - INFO - Retry attempt 2/3 after 1.0s delay...
+2025-12-09 20:24:54,642 - INFO - API Response Status: 200
+2025-12-09 20:24:54,642 - ERROR - Exception in ask_model (attempt 3): list index out of range
+Traceback (most recent call last):
+  File "<ipython-input-14-189391d54fca>", line 98, in ask_model
+    txt = data.get("choices", [{}])[0].get("message", {}).get("content", "").strip()
+IndexError: list index out of range
+2025-12-09 20:24:54,642 - INFO - Retry attempt 3/3 after 2.0s delay...
+2025-12-09 20:24:57,762 - INFO - API Response Status: 200
+2025-12-09 20:24:57,762 - ERROR - Exception in ask_model (attempt 4): list index out of range
+Traceback (most recent call last):
+  File "<ipython-input-14-189391d54fca>", line 98, in ask_model
+    txt = data.get("choices", [{}])[0].get("message", {}).get("content", "").strip()
+IndexError: list index out of range
+2025-12-09 20:24:57,762 - ERROR - Max retries reached for unknown exception
+2025-12-09 20:24:57,762 - WARNING - Invalid/unparseable response for claim 5 after 3 retries
+2025-12-09 20:24:57,762 - INFO - Final prediction: __INVALID__
+2025-12-09 20:24:57,762 - INFO - Match: False
+2025-12-09 20:24:58,275 - INFO - 
 ================================================================================
-2025-11-03 23:08:25,611 - INFO - Processing item #6
-2025-11-03 23:08:25,611 - INFO - Gold label: supported -> Supported
-2025-11-03 23:08:25,611 - INFO - Asking model: qwen2.5-72b-instruct
-2025-11-03 23:08:25,611 - INFO - Claim: "(The) top issue for college students is the economy."
-2025-11-03 23:08:26,978 - INFO - API Response Status: 200
-2025-11-03 23:08:26,978 - INFO - Raw model response: {"label": "Not enough information"}
-2025-11-03 23:08:26,978 - INFO - Extracted label: Not enough information -> Normalized: Not enough information
-2025-11-03 23:08:26,979 - INFO - Final prediction: Not enough information
-2025-11-03 23:08:26,979 - INFO - Match: False
-2025-11-03 23:08:27,495 - INFO - 
+2025-12-09 20:24:58,275 - INFO - Processing item #6
+2025-12-09 20:24:58,275 - INFO - Gold label: supported -> Supported
+2025-12-09 20:24:58,275 - INFO - Asking model: deepseek-v3.1
+2025-12-09 20:24:58,275 - INFO - Claim: "(The) top issue for college students is the economy."
+2025-12-09 20:24:59,294 - INFO - API Response Status: 200
+2025-12-09 20:24:59,295 - ERROR - Exception in ask_model (attempt 1): list index out of range
+Traceback (most recent call last):
+  File "<ipython-input-14-189391d54fca>", line 98, in ask_model
+    txt = data.get("choices", [{}])[0].get("message", {}).get("content", "").strip()
+IndexError: list index out of range
+2025-12-09 20:24:59,295 - INFO - Retry attempt 1/3 after 0.5s delay...
+2025-12-09 20:25:00,815 - INFO - API Response Status: 200
+2025-12-09 20:25:00,816 - ERROR - Exception in ask_model (attempt 2): list index out of range
+Traceback (most recent call last):
+  File "<ipython-input-14-189391d54fca>", line 98, in ask_model
+    txt = data.get("choices", [{}])[0].get("message", {}).get("content", "").strip()
+IndexError: list index out of range
+2025-12-09 20:25:00,816 - INFO - Retry attempt 2/3 after 1.0s delay...
+2025-12-09 20:25:02,812 - INFO - API Response Status: 200
+2025-12-09 20:25:02,812 - ERROR - Exception in ask_model (attempt 3): list index out of range
+Traceback (most recent call last):
+  File "<ipython-input-14-189391d54fca>", line 98, in ask_model
+    txt = data.get("choices", [{}])[0].get("message", {}).get("content", "").strip()
+IndexError: list index out of range
+2025-12-09 20:25:02,812 - INFO - Retry attempt 3/3 after 2.0s delay...
+2025-12-09 20:25:05,836 - INFO - API Response Status: 200
+2025-12-09 20:25:05,836 - ERROR - Exception in ask_model (attempt 4): list index out of range
+Traceback (most recent call last):
+  File "<ipython-input-14-189391d54fca>", line 98, in ask_model
+    txt = data.get("choices", [{}])[0].get("message", {}).get("content", "").strip()
+IndexError: list index out of range
+2025-12-09 20:25:05,837 - ERROR - Max retries reached for unknown exception
+2025-12-09 20:25:05,837 - WARNING - Invalid/unparseable response for claim 6 after 3 retries
+2025-12-09 20:25:05,838 - INFO - Final prediction: __INVALID__
+2025-12-09 20:25:05,838 - INFO - Match: False
+2025-12-09 20:25:06,341 - INFO - 
 ================================================================================
-2025-11-03 23:08:27,495 - INFO - Processing item #7
-2025-11-03 23:08:27,495 - INFO - Gold label: misleading -> Misleading
-2025-11-03 23:08:27,495 - INFO - Asking model: qwen2.5-72b-instruct
-2025-11-03 23:08:27,495 - INFO - Claim: 'Maddie de Garay's case shows that COVID-19 vaccines can cause functional neurological disorder and are thus harmful.'
-2025-11-03 23:08:28,868 - INFO - API Response Status: 200
-2025-11-03 23:08:28,868 - INFO - Raw model response: {"label": "Refuted"}
-2025-11-03 23:08:28,868 - INFO - Extracted label: Refuted -> Normalized: Refuted
-2025-11-03 23:08:28,868 - INFO - Final prediction: Refuted
-2025-11-03 23:08:28,869 - INFO - Match: False
-2025-11-03 23:08:29,377 - INFO - 
+2025-12-09 20:25:06,341 - INFO - Processing item #7
+2025-12-09 20:25:06,341 - INFO - Gold label: misleading -> Misleading
+2025-12-09 20:25:06,341 - INFO - Asking model: deepseek-v3.1
+2025-12-09 20:25:06,341 - INFO - Claim: 'Maddie de Garay's case shows that COVID-19 vaccines can cause functional neurological disorder and are thus harmful.'
+2025-12-09 20:25:07,372 - INFO - API Response Status: 200
+2025-12-09 20:25:07,372 - ERROR - Exception in ask_model (attempt 1): list index out of range
+Traceback (most recent call last):
+  File "<ipython-input-14-189391d54fca>", line 98, in ask_model
+    txt = data.get("choices", [{}])[0].get("message", {}).get("content", "").strip()
+IndexError: list index out of range
+2025-12-09 20:25:07,372 - INFO - Retry attempt 1/3 after 0.5s delay...
+2025-12-09 20:25:08,882 - INFO - API Response Status: 200
+2025-12-09 20:25:08,882 - ERROR - Exception in ask_model (attempt 2): list index out of range
+Traceback (most recent call last):
+  File "<ipython-input-14-189391d54fca>", line 98, in ask_model
+    txt = data.get("choices", [{}])[0].get("message", {}).get("content", "").strip()
+IndexError: list index out of range
+2025-12-09 20:25:08,883 - INFO - Retry attempt 2/3 after 1.0s delay...
+2025-12-09 20:25:10,919 - INFO - API Response Status: 200
+2025-12-09 20:25:10,919 - ERROR - Exception in ask_model (attempt 3): list index out of range
+Traceback (most recent call last):
+  File "<ipython-input-14-189391d54fca>", line 98, in ask_model
+    txt = data.get("choices", [{}])[0].get("message", {}).get("content", "").strip()
+IndexError: list index out of range
+2025-12-09 20:25:10,920 - INFO - Retry attempt 3/3 after 2.0s delay...
+2025-12-09 20:25:14,425 - INFO - API Response Status: 200
+2025-12-09 20:25:14,425 - ERROR - Exception in ask_model (attempt 4): list index out of range
+Traceback (most recent call last):
+  File "<ipython-input-14-189391d54fca>", line 98, in ask_model
+    txt = data.get("choices", [{}])[0].get("message", {}).get("content", "").strip()
+IndexError: list index out of range
+2025-12-09 20:25:14,425 - ERROR - Max retries reached for unknown exception
+2025-12-09 20:25:14,425 - WARNING - Invalid/unparseable response for claim 7 after 3 retries
+2025-12-09 20:25:14,425 - INFO - Final prediction: __INVALID__
+2025-12-09 20:25:14,425 - INFO - Match: False
+2025-12-09 20:25:14,929 - INFO - 
 ================================================================================
-2025-11-03 23:08:29,377 - INFO - Processing item #8
-2025-11-03 23:08:29,377 - INFO - Gold label: refuted -> Refuted
-2025-11-03 23:08:29,377 - INFO - Asking model: qwen2.5-72b-instruct
-2025-11-03 23:08:29,377 - INFO - Claim: 'The 2014 Euromaidan protests in Ukraine were a coup'
-2025-11-03 23:08:30,779 - INFO - API Response Status: 200
-2025-11-03 23:08:30,779 - INFO - Raw model response: {"label": "Misleading"}
-2025-11-03 23:08:30,780 - INFO - Extracted label: Misleading -> Normalized: Misleading
-2025-11-03 23:08:30,780 - INFO - Final prediction: Misleading
-2025-11-03 23:08:30,780 - INFO - Match: False
-2025-11-03 23:08:31,290 - INFO - 
+2025-12-09 20:25:14,929 - INFO - Processing item #8
+2025-12-09 20:25:14,929 - INFO - Gold label: refuted -> Refuted
+2025-12-09 20:25:14,929 - INFO - Asking model: deepseek-v3.1
+2025-12-09 20:25:14,929 - INFO - Claim: 'The 2014 Euromaidan protests in Ukraine were a coup'
+2025-12-09 20:25:16,007 - INFO - API Response Status: 200
+2025-12-09 20:25:16,008 - ERROR - Exception in ask_model (attempt 1): list index out of range
+Traceback (most recent call last):
+  File "<ipython-input-14-189391d54fca>", line 98, in ask_model
+    txt = data.get("choices", [{}])[0].get("message", {}).get("content", "").strip()
+IndexError: list index out of range
+2025-12-09 20:25:16,008 - INFO - Retry attempt 1/3 after 0.5s delay...
+2025-12-09 20:25:18,799 - INFO - API Response Status: 200
+2025-12-09 20:25:18,799 - ERROR - Exception in ask_model (attempt 2): list index out of range
+Traceback (most recent call last):
+  File "<ipython-input-14-189391d54fca>", line 98, in ask_model
+    txt = data.get("choices", [{}])[0].get("message", {}).get("content", "").strip()
+IndexError: list index out of range
+2025-12-09 20:25:18,799 - INFO - Retry attempt 2/3 after 1.0s delay...
+2025-12-09 20:25:20,941 - INFO - API Response Status: 200
+2025-12-09 20:25:20,941 - ERROR - Exception in ask_model (attempt 3): list index out of range
+Traceback (most recent call last):
+  File "<ipython-input-14-189391d54fca>", line 98, in ask_model
+    txt = data.get("choices", [{}])[0].get("message", {}).get("content", "").strip()
+IndexError: list index out of range
+2025-12-09 20:25:20,941 - INFO - Retry attempt 3/3 after 2.0s delay...
+2025-12-09 20:25:23,990 - INFO - API Response Status: 200
+2025-12-09 20:25:23,990 - ERROR - Exception in ask_model (attempt 4): list index out of range
+Traceback (most recent call last):
+  File "<ipython-input-14-189391d54fca>", line 98, in ask_model
+    txt = data.get("choices", [{}])[0].get("message", {}).get("content", "").strip()
+IndexError: list index out of range
+2025-12-09 20:25:23,990 - ERROR - Max retries reached for unknown exception
+2025-12-09 20:25:23,990 - WARNING - Invalid/unparseable response for claim 8 after 3 retries
+2025-12-09 20:25:23,990 - INFO - Final prediction: __INVALID__
+2025-12-09 20:25:23,990 - INFO - Match: False
+2025-12-09 20:25:24,494 - INFO - 
 ================================================================================
-2025-11-03 23:08:31,290 - INFO - Processing item #9
-2025-11-03 23:08:31,290 - INFO - Gold label: misleading -> Misleading
-2025-11-03 23:08:31,290 - INFO - Asking model: qwen2.5-72b-instruct
-2025-11-03 23:08:31,290 - INFO - Claim: “He [President Donald Trump] did not move on making sure that we dealt with vaccinating the American public. We ended up losing over a million people dead — a million people.”
-2025-11-03 23:08:32,570 - INFO - API Response Status: 200
-2025-11-03 23:08:32,570 - INFO - Raw model response: {"label": "Refuted"}
-2025-11-03 23:08:32,570 - INFO - Extracted label: Refuted -> Normalized: Refuted
-2025-11-03 23:08:32,571 - INFO - Final prediction: Refuted
-2025-11-03 23:08:32,571 - INFO - Match: False
-2025-11-03 23:08:33,076 - INFO - 
+2025-12-09 20:25:24,494 - INFO - Processing item #9
+2025-12-09 20:25:24,494 - INFO - Gold label: misleading -> Misleading
+2025-12-09 20:25:24,494 - INFO - Asking model: deepseek-v3.1
+2025-12-09 20:25:24,494 - INFO - Claim: “He [President Donald Trump] did not move on making sure that we dealt with vaccinating the American public. We ended up losing over a million people dead — a million people.”
+2025-12-09 20:25:25,564 - INFO - API Response Status: 200
+2025-12-09 20:25:25,565 - ERROR - Exception in ask_model (attempt 1): list index out of range
+Traceback (most recent call last):
+  File "<ipython-input-14-189391d54fca>", line 98, in ask_model
+    txt = data.get("choices", [{}])[0].get("message", {}).get("content", "").strip()
+IndexError: list index out of range
+2025-12-09 20:25:25,565 - INFO - Retry attempt 1/3 after 0.5s delay...
+2025-12-09 20:25:27,141 - INFO - API Response Status: 200
+2025-12-09 20:25:27,141 - ERROR - Exception in ask_model (attempt 2): list index out of range
+Traceback (most recent call last):
+  File "<ipython-input-14-189391d54fca>", line 98, in ask_model
+    txt = data.get("choices", [{}])[0].get("message", {}).get("content", "").strip()
+IndexError: list index out of range
+2025-12-09 20:25:27,141 - INFO - Retry attempt 2/3 after 1.0s delay...
+2025-12-09 20:25:29,164 - INFO - API Response Status: 200
+2025-12-09 20:25:29,165 - ERROR - Exception in ask_model (attempt 3): list index out of range
+Traceback (most recent call last):
+  File "<ipython-input-14-189391d54fca>", line 98, in ask_model
+    txt = data.get("choices", [{}])[0].get("message", {}).get("content", "").strip()
+IndexError: list index out of range
+2025-12-09 20:25:29,165 - INFO - Retry attempt 3/3 after 2.0s delay...
+2025-12-09 20:25:32,214 - INFO - API Response Status: 200
+2025-12-09 20:25:32,214 - ERROR - Exception in ask_model (attempt 4): list index out of range
+Traceback (most recent call last):
+  File "<ipython-input-14-189391d54fca>", line 98, in ask_model
+    txt = data.get("choices", [{}])[0].get("message", {}).get("content", "").strip()
+IndexError: list index out of range
+2025-12-09 20:25:32,214 - ERROR - Max retries reached for unknown exception
+2025-12-09 20:25:32,214 - WARNING - Invalid/unparseable response for claim 9 after 3 retries
+2025-12-09 20:25:32,214 - INFO - Final prediction: __INVALID__
+2025-12-09 20:25:32,214 - INFO - Match: False
+2025-12-09 20:25:32,732 - INFO - 
 ================================================================================
-2025-11-03 23:08:33,076 - INFO - Processing item #10
-2025-11-03 23:08:33,077 - INFO - Gold label: supported -> Supported
-2025-11-03 23:08:33,077 - INFO - Asking model: qwen2.5-72b-instruct
-2025-11-03 23:08:33,077 - INFO - Claim: 'Under Joe Biden, there are “record numbers of new Black entrepreneurs”'
-2025-11-03 23:08:35,839 - INFO - API Response Status: 200
-2025-11-03 23:08:35,839 - INFO - Raw model response: {"label": "Not enough information"}
-2025-11-03 23:08:35,839 - INFO - Extracted label: Not enough information -> Normalized: Not enough information
-2025-11-03 23:08:35,840 - INFO - Final prediction: Not enough information
-2025-11-03 23:08:35,840 - INFO - Match: False
-2025-11-03 23:08:36,360 - INFO - 
+2025-12-09 20:25:32,733 - INFO - Processing item #10
+2025-12-09 20:25:32,733 - INFO - Gold label: supported -> Supported
+2025-12-09 20:25:32,733 - INFO - Asking model: deepseek-v3.1
+2025-12-09 20:25:32,733 - INFO - Claim: 'Under Joe Biden, there are “record numbers of new Black entrepreneurs”'
+2025-12-09 20:25:34,317 - INFO - API Response Status: 200
+2025-12-09 20:25:34,317 - ERROR - Exception in ask_model (attempt 1): list index out of range
+Traceback (most recent call last):
+  File "<ipython-input-14-189391d54fca>", line 98, in ask_model
+    txt = data.get("choices", [{}])[0].get("message", {}).get("content", "").strip()
+IndexError: list index out of range
+2025-12-09 20:25:34,317 - INFO - Retry attempt 1/3 after 0.5s delay...
+2025-12-09 20:25:35,854 - INFO - API Response Status: 200
+2025-12-09 20:25:35,854 - ERROR - Exception in ask_model (attempt 2): list index out of range
+Traceback (most recent call last):
+  File "<ipython-input-14-189391d54fca>", line 98, in ask_model
+    txt = data.get("choices", [{}])[0].get("message", {}).get("content", "").strip()
+IndexError: list index out of range
+2025-12-09 20:25:35,855 - INFO - Retry attempt 2/3 after 1.0s delay...
+2025-12-09 20:25:38,127 - INFO - API Response Status: 200
+2025-12-09 20:25:38,127 - ERROR - Exception in ask_model (attempt 3): list index out of range
+Traceback (most recent call last):
+  File "<ipython-input-14-189391d54fca>", line 98, in ask_model
+    txt = data.get("choices", [{}])[0].get("message", {}).get("content", "").strip()
+IndexError: list index out of range
+2025-12-09 20:25:38,127 - INFO - Retry attempt 3/3 after 2.0s delay...
+2025-12-09 20:25:41,627 - INFO - API Response Status: 200
+2025-12-09 20:25:41,627 - ERROR - Exception in ask_model (attempt 4): list index out of range
+Traceback (most recent call last):
+  File "<ipython-input-14-189391d54fca>", line 98, in ask_model
+    txt = data.get("choices", [{}])[0].get("message", {}).get("content", "").strip()
+IndexError: list index out of range
+2025-12-09 20:25:41,628 - ERROR - Max retries reached for unknown exception
+2025-12-09 20:25:41,628 - WARNING - Invalid/unparseable response for claim 10 after 3 retries
+2025-12-09 20:25:41,628 - INFO - Final prediction: __INVALID__
+2025-12-09 20:25:41,628 - INFO - Match: False
+2025-12-09 20:25:42,134 - INFO - 
 ================================================================================
-2025-11-03 23:08:36,360 - INFO - Processing item #11
-2025-11-03 23:08:36,360 - INFO - Gold label: misleading -> Misleading
-2025-11-03 23:08:36,360 - INFO - Asking model: qwen2.5-72b-instruct
-2025-11-03 23:08:36,360 - INFO - Claim: 'Study of 99 million Covid vaccine recipients shows the shots are dangerous'
-2025-11-03 23:08:38,074 - INFO - API Response Status: 200
-2025-11-03 23:08:38,074 - INFO - Raw model response: {"label": "Not enough information"}
-2025-11-03 23:08:38,074 - INFO - Extracted label: Not enough information -> Normalized: Not enough information
-2025-11-03 23:08:38,075 - INFO - Final prediction: Not enough information
-2025-11-03 23:08:38,075 - INFO - Match: False
-2025-11-03 23:08:38,591 - INFO - 
+2025-12-09 20:25:42,134 - INFO - Processing item #11
+2025-12-09 20:25:42,135 - INFO - Gold label: misleading -> Misleading
+2025-12-09 20:25:42,135 - INFO - Asking model: deepseek-v3.1
+2025-12-09 20:25:42,135 - INFO - Claim: 'Study of 99 million Covid vaccine recipients shows the shots are dangerous'
+2025-12-09 20:25:43,580 - INFO - API Response Status: 200
+2025-12-09 20:25:43,581 - ERROR - Exception in ask_model (attempt 1): list index out of range
+Traceback (most recent call last):
+  File "<ipython-input-14-189391d54fca>", line 98, in ask_model
+    txt = data.get("choices", [{}])[0].get("message", {}).get("content", "").strip()
+IndexError: list index out of range
+2025-12-09 20:25:43,581 - INFO - Retry attempt 1/3 after 0.5s delay...
+2025-12-09 20:25:45,291 - INFO - API Response Status: 200
+2025-12-09 20:25:45,292 - ERROR - Exception in ask_model (attempt 2): list index out of range
+Traceback (most recent call last):
+  File "<ipython-input-14-189391d54fca>", line 98, in ask_model
+    txt = data.get("choices", [{}])[0].get("message", {}).get("content", "").strip()
+IndexError: list index out of range
+2025-12-09 20:25:45,292 - INFO - Retry attempt 2/3 after 1.0s delay...
+2025-12-09 20:25:47,479 - INFO - API Response Status: 200
+2025-12-09 20:25:47,479 - ERROR - Exception in ask_model (attempt 3): list index out of range
+Traceback (most recent call last):
+  File "<ipython-input-14-189391d54fca>", line 98, in ask_model
+    txt = data.get("choices", [{}])[0].get("message", {}).get("content", "").strip()
+IndexError: list index out of range
+2025-12-09 20:25:47,479 - INFO - Retry attempt 3/3 after 2.0s delay...
+2025-12-09 20:25:56,420 - INFO - API Response Status: 200
+2025-12-09 20:25:56,420 - ERROR - Exception in ask_model (attempt 4): list index out of range
+Traceback (most recent call last):
+  File "<ipython-input-14-189391d54fca>", line 98, in ask_model
+    txt = data.get("choices", [{}])[0].get("message", {}).get("content", "").strip()
+IndexError: list index out of range
+2025-12-09 20:25:56,420 - ERROR - Max retries reached for unknown exception
+2025-12-09 20:25:56,420 - WARNING - Invalid/unparseable response for claim 11 after 3 retries
+2025-12-09 20:25:56,420 - INFO - Final prediction: __INVALID__
+2025-12-09 20:25:56,420 - INFO - Match: False
+2025-12-09 20:25:56,935 - INFO - 
 ================================================================================
-2025-11-03 23:08:38,591 - INFO - Processing item #12
-2025-11-03 23:08:38,591 - INFO - Gold label: misleading -> Misleading
-2025-11-03 23:08:38,591 - INFO - Asking model: qwen2.5-72b-instruct
-2025-11-03 23:08:38,591 - INFO - Claim: 'COVID-19 vaccine recipients might not be eligible for blood donation'
-2025-11-03 23:08:40,099 - INFO - API Response Status: 200
-2025-11-03 23:08:40,099 - INFO - Raw model response: {"label": "Not enough information"}
-2025-11-03 23:08:40,099 - INFO - Extracted label: Not enough information -> Normalized: Not enough information
-2025-11-03 23:08:40,100 - INFO - Final prediction: Not enough information
-2025-11-03 23:08:40,100 - INFO - Match: False
-2025-11-03 23:08:40,612 - INFO - 
+2025-12-09 20:25:56,935 - INFO - Processing item #12
+2025-12-09 20:25:56,936 - INFO - Gold label: misleading -> Misleading
+2025-12-09 20:25:56,936 - INFO - Asking model: deepseek-v3.1
+2025-12-09 20:25:56,936 - INFO - Claim: 'COVID-19 vaccine recipients might not be eligible for blood donation'
+2025-12-09 20:25:58,097 - INFO - API Response Status: 200
+2025-12-09 20:25:58,097 - ERROR - Exception in ask_model (attempt 1): list index out of range
+Traceback (most recent call last):
+  File "<ipython-input-14-189391d54fca>", line 98, in ask_model
+    txt = data.get("choices", [{}])[0].get("message", {}).get("content", "").strip()
+IndexError: list index out of range
+2025-12-09 20:25:58,097 - INFO - Retry attempt 1/3 after 0.5s delay...
+2025-12-09 20:26:00,015 - INFO - API Response Status: 200
+2025-12-09 20:26:00,016 - ERROR - Exception in ask_model (attempt 2): list index out of range
+Traceback (most recent call last):
+  File "<ipython-input-14-189391d54fca>", line 98, in ask_model
+    txt = data.get("choices", [{}])[0].get("message", {}).get("content", "").strip()
+IndexError: list index out of range
+2025-12-09 20:26:00,016 - INFO - Retry attempt 2/3 after 1.0s delay...
+2025-12-09 20:26:02,036 - INFO - API Response Status: 200
+2025-12-09 20:26:02,037 - ERROR - Exception in ask_model (attempt 3): list index out of range
+Traceback (most recent call last):
+  File "<ipython-input-14-189391d54fca>", line 98, in ask_model
+    txt = data.get("choices", [{}])[0].get("message", {}).get("content", "").strip()
+IndexError: list index out of range
+2025-12-09 20:26:02,037 - INFO - Retry attempt 3/3 after 2.0s delay...
+2025-12-09 20:26:05,525 - INFO - API Response Status: 200
+2025-12-09 20:26:05,526 - ERROR - Exception in ask_model (attempt 4): list index out of range
+Traceback (most recent call last):
+  File "<ipython-input-14-189391d54fca>", line 98, in ask_model
+    txt = data.get("choices", [{}])[0].get("message", {}).get("content", "").strip()
+IndexError: list index out of range
+2025-12-09 20:26:05,526 - ERROR - Max retries reached for unknown exception
+2025-12-09 20:26:05,526 - WARNING - Invalid/unparseable response for claim 12 after 3 retries
+2025-12-09 20:26:05,526 - INFO - Final prediction: __INVALID__
+2025-12-09 20:26:05,526 - INFO - Match: False
+2025-12-09 20:26:06,033 - INFO - 
 ================================================================================
-2025-11-03 23:08:40,612 - INFO - Processing item #13
-2025-11-03 23:08:40,612 - INFO - Gold label: supported -> Supported
-2025-11-03 23:08:40,612 - INFO - Asking model: qwen2.5-72b-instruct
-2025-11-03 23:08:40,612 - INFO - Claim: 'Cote d’Ivoire’s GDP better than Ghana’s over the last 3 years'
-2025-11-03 23:08:42,141 - INFO - API Response Status: 200
-2025-11-03 23:08:42,141 - INFO - Raw model response: {"label": "Not enough information"}
-2025-11-03 23:08:42,141 - INFO - Extracted label: Not enough information -> Normalized: Not enough information
-2025-11-03 23:08:42,142 - INFO - Final prediction: Not enough information
-2025-11-03 23:08:42,142 - INFO - Match: False
-2025-11-03 23:08:42,649 - INFO - 
+2025-12-09 20:26:06,033 - INFO - Processing item #13
+2025-12-09 20:26:06,033 - INFO - Gold label: supported -> Supported
+2025-12-09 20:26:06,033 - INFO - Asking model: deepseek-v3.1
+2025-12-09 20:26:06,033 - INFO - Claim: 'Cote d’Ivoire’s GDP better than Ghana’s over the last 3 years'
+2025-12-09 20:26:07,072 - INFO - API Response Status: 200
+2025-12-09 20:26:07,073 - ERROR - Exception in ask_model (attempt 1): list index out of range
+Traceback (most recent call last):
+  File "<ipython-input-14-189391d54fca>", line 98, in ask_model
+    txt = data.get("choices", [{}])[0].get("message", {}).get("content", "").strip()
+IndexError: list index out of range
+2025-12-09 20:26:07,073 - INFO - Retry attempt 1/3 after 0.5s delay...
+2025-12-09 20:26:08,949 - INFO - API Response Status: 200
+2025-12-09 20:26:08,949 - ERROR - Exception in ask_model (attempt 2): list index out of range
+Traceback (most recent call last):
+  File "<ipython-input-14-189391d54fca>", line 98, in ask_model
+    txt = data.get("choices", [{}])[0].get("message", {}).get("content", "").strip()
+IndexError: list index out of range
+2025-12-09 20:26:08,950 - INFO - Retry attempt 2/3 after 1.0s delay...
+2025-12-09 20:26:11,083 - INFO - API Response Status: 200
+2025-12-09 20:26:11,083 - ERROR - Exception in ask_model (attempt 3): list index out of range
+Traceback (most recent call last):
+  File "<ipython-input-14-189391d54fca>", line 98, in ask_model
+    txt = data.get("choices", [{}])[0].get("message", {}).get("content", "").strip()
+IndexError: list index out of range
+2025-12-09 20:26:11,083 - INFO - Retry attempt 3/3 after 2.0s delay...
+2025-12-09 20:26:14,575 - INFO - API Response Status: 200
+2025-12-09 20:26:14,575 - ERROR - Exception in ask_model (attempt 4): list index out of range
+Traceback (most recent call last):
+  File "<ipython-input-14-189391d54fca>", line 98, in ask_model
+    txt = data.get("choices", [{}])[0].get("message", {}).get("content", "").strip()
+IndexError: list index out of range
+2025-12-09 20:26:14,575 - ERROR - Max retries reached for unknown exception
+2025-12-09 20:26:14,575 - WARNING - Invalid/unparseable response for claim 13 after 3 retries
+2025-12-09 20:26:14,575 - INFO - Final prediction: __INVALID__
+2025-12-09 20:26:14,575 - INFO - Match: False
+2025-12-09 20:26:15,088 - INFO - 
 ================================================================================
-2025-11-03 23:08:42,649 - INFO - Processing item #14
-2025-11-03 23:08:42,649 - INFO - Gold label: misleading -> Misleading
-2025-11-03 23:08:42,649 - INFO - Asking model: qwen2.5-72b-instruct
-2025-11-03 23:08:42,649 - INFO - Claim: 'Samantha endorsed TDP ahead of Andhra Elections'
-2025-11-03 23:08:43,981 - INFO - API Response Status: 200
-2025-11-03 23:08:43,981 - INFO - Raw model response: {"label": "Not enough information"}
-2025-11-03 23:08:43,982 - INFO - Extracted label: Not enough information -> Normalized: Not enough information
-2025-11-03 23:08:43,982 - INFO - Final prediction: Not enough information
-2025-11-03 23:08:43,982 - INFO - Match: False
-2025-11-03 23:08:44,499 - INFO - 
+2025-12-09 20:26:15,088 - INFO - Processing item #14
+2025-12-09 20:26:15,089 - INFO - Gold label: misleading -> Misleading
+2025-12-09 20:26:15,089 - INFO - Asking model: deepseek-v3.1
+2025-12-09 20:26:15,089 - INFO - Claim: 'Samantha endorsed TDP ahead of Andhra Elections'
+2025-12-09 20:26:16,594 - INFO - API Response Status: 200
+2025-12-09 20:26:16,594 - ERROR - Exception in ask_model (attempt 1): list index out of range
+Traceback (most recent call last):
+  File "<ipython-input-14-189391d54fca>", line 98, in ask_model
+    txt = data.get("choices", [{}])[0].get("message", {}).get("content", "").strip()
+IndexError: list index out of range
+2025-12-09 20:26:16,595 - INFO - Retry attempt 1/3 after 0.5s delay...
+2025-12-09 20:26:18,026 - INFO - API Response Status: 200
+2025-12-09 20:26:18,027 - ERROR - Exception in ask_model (attempt 2): list index out of range
+Traceback (most recent call last):
+  File "<ipython-input-14-189391d54fca>", line 98, in ask_model
+    txt = data.get("choices", [{}])[0].get("message", {}).get("content", "").strip()
+IndexError: list index out of range
+2025-12-09 20:26:18,027 - INFO - Retry attempt 2/3 after 1.0s delay...
+2025-12-09 20:26:34,725 - INFO - API Response Status: 200
+2025-12-09 20:26:34,725 - ERROR - Exception in ask_model (attempt 3): list index out of range
+Traceback (most recent call last):
+  File "<ipython-input-14-189391d54fca>", line 98, in ask_model
+    txt = data.get("choices", [{}])[0].get("message", {}).get("content", "").strip()
+IndexError: list index out of range
+2025-12-09 20:26:34,725 - INFO - Retry attempt 3/3 after 2.0s delay...
+2025-12-09 20:26:37,755 - INFO - API Response Status: 200
+2025-12-09 20:26:37,755 - ERROR - Exception in ask_model (attempt 4): list index out of range
+Traceback (most recent call last):
+  File "<ipython-input-14-189391d54fca>", line 98, in ask_model
+    txt = data.get("choices", [{}])[0].get("message", {}).get("content", "").strip()
+IndexError: list index out of range
+2025-12-09 20:26:37,755 - ERROR - Max retries reached for unknown exception
+2025-12-09 20:26:37,755 - WARNING - Invalid/unparseable response for claim 14 after 3 retries
+2025-12-09 20:26:37,756 - INFO - Final prediction: __INVALID__
+2025-12-09 20:26:37,756 - INFO - Match: False
+2025-12-09 20:26:38,270 - INFO - 
 ================================================================================
-2025-11-03 23:08:44,499 - INFO - Processing item #15
-2025-11-03 23:08:44,499 - INFO - Gold label: misleading -> Misleading
-2025-11-03 23:08:44,499 - INFO - Asking model: qwen2.5-72b-instruct
-2025-11-03 23:08:44,499 - INFO - Claim: “It is estimated that 121 million Africans are facing severe acute food insecurity.”
-2025-11-03 23:08:45,835 - INFO - API Response Status: 200
-2025-11-03 23:08:45,837 - INFO - Raw model response: {"label": "Not enough information"}
-2025-11-03 23:08:45,837 - INFO - Extracted label: Not enough information -> Normalized: Not enough information
-2025-11-03 23:08:45,837 - INFO - Final prediction: Not enough information
-2025-11-03 23:08:45,838 - INFO - Match: False
-2025-11-03 23:08:46,346 - INFO - 
+2025-12-09 20:26:38,271 - INFO - Processing item #15
+2025-12-09 20:26:38,271 - INFO - Gold label: misleading -> Misleading
+2025-12-09 20:26:38,271 - INFO - Asking model: deepseek-v3.1
+2025-12-09 20:26:38,271 - INFO - Claim: “It is estimated that 121 million Africans are facing severe acute food insecurity.”
+2025-12-09 20:26:57,336 - INFO - API Response Status: 200
+2025-12-09 20:26:57,337 - ERROR - Exception in ask_model (attempt 1): list index out of range
+Traceback (most recent call last):
+  File "<ipython-input-14-189391d54fca>", line 98, in ask_model
+    txt = data.get("choices", [{}])[0].get("message", {}).get("content", "").strip()
+IndexError: list index out of range
+2025-12-09 20:26:57,337 - INFO - Retry attempt 1/3 after 0.5s delay...
+2025-12-09 20:26:59,285 - INFO - API Response Status: 200
+2025-12-09 20:26:59,286 - ERROR - Exception in ask_model (attempt 2): list index out of range
+Traceback (most recent call last):
+  File "<ipython-input-14-189391d54fca>", line 98, in ask_model
+    txt = data.get("choices", [{}])[0].get("message", {}).get("content", "").strip()
+IndexError: list index out of range
+2025-12-09 20:26:59,286 - INFO - Retry attempt 2/3 after 1.0s delay...
+2025-12-09 20:27:45,750 - WARNING - Request timeout. Attempt 3/4
+2025-12-09 20:27:45,750 - INFO - Retry attempt 3/3 after 2.0s delay...
+2025-12-09 20:27:49,146 - INFO - API Response Status: 200
+2025-12-09 20:27:49,147 - ERROR - Exception in ask_model (attempt 4): list index out of range
+Traceback (most recent call last):
+  File "<ipython-input-14-189391d54fca>", line 98, in ask_model
+    txt = data.get("choices", [{}])[0].get("message", {}).get("content", "").strip()
+IndexError: list index out of range
+2025-12-09 20:27:49,147 - ERROR - Max retries reached for unknown exception
+2025-12-09 20:27:49,147 - WARNING - Invalid/unparseable response for claim 15 after 3 retries
+2025-12-09 20:27:49,148 - INFO - Final prediction: __INVALID__
+2025-12-09 20:27:49,148 - INFO - Match: False
+2025-12-09 20:27:49,656 - INFO - 
 ================================================================================
-2025-11-03 23:08:46,347 - INFO - Processing item #16
-2025-11-03 23:08:46,347 - INFO - Gold label: supported -> Supported
-2025-11-03 23:08:46,347 - INFO - Asking model: qwen2.5-72b-instruct
-2025-11-03 23:08:46,347 - INFO - Claim: 'COVID-19 has symptoms similar to the flu.'
-2025-11-03 23:08:47,692 - INFO - API Response Status: 200
-2025-11-03 23:08:47,692 - INFO - Raw model response: {"label": "Supported"}
-2025-11-03 23:08:47,692 - INFO - Extracted label: Supported -> Normalized: Supported
-2025-11-03 23:08:47,692 - INFO - Final prediction: Supported
-2025-11-03 23:08:47,693 - INFO - Match: True
-2025-11-03 23:08:48,199 - INFO - 
+2025-12-09 20:27:49,656 - INFO - Processing item #16
+2025-12-09 20:27:49,656 - INFO - Gold label: supported -> Supported
+2025-12-09 20:27:49,656 - INFO - Asking model: deepseek-v3.1
+2025-12-09 20:27:49,656 - INFO - Claim: 'COVID-19 has symptoms similar to the flu.'
+2025-12-09 20:27:53,701 - INFO - API Response Status: 401
+2025-12-09 20:27:53,702 - WARNING - API returned non-200 status: 401
+2025-12-09 20:27:53,702 - WARNING - Response body: {
+  "error": {
+    "message": "Incorrect API key provided: aa-h...W89Y. You can find your API key at https://ava.al/keys . Please contact support at support@avalai.ir and include the request ID 019b040c-4bdb-7d10-8864-473b5c8f4605 in your email if you believe this is an error.",
+    "type": "invalid_request_error",
+    "param": null,
+    "code": "invalid_api_key",
+    "solution": "If your API key was recently created, please wait up to 60 seconds for it to activate. Otherwise, verify you're usin
+2025-12-09 20:27:53,702 - WARNING - Invalid/unparseable response for claim 16 after 3 retries
+2025-12-09 20:27:53,702 - INFO - Final prediction: __INVALID__
+2025-12-09 20:27:53,702 - INFO - Match: False
+2025-12-09 20:27:54,212 - INFO - 
 ================================================================================
-2025-11-03 23:08:48,199 - INFO - Processing item #17
-2025-11-03 23:08:48,199 - INFO - Gold label: misleading -> Misleading
-2025-11-03 23:08:48,199 - INFO - Asking model: qwen2.5-72b-instruct
-2025-11-03 23:08:48,199 - INFO - Claim: 'New guidance says one day of isolation is sufficient for people with COVID-19.'
-2025-11-03 23:08:49,551 - INFO - API Response Status: 200
-2025-11-03 23:08:49,551 - INFO - Raw model response: {"label": "Not enough information"}
-2025-11-03 23:08:49,551 - INFO - Extracted label: Not enough information -> Normalized: Not enough information
-2025-11-03 23:08:49,552 - INFO - Final prediction: Not enough information
-2025-11-03 23:08:49,552 - INFO - Match: False
-2025-11-03 23:08:50,065 - INFO - 
+2025-12-09 20:27:54,212 - INFO - Processing item #17
+2025-12-09 20:27:54,212 - INFO - Gold label: misleading -> Misleading
+2025-12-09 20:27:54,212 - INFO - Asking model: deepseek-v3.1
+2025-12-09 20:27:54,212 - INFO - Claim: 'New guidance says one day of isolation is sufficient for people with COVID-19.'
+2025-12-09 20:27:55,360 - INFO - API Response Status: 200
+2025-12-09 20:27:55,360 - ERROR - Exception in ask_model (attempt 1): list index out of range
+Traceback (most recent call last):
+  File "<ipython-input-14-189391d54fca>", line 98, in ask_model
+    txt = data.get("choices", [{}])[0].get("message", {}).get("content", "").strip()
+IndexError: list index out of range
+2025-12-09 20:27:55,360 - INFO - Retry attempt 1/3 after 0.5s delay...
+2025-12-09 20:27:56,829 - INFO - API Response Status: 200
+2025-12-09 20:27:56,830 - ERROR - Exception in ask_model (attempt 2): list index out of range
+Traceback (most recent call last):
+  File "<ipython-input-14-189391d54fca>", line 98, in ask_model
+    txt = data.get("choices", [{}])[0].get("message", {}).get("content", "").strip()
+IndexError: list index out of range
+2025-12-09 20:27:56,830 - INFO - Retry attempt 2/3 after 1.0s delay...
+2025-12-09 20:27:58,824 - INFO - API Response Status: 200
+2025-12-09 20:27:58,824 - ERROR - Exception in ask_model (attempt 3): list index out of range
+Traceback (most recent call last):
+  File "<ipython-input-14-189391d54fca>", line 98, in ask_model
+    txt = data.get("choices", [{}])[0].get("message", {}).get("content", "").strip()
+IndexError: list index out of range
+2025-12-09 20:27:58,824 - INFO - Retry attempt 3/3 after 2.0s delay...
+2025-12-09 20:28:01,801 - INFO - API Response Status: 200
+2025-12-09 20:28:01,801 - ERROR - Exception in ask_model (attempt 4): list index out of range
+Traceback (most recent call last):
+  File "<ipython-input-14-189391d54fca>", line 98, in ask_model
+    txt = data.get("choices", [{}])[0].get("message", {}).get("content", "").strip()
+IndexError: list index out of range
+2025-12-09 20:28:01,801 - ERROR - Max retries reached for unknown exception
+2025-12-09 20:28:01,802 - WARNING - Invalid/unparseable response for claim 17 after 3 retries
+2025-12-09 20:28:01,802 - INFO - Final prediction: __INVALID__
+2025-12-09 20:28:01,802 - INFO - Match: False
+2025-12-09 20:28:02,305 - INFO - 
 ================================================================================
-2025-11-03 23:08:50,065 - INFO - Processing item #18
-2025-11-03 23:08:50,065 - INFO - Gold label: misleading -> Misleading
-2025-11-03 23:08:50,065 - INFO - Asking model: qwen2.5-72b-instruct
-2025-11-03 23:08:50,065 - INFO - Claim: 'COVID-19 has been like the flu since the beginning of the pandemic.'
-2025-11-03 23:08:51,341 - INFO - API Response Status: 200
-2025-11-03 23:08:51,341 - INFO - Raw model response: {"label": "Refuted"}
-2025-11-03 23:08:51,341 - INFO - Extracted label: Refuted -> Normalized: Refuted
-2025-11-03 23:08:51,342 - INFO - Final prediction: Refuted
-2025-11-03 23:08:51,342 - INFO - Match: False
-2025-11-03 23:08:51,853 - INFO - 
+2025-12-09 20:28:02,305 - INFO - Processing item #18
+2025-12-09 20:28:02,305 - INFO - Gold label: misleading -> Misleading
+2025-12-09 20:28:02,305 - INFO - Asking model: deepseek-v3.1
+2025-12-09 20:28:02,305 - INFO - Claim: 'COVID-19 has been like the flu since the beginning of the pandemic.'
+2025-12-09 20:28:03,616 - INFO - API Response Status: 200
+2025-12-09 20:28:03,616 - ERROR - Exception in ask_model (attempt 1): list index out of range
+Traceback (most recent call last):
+  File "<ipython-input-14-189391d54fca>", line 98, in ask_model
+    txt = data.get("choices", [{}])[0].get("message", {}).get("content", "").strip()
+IndexError: list index out of range
+2025-12-09 20:28:03,617 - INFO - Retry attempt 1/3 after 0.5s delay...
+2025-12-09 20:28:05,167 - INFO - API Response Status: 200
+2025-12-09 20:28:05,167 - ERROR - Exception in ask_model (attempt 2): list index out of range
+Traceback (most recent call last):
+  File "<ipython-input-14-189391d54fca>", line 98, in ask_model
+    txt = data.get("choices", [{}])[0].get("message", {}).get("content", "").strip()
+IndexError: list index out of range
+2025-12-09 20:28:05,168 - INFO - Retry attempt 2/3 after 1.0s delay...
+2025-12-09 20:28:07,697 - INFO - API Response Status: 200
+2025-12-09 20:28:07,697 - ERROR - Exception in ask_model (attempt 3): list index out of range
+Traceback (most recent call last):
+  File "<ipython-input-14-189391d54fca>", line 98, in ask_model
+    txt = data.get("choices", [{}])[0].get("message", {}).get("content", "").strip()
+IndexError: list index out of range
+2025-12-09 20:28:07,697 - INFO - Retry attempt 3/3 after 2.0s delay...
+2025-12-09 20:28:17,629 - INFO - API Response Status: 401
+2025-12-09 20:28:17,630 - WARNING - API returned non-200 status: 401
+2025-12-09 20:28:17,630 - WARNING - Response body: {
+  "error": {
+    "message": "Incorrect API key provided: aa-h...W89Y. You can find your API key at https://ava.al/keys . Please contact support at support@avalai.ir and include the request ID 019b040c-a8e5-7e51-80b8-a808b5af6930 in your email if you believe this is an error.",
+    "type": "invalid_request_error",
+    "param": null,
+    "code": "invalid_api_key",
+    "solution": "If your API key was recently created, please wait up to 60 seconds for it to activate. Otherwise, verify you're usin
+2025-12-09 20:28:17,630 - WARNING - Invalid/unparseable response for claim 18 after 3 retries
+2025-12-09 20:28:17,630 - INFO - Final prediction: __INVALID__
+2025-12-09 20:28:17,630 - INFO - Match: False
+2025-12-09 20:28:18,140 - INFO - 
 ================================================================================
-2025-11-03 23:08:51,853 - INFO - Processing item #19
-2025-11-03 23:08:51,853 - INFO - Gold label: supported -> Supported
-2025-11-03 23:08:51,853 - INFO - Asking model: qwen2.5-72b-instruct
-2025-11-03 23:08:51,853 - INFO - Claim: “We’ve had 12 elections in 24 years in Wisconsin that have been decided by less than 30,000 votes.”
-2025-11-03 23:08:53,232 - INFO - API Response Status: 200
-2025-11-03 23:08:53,232 - INFO - Raw model response: {"label": "Not enough information"}
-2025-11-03 23:08:53,232 - INFO - Extracted label: Not enough information -> Normalized: Not enough information
-2025-11-03 23:08:53,232 - INFO - Final prediction: Not enough information
-2025-11-03 23:08:53,233 - INFO - Match: False
-2025-11-03 23:08:53,743 - INFO - 
+2025-12-09 20:28:18,140 - INFO - Processing item #19
+2025-12-09 20:28:18,140 - INFO - Gold label: supported -> Supported
+2025-12-09 20:28:18,140 - INFO - Asking model: deepseek-v3.1
+2025-12-09 20:28:18,140 - INFO - Claim: “We’ve had 12 elections in 24 years in Wisconsin that have been decided by less than 30,000 votes.”
+2025-12-09 20:28:19,118 - INFO - API Response Status: 200
+2025-12-09 20:28:19,118 - ERROR - Exception in ask_model (attempt 1): list index out of range
+Traceback (most recent call last):
+  File "<ipython-input-14-189391d54fca>", line 98, in ask_model
+    txt = data.get("choices", [{}])[0].get("message", {}).get("content", "").strip()
+IndexError: list index out of range
+2025-12-09 20:28:19,119 - INFO - Retry attempt 1/3 after 0.5s delay...
+2025-12-09 20:28:20,943 - INFO - API Response Status: 200
+2025-12-09 20:28:20,943 - ERROR - Exception in ask_model (attempt 2): list index out of range
+Traceback (most recent call last):
+  File "<ipython-input-14-189391d54fca>", line 98, in ask_model
+    txt = data.get("choices", [{}])[0].get("message", {}).get("content", "").strip()
+IndexError: list index out of range
+2025-12-09 20:28:20,944 - INFO - Retry attempt 2/3 after 1.0s delay...
+2025-12-09 20:28:22,998 - INFO - API Response Status: 200
+2025-12-09 20:28:22,999 - ERROR - Exception in ask_model (attempt 3): list index out of range
+Traceback (most recent call last):
+  File "<ipython-input-14-189391d54fca>", line 98, in ask_model
+    txt = data.get("choices", [{}])[0].get("message", {}).get("content", "").strip()
+IndexError: list index out of range
+2025-12-09 20:28:22,999 - INFO - Retry attempt 3/3 after 2.0s delay...
+2025-12-09 20:28:26,752 - INFO - API Response Status: 200
+2025-12-09 20:28:26,752 - ERROR - Exception in ask_model (attempt 4): list index out of range
+Traceback (most recent call last):
+  File "<ipython-input-14-189391d54fca>", line 98, in ask_model
+    txt = data.get("choices", [{}])[0].get("message", {}).get("content", "").strip()
+IndexError: list index out of range
+2025-12-09 20:28:26,752 - ERROR - Max retries reached for unknown exception
+2025-12-09 20:28:26,752 - WARNING - Invalid/unparseable response for claim 19 after 3 retries
+2025-12-09 20:28:26,752 - INFO - Final prediction: __INVALID__
+2025-12-09 20:28:26,752 - INFO - Match: False
+2025-12-09 20:28:27,258 - INFO - 
 ================================================================================
-2025-11-03 23:08:53,743 - INFO - Processing item #20
-2025-11-03 23:08:53,743 - INFO - Gold label: misleading -> Misleading
-2025-11-03 23:08:53,744 - INFO - Asking model: qwen2.5-72b-instruct
-2025-11-03 23:08:53,744 - INFO - Claim: 'Liquefied natural gas offers significant environmental advantages over traditional fossil fuels contributing to reduced greenhouse gas emissions, combating climate change, improving air quality and e...
-2025-11-03 23:08:54,909 - INFO - API Response Status: 200
-2025-11-03 23:08:54,909 - INFO - Raw model response: {"label": "Supported"}
-2025-11-03 23:08:54,909 - INFO - Extracted label: Supported -> Normalized: Supported
-2025-11-03 23:08:54,909 - INFO - Final prediction: Supported
-2025-11-03 23:08:54,910 - INFO - Match: False
-2025-11-03 23:08:55,423 - INFO - 
+2025-12-09 20:28:27,258 - INFO - Processing item #20
+2025-12-09 20:28:27,258 - INFO - Gold label: misleading -> Misleading
+2025-12-09 20:28:27,258 - INFO - Asking model: deepseek-v3.1
+2025-12-09 20:28:27,258 - INFO - Claim: 'Liquefied natural gas offers significant environmental advantages over traditional fossil fuels contributing to reduced greenhouse gas emissions, combating climate change, improving air quality and e...
+2025-12-09 20:28:28,259 - INFO - API Response Status: 200
+2025-12-09 20:28:28,259 - ERROR - Exception in ask_model (attempt 1): list index out of range
+Traceback (most recent call last):
+  File "<ipython-input-14-189391d54fca>", line 98, in ask_model
+    txt = data.get("choices", [{}])[0].get("message", {}).get("content", "").strip()
+IndexError: list index out of range
+2025-12-09 20:28:28,259 - INFO - Retry attempt 1/3 after 0.5s delay...
+2025-12-09 20:28:29,741 - INFO - API Response Status: 200
+2025-12-09 20:28:29,741 - ERROR - Exception in ask_model (attempt 2): list index out of range
+Traceback (most recent call last):
+  File "<ipython-input-14-189391d54fca>", line 98, in ask_model
+    txt = data.get("choices", [{}])[0].get("message", {}).get("content", "").strip()
+IndexError: list index out of range
+2025-12-09 20:28:29,741 - INFO - Retry attempt 2/3 after 1.0s delay...
+2025-12-09 20:28:36,364 - INFO - API Response Status: 200
+2025-12-09 20:28:36,365 - ERROR - Exception in ask_model (attempt 3): list index out of range
+Traceback (most recent call last):
+  File "<ipython-input-14-189391d54fca>", line 98, in ask_model
+    txt = data.get("choices", [{}])[0].get("message", {}).get("content", "").strip()
+IndexError: list index out of range
+2025-12-09 20:28:36,365 - INFO - Retry attempt 3/3 after 2.0s delay...
+2025-12-09 20:29:04,390 - INFO - API Response Status: 200
+2025-12-09 20:29:04,391 - ERROR - Exception in ask_model (attempt 4): list index out of range
+Traceback (most recent call last):
+  File "<ipython-input-14-189391d54fca>", line 98, in ask_model
+    txt = data.get("choices", [{}])[0].get("message", {}).get("content", "").strip()
+IndexError: list index out of range
+2025-12-09 20:29:04,391 - ERROR - Max retries reached for unknown exception
+2025-12-09 20:29:04,391 - WARNING - Invalid/unparseable response for claim 20 after 3 retries
+2025-12-09 20:29:04,392 - INFO - Final prediction: __INVALID__
+2025-12-09 20:29:04,392 - INFO - Match: False
+2025-12-09 20:29:04,901 - INFO - 
 ================================================================================
-2025-11-03 23:08:55,423 - INFO - Processing item #21
-2025-11-03 23:08:55,423 - INFO - Gold label: supported -> Supported
-2025-11-03 23:08:55,423 - INFO - Asking model: qwen2.5-72b-instruct
-2025-11-03 23:08:55,423 - INFO - Claim: 'COVID vaccines are being used to beat cancer.'
-2025-11-03 23:08:56,687 - INFO - API Response Status: 200
-2025-11-03 23:08:56,687 - INFO - Raw model response: {"label": "Misleading"}
-2025-11-03 23:08:56,687 - INFO - Extracted label: Misleading -> Normalized: Misleading
-2025-11-03 23:08:56,687 - INFO - Final prediction: Misleading
-2025-11-03 23:08:56,688 - INFO - Match: False
-2025-11-03 23:08:57,196 - INFO - 
+2025-12-09 20:29:04,901 - INFO - Processing item #21
+2025-12-09 20:29:04,901 - INFO - Gold label: supported -> Supported
+2025-12-09 20:29:04,901 - INFO - Asking model: deepseek-v3.1
+2025-12-09 20:29:04,901 - INFO - Claim: 'COVID vaccines are being used to beat cancer.'
+2025-12-09 20:29:06,521 - INFO - API Response Status: 200
+2025-12-09 20:29:06,521 - ERROR - Exception in ask_model (attempt 1): list index out of range
+Traceback (most recent call last):
+  File "<ipython-input-14-189391d54fca>", line 98, in ask_model
+    txt = data.get("choices", [{}])[0].get("message", {}).get("content", "").strip()
+IndexError: list index out of range
+2025-12-09 20:29:06,522 - INFO - Retry attempt 1/3 after 0.5s delay...
+2025-12-09 20:29:22,823 - INFO - API Response Status: 200
+2025-12-09 20:29:22,823 - ERROR - Exception in ask_model (attempt 2): list index out of range
+Traceback (most recent call last):
+  File "<ipython-input-14-189391d54fca>", line 98, in ask_model
+    txt = data.get("choices", [{}])[0].get("message", {}).get("content", "").strip()
+IndexError: list index out of range
+2025-12-09 20:29:22,823 - INFO - Retry attempt 2/3 after 1.0s delay...
+2025-12-09 20:29:25,633 - INFO - API Response Status: 200
+2025-12-09 20:29:25,634 - ERROR - Exception in ask_model (attempt 3): list index out of range
+Traceback (most recent call last):
+  File "<ipython-input-14-189391d54fca>", line 98, in ask_model
+    txt = data.get("choices", [{}])[0].get("message", {}).get("content", "").strip()
+IndexError: list index out of range
+2025-12-09 20:29:25,634 - INFO - Retry attempt 3/3 after 2.0s delay...
+2025-12-09 20:29:29,875 - INFO - API Response Status: 200
+2025-12-09 20:29:29,875 - ERROR - Exception in ask_model (attempt 4): list index out of range
+Traceback (most recent call last):
+  File "<ipython-input-14-189391d54fca>", line 98, in ask_model
+    txt = data.get("choices", [{}])[0].get("message", {}).get("content", "").strip()
+IndexError: list index out of range
+2025-12-09 20:29:29,876 - ERROR - Max retries reached for unknown exception
+2025-12-09 20:29:29,876 - WARNING - Invalid/unparseable response for claim 21 after 3 retries
+2025-12-09 20:29:29,876 - INFO - Final prediction: __INVALID__
+2025-12-09 20:29:29,876 - INFO - Match: False
+2025-12-09 20:29:30,382 - INFO - 
 ================================================================================
-2025-11-03 23:08:57,196 - INFO - Processing item #22
-2025-11-03 23:08:57,196 - INFO - Gold label: not enough information -> Not enough information
-2025-11-03 23:08:57,196 - INFO - Asking model: qwen2.5-72b-instruct
-2025-11-03 23:08:57,196 - INFO - Claim: 'Covid-19 vaccine worsens thyroid issues'
-2025-11-03 23:08:58,494 - INFO - API Response Status: 200
-2025-11-03 23:08:58,494 - INFO - Raw model response: {"label": "Not enough information"}
-2025-11-03 23:08:58,494 - INFO - Extracted label: Not enough information -> Normalized: Not enough information
-2025-11-03 23:08:58,495 - INFO - Final prediction: Not enough information
-2025-11-03 23:08:58,495 - INFO - Match: True
-2025-11-03 23:08:59,008 - INFO - 
+2025-12-09 20:29:30,382 - INFO - Processing item #22
+2025-12-09 20:29:30,382 - INFO - Gold label: not enough information -> Not enough information
+2025-12-09 20:29:30,382 - INFO - Asking model: deepseek-v3.1
+2025-12-09 20:29:30,382 - INFO - Claim: 'Covid-19 vaccine worsens thyroid issues'
+2025-12-09 20:29:31,424 - INFO - API Response Status: 200
+2025-12-09 20:29:31,425 - ERROR - Exception in ask_model (attempt 1): list index out of range
+Traceback (most recent call last):
+  File "<ipython-input-14-189391d54fca>", line 98, in ask_model
+    txt = data.get("choices", [{}])[0].get("message", {}).get("content", "").strip()
+IndexError: list index out of range
+2025-12-09 20:29:31,425 - INFO - Retry attempt 1/3 after 0.5s delay...
+2025-12-09 20:29:46,223 - INFO - API Response Status: 200
+2025-12-09 20:29:46,223 - ERROR - Exception in ask_model (attempt 2): list index out of range
+Traceback (most recent call last):
+  File "<ipython-input-14-189391d54fca>", line 98, in ask_model
+    txt = data.get("choices", [{}])[0].get("message", {}).get("content", "").strip()
+IndexError: list index out of range
+2025-12-09 20:29:46,223 - INFO - Retry attempt 2/3 after 1.0s delay...
+2025-12-09 20:30:32,736 - WARNING - Request timeout. Attempt 3/4
+2025-12-09 20:30:32,736 - INFO - Retry attempt 3/3 after 2.0s delay...
+2025-12-09 20:30:36,584 - INFO - API Response Status: 200
+2025-12-09 20:30:36,584 - ERROR - Exception in ask_model (attempt 4): list index out of range
+Traceback (most recent call last):
+  File "<ipython-input-14-189391d54fca>", line 98, in ask_model
+    txt = data.get("choices", [{}])[0].get("message", {}).get("content", "").strip()
+IndexError: list index out of range
+2025-12-09 20:30:36,584 - ERROR - Max retries reached for unknown exception
+2025-12-09 20:30:36,584 - WARNING - Invalid/unparseable response for claim 22 after 3 retries
+2025-12-09 20:30:36,584 - INFO - Final prediction: __INVALID__
+2025-12-09 20:30:36,584 - INFO - Match: False
+2025-12-09 20:30:37,102 - INFO - 
 ================================================================================
-2025-11-03 23:08:59,008 - INFO - Processing item #23
-2025-11-03 23:08:59,008 - INFO - Gold label: supported -> Supported
-2025-11-03 23:08:59,008 - INFO - Asking model: qwen2.5-72b-instruct
-2025-11-03 23:08:59,008 - INFO - Claim: 'Gaza has “the highest number of people facing catastrophic hunger ever recorded by the Integrated Food Security Classification system — anywhere, anytime.”'
-2025-11-03 23:09:00,427 - INFO - API Response Status: 200
-2025-11-03 23:09:00,427 - INFO - Raw model response: {"label": "Not enough information"}
-2025-11-03 23:09:00,427 - INFO - Extracted label: Not enough information -> Normalized: Not enough information
-2025-11-03 23:09:00,428 - INFO - Final prediction: Not enough information
-2025-11-03 23:09:00,428 - INFO - Match: False
-2025-11-03 23:09:00,937 - INFO - 
+2025-12-09 20:30:37,102 - INFO - Processing item #23
+2025-12-09 20:30:37,102 - INFO - Gold label: supported -> Supported
+2025-12-09 20:30:37,102 - INFO - Asking model: deepseek-v3.1
+2025-12-09 20:30:37,102 - INFO - Claim: 'Gaza has “the highest number of people facing catastrophic hunger ever recorded by the Integrated Food Security Classification system — anywhere, anytime.”'
+2025-12-09 20:30:38,175 - INFO - API Response Status: 200
+2025-12-09 20:30:38,175 - ERROR - Exception in ask_model (attempt 1): list index out of range
+Traceback (most recent call last):
+  File "<ipython-input-14-189391d54fca>", line 98, in ask_model
+    txt = data.get("choices", [{}])[0].get("message", {}).get("content", "").strip()
+IndexError: list index out of range
+2025-12-09 20:30:38,176 - INFO - Retry attempt 1/3 after 0.5s delay...
+2025-12-09 20:30:40,189 - INFO - API Response Status: 200
+2025-12-09 20:30:40,190 - ERROR - Exception in ask_model (attempt 2): list index out of range
+Traceback (most recent call last):
+  File "<ipython-input-14-189391d54fca>", line 98, in ask_model
+    txt = data.get("choices", [{}])[0].get("message", {}).get("content", "").strip()
+IndexError: list index out of range
+2025-12-09 20:30:40,190 - INFO - Retry attempt 2/3 after 1.0s delay...
+2025-12-09 20:30:42,319 - INFO - API Response Status: 200
+2025-12-09 20:30:42,319 - ERROR - Exception in ask_model (attempt 3): list index out of range
+Traceback (most recent call last):
+  File "<ipython-input-14-189391d54fca>", line 98, in ask_model
+    txt = data.get("choices", [{}])[0].get("message", {}).get("content", "").strip()
+IndexError: list index out of range
+2025-12-09 20:30:42,320 - INFO - Retry attempt 3/3 after 2.0s delay...
+2025-12-09 20:30:45,964 - INFO - API Response Status: 200
+2025-12-09 20:30:45,964 - ERROR - Exception in ask_model (attempt 4): list index out of range
+Traceback (most recent call last):
+  File "<ipython-input-14-189391d54fca>", line 98, in ask_model
+    txt = data.get("choices", [{}])[0].get("message", {}).get("content", "").strip()
+IndexError: list index out of range
+2025-12-09 20:30:45,964 - ERROR - Max retries reached for unknown exception
+2025-12-09 20:30:45,964 - WARNING - Invalid/unparseable response for claim 23 after 3 retries
+2025-12-09 20:30:45,965 - INFO - Final prediction: __INVALID__
+2025-12-09 20:30:45,965 - INFO - Match: False
+2025-12-09 20:30:46,483 - INFO - 
 ================================================================================
-2025-11-03 23:09:00,937 - INFO - Processing item #24
-2025-11-03 23:09:00,937 - INFO - Gold label: refuted -> Refuted
-2025-11-03 23:09:00,937 - INFO - Asking model: qwen2.5-72b-instruct
-2025-11-03 23:09:00,937 - INFO - Claim: 'Kelly Powers died from 'turbo cancer' caused by the Covid-19 vaccine'
-2025-11-03 23:09:02,428 - INFO - API Response Status: 200
-2025-11-03 23:09:02,428 - INFO - Raw model response: {"label": "Refuted"}
-2025-11-03 23:09:02,428 - INFO - Extracted label: Refuted -> Normalized: Refuted
-2025-11-03 23:09:02,429 - INFO - Final prediction: Refuted
-2025-11-03 23:09:02,429 - INFO - Match: True
-2025-11-03 23:09:02,936 - INFO - 
+2025-12-09 20:30:46,484 - INFO - Processing item #24
+2025-12-09 20:30:46,484 - INFO - Gold label: refuted -> Refuted
+2025-12-09 20:30:46,484 - INFO - Asking model: deepseek-v3.1
+2025-12-09 20:30:46,484 - INFO - Claim: 'Kelly Powers died from 'turbo cancer' caused by the Covid-19 vaccine'
+2025-12-09 20:30:48,518 - INFO - API Response Status: 200
+2025-12-09 20:30:48,519 - ERROR - Exception in ask_model (attempt 1): list index out of range
+Traceback (most recent call last):
+  File "<ipython-input-14-189391d54fca>", line 98, in ask_model
+    txt = data.get("choices", [{}])[0].get("message", {}).get("content", "").strip()
+IndexError: list index out of range
+2025-12-09 20:30:48,519 - INFO - Retry attempt 1/3 after 0.5s delay...
+2025-12-09 20:30:50,723 - INFO - API Response Status: 200
+2025-12-09 20:30:50,723 - ERROR - Exception in ask_model (attempt 2): list index out of range
+Traceback (most recent call last):
+  File "<ipython-input-14-189391d54fca>", line 98, in ask_model
+    txt = data.get("choices", [{}])[0].get("message", {}).get("content", "").strip()
+IndexError: list index out of range
+2025-12-09 20:30:50,723 - INFO - Retry attempt 2/3 after 1.0s delay...
+2025-12-09 20:30:52,567 - INFO - API Response Status: 502
+2025-12-09 20:30:52,567 - WARNING - Server error 502. Attempt 3/4
+2025-12-09 20:30:52,567 - INFO - Retry attempt 3/3 after 2.0s delay...
+2025-12-09 20:30:56,050 - INFO - API Response Status: 200
+2025-12-09 20:30:56,050 - ERROR - Exception in ask_model (attempt 4): list index out of range
+Traceback (most recent call last):
+  File "<ipython-input-14-189391d54fca>", line 98, in ask_model
+    txt = data.get("choices", [{}])[0].get("message", {}).get("content", "").strip()
+IndexError: list index out of range
+2025-12-09 20:30:56,050 - ERROR - Max retries reached for unknown exception
+2025-12-09 20:30:56,050 - WARNING - Invalid/unparseable response for claim 24 after 3 retries
+2025-12-09 20:30:56,050 - INFO - Final prediction: __INVALID__
+2025-12-09 20:30:56,050 - INFO - Match: False
+2025-12-09 20:30:56,557 - INFO - 
 ================================================================================
-2025-11-03 23:09:02,936 - INFO - Processing item #25
-2025-11-03 23:09:02,936 - INFO - Gold label: misleading -> Misleading
-2025-11-03 23:09:02,936 - INFO - Asking model: qwen2.5-72b-instruct
-2025-11-03 23:09:02,936 - INFO - Claim: 'An 81-year-old roadside parrot astrologer was arrested from Cuddalore, Tamil Nadu by police because his parrot predicted that DMK would lose the 2024 election.'
-2025-11-03 23:09:04,195 - INFO - API Response Status: 200
-2025-11-03 23:09:04,195 - INFO - Raw model response: {"label": "Not enough information"}
-2025-11-03 23:09:04,195 - INFO - Extracted label: Not enough information -> Normalized: Not enough information
-2025-11-03 23:09:04,196 - INFO - Final prediction: Not enough information
-2025-11-03 23:09:04,196 - INFO - Match: False
-2025-11-03 23:09:04,712 - INFO - 
+2025-12-09 20:30:56,557 - INFO - Processing item #25
+2025-12-09 20:30:56,557 - INFO - Gold label: misleading -> Misleading
+2025-12-09 20:30:56,557 - INFO - Asking model: deepseek-v3.1
+2025-12-09 20:30:56,557 - INFO - Claim: 'An 81-year-old roadside parrot astrologer was arrested from Cuddalore, Tamil Nadu by police because his parrot predicted that DMK would lose the 2024 election.'
+2025-12-09 20:30:58,097 - INFO - API Response Status: 200
+2025-12-09 20:30:58,097 - ERROR - Exception in ask_model (attempt 1): list index out of range
+Traceback (most recent call last):
+  File "<ipython-input-14-189391d54fca>", line 98, in ask_model
+    txt = data.get("choices", [{}])[0].get("message", {}).get("content", "").strip()
+IndexError: list index out of range
+2025-12-09 20:30:58,097 - INFO - Retry attempt 1/3 after 0.5s delay...
+2025-12-09 20:31:00,115 - INFO - API Response Status: 200
+2025-12-09 20:31:00,115 - ERROR - Exception in ask_model (attempt 2): list index out of range
+Traceback (most recent call last):
+  File "<ipython-input-14-189391d54fca>", line 98, in ask_model
+    txt = data.get("choices", [{}])[0].get("message", {}).get("content", "").strip()
+IndexError: list index out of range
+2025-12-09 20:31:00,115 - INFO - Retry attempt 2/3 after 1.0s delay...
+2025-12-09 20:31:02,194 - INFO - API Response Status: 200
+2025-12-09 20:31:02,194 - ERROR - Exception in ask_model (attempt 3): list index out of range
+Traceback (most recent call last):
+  File "<ipython-input-14-189391d54fca>", line 98, in ask_model
+    txt = data.get("choices", [{}])[0].get("message", {}).get("content", "").strip()
+IndexError: list index out of range
+2025-12-09 20:31:02,194 - INFO - Retry attempt 3/3 after 2.0s delay...
+2025-12-09 20:31:16,817 - INFO - API Response Status: 200
+2025-12-09 20:31:16,817 - ERROR - Exception in ask_model (attempt 4): list index out of range
+Traceback (most recent call last):
+  File "<ipython-input-14-189391d54fca>", line 98, in ask_model
+    txt = data.get("choices", [{}])[0].get("message", {}).get("content", "").strip()
+IndexError: list index out of range
+2025-12-09 20:31:16,817 - ERROR - Max retries reached for unknown exception
+2025-12-09 20:31:16,817 - WARNING - Invalid/unparseable response for claim 25 after 3 retries
+2025-12-09 20:31:16,818 - INFO - Final prediction: __INVALID__
+2025-12-09 20:31:16,818 - INFO - Match: False
+2025-12-09 20:31:17,329 - INFO - 
 ================================================================================
-2025-11-03 23:09:04,712 - INFO - Processing item #26
-2025-11-03 23:09:04,712 - INFO - Gold label: refuted -> Refuted
-2025-11-03 23:09:04,712 - INFO - Asking model: qwen2.5-72b-instruct
-2025-11-03 23:09:04,712 - INFO - Claim: 'Review article "has found that COVID-19 mRNA vaccines could aid cancer development”'
-2025-11-03 23:09:06,159 - INFO - API Response Status: 200
-2025-11-03 23:09:06,159 - INFO - Raw model response: {"label": "Refuted"}
-2025-11-03 23:09:06,159 - INFO - Extracted label: Refuted -> Normalized: Refuted
-2025-11-03 23:09:06,160 - INFO - Final prediction: Refuted
-2025-11-03 23:09:06,160 - INFO - Match: True
-2025-11-03 23:09:06,668 - INFO - 
+2025-12-09 20:31:17,329 - INFO - Processing item #26
+2025-12-09 20:31:17,329 - INFO - Gold label: refuted -> Refuted
+2025-12-09 20:31:17,329 - INFO - Asking model: deepseek-v3.1
+2025-12-09 20:31:17,329 - INFO - Claim: 'Review article "has found that COVID-19 mRNA vaccines could aid cancer development”'
+2025-12-09 20:31:18,356 - INFO - API Response Status: 200
+2025-12-09 20:31:18,357 - ERROR - Exception in ask_model (attempt 1): list index out of range
+Traceback (most recent call last):
+  File "<ipython-input-14-189391d54fca>", line 98, in ask_model
+    txt = data.get("choices", [{}])[0].get("message", {}).get("content", "").strip()
+IndexError: list index out of range
+2025-12-09 20:31:18,358 - INFO - Retry attempt 1/3 after 0.5s delay...
+2025-12-09 20:31:20,804 - INFO - API Response Status: 200
+2025-12-09 20:31:20,805 - ERROR - Exception in ask_model (attempt 2): list index out of range
+Traceback (most recent call last):
+  File "<ipython-input-14-189391d54fca>", line 98, in ask_model
+    txt = data.get("choices", [{}])[0].get("message", {}).get("content", "").strip()
+IndexError: list index out of range
+2025-12-09 20:31:20,805 - INFO - Retry attempt 2/3 after 1.0s delay...
+2025-12-09 20:31:23,217 - INFO - API Response Status: 200
+2025-12-09 20:31:23,217 - ERROR - Exception in ask_model (attempt 3): list index out of range
+Traceback (most recent call last):
+  File "<ipython-input-14-189391d54fca>", line 98, in ask_model
+    txt = data.get("choices", [{}])[0].get("message", {}).get("content", "").strip()
+IndexError: list index out of range
+2025-12-09 20:31:23,218 - INFO - Retry attempt 3/3 after 2.0s delay...
+2025-12-09 20:31:26,316 - INFO - API Response Status: 200
+2025-12-09 20:31:26,317 - ERROR - Exception in ask_model (attempt 4): list index out of range
+Traceback (most recent call last):
+  File "<ipython-input-14-189391d54fca>", line 98, in ask_model
+    txt = data.get("choices", [{}])[0].get("message", {}).get("content", "").strip()
+IndexError: list index out of range
+2025-12-09 20:31:26,317 - ERROR - Max retries reached for unknown exception
+2025-12-09 20:31:26,317 - WARNING - Invalid/unparseable response for claim 26 after 3 retries
+2025-12-09 20:31:26,317 - INFO - Final prediction: __INVALID__
+2025-12-09 20:31:26,317 - INFO - Match: False
+2025-12-09 20:31:26,827 - INFO - 
 ================================================================================
-2025-11-03 23:09:06,668 - INFO - Processing item #27
-2025-11-03 23:09:06,669 - INFO - Gold label: misleading -> Misleading
-2025-11-03 23:09:06,669 - INFO - Asking model: qwen2.5-72b-instruct
-2025-11-03 23:09:06,669 - INFO - Claim: 'GRACIA LATTE is a healthy way to lose weight in one week'
-2025-11-03 23:09:08,787 - INFO - API Response Status: 200
-2025-11-03 23:09:08,787 - INFO - Raw model response: {"label": "Not enough information"}
-2025-11-03 23:09:08,787 - INFO - Extracted label: Not enough information -> Normalized: Not enough information
-2025-11-03 23:09:08,788 - INFO - Final prediction: Not enough information
-2025-11-03 23:09:08,788 - INFO - Match: False
-2025-11-03 23:09:09,291 - INFO - 
+2025-12-09 20:31:26,827 - INFO - Processing item #27
+2025-12-09 20:31:26,827 - INFO - Gold label: misleading -> Misleading
+2025-12-09 20:31:26,827 - INFO - Asking model: deepseek-v3.1
+2025-12-09 20:31:26,827 - INFO - Claim: 'GRACIA LATTE is a healthy way to lose weight in one week'
+2025-12-09 20:31:27,872 - INFO - API Response Status: 200
+2025-12-09 20:31:27,873 - ERROR - Exception in ask_model (attempt 1): list index out of range
+Traceback (most recent call last):
+  File "<ipython-input-14-189391d54fca>", line 98, in ask_model
+    txt = data.get("choices", [{}])[0].get("message", {}).get("content", "").strip()
+IndexError: list index out of range
+2025-12-09 20:31:27,873 - INFO - Retry attempt 1/3 after 0.5s delay...
+2025-12-09 20:31:29,904 - INFO - API Response Status: 200
+2025-12-09 20:31:29,905 - ERROR - Exception in ask_model (attempt 2): list index out of range
+Traceback (most recent call last):
+  File "<ipython-input-14-189391d54fca>", line 98, in ask_model
+    txt = data.get("choices", [{}])[0].get("message", {}).get("content", "").strip()
+IndexError: list index out of range
+2025-12-09 20:31:29,905 - INFO - Retry attempt 2/3 after 1.0s delay...
+2025-12-09 20:31:32,979 - INFO - API Response Status: 200
+2025-12-09 20:31:32,979 - ERROR - Exception in ask_model (attempt 3): list index out of range
+Traceback (most recent call last):
+  File "<ipython-input-14-189391d54fca>", line 98, in ask_model
+    txt = data.get("choices", [{}])[0].get("message", {}).get("content", "").strip()
+IndexError: list index out of range
+2025-12-09 20:31:32,980 - INFO - Retry attempt 3/3 after 2.0s delay...
+2025-12-09 20:31:36,079 - INFO - API Response Status: 200
+2025-12-09 20:31:36,079 - ERROR - Exception in ask_model (attempt 4): list index out of range
+Traceback (most recent call last):
+  File "<ipython-input-14-189391d54fca>", line 98, in ask_model
+    txt = data.get("choices", [{}])[0].get("message", {}).get("content", "").strip()
+IndexError: list index out of range
+2025-12-09 20:31:36,080 - ERROR - Max retries reached for unknown exception
+2025-12-09 20:31:36,080 - WARNING - Invalid/unparseable response for claim 27 after 3 retries
+2025-12-09 20:31:36,080 - INFO - Final prediction: __INVALID__
+2025-12-09 20:31:36,080 - INFO - Match: False
+2025-12-09 20:31:36,589 - INFO - 
 ================================================================================
-2025-11-03 23:09:09,291 - INFO - Processing item #28
-2025-11-03 23:09:09,291 - INFO - Gold label: refuted -> Refuted
-2025-11-03 23:09:09,291 - INFO - Asking model: qwen2.5-72b-instruct
-2025-11-03 23:09:09,291 - INFO - Claim: “Our electricity generation is almost 95% renewable, from geothermal, hydro, wind, and solar energy.”
-2025-11-03 23:09:10,841 - INFO - API Response Status: 200
-2025-11-03 23:09:10,841 - INFO - Raw model response: {"label": "Not enough information"}
-2025-11-03 23:09:10,841 - INFO - Extracted label: Not enough information -> Normalized: Not enough information
-2025-11-03 23:09:10,842 - INFO - Final prediction: Not enough information
-2025-11-03 23:09:10,842 - INFO - Match: False
-2025-11-03 23:09:11,353 - INFO - 
+2025-12-09 20:31:36,590 - INFO - Processing item #28
+2025-12-09 20:31:36,590 - INFO - Gold label: refuted -> Refuted
+2025-12-09 20:31:36,590 - INFO - Asking model: deepseek-v3.1
+2025-12-09 20:31:36,590 - INFO - Claim: “Our electricity generation is almost 95% renewable, from geothermal, hydro, wind, and solar energy.”
+2025-12-09 20:31:37,621 - INFO - API Response Status: 200
+2025-12-09 20:31:37,621 - ERROR - Exception in ask_model (attempt 1): list index out of range
+Traceback (most recent call last):
+  File "<ipython-input-14-189391d54fca>", line 98, in ask_model
+    txt = data.get("choices", [{}])[0].get("message", {}).get("content", "").strip()
+IndexError: list index out of range
+2025-12-09 20:31:37,622 - INFO - Retry attempt 1/3 after 0.5s delay...
+2025-12-09 20:31:39,173 - INFO - API Response Status: 200
+2025-12-09 20:31:39,173 - ERROR - Exception in ask_model (attempt 2): list index out of range
+Traceback (most recent call last):
+  File "<ipython-input-14-189391d54fca>", line 98, in ask_model
+    txt = data.get("choices", [{}])[0].get("message", {}).get("content", "").strip()
+IndexError: list index out of range
+2025-12-09 20:31:39,174 - INFO - Retry attempt 2/3 after 1.0s delay...
+2025-12-09 20:31:41,203 - INFO - API Response Status: 200
+2025-12-09 20:31:41,204 - ERROR - Exception in ask_model (attempt 3): list index out of range
+Traceback (most recent call last):
+  File "<ipython-input-14-189391d54fca>", line 98, in ask_model
+    txt = data.get("choices", [{}])[0].get("message", {}).get("content", "").strip()
+IndexError: list index out of range
+2025-12-09 20:31:41,204 - INFO - Retry attempt 3/3 after 2.0s delay...
+2025-12-09 20:31:44,687 - INFO - API Response Status: 200
+2025-12-09 20:31:44,687 - ERROR - Exception in ask_model (attempt 4): list index out of range
+Traceback (most recent call last):
+  File "<ipython-input-14-189391d54fca>", line 98, in ask_model
+    txt = data.get("choices", [{}])[0].get("message", {}).get("content", "").strip()
+IndexError: list index out of range
+2025-12-09 20:31:44,688 - ERROR - Max retries reached for unknown exception
+2025-12-09 20:31:44,688 - WARNING - Invalid/unparseable response for claim 28 after 3 retries
+2025-12-09 20:31:44,688 - INFO - Final prediction: __INVALID__
+2025-12-09 20:31:44,688 - INFO - Match: False
+2025-12-09 20:31:45,192 - INFO - 
 ================================================================================
-2025-11-03 23:09:11,354 - INFO - Processing item #29
-2025-11-03 23:09:11,354 - INFO - Gold label: misleading -> Misleading
-2025-11-03 23:09:11,354 - INFO - Asking model: qwen2.5-72b-instruct
-2025-11-03 23:09:11,354 - INFO - Claim: “AstraZeneca finally WITHDRAW Covid vaccine worldwide, months after the company admitted rare side effect for the first time in court documents.”
-2025-11-03 23:09:12,611 - INFO - API Response Status: 200
-2025-11-03 23:09:12,611 - INFO - Raw model response: {"label": "Not enough information"}
-2025-11-03 23:09:12,612 - INFO - Extracted label: Not enough information -> Normalized: Not enough information
-2025-11-03 23:09:12,612 - INFO - Final prediction: Not enough information
-2025-11-03 23:09:12,613 - INFO - Match: False
-2025-11-03 23:09:13,126 - INFO - 
+2025-12-09 20:31:45,192 - INFO - Processing item #29
+2025-12-09 20:31:45,192 - INFO - Gold label: misleading -> Misleading
+2025-12-09 20:31:45,192 - INFO - Asking model: deepseek-v3.1
+2025-12-09 20:31:45,192 - INFO - Claim: “AstraZeneca finally WITHDRAW Covid vaccine worldwide, months after the company admitted rare side effect for the first time in court documents.”
+2025-12-09 20:31:46,267 - INFO - API Response Status: 200
+2025-12-09 20:31:46,267 - ERROR - Exception in ask_model (attempt 1): list index out of range
+Traceback (most recent call last):
+  File "<ipython-input-14-189391d54fca>", line 98, in ask_model
+    txt = data.get("choices", [{}])[0].get("message", {}).get("content", "").strip()
+IndexError: list index out of range
+2025-12-09 20:31:46,267 - INFO - Retry attempt 1/3 after 0.5s delay...
+2025-12-09 20:31:47,902 - INFO - API Response Status: 200
+2025-12-09 20:31:47,902 - ERROR - Exception in ask_model (attempt 2): list index out of range
+Traceback (most recent call last):
+  File "<ipython-input-14-189391d54fca>", line 98, in ask_model
+    txt = data.get("choices", [{}])[0].get("message", {}).get("content", "").strip()
+IndexError: list index out of range
+2025-12-09 20:31:47,902 - INFO - Retry attempt 2/3 after 1.0s delay...
+2025-12-09 20:31:50,416 - INFO - API Response Status: 200
+2025-12-09 20:31:50,416 - ERROR - Exception in ask_model (attempt 3): list index out of range
+Traceback (most recent call last):
+  File "<ipython-input-14-189391d54fca>", line 98, in ask_model
+    txt = data.get("choices", [{}])[0].get("message", {}).get("content", "").strip()
+IndexError: list index out of range
+2025-12-09 20:31:50,416 - INFO - Retry attempt 3/3 after 2.0s delay...
+2025-12-09 20:31:53,873 - INFO - API Response Status: 200
+2025-12-09 20:31:53,873 - ERROR - Exception in ask_model (attempt 4): list index out of range
+Traceback (most recent call last):
+  File "<ipython-input-14-189391d54fca>", line 98, in ask_model
+    txt = data.get("choices", [{}])[0].get("message", {}).get("content", "").strip()
+IndexError: list index out of range
+2025-12-09 20:31:53,873 - ERROR - Max retries reached for unknown exception
+2025-12-09 20:31:53,873 - WARNING - Invalid/unparseable response for claim 29 after 3 retries
+2025-12-09 20:31:53,873 - INFO - Final prediction: __INVALID__
+2025-12-09 20:31:53,873 - INFO - Match: False
+2025-12-09 20:31:54,379 - INFO - 
 ================================================================================
-2025-11-03 23:09:13,126 - INFO - Processing item #30
-2025-11-03 23:09:13,126 - INFO - Gold label: misleading -> Misleading
-2025-11-03 23:09:13,126 - INFO - Asking model: qwen2.5-72b-instruct
-2025-11-03 23:09:13,126 - INFO - Claim: 'Wilders and Le Pen “unanimously” win recent elections'
-2025-11-03 23:09:14,390 - INFO - API Response Status: 200
-2025-11-03 23:09:14,390 - INFO - Raw model response: {"label": "Not enough information"}
-2025-11-03 23:09:14,390 - INFO - Extracted label: Not enough information -> Normalized: Not enough information
-2025-11-03 23:09:14,390 - INFO - Final prediction: Not enough information
-2025-11-03 23:09:14,390 - INFO - Match: False
-2025-11-03 23:09:14,903 - INFO - 
+2025-12-09 20:31:54,379 - INFO - Processing item #30
+2025-12-09 20:31:54,379 - INFO - Gold label: misleading -> Misleading
+2025-12-09 20:31:54,379 - INFO - Asking model: deepseek-v3.1
+2025-12-09 20:31:54,379 - INFO - Claim: 'Wilders and Le Pen “unanimously” win recent elections'
+2025-12-09 20:31:55,629 - INFO - API Response Status: 200
+2025-12-09 20:31:55,629 - ERROR - Exception in ask_model (attempt 1): list index out of range
+Traceback (most recent call last):
+  File "<ipython-input-14-189391d54fca>", line 98, in ask_model
+    txt = data.get("choices", [{}])[0].get("message", {}).get("content", "").strip()
+IndexError: list index out of range
+2025-12-09 20:31:55,629 - INFO - Retry attempt 1/3 after 0.5s delay...
+2025-12-09 20:31:57,218 - INFO - API Response Status: 200
+2025-12-09 20:31:57,218 - ERROR - Exception in ask_model (attempt 2): list index out of range
+Traceback (most recent call last):
+  File "<ipython-input-14-189391d54fca>", line 98, in ask_model
+    txt = data.get("choices", [{}])[0].get("message", {}).get("content", "").strip()
+IndexError: list index out of range
+2025-12-09 20:31:57,220 - INFO - Retry attempt 2/3 after 1.0s delay...
+2025-12-09 20:31:59,399 - INFO - API Response Status: 200
+2025-12-09 20:31:59,399 - ERROR - Exception in ask_model (attempt 3): list index out of range
+Traceback (most recent call last):
+  File "<ipython-input-14-189391d54fca>", line 98, in ask_model
+    txt = data.get("choices", [{}])[0].get("message", {}).get("content", "").strip()
+IndexError: list index out of range
+2025-12-09 20:31:59,400 - INFO - Retry attempt 3/3 after 2.0s delay...
+2025-12-09 20:32:02,518 - INFO - API Response Status: 200
+2025-12-09 20:32:02,518 - ERROR - Exception in ask_model (attempt 4): list index out of range
+Traceback (most recent call last):
+  File "<ipython-input-14-189391d54fca>", line 98, in ask_model
+    txt = data.get("choices", [{}])[0].get("message", {}).get("content", "").strip()
+IndexError: list index out of range
+2025-12-09 20:32:02,518 - ERROR - Max retries reached for unknown exception
+2025-12-09 20:32:02,519 - WARNING - Invalid/unparseable response for claim 30 after 3 retries
+2025-12-09 20:32:02,519 - INFO - Final prediction: __INVALID__
+2025-12-09 20:32:02,519 - INFO - Match: False
+2025-12-09 20:32:03,022 - INFO - 
 ================================================================================
-2025-11-03 23:09:14,903 - INFO - Processing item #31
-2025-11-03 23:09:14,903 - INFO - Gold label: supported -> Supported
-2025-11-03 23:09:14,903 - INFO - Asking model: qwen2.5-72b-instruct
-2025-11-03 23:09:14,903 - INFO - Claim: 'Turkish flag doodled by Drone over Raisi helicopter crash site'
-2025-11-03 23:09:16,182 - INFO - API Response Status: 200
-2025-11-03 23:09:16,182 - INFO - Raw model response: {"label": "Not enough information"}
-2025-11-03 23:09:16,182 - INFO - Extracted label: Not enough information -> Normalized: Not enough information
-2025-11-03 23:09:16,182 - INFO - Final prediction: Not enough information
-2025-11-03 23:09:16,183 - INFO - Match: False
-2025-11-03 23:09:16,696 - INFO - 
+2025-12-09 20:32:03,022 - INFO - Processing item #31
+2025-12-09 20:32:03,022 - INFO - Gold label: supported -> Supported
+2025-12-09 20:32:03,022 - INFO - Asking model: deepseek-v3.1
+2025-12-09 20:32:03,022 - INFO - Claim: 'Turkish flag doodled by Drone over Raisi helicopter crash site'
+2025-12-09 20:32:04,171 - INFO - API Response Status: 200
+2025-12-09 20:32:04,171 - ERROR - Exception in ask_model (attempt 1): list index out of range
+Traceback (most recent call last):
+  File "<ipython-input-14-189391d54fca>", line 98, in ask_model
+    txt = data.get("choices", [{}])[0].get("message", {}).get("content", "").strip()
+IndexError: list index out of range
+2025-12-09 20:32:04,172 - INFO - Retry attempt 1/3 after 0.5s delay...
+2025-12-09 20:32:05,712 - INFO - API Response Status: 200
+2025-12-09 20:32:05,712 - ERROR - Exception in ask_model (attempt 2): list index out of range
+Traceback (most recent call last):
+  File "<ipython-input-14-189391d54fca>", line 98, in ask_model
+    txt = data.get("choices", [{}])[0].get("message", {}).get("content", "").strip()
+IndexError: list index out of range
+2025-12-09 20:32:05,712 - INFO - Retry attempt 2/3 after 1.0s delay...
+2025-12-09 20:32:08,190 - INFO - API Response Status: 200
+2025-12-09 20:32:08,191 - ERROR - Exception in ask_model (attempt 3): list index out of range
+Traceback (most recent call last):
+  File "<ipython-input-14-189391d54fca>", line 98, in ask_model
+    txt = data.get("choices", [{}])[0].get("message", {}).get("content", "").strip()
+IndexError: list index out of range
+2025-12-09 20:32:08,191 - INFO - Retry attempt 3/3 after 2.0s delay...
+2025-12-09 20:32:11,246 - INFO - API Response Status: 200
+2025-12-09 20:32:11,246 - ERROR - Exception in ask_model (attempt 4): list index out of range
+Traceback (most recent call last):
+  File "<ipython-input-14-189391d54fca>", line 98, in ask_model
+    txt = data.get("choices", [{}])[0].get("message", {}).get("content", "").strip()
+IndexError: list index out of range
+2025-12-09 20:32:11,247 - ERROR - Max retries reached for unknown exception
+2025-12-09 20:32:11,247 - WARNING - Invalid/unparseable response for claim 31 after 3 retries
+2025-12-09 20:32:11,247 - INFO - Final prediction: __INVALID__
+2025-12-09 20:32:11,248 - INFO - Match: False
+2025-12-09 20:32:11,763 - INFO - 
 ================================================================================
-2025-11-03 23:09:16,696 - INFO - Processing item #32
-2025-11-03 23:09:16,696 - INFO - Gold label: refuted -> Refuted
-2025-11-03 23:09:16,696 - INFO - Asking model: qwen2.5-72b-instruct
-2025-11-03 23:09:16,696 - INFO - Claim: 'Sweden, France, Finland, the UK and Germany have abandoned renewable energy.'
-2025-11-03 23:09:18,045 - INFO - API Response Status: 200
-2025-11-03 23:09:18,045 - INFO - Raw model response: {"label": "Refuted"}
-2025-11-03 23:09:18,045 - INFO - Extracted label: Refuted -> Normalized: Refuted
-2025-11-03 23:09:18,045 - INFO - Final prediction: Refuted
-2025-11-03 23:09:18,046 - INFO - Match: True
-2025-11-03 23:09:18,552 - INFO - 
-================================================================================
-2025-11-03 23:09:18,552 - INFO - Processing item #33
-2025-11-03 23:09:18,552 - INFO - Gold label: supported -> Supported
-2025-11-03 23:09:18,552 - INFO - Asking model: qwen2.5-72b-instruct
-2025-11-03 23:09:18,552 - INFO - Claim: 'More than 100% of Scotland’s electricity needs come from renewable sources.'
-2025-11-03 23:09:19,992 - INFO - API Response Status: 200
-2025-11-03 23:09:19,992 - INFO - Raw model response: {"label": "Not enough information"}
-2025-11-03 23:09:19,993 - INFO - Extracted label: Not enough information -> Normalized: Not enough information
-2025-11-03 23:09:19,993 - INFO - Final prediction: Not enough information
-2025-11-03 23:09:19,993 - INFO - Match: False
-2025-11-03 23:09:20,507 - INFO - 
-================================================================================
-2025-11-03 23:09:20,507 - INFO - Processing item #34
-2025-11-03 23:09:20,507 - INFO - Gold label: misleading -> Misleading
-2025-11-03 23:09:20,507 - INFO - Asking model: qwen2.5-72b-instruct
-2025-11-03 23:09:20,507 - INFO - Claim: 'BMJ reports record excess deaths after Covid vaccine'
-2025-11-03 23:09:22,998 - INFO - API Response Status: 200
-2025-11-03 23:09:22,999 - INFO - Raw model response: {"label": "Not enough information"}
-2025-11-03 23:09:22,999 - INFO - Extracted label: Not enough information -> Normalized: Not enough information
-2025-11-03 23:09:23,002 - INFO - Final prediction: Not enough information
-2025-11-03 23:09:23,002 - INFO - Match: False
-2025-11-03 23:09:23,508 - INFO - 
-================================================================================
-2025-11-03 23:09:23,508 - INFO - Processing item #35
-2025-11-03 23:09:23,508 - INFO - Gold label: misleading -> Misleading
-2025-11-03 23:09:23,508 - INFO - Asking model: qwen2.5-72b-instruct
-2025-11-03 23:09:23,508 - INFO - Claim: 'Study proves link between Covid-19 and sudden death'
-2025-11-03 23:09:24,805 - INFO - API Response Status: 200
-2025-11-03 23:09:24,806 - INFO - Raw model response: {"label": "Not enough information"}
-2025-11-03 23:09:24,806 - INFO - Extracted label: Not enough information -> Normalized: Not enough information
-2025-11-03 23:09:24,806 - INFO - Final prediction: Not enough information
-2025-11-03 23:09:24,806 - INFO - Match: False
-2025-11-03 23:09:25,322 - INFO - 
-================================================================================
-2025-11-03 23:09:25,324 - INFO - Processing item #36
-2025-11-03 23:09:25,324 - INFO - Gold label: misleading -> Misleading
-2025-11-03 23:09:25,325 - INFO - Asking model: qwen2.5-72b-instruct
-2025-11-03 23:09:25,325 - INFO - Claim: 'Great Barrier Reef broke coral population record for third year in a row'
-2025-11-03 23:09:26,708 - INFO - API Response Status: 200
-2025-11-03 23:09:26,708 - INFO - Raw model response: {"label": "Not enough information"}
-2025-11-03 23:09:26,708 - INFO - Extracted label: Not enough information -> Normalized: Not enough information
-2025-11-03 23:09:26,709 - INFO - Final prediction: Not enough information
-2025-11-03 23:09:26,709 - INFO - Match: False
-2025-11-03 23:09:27,213 - INFO - 
-================================================================================
-2025-11-03 23:09:27,213 - INFO - Processing item #37
-2025-11-03 23:09:27,213 - INFO - Gold label: misleading -> Misleading
-2025-11-03 23:09:27,214 - INFO - Asking model: qwen2.5-72b-instruct
-2025-11-03 23:09:27,214 - INFO - Claim: 'Spike protein from Covid-19 vaccines could promote cancer growth.'
-2025-11-03 23:09:28,430 - INFO - API Response Status: 200
-2025-11-03 23:09:28,430 - INFO - Raw model response: {"label": "Misleading"}
-2025-11-03 23:09:28,430 - INFO - Extracted label: Misleading -> Normalized: Misleading
-2025-11-03 23:09:28,431 - INFO - Final prediction: Misleading
-2025-11-03 23:09:28,432 - INFO - Match: True
-2025-11-03 23:09:28,943 - INFO - 
-================================================================================
-2025-11-03 23:09:28,943 - INFO - Processing item #38
-2025-11-03 23:09:28,943 - INFO - Gold label: misleading -> Misleading
-2025-11-03 23:09:28,943 - INFO - Asking model: qwen2.5-72b-instruct
-2025-11-03 23:09:28,943 - INFO - Claim: “Covid vaccines may have helped fuel rise in excess deaths”
-2025-11-03 23:09:30,165 - INFO - API Response Status: 200
-2025-11-03 23:09:30,165 - INFO - Raw model response: {"label": "Not enough information"}
-2025-11-03 23:09:30,166 - INFO - Extracted label: Not enough information -> Normalized: Not enough information
-2025-11-03 23:09:30,167 - INFO - Final prediction: Not enough information
-2025-11-03 23:09:30,168 - INFO - Match: False
-2025-11-03 23:09:30,685 - INFO - 
-================================================================================
-2025-11-03 23:09:30,685 - INFO - Processing item #39
-2025-11-03 23:09:30,685 - INFO - Gold label: supported -> Supported
-2025-11-03 23:09:30,685 - INFO - Asking model: qwen2.5-72b-instruct
-2025-11-03 23:09:30,685 - INFO - Claim: "Homeownership is now out of reach unless you make over $106,000."
-2025-11-03 23:09:32,050 - INFO - API Response Status: 200
-2025-11-03 23:09:32,050 - INFO - Raw model response: {"label": "Not enough information"}
-2025-11-03 23:09:32,050 - INFO - Extracted label: Not enough information -> Normalized: Not enough information
-2025-11-03 23:09:32,050 - INFO - Final prediction: Not enough information
-2025-11-03 23:09:32,051 - INFO - Match: False
-2025-11-03 23:09:32,554 - INFO - 
-================================================================================
-2025-11-03 23:09:32,554 - INFO - Processing item #40
-2025-11-03 23:09:32,554 - INFO - Gold label: supported -> Supported
-2025-11-03 23:09:32,554 - INFO - Asking model: qwen2.5-72b-instruct
-2025-11-03 23:09:32,554 - INFO - Claim: 'Trump said "A vaccination that is like 38 different vaccines, and it looks like it’s meant for a horse, not a, you know, 10-pound or 20-pound baby. ... And then you see the baby all of a sudden start...
-2025-11-03 23:09:33,893 - INFO - API Response Status: 200
-2025-11-03 23:09:33,893 - INFO - Raw model response: {"label": "Supported"}
-2025-11-03 23:09:33,893 - INFO - Extracted label: Supported -> Normalized: Supported
-2025-11-03 23:09:33,893 - INFO - Final prediction: Supported
-2025-11-03 23:09:33,893 - INFO - Match: True
-2025-11-03 23:09:34,405 - INFO - 
-================================================================================
-2025-11-03 23:09:34,405 - INFO - Processing item #41
-2025-11-03 23:09:34,405 - INFO - Gold label: refuted -> Refuted
-2025-11-03 23:09:34,405 - INFO - Asking model: qwen2.5-72b-instruct
-2025-11-03 23:09:34,405 - INFO - Claim: Kamala Harris cast the deciding vote for the so-called Inflation Reduction Act that sent a lot of our resources to China.”
-2025-11-03 23:09:35,749 - INFO - API Response Status: 200
-2025-11-03 23:09:35,749 - INFO - Raw model response: {"label": "Misleading"}
-2025-11-03 23:09:35,749 - INFO - Extracted label: Misleading -> Normalized: Misleading
-2025-11-03 23:09:35,752 - INFO - Final prediction: Misleading
-2025-11-03 23:09:35,752 - INFO - Match: False
-2025-11-03 23:09:36,271 - INFO - 
-================================================================================
-2025-11-03 23:09:36,271 - INFO - Processing item #42
-2025-11-03 23:09:36,271 - INFO - Gold label: supported -> Supported
-2025-11-03 23:09:36,271 - INFO - Asking model: qwen2.5-72b-instruct
-2025-11-03 23:09:36,271 - INFO - Claim: 'One of Trump’s proposals is "shutting down the Department of Education."'
-2025-11-03 23:09:37,538 - INFO - API Response Status: 200
-2025-11-03 23:09:37,538 - INFO - Raw model response: {"label": "Not enough information"}
-2025-11-03 23:09:37,538 - INFO - Extracted label: Not enough information -> Normalized: Not enough information
-2025-11-03 23:09:37,539 - INFO - Final prediction: Not enough information
-2025-11-03 23:09:37,539 - INFO - Match: False
-2025-11-03 23:09:38,048 - INFO - 
-================================================================================
-2025-11-03 23:09:38,049 - INFO - Processing item #43
-2025-11-03 23:09:38,049 - INFO - Gold label: misleading -> Misleading
-2025-11-03 23:09:38,049 - INFO - Asking model: qwen2.5-72b-instruct
-2025-11-03 23:09:38,049 - INFO - Claim: 'The government has secured a record-breaking number of clean energy projects in the latest renewables auction, after “Labour came in and fixed” last year’s failed auction.'
-2025-11-03 23:09:39,423 - INFO - API Response Status: 200
-2025-11-03 23:09:39,423 - INFO - Raw model response: {"label": "Not enough information"}
-2025-11-03 23:09:39,424 - INFO - Extracted label: Not enough information -> Normalized: Not enough information
-2025-11-03 23:09:39,425 - INFO - Final prediction: Not enough information
-2025-11-03 23:09:39,425 - INFO - Match: False
-2025-11-03 23:09:39,940 - INFO - 
-================================================================================
-2025-11-03 23:09:39,940 - INFO - Processing item #44
-2025-11-03 23:09:39,940 - INFO - Gold label: misleading -> Misleading
-2025-11-03 23:09:39,940 - INFO - Asking model: qwen2.5-72b-instruct
-2025-11-03 23:09:39,940 - INFO - Claim: 'The Prime Minister inherited the fastest growing economy in the G7.'
-2025-11-03 23:09:41,280 - INFO - API Response Status: 200
-2025-11-03 23:09:41,280 - INFO - Raw model response: {"label": "Not enough information"}
-2025-11-03 23:09:41,280 - INFO - Extracted label: Not enough information -> Normalized: Not enough information
-2025-11-03 23:09:41,280 - INFO - Final prediction: Not enough information
-2025-11-03 23:09:41,281 - INFO - Match: False
-2025-11-03 23:09:41,788 - INFO - 
-================================================================================
-2025-11-03 23:09:41,788 - INFO - Processing item #45
-2025-11-03 23:09:41,788 - INFO - Gold label: misleading -> Misleading
-2025-11-03 23:09:41,788 - INFO - Asking model: qwen2.5-72b-instruct
-2025-11-03 23:09:41,788 - INFO - Claim: 'There were no hurricanes this season even despite forecasts for a high activity; it has been a light hurricane season.'
-2025-11-03 23:09:43,124 - INFO - API Response Status: 200
-2025-11-03 23:09:43,124 - INFO - Raw model response: {"label": "Not enough information"}
-2025-11-03 23:09:43,124 - INFO - Extracted label: Not enough information -> Normalized: Not enough information
-2025-11-03 23:09:43,124 - INFO - Final prediction: Not enough information
-2025-11-03 23:09:43,124 - INFO - Match: False
-2025-11-03 23:09:43,629 - INFO - 
-================================================================================
-2025-11-03 23:09:43,630 - INFO - Processing item #46
-2025-11-03 23:09:43,630 - INFO - Gold label: misleading -> Misleading
-2025-11-03 23:09:43,630 - INFO - Asking model: qwen2.5-72b-instruct
-2025-11-03 23:09:43,630 - INFO - Claim: 'More deaths from COVID-19 occurred during Biden's administration than Trump's.'
-2025-11-03 23:09:45,035 - INFO - API Response Status: 200
-2025-11-03 23:09:45,036 - INFO - Raw model response: {"label": "Not enough information"}
-2025-11-03 23:09:45,036 - INFO - Extracted label: Not enough information -> Normalized: Not enough information
-2025-11-03 23:09:45,037 - INFO - Final prediction: Not enough information
-2025-11-03 23:09:45,037 - INFO - Match: False
-2025-11-03 23:09:45,543 - INFO - 
-================================================================================
-2025-11-03 23:09:45,543 - INFO - Processing item #47
-2025-11-03 23:09:45,543 - INFO - Gold label: misleading -> Misleading
-2025-11-03 23:09:45,543 - INFO - Asking model: qwen2.5-72b-instruct
-2025-11-03 23:09:45,543 - INFO - Claim: 'mRNA COVID-19 vaccine causes cancer.'
-2025-11-03 23:09:46,912 - INFO - API Response Status: 200
-2025-11-03 23:09:46,912 - INFO - Raw model response: {"label": "Refuted"}
-2025-11-03 23:09:46,912 - INFO - Extracted label: Refuted -> Normalized: Refuted
-2025-11-03 23:09:46,912 - INFO - Final prediction: Refuted
-2025-11-03 23:09:46,913 - INFO - Match: False
-2025-11-03 23:09:47,430 - INFO - 
-================================================================================
-2025-11-03 23:09:47,430 - INFO - Processing item #48
-2025-11-03 23:09:47,430 - INFO - Gold label: misleading -> Misleading
-2025-11-03 23:09:47,430 - INFO - Asking model: qwen2.5-72b-instruct
-2025-11-03 23:09:47,430 - INFO - Claim: 'The updated COVID-19 vaccines do “not protect against the currently dominant strain.”'
-2025-11-03 23:09:48,986 - INFO - API Response Status: 200
-2025-11-03 23:09:48,986 - INFO - Raw model response: {"label": "Not enough information"}
-2025-11-03 23:09:48,986 - INFO - Extracted label: Not enough information -> Normalized: Not enough information
-2025-11-03 23:09:48,988 - INFO - Final prediction: Not enough information
-2025-11-03 23:09:48,988 - INFO - Match: False
-2025-11-03 23:09:49,493 - INFO - Processed 49 items in 97.54 seconds (0.50 items/sec)
-2025-11-03 23:09:49,493 - INFO - Invalid outputs: 0
-2025-11-03 23:09:49,493 - INFO - Saving predictions to ClaimReviewPlus\seen\predictions.csv
-2025-11-03 23:09:49,495 - INFO - Computing metrics on 49 valid predictions (out of 49 total)
-2025-11-03 23:09:49,501 - INFO - Accuracy: 0.1837
-2025-11-03 23:09:49,501 - INFO - Macro F1: 0.2300
-2025-11-03 23:09:49,501 - INFO - Macro Precision: 0.3450
-2025-11-03 23:09:49,501 - INFO - Macro Recall: 0.4256
-2025-11-03 23:09:49,501 - INFO - 
+2025-12-09 20:32:11,763 - INFO - Processing item #32
+2025-12-09 20:32:11,763 - INFO - Gold label: refuted -> Refuted
+2025-12-09 20:32:11,763 - INFO - Asking model: deepseek-v3.1
+2025-12-09 20:32:11,763 - INFO - Claim: 'Sweden, France, Finland, the UK and Germany have abandoned renewable energy.'
+2025-12-09 20:32:12,958 - INFO - API Response Status: 200
+2025-12-09 20:32:12,959 - ERROR - Exception in ask_model (attempt 1): list index out of range
+Traceback (most recent call last):
+  File "<ipython-input-14-189391d54fca>", line 98, in ask_model
+    txt = data.get("choices", [{}])[0].get("message", {}).get("content", "").strip()
+IndexError: list index out of range
+2025-12-09 20:32:12,959 - INFO - Retry attempt 1/3 after 0.5s delay...
+2025-12-09 20:32:14,546 - INFO - API Response Status: 200
+2025-12-09 20:32:14,546 - ERROR - Exception in ask_model (attempt 2): list index out of range
+Traceback (most recent call last):
+  File "<ipython-input-14-189391d54fca>", line 98, in ask_model
+    txt = data.get("choices", [{}])[0].get("message", {}).get("content", "").strip()
+IndexError: list index out of range
+2025-12-09 20:32:14,546 - INFO - Retry attempt 2/3 after 1.0s delay...
+2025-12-09 20:32:16,926 - INFO - API Response Status: 200
+2025-12-09 20:32:16,926 - ERROR - Exception in ask_model (attempt 3): list index out of range
+Traceback (most recent call last):
+  File "<ipython-input-14-189391d54fca>", line 98, in ask_model
+    txt = data.get("choices", [{}])[0].get("message", {}).get("content", "").strip()
+IndexError: list index out of range
+2025-12-09 20:32:16,926 - INFO - Retry attempt 3/3 after 2.0s delay...
+2025-12-09 20:32:20,006 - INFO - API Response Status: 200
+2025-12-09 20:32:20,006 - ERROR - Exception in ask_model (attempt 4): list index out of range
+Traceback (most recent call last):
+  File "<ipython-input-14-189391d54fca>", line 98, in ask_model
+    txt = data.get("choices", [{}])[0].get("message", {}).get("content", "").strip()
+IndexError: list index out of range
+2025-12-09 20:32:20,006 - ERROR - Max retries reached for unknown exception
+2025-12-09 20:32:20,006 - WARNING - Invalid/unparseable response for claim 32 after 3 retries
+2025-12-09 20:32:20,006 - INFO - Final prediction: __INVALID__
+2025-12-09 20:32:20,006 - INFO - Match: False
+2025-12-09 20:32:20,516 - INFO - Processed 33 items in 651.65 seconds (0.05 items/sec)
+2025-12-09 20:32:20,516 - INFO - Invalid outputs: 33
+2025-12-09 20:32:20,516 - INFO - Saving predictions to ClaimReviewPlus\seen\predictions.csv
+2025-12-09 20:32:20,516 - INFO - Computing metrics on 0 valid predictions (out of 33 total)
+2025-12-09 20:32:20,516 - INFO - Accuracy: 0.0000
+2025-12-09 20:32:20,516 - INFO - Macro F1: 0.0000
+2025-12-09 20:32:20,516 - INFO - Macro Precision: 0.0000
+2025-12-09 20:32:20,516 - INFO - Macro Recall: 0.0000
+2025-12-09 20:32:20,516 - INFO - 
 Per-label metrics:
-2025-11-03 23:09:49,501 - INFO -   Supported:
-2025-11-03 23:09:49,501 - INFO -     Precision: 0.6667
-2025-11-03 23:09:49,501 - INFO -     Recall: 0.1667
-2025-11-03 23:09:49,501 - INFO -     F1: 0.2667
-2025-11-03 23:09:49,501 - INFO -     Support: 12
-2025-11-03 23:09:49,502 - INFO -   Refuted:
-2025-11-03 23:09:49,502 - INFO -     Precision: 0.3750
-2025-11-03 23:09:49,502 - INFO -     Recall: 0.5000
-2025-11-03 23:09:49,502 - INFO -     F1: 0.4286
-2025-11-03 23:09:49,502 - INFO -     Support: 6
-2025-11-03 23:09:49,502 - INFO -   Misleading:
-2025-11-03 23:09:49,502 - INFO -     Precision: 0.2500
-2025-11-03 23:09:49,502 - INFO -     Recall: 0.0357
-2025-11-03 23:09:49,502 - INFO -     F1: 0.0625
-2025-11-03 23:09:49,502 - INFO -     Support: 28
-2025-11-03 23:09:49,502 - INFO -   Not enough information:
-2025-11-03 23:09:49,502 - INFO -     Precision: 0.0882
-2025-11-03 23:09:49,502 - INFO -     Recall: 1.0000
-2025-11-03 23:09:49,502 - INFO -     F1: 0.1622
-2025-11-03 23:09:49,502 - INFO -     Support: 3
-2025-11-03 23:09:49,502 - INFO - Saving metrics to ClaimReviewPlus\seen\metrics.json
-2025-11-03 23:09:49,504 - INFO - Generating visualizations...
-2025-11-03 23:09:49,812 - INFO - Confusion matrix saved to ClaimReviewPlus\seen\confusion_matrix.png
-2025-11-03 23:09:49,992 - INFO - Per-label accuracy plot saved to ClaimReviewPlus\seen\per_label_accuracy.png
-2025-11-03 23:09:50,174 - INFO - Label distribution plot saved to ClaimReviewPlus\seen\label_distribution.png
-2025-11-03 23:09:50,174 - INFO - ============================================================
-2025-11-03 23:09:50,174 - INFO - Evaluation completed for SEEN data
-2025-11-03 23:09:50,174 - INFO - ============================================================
+2025-12-09 20:32:20,516 - INFO -   Supported:
+2025-12-09 20:32:20,516 - INFO -     Precision: 0.0000
+2025-12-09 20:32:20,516 - INFO -     Recall: 0.0000
+2025-12-09 20:32:20,516 - INFO -     F1: 0.0000
+2025-12-09 20:32:20,516 - INFO -     Support: 0
+2025-12-09 20:32:20,516 - INFO -   Refuted:
+2025-12-09 20:32:20,516 - INFO -     Precision: 0.0000
+2025-12-09 20:32:20,516 - INFO -     Recall: 0.0000
+2025-12-09 20:32:20,516 - INFO -     F1: 0.0000
+2025-12-09 20:32:20,516 - INFO -     Support: 0
+2025-12-09 20:32:20,516 - INFO -   Misleading:
+2025-12-09 20:32:20,516 - INFO -     Precision: 0.0000
+2025-12-09 20:32:20,516 - INFO -     Recall: 0.0000
+2025-12-09 20:32:20,516 - INFO -     F1: 0.0000
+2025-12-09 20:32:20,516 - INFO -     Support: 0
+2025-12-09 20:32:20,516 - INFO -   Not enough information:
+2025-12-09 20:32:20,516 - INFO -     Precision: 0.0000
+2025-12-09 20:32:20,516 - INFO -     Recall: 0.0000
+2025-12-09 20:32:20,516 - INFO -     F1: 0.0000
+2025-12-09 20:32:20,516 - INFO -     Support: 0
+2025-12-09 20:32:20,516 - INFO - Saving metrics to ClaimReviewPlus\seen\metrics.json
+2025-12-09 20:32:20,516 - INFO - ============================================================
+2025-12-09 20:32:20,516 - INFO - Evaluation completed for SEEN data
+2025-12-09 20:32:20,516 - INFO - ============================================================
 
