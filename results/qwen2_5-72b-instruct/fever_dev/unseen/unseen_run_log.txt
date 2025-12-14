@@ -1,0 +1,13 @@
+2025-12-15 02:05:50,487 - INFO - Processing 0 claims...
+2025-12-15 02:05:50,498 - INFO - ================================================================================
+2025-12-15 02:05:50,499 - INFO - Processing complete: 0 predictions (0 correct, 0 incorrect), 0 failed
+2025-12-15 02:05:50,499 - WARNING - No valid results for metric calculation
+2025-12-15 02:05:50,717 - INFO - Predictions saved to results\qwen2_5-72b-instruct\fever_dev\unseen\unseen_predictions.csv
+2025-12-15 02:05:50,718 - INFO - Predictions (JSON) saved to results\qwen2_5-72b-instruct\fever_dev\unseen\unseen_predictions.json
+2025-12-15 02:05:50,719 - INFO - Metrics saved to results\qwen2_5-72b-instruct\fever_dev\unseen\unseen_metrics.json
+2025-12-15 02:05:50,720 - INFO - ================================================================================
+2025-12-15 02:05:50,720 - INFO - Comparing seen vs unseen performance...
+2025-12-15 02:05:50,725 - INFO - Metrics: Accuracy=0.3980, Macro-F1=0.3090
+2025-12-15 02:05:50,725 - WARNING - No valid results for metric calculation
+2025-12-15 02:05:50,730 - WARNING - Insufficient data for statistical testing
+2025-12-15 02:05:50,734 - INFO - Summary report saved to results\qwen2_5-72b-instruct\fever_dev\summary.json
