@@ -1,0 +1,365 @@
+2025-12-14 18:01:21,675 - INFO - ================================================================================
+2025-12-14 18:01:21,675 - INFO - Processing file: ..\..\..\Datasets\AVeriTeC_FEVER\test_2023_2024.json
+2025-12-14 18:01:21,675 - INFO - Output file: results_fever\test_2023_2024_with_predictions.json
+2025-12-14 18:01:21,675 - INFO - ================================================================================
+2025-12-14 18:01:21,675 - INFO - Loading input data...
+2025-12-14 18:01:21,689 - INFO - Loaded 2215 claims
+2025-12-14 18:01:21,720 - INFO - 
+================================================================================
+2025-12-14 18:01:21,720 - INFO - Processing claim #0 (ID: 0)
+2025-12-14 18:01:21,721 - INFO - Claim: Every Democrat on the Energy and Commerce Committee blocked Steve Scalise's amendment to require New York to turn over all the data on nursing home deaths or have a temporary decrease of the Federal M...
+2025-12-14 18:01:21,721 - INFO - Date: 22-12-2021
+2025-12-14 18:01:21,721 - INFO - Asking model: meta.llama3-1-70b-instruct-v1:0
+2025-12-14 18:01:21,721 - INFO - Claim: Every Democrat on the Energy and Commerce Committee blocked Steve Scalise's amendment to require New York to turn over all the data on nursing home deaths or have a temporary decrease of the Federal M...
+2025-12-14 18:01:24,196 - INFO - API Response Status: 200
+2025-12-14 18:01:24,196 - INFO - Raw model response: {"label": "Supported"}
+2025-12-14 18:01:24,197 - INFO - Extracted label: Supported -> Normalized: Supported
+2025-12-14 18:01:24,198 - INFO - Prediction: Supported
+2025-12-14 18:01:24,503 - INFO - 
+================================================================================
+2025-12-14 18:01:24,503 - INFO - Processing claim #1 (ID: 1)
+2025-12-14 18:01:24,503 - INFO - Claim: Meat packing workers have suffered more COVID-19 cases than health care workers.
+2025-12-14 18:01:24,503 - INFO - Date: 3-12-2021
+2025-12-14 18:01:24,503 - INFO - Asking model: meta.llama3-1-70b-instruct-v1:0
+2025-12-14 18:01:24,504 - INFO - Claim: Meat packing workers have suffered more COVID-19 cases than health care workers.
+2025-12-14 18:01:26,282 - INFO - API Response Status: 200
+2025-12-14 18:01:26,282 - INFO - Raw model response: {"label": "Supported"}
+2025-12-14 18:01:26,283 - INFO - Extracted label: Supported -> Normalized: Supported
+2025-12-14 18:01:26,283 - INFO - Prediction: Supported
+2025-12-14 18:01:26,596 - INFO - 
+================================================================================
+2025-12-14 18:01:26,596 - INFO - Processing claim #2 (ID: 2)
+2025-12-14 18:01:26,596 - INFO - Claim: South African hospital found that traces of the novel coronavirus had survived on the surface of fresh food items for 12 hours during lab tests.
+2025-12-14 18:01:26,596 - INFO - Date: 3-12-2021
+2025-12-14 18:01:26,597 - INFO - Asking model: meta.llama3-1-70b-instruct-v1:0
+2025-12-14 18:01:26,597 - INFO - Claim: South African hospital found that traces of the novel coronavirus had survived on the surface of fresh food items for 12 hours during lab tests.
+2025-12-14 18:01:28,357 - INFO - API Response Status: 200
+2025-12-14 18:01:28,357 - INFO - Raw model response: {"label": "Refuted"}
+2025-12-14 18:01:28,357 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2025-12-14 18:01:28,357 - INFO - Prediction: Refuted
+2025-12-14 18:01:28,672 - INFO - 
+================================================================================
+2025-12-14 18:01:28,672 - INFO - Processing claim #3 (ID: 3)
+2025-12-14 18:01:28,673 - INFO - Claim: Pfizer is “managed by Black Rock (sic) finances. Who, by chance, manages the finances of the Open Foundation Company (SOROS FOUNDATION)!
+2025-12-14 18:01:28,673 - INFO - Date: 2-12-2021
+2025-12-14 18:01:28,673 - INFO - Asking model: meta.llama3-1-70b-instruct-v1:0
+2025-12-14 18:01:28,673 - INFO - Claim: Pfizer is “managed by Black Rock (sic) finances. Who, by chance, manages the finances of the Open Foundation Company (SOROS FOUNDATION)!
+2025-12-14 18:01:30,480 - INFO - API Response Status: 200
+2025-12-14 18:01:30,480 - INFO - Raw model response: {"label": "Refuted"}
+2025-12-14 18:01:30,480 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2025-12-14 18:01:30,481 - INFO - Prediction: Refuted
+2025-12-14 18:01:30,793 - INFO - 
+================================================================================
+2025-12-14 18:01:30,793 - INFO - Processing claim #4 (ID: 4)
+2025-12-14 18:01:30,793 - INFO - Claim: The Chinese biological laboratory in Wuhan is owned by Glaxo. Who, by chance, owns Pfizer (the one who produces the vaccine!
+2025-12-14 18:01:30,794 - INFO - Date: 2-12-2021
+2025-12-14 18:01:30,794 - INFO - Asking model: meta.llama3-1-70b-instruct-v1:0
+2025-12-14 18:01:30,794 - INFO - Claim: The Chinese biological laboratory in Wuhan is owned by Glaxo. Who, by chance, owns Pfizer (the one who produces the vaccine!
+2025-12-14 18:01:32,363 - INFO - API Response Status: 200
+2025-12-14 18:01:32,363 - INFO - Raw model response: {"label": "Refuted"}
+2025-12-14 18:01:32,363 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2025-12-14 18:01:32,363 - INFO - Prediction: Refuted
+2025-12-14 18:01:32,665 - INFO - 
+================================================================================
+2025-12-14 18:01:32,666 - INFO - Processing claim #5 (ID: 5)
+2025-12-14 18:01:32,666 - INFO - Claim: Vanguard is a "shareholder of BlackRock... which, incidentally, is a major shareholder of Microsoft The property of Bill Gates, who owns Pfizer (the company that sells the miracle vaccine) and is curr...
+2025-12-14 18:01:32,666 - INFO - Date: 2-12-2021
+2025-12-14 18:01:32,666 - INFO - Asking model: meta.llama3-1-70b-instruct-v1:0
+2025-12-14 18:01:32,666 - INFO - Claim: Vanguard is a "shareholder of BlackRock... which, incidentally, is a major shareholder of Microsoft The property of Bill Gates, who owns Pfizer (the company that sells the miracle vaccine) and is curr...
+2025-12-14 18:01:34,581 - INFO - API Response Status: 200
+2025-12-14 18:01:34,581 - INFO - Raw model response: {"label": "Misleading"}
+2025-12-14 18:01:34,581 - INFO - Extracted label: Misleading -> Normalized: Misleading
+2025-12-14 18:01:34,581 - INFO - Prediction: Misleading
+2025-12-14 18:01:34,883 - INFO - 
+================================================================================
+2025-12-14 18:01:34,884 - INFO - Processing claim #6 (ID: 6)
+2025-12-14 18:01:34,884 - INFO - Claim: The Trump administration built the greatest economy in the history of the world.
+2025-12-14 18:01:34,884 - INFO - Date: 20-11-2021
+2025-12-14 18:01:34,884 - INFO - Asking model: meta.llama3-1-70b-instruct-v1:0
+2025-12-14 18:01:34,884 - INFO - Claim: The Trump administration built the greatest economy in the history of the world.
+2025-12-14 18:01:36,765 - INFO - API Response Status: 200
+2025-12-14 18:01:36,766 - INFO - Raw model response: {"label": "Refuted"}
+2025-12-14 18:01:36,766 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2025-12-14 18:01:36,766 - INFO - Prediction: Refuted
+2025-12-14 18:01:37,077 - INFO - 
+================================================================================
+2025-12-14 18:01:37,077 - INFO - Processing claim #7 (ID: 7)
+2025-12-14 18:01:37,078 - INFO - Claim: Ruth Bader Ginsburg was nominated and confirmed 43 days before an election
+2025-12-14 18:01:37,078 - INFO - Date: 12-10-2021
+2025-12-14 18:01:37,078 - INFO - Asking model: meta.llama3-1-70b-instruct-v1:0
+2025-12-14 18:01:37,078 - INFO - Claim: Ruth Bader Ginsburg was nominated and confirmed 43 days before an election
+2025-12-14 18:01:38,603 - INFO - API Response Status: 200
+2025-12-14 18:01:38,603 - INFO - Raw model response: {"label": "Supported"}
+2025-12-14 18:01:38,603 - INFO - Extracted label: Supported -> Normalized: Supported
+2025-12-14 18:01:38,603 - INFO - Prediction: Supported
+2025-12-14 18:01:38,918 - INFO - 
+================================================================================
+2025-12-14 18:01:38,918 - INFO - Processing claim #8 (ID: 8)
+2025-12-14 18:01:38,918 - INFO - Claim: Wildfires raging through California are due to poor land management, not climate change.
+2025-12-14 18:01:38,918 - INFO - Date: 1-9-2021
+2025-12-14 18:01:38,918 - INFO - Asking model: meta.llama3-1-70b-instruct-v1:0
+2025-12-14 18:01:38,918 - INFO - Claim: Wildfires raging through California are due to poor land management, not climate change.
+2025-12-14 18:01:40,384 - INFO - API Response Status: 200
+2025-12-14 18:01:40,384 - INFO - Raw model response: {"label": "Refuted"}
+2025-12-14 18:01:40,385 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2025-12-14 18:01:40,385 - INFO - Prediction: Refuted
+2025-12-14 18:01:40,700 - INFO - 
+================================================================================
+2025-12-14 18:01:40,700 - INFO - Processing claim #9 (ID: 9)
+2025-12-14 18:01:40,701 - INFO - Claim: Luc Montagnier, French virologist and 2008 Nobel Prize winner in Medicine, said that COVID-19 was artificially created in a lab by biologists due to its signature similarity to the AIDS virus
+2025-12-14 18:01:40,701 - INFO - Date: 26-7-2021
+2025-12-14 18:01:40,701 - INFO - Asking model: meta.llama3-1-70b-instruct-v1:0
+2025-12-14 18:01:40,701 - INFO - Claim: Luc Montagnier, French virologist and 2008 Nobel Prize winner in Medicine, said that COVID-19 was artificially created in a lab by biologists due to its signature similarity to the AIDS virus
+2025-12-14 18:01:42,510 - INFO - API Response Status: 200
+2025-12-14 18:01:42,510 - INFO - Raw model response: {"label": "Refuted"}
+2025-12-14 18:01:42,510 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2025-12-14 18:01:42,511 - INFO - Prediction: Refuted
+2025-12-14 18:01:42,827 - INFO - 
+================================================================================
+2025-12-14 18:01:42,827 - INFO - Processing claim #10 (ID: 10)
+2025-12-14 18:01:42,827 - INFO - Claim: 5G millimeter waves could be absorbed by skin cells acting as antennas, transferred to other cells and play the main role in producing coronaviruses in biological cells.
+2025-12-14 18:01:42,827 - INFO - Date: 22-7-2021
+2025-12-14 18:01:42,827 - INFO - Asking model: meta.llama3-1-70b-instruct-v1:0
+2025-12-14 18:01:42,828 - INFO - Claim: 5G millimeter waves could be absorbed by skin cells acting as antennas, transferred to other cells and play the main role in producing coronaviruses in biological cells.
+2025-12-14 18:01:44,295 - INFO - API Response Status: 200
+2025-12-14 18:01:44,295 - INFO - Raw model response: {"label": "Refuted"}
+2025-12-14 18:01:44,295 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2025-12-14 18:01:44,296 - INFO - Prediction: Refuted
+2025-12-14 18:01:44,604 - INFO - 
+================================================================================
+2025-12-14 18:01:44,604 - INFO - Processing claim #11 (ID: 11)
+2025-12-14 18:01:44,605 - INFO - Claim: Several circulating links  allow users to click on them and register for Indian government’s flagship National Health Policy scheme, called, Ayushman Bharat.
+2025-12-14 18:01:44,605 - INFO - Date: 22-7-2021
+2025-12-14 18:01:44,605 - INFO - Asking model: meta.llama3-1-70b-instruct-v1:0
+2025-12-14 18:01:44,605 - INFO - Claim: Several circulating links  allow users to click on them and register for Indian government’s flagship National Health Policy scheme, called, Ayushman Bharat.
+2025-12-14 18:01:46,108 - INFO - API Response Status: 200
+2025-12-14 18:01:46,108 - INFO - Raw model response: {"label": "Refuted"}
+2025-12-14 18:01:46,108 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2025-12-14 18:01:46,108 - INFO - Prediction: Refuted
+2025-12-14 18:01:46,417 - INFO - 
+================================================================================
+2025-12-14 18:01:46,417 - INFO - Processing claim #12 (ID: 12)
+2025-12-14 18:01:46,417 - INFO - Claim: A Facebook post credits Microsoft co-founder Bill Gates with saying, “I choose a lazy person to do a hard job. Because a lazy person will find an easy way to do it.”
+2025-12-14 18:01:46,417 - INFO - Date: 22-7-2021
+2025-12-14 18:01:46,417 - INFO - Asking model: meta.llama3-1-70b-instruct-v1:0
+2025-12-14 18:01:46,417 - INFO - Claim: A Facebook post credits Microsoft co-founder Bill Gates with saying, “I choose a lazy person to do a hard job. Because a lazy person will find an easy way to do it.”
+2025-12-14 18:01:48,152 - INFO - API Response Status: 200
+2025-12-14 18:01:48,153 - INFO - Raw model response: {"label": "Supported"}
+2025-12-14 18:01:48,153 - INFO - Extracted label: Supported -> Normalized: Supported
+2025-12-14 18:01:48,153 - INFO - Prediction: Supported
+2025-12-14 18:01:48,463 - INFO - 
+================================================================================
+2025-12-14 18:01:48,463 - INFO - Processing claim #13 (ID: 13)
+2025-12-14 18:01:48,463 - INFO - Claim: Alexei Navanly has been arrested in Russia.
+2025-12-14 18:01:48,463 - INFO - Date: 20-7-2021
+2025-12-14 18:01:48,463 - INFO - Asking model: meta.llama3-1-70b-instruct-v1:0
+2025-12-14 18:01:48,463 - INFO - Claim: Alexei Navanly has been arrested in Russia.
+2025-12-14 18:01:49,873 - INFO - API Response Status: 200
+2025-12-14 18:01:49,874 - INFO - Raw model response: {"label": "Supported"}
+2025-12-14 18:01:49,874 - INFO - Extracted label: Supported -> Normalized: Supported
+2025-12-14 18:01:49,875 - INFO - Prediction: Supported
+2025-12-14 18:01:50,178 - INFO - 
+================================================================================
+2025-12-14 18:01:50,178 - INFO - Processing claim #14 (ID: 14)
+2025-12-14 18:01:50,178 - INFO - Claim: COVID 19 bacteria is caused due to 5g electromagnetic radiation.
+2025-12-14 18:01:50,178 - INFO - Date: 12-7-2021
+2025-12-14 18:01:50,178 - INFO - Asking model: meta.llama3-1-70b-instruct-v1:0
+2025-12-14 18:01:50,178 - INFO - Claim: COVID 19 bacteria is caused due to 5g electromagnetic radiation.
+2025-12-14 18:01:52,061 - INFO - API Response Status: 200
+2025-12-14 18:01:52,061 - INFO - Raw model response: {"label": "Refuted"}
+2025-12-14 18:01:52,061 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2025-12-14 18:01:52,061 - INFO - Prediction: Refuted
+2025-12-14 18:01:52,369 - INFO - 
+================================================================================
+2025-12-14 18:01:52,369 - INFO - Processing claim #15 (ID: 15)
+2025-12-14 18:01:52,369 - INFO - Claim: Covid19 is a bacteria
+2025-12-14 18:01:52,369 - INFO - Date: 12-7-2021
+2025-12-14 18:01:52,369 - INFO - Asking model: meta.llama3-1-70b-instruct-v1:0
+2025-12-14 18:01:52,369 - INFO - Claim: Covid19 is a bacteria
+2025-12-14 18:01:53,862 - INFO - API Response Status: 200
+2025-12-14 18:01:53,862 - INFO - Raw model response: {"label": "Refuted"}
+2025-12-14 18:01:53,862 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2025-12-14 18:01:53,862 - INFO - Prediction: Refuted
+2025-12-14 18:01:54,176 - INFO - 
+================================================================================
+2025-12-14 18:01:54,176 - INFO - Processing claim #16 (ID: 16)
+2025-12-14 18:01:54,176 - INFO - Claim: COVID 19 can be cured by antibiotics
+2025-12-14 18:01:54,176 - INFO - Date: 12-7-2021
+2025-12-14 18:01:54,176 - INFO - Asking model: meta.llama3-1-70b-instruct-v1:0
+2025-12-14 18:01:54,176 - INFO - Claim: COVID 19 can be cured by antibiotics
+2025-12-14 18:01:55,748 - INFO - API Response Status: 200
+2025-12-14 18:01:55,748 - INFO - Raw model response: {"label": "Refuted"}
+2025-12-14 18:01:55,748 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2025-12-14 18:01:55,749 - INFO - Prediction: Refuted
+2025-12-14 18:01:56,064 - INFO - 
+================================================================================
+2025-12-14 18:01:56,064 - INFO - Processing claim #17 (ID: 17)
+2025-12-14 18:01:56,064 - INFO - Claim: COVID 19 patients don’t need intensive care or ventilators.
+2025-12-14 18:01:56,064 - INFO - Date: 12-7-2021
+2025-12-14 18:01:56,065 - INFO - Asking model: meta.llama3-1-70b-instruct-v1:0
+2025-12-14 18:01:56,065 - INFO - Claim: COVID 19 patients don’t need intensive care or ventilators.
+2025-12-14 18:01:57,509 - INFO - API Response Status: 200
+2025-12-14 18:01:57,509 - INFO - Raw model response: {"label": "Refuted"}
+2025-12-14 18:01:57,509 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2025-12-14 18:01:57,510 - INFO - Prediction: Refuted
+2025-12-14 18:01:57,813 - INFO - 
+================================================================================
+2025-12-14 18:01:57,813 - INFO - Processing claim #18 (ID: 18)
+2025-12-14 18:01:57,813 - INFO - Claim: COVID 19 is a thrombosis
+2025-12-14 18:01:57,813 - INFO - Date: 12-7-2021
+2025-12-14 18:01:57,813 - INFO - Asking model: meta.llama3-1-70b-instruct-v1:0
+2025-12-14 18:01:57,813 - INFO - Claim: COVID 19 is a thrombosis
+2025-12-14 18:01:59,235 - INFO - API Response Status: 200
+2025-12-14 18:01:59,235 - INFO - Raw model response: {"label": "Refuted"}
+2025-12-14 18:01:59,235 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2025-12-14 18:01:59,235 - INFO - Prediction: Refuted
+2025-12-14 18:01:59,549 - INFO - 
+================================================================================
+2025-12-14 18:01:59,549 - INFO - Processing claim #19 (ID: 19)
+2025-12-14 18:01:59,549 - INFO - Claim: COVID-19 can be cured in one day.
+2025-12-14 18:01:59,549 - INFO - Date: 12-7-2021
+2025-12-14 18:01:59,549 - INFO - Asking model: meta.llama3-1-70b-instruct-v1:0
+2025-12-14 18:01:59,549 - INFO - Claim: COVID-19 can be cured in one day.
+2025-12-14 18:02:01,071 - INFO - API Response Status: 200
+2025-12-14 18:02:01,071 - INFO - Raw model response: {"label": "Refuted"}
+2025-12-14 18:02:01,071 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2025-12-14 18:02:01,071 - INFO - Prediction: Refuted
+2025-12-14 18:02:01,385 - INFO - 
+================================================================================
+2025-12-14 18:02:01,386 - INFO - Processing claim #20 (ID: 20)
+2025-12-14 18:02:01,386 - INFO - Claim: France24 encouraging Niger Delta militants to fight for their right to equity in resource sharing.
+2025-12-14 18:02:01,386 - INFO - Date: 11-7-2021
+2025-12-14 18:02:01,386 - INFO - Asking model: meta.llama3-1-70b-instruct-v1:0
+2025-12-14 18:02:01,386 - INFO - Claim: France24 encouraging Niger Delta militants to fight for their right to equity in resource sharing.
+2025-12-14 18:02:02,864 - INFO - API Response Status: 200
+2025-12-14 18:02:02,864 - INFO - Raw model response: {"label": "Refuted"}
+2025-12-14 18:02:02,864 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2025-12-14 18:02:02,864 - INFO - Prediction: Refuted
+2025-12-14 18:02:03,170 - INFO - 
+================================================================================
+2025-12-14 18:02:03,170 - INFO - Processing claim #21 (ID: 21)
+2025-12-14 18:02:03,170 - INFO - Claim: Left-wing activist John Sullivan incited the insurgence of the US Capitol
+2025-12-14 18:02:03,170 - INFO - Date: 8-7-2021
+2025-12-14 18:02:03,170 - INFO - Asking model: meta.llama3-1-70b-instruct-v1:0
+2025-12-14 18:02:03,171 - INFO - Claim: Left-wing activist John Sullivan incited the insurgence of the US Capitol
+2025-12-14 18:02:04,654 - INFO - API Response Status: 200
+2025-12-14 18:02:04,654 - INFO - Raw model response: {"label": "Supported"}
+2025-12-14 18:02:04,654 - INFO - Extracted label: Supported -> Normalized: Supported
+2025-12-14 18:02:04,656 - INFO - Prediction: Supported
+2025-12-14 18:02:04,962 - INFO - 
+================================================================================
+2025-12-14 18:02:04,962 - INFO - Processing claim #22 (ID: 22)
+2025-12-14 18:02:04,962 - INFO - Claim: Mark Tully wrote about PM "Modi destroying termite ridden old Banyan tree".
+2025-12-14 18:02:04,962 - INFO - Date: 1-7-2021
+2025-12-14 18:02:04,962 - INFO - Asking model: meta.llama3-1-70b-instruct-v1:0
+2025-12-14 18:02:04,962 - INFO - Claim: Mark Tully wrote about PM "Modi destroying termite ridden old Banyan tree".
+2025-12-14 18:02:06,781 - INFO - API Response Status: 200
+2025-12-14 18:02:06,781 - INFO - Raw model response: {"label": "Refuted"}
+2025-12-14 18:02:06,781 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2025-12-14 18:02:06,782 - INFO - Prediction: Refuted
+2025-12-14 18:02:07,099 - INFO - 
+================================================================================
+2025-12-14 18:02:07,099 - INFO - Processing claim #23 (ID: 23)
+2025-12-14 18:02:07,099 - INFO - Claim: Nonsurgical ear-loop masks are useless at offering protection from COVID-19
+2025-12-14 18:02:07,099 - INFO - Date: 21-6-2021
+2025-12-14 18:02:07,099 - INFO - Asking model: meta.llama3-1-70b-instruct-v1:0
+2025-12-14 18:02:07,100 - INFO - Claim: Nonsurgical ear-loop masks are useless at offering protection from COVID-19
+2025-12-14 18:02:07,567 - INFO - API Response Status: 429
+2025-12-14 18:02:07,567 - INFO - Retry attempt 1/3 after 0.5s delay...
+2025-12-14 18:02:09,675 - INFO - API Response Status: 200
+2025-12-14 18:02:09,675 - INFO - Raw model response: {"label": "Refuted"}
+2025-12-14 18:02:09,675 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2025-12-14 18:02:09,675 - INFO - Prediction: Refuted
+2025-12-14 18:02:09,984 - INFO - 
+================================================================================
+2025-12-14 18:02:09,984 - INFO - Processing claim #24 (ID: 24)
+2025-12-14 18:02:09,984 - INFO - Claim: N95 masks blow the virus into the air from a contaminated person.
+2025-12-14 18:02:09,984 - INFO - Date: 21-6-2021
+2025-12-14 18:02:09,984 - INFO - Asking model: meta.llama3-1-70b-instruct-v1:0
+2025-12-14 18:02:09,984 - INFO - Claim: N95 masks blow the virus into the air from a contaminated person.
+2025-12-14 18:02:10,491 - INFO - API Response Status: 429
+2025-12-14 18:02:10,492 - INFO - Retry attempt 1/3 after 0.5s delay...
+2025-12-14 18:02:11,520 - INFO - API Response Status: 429
+2025-12-14 18:02:11,520 - INFO - Retry attempt 2/3 after 1.0s delay...
+2025-12-14 18:02:13,030 - INFO - API Response Status: 429
+2025-12-14 18:02:13,030 - INFO - Retry attempt 3/3 after 2.0s delay...
+2025-12-14 18:02:15,553 - INFO - API Response Status: 429
+2025-12-14 18:02:15,553 - ERROR - Max retries reached for rate limit
+2025-12-14 18:02:15,553 - WARNING - Failed to get valid prediction
+2025-12-14 18:02:15,862 - INFO - 
+================================================================================
+2025-12-14 18:02:15,862 - INFO - Processing claim #25 (ID: 25)
+2025-12-14 18:02:15,862 - INFO - Claim: Homework spelled backward translate to child abuse in Latin
+2025-12-14 18:02:15,862 - INFO - Date: 15-6-2021
+2025-12-14 18:02:15,862 - INFO - Asking model: meta.llama3-1-70b-instruct-v1:0
+2025-12-14 18:02:15,862 - INFO - Claim: Homework spelled backward translate to child abuse in Latin
+2025-12-14 18:02:16,391 - INFO - API Response Status: 429
+2025-12-14 18:02:16,391 - INFO - Retry attempt 1/3 after 0.5s delay...
+2025-12-14 18:02:17,622 - INFO - API Response Status: 429
+2025-12-14 18:02:17,622 - INFO - Retry attempt 2/3 after 1.0s delay...
+2025-12-14 18:02:19,265 - INFO - API Response Status: 429
+2025-12-14 18:02:19,265 - INFO - Retry attempt 3/3 after 2.0s delay...
+2025-12-14 18:02:21,791 - INFO - API Response Status: 429
+2025-12-14 18:02:21,792 - ERROR - Max retries reached for rate limit
+2025-12-14 18:02:21,792 - WARNING - Failed to get valid prediction
+2025-12-14 18:02:22,094 - INFO - 
+================================================================================
+2025-12-14 18:02:22,094 - INFO - Processing claim #26 (ID: 26)
+2025-12-14 18:02:22,094 - INFO - Claim: Manny Pacquiao has been disqualified in the 2022 presidential election.
+2025-12-14 18:02:22,094 - INFO - Date: 12-6-2021
+2025-12-14 18:02:22,094 - INFO - Asking model: meta.llama3-1-70b-instruct-v1:0
+2025-12-14 18:02:22,094 - INFO - Claim: Manny Pacquiao has been disqualified in the 2022 presidential election.
+2025-12-14 18:02:22,610 - INFO - API Response Status: 429
+2025-12-14 18:02:22,610 - INFO - Retry attempt 1/3 after 0.5s delay...
+2025-12-14 18:02:23,854 - INFO - API Response Status: 429
+2025-12-14 18:02:23,854 - INFO - Retry attempt 2/3 after 1.0s delay...
+2025-12-14 18:02:25,348 - INFO - API Response Status: 429
+2025-12-14 18:02:25,348 - INFO - Retry attempt 3/3 after 2.0s delay...
+2025-12-14 18:02:27,921 - INFO - API Response Status: 429
+2025-12-14 18:02:27,921 - ERROR - Max retries reached for rate limit
+2025-12-14 18:02:27,921 - WARNING - Failed to get valid prediction
+2025-12-14 18:02:28,235 - INFO - 
+================================================================================
+2025-12-14 18:02:28,235 - INFO - Processing claim #27 (ID: 27)
+2025-12-14 18:02:28,235 - INFO - Claim: Kazakhstan has a multiparty democratic system and open civil society.
+2025-12-14 18:02:28,235 - INFO - Date: 26-5-2021
+2025-12-14 18:02:28,236 - INFO - Asking model: meta.llama3-1-70b-instruct-v1:0
+2025-12-14 18:02:28,236 - INFO - Claim: Kazakhstan has a multiparty democratic system and open civil society.
+2025-12-14 18:02:28,706 - INFO - API Response Status: 429
+2025-12-14 18:02:28,706 - INFO - Retry attempt 1/3 after 0.5s delay...
+2025-12-14 18:02:29,688 - INFO - API Response Status: 429
+2025-12-14 18:02:29,688 - INFO - Retry attempt 2/3 after 1.0s delay...
+2025-12-14 18:02:31,359 - INFO - API Response Status: 429
+2025-12-14 18:02:31,360 - INFO - Retry attempt 3/3 after 2.0s delay...
+2025-12-14 18:02:33,839 - INFO - API Response Status: 429
+2025-12-14 18:02:33,839 - ERROR - Max retries reached for rate limit
+2025-12-14 18:02:33,839 - WARNING - Failed to get valid prediction
+2025-12-14 18:02:34,147 - INFO - 
+================================================================================
+2025-12-14 18:02:34,148 - INFO - Processing claim #28 (ID: 28)
+2025-12-14 18:02:34,148 - INFO - Claim: The Indian Government has approved and have started giving out free R7,500 Relief Funds to each citizen.
+2025-12-14 18:02:34,148 - INFO - Date: 22-5-2021
+2025-12-14 18:02:34,148 - INFO - Asking model: meta.llama3-1-70b-instruct-v1:0
+2025-12-14 18:02:34,148 - INFO - Claim: The Indian Government has approved and have started giving out free R7,500 Relief Funds to each citizen.
+2025-12-14 18:02:34,589 - INFO - API Response Status: 429
+2025-12-14 18:02:34,589 - INFO - Retry attempt 1/3 after 0.5s delay...
+2025-12-14 18:02:35,613 - INFO - API Response Status: 429
+2025-12-14 18:02:35,613 - INFO - Retry attempt 2/3 after 1.0s delay...
+2025-12-14 18:02:37,150 - INFO - API Response Status: 429
+2025-12-14 18:02:37,151 - INFO - Retry attempt 3/3 after 2.0s delay...
+2025-12-14 18:02:39,797 - INFO - API Response Status: 429
+2025-12-14 18:02:39,797 - ERROR - Max retries reached for rate limit
+2025-12-14 18:02:39,798 - WARNING - Failed to get valid prediction
+2025-12-14 18:02:40,110 - INFO - 
+================================================================================
+2025-12-14 18:02:40,110 - INFO - Processing claim #29 (ID: 29)
+2025-12-14 18:02:40,110 - INFO - Claim: Kenya has roped in the Maasai Tribe to enforce a lockdown.
+2025-12-14 18:02:40,110 - INFO - Date: 14-5-2021
+2025-12-14 18:02:40,110 - INFO - Asking model: meta.llama3-1-70b-instruct-v1:0
+2025-12-14 18:02:40,110 - INFO - Claim: Kenya has roped in the Maasai Tribe to enforce a lockdown.
+2025-12-14 18:02:40,769 - INFO - API Response Status: 429
+2025-12-14 18:02:40,769 - INFO - Retry attempt 1/3 after 0.5s delay...
+2025-12-14 18:02:42,230 - INFO - API Response Status: 429
+2025-12-14 18:02:42,230 - INFO - Retry attempt 2/3 after 1.0s delay...
+2025-12-14 18:02:43,877 - INFO - API Response Status: 429
+2025-12-14 18:02:43,877 - INFO - Retry attempt 3/3 after 2.0s delay...
