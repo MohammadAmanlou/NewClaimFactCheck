@@ -1,0 +1,17 @@
+2025-12-14 20:25:18,286 - INFO - ================================================================================
+2025-12-14 20:25:18,286 - INFO - STARTING FACT-CHECK INFERENCE PIPELINE
+2025-12-14 20:25:18,286 - INFO - ================================================================================
+2025-12-14 20:25:18,286 - INFO - Dataset: fever_test_2025
+2025-12-14 20:25:18,286 - INFO - Model: qwen2.5-72b-instruct
+2025-12-14 20:25:18,286 - INFO - Output Directory: results\qwen2_5-72b-instruct\fever_test_2025
+2025-12-14 20:25:18,286 - INFO - Canonical Labels: ['Supported', 'Refuted', 'Misleading', 'Partially true']
+2025-12-14 20:25:18,286 - INFO - Temporal Split Date: 2024-09-30
+2025-12-14 20:25:18,300 - INFO - Loaded 1000 claims (is_test=True)
+2025-12-14 20:25:18,300 - INFO - Processing TEST data (no labels available)
+2025-12-14 20:25:18,300 - INFO - Processing 1000 claims...
+2025-12-14 20:25:18,312 - INFO - ================================================================================
+2025-12-14 20:25:18,312 - INFO - Processing claim #0 (ID: 0)
+2025-12-14 20:25:18,312 - INFO - Claim: Kenyan counties allocated KSh361.05 billion (64%) to recurrent expenditure....
+2025-12-14 20:25:18,313 - INFO - Date: 06-10-2024
+2025-12-14 20:25:18,313 - INFO - Asking model: qwen2.5-72b-instruct
+2025-12-14 20:25:18,313 - INFO - Claim: Kenyan counties allocated KSh361.05 billion (64%) to recurrent expenditure....
