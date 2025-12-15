@@ -1,0 +1,13 @@
+2025-12-16 01:28:41,480 - INFO - ================================================================================
+2025-12-16 01:28:41,481 - INFO - STARTING FACT-CHECK INFERENCE PIPELINE
+2025-12-16 01:28:41,482 - INFO - ================================================================================
+2025-12-16 01:28:41,482 - INFO - Dataset: fever_train
+2025-12-16 01:28:41,482 - INFO - Model: cf.llama-3.1-70b-instruct
+2025-12-16 01:28:41,482 - INFO - Output Directory: results\cf_llama-3_1-70b-instruct\fever_train
+2025-12-16 01:28:41,483 - INFO - Canonical Labels: ['Conflicting Evidence/Cherrypicking', 'Not Enough Evidence', 'Refuted', 'Supported']
+2025-12-16 01:28:41,483 - INFO - Temporal Split Date: 2024-03-31
+2025-12-16 01:28:43,819 - INFO - Loaded 3068 claims (is_test=False)
+2025-12-16 01:28:43,819 - INFO - Processing LABELED data with temporal split analysis
+2025-12-16 01:28:43,886 - INFO - ================================================================================
+2025-12-16 01:28:43,886 - INFO - PROCESSING SEEN DATA (before temporal split)
+2025-12-16 01:28:43,886 - INFO - ================================================================================
