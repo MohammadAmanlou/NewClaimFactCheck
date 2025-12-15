@@ -1,0 +1,13 @@
+2025-12-16 01:26:39,941 - INFO - Processing 0 claims...
+2025-12-16 01:26:39,951 - INFO - ================================================================================
+2025-12-16 01:26:39,951 - INFO - Processing complete: 0 predictions (0 correct, 0 incorrect), 0 failed
+2025-12-16 01:26:39,952 - WARNING - No valid results for metric calculation
+2025-12-16 01:26:39,956 - INFO - Predictions saved to results\cf_llama-3_1-70b-instruct\fever_dev\unseen\unseen_predictions.csv
+2025-12-16 01:26:39,958 - INFO - Predictions (JSON) saved to results\cf_llama-3_1-70b-instruct\fever_dev\unseen\unseen_predictions.json
+2025-12-16 01:26:39,958 - INFO - Metrics saved to results\cf_llama-3_1-70b-instruct\fever_dev\unseen\unseen_metrics.json
+2025-12-16 01:26:39,960 - INFO - ================================================================================
+2025-12-16 01:26:39,960 - INFO - Comparing seen vs unseen performance...
+2025-12-16 01:26:39,961 - INFO - Metrics: Accuracy=0.6500, Macro-F1=0.4139
+2025-12-16 01:26:39,961 - WARNING - No valid results for metric calculation
+2025-12-16 01:26:39,962 - WARNING - Insufficient data for statistical testing
+2025-12-16 01:26:39,964 - INFO - Summary report saved to results\cf_llama-3_1-70b-instruct\fever_dev\summary.json

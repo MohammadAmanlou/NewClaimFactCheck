@@ -1,0 +1,34 @@
+{
+    "accuracy": 0.65,
+    "macro_precision": 0.4132,
+    "macro_recall": 0.4254,
+    "macro_f1": 0.4139,
+    "total_samples": 500,
+    "correct_predictions": 325,
+    "per_label_metrics": {
+        "Conflicting Evidence/Cherrypicking": {
+            "precision": 0.1538,
+            "recall": 0.1053,
+            "f1": 0.125,
+            "support": 38
+        },
+        "Not Enough Evidence": {
+            "precision": 0.1481,
+            "recall": 0.1143,
+            "f1": 0.129,
+            "support": 35
+        },
+        "Refuted": {
+            "precision": 0.8021,
+            "recall": 0.7443,
+            "f1": 0.7721,
+            "support": 305
+        },
+        "Supported": {
+            "precision": 0.5488,
+            "recall": 0.7377,
+            "f1": 0.6294,
+            "support": 122
+        }
+    }
+}
