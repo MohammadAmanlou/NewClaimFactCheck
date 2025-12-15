@@ -1,0 +1,92 @@
+{
+    "experiment_info": {
+        "dataset": "fever_train",
+        "model": "qwen2.5-72b-instruct",
+        "temporal_split_date": "2024-09-30",
+        "canonical_labels": [
+            "Conflicting Evidence/Cherrypicking",
+            "Not Enough Evidence",
+            "Refuted",
+            "Supported"
+        ],
+        "timestamp": "2025-12-15T03:26:11.486394"
+    },
+    "seen_data": {
+        "accuracy": 0.3663,
+        "macro_precision": 0.4054,
+        "macro_recall": 0.3761,
+        "macro_f1": 0.285,
+        "total_samples": 3066,
+        "correct_predictions": 1123,
+        "per_label_metrics": {
+            "Conflicting Evidence/Cherrypicking": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1": 0.0,
+                "support": 195
+            },
+            "Not Enough Evidence": {
+                "precision": 0.1216,
+                "recall": 0.8298,
+                "f1": 0.2121,
+                "support": 282
+            },
+            "Refuted": {
+                "precision": 0.8741,
+                "recall": 0.355,
+                "f1": 0.5049,
+                "support": 1741
+            },
+            "Supported": {
+                "precision": 0.6259,
+                "recall": 0.3196,
+                "f1": 0.4231,
+                "support": 848
+            }
+        }
+    },
+    "unseen_data": {
+        "error": "No valid results"
+    },
+    "comparison": {
+        "seen_metrics": {
+            "accuracy": 0.3663,
+            "macro_precision": 0.4054,
+            "macro_recall": 0.3761,
+            "macro_f1": 0.285,
+            "total_samples": 3066,
+            "correct_predictions": 1123,
+            "per_label_metrics": {
+                "Conflicting Evidence/Cherrypicking": {
+                    "precision": 0.0,
+                    "recall": 0.0,
+                    "f1": 0.0,
+                    "support": 195
+                },
+                "Not Enough Evidence": {
+                    "precision": 0.1216,
+                    "recall": 0.8298,
+                    "f1": 0.2121,
+                    "support": 282
+                },
+                "Refuted": {
+                    "precision": 0.8741,
+                    "recall": 0.355,
+                    "f1": 0.5049,
+                    "support": 1741
+                },
+                "Supported": {
+                    "precision": 0.6259,
+                    "recall": 0.3196,
+                    "f1": 0.4231,
+                    "support": 848
+                }
+            }
+        },
+        "unseen_metrics": {
+            "error": "No valid results"
+        },
+        "statistical_tests": "Insufficient data for statistical testing",
+        "accuracy_difference": -0.3663
+    }
+}
