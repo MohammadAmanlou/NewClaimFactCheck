@@ -1,0 +1,17 @@
+2025-12-16 23:52:21,549 - INFO - Processing 0 claims...
+2025-12-16 23:52:21,567 - INFO - ================================================================================
+2025-12-16 23:52:21,567 - INFO - Processing complete: 0 predictions (0 correct, 0 incorrect), 0 failed
+2025-12-16 23:52:21,567 - WARNING - No valid results for metric calculation
+2025-12-16 23:52:21,590 - INFO - Predictions saved to results\anthropic_claude-3-5-sonnet-20241022-v2_0\fever_train\unseen\unseen_predictions.csv
+2025-12-16 23:52:21,591 - INFO - Predictions (JSON) saved to results\anthropic_claude-3-5-sonnet-20241022-v2_0\fever_train\unseen\unseen_predictions.json
+2025-12-16 23:52:21,593 - INFO - Metrics saved to results\anthropic_claude-3-5-sonnet-20241022-v2_0\fever_train\unseen\unseen_metrics.json
+2025-12-16 23:52:21,593 - INFO - ================================================================================
+2025-12-16 23:52:21,594 - INFO - Comparing seen vs unseen performance...
+2025-12-16 23:52:21,603 - INFO - Metrics: Accuracy=0.5720, Macro-F1=0.4321
+2025-12-16 23:52:21,603 - WARNING - No valid results for metric calculation
+2025-12-16 23:52:21,607 - WARNING - Insufficient data for statistical testing
+2025-12-16 23:52:21,610 - INFO - Summary report saved to results\anthropic_claude-3-5-sonnet-20241022-v2_0\fever_train\summary.json
+2025-12-16 23:52:21,611 - INFO - Labeled data processing complete
+2025-12-16 23:52:21,613 - INFO - ================================================================================
+2025-12-16 23:52:21,614 - INFO - PIPELINE COMPLETE
+2025-12-16 23:52:21,614 - INFO - ================================================================================
