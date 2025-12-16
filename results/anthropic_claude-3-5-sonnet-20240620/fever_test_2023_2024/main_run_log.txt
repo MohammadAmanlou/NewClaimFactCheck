@@ -1,0 +1,341 @@
+2025-12-16 18:22:38,759 - INFO - ================================================================================
+2025-12-16 18:22:38,759 - INFO - STARTING FACT-CHECK INFERENCE PIPELINE
+2025-12-16 18:22:38,759 - INFO - ================================================================================
+2025-12-16 18:22:38,759 - INFO - Dataset: fever_test_2023_2024
+2025-12-16 18:22:38,759 - INFO - Model: anthropic.claude-3-5-sonnet-20240620
+2025-12-16 18:22:38,759 - INFO - Output Directory: results\anthropic_claude-3-5-sonnet-20240620\fever_test_2023_2024
+2025-12-16 18:22:38,760 - INFO - Canonical Labels: ['Conflicting Evidence/Cherrypicking', 'Not Enough Evidence', 'Refuted', 'Supported']
+2025-12-16 18:22:38,760 - INFO - Temporal Split Date: 2024-06-20
+2025-12-16 18:22:38,860 - INFO - Loaded 2215 claims (is_test=True)
+2025-12-16 18:22:38,861 - INFO - Processing TEST data (no labels available)
+2025-12-16 18:22:38,861 - INFO - Processing 2215 claims...
+2025-12-16 18:22:38,878 - INFO - ================================================================================
+2025-12-16 18:22:38,878 - INFO - Processing claim #0 (ID: 0)
+2025-12-16 18:22:38,878 - INFO - Claim: Every Democrat on the Energy and Commerce Committee blocked Steve Scalise's amendment to require New York to turn over all the data on nursing home de...
+2025-12-16 18:22:38,878 - INFO - Date: 22-12-2021
+2025-12-16 18:22:38,878 - INFO - Asking model: anthropic.claude-3-5-sonnet-20240620
+2025-12-16 18:22:38,878 - INFO - Claim: Every Democrat on the Energy and Commerce Committee blocked Steve Scalise's amendment to require New York to turn over all the data on nursing home de...
+2025-12-16 18:22:39,483 - INFO - API Response Status: 404
+2025-12-16 18:22:39,483 - ERROR - API error: 404 - {
+  "error": {
+    "message": "Requested resource anthropic.claude-3-5-sonnet-20240620 does not exist. for more information check https://ava.al/limits . Please contact support at support@avalai.ir and include the request ID 019b27a6-294b-73f3-8ec3-911f5370c6d2 in your email if you believe this is an error.",
+    "type": "not_found",
+    "param": null,
+    "code": "resource_not_found",
+    "solution": "Please check https://ava.al/limits",
+    "request_id": "019b27a6-294b-73f3-8ec3-911f5370c6d2"
+  }
+}
+2025-12-16 18:22:39,484 - WARNING - Failed to get valid prediction
+2025-12-16 18:22:39,594 - INFO - ================================================================================
+2025-12-16 18:22:39,594 - INFO - Processing claim #1 (ID: 1)
+2025-12-16 18:22:39,594 - INFO - Claim: Meat packing workers have suffered more COVID-19 cases than health care workers....
+2025-12-16 18:22:39,594 - INFO - Date: 3-12-2021
+2025-12-16 18:22:39,594 - INFO - Asking model: anthropic.claude-3-5-sonnet-20240620
+2025-12-16 18:22:39,594 - INFO - Claim: Meat packing workers have suffered more COVID-19 cases than health care workers....
+2025-12-16 18:22:40,045 - INFO - API Response Status: 404
+2025-12-16 18:22:40,046 - ERROR - API error: 404 - {
+  "error": {
+    "message": "Requested resource anthropic.claude-3-5-sonnet-20240620 does not exist. for more information check https://ava.al/limits . Please contact support at support@avalai.ir and include the request ID 019b27a6-2bff-7250-bd88-39695b4d3c1b in your email if you believe this is an error.",
+    "type": "not_found",
+    "param": null,
+    "code": "resource_not_found",
+    "solution": "Please check https://ava.al/limits",
+    "request_id": "019b27a6-2bff-7250-bd88-39695b4d3c1b"
+  }
+}
+2025-12-16 18:22:40,047 - WARNING - Failed to get valid prediction
+2025-12-16 18:22:40,163 - INFO - ================================================================================
+2025-12-16 18:22:40,163 - INFO - Processing claim #2 (ID: 2)
+2025-12-16 18:22:40,164 - INFO - Claim: South African hospital found that traces of the novel coronavirus had survived on the surface of fresh food items for 12 hours during lab tests....
+2025-12-16 18:22:40,164 - INFO - Date: 3-12-2021
+2025-12-16 18:22:40,164 - INFO - Asking model: anthropic.claude-3-5-sonnet-20240620
+2025-12-16 18:22:40,166 - INFO - Claim: South African hospital found that traces of the novel coronavirus had survived on the surface of fresh food items for 12 hours during lab tests....
+2025-12-16 18:22:40,619 - INFO - API Response Status: 404
+2025-12-16 18:22:40,619 - ERROR - API error: 404 - {
+  "error": {
+    "message": "Requested resource anthropic.claude-3-5-sonnet-20240620 does not exist. for more information check https://ava.al/limits . Please contact support at support@avalai.ir and include the request ID 019b27a6-2e40-7e82-a454-5551e5e48562 in your email if you believe this is an error.",
+    "type": "not_found",
+    "param": null,
+    "code": "resource_not_found",
+    "solution": "Please check https://ava.al/limits",
+    "request_id": "019b27a6-2e40-7e82-a454-5551e5e48562"
+  }
+}
+2025-12-16 18:22:40,620 - WARNING - Failed to get valid prediction
+2025-12-16 18:22:40,726 - INFO - ================================================================================
+2025-12-16 18:22:40,726 - INFO - Processing claim #3 (ID: 3)
+2025-12-16 18:22:40,726 - INFO - Claim: Pfizer is “managed by Black Rock (sic) finances. Who, by chance, manages the finances of the Open Foundation Company (SOROS FOUNDATION)!...
+2025-12-16 18:22:40,726 - INFO - Date: 2-12-2021
+2025-12-16 18:22:40,726 - INFO - Asking model: anthropic.claude-3-5-sonnet-20240620
+2025-12-16 18:22:40,726 - INFO - Claim: Pfizer is “managed by Black Rock (sic) finances. Who, by chance, manages the finances of the Open Foundation Company (SOROS FOUNDATION)!...
+2025-12-16 18:22:41,077 - INFO - API Response Status: 404
+2025-12-16 18:22:41,077 - ERROR - API error: 404 - {
+  "error": {
+    "message": "Requested resource anthropic.claude-3-5-sonnet-20240620 does not exist. for more information check https://ava.al/limits . Please contact support at support@avalai.ir and include the request ID 019b27a6-3017-7ba1-a918-5fee5b322956 in your email if you believe this is an error.",
+    "type": "not_found",
+    "param": null,
+    "code": "resource_not_found",
+    "solution": "Please check https://ava.al/limits",
+    "request_id": "019b27a6-3017-7ba1-a918-5fee5b322956"
+  }
+}
+2025-12-16 18:22:41,078 - WARNING - Failed to get valid prediction
+2025-12-16 18:22:41,195 - INFO - ================================================================================
+2025-12-16 18:22:41,195 - INFO - Processing claim #4 (ID: 4)
+2025-12-16 18:22:41,195 - INFO - Claim: The Chinese biological laboratory in Wuhan is owned by Glaxo. Who, by chance, owns Pfizer (the one who produces the vaccine!...
+2025-12-16 18:22:41,195 - INFO - Date: 2-12-2021
+2025-12-16 18:22:41,195 - INFO - Asking model: anthropic.claude-3-5-sonnet-20240620
+2025-12-16 18:22:41,195 - INFO - Claim: The Chinese biological laboratory in Wuhan is owned by Glaxo. Who, by chance, owns Pfizer (the one who produces the vaccine!...
+2025-12-16 18:22:41,773 - INFO - API Response Status: 404
+2025-12-16 18:22:41,773 - ERROR - API error: 404 - {
+  "error": {
+    "message": "Requested resource anthropic.claude-3-5-sonnet-20240620 does not exist. for more information check https://ava.al/limits . Please contact support at support@avalai.ir and include the request ID 019b27a6-32c3-7d73-b41a-a45a6934e5bd in your email if you believe this is an error.",
+    "type": "not_found",
+    "param": null,
+    "code": "resource_not_found",
+    "solution": "Please check https://ava.al/limits",
+    "request_id": "019b27a6-32c3-7d73-b41a-a45a6934e5bd"
+  }
+}
+2025-12-16 18:22:41,775 - WARNING - Failed to get valid prediction
+2025-12-16 18:22:41,881 - INFO - ================================================================================
+2025-12-16 18:22:41,882 - INFO - Processing claim #5 (ID: 5)
+2025-12-16 18:22:41,882 - INFO - Claim: Vanguard is a "shareholder of BlackRock... which, incidentally, is a major shareholder of Microsoft The property of Bill Gates, who owns Pfizer (the c...
+2025-12-16 18:22:41,882 - INFO - Date: 2-12-2021
+2025-12-16 18:22:41,882 - INFO - Asking model: anthropic.claude-3-5-sonnet-20240620
+2025-12-16 18:22:41,882 - INFO - Claim: Vanguard is a "shareholder of BlackRock... which, incidentally, is a major shareholder of Microsoft The property of Bill Gates, who owns Pfizer (the c...
+2025-12-16 18:22:42,340 - INFO - API Response Status: 404
+2025-12-16 18:22:42,340 - ERROR - API error: 404 - {
+  "error": {
+    "message": "Requested resource anthropic.claude-3-5-sonnet-20240620 does not exist. for more information check https://ava.al/limits . Please contact support at support@avalai.ir and include the request ID 019b27a6-34fa-7cd1-9151-1e487b2da4a0 in your email if you believe this is an error.",
+    "type": "not_found",
+    "param": null,
+    "code": "resource_not_found",
+    "solution": "Please check https://ava.al/limits",
+    "request_id": "019b27a6-34fa-7cd1-9151-1e487b2da4a0"
+  }
+}
+2025-12-16 18:22:42,341 - WARNING - Failed to get valid prediction
+2025-12-16 18:22:42,458 - INFO - ================================================================================
+2025-12-16 18:22:42,458 - INFO - Processing claim #6 (ID: 6)
+2025-12-16 18:22:42,458 - INFO - Claim: The Trump administration built the greatest economy in the history of the world....
+2025-12-16 18:22:42,458 - INFO - Date: 20-11-2021
+2025-12-16 18:22:42,458 - INFO - Asking model: anthropic.claude-3-5-sonnet-20240620
+2025-12-16 18:22:42,458 - INFO - Claim: The Trump administration built the greatest economy in the history of the world....
+2025-12-16 18:22:42,976 - INFO - API Response Status: 404
+2025-12-16 18:22:42,976 - ERROR - API error: 404 - {
+  "error": {
+    "message": "Requested resource anthropic.claude-3-5-sonnet-20240620 does not exist. for more information check https://ava.al/limits . Please contact support at support@avalai.ir and include the request ID 019b27a6-3780-79c2-84c6-d7b5508d8e9b in your email if you believe this is an error.",
+    "type": "not_found",
+    "param": null,
+    "code": "resource_not_found",
+    "solution": "Please check https://ava.al/limits",
+    "request_id": "019b27a6-3780-79c2-84c6-d7b5508d8e9b"
+  }
+}
+2025-12-16 18:22:42,977 - WARNING - Failed to get valid prediction
+2025-12-16 18:22:43,083 - INFO - ================================================================================
+2025-12-16 18:22:43,083 - INFO - Processing claim #7 (ID: 7)
+2025-12-16 18:22:43,083 - INFO - Claim: Ruth Bader Ginsburg was nominated and confirmed 43 days before an election...
+2025-12-16 18:22:43,083 - INFO - Date: 12-10-2021
+2025-12-16 18:22:43,083 - INFO - Asking model: anthropic.claude-3-5-sonnet-20240620
+2025-12-16 18:22:43,083 - INFO - Claim: Ruth Bader Ginsburg was nominated and confirmed 43 days before an election...
+2025-12-16 18:22:43,505 - INFO - API Response Status: 404
+2025-12-16 18:22:43,505 - ERROR - API error: 404 - {
+  "error": {
+    "message": "Requested resource anthropic.claude-3-5-sonnet-20240620 does not exist. for more information check https://ava.al/limits . Please contact support at support@avalai.ir and include the request ID 019b27a6-398d-7562-bad8-11f3e9cb8f97 in your email if you believe this is an error.",
+    "type": "not_found",
+    "param": null,
+    "code": "resource_not_found",
+    "solution": "Please check https://ava.al/limits",
+    "request_id": "019b27a6-398d-7562-bad8-11f3e9cb8f97"
+  }
+}
+2025-12-16 18:22:43,506 - WARNING - Failed to get valid prediction
+2025-12-16 18:22:43,611 - INFO - ================================================================================
+2025-12-16 18:22:43,611 - INFO - Processing claim #8 (ID: 8)
+2025-12-16 18:22:43,611 - INFO - Claim: Wildfires raging through California are due to poor land management, not climate change....
+2025-12-16 18:22:43,611 - INFO - Date: 1-9-2021
+2025-12-16 18:22:43,611 - INFO - Asking model: anthropic.claude-3-5-sonnet-20240620
+2025-12-16 18:22:43,611 - INFO - Claim: Wildfires raging through California are due to poor land management, not climate change....
+2025-12-16 18:22:44,019 - INFO - API Response Status: 404
+2025-12-16 18:22:44,020 - ERROR - API error: 404 - {
+  "error": {
+    "message": "Requested resource anthropic.claude-3-5-sonnet-20240620 does not exist. for more information check https://ava.al/limits . Please contact support at support@avalai.ir and include the request ID 019b27a6-3b85-7482-9266-12242c0619e9 in your email if you believe this is an error.",
+    "type": "not_found",
+    "param": null,
+    "code": "resource_not_found",
+    "solution": "Please check https://ava.al/limits",
+    "request_id": "019b27a6-3b85-7482-9266-12242c0619e9"
+  }
+}
+2025-12-16 18:22:44,021 - WARNING - Failed to get valid prediction
+2025-12-16 18:22:44,125 - INFO - ================================================================================
+2025-12-16 18:22:44,125 - INFO - Processing claim #9 (ID: 9)
+2025-12-16 18:22:44,126 - INFO - Claim: Luc Montagnier, French virologist and 2008 Nobel Prize winner in Medicine, said that COVID-19 was artificially created in a lab by biologists due to i...
+2025-12-16 18:22:44,126 - INFO - Date: 26-7-2021
+2025-12-16 18:22:44,126 - INFO - Asking model: anthropic.claude-3-5-sonnet-20240620
+2025-12-16 18:22:44,126 - INFO - Claim: Luc Montagnier, French virologist and 2008 Nobel Prize winner in Medicine, said that COVID-19 was artificially created in a lab by biologists due to i...
+2025-12-16 18:22:44,611 - INFO - API Response Status: 404
+2025-12-16 18:22:44,611 - ERROR - API error: 404 - {
+  "error": {
+    "message": "Requested resource anthropic.claude-3-5-sonnet-20240620 does not exist. for more information check https://ava.al/limits . Please contact support at support@avalai.ir and include the request ID 019b27a6-3dab-7bf0-bdb3-dac4665823f9 in your email if you believe this is an error.",
+    "type": "not_found",
+    "param": null,
+    "code": "resource_not_found",
+    "solution": "Please check https://ava.al/limits",
+    "request_id": "019b27a6-3dab-7bf0-bdb3-dac4665823f9"
+  }
+}
+2025-12-16 18:22:44,613 - WARNING - Failed to get valid prediction
+2025-12-16 18:22:44,720 - INFO - ================================================================================
+2025-12-16 18:22:44,720 - INFO - Processing claim #10 (ID: 10)
+2025-12-16 18:22:44,721 - INFO - Claim: 5G millimeter waves could be absorbed by skin cells acting as antennas, transferred to other cells and play the main role in producing coronaviruses i...
+2025-12-16 18:22:44,721 - INFO - Date: 22-7-2021
+2025-12-16 18:22:44,721 - INFO - Asking model: anthropic.claude-3-5-sonnet-20240620
+2025-12-16 18:22:44,721 - INFO - Claim: 5G millimeter waves could be absorbed by skin cells acting as antennas, transferred to other cells and play the main role in producing coronaviruses i...
+2025-12-16 18:22:45,106 - INFO - API Response Status: 404
+2025-12-16 18:22:45,106 - ERROR - API error: 404 - {
+  "error": {
+    "message": "Requested resource anthropic.claude-3-5-sonnet-20240620 does not exist. for more information check https://ava.al/limits . Please contact support at support@avalai.ir and include the request ID 019b27a6-3fd4-7222-be42-06c95ce9f975 in your email if you believe this is an error.",
+    "type": "not_found",
+    "param": null,
+    "code": "resource_not_found",
+    "solution": "Please check https://ava.al/limits",
+    "request_id": "019b27a6-3fd4-7222-be42-06c95ce9f975"
+  }
+}
+2025-12-16 18:22:45,107 - WARNING - Failed to get valid prediction
+2025-12-16 18:22:45,222 - INFO - ================================================================================
+2025-12-16 18:22:45,222 - INFO - Processing claim #11 (ID: 11)
+2025-12-16 18:22:45,222 - INFO - Claim: Several circulating links  allow users to click on them and register for Indian government’s flagship National Health Policy scheme, called, Ayushman ...
+2025-12-16 18:22:45,222 - INFO - Date: 22-7-2021
+2025-12-16 18:22:45,222 - INFO - Asking model: anthropic.claude-3-5-sonnet-20240620
+2025-12-16 18:22:45,222 - INFO - Claim: Several circulating links  allow users to click on them and register for Indian government’s flagship National Health Policy scheme, called, Ayushman ...
+2025-12-16 18:22:45,631 - INFO - API Response Status: 404
+2025-12-16 18:22:45,631 - ERROR - API error: 404 - {
+  "error": {
+    "message": "Requested resource anthropic.claude-3-5-sonnet-20240620 does not exist. for more information check https://ava.al/limits . Please contact support at support@avalai.ir and include the request ID 019b27a6-41d4-7a72-9c4b-d7a0e18e2312 in your email if you believe this is an error.",
+    "type": "not_found",
+    "param": null,
+    "code": "resource_not_found",
+    "solution": "Please check https://ava.al/limits",
+    "request_id": "019b27a6-41d4-7a72-9c4b-d7a0e18e2312"
+  }
+}
+2025-12-16 18:22:45,632 - WARNING - Failed to get valid prediction
+2025-12-16 18:22:45,736 - INFO - ================================================================================
+2025-12-16 18:22:45,736 - INFO - Processing claim #12 (ID: 12)
+2025-12-16 18:22:45,736 - INFO - Claim: A Facebook post credits Microsoft co-founder Bill Gates with saying, “I choose a lazy person to do a hard job. Because a lazy person will find an easy...
+2025-12-16 18:22:45,736 - INFO - Date: 22-7-2021
+2025-12-16 18:22:45,736 - INFO - Asking model: anthropic.claude-3-5-sonnet-20240620
+2025-12-16 18:22:45,736 - INFO - Claim: A Facebook post credits Microsoft co-founder Bill Gates with saying, “I choose a lazy person to do a hard job. Because a lazy person will find an easy...
+2025-12-16 18:22:46,214 - INFO - API Response Status: 404
+2025-12-16 18:22:46,214 - ERROR - API error: 404 - {
+  "error": {
+    "message": "Requested resource anthropic.claude-3-5-sonnet-20240620 does not exist. for more information check https://ava.al/limits . Please contact support at support@avalai.ir and include the request ID 019b27a6-4414-7590-8ec0-320648eb43b1 in your email if you believe this is an error.",
+    "type": "not_found",
+    "param": null,
+    "code": "resource_not_found",
+    "solution": "Please check https://ava.al/limits",
+    "request_id": "019b27a6-4414-7590-8ec0-320648eb43b1"
+  }
+}
+2025-12-16 18:22:46,215 - WARNING - Failed to get valid prediction
+2025-12-16 18:22:46,328 - INFO - ================================================================================
+2025-12-16 18:22:46,328 - INFO - Processing claim #13 (ID: 13)
+2025-12-16 18:22:46,328 - INFO - Claim: Alexei Navanly has been arrested in Russia....
+2025-12-16 18:22:46,328 - INFO - Date: 20-7-2021
+2025-12-16 18:22:46,328 - INFO - Asking model: anthropic.claude-3-5-sonnet-20240620
+2025-12-16 18:22:46,328 - INFO - Claim: Alexei Navanly has been arrested in Russia....
+2025-12-16 18:22:46,726 - INFO - API Response Status: 404
+2025-12-16 18:22:46,726 - ERROR - API error: 404 - {
+  "error": {
+    "message": "Requested resource anthropic.claude-3-5-sonnet-20240620 does not exist. for more information check https://ava.al/limits . Please contact support at support@avalai.ir and include the request ID 019b27a6-461d-7b70-b1a3-f12ad58884ed in your email if you believe this is an error.",
+    "type": "not_found",
+    "param": null,
+    "code": "resource_not_found",
+    "solution": "Please check https://ava.al/limits",
+    "request_id": "019b27a6-461d-7b70-b1a3-f12ad58884ed"
+  }
+}
+2025-12-16 18:22:46,727 - WARNING - Failed to get valid prediction
+2025-12-16 18:22:46,845 - INFO - ================================================================================
+2025-12-16 18:22:46,845 - INFO - Processing claim #14 (ID: 14)
+2025-12-16 18:22:46,845 - INFO - Claim: COVID 19 bacteria is caused due to 5g electromagnetic radiation....
+2025-12-16 18:22:46,845 - INFO - Date: 12-7-2021
+2025-12-16 18:22:46,845 - INFO - Asking model: anthropic.claude-3-5-sonnet-20240620
+2025-12-16 18:22:46,845 - INFO - Claim: COVID 19 bacteria is caused due to 5g electromagnetic radiation....
+2025-12-16 18:22:47,271 - INFO - API Response Status: 404
+2025-12-16 18:22:47,271 - ERROR - API error: 404 - {
+  "error": {
+    "message": "Requested resource anthropic.claude-3-5-sonnet-20240620 does not exist. for more information check https://ava.al/limits . Please contact support at support@avalai.ir and include the request ID 019b27a6-4838-7770-b97e-083bfcfe3d26 in your email if you believe this is an error.",
+    "type": "not_found",
+    "param": null,
+    "code": "resource_not_found",
+    "solution": "Please check https://ava.al/limits",
+    "request_id": "019b27a6-4838-7770-b97e-083bfcfe3d26"
+  }
+}
+2025-12-16 18:22:47,272 - WARNING - Failed to get valid prediction
+2025-12-16 18:22:47,375 - INFO - ================================================================================
+2025-12-16 18:22:47,375 - INFO - Processing claim #15 (ID: 15)
+2025-12-16 18:22:47,375 - INFO - Claim: Covid19 is a bacteria...
+2025-12-16 18:22:47,376 - INFO - Date: 12-7-2021
+2025-12-16 18:22:47,376 - INFO - Asking model: anthropic.claude-3-5-sonnet-20240620
+2025-12-16 18:22:47,376 - INFO - Claim: Covid19 is a bacteria...
+2025-12-16 18:22:47,800 - INFO - API Response Status: 404
+2025-12-16 18:22:47,800 - ERROR - API error: 404 - {
+  "error": {
+    "message": "Requested resource anthropic.claude-3-5-sonnet-20240620 does not exist. for more information check https://ava.al/limits . Please contact support at support@avalai.ir and include the request ID 019b27a6-4a50-7740-9dbe-d5ca06ed52da in your email if you believe this is an error.",
+    "type": "not_found",
+    "param": null,
+    "code": "resource_not_found",
+    "solution": "Please check https://ava.al/limits",
+    "request_id": "019b27a6-4a50-7740-9dbe-d5ca06ed52da"
+  }
+}
+2025-12-16 18:22:47,801 - WARNING - Failed to get valid prediction
+2025-12-16 18:22:47,918 - INFO - ================================================================================
+2025-12-16 18:22:47,919 - INFO - Processing claim #16 (ID: 16)
+2025-12-16 18:22:47,919 - INFO - Claim: COVID 19 can be cured by antibiotics...
+2025-12-16 18:22:47,919 - INFO - Date: 12-7-2021
+2025-12-16 18:22:47,919 - INFO - Asking model: anthropic.claude-3-5-sonnet-20240620
+2025-12-16 18:22:47,919 - INFO - Claim: COVID 19 can be cured by antibiotics...
+2025-12-16 18:22:48,303 - INFO - API Response Status: 404
+2025-12-16 18:22:48,303 - ERROR - API error: 404 - {
+  "error": {
+    "message": "Requested resource anthropic.claude-3-5-sonnet-20240620 does not exist. for more information check https://ava.al/limits . Please contact support at support@avalai.ir and include the request ID 019b27a6-4c51-7b83-af0f-547eed3c9c2d in your email if you believe this is an error.",
+    "type": "not_found",
+    "param": null,
+    "code": "resource_not_found",
+    "solution": "Please check https://ava.al/limits",
+    "request_id": "019b27a6-4c51-7b83-af0f-547eed3c9c2d"
+  }
+}
+2025-12-16 18:22:48,304 - WARNING - Failed to get valid prediction
+2025-12-16 18:22:48,418 - INFO - ================================================================================
+2025-12-16 18:22:48,418 - INFO - Processing claim #17 (ID: 17)
+2025-12-16 18:22:48,418 - INFO - Claim: COVID 19 patients don’t need intensive care or ventilators....
+2025-12-16 18:22:48,418 - INFO - Date: 12-7-2021
+2025-12-16 18:22:48,418 - INFO - Asking model: anthropic.claude-3-5-sonnet-20240620
+2025-12-16 18:22:48,419 - INFO - Claim: COVID 19 patients don’t need intensive care or ventilators....
+2025-12-16 18:22:48,821 - INFO - API Response Status: 404
+2025-12-16 18:22:48,821 - ERROR - API error: 404 - {
+  "error": {
+    "message": "Requested resource anthropic.claude-3-5-sonnet-20240620 does not exist. for more information check https://ava.al/limits . Please contact support at support@avalai.ir and include the request ID 019b27a6-4e57-7e90-b614-fc4bbde084e5 in your email if you believe this is an error.",
+    "type": "not_found",
+    "param": null,
+    "code": "resource_not_found",
+    "solution": "Please check https://ava.al/limits",
+    "request_id": "019b27a6-4e57-7e90-b614-fc4bbde084e5"
+  }
+}
+2025-12-16 18:22:48,822 - WARNING - Failed to get valid prediction
+2025-12-16 18:22:48,932 - INFO - ================================================================================
+2025-12-16 18:22:48,932 - INFO - Processing claim #18 (ID: 18)
+2025-12-16 18:22:48,932 - INFO - Claim: COVID 19 is a thrombosis...
+2025-12-16 18:22:48,932 - INFO - Date: 12-7-2021
+2025-12-16 18:22:48,932 - INFO - Asking model: anthropic.claude-3-5-sonnet-20240620
+2025-12-16 18:22:48,932 - INFO - Claim: COVID 19 is a thrombosis...
