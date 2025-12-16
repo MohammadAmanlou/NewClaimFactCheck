@@ -1,0 +1,13 @@
+2025-12-16 23:31:58,750 - INFO - Processing 0 claims...
+2025-12-16 23:31:58,762 - INFO - ================================================================================
+2025-12-16 23:31:58,762 - INFO - Processing complete: 0 predictions (0 correct, 0 incorrect), 0 failed
+2025-12-16 23:31:58,762 - WARNING - No valid results for metric calculation
+2025-12-16 23:31:58,765 - INFO - Predictions saved to results\grok-2-1212\fever_dev\unseen\unseen_predictions.csv
+2025-12-16 23:31:58,765 - INFO - Predictions (JSON) saved to results\grok-2-1212\fever_dev\unseen\unseen_predictions.json
+2025-12-16 23:31:58,765 - INFO - Metrics saved to results\grok-2-1212\fever_dev\unseen\unseen_metrics.json
+2025-12-16 23:31:58,765 - INFO - ================================================================================
+2025-12-16 23:31:58,766 - INFO - Comparing seen vs unseen performance...
+2025-12-16 23:31:58,767 - INFO - Metrics: Accuracy=0.7424, Macro-F1=0.7337
+2025-12-16 23:31:58,767 - WARNING - No valid results for metric calculation
+2025-12-16 23:31:58,769 - WARNING - Insufficient data for statistical testing
+2025-12-16 23:31:58,770 - INFO - Summary report saved to results\grok-2-1212\fever_dev\summary.json

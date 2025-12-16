@@ -1,0 +1,14 @@
+2025-12-16 23:17:46,604 - INFO - ================================================================================
+2025-12-16 23:17:46,604 - INFO - STARTING FACT-CHECK INFERENCE PIPELINE
+2025-12-16 23:17:46,604 - INFO - ================================================================================
+2025-12-16 23:17:46,604 - INFO - API Provider: XAI
+2025-12-16 23:17:46,605 - INFO - Dataset: fever_dev
+2025-12-16 23:17:46,605 - INFO - Model: grok-2-1212
+2025-12-16 23:17:46,605 - INFO - Output Directory: results\grok-2-1212\fever_dev
+2025-12-16 23:17:46,605 - INFO - Canonical Labels: ['Supported', 'Refuted', 'Misleading', 'Partially true']
+2025-12-16 23:17:46,605 - INFO - Temporal Split Date: 2024-12-12
+2025-12-16 23:17:46,648 - INFO - Loaded 500 claims (is_test=False)
+2025-12-16 23:17:46,648 - INFO - Processing LABELED data with temporal split analysis
+2025-12-16 23:17:46,654 - INFO - ================================================================================
+2025-12-16 23:17:46,655 - INFO - PROCESSING SEEN DATA (before temporal split)
+2025-12-16 23:17:46,655 - INFO - ================================================================================
