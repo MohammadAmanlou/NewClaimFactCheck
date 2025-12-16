@@ -1,0 +1,13 @@
+2025-12-16 21:23:46,472 - INFO - ================================================================================
+2025-12-16 21:23:46,472 - INFO - STARTING FACT-CHECK INFERENCE PIPELINE
+2025-12-16 21:23:46,473 - INFO - ================================================================================
+2025-12-16 21:23:46,473 - INFO - Dataset: fever_dev
+2025-12-16 21:23:46,473 - INFO - Model: anthropic.claude-3-5-sonnet-20241022-v2:0
+2025-12-16 21:23:46,473 - INFO - Output Directory: results\anthropic_claude-3-5-sonnet-20241022-v2_0\fever_dev
+2025-12-16 21:23:46,473 - INFO - Canonical Labels: ['Conflicting Evidence/Cherrypicking', 'Not Enough Evidence', 'Refuted', 'Supported']
+2025-12-16 21:23:46,473 - INFO - Temporal Split Date: 2024-10-22
+2025-12-16 21:23:46,565 - INFO - Loaded 500 claims (is_test=False)
+2025-12-16 21:23:46,565 - INFO - Processing LABELED data with temporal split analysis
+2025-12-16 21:23:46,572 - INFO - ================================================================================
+2025-12-16 21:23:46,572 - INFO - PROCESSING SEEN DATA (before temporal split)
+2025-12-16 21:23:46,572 - INFO - ================================================================================
