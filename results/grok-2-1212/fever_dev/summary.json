@@ -1,0 +1,93 @@
+{
+    "experiment_info": {
+        "api_provider": "xai",
+        "dataset": "fever_dev",
+        "model": "grok-2-1212",
+        "temporal_split_date": "2024-12-12",
+        "canonical_labels": [
+            "Conflicting Evidence/Cherrypicking",
+            "Not Enough Evidence",
+            "Refuted",
+            "Supported"
+        ],
+        "timestamp": "2025-12-17T14:01:50.489940"
+    },
+    "seen_data": {
+        "accuracy": 0.596,
+        "macro_precision": 0.4537,
+        "macro_recall": 0.4731,
+        "macro_f1": 0.435,
+        "total_samples": 500,
+        "correct_predictions": 298,
+        "per_label_metrics": {
+            "Conflicting Evidence/Cherrypicking": {
+                "precision": 0.2174,
+                "recall": 0.1316,
+                "f1": 0.1639,
+                "support": 38
+            },
+            "Not Enough Evidence": {
+                "precision": 0.1743,
+                "recall": 0.5429,
+                "f1": 0.2639,
+                "support": 35
+            },
+            "Refuted": {
+                "precision": 0.7857,
+                "recall": 0.6852,
+                "f1": 0.732,
+                "support": 305
+            },
+            "Supported": {
+                "precision": 0.6373,
+                "recall": 0.5328,
+                "f1": 0.5804,
+                "support": 122
+            }
+        }
+    },
+    "unseen_data": {
+        "error": "No valid results"
+    },
+    "comparison": {
+        "seen_metrics": {
+            "accuracy": 0.596,
+            "macro_precision": 0.4537,
+            "macro_recall": 0.4731,
+            "macro_f1": 0.435,
+            "total_samples": 500,
+            "correct_predictions": 298,
+            "per_label_metrics": {
+                "Conflicting Evidence/Cherrypicking": {
+                    "precision": 0.2174,
+                    "recall": 0.1316,
+                    "f1": 0.1639,
+                    "support": 38
+                },
+                "Not Enough Evidence": {
+                    "precision": 0.1743,
+                    "recall": 0.5429,
+                    "f1": 0.2639,
+                    "support": 35
+                },
+                "Refuted": {
+                    "precision": 0.7857,
+                    "recall": 0.6852,
+                    "f1": 0.732,
+                    "support": 305
+                },
+                "Supported": {
+                    "precision": 0.6373,
+                    "recall": 0.5328,
+                    "f1": 0.5804,
+                    "support": 122
+                }
+            }
+        },
+        "unseen_metrics": {
+            "error": "No valid results"
+        },
+        "statistical_tests": "Insufficient data for statistical testing",
+        "accuracy_difference": -0.596
+    }
+}
