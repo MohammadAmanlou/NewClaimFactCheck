@@ -1,0 +1,164 @@
+2026-02-25 19:50:14,673 - INFO - Processing 16783 claims...
+2026-02-25 19:50:14,682 - INFO - ================================================================================
+2026-02-25 19:50:14,683 - INFO - Processing claim #0 (ID: 96012)
+2026-02-25 19:50:14,683 - INFO - Claim: Delta Air Lines prohibits Jewish passengers and Bibles on all their flights due to an alliance with Saudi Arabian Airlines...
+2026-02-25 19:50:14,683 - INFO - Date: 21-05-2013
+2026-02-25 19:50:14,683 - INFO - Asking model: cf.llama-3.1-70b-instruct
+2026-02-25 19:50:14,684 - INFO - Claim: Delta Air Lines prohibits Jewish passengers and Bibles on all their flights due to an alliance with Saudi Arabian Airlines...
+2026-02-25 19:50:16,779 - INFO - API Response Status: 200
+2026-02-25 19:50:16,779 - INFO - Raw model response: {"label": "false"}
+2026-02-25 19:50:16,779 - INFO - Extracted label: false -> Normalized: false
+2026-02-25 19:50:16,779 - INFO - Prediction: false
+2026-02-25 19:50:16,780 - INFO - ✓ Correct prediction
+2026-02-25 19:50:16,893 - INFO - ================================================================================
+2026-02-25 19:50:16,893 - INFO - Processing claim #1 (ID: 20047)
+2026-02-25 19:50:16,893 - INFO - Claim: Photoshopped image claims Nigerian chef officially declared Guinness world record holder for cooking marathon...
+2026-02-25 19:50:16,893 - INFO - Date: 23-05-2023
+2026-02-25 19:50:16,893 - INFO - Asking model: cf.llama-3.1-70b-instruct
+2026-02-25 19:50:16,893 - INFO - Claim: Photoshopped image claims Nigerian chef officially declared Guinness world record holder for cooking marathon...
+2026-02-25 19:50:19,530 - INFO - API Response Status: 200
+2026-02-25 19:50:19,530 - INFO - Raw model response: {"label": "false"}
+2026-02-25 19:50:19,530 - INFO - Extracted label: false -> Normalized: false
+2026-02-25 19:50:19,530 - INFO - Prediction: false
+2026-02-25 19:50:19,530 - INFO - ✓ Correct prediction
+2026-02-25 19:50:19,638 - INFO - ================================================================================
+2026-02-25 19:50:19,638 - INFO - Processing claim #2 (ID: 7627)
+2026-02-25 19:50:19,638 - INFO - Claim: Photo of female fighter from Arakan Army killed in Myanmar...
+2026-02-25 19:50:19,638 - INFO - Date: 07-08-2020
+2026-02-25 19:50:19,639 - INFO - Asking model: cf.llama-3.1-70b-instruct
+2026-02-25 19:50:19,639 - INFO - Claim: Photo of female fighter from Arakan Army killed in Myanmar...
+2026-02-25 19:50:23,385 - INFO - API Response Status: 200
+2026-02-25 19:50:23,385 - INFO - Raw model response: I'm happy to help! However, I need more information about the claim to verify its accuracy. Can you please provide the photo in question and more context about the claim? Without this information, it's impossible for me to accurately classify the claim.
+
+
+2026-02-25 19:50:23,385 - WARNING - Could not parse JSON from response: I'm happy to help! However, I need more information about the claim to verify its accuracy. Can you please provide the photo in question and more context about the claim? Without this information, it's impossible for me to accurately classify the claim.
+
+
+2026-02-25 19:50:23,387 - WARNING - Failed to get valid prediction
+2026-02-25 19:50:23,497 - INFO - ================================================================================
+2026-02-25 19:50:23,497 - INFO - Processing claim #3 (ID: 2895)
+2026-02-25 19:50:23,497 - INFO - Claim: Rs 173 will be deducted for withdrawing money from ATM more than 4 times...
+2026-02-25 19:50:23,497 - INFO - Date: 09-05-2019
+2026-02-25 19:50:23,497 - INFO - Asking model: cf.llama-3.1-70b-instruct
+2026-02-25 19:50:23,497 - INFO - Claim: Rs 173 will be deducted for withdrawing money from ATM more than 4 times...
+2026-02-25 19:50:26,024 - INFO - API Response Status: 200
+2026-02-25 19:50:26,024 - INFO - Raw model response: {"label": "true"}
+2026-02-25 19:50:26,024 - INFO - Extracted label: true -> Normalized: true
+2026-02-25 19:50:26,024 - INFO - Prediction: true
+2026-02-25 19:50:26,024 - INFO - ✗ Incorrect prediction (True: false, Pred: true)
+2026-02-25 19:50:26,133 - INFO - ================================================================================
+2026-02-25 19:50:26,134 - INFO - Processing claim #4 (ID: 45523)
+2026-02-25 19:50:26,134 - INFO - Claim: This old woman is Kamaladevi Hazarika, a revolutionary hailing from Assam who gave a befitting reply to a pastor who attempted to convert her to Chris...
+2026-02-25 19:50:26,134 - INFO - Date: 01-06-2022
+2026-02-25 19:50:26,134 - INFO - Asking model: cf.llama-3.1-70b-instruct
+2026-02-25 19:50:26,134 - INFO - Claim: This old woman is Kamaladevi Hazarika, a revolutionary hailing from Assam who gave a befitting reply to a pastor who attempted to convert her to Chris...
+2026-02-25 19:50:28,147 - INFO - API Response Status: 200
+2026-02-25 19:50:28,147 - INFO - Raw model response: {"label": "false"}
+2026-02-25 19:50:28,147 - INFO - Extracted label: false -> Normalized: false
+2026-02-25 19:50:28,147 - INFO - Prediction: false
+2026-02-25 19:50:28,147 - INFO - ✓ Correct prediction
+2026-02-25 19:50:28,258 - INFO - ================================================================================
+2026-02-25 19:50:28,258 - INFO - Processing claim #5 (ID: 41266)
+2026-02-25 19:50:28,258 - INFO - Claim: A photo shows hundreds of dead birds killed by 5G signals....
+2026-02-25 19:50:28,258 - INFO - Date: 19-05-2021
+2026-02-25 19:50:28,258 - INFO - Asking model: cf.llama-3.1-70b-instruct
+2026-02-25 19:50:28,258 - INFO - Claim: A photo shows hundreds of dead birds killed by 5G signals....
+2026-02-25 19:50:30,474 - INFO - API Response Status: 200
+2026-02-25 19:50:30,474 - INFO - Raw model response: {"label": "false"}
+2026-02-25 19:50:30,474 - INFO - Extracted label: false -> Normalized: false
+2026-02-25 19:50:30,474 - INFO - Prediction: false
+2026-02-25 19:50:30,474 - INFO - ✓ Correct prediction
+2026-02-25 19:50:30,584 - INFO - ================================================================================
+2026-02-25 19:50:30,584 - INFO - Processing claim #6 (ID: 38254)
+2026-02-25 19:50:30,584 - INFO - Claim: We found a relative dearth of misleading comments uttered by the politicians and others appearing on the Nov. 21 talk shows. We can't be sure why, but...
+2026-02-25 19:50:30,584 - INFO - Date: 22-11-2010
+2026-02-25 19:50:30,585 - INFO - Asking model: cf.llama-3.1-70b-instruct
+2026-02-25 19:50:30,585 - INFO - Claim: We found a relative dearth of misleading comments uttered by the politicians and others appearing on the Nov. 21 talk shows. We can't be sure why, but...
+2026-02-25 19:50:32,702 - INFO - API Response Status: 200
+2026-02-25 19:50:32,702 - INFO - Raw model response: {"label": "partially true"}
+2026-02-25 19:50:32,702 - INFO - Extracted label: partially true -> Normalized: partially true
+2026-02-25 19:50:32,702 - INFO - Prediction: partially true
+2026-02-25 19:50:32,702 - INFO - ✗ Incorrect prediction (True: false, Pred: partially true)
+2026-02-25 19:50:32,810 - INFO - ================================================================================
+2026-02-25 19:50:32,810 - INFO - Processing claim #7 (ID: 26403)
+2026-02-25 19:50:32,810 - INFO - Claim: False claim of  Indian passenger plane crash in Afghanistan goes viral...
+2026-02-25 19:50:32,810 - INFO - Date: 21-01-2024
+2026-02-25 19:50:32,811 - INFO - Asking model: cf.llama-3.1-70b-instruct
+2026-02-25 19:50:32,811 - INFO - Claim: False claim of  Indian passenger plane crash in Afghanistan goes viral...
+2026-02-25 19:50:34,997 - INFO - API Response Status: 200
+2026-02-25 19:50:34,997 - INFO - Raw model response: {"label": "true"}
+2026-02-25 19:50:34,997 - INFO - Extracted label: true -> Normalized: true
+2026-02-25 19:50:34,997 - INFO - Prediction: true
+2026-02-25 19:50:34,997 - INFO - ✗ Incorrect prediction (True: misleading, Pred: true)
+2026-02-25 19:50:35,106 - INFO - ================================================================================
+2026-02-25 19:50:35,106 - INFO - Processing claim #8 (ID: 110807)
+2026-02-25 19:50:35,106 - INFO - Claim: The bride in the circulating photo is not Leni Robredo....
+2026-02-25 19:50:35,106 - INFO - Date: 05-04-2022
+2026-02-25 19:50:35,106 - INFO - Asking model: cf.llama-3.1-70b-instruct
+2026-02-25 19:50:35,106 - INFO - Claim: The bride in the circulating photo is not Leni Robredo....
+2026-02-25 19:50:37,147 - INFO - API Response Status: 200
+2026-02-25 19:50:37,147 - INFO - Raw model response: {"label": "true"}
+2026-02-25 19:50:37,147 - INFO - Extracted label: true -> Normalized: true
+2026-02-25 19:50:37,147 - INFO - Prediction: true
+2026-02-25 19:50:37,147 - INFO - ✗ Incorrect prediction (True: false, Pred: true)
+2026-02-25 19:50:37,255 - INFO - ================================================================================
+2026-02-25 19:50:37,255 - INFO - Processing claim #9 (ID: 18886)
+2026-02-25 19:50:37,256 - INFO - Claim: Yes, cheap solar lights can be made from plastic bottles, water and bleach...
+2026-02-25 19:50:37,256 - INFO - Date: 09-12-2021
+2026-02-25 19:50:37,256 - INFO - Asking model: cf.llama-3.1-70b-instruct
+2026-02-25 19:50:37,256 - INFO - Claim: Yes, cheap solar lights can be made from plastic bottles, water and bleach...
+2026-02-25 19:50:38,675 - INFO - API Response Status: 200
+2026-02-25 19:50:38,675 - INFO - Raw model response: {"label": "true"}
+2026-02-25 19:50:38,676 - INFO - Extracted label: true -> Normalized: true
+2026-02-25 19:50:38,676 - INFO - Prediction: true
+2026-02-25 19:50:38,676 - INFO - ✓ Correct prediction
+2026-02-25 19:50:38,783 - INFO - ================================================================================
+2026-02-25 19:50:38,783 - INFO - Processing claim #10 (ID: 101401)
+2026-02-25 19:50:38,783 - INFO - Claim: Viral Post Falsely Claims Statue of Unity Has Developed Cracks...
+2026-02-25 19:50:38,783 - INFO - Date: 03-12-2018
+2026-02-25 19:50:38,783 - INFO - Asking model: cf.llama-3.1-70b-instruct
+2026-02-25 19:50:38,784 - INFO - Claim: Viral Post Falsely Claims Statue of Unity Has Developed Cracks...
+2026-02-25 19:50:40,110 - INFO - API Response Status: 200
+2026-02-25 19:50:40,110 - INFO - Raw model response: {"label": "true"}
+2026-02-25 19:50:40,110 - INFO - Extracted label: true -> Normalized: true
+2026-02-25 19:50:40,110 - INFO - Prediction: true
+2026-02-25 19:50:40,110 - INFO - ✗ Incorrect prediction (True: false, Pred: true)
+2026-02-25 19:50:40,219 - INFO - ================================================================================
+2026-02-25 19:50:40,219 - INFO - Processing claim #11 (ID: 1216)
+2026-02-25 19:50:40,219 - INFO - Claim: Video shows events captured when an earthquake shook Japan on Jan. 1, 2024...
+2026-02-25 19:50:40,219 - INFO - Date: 04-01-2024
+2026-02-25 19:50:40,220 - INFO - Asking model: cf.llama-3.1-70b-instruct
+2026-02-25 19:50:40,220 - INFO - Claim: Video shows events captured when an earthquake shook Japan on Jan. 1, 2024...
+2026-02-25 19:50:42,358 - INFO - API Response Status: 200
+2026-02-25 19:50:42,358 - INFO - Raw model response: {"label": "false"}
+2026-02-25 19:50:42,358 - INFO - Extracted label: false -> Normalized: false
+2026-02-25 19:50:42,358 - INFO - Prediction: false
+2026-02-25 19:50:42,358 - INFO - ✗ Incorrect prediction (True: misleading, Pred: false)
+2026-02-25 19:50:42,468 - INFO - ================================================================================
+2026-02-25 19:50:42,468 - INFO - Processing claim #12 (ID: 83882)
+2026-02-25 19:50:42,469 - INFO - Claim: On June 16, 2021, U.S. Rep. Andrew Clyde of Georgia turned away instead of shaking the hand of injured D.C. Metropolitan Police Officer Michael Fanone...
+2026-02-25 19:50:42,469 - INFO - Date: 18-06-2021
+2026-02-25 19:50:42,469 - INFO - Asking model: cf.llama-3.1-70b-instruct
+2026-02-25 19:50:42,469 - INFO - Claim: On June 16, 2021, U.S. Rep. Andrew Clyde of Georgia turned away instead of shaking the hand of injured D.C. Metropolitan Police Officer Michael Fanone...
+2026-02-25 19:50:43,808 - INFO - API Response Status: 200
+2026-02-25 19:50:43,808 - INFO - Raw model response: {"label": "true"}
+2026-02-25 19:50:43,808 - INFO - Extracted label: true -> Normalized: true
+2026-02-25 19:50:43,808 - INFO - Prediction: true
+2026-02-25 19:50:43,808 - INFO - ✓ Correct prediction
+2026-02-25 19:50:43,918 - INFO - ================================================================================
+2026-02-25 19:50:43,918 - INFO - Processing claim #13 (ID: 16849)
+2026-02-25 19:50:43,918 - INFO - Claim: ANC promises: what we're tracking next in South Africa...
+2026-02-25 19:50:43,919 - INFO - Date: 30-09-2019
+2026-02-25 19:50:43,919 - INFO - Asking model: cf.llama-3.1-70b-instruct
+2026-02-25 19:50:43,919 - INFO - Claim: ANC promises: what we're tracking next in South Africa...
+2026-02-25 19:50:46,071 - INFO - API Response Status: 200
+2026-02-25 19:50:46,071 - INFO - Raw model response: {"label": "true"}
+2026-02-25 19:50:46,071 - INFO - Extracted label: true -> Normalized: true
+2026-02-25 19:50:46,071 - INFO - Prediction: true
+2026-02-25 19:50:46,071 - INFO - ✗ Incorrect prediction (True: false, Pred: true)
+2026-02-25 19:50:46,180 - INFO - ================================================================================
+2026-02-25 19:50:46,180 - INFO - Processing claim #14 (ID: 650)
+2026-02-25 19:50:46,180 - INFO - Claim: Sniffing rosemary increases human memory by up to 75 percent....
+2026-02-25 19:50:46,180 - INFO - Date: 11-02-2019
+2026-02-25 19:50:46,180 - INFO - Asking model: cf.llama-3.1-70b-instruct
+2026-02-25 19:50:46,180 - INFO - Claim: Sniffing rosemary increases human memory by up to 75 percent....
