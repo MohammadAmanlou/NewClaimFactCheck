@@ -40,10 +40,11 @@ def split_by_date(claims: List[Dict], split_date: str, date_format: str) -> Tupl
 class ClaimProcessor:
     """Processes claims through the fact‑checking model, recording results and statistics."""
 
-    def __init__(self, config: Config, logger: logging.Logger, is_test: bool):
+    def __init__(self, config: Config, logger: logging.Logger, is_test: bool, , prompt_method: str = "naive"):
         self.config = config
         self.logger = logger
         self.is_test = is_test
+        self.prompt_method = prompt_method
         # Counters
         self.successful = 0
         self.failed = 0
@@ -77,7 +78,11 @@ class ClaimProcessor:
         self.logger.info(f"Claim: {claim[:150]}...")
         self.logger.info(f"Date: {date}")
 
-        prediction = ask_model(claim=claim, date=date, config=self.config, logger=self.logger)
+        prediction = ask_model(claim=claim, 
+                               date=date, 
+                               config=self.config, 
+                               logger=self.logger, 
+                               prompt_method=self.prompt_method,)
 
         result = claim_dict.copy()
         if prediction:
@@ -152,7 +157,8 @@ class ClaimProcessor:
             )
 
 
-def process_claims(claims: List[Dict], is_test: bool, config: Config, logger: logging.Logger) -> List[Dict]:
+def process_claims(claims: List[Dict], is_test: bool, config: Config, logger: logging.Logger, 
+                   prompt_method: str = "naive") -> List[Dict]:
     """Public wrapper for backwards compatibility."""
-    processor = ClaimProcessor(config, logger, is_test)
+    processor = ClaimProcessor(config, logger, is_test, prompt_method)
     return processor.run(claims)
