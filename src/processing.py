@@ -40,7 +40,7 @@ def split_by_date(claims: List[Dict], split_date: str, date_format: str) -> Tupl
 class ClaimProcessor:
     """Processes claims through the fact‑checking model, recording results and statistics."""
 
-    def __init__(self, config: Config, logger: logging.Logger, is_test: bool, , prompt_method: str = "naive"):
+    def __init__(self, config: Config, logger: logging.Logger, is_test: bool, prompt_method: str = "naive"):
         self.config = config
         self.logger = logger
         self.is_test = is_test
