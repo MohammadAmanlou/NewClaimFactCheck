@@ -2,6 +2,16 @@ import logging
 from pathlib import Path
 
 def setup_logger(log_file: Path) -> logging.Logger:
+    """
+    Configure and return a logger with file and console handlers.
+    
+    Args:
+        log_file: Path to the log file
+        
+    Returns:
+        Configured logger instance
+    """
+    
     logger = logging.getLogger(log_file.name)
     logger.setLevel(logging.INFO)
     logger.handlers = []
