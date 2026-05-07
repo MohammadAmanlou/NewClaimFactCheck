@@ -1,100 +1,169 @@
+"""
+API client for querying the fact‑checking model via Avalai (OpenAI‑compatible).
+"""
+
 import re
 import json
 import time
 import logging
+from typing import Optional, Dict, Any
 import requests
-from typing import List, Optional
+
 from .config import Config
-from .label_utils import normalize_label
+from .label_utils import normalize_label  
 
-def ask_model(claim: str, date: str, config: Config, logger: logging.Logger) -> Optional[str]:
-    """
-    Query the language model for fact-checking prediction with retry logic.
-    
-    Args:
-        claim: Claim text to fact-check
-        date: Claim date
-        model_name: Name of the model to use
-        api_key: API authentication key
-        api_url: API endpoint URL
-        labels: List of valid labels
-        logger: Logger instance
-        max_retries: Maximum number of retry attempts
-        
-    Returns:
-        Predicted label or None if failed
-    """
-    
-    labels = config.labels
-    prompt = f"""You are a fact-checking expert. Analyze the following claim and classify it into one of these categories: {', '.join(labels)}.
 
-Claim: {claim}
-Date: {date}
+def build_prompt(claim: str, date: str, labels: list[str]) -> str:
+    """Create the prompt that instructs the model to classify the claim."""
+    labels_str = ", ".join(labels)
+    return (
+        f"You are a fact-checking expert. Analyze the following claim and classify "
+        f"it into one of these categories: {labels_str}.\n\n"
+        f"Claim: {claim}\n"
+        f"Date: {date}\n\n"
+        "Respond ONLY with a JSON object in this exact format:\n"
+        '{"label": "your_classification"}\n\n'
+        "Choose the label that best represents the claim's veracity."
+    )
 
-Respond ONLY with a JSON object in this exact format:
-{{"label": "your_classification"}}
 
-Choose the label that best represents the claim's veracity."""
-
-    headers = {
-        "Authorization": f"Bearer {config.api_key}",
-        "Content-Type": "application/json"
-    }
-    payload = {
-        "model": config.model,
+def construct_payload(
+    model_name: str,
+    prompt: str,
+    temperature: float = 0.1,
+    max_tokens: int = 50,
+) -> Dict[str, Any]:
+    """Build the JSON payload for the chat completion API."""
+    return {
+        "model": model_name,
         "messages": [{"role": "user", "content": prompt}],
-        "temperature": 0.1,
-        "max_tokens": 50
+        "temperature": temperature,
+        "max_tokens": max_tokens,
     }
 
-    logger.info(f"Asking model: {config.model}")
-    logger.info(f"Claim: {claim[:150]}...")
 
-    retry_delay = config.initial_retry_delay
-    for attempt in range(config.max_retries + 1):
+def send_api_request(
+    url: str,
+    headers: Dict[str, str],
+    payload: Dict[str, Any],
+    max_retries: int,
+    initial_delay: float,
+    logger: logging.Logger,
+) -> Optional[requests.Response]:
+    """
+    Send the request with exponential backoff on rate limiting and network errors.
+
+    Returns the successful Response object or None after exhaustion.
+    """
+    retry_delay = initial_delay
+    for attempt in range(max_retries + 1):
         try:
-            response = requests.post(config.api_url, json=payload, headers=headers, timeout=30)
-            logger.info(f"API Response Status: {response.status_code}")
+            response = requests.post(url, json=payload, headers=headers, timeout=30)
+            logger.info("API Response Status: %d", response.status_code)
 
             if response.status_code == 429:
-                if attempt < config.max_retries:
-                    logger.info(f"Retry attempt {attempt + 1}/{config.max_retries} after {retry_delay}s delay...")
+                if attempt < max_retries:
+                    logger.info(
+                        "Rate limited. Retry %d/%d after %.1fs",
+                        attempt + 1, max_retries, retry_delay,
+                    )
                     time.sleep(retry_delay)
                     retry_delay *= 2
                     continue
-                else:
-                    logger.error("Max retries reached for rate limit")
-                    return None
-
-            if response.status_code == 200:
-                result = response.json()
-                content = result.get("choices", [{}])[0].get("message", {}).get("content", "")
-                logger.info(f"Raw model response: {content}")
-
-                json_match = re.search(r'\{.*?\}', content, re.DOTALL)
-                if json_match:
-                    parsed = json.loads(json_match.group(0))
-                    raw_label = parsed.get("label", "")
-                    normalized = normalize_label(raw_label, config.labels)
-                    logger.info(f"Extracted label: {raw_label} -> Normalized: {normalized}")
-                    return normalized
-
-                logger.warning(f"Could not parse JSON from response: {content}")
+                logger.error("Max retries reached for rate limiting")
                 return None
 
-            logger.error(f"API error: {response.status_code} - {response.text}")
+            if response.status_code == 200:
+                return response
+
+            logger.error("API error %d: %s", response.status_code, response.text)
             return None
 
         except (requests.exceptions.Timeout, requests.exceptions.ConnectionError) as e:
-            if attempt < config.max_retries:
-                logger.warning(f"Network error: {e}. Retrying...")
+            if attempt < max_retries:
+                logger.warning("Network error: %s. Retrying...", e)
                 time.sleep(retry_delay)
                 retry_delay *= 2
                 continue
-            logger.error(f"Network error after {config.max_retries} retries: {e}")
+            logger.error("Network error after %d retries: %s", max_retries, e)
             return None
         except Exception as e:
-            logger.error(f"Unexpected error: {e}")
+            logger.error("Unexpected error: %s", e)
             return None
 
     return None
+
+
+def extract_prediction_from_response(
+    response: requests.Response,
+    labels: list[str],
+    logger: logging.Logger,
+) -> Optional[str]:
+    """Parse the model's JSON response and return the normalized label."""
+    try:
+        result = response.json()
+        content = result.get("choices", [{}])[0].get("message", {}).get("content", "")
+        logger.info("Raw model response: %s", content)
+    except (json.JSONDecodeError, KeyError, IndexError) as e:
+        logger.error("Failed to decode JSON response: %s", e)
+        return None
+
+    json_match = re.search(r'\{.*?\}', content, re.DOTALL)
+    if not json_match:
+        logger.warning("Could not find JSON in response: %s", content)
+        return None
+
+    try:
+        parsed = json.loads(json_match.group(0))
+    except json.JSONDecodeError:
+        logger.warning("Invalid JSON extracted: %s", json_match.group(0))
+        return None
+
+    raw_label = parsed.get("label", "")
+    normalized = normalize_label(raw_label, labels)
+    logger.info("Extracted label: %s -> Normalized: %s", raw_label, normalized)
+    return normalized
+
+
+def ask_model(
+    claim: str,
+    date: str,
+    config: Config,
+    logger: logging.Logger,
+) -> Optional[str]:
+    """
+    Query the fact-checking model for a prediction.
+
+    Args:
+        claim: Claim text to fact-check.
+        date: Claim date.
+        config: Configuration object containing model, API key, etc.
+        logger: Logger for this invocation.
+
+    Returns:
+        Normalized label string or None if the query failed.
+    """
+    logger.info("Asking model: %s", config.model)
+    logger.info("Claim: %.150s...", claim)
+
+    prompt = build_prompt(claim, date, config.labels)
+    payload = construct_payload(config.model, prompt)
+
+    headers = {
+        "Authorization": f"Bearer {config.api_key}",
+        "Content-Type": "application/json",
+    }
+
+    response = send_api_request(
+        url=config.api_url,
+        headers=headers,
+        payload=payload,
+        max_retries=config.max_retries,
+        initial_delay=config.initial_retry_delay,
+        logger=logger,
+    )
+
+    if response is None:
+        return None
+
+    return extract_prediction_from_response(response, config.labels, logger)
