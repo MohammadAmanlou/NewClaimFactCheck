@@ -1,9 +1,0 @@
-{
-    "dataset": "fever_test_2023_2024",
-    "model": "cf.llama-3.1-70b-instruct",
-    "total_claims": 2215,
-    "successful_predictions": 2202,
-    "failed_predictions": 13,
-    "success_rate": 0.9941,
-    "timestamp": "2025-12-15T21:06:44.080588"
-}

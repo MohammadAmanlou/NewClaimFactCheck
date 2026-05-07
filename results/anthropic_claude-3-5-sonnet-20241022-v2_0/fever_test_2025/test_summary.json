@@ -1,9 +1,0 @@
-{
-    "dataset": "fever_test_2025",
-    "model": "anthropic.claude-3-5-sonnet-20241022-v2:0",
-    "total_claims": 1000,
-    "successful_predictions": 999,
-    "failed_predictions": 1,
-    "success_rate": 0.999,
-    "timestamp": "2025-12-16T21:11:50.871831"
-}
