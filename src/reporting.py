@@ -51,8 +51,14 @@ def save_results_with_metrics(results: List[Dict], metrics: Dict, output_dir: Pa
 
     print(f"✓ {split_name.capitalize()} results saved to {output_dir}")
 
-def generate_summary_report(seen_metrics: Dict, unseen_metrics: Dict, comparison: Dict,
-                            config: Config, output_dir: Path, logger: logging.Logger):
+def generate_summary_report(
+    seen_metrics: dict,
+    unseen_metrics: dict,
+    comparison: dict,
+    config: Config,
+    output_dir: Path,
+    logger: logging.Logger,
+) -> None:
     summary = {
         "experiment_info": {
             "dataset": config.dataset,
@@ -61,24 +67,30 @@ def generate_summary_report(seen_metrics: Dict, unseen_metrics: Dict, comparison
             "canonical_labels": config.labels,
             "balanced_sampling": comparison.get("sampling_info", {}).get("enabled", False),
             "sampling_seed": comparison.get("sampling_info", {}).get("seed"),
-            "timestamp": datetime.now().isoformat()
+            "prompt_method": comparison.get("prompt_method"),   # already saved
+            "timestamp": datetime.now().isoformat(),
         },
         "seen_data": seen_metrics,
         "unseen_data": unseen_metrics,
-        "comparison": comparison
+        "comparison": comparison,
     }
+
     summary_file = output_dir / "summary.json"
-    with open(summary_file, 'w', encoding='utf-8') as f:
+    with open(summary_file, "w", encoding="utf-8") as f:
         json.dump(summary, f, indent=4)
-    logger.info(f"Summary report saved to {summary_file}")
+    logger.info("Summary report saved to %s", summary_file)
     print(f"✓ Summary report saved to {summary_file}")
 
-    # Print to console
+    # Console output
     print("\n" + "=" * 80)
     print("EXPERIMENT SUMMARY")
     print("=" * 80)
     print(f"Dataset: {config.dataset}")
     print(f"Model: {config.model}")
+    # Show prompt method if available
+    method = comparison.get("prompt_method")
+    if method:
+        print(f"Prompt Method: {method}")
     print(f"Temporal Split: {config.temporal_split}")
 
     si = comparison.get("sampling_info", {})
@@ -92,19 +104,13 @@ def generate_summary_report(seen_metrics: Dict, unseen_metrics: Dict, comparison
     print(f"  Accuracy: {seen_metrics.get('accuracy', 'N/A')}")
     print(f"  Macro F1: {seen_metrics.get('macro_f1', 'N/A')}")
     print(f"  Samples: {seen_metrics.get('total_samples', 'N/A')}")
-    
-    if "nei_prediction_rate" in seen_metrics:
-        print("\nNEI METRICS (pre‑split data):")
-        print(f"  NEI Prediction Rate: {seen_metrics.get('nei_prediction_rate', 'N/A')}")
-        print(f"  False NEI Rate: {seen_metrics.get('false_nei_rate', 'N/A')}")
-    
     print("\nUNSEEN DATA PERFORMANCE:")
     print(f"  Accuracy: {unseen_metrics.get('accuracy', 'N/A')}")
     print(f"  Macro F1: {unseen_metrics.get('macro_f1', 'N/A')}")
     print(f"  Samples: {unseen_metrics.get('total_samples', 'N/A')}")
-    
+
     if "nei_prediction_rate" in unseen_metrics:
-        print("\nNEI METRICS (post‑split data):")
+        print("\nNEI METRICS (post‑split):")
         print(f"  NEI Prediction Rate: {unseen_metrics.get('nei_prediction_rate', 'N/A')}")
         print(f"  False NEI Rate: {unseen_metrics.get('false_nei_rate', 'N/A')}")
 
