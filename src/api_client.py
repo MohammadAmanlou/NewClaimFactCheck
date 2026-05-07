@@ -10,21 +10,8 @@ from typing import Optional, Dict, Any
 import requests
 
 from .config import Config
-from .label_utils import normalize_label  
-
-
-def build_prompt(claim: str, date: str, labels: list[str]) -> str:
-    """Create the prompt that instructs the model to classify the claim."""
-    labels_str = ", ".join(labels)
-    return (
-        f"You are a fact-checking expert. Analyze the following claim and classify "
-        f"it into one of these categories: {labels_str}.\n\n"
-        f"Claim: {claim}\n"
-        f"Date: {date}\n\n"
-        "Respond ONLY with a JSON object in this exact format:\n"
-        '{"label": "your_classification"}\n\n'
-        "Choose the label that best represents the claim's veracity."
-    )
+from .label_utils import normalize_label
+from .prompts import BUILDERS  
 
 
 def construct_payload(
@@ -130,23 +117,17 @@ def ask_model(
     date: str,
     config: Config,
     logger: logging.Logger,
+    prompt_method: str = "naive",
 ) -> Optional[str]:
-    """
-    Query the fact-checking model for a prediction.
-
-    Args:
-        claim: Claim text to fact-check.
-        date: Claim date.
-        config: Configuration object containing model, API key, etc.
-        logger: Logger for this invocation.
-
-    Returns:
-        Normalized label string or None if the query failed.
-    """
-    logger.info("Asking model: %s", config.model)
+    logger.info("Asking model: %s (method: %s)", config.model, prompt_method)
     logger.info("Claim: %.150s...", claim)
 
-    prompt = build_prompt(claim, date, config.labels)
+    builder = BUILDERS.get(prompt_method)
+    if builder is None:
+        logger.error("Unknown prompt method: %s", prompt_method)
+        return None
+
+    prompt = builder(claim, date, config.labels)
     payload = construct_payload(config.model, prompt, temperature=0.0, top_p=1.0,)
 
     headers = {
