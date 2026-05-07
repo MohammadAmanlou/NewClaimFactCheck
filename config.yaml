@@ -9,6 +9,13 @@ labels:
   - Not Enough Information
   - Misleading
 
+# Prompt methods to evaluate (can be one or more)
+prompt_methods:
+  - naive
+  - definition_rich
+  - anti_nei
+  - cvp
+
 temporal_split: "2024-04-01"
 date_format: "%d-%m-%Y"
 

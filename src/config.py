@@ -28,6 +28,7 @@ class Config:
     output_root: Path
     api_key: str = ""
     hf_token: str = ""
+    prompt_methods: List[str] = field(default_factory=lambda: ["naive"])
 
     @classmethod
     def from_yaml(cls, path: str = "config.yaml") -> "Config":
@@ -39,6 +40,7 @@ class Config:
 
         rate = cfg.get("rate_limit", {})
         samp = cfg.get("sampling", {})
+        prompt_methods = cfg.get("prompt_methods", ["naive"])
 
         return cls(
             dataset=cfg["dataset"],
@@ -56,5 +58,6 @@ class Config:
             display_every_n=cfg.get("display_every_n", 10),
             output_root=Path(cfg.get("output_root", "results")),
             api_key=api_key,
-            hf_token=hf_token
+            hf_token=hf_token,
+            prompt_methods=prompt_methods
         )
