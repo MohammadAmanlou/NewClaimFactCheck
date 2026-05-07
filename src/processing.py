@@ -86,7 +86,7 @@ class ClaimProcessor:
             self.logger.info(f"Prediction: {prediction}")
             self.successful += 1
             if not self.is_test and claim_dict.get("label"):
-                true_label = normalize_label(claim_dict["label"], self.config.labels)
+                true_label = normalize_label(claim_dict["label"])
                 if true_label:
                     if prediction == true_label:
                         self.correct += 1
@@ -108,7 +108,7 @@ class ClaimProcessor:
             print(f"\n[Claim #{idx + 1}] {claim[:100]}...")
             print(f"  → Prediction: {prediction}")
             if not self.is_test and claim_dict.get("label"):
-                true_label = normalize_label(claim_dict["label"], self.config.labels)
+                true_label = normalize_label(claim_dict["label"])
                 if true_label:
                     print(f"  → Ground Truth: {true_label}")
                     print(f"  → {'✓ Correct' if prediction == true_label else '✗ Incorrect'}")

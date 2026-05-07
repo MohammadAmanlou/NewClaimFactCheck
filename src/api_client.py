@@ -97,7 +97,6 @@ def send_api_request(
 
 def extract_prediction_from_response(
     response: requests.Response,
-    labels: list[str],
     logger: logging.Logger,
 ) -> Optional[str]:
     """Parse the model's JSON response and return the normalized label."""
@@ -121,7 +120,7 @@ def extract_prediction_from_response(
         return None
 
     raw_label = parsed.get("label", "")
-    normalized = normalize_label(raw_label, labels)
+    normalized = normalize_label(raw_label)
     logger.info("Extracted label: %s -> Normalized: %s", raw_label, normalized)
     return normalized
 
@@ -167,4 +166,4 @@ def ask_model(
     if response is None:
         return None
 
-    return extract_prediction_from_response(response, config.labels, logger)
+    return extract_prediction_from_response(response, logger)

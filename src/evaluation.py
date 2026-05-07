@@ -18,19 +18,17 @@ from .label_utils import normalize_label
 
 def _get_valid_predictions(
     results: List[Dict],
-    canonical_labels: List[str],
 ) -> List[Dict]:
     """Return results where both a valid prediction and a normalisable label exist."""
     return [
         r for r in results
         if r.get("prediction") and r.get("label")
-        and normalize_label(r["label"], canonical_labels)
+        and normalize_label(r["label"])
     ]
 
 
 def _build_confusion_matrix(
     valid_results: List[Dict],
-    canonical_labels: List[str],
 ) -> Tuple[Dict[str, int], Dict[str, Dict[str, int]], int]:
     """
     Compute label counts, confusion dict, and total correct predictions.
@@ -45,7 +43,7 @@ def _build_confusion_matrix(
     correct = 0
 
     for result in valid_results:
-        true_label = normalize_label(result["label"], canonical_labels)
+        true_label = normalize_label(result["label"])
         pred_label = result["prediction"]
         label_counts[true_label] += 1
         confusion[true_label][pred_label] += 1
@@ -102,11 +100,10 @@ def _macro_averages(per_label: Dict[str, Dict[str, float]]) -> Tuple[float, floa
 
 def _extract_binary_correct(
     results: List[Dict],
-    canonical_labels: List[str],
 ) -> List[int]:
     """Return list of 1 (correct) or 0 (incorrect) for every valid prediction."""
     return [
-        1 if r.get("prediction") == normalize_label(r.get("label", ""), canonical_labels) else 0
+        1 if r.get("prediction") == normalize_label(r.get("label", "")) else 0
         for r in results
         if r.get("prediction") and r.get("label")
     ]
@@ -173,12 +170,12 @@ def calculate_metrics(
         total_samples, correct_predictions, per_label_metrics.
         If no valid results, returns {"error": "No valid results"}.
     """
-    valid = _get_valid_predictions(results, canonical_labels)
+    valid = _get_valid_predictions(results)
     if not valid:
         logger.warning("No valid results for metric calculation")
         return {"error": "No valid results"}
 
-    label_counts, confusion, correct = _build_confusion_matrix(valid, canonical_labels)
+    label_counts, confusion, correct = _build_confusion_matrix(valid)
     total = len(valid)
     accuracy = correct / total if total > 0 else 0.0
 
@@ -231,8 +228,8 @@ def compare_seen_unseen(
     seen_metrics = calculate_metrics(seen_results, canonical_labels, logger)
     unseen_metrics = calculate_metrics(unseen_results, canonical_labels, logger)
 
-    seen_correct = _extract_binary_correct(seen_results, canonical_labels)
-    unseen_correct = _extract_binary_correct(unseen_results, canonical_labels)
+    seen_correct = _extract_binary_correct(seen_results)
+    unseen_correct = _extract_binary_correct(unseen_results)
 
     # Try to run statistical tests only if enough data
     try:

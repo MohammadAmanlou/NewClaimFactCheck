@@ -1,52 +1,59 @@
-from typing import List, Optional
+"""
+Label normalisation according to a standard fact‑checking taxonomy.
 
-def normalize_label(label: str, canonical_labels: List[str]) -> Optional[str]:
-    """
-    Normalize a label to match canonical format.
-    
-    Args:
-        label: Input label to normalize
-        canonical_labels: List of valid canonical labels
-        
-    Returns:
-        Normalized label or None if unverifiable/invalid
-    """
-    
-    if not label or not isinstance(label, str):
+Maps dozens of raw label strings into one of the four canonical labels:
+  Supported, Refuted, Not Enough Information, Misleading.
+"""
+
+import re
+from typing import Optional
+
+CANONICAL_LABELS = [
+    "Supported",
+    "Refuted",
+    "Not Enough Information",
+    "Misleading",
+]
+
+def normalize_label(label: Optional[str]) -> Optional[str]:
+    if label is None:
         return None
 
-    label_lower = label.lower().strip()
+    s = str(label).strip().lower()
+    compact = re.sub(r"[^a-z]+", "", s)
 
-    # Direct match
-    for canonical in canonical_labels:
-        if label_lower == canonical.lower():
-            return canonical
+    if s in {
+        "not enough information",
+        "not enough evidence",
+        "insufficient information",
+        "insufficient evidence",
+    }:
+        return "Not Enough Information"
 
-    # Partial match
-    for canonical in canonical_labels:
-        if canonical.lower() in label_lower or label_lower in canonical.lower():
-            return canonical
-
-    # Unverifiable keywords
-    unverifiable_keywords = ["not enough", "unverifiable", "inconclusive", "unclear"]
-    if any(keyword in label_lower for keyword in unverifiable_keywords):
-        return None
-
-    # Common mappings (example)
-    mappings = {
+    mapping = {
+        "supported": "Supported",
+        "support": "Supported",
         "true": "Supported",
-        "false": "Refuted",
-        "mostly true": "Supported",
-        "mostly false": "Refuted",
-        "half true": "Partially true",
-        "mixture": "Misleading",
-        "outdated": "Misleading",
-        "cherry picking": "Misleading",
-        "correct attribution": "Supported",
-        "incorrect attribution": "Refuted",
-    }
-    for key, value in mappings.items():
-        if key in label_lower and value in canonical_labels:
-            return value
 
-    return None
+        "refuted": "Refuted",
+        "refute": "Refuted",
+        "false": "Refuted",
+
+        "misleading": "Misleading",
+        "partlytrue": "Misleading",
+        "partiallytrue": "Misleading",
+        "halftrue": "Misleading",
+        "cherrypicking": "Misleading",
+        "cherrypicked": "Misleading",
+        "conflictingevidence": "Misleading",
+
+        "notenoughinformation": "Not Enough Information",
+        "notenoughevidence": "Not Enough Information",
+        "insufficientinformation": "Not Enough Information",
+        "insufficientevidence": "Not Enough Information",
+        "nei": "Not Enough Information",
+        "unknown": "Not Enough Information",
+        "unverifiable": "Not Enough Information",
+    }
+
+    return mapping.get(compact)
