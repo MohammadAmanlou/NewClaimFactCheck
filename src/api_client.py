@@ -30,14 +30,15 @@ def build_prompt(claim: str, date: str, labels: list[str]) -> str:
 def construct_payload(
     model_name: str,
     prompt: str,
-    temperature: float = 0.1,
+    temperature: float = 0.0,       
+    top_p: float = 1.0,             
     max_tokens: int = 50,
 ) -> Dict[str, Any]:
-    """Build the JSON payload for the chat completion API."""
     return {
         "model": model_name,
         "messages": [{"role": "user", "content": prompt}],
         "temperature": temperature,
+        "top_p": top_p,
         "max_tokens": max_tokens,
     }
 
@@ -147,7 +148,7 @@ def ask_model(
     logger.info("Claim: %.150s...", claim)
 
     prompt = build_prompt(claim, date, config.labels)
-    payload = construct_payload(config.model, prompt)
+    payload = construct_payload(config.model, prompt, temperature=0.0, top_p=1.0,)
 
     headers = {
         "Authorization": f"Bearer {config.api_key}",
