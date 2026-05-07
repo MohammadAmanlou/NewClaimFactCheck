@@ -11,6 +11,7 @@ from collections import defaultdict
 from scipy import stats
 from .label_utils import normalize_label
 
+NEI_LABEL = "Not Enough Information"
 
 # ---------------------------------------------------------------------------
 # Helper functions – clean, single‑purpose utilities
@@ -26,6 +27,31 @@ def _get_valid_predictions(
         and normalize_label(r["label"])
     ]
 
+
+def _compute_nei_rates(results, valid_results, label_prediction_pairs):
+    """
+    Compute NEI Prediction Rate and False NEI Rate.
+    Args:
+        results: original list (to count total examples)
+        valid_results: already filtered for valid predictions
+        label_prediction_pairs: list of (true_label, pred_label) for valid results
+    Returns:
+        dict with 'nei_prediction_rate' and 'false_nei_rate'
+    """
+    num_nei_pred = sum(1 for (_, pred) in label_prediction_pairs if pred == NEI_LABEL)
+    total = len(valid_results)
+    nei_pred_rate = num_nei_pred / total if total > 0 else 0.0
+
+    # False NEI: predicted NEI but gold is not NEI, over all gold not NEI
+    non_nei_gold = sum(1 for (true, _) in label_prediction_pairs if true != NEI_LABEL)
+    false_nei = sum(1 for (true, pred) in label_prediction_pairs
+                     if pred == NEI_LABEL and true != NEI_LABEL)
+    false_nei_rate = false_nei / non_nei_gold if non_nei_gold > 0 else 0.0
+
+    return {
+        "nei_prediction_rate": round(nei_pred_rate, 4),
+        "false_nei_rate": round(false_nei_rate, 4),
+    }
 
 def _build_confusion_matrix(
     valid_results: List[Dict],
@@ -152,24 +178,7 @@ def _run_statistical_tests(
 # Public API – identical to original, but internally decomposed
 # ---------------------------------------------------------------------------
 
-def calculate_metrics(
-    results: List[Dict[str, Any]],
-    canonical_labels: List[str],
-    logger: logging.Logger,
-) -> Dict[str, Any]:
-    """
-    Calculate accuracy, macro‑averaged metrics, and per‑label breakdown.
-
-    Args:
-        results: List of dicts with keys 'prediction' and 'label'.
-        canonical_labels: Allowed labels.
-        logger: Logger instance.
-
-    Returns:
-        Dict with keys: accuracy, macro_precision, macro_recall, macro_f1,
-        total_samples, correct_predictions, per_label_metrics.
-        If no valid results, returns {"error": "No valid results"}.
-    """
+def calculate_metrics(results, canonical_labels, logger):
     valid = _get_valid_predictions(results)
     if not valid:
         logger.warning("No valid results for metric calculation")
@@ -179,7 +188,7 @@ def calculate_metrics(
     total = len(valid)
     accuracy = correct / total if total > 0 else 0.0
 
-    # Per‑label metrics
+    # Per‑label metrics (unchanged)
     per_label = {}
     for label in canonical_labels:
         m = _compute_per_label(label, label_counts, confusion, canonical_labels)
@@ -187,6 +196,10 @@ def calculate_metrics(
             per_label[label] = m
 
     macro_prec, macro_rec, macro_f1 = _macro_averages(per_label)
+
+    # NEI rates
+    label_pred_pairs = [(normalize_label(r["label"]), r["prediction"]) for r in valid]
+    nei_rates = _compute_nei_rates(results, valid, label_pred_pairs)
 
     metrics = {
         "accuracy": round(accuracy, 4),
@@ -196,11 +209,10 @@ def calculate_metrics(
         "total_samples": total,
         "correct_predictions": correct,
         "per_label_metrics": per_label,
+        **nei_rates,                     # adds nei_prediction_rate, false_nei_rate
     }
-
-    logger.info(f"Metrics: Accuracy={metrics['accuracy']:.4f}, Macro-F1={metrics['macro_f1']:.4f}")
+    logger.info("Metrics: Accuracy=%.4f, Macro-F1=%.4f", metrics["accuracy"], metrics["macro_f1"])
     return metrics
-
 
 def compare_seen_unseen(
     seen_results: List[Dict],

@@ -92,10 +92,21 @@ def generate_summary_report(seen_metrics: Dict, unseen_metrics: Dict, comparison
     print(f"  Accuracy: {seen_metrics.get('accuracy', 'N/A')}")
     print(f"  Macro F1: {seen_metrics.get('macro_f1', 'N/A')}")
     print(f"  Samples: {seen_metrics.get('total_samples', 'N/A')}")
+    
+    if "nei_prediction_rate" in seen_metrics:
+        print("\nNEI METRICS (pre‑split data):")
+        print(f"  NEI Prediction Rate: {seen_metrics.get('nei_prediction_rate', 'N/A')}")
+        print(f"  False NEI Rate: {seen_metrics.get('false_nei_rate', 'N/A')}")
+    
     print("\nUNSEEN DATA PERFORMANCE:")
     print(f"  Accuracy: {unseen_metrics.get('accuracy', 'N/A')}")
     print(f"  Macro F1: {unseen_metrics.get('macro_f1', 'N/A')}")
     print(f"  Samples: {unseen_metrics.get('total_samples', 'N/A')}")
+    
+    if "nei_prediction_rate" in unseen_metrics:
+        print("\nNEI METRICS (post‑split data):")
+        print(f"  NEI Prediction Rate: {unseen_metrics.get('nei_prediction_rate', 'N/A')}")
+        print(f"  False NEI Rate: {unseen_metrics.get('false_nei_rate', 'N/A')}")
 
     if isinstance(comparison.get("statistical_tests"), dict):
         print("\nSTATISTICAL SIGNIFICANCE:")
