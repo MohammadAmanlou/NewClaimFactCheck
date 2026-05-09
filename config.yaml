@@ -34,3 +34,5 @@ display_every_n: 10
 output_root: "results"
 hf_token_env: "HF_TOKEN"
 api_key_env: "AVALAI_API_KEY"
+
+datasets_config: "datasets.yaml"

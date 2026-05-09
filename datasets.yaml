@@ -1,0 +1,69 @@
+# Dataset definitions – maps a dataset name to a local file and column mapping.
+# All paths are relative to the data_dir specified in config.yaml.
+
+claimreview_plus:
+  type: hf                              # HuggingFace dataset (special case)
+  source: "MAI-Lab/ClaimReview2024plus"
+  split: "test"
+
+factors:
+  type: csv
+  path: "FACTor/FACTors.csv"
+  mapping:
+    claim_id: "claim_id"
+    claim: "claim"
+    claim_date: "date_published"        # will be parsed with date_format
+    label: "normalised_rating"
+    speaker: "author"
+  filter:
+    exclude_labels: ["other", "unverifiable"]
+    label_column: "normalised_rating"
+  date_format: "%Y-%m-%dT%H:%M:%S"      # ISO format (we'll strip time part)
+  is_test: false
+
+fever_train:
+  type: json
+  path: "AVeriTeC_FEVER/train.json"
+  mapping:
+    claim_id: "claim_id"
+    claim: "claim"
+    claim_date: "claim_date"            # already in dd-mm-yyyy format
+    label: "label"
+    speaker: "speaker"
+  date_format: "%d-%m-%Y"
+  is_test: false
+
+fever_dev:
+  type: json
+  path: "AVeriTeC_FEVER/data_dev.json"
+  mapping:
+    claim_id: "claim_id"
+    claim: "claim"
+    claim_date: "claim_date"
+    label: "label"
+    speaker: "speaker"
+  date_format: "%d-%m-%Y"
+  is_test: false
+
+fever_test_2023_2024:
+  type: json
+  path: "AVeriTeC_FEVER/test_2023_2024.json"
+  mapping:
+    claim_id: "claim_id"
+    claim: "claim"
+    claim_date: "claim_date"
+    speaker: "speaker"
+  date_format: "%d-%m-%Y"
+  is_test: true                # no label column
+  # original_data will be preserved
+
+fever_test_2025:
+  type: json
+  path: "AVeriTeC_FEVER/test_2025.json"
+  mapping:
+    claim_id: "claim_id"
+    claim: "claim"
+    claim_date: "claim_date"
+    speaker: "speaker"
+  date_format: "%d-%m-%Y"
+  is_test: true
