@@ -29,7 +29,7 @@
         "source": "crp_with_bias",
         "label": "not enough information",
         "detected_biases": "[]",
-        "prediction": "Supported",
+        "prediction": "Not Enough Information",
         "prediction_error": null
     },
     {
@@ -51,8 +51,8 @@
         "source": "crp_with_bias",
         "label": "refuted",
         "detected_biases": "[{\"bias\": \"curse of knowledge\", \"confidence\": 0.4731}]",
-        "prediction": "Not Enough Information",
-        "prediction_error": null
+        "prediction": null,
+        "prediction_error": "Failed to get valid prediction"
     },
     {
         "claim_id": 66,
@@ -73,8 +73,8 @@
         "source": "crp_with_bias",
         "label": "supported",
         "detected_biases": "[]",
-        "prediction": null,
-        "prediction_error": "Failed to get valid prediction"
+        "prediction": "Misleading",
+        "prediction_error": null
     },
     {
         "claim_id": 68,
@@ -84,8 +84,8 @@
         "source": "crp_with_bias",
         "label": "misleading",
         "detected_biases": "[{\"bias\": \"curse of knowledge\", \"confidence\": 0.313}]",
-        "prediction": null,
-        "prediction_error": "Failed to get valid prediction"
+        "prediction": "Misleading",
+        "prediction_error": null
     },
     {
         "claim_id": 98,
@@ -128,7 +128,7 @@
         "source": "crp_with_bias",
         "label": "supported",
         "detected_biases": "[]",
-        "prediction": "Not Enough Information",
+        "prediction": "Misleading",
         "prediction_error": null
     },
     {
@@ -150,8 +150,8 @@
         "source": "crp_with_bias",
         "label": "supported",
         "detected_biases": "[{\"bias\": \"Availability heuristic\", \"confidence\": 0.3906}]",
-        "prediction": null,
-        "prediction_error": "Failed to get valid prediction"
+        "prediction": "Misleading",
+        "prediction_error": null
     },
     {
         "claim_id": 141,
@@ -161,8 +161,8 @@
         "source": "crp_with_bias",
         "label": "supported",
         "detected_biases": "[{\"bias\": \"Essentialism\", \"confidence\": 0.3788}]",
-        "prediction": null,
-        "prediction_error": "Failed to get valid prediction"
+        "prediction": "Misleading",
+        "prediction_error": null
     },
     {
         "claim_id": 149,
@@ -183,7 +183,7 @@
         "source": "crp_with_bias",
         "label": "misleading",
         "detected_biases": "[{\"bias\": \"Availability heuristic\", \"confidence\": 0.6901}]",
-        "prediction": "Misleading",
+        "prediction": "Refuted",
         "prediction_error": null
     },
     {
@@ -194,8 +194,8 @@
         "source": "crp_with_bias",
         "label": "misleading",
         "detected_biases": "[{\"bias\": \"hindsight bias\", \"confidence\": 0.6521}]",
-        "prediction": "Misleading",
-        "prediction_error": null
+        "prediction": null,
+        "prediction_error": "Failed to get valid prediction"
     },
     {
         "claim_id": 157,
@@ -216,8 +216,8 @@
         "source": "crp_with_bias",
         "label": "misleading",
         "detected_biases": "[{\"bias\": \"Availability heuristic\", \"confidence\": 0.572}]",
-        "prediction": "Not Enough Information",
-        "prediction_error": null
+        "prediction": null,
+        "prediction_error": "Failed to get valid prediction"
     },
     {
         "claim_id": 163,
@@ -238,8 +238,8 @@
         "source": "crp_with_bias",
         "label": "supported",
         "detected_biases": "[]",
-        "prediction": "Supported",
-        "prediction_error": null
+        "prediction": null,
+        "prediction_error": "Failed to get valid prediction"
     },
     {
         "claim_id": 165,
@@ -249,7 +249,7 @@
         "source": "crp_with_bias",
         "label": "misleading",
         "detected_biases": "[{\"bias\": \"Just-world hypothesis\", \"confidence\": 0.404}]",
-        "prediction": "Misleading",
+        "prediction": "Refuted",
         "prediction_error": null
     },
     {
@@ -359,8 +359,8 @@
         "source": "crp_with_bias",
         "label": "misleading",
         "detected_biases": "[]",
-        "prediction": null,
-        "prediction_error": "Failed to get valid prediction"
+        "prediction": "Refuted",
+        "prediction_error": null
     },
     {
         "claim_id": 183,
@@ -381,7 +381,7 @@
         "source": "crp_with_bias",
         "label": "misleading",
         "detected_biases": "[]",
-        "prediction": "Not Enough Information",
+        "prediction": "Supported",
         "prediction_error": null
     },
     {
@@ -392,8 +392,8 @@
         "source": "crp_with_bias",
         "label": "misleading",
         "detected_biases": "[]",
-        "prediction": null,
-        "prediction_error": "Failed to get valid prediction"
+        "prediction": "Misleading",
+        "prediction_error": null
     },
     {
         "claim_id": 186,
@@ -403,8 +403,8 @@
         "source": "crp_with_bias",
         "label": "not enough information",
         "detected_biases": "[]",
-        "prediction": "Misleading",
-        "prediction_error": null
+        "prediction": null,
+        "prediction_error": "Failed to get valid prediction"
     },
     {
         "claim_id": 194,
@@ -414,8 +414,8 @@
         "source": "crp_with_bias",
         "label": "not enough information",
         "detected_biases": "[{\"bias\": \"curse of knowledge\", \"confidence\": 0.3545}]",
-        "prediction": "Not Enough Information",
-        "prediction_error": null
+        "prediction": null,
+        "prediction_error": "Failed to get valid prediction"
     },
     {
         "claim_id": 251,
@@ -425,8 +425,8 @@
         "source": "crp_with_bias",
         "label": "misleading",
         "detected_biases": "[{\"bias\": \"Just-world hypothesis\", \"confidence\": 0.3995}]",
-        "prediction": "Not Enough Information",
-        "prediction_error": null
+        "prediction": null,
+        "prediction_error": "Failed to get valid prediction"
     },
     {
         "claim_id": 252,
@@ -447,8 +447,8 @@
         "source": "crp_with_bias",
         "label": "supported",
         "detected_biases": "[{\"bias\": \"hindsight bias\", \"confidence\": 0.735}]",
-        "prediction": null,
-        "prediction_error": "Failed to get valid prediction"
+        "prediction": "Misleading",
+        "prediction_error": null
     },
     {
         "claim_id": 279,
@@ -469,8 +469,8 @@
         "source": "crp_with_bias",
         "label": "refuted",
         "detected_biases": "[{\"bias\": \"hindsight bias\", \"confidence\": 0.3914}]",
-        "prediction": null,
-        "prediction_error": "Failed to get valid prediction"
+        "prediction": "Refuted",
+        "prediction_error": null
     },
     {
         "claim_id": 3,
@@ -480,8 +480,8 @@
         "source": "crp_with_bias",
         "label": "refuted",
         "detected_biases": "[{\"bias\": \"Attentional bias\", \"confidence\": 0.7347}]",
-        "prediction": null,
-        "prediction_error": "Failed to get valid prediction"
+        "prediction": "Refuted",
+        "prediction_error": null
     },
     {
         "claim_id": 25,
@@ -502,7 +502,7 @@
         "source": "crp_with_bias",
         "label": "not enough information",
         "detected_biases": "[]",
-        "prediction": "Misleading",
+        "prediction": "Refuted",
         "prediction_error": null
     },
     {
@@ -513,7 +513,7 @@
         "source": "crp_with_bias",
         "label": "refuted",
         "detected_biases": "[]",
-        "prediction": "Misleading",
+        "prediction": "Refuted",
         "prediction_error": null
     },
     {
@@ -524,7 +524,7 @@
         "source": "crp_with_bias",
         "label": "refuted",
         "detected_biases": "[]",
-        "prediction": "Refuted",
+        "prediction": "Misleading",
         "prediction_error": null
     },
     {
@@ -590,8 +590,8 @@
         "source": "crp_with_bias",
         "label": "supported",
         "detected_biases": "[{\"bias\": \"Essentialism\", \"confidence\": 0.4195}]",
-        "prediction": "Misleading",
-        "prediction_error": null
+        "prediction": null,
+        "prediction_error": "Failed to get valid prediction"
     },
     {
         "claim_id": 109,
@@ -601,8 +601,8 @@
         "source": "crp_with_bias",
         "label": "supported",
         "detected_biases": "[{\"bias\": \"Just-world hypothesis\", \"confidence\": 0.8087}]",
-        "prediction": null,
-        "prediction_error": "Failed to get valid prediction"
+        "prediction": "Not Enough Information",
+        "prediction_error": null
     },
     {
         "claim_id": 111,
@@ -612,8 +612,8 @@
         "source": "crp_with_bias",
         "label": "supported",
         "detected_biases": "[]",
-        "prediction": null,
-        "prediction_error": "Failed to get valid prediction"
+        "prediction": "Misleading",
+        "prediction_error": null
     },
     {
         "claim_id": 112,
@@ -645,7 +645,7 @@
         "source": "crp_with_bias",
         "label": "supported",
         "detected_biases": "[{\"bias\": \"curse of knowledge\", \"confidence\": 0.3113}]",
-        "prediction": "Not Enough Information",
+        "prediction": "Misleading",
         "prediction_error": null
     },
     {
@@ -722,8 +722,8 @@
         "source": "crp_with_bias",
         "label": "supported",
         "detected_biases": "[]",
-        "prediction": null,
-        "prediction_error": "Failed to get valid prediction"
+        "prediction": "Not Enough Information",
+        "prediction_error": null
     },
     {
         "claim_id": 129,
@@ -755,7 +755,7 @@
         "source": "crp_with_bias",
         "label": "supported",
         "detected_biases": "[{\"bias\": \"clustering illusion\", \"confidence\": 0.5018}]",
-        "prediction": "Refuted",
+        "prediction": "Not Enough Information",
         "prediction_error": null
     },
     {
@@ -766,8 +766,8 @@
         "source": "crp_with_bias",
         "label": "supported",
         "detected_biases": "[]",
-        "prediction": null,
-        "prediction_error": "Failed to get valid prediction"
+        "prediction": "Refuted",
+        "prediction_error": null
     },
     {
         "claim_id": 139,
@@ -788,7 +788,7 @@
         "source": "crp_with_bias",
         "label": "supported",
         "detected_biases": "[]",
-        "prediction": "Not Enough Information",
+        "prediction": "Misleading",
         "prediction_error": null
     },
     {
@@ -799,7 +799,7 @@
         "source": "crp_with_bias",
         "label": "supported",
         "detected_biases": "[{\"bias\": \"curse of knowledge\", \"confidence\": 0.3426}]",
-        "prediction": "Supported",
+        "prediction": "Not Enough Information",
         "prediction_error": null
     },
     {
@@ -810,7 +810,7 @@
         "source": "crp_with_bias",
         "label": "supported",
         "detected_biases": "[]",
-        "prediction": "Supported",
+        "prediction": "Not Enough Information",
         "prediction_error": null
     },
     {
@@ -821,8 +821,8 @@
         "source": "crp_with_bias",
         "label": "supported",
         "detected_biases": "[]",
-        "prediction": null,
-        "prediction_error": "Failed to get valid prediction"
+        "prediction": "Misleading",
+        "prediction_error": null
     },
     {
         "claim_id": 145,
@@ -843,8 +843,8 @@
         "source": "crp_with_bias",
         "label": "supported",
         "detected_biases": "[]",
-        "prediction": "Supported",
-        "prediction_error": null
+        "prediction": null,
+        "prediction_error": "Failed to get valid prediction"
     },
     {
         "claim_id": 147,
@@ -887,8 +887,8 @@
         "source": "crp_with_bias",
         "label": "misleading",
         "detected_biases": "[{\"bias\": \"Availability heuristic\", \"confidence\": 0.3306}]",
-        "prediction": null,
-        "prediction_error": "Failed to get valid prediction"
+        "prediction": "Misleading",
+        "prediction_error": null
     },
     {
         "claim_id": 158,
@@ -920,7 +920,7 @@
         "source": "crp_with_bias",
         "label": "not enough information",
         "detected_biases": "[]",
-        "prediction": "Misleading",
+        "prediction": "Refuted",
         "prediction_error": null
     },
     {
@@ -953,8 +953,8 @@
         "source": "crp_with_bias",
         "label": "not enough information",
         "detected_biases": "[{\"bias\": \"curse of knowledge\", \"confidence\": 0.6221}]",
-        "prediction": null,
-        "prediction_error": "Failed to get valid prediction"
+        "prediction": "Supported",
+        "prediction_error": null
     },
     {
         "claim_id": 192,
@@ -964,7 +964,7 @@
         "source": "crp_with_bias",
         "label": "not enough information",
         "detected_biases": "[]",
-        "prediction": "Refuted",
+        "prediction": "Misleading",
         "prediction_error": null
     },
     {
@@ -975,7 +975,7 @@
         "source": "crp_with_bias",
         "label": "supported",
         "detected_biases": "[]",
-        "prediction": "Refuted",
+        "prediction": "Not Enough Information",
         "prediction_error": null
     },
     {
@@ -997,7 +997,7 @@
         "source": "crp_with_bias",
         "label": "supported",
         "detected_biases": "[{\"bias\": \"curse of knowledge\", \"confidence\": 0.4011}]",
-        "prediction": "Not Enough Information",
+        "prediction": "Misleading",
         "prediction_error": null
     },
     {

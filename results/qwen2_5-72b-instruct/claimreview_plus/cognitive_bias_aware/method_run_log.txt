@@ -1,13 +1,13 @@
-2026-05-12 23:50:41,363 - INFO - Prompt method: cognitive_bias_aware
-2026-05-12 23:59:23,140 - INFO - Metrics: Accuracy=0.3151, Macro-F1=0.3051
-2026-05-13 00:05:01,312 - INFO - Metrics: Accuracy=0.5000, Macro-F1=0.4507
-2026-05-13 00:05:01,312 - INFO - ================================================================================
-2026-05-13 00:05:01,312 - INFO - Comparing seen vs unseen performance...
-2026-05-13 00:05:01,313 - INFO - Metrics: Accuracy=0.3151, Macro-F1=0.3051
-2026-05-13 00:05:01,314 - INFO - Metrics: Accuracy=0.5000, Macro-F1=0.4507
-2026-05-13 00:05:01,316 - INFO - Seen accuracy: 0.3151
-2026-05-13 00:05:01,317 - INFO - Unseen accuracy: 0.5
-2026-05-13 00:05:01,317 - INFO - Difference: 0.1849
-2026-05-13 00:05:01,318 - INFO - T-test p-value: 0.0276 (significant)
-2026-05-13 00:05:01,318 - INFO - Chi-square p-value: 0.0425 (significant)
-2026-05-13 00:05:01,319 - INFO - Summary report saved to results\qwen2_5-72b-instruct\claimreview_plus\cognitive_bias_aware\summary.json
+2026-05-13 00:10:05,116 - INFO - Prompt method: cognitive_bias_aware
+2026-05-13 00:16:22,476 - INFO - Metrics: Accuracy=0.2625, Macro-F1=0.2589
+2026-05-13 00:21:00,702 - INFO - Metrics: Accuracy=0.5161, Macro-F1=0.4968
+2026-05-13 00:21:00,702 - INFO - ================================================================================
+2026-05-13 00:21:00,702 - INFO - Comparing seen vs unseen performance...
+2026-05-13 00:21:00,703 - INFO - Metrics: Accuracy=0.2625, Macro-F1=0.2589
+2026-05-13 00:21:00,704 - INFO - Metrics: Accuracy=0.5161, Macro-F1=0.4968
+2026-05-13 00:21:00,707 - INFO - Seen accuracy: 0.2625
+2026-05-13 00:21:00,707 - INFO - Unseen accuracy: 0.5161
+2026-05-13 00:21:00,707 - INFO - Difference: 0.2536
+2026-05-13 00:21:00,707 - INFO - T-test p-value: 0.0018 (significant)
+2026-05-13 00:21:00,707 - INFO - Chi-square p-value: 0.0035 (significant)
+2026-05-13 00:21:00,708 - INFO - Summary report saved to results\qwen2_5-72b-instruct\claimreview_plus\cognitive_bias_aware\summary.json

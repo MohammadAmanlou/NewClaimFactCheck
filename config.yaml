@@ -11,8 +11,6 @@ labels:
 
 # Prompt methods to evaluate (can be one or more)
 prompt_methods:
-  - naive
-  - strong_baseline_short
   - cognitive_bias_aware
 
 temporal_split: "2024-09-01"
