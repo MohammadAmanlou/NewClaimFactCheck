@@ -1,7 +1,7 @@
 # Options: "claimreview_plus", "factors"
-dataset: "factors"                 
-model: "cf.llama-3.1-70b-instruct"
-api_url: "https://api.avalai.ir/v1/chat/completions"
+dataset: "claimreview_plus"                 
+model: "qwen2.5-72b-instruct"
+api_url: "https://api.avalapis.ir/v1/chat/completions"
 
 labels:
   - Supported
@@ -16,7 +16,7 @@ prompt_methods:
   - anti_nei
   - cvp
 
-temporal_split: "2024-04-01"
+temporal_split: "2024-09-01"
 date_format: "%d-%m-%Y"
 
 rate_limit:

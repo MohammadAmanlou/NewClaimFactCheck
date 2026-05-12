@@ -78,11 +78,14 @@ class ClaimProcessor:
         self.logger.info(f"Claim: {claim[:150]}...")
         self.logger.info(f"Date: {date}")
 
-        prediction = ask_model(claim=claim, 
-                               date=date, 
-                               config=self.config, 
-                               logger=self.logger, 
-                               prompt_method=self.prompt_method,)
+        prediction = ask_model(
+            claim=claim, 
+            date=date, 
+            config=self.config, 
+            logger=self.logger, 
+            prompt_method=self.prompt_method,
+            claim_dict=claim_dict,
+        )
 
         result = claim_dict.copy()
         if prediction:

@@ -118,6 +118,7 @@ def ask_model(
     config: Config,
     logger: logging.Logger,
     prompt_method: str = "naive",
+    claim_dict: Optional[Dict[str, Any]] = None,
 ) -> Optional[str]:
     logger.info("Asking model: %s (method: %s)", config.model, prompt_method)
     logger.info("Claim: %.150s...", claim)
@@ -127,7 +128,12 @@ def ask_model(
         logger.error("Unknown prompt method: %s", prompt_method)
         return None
 
-    prompt = builder(claim, date, config.labels)
+    kwargs = {"claim": claim, "date": date, "labels": config.labels}
+    if claim_dict:
+        kwargs.update(claim_dict)
+    
+    # We pass claim, date, labels explicitly + whatever is in claim_dict as kwargs
+    prompt = builder(**kwargs)
     payload = construct_payload(config.model, prompt, temperature=0.0, top_p=1.0,)
 
     headers = {
