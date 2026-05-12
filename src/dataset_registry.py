@@ -102,6 +102,15 @@ class DatasetRegistry:
             }
             if not is_test and "label" in mapping:
                 claim_dict["label"] = str(row[mapping["label"]]) if pd.notna(row[mapping["label"]]) else ""
+
+            # Load any additional mapped fields dynamically
+            for map_key, col_name in mapping.items():
+                if map_key not in ["claim_id", "claim", "claim_date", "speaker", "label"]:
+                    if col_name in row and pd.notna(row[col_name]):
+                        claim_dict[map_key] = str(row[col_name])
+                    else:
+                        claim_dict[map_key] = ""
+
             claims.append(claim_dict)
         print(f"✓ Loaded {len(claims)} claims")
         return claims
@@ -137,6 +146,15 @@ class DatasetRegistry:
             }
             if not is_test and "label" in mapping:
                 claim_dict["label"] = item.get(mapping["label"], "")
+            
+            # Load any additional mapped fields dynamically
+            for map_key, source_key in mapping.items():
+                if map_key not in ["claim_id", "claim", "claim_date", "speaker", "label"]:
+                    if source_key in item and item[source_key] is not None:
+                        claim_dict[map_key] = str(item[source_key])
+                    else:
+                        claim_dict[map_key] = ""
+            
             if is_test:
                 claim_dict["original_data"] = item  # preserve original for test output
             claims.append(claim_dict)

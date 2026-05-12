@@ -10,6 +10,7 @@ claimreview_plus:
     claim_date: "date"        
     label: "label"
     speaker: "author"
+    detected_biases: "all_detected_biases"
   filter:
     exclude_labels: []
     label_column: "normalised_rating"
