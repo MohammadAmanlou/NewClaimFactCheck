@@ -1,0 +1,757 @@
+2026-05-12 23:42:00,902 - INFO - Processing 68 claims...
+2026-05-12 23:42:00,903 - INFO - ================================================================================
+2026-05-12 23:42:00,903 - INFO - Processing claim #0 (ID: 0)
+2026-05-12 23:42:00,903 - INFO - Claim: 'Cow farts [methane emissions from cattle] are blamed for climate change, but there are bigger issues like people burning millions of tires in the des...
+2026-05-12 23:42:00,903 - INFO - Date: 23-11-2024
+2026-05-12 23:42:00,903 - INFO - Asking model: qwen2.5-72b-instruct (method: strong_baseline_short)
+2026-05-12 23:42:00,903 - INFO - Claim: 'Cow farts [methane emissions from cattle] are blamed for climate change, but there are bigger issues like people burning millions of tires in the des...
+2026-05-12 23:42:06,177 - INFO - API Response Status: 200
+2026-05-12 23:42:06,177 - INFO - Raw model response: {"label": "Misleading", "brief_reason": "While both cow methane emissions and tire burning contribute to climate change, the claim misleadingly downplays the significant impact of livestock emissions."}
+2026-05-12 23:42:06,177 - INFO - Extracted label: Misleading -> Normalized: Misleading
+2026-05-12 23:42:06,177 - INFO - Prediction: Misleading
+2026-05-12 23:42:06,177 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-05-12 23:42:06,289 - INFO - ================================================================================
+2026-05-12 23:42:06,289 - INFO - Processing claim #1 (ID: 1)
+2026-05-12 23:42:06,289 - INFO - Claim: 'New study shows that climate change is greatly overestimated because oceans are cooling Earth far more than we thought.'...
+2026-05-12 23:42:06,289 - INFO - Date: 23-11-2024
+2026-05-12 23:42:06,289 - INFO - Asking model: qwen2.5-72b-instruct (method: strong_baseline_short)
+2026-05-12 23:42:06,289 - INFO - Claim: 'New study shows that climate change is greatly overestimated because oceans are cooling Earth far more than we thought.'...
+2026-05-12 23:42:31,174 - INFO - API Response Status: 200
+2026-05-12 23:42:31,174 - INFO - Raw model response: {"label": "Refuted", "brief_reason": "Scientific evidence indicates that oceans are warming, not cooling, and contributing to global climate change."}
+2026-05-12 23:42:31,174 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2026-05-12 23:42:31,174 - INFO - Prediction: Refuted
+2026-05-12 23:42:31,174 - INFO - ✓ Correct prediction
+2026-05-12 23:42:31,284 - INFO - ================================================================================
+2026-05-12 23:42:31,284 - INFO - Processing claim #2 (ID: 2)
+2026-05-12 23:42:31,284 - INFO - Claim: 'Climate change has only had 'positive effects' on global food production.'...
+2026-05-12 23:42:31,284 - INFO - Date: 20-10-2024
+2026-05-12 23:42:31,284 - INFO - Asking model: qwen2.5-72b-instruct (method: strong_baseline_short)
+2026-05-12 23:42:31,284 - INFO - Claim: 'Climate change has only had 'positive effects' on global food production.'...
+2026-05-12 23:42:35,190 - INFO - API Response Status: 200
+2026-05-12 23:42:35,191 - INFO - Raw model response: {"label": "Refuted", "brief_reason": "Climate change has led to both positive and negative impacts on global food production, with negative effects being more prevalent in recent years."}
+2026-05-12 23:42:35,191 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2026-05-12 23:42:35,191 - INFO - Prediction: Refuted
+2026-05-12 23:42:35,191 - INFO - ✓ Correct prediction
+2026-05-12 23:42:35,294 - INFO - ================================================================================
+2026-05-12 23:42:35,295 - INFO - Processing claim #3 (ID: 4)
+2026-05-12 23:42:35,295 - INFO - Claim: 'The UK government is to fund “Bill Gates’ geoengineering experiments” to explore combatting global warming by cooling the earth.'...
+2026-05-12 23:42:35,295 - INFO - Date: 24-11-2024
+2026-05-12 23:42:35,295 - INFO - Asking model: qwen2.5-72b-instruct (method: strong_baseline_short)
+2026-05-12 23:42:35,295 - INFO - Claim: 'The UK government is to fund “Bill Gates’ geoengineering experiments” to explore combatting global warming by cooling the earth.'...
+2026-05-12 23:42:41,682 - INFO - API Response Status: 200
+2026-05-12 23:42:41,682 - INFO - Raw model response: {"label": "Misleading", "brief_reason": "The claim may contain some truth about funding for geoengineering research, but it oversimplifies and potentially misrepresents the involvement of Bill Gates and the specific nature of the experiments."}
+2026-05-12 23:42:41,682 - INFO - Extracted label: Misleading -> Normalized: Misleading
+2026-05-12 23:42:41,682 - INFO - Prediction: Misleading
+2026-05-12 23:42:41,682 - INFO - ✓ Correct prediction
+2026-05-12 23:42:41,788 - INFO - ================================================================================
+2026-05-12 23:42:41,788 - INFO - Processing claim #4 (ID: 5)
+2026-05-12 23:42:41,788 - INFO - Claim: 'First-ever snowfall on record in the Al-Jouf (or Al-Jawf) desert in Saudi Arabia occurred in early November 2024.'...
+2026-05-12 23:42:41,788 - INFO - Date: 03-11-2024
+2026-05-12 23:42:41,788 - INFO - Asking model: qwen2.5-72b-instruct (method: strong_baseline_short)
+2026-05-12 23:42:41,788 - INFO - Claim: 'First-ever snowfall on record in the Al-Jouf (or Al-Jawf) desert in Saudi Arabia occurred in early November 2024.'...
+2026-05-12 23:43:12,002 - WARNING - Network error: HTTPSConnectionPool(host='api.avalapis.ir', port=443): Read timed out. (read timeout=30). Retrying...
+2026-05-12 23:43:43,525 - WARNING - Network error: HTTPSConnectionPool(host='api.avalapis.ir', port=443): Read timed out. (read timeout=30). Retrying...
+2026-05-12 23:43:46,374 - INFO - API Response Status: 200
+2026-05-12 23:43:46,374 - INFO - Raw model response: {"label": "Not Enough Information", "brief_reason": "The specific date and verification from meteorological sources are required to confirm this unprecedented event."}
+2026-05-12 23:43:46,374 - INFO - Extracted label: Not Enough Information -> Normalized: Not Enough Information
+2026-05-12 23:43:46,374 - INFO - Prediction: Not Enough Information
+2026-05-12 23:43:46,374 - INFO - ✗ Incorrect (True: Refuted, Pred: Not Enough Information)
+2026-05-12 23:43:46,481 - INFO - ================================================================================
+2026-05-12 23:43:46,481 - INFO - Processing claim #5 (ID: 6)
+2026-05-12 23:43:46,481 - INFO - Claim: 'A staggering $41 billion has gone missing from the globalist World Bank’s Climate Change fund under the watch of Ajay Banga.'...
+2026-05-12 23:43:46,481 - INFO - Date: 28-10-2024
+2026-05-12 23:43:46,481 - INFO - Asking model: qwen2.5-72b-instruct (method: strong_baseline_short)
+2026-05-12 23:43:46,481 - INFO - Claim: 'A staggering $41 billion has gone missing from the globalist World Bank’s Climate Change fund under the watch of Ajay Banga.'...
+2026-05-12 23:43:57,111 - INFO - API Response Status: 502
+2026-05-12 23:43:57,111 - ERROR - API error 502: {"error":{"message":"Bad gateway","type":"gateway_error","code":"bad_gateway"}}
+2026-05-12 23:43:57,112 - WARNING - Failed to get valid prediction
+2026-05-12 23:43:57,223 - INFO - ================================================================================
+2026-05-12 23:43:57,223 - INFO - Processing claim #6 (ID: 7)
+2026-05-12 23:43:57,223 - INFO - Claim: 'Impact of human-induced CO2 is insignificant when compared to natural climate variations.'...
+2026-05-12 23:43:57,223 - INFO - Date: 10-11-2024
+2026-05-12 23:43:57,223 - INFO - Asking model: qwen2.5-72b-instruct (method: strong_baseline_short)
+2026-05-12 23:43:57,223 - INFO - Claim: 'Impact of human-induced CO2 is insignificant when compared to natural climate variations.'...
+2026-05-12 23:43:57,334 - INFO - API Response Status: 502
+2026-05-12 23:43:57,334 - ERROR - API error 502: {"error":{"message":"Bad gateway","type":"gateway_error","code":"bad_gateway"}}
+2026-05-12 23:43:57,335 - WARNING - Failed to get valid prediction
+2026-05-12 23:43:57,443 - INFO - ================================================================================
+2026-05-12 23:43:57,443 - INFO - Processing claim #7 (ID: 8)
+2026-05-12 23:43:57,443 - INFO - Claim: 'Rising CO2 and temperatures are behind the global boost in grain production over the last 60 years.'...
+2026-05-12 23:43:57,443 - INFO - Date: 28-10-2024
+2026-05-12 23:43:57,443 - INFO - Asking model: qwen2.5-72b-instruct (method: strong_baseline_short)
+2026-05-12 23:43:57,443 - INFO - Claim: 'Rising CO2 and temperatures are behind the global boost in grain production over the last 60 years.'...
+2026-05-12 23:44:00,596 - INFO - API Response Status: 200
+2026-05-12 23:44:00,596 - INFO - Raw model response: {"label": "Misleading", "brief_reason": "While CO2 and temperature increases can affect crop yields, attributing the boost in grain production solely to these factors ignores advancements in agricultural technology, practices, and other environmental changes."}
+2026-05-12 23:44:00,596 - INFO - Extracted label: Misleading -> Normalized: Misleading
+2026-05-12 23:44:00,596 - INFO - Prediction: Misleading
+2026-05-12 23:44:00,596 - INFO - ✓ Correct prediction
+2026-05-12 23:44:00,700 - INFO - ================================================================================
+2026-05-12 23:44:00,700 - INFO - Processing claim #8 (ID: 9)
+2026-05-12 23:44:00,700 - INFO - Claim: 'A study into global warming proves it is a hoax.'...
+2026-05-12 23:44:00,700 - INFO - Date: 15-10-2024
+2026-05-12 23:44:00,701 - INFO - Asking model: qwen2.5-72b-instruct (method: strong_baseline_short)
+2026-05-12 23:44:00,701 - INFO - Claim: 'A study into global warming proves it is a hoax.'...
+2026-05-12 23:44:02,190 - INFO - API Response Status: 200
+2026-05-12 23:44:02,190 - INFO - Raw model response: {"label": "Refuted", "brief_reason": "Multiple robust studies support the reality of global warming and its anthropogenic causes."}
+2026-05-12 23:44:02,191 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2026-05-12 23:44:02,191 - INFO - Prediction: Refuted
+2026-05-12 23:44:02,191 - INFO - ✓ Correct prediction
+2026-05-12 23:44:02,295 - INFO - ================================================================================
+2026-05-12 23:44:02,295 - INFO - Processing claim #9 (ID: 10)
+2026-05-12 23:44:02,295 - INFO - Claim: 'HAARP is responsible for recent floods in Spain, New Mexico, and elsewhere.'...
+2026-05-12 23:44:02,295 - INFO - Date: 30-10-2024
+2026-05-12 23:44:02,295 - INFO - Asking model: qwen2.5-72b-instruct (method: strong_baseline_short)
+2026-05-12 23:44:02,296 - INFO - Claim: 'HAARP is responsible for recent floods in Spain, New Mexico, and elsewhere.'...
+2026-05-12 23:44:04,742 - INFO - API Response Status: 200
+2026-05-12 23:44:04,742 - INFO - Raw model response: {"label": "Refuted", "brief_reason": "There is no scientific evidence linking HAARP to weather control or specific weather events."}
+2026-05-12 23:44:04,742 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2026-05-12 23:44:04,743 - INFO - Prediction: Refuted
+2026-05-12 23:44:04,743 - INFO - ✓ Correct prediction
+2026-05-12 23:44:04,853 - INFO - ================================================================================
+2026-05-12 23:44:04,854 - INFO - Processing claim #10 (ID: 11)
+2026-05-12 23:44:04,854 - INFO - Claim: 'The World Economic Forum (WEF) demanded a ban on homegrown plants to check global warming.'...
+2026-05-12 23:44:04,854 - INFO - Date: 09-10-2024
+2026-05-12 23:44:04,854 - INFO - Asking model: qwen2.5-72b-instruct (method: strong_baseline_short)
+2026-05-12 23:44:04,854 - INFO - Claim: 'The World Economic Forum (WEF) demanded a ban on homegrown plants to check global warming.'...
+2026-05-12 23:44:18,534 - INFO - API Response Status: 200
+2026-05-12 23:44:18,534 - INFO - Raw model response: {"label": "Refuted", "brief_reason": "The WEF has not demanded a ban on homegrown plants to check global warming."}
+2026-05-12 23:44:18,535 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2026-05-12 23:44:18,535 - INFO - Prediction: Refuted
+2026-05-12 23:44:18,535 - INFO - ✓ Correct prediction
+2026-05-12 23:44:18,650 - INFO - ================================================================================
+2026-05-12 23:44:18,650 - INFO - Processing claim #11 (ID: 12)
+2026-05-12 23:44:18,650 - INFO - Claim: 'There were no hurricanes this season even despite forecasts for a high activity; it has been a light hurricane season.'...
+2026-05-12 23:44:18,650 - INFO - Date: 09-09-2024
+2026-05-12 23:44:18,650 - INFO - Asking model: qwen2.5-72b-instruct (method: strong_baseline_short)
+2026-05-12 23:44:18,650 - INFO - Claim: 'There were no hurricanes this season even despite forecasts for a high activity; it has been a light hurricane season.'...
+2026-05-12 23:44:21,462 - INFO - API Response Status: 200
+2026-05-12 23:44:21,462 - INFO - Raw model response: {"label": "Misleading", "brief_reason": "The claim may be true for one region but could misrepresent the global or broader regional hurricane activity."}
+2026-05-12 23:44:21,462 - INFO - Extracted label: Misleading -> Normalized: Misleading
+2026-05-12 23:44:21,462 - INFO - Prediction: Misleading
+2026-05-12 23:44:21,462 - INFO - ✓ Correct prediction
+2026-05-12 23:44:21,576 - INFO - ================================================================================
+2026-05-12 23:44:21,576 - INFO - Processing claim #12 (ID: 13)
+2026-05-12 23:44:21,576 - INFO - Claim: 'A Centers for Disease Control and Prevention study finds children who received the Pfizer covid vaccine are more likely to get covid infection than u...
+2026-05-12 23:44:21,576 - INFO - Date: 03-01-2025
+2026-05-12 23:44:21,576 - INFO - Asking model: qwen2.5-72b-instruct (method: strong_baseline_short)
+2026-05-12 23:44:21,576 - INFO - Claim: 'A Centers for Disease Control and Prevention study finds children who received the Pfizer covid vaccine are more likely to get covid infection than u...
+2026-05-12 23:44:23,722 - INFO - API Response Status: 200
+2026-05-12 23:44:23,722 - INFO - Raw model response: {"label": "Refuted", "brief_reason": "The claim contradicts the effectiveness of the Pfizer vaccine as supported by multiple studies and health authorities."}
+2026-05-12 23:44:23,722 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2026-05-12 23:44:23,722 - INFO - Prediction: Refuted
+2026-05-12 23:44:23,722 - INFO - ✓ Correct prediction
+2026-05-12 23:44:23,824 - INFO - ================================================================================
+2026-05-12 23:44:23,824 - INFO - Processing claim #13 (ID: 14)
+2026-05-12 23:44:23,824 - INFO - Claim: 'Japan named COVID-19 mRNA vaccine the 'deadliest drug in history''...
+2026-05-12 23:44:23,824 - INFO - Date: 12-11-2024
+2026-05-12 23:44:23,824 - INFO - Asking model: qwen2.5-72b-instruct (method: strong_baseline_short)
+2026-05-12 23:44:23,824 - INFO - Claim: 'Japan named COVID-19 mRNA vaccine the 'deadliest drug in history''...
+2026-05-12 23:44:27,579 - INFO - API Response Status: 200
+2026-05-12 23:44:27,579 - INFO - Raw model response: {"label": "Refuted", "brief_reason": "There is no official statement from Japan naming the COVID-19 mRNA vaccine as the 'deadliest drug in history'."}
+2026-05-12 23:44:27,579 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2026-05-12 23:44:27,579 - INFO - Prediction: Refuted
+2026-05-12 23:44:27,579 - INFO - ✓ Correct prediction
+2026-05-12 23:44:27,689 - INFO - ================================================================================
+2026-05-12 23:44:27,689 - INFO - Processing claim #14 (ID: 15)
+2026-05-12 23:44:27,689 - INFO - Claim: 'The CEO of BioNTech, which developed a COVID-19 vaccine with Pfizer, did not get vaccinated.'...
+2026-05-12 23:44:27,689 - INFO - Date: 19-12-2024
+2026-05-12 23:44:27,689 - INFO - Asking model: qwen2.5-72b-instruct (method: strong_baseline_short)
+2026-05-12 23:44:27,689 - INFO - Claim: 'The CEO of BioNTech, which developed a COVID-19 vaccine with Pfizer, did not get vaccinated.'...
+2026-05-12 23:44:33,364 - INFO - API Response Status: 200
+2026-05-12 23:44:33,364 - INFO - Raw model response: {"label": "Refuted", "brief_reason": "The CEO of BioNTech, Ugur Sahin, has been vaccinated with the BioNTech-Pfizer COVID-19 vaccine."}
+2026-05-12 23:44:33,365 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2026-05-12 23:44:33,365 - INFO - Prediction: Refuted
+2026-05-12 23:44:33,365 - INFO - ✓ Correct prediction
+2026-05-12 23:44:33,478 - INFO - ================================================================================
+2026-05-12 23:44:33,478 - INFO - Processing claim #15 (ID: 16)
+2026-05-12 23:44:33,478 - INFO - Claim: 'Australian officials have warned that vaccine-linked turbo cancers will kill billions.'...
+2026-05-12 23:44:33,478 - INFO - Date: 13-12-2024
+2026-05-12 23:44:33,478 - INFO - Asking model: qwen2.5-72b-instruct (method: strong_baseline_short)
+2026-05-12 23:44:33,478 - INFO - Claim: 'Australian officials have warned that vaccine-linked turbo cancers will kill billions.'...
+2026-05-12 23:44:56,552 - INFO - API Response Status: 200
+2026-05-12 23:44:56,552 - INFO - Raw model response: {"label": "Refuted", "brief_reason": "There is no credible scientific evidence supporting the existence of 'vaccine-linked turbo cancers' that would kill billions."}
+2026-05-12 23:44:56,552 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2026-05-12 23:44:56,553 - INFO - Prediction: Refuted
+2026-05-12 23:44:56,553 - INFO - ✓ Correct prediction
+2026-05-12 23:44:56,654 - INFO - ================================================================================
+2026-05-12 23:44:56,654 - INFO - Processing claim #16 (ID: 17)
+2026-05-12 23:44:56,654 - INFO - Claim: “Ivermectin is a treatment after Covid and after vaccination, it is an effective medicine in all phases of Covid 19.”...
+2026-05-12 23:44:56,654 - INFO - Date: 10-12-2024
+2026-05-12 23:44:56,654 - INFO - Asking model: qwen2.5-72b-instruct (method: strong_baseline_short)
+2026-05-12 23:44:56,654 - INFO - Claim: “Ivermectin is a treatment after Covid and after vaccination, it is an effective medicine in all phases of Covid 19.”...
+2026-05-12 23:45:09,853 - INFO - API Response Status: 200
+2026-05-12 23:45:09,853 - INFO - Raw model response: {"label": "Misleading", "brief_reason": "Ivermectin's effectiveness for COVID-19 is not supported by robust clinical trials across all phases of the disease."}
+2026-05-12 23:45:09,853 - INFO - Extracted label: Misleading -> Normalized: Misleading
+2026-05-12 23:45:09,854 - INFO - Prediction: Misleading
+2026-05-12 23:45:09,854 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-05-12 23:45:09,963 - INFO - ================================================================================
+2026-05-12 23:45:09,963 - INFO - Processing claim #17 (ID: 18)
+2026-05-12 23:45:09,963 - INFO - Claim: 'RFK Jr's only statement on vaccines is that they need to be studied.'...
+2026-05-12 23:45:09,963 - INFO - Date: 10-12-2024
+2026-05-12 23:45:09,963 - INFO - Asking model: qwen2.5-72b-instruct (method: strong_baseline_short)
+2026-05-12 23:45:09,963 - INFO - Claim: 'RFK Jr's only statement on vaccines is that they need to be studied.'...
+2026-05-12 23:45:22,349 - INFO - API Response Status: 200
+2026-05-12 23:45:22,349 - INFO - Raw model response: {"label": "Misleading", "brief_reason": "RFK Jr. has made numerous statements about vaccines beyond just the need for study."}
+2026-05-12 23:45:22,350 - INFO - Extracted label: Misleading -> Normalized: Misleading
+2026-05-12 23:45:22,350 - INFO - Prediction: Misleading
+2026-05-12 23:45:22,350 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-05-12 23:45:22,459 - INFO - ================================================================================
+2026-05-12 23:45:22,459 - INFO - Processing claim #18 (ID: 19)
+2026-05-12 23:45:22,459 - INFO - Claim: 'Vaccine researcher warned ‘multiple viruses will be unleashed’ in January'...
+2026-05-12 23:45:22,459 - INFO - Date: 04-12-2024
+2026-05-12 23:45:22,460 - INFO - Asking model: qwen2.5-72b-instruct (method: strong_baseline_short)
+2026-05-12 23:45:22,460 - INFO - Claim: 'Vaccine researcher warned ‘multiple viruses will be unleashed’ in January'...
+2026-05-12 23:45:25,856 - INFO - API Response Status: 200
+2026-05-12 23:45:25,856 - INFO - Raw model response: {"label": "Misleading", "brief_reason": "The claim may refer to a real statement, but it likely distorts the context or intent of the warning."}
+2026-05-12 23:45:25,856 - INFO - Extracted label: Misleading -> Normalized: Misleading
+2026-05-12 23:45:25,856 - INFO - Prediction: Misleading
+2026-05-12 23:45:25,856 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-05-12 23:45:25,968 - INFO - ================================================================================
+2026-05-12 23:45:25,968 - INFO - Processing claim #19 (ID: 20)
+2026-05-12 23:45:25,968 - INFO - Claim: 'South African trauma surgeon Dr Vicky Jennings die after suffering a sudden heart attack due to COVID19 vaccine'...
+2026-05-12 23:45:25,969 - INFO - Date: 12-12-2024
+2026-05-12 23:45:25,969 - INFO - Asking model: qwen2.5-72b-instruct (method: strong_baseline_short)
+2026-05-12 23:45:25,969 - INFO - Claim: 'South African trauma surgeon Dr Vicky Jennings die after suffering a sudden heart attack due to COVID19 vaccine'...
+2026-05-12 23:45:29,789 - INFO - API Response Status: 200
+2026-05-12 23:45:29,790 - INFO - Raw model response: ```json
+{
+  "label": "Not Enough Information",
+  "brief_reason": "The specific cause of Dr. Vicky Jennings' death and its direct link to the COVID-19 vaccine cannot be confirmed without additional verified sources."
+}
+
+2026-05-12 23:45:29,790 - INFO - Extracted label: Not Enough Information -> Normalized: Not Enough Information
+2026-05-12 23:45:29,790 - INFO - Prediction: Not Enough Information
+2026-05-12 23:45:29,790 - INFO - ✗ Incorrect (True: Refuted, Pred: Not Enough Information)
+2026-05-12 23:45:29,905 - INFO - ================================================================================
+2026-05-12 23:45:29,905 - INFO - Processing claim #20 (ID: 21)
+2026-05-12 23:45:29,905 - INFO - Claim: “79.4% of babies who die of SIDS had a vaccine the same day”...
+2026-05-12 23:45:29,905 - INFO - Date: 12-12-2024
+2026-05-12 23:45:29,905 - INFO - Asking model: qwen2.5-72b-instruct (method: strong_baseline_short)
+2026-05-12 23:45:29,905 - INFO - Claim: “79.4% of babies who die of SIDS had a vaccine the same day”...
+2026-05-12 23:45:29,983 - INFO - API Response Status: 502
+2026-05-12 23:45:29,983 - ERROR - API error 502: {"error":{"message":"Bad gateway","type":"gateway_error","code":"bad_gateway"}}
+2026-05-12 23:45:29,984 - WARNING - Failed to get valid prediction
+2026-05-12 23:45:30,092 - INFO - ================================================================================
+2026-05-12 23:45:30,092 - INFO - Processing claim #21 (ID: 23)
+2026-05-12 23:45:30,092 - INFO - Claim: 'Recurring ear infections in children are a vaccine side effect.'...
+2026-05-12 23:45:30,092 - INFO - Date: 27-11-2024
+2026-05-12 23:45:30,092 - INFO - Asking model: qwen2.5-72b-instruct (method: strong_baseline_short)
+2026-05-12 23:45:30,092 - INFO - Claim: 'Recurring ear infections in children are a vaccine side effect.'...
+2026-05-12 23:45:32,963 - INFO - API Response Status: 200
+2026-05-12 23:45:32,963 - INFO - Raw model response: {"label": "Refuted", "brief_reason": "There is no credible scientific evidence linking vaccines to recurring ear infections in children."}
+2026-05-12 23:45:32,963 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2026-05-12 23:45:32,963 - INFO - Prediction: Refuted
+2026-05-12 23:45:32,963 - INFO - ✓ Correct prediction
+2026-05-12 23:45:33,065 - INFO - ================================================================================
+2026-05-12 23:45:33,065 - INFO - Processing claim #22 (ID: 24)
+2026-05-12 23:45:33,065 - INFO - Claim: 'Dr. Anthony Fauci said that 72 mandatory childhood vaccines were never safety tested.'...
+2026-05-12 23:45:33,065 - INFO - Date: 06-12-2024
+2026-05-12 23:45:33,065 - INFO - Asking model: qwen2.5-72b-instruct (method: strong_baseline_short)
+2026-05-12 23:45:33,065 - INFO - Claim: 'Dr. Anthony Fauci said that 72 mandatory childhood vaccines were never safety tested.'...
+2026-05-12 23:45:36,161 - INFO - API Response Status: 200
+2026-05-12 23:45:36,161 - INFO - Raw model response: {"label": "Refuted", "brief_reason": "Dr. Fauci has not made such a statement."}
+2026-05-12 23:45:36,161 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2026-05-12 23:45:36,161 - INFO - Prediction: Refuted
+2026-05-12 23:45:36,161 - INFO - ✓ Correct prediction
+2026-05-12 23:45:36,275 - INFO - ================================================================================
+2026-05-12 23:45:36,275 - INFO - Processing claim #23 (ID: 26)
+2026-05-12 23:45:36,276 - INFO - Claim: 'Zimbabwe's economic grew a steady 3-6%.'...
+2026-05-12 23:45:36,276 - INFO - Date: 02-11-2024
+2026-05-12 23:45:36,276 - INFO - Asking model: qwen2.5-72b-instruct (method: strong_baseline_short)
+2026-05-12 23:45:36,276 - INFO - Claim: 'Zimbabwe's economic grew a steady 3-6%.'...
+2026-05-12 23:45:39,469 - INFO - API Response Status: 200
+2026-05-12 23:45:39,469 - INFO - Raw model response: {"label": "Not Enough Information", "brief_reason": "The claim lacks a specific timeframe and source for the economic growth rate."}
+2026-05-12 23:45:39,469 - INFO - Extracted label: Not Enough Information -> Normalized: Not Enough Information
+2026-05-12 23:45:39,469 - INFO - Prediction: Not Enough Information
+2026-05-12 23:45:39,469 - INFO - ✗ Incorrect (True: Refuted, Pred: Not Enough Information)
+2026-05-12 23:45:39,576 - INFO - ================================================================================
+2026-05-12 23:45:39,576 - INFO - Processing claim #24 (ID: 27)
+2026-05-12 23:45:39,576 - INFO - Claim: 'Kamala Harris “destroyed our economy.”'...
+2026-05-12 23:45:39,576 - INFO - Date: 19-10-2024
+2026-05-12 23:45:39,576 - INFO - Asking model: qwen2.5-72b-instruct (method: strong_baseline_short)
+2026-05-12 23:45:39,576 - INFO - Claim: 'Kamala Harris “destroyed our economy.”'...
+2026-05-12 23:45:53,773 - INFO - API Response Status: 200
+2026-05-12 23:45:53,773 - INFO - Raw model response: {"label": "Refuted", "brief_reason": "There is no credible evidence that Kamala Harris alone had such a significant negative impact on the U.S. economy."}
+2026-05-12 23:45:53,773 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2026-05-12 23:45:53,773 - INFO - Prediction: Refuted
+2026-05-12 23:45:53,773 - INFO - ✓ Correct prediction
+2026-05-12 23:45:53,875 - INFO - ================================================================================
+2026-05-12 23:45:53,875 - INFO - Processing claim #25 (ID: 28)
+2026-05-12 23:45:53,875 - INFO - Claim: 'A viral claim on X suggests that 159 out of 195 countries are to join a new BRICS settlement system, implying a significant shift toward BRICS domina...
+2026-05-12 23:45:53,875 - INFO - Date: 23-10-2024
+2026-05-12 23:45:53,875 - INFO - Asking model: qwen2.5-72b-instruct (method: strong_baseline_short)
+2026-05-12 23:45:53,875 - INFO - Claim: 'A viral claim on X suggests that 159 out of 195 countries are to join a new BRICS settlement system, implying a significant shift toward BRICS domina...
+2026-05-12 23:45:56,972 - INFO - API Response Status: 502
+2026-05-12 23:45:56,972 - ERROR - API error 502: {"error":{"message":"Bad gateway","type":"gateway_error","code":"bad_gateway"}}
+2026-05-12 23:45:56,972 - WARNING - Failed to get valid prediction
+2026-05-12 23:45:57,084 - INFO - ================================================================================
+2026-05-12 23:45:57,084 - INFO - Processing claim #26 (ID: 29)
+2026-05-12 23:45:57,084 - INFO - Claim: 'There’s a £22 billion black hole in the economy.'...
+2026-05-12 23:45:57,085 - INFO - Date: 09-10-2024
+2026-05-12 23:45:57,085 - INFO - Asking model: qwen2.5-72b-instruct (method: strong_baseline_short)
+2026-05-12 23:45:57,085 - INFO - Claim: 'There’s a £22 billion black hole in the economy.'...
+2026-05-12 23:45:58,941 - INFO - API Response Status: 200
+2026-05-12 23:45:58,942 - INFO - Raw model response: {"label": "Misleading", "brief_reason": "The claim lacks context and specificity about what 'black hole' refers to and how it affects the economy."}
+2026-05-12 23:45:58,942 - INFO - Extracted label: Misleading -> Normalized: Misleading
+2026-05-12 23:45:58,942 - INFO - Prediction: Misleading
+2026-05-12 23:45:58,942 - INFO - ✓ Correct prediction
+2026-05-12 23:45:59,044 - INFO - ================================================================================
+2026-05-12 23:45:59,044 - INFO - Processing claim #27 (ID: 30)
+2026-05-12 23:45:59,044 - INFO - Claim: 'Within one year, our government has eliminated Boko Haram and bandit commanders faster than ever, over 300 as of the last count.'...
+2026-05-12 23:45:59,044 - INFO - Date: 01-10-2024
+2026-05-12 23:45:59,044 - INFO - Asking model: qwen2.5-72b-instruct (method: strong_baseline_short)
+2026-05-12 23:45:59,045 - INFO - Claim: 'Within one year, our government has eliminated Boko Haram and bandit commanders faster than ever, over 300 as of the last count.'...
+2026-05-12 23:46:01,328 - INFO - API Response Status: 200
+2026-05-12 23:46:01,330 - INFO - Raw model response: {"label": "Misleading", "brief_reason": "The claim may contain some true elements but lacks context and specific timeframe, potentially creating a misleading impression."}
+2026-05-12 23:46:01,330 - INFO - Extracted label: Misleading -> Normalized: Misleading
+2026-05-12 23:46:01,330 - INFO - Prediction: Misleading
+2026-05-12 23:46:01,330 - INFO - ✗ Incorrect (True: Not Enough Information, Pred: Misleading)
+2026-05-12 23:46:01,438 - INFO - ================================================================================
+2026-05-12 23:46:01,439 - INFO - Processing claim #28 (ID: 32)
+2026-05-12 23:46:01,439 - INFO - Claim: 'We have reduced the debt service ratio from 97 % to 68 %.'...
+2026-05-12 23:46:01,439 - INFO - Date: 01-10-2024
+2026-05-12 23:46:01,439 - INFO - Asking model: qwen2.5-72b-instruct (method: strong_baseline_short)
+2026-05-12 23:46:01,439 - INFO - Claim: 'We have reduced the debt service ratio from 97 % to 68 %.'...
+2026-05-12 23:46:04,216 - INFO - API Response Status: 200
+2026-05-12 23:46:04,216 - INFO - Raw model response: {"label": "Not Enough Information", "brief_reason": "The claim lacks specific time frames and sources for the debt service ratio figures."}
+2026-05-12 23:46:04,216 - INFO - Extracted label: Not Enough Information -> Normalized: Not Enough Information
+2026-05-12 23:46:04,216 - INFO - Prediction: Not Enough Information
+2026-05-12 23:46:04,216 - INFO - ✓ Correct prediction
+2026-05-12 23:46:04,329 - INFO - ================================================================================
+2026-05-12 23:46:04,329 - INFO - Processing claim #29 (ID: 33)
+2026-05-12 23:46:04,329 - INFO - Claim: 'We inherited a reserve of over $33 billion 16 months ago.'...
+2026-05-12 23:46:04,329 - INFO - Date: 01-10-2024
+2026-05-12 23:46:04,330 - INFO - Asking model: qwen2.5-72b-instruct (method: strong_baseline_short)
+2026-05-12 23:46:04,330 - INFO - Claim: 'We inherited a reserve of over $33 billion 16 months ago.'...
+2026-05-12 23:46:15,461 - INFO - API Response Status: 502
+2026-05-12 23:46:15,461 - ERROR - API error 502: {"error":{"message":"Bad gateway","type":"gateway_error","code":"bad_gateway"}}
+2026-05-12 23:46:15,462 - WARNING - Failed to get valid prediction
+2026-05-12 23:46:15,580 - INFO - ================================================================================
+2026-05-12 23:46:15,580 - INFO - Processing claim #30 (ID: 34)
+2026-05-12 23:46:15,580 - INFO - Claim: 'Our country attracted foreign direct investments worth more than US$30 billion in the last year.'...
+2026-05-12 23:46:15,580 - INFO - Date: 01-10-2024
+2026-05-12 23:46:15,580 - INFO - Asking model: qwen2.5-72b-instruct (method: strong_baseline_short)
+2026-05-12 23:46:15,580 - INFO - Claim: 'Our country attracted foreign direct investments worth more than US$30 billion in the last year.'...
+2026-05-12 23:46:17,326 - INFO - API Response Status: 200
+2026-05-12 23:46:17,327 - INFO - Raw model response: {"label": "Not Enough Information", "brief_reason": "Without specific data or context about the country and time period, the claim cannot be verified."}
+2026-05-12 23:46:17,327 - INFO - Extracted label: Not Enough Information -> Normalized: Not Enough Information
+2026-05-12 23:46:17,327 - INFO - Prediction: Not Enough Information
+2026-05-12 23:46:17,327 - INFO - ✗ Incorrect (True: Refuted, Pred: Not Enough Information)
+2026-05-12 23:46:17,440 - INFO - ================================================================================
+2026-05-12 23:46:17,441 - INFO - Processing claim #31 (ID: 35)
+2026-05-12 23:46:17,441 - INFO - Claim: 'Our young people … constitute more than 60% of our population.'...
+2026-05-12 23:46:17,441 - INFO - Date: 01-10-2024
+2026-05-12 23:46:17,441 - INFO - Asking model: qwen2.5-72b-instruct (method: strong_baseline_short)
+2026-05-12 23:46:17,441 - INFO - Claim: 'Our young people … constitute more than 60% of our population.'...
+2026-05-12 23:46:20,824 - INFO - API Response Status: 200
+2026-05-12 23:46:20,824 - INFO - Raw model response: {"label": "Not Enough Information", "brief_reason": "The claim lacks specific context, such as the country or region being referred to, making it impossible to verify the accuracy."}
+2026-05-12 23:46:20,825 - INFO - Extracted label: Not Enough Information -> Normalized: Not Enough Information
+2026-05-12 23:46:20,825 - INFO - Prediction: Not Enough Information
+2026-05-12 23:46:20,825 - INFO - ✗ Incorrect (True: Refuted, Pred: Not Enough Information)
+2026-05-12 23:46:20,925 - INFO - ================================================================================
+2026-05-12 23:46:20,925 - INFO - Processing claim #32 (ID: 36)
+2026-05-12 23:46:20,925 - INFO - Claim: 'The Prime Minister inherited the fastest growing economy in the G7.'...
+2026-05-12 23:46:20,926 - INFO - Date: 04-09-2024
+2026-05-12 23:46:20,926 - INFO - Asking model: qwen2.5-72b-instruct (method: strong_baseline_short)
+2026-05-12 23:46:20,926 - INFO - Claim: 'The Prime Minister inherited the fastest growing economy in the G7.'...
+2026-05-12 23:46:24,439 - INFO - API Response Status: 200
+2026-05-12 23:46:24,440 - INFO - Raw model response: {"label": "Not Enough Information", "brief_reason": "The claim lacks specific time frame and context about which Prime Minister and period it refers to."}
+2026-05-12 23:46:24,440 - INFO - Extracted label: Not Enough Information -> Normalized: Not Enough Information
+2026-05-12 23:46:24,440 - INFO - Prediction: Not Enough Information
+2026-05-12 23:46:24,440 - INFO - ✗ Incorrect (True: Misleading, Pred: Not Enough Information)
+2026-05-12 23:46:24,541 - INFO - ================================================================================
+2026-05-12 23:46:24,541 - INFO - Processing claim #33 (ID: 37)
+2026-05-12 23:46:24,541 - INFO - Claim: '22 states failed to upload their Electoral College certifications, which are needed to certify election results on January 6, 2025.'...
+2026-05-12 23:46:24,542 - INFO - Date: 06-01-2025
+2026-05-12 23:46:24,542 - INFO - Asking model: qwen2.5-72b-instruct (method: strong_baseline_short)
+2026-05-12 23:46:24,542 - INFO - Claim: '22 states failed to upload their Electoral College certifications, which are needed to certify election results on January 6, 2025.'...
+2026-05-12 23:46:38,824 - INFO - API Response Status: 200
+2026-05-12 23:46:38,824 - INFO - Raw model response: {"label": "Not Enough Information", "brief_reason": "The specific details about the 22 states and the certification process for the 2025 election are not provided or verifiable without additional context."}
+2026-05-12 23:46:38,824 - INFO - Extracted label: Not Enough Information -> Normalized: Not Enough Information
+2026-05-12 23:46:38,824 - INFO - Prediction: Not Enough Information
+2026-05-12 23:46:38,824 - INFO - ✗ Incorrect (True: Refuted, Pred: Not Enough Information)
+2026-05-12 23:46:38,940 - INFO - ================================================================================
+2026-05-12 23:46:38,940 - INFO - Processing claim #34 (ID: 38)
+2026-05-12 23:46:38,940 - INFO - Claim: 'S. Korea's National Election Commission's falsehoods were revealed in court'...
+2026-05-12 23:46:38,940 - INFO - Date: 20-12-2024
+2026-05-12 23:46:38,940 - INFO - Asking model: qwen2.5-72b-instruct (method: strong_baseline_short)
+2026-05-12 23:46:38,940 - INFO - Claim: 'S. Korea's National Election Commission's falsehoods were revealed in court'...
+2026-05-12 23:46:42,056 - INFO - API Response Status: 200
+2026-05-12 23:46:42,056 - INFO - Raw model response: {
+  "label": "Not Enough Information",
+  "brief_reason": "The claim lacks specific details about the falsehoods and the court case."
+}
+2026-05-12 23:46:42,056 - INFO - Extracted label: Not Enough Information -> Normalized: Not Enough Information
+2026-05-12 23:46:42,057 - INFO - Prediction: Not Enough Information
+2026-05-12 23:46:42,057 - INFO - ✗ Incorrect (True: Refuted, Pred: Not Enough Information)
+2026-05-12 23:46:42,158 - INFO - ================================================================================
+2026-05-12 23:46:42,158 - INFO - Processing claim #35 (ID: 40)
+2026-05-12 23:46:42,158 - INFO - Claim: 'Michelle Obama has urged Congress to recount election votes saying that the 2024 presidential election result was influenced by ‘Russian disinformati...
+2026-05-12 23:46:42,158 - INFO - Date: 13-12-2024
+2026-05-12 23:46:42,158 - INFO - Asking model: qwen2.5-72b-instruct (method: strong_baseline_short)
+2026-05-12 23:46:42,158 - INFO - Claim: 'Michelle Obama has urged Congress to recount election votes saying that the 2024 presidential election result was influenced by ‘Russian disinformati...
+2026-05-12 23:46:45,799 - INFO - API Response Status: 200
+2026-05-12 23:46:45,799 - INFO - Raw model response: {"label": "Refuted", "brief_reason": "There is no public record of Michelle Obama making such a statement about the 2024 election."}
+2026-05-12 23:46:45,799 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2026-05-12 23:46:45,799 - INFO - Prediction: Refuted
+2026-05-12 23:46:45,799 - INFO - ✓ Correct prediction
+2026-05-12 23:46:45,910 - INFO - ================================================================================
+2026-05-12 23:46:45,910 - INFO - Processing claim #36 (ID: 41)
+2026-05-12 23:46:45,910 - INFO - Claim: 'ABP Opinion poll states BJP will win in the upcoming Delhi election.'...
+2026-05-12 23:46:45,910 - INFO - Date: 19-12-2024
+2026-05-12 23:46:45,910 - INFO - Asking model: qwen2.5-72b-instruct (method: strong_baseline_short)
+2026-05-12 23:46:45,910 - INFO - Claim: 'ABP Opinion poll states BJP will win in the upcoming Delhi election.'...
+2026-05-12 23:47:06,046 - INFO - API Response Status: 502
+2026-05-12 23:47:06,046 - ERROR - API error 502: {"error":{"message":"Bad gateway","type":"gateway_error","code":"bad_gateway"}}
+2026-05-12 23:47:06,047 - WARNING - Failed to get valid prediction
+2026-05-12 23:47:06,157 - INFO - ================================================================================
+2026-05-12 23:47:06,157 - INFO - Processing claim #37 (ID: 44)
+2026-05-12 23:47:06,157 - INFO - Claim: 'North Maluku politician will give out financial aid after winning election.'...
+2026-05-12 23:47:06,157 - INFO - Date: 03-12-2024
+2026-05-12 23:47:06,157 - INFO - Asking model: qwen2.5-72b-instruct (method: strong_baseline_short)
+2026-05-12 23:47:06,157 - INFO - Claim: 'North Maluku politician will give out financial aid after winning election.'...
+2026-05-12 23:47:08,467 - INFO - API Response Status: 200
+2026-05-12 23:47:08,467 - INFO - Raw model response: {"label": "Not Enough Information", "brief_reason": "The claim lacks specific details about the politician, the election, and the financial aid, making it impossible to verify."}
+2026-05-12 23:47:08,467 - INFO - Extracted label: Not Enough Information -> Normalized: Not Enough Information
+2026-05-12 23:47:08,467 - INFO - Prediction: Not Enough Information
+2026-05-12 23:47:08,467 - INFO - ✗ Incorrect (True: Refuted, Pred: Not Enough Information)
+2026-05-12 23:47:08,577 - INFO - ================================================================================
+2026-05-12 23:47:08,577 - INFO - Processing claim #38 (ID: 45)
+2026-05-12 23:47:08,577 - INFO - Claim: 'Oprah Winfrey Said She Is Leaving The US Over The 2024 Presidential Election Results'...
+2026-05-12 23:47:08,577 - INFO - Date: 13-12-2024
+2026-05-12 23:47:08,577 - INFO - Asking model: qwen2.5-72b-instruct (method: strong_baseline_short)
+2026-05-12 23:47:08,577 - INFO - Claim: 'Oprah Winfrey Said She Is Leaving The US Over The 2024 Presidential Election Results'...
+2026-05-12 23:47:28,645 - INFO - API Response Status: 502
+2026-05-12 23:47:28,645 - ERROR - API error 502: {"error":{"message":"Bad gateway","type":"gateway_error","code":"bad_gateway"}}
+2026-05-12 23:47:28,645 - WARNING - Failed to get valid prediction
+2026-05-12 23:47:28,758 - INFO - ================================================================================
+2026-05-12 23:47:28,758 - INFO - Processing claim #39 (ID: 46)
+2026-05-12 23:47:28,759 - INFO - Claim: 'Indian election commission said opposition candidate got 0 votes'...
+2026-05-12 23:47:28,759 - INFO - Date: 25-11-2024
+2026-05-12 23:47:28,759 - INFO - Asking model: qwen2.5-72b-instruct (method: strong_baseline_short)
+2026-05-12 23:47:28,759 - INFO - Claim: 'Indian election commission said opposition candidate got 0 votes'...
+2026-05-12 23:47:31,841 - INFO - API Response Status: 200
+2026-05-12 23:47:31,841 - INFO - Raw model response: {"label": "Refuted", "brief_reason": "It is highly unlikely for an opposition candidate to receive zero votes in a democratic election, and there is no credible report of such an event."}
+2026-05-12 23:47:31,841 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2026-05-12 23:47:31,841 - INFO - Prediction: Refuted
+2026-05-12 23:47:31,841 - INFO - ✓ Correct prediction
+2026-05-12 23:47:31,954 - INFO - ================================================================================
+2026-05-12 23:47:31,954 - INFO - Processing claim #40 (ID: 47)
+2026-05-12 23:47:31,954 - INFO - Claim: 'India Today magazine's cover dated Nov 23 featured Rahul Gandhi with a title: "Maha-Raja of Mishap" after Congress defeat in Maharashtra elections.'...
+2026-05-12 23:47:31,956 - INFO - Date: 25-11-2024
+2026-05-12 23:47:31,956 - INFO - Asking model: qwen2.5-72b-instruct (method: strong_baseline_short)
+2026-05-12 23:47:31,956 - INFO - Claim: 'India Today magazine's cover dated Nov 23 featured Rahul Gandhi with a title: "Maha-Raja of Mishap" after Congress defeat in Maharashtra elections.'...
+2026-05-12 23:47:46,362 - INFO - API Response Status: 200
+2026-05-12 23:47:46,362 - INFO - Raw model response: {"label": "Not Enough Information", "brief_reason": "The specific date and title of the magazine cover cannot be verified without additional sources."}
+2026-05-12 23:47:46,362 - INFO - Extracted label: Not Enough Information -> Normalized: Not Enough Information
+2026-05-12 23:47:46,362 - INFO - Prediction: Not Enough Information
+2026-05-12 23:47:46,362 - INFO - ✗ Incorrect (True: Refuted, Pred: Not Enough Information)
+2026-05-12 23:47:46,476 - INFO - ================================================================================
+2026-05-12 23:47:46,476 - INFO - Processing claim #41 (ID: 48)
+2026-05-12 23:47:46,477 - INFO - Claim: 'Kurt Russell quote saying Biden cheated election'...
+2026-05-12 23:47:46,477 - INFO - Date: 05-12-2024
+2026-05-12 23:47:46,477 - INFO - Asking model: qwen2.5-72b-instruct (method: strong_baseline_short)
+2026-05-12 23:47:46,477 - INFO - Claim: 'Kurt Russell quote saying Biden cheated election'...
+2026-05-12 23:47:48,278 - INFO - API Response Status: 200
+2026-05-12 23:47:48,278 - INFO - Raw model response: {"label": "Refuted", "brief_reason": "Kurt Russell has not made any public statements about election fraud involving Joe Biden."}
+2026-05-12 23:47:48,279 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2026-05-12 23:47:48,279 - INFO - Prediction: Refuted
+2026-05-12 23:47:48,279 - INFO - ✓ Correct prediction
+2026-05-12 23:47:48,388 - INFO - ================================================================================
+2026-05-12 23:47:48,388 - INFO - Processing claim #42 (ID: 49)
+2026-05-12 23:47:48,388 - INFO - Claim: 'Jason Momoa Said He Is Leaving the U.S. In Response To The 2024 U.S. Presidential Election Results'...
+2026-05-12 23:47:48,388 - INFO - Date: 05-12-2024
+2026-05-12 23:47:48,388 - INFO - Asking model: qwen2.5-72b-instruct (method: strong_baseline_short)
+2026-05-12 23:47:48,388 - INFO - Claim: 'Jason Momoa Said He Is Leaving the U.S. In Response To The 2024 U.S. Presidential Election Results'...
+2026-05-12 23:47:51,798 - INFO - API Response Status: 200
+2026-05-12 23:47:51,798 - INFO - Raw model response: {"label": "Not Enough Information", "brief_reason": "The claim lacks specific details about when and where Jason Momoa made this statement, making it impossible to verify."}
+2026-05-12 23:47:51,798 - INFO - Extracted label: Not Enough Information -> Normalized: Not Enough Information
+2026-05-12 23:47:51,798 - INFO - Prediction: Not Enough Information
+2026-05-12 23:47:51,799 - INFO - ✗ Incorrect (True: Refuted, Pred: Not Enough Information)
+2026-05-12 23:47:51,902 - INFO - ================================================================================
+2026-05-12 23:47:51,902 - INFO - Processing claim #43 (ID: 52)
+2026-05-12 23:47:51,902 - INFO - Claim: 'Facebook users must post a statement on their profiles to bar Meta and its generative artificial intelligence (AI) models from using their “photos, i...
+2026-05-12 23:47:51,902 - INFO - Date: 10-12-2024
+2026-05-12 23:47:51,902 - INFO - Asking model: qwen2.5-72b-instruct (method: strong_baseline_short)
+2026-05-12 23:47:51,902 - INFO - Claim: 'Facebook users must post a statement on their profiles to bar Meta and its generative artificial intelligence (AI) models from using their “photos, i...
+2026-05-12 23:47:54,559 - INFO - API Response Status: 200
+2026-05-12 23:47:54,559 - INFO - Raw model response: {"label": "Refuted", "brief_reason": "Meta has not implemented a requirement for Facebook users to post such a statement to prevent AI usage of their content."}
+2026-05-12 23:47:54,559 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2026-05-12 23:47:54,560 - INFO - Prediction: Refuted
+2026-05-12 23:47:54,560 - INFO - ✓ Correct prediction
+2026-05-12 23:47:54,661 - INFO - ================================================================================
+2026-05-12 23:47:54,662 - INFO - Processing claim #44 (ID: 53)
+2026-05-12 23:47:54,662 - INFO - Claim: 'Swiss church is having confessions heard by ‘AI Jesus’'...
+2026-05-12 23:47:54,662 - INFO - Date: 20-11-2024
+2026-05-12 23:47:54,662 - INFO - Asking model: qwen2.5-72b-instruct (method: strong_baseline_short)
+2026-05-12 23:47:54,662 - INFO - Claim: 'Swiss church is having confessions heard by ‘AI Jesus’'...
+2026-05-12 23:48:07,355 - INFO - API Response Status: 200
+2026-05-12 23:48:07,356 - INFO - Raw model response: {"label": "Misleading", "brief_reason": "The claim suggests a full replacement of human priests with AI, which may exaggerate the role of technology in the confession process."}
+2026-05-12 23:48:07,356 - INFO - Extracted label: Misleading -> Normalized: Misleading
+2026-05-12 23:48:07,356 - INFO - Prediction: Misleading
+2026-05-12 23:48:07,356 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-05-12 23:48:07,464 - INFO - ================================================================================
+2026-05-12 23:48:07,464 - INFO - Processing claim #45 (ID: 59)
+2026-05-12 23:48:07,464 - INFO - Claim: 'Bangladesh Chief Adviser Muhammad Yunus announced his retirement.'...
+2026-05-12 23:48:07,465 - INFO - Date: 23-09-2024
+2026-05-12 23:48:07,465 - INFO - Asking model: qwen2.5-72b-instruct (method: strong_baseline_short)
+2026-05-12 23:48:07,465 - INFO - Claim: 'Bangladesh Chief Adviser Muhammad Yunus announced his retirement.'...
+2026-05-12 23:48:13,091 - INFO - API Response Status: 200
+2026-05-12 23:48:13,091 - INFO - Raw model response: {"label": "Not Enough Information", "brief_reason": "The claim is specific but lacks a date or timeframe, making it impossible to verify without additional context."}
+2026-05-12 23:48:13,091 - INFO - Extracted label: Not Enough Information -> Normalized: Not Enough Information
+2026-05-12 23:48:13,092 - INFO - Prediction: Not Enough Information
+2026-05-12 23:48:13,092 - INFO - ✗ Incorrect (True: Refuted, Pred: Not Enough Information)
+2026-05-12 23:48:13,192 - INFO - ================================================================================
+2026-05-12 23:48:13,192 - INFO - Processing claim #46 (ID: 62)
+2026-05-12 23:48:13,193 - INFO - Claim: 'Renewable energy isn’t green; by 2050, 78 million metric tonnes of solar panels will reach the end of their lives and can't be recycled.'...
+2026-05-12 23:48:13,193 - INFO - Date: 29-09-2024
+2026-05-12 23:48:13,193 - INFO - Asking model: qwen2.5-72b-instruct (method: strong_baseline_short)
+2026-05-12 23:48:13,193 - INFO - Claim: 'Renewable energy isn’t green; by 2050, 78 million metric tonnes of solar panels will reach the end of their lives and can't be recycled.'...
+2026-05-12 23:48:17,474 - INFO - API Response Status: 200
+2026-05-12 23:48:17,476 - INFO - Raw model response: {"label": "Misleading", "brief_reason": "While solar panels do reach the end of their lives and pose recycling challenges, the claim exaggerates the issue and ignores ongoing advancements in recycling technology and practices."}
+2026-05-12 23:48:17,476 - INFO - Extracted label: Misleading -> Normalized: Misleading
+2026-05-12 23:48:17,476 - INFO - Prediction: Misleading
+2026-05-12 23:48:17,476 - INFO - ✓ Correct prediction
+2026-05-12 23:48:17,583 - INFO - ================================================================================
+2026-05-12 23:48:17,583 - INFO - Processing claim #47 (ID: 63)
+2026-05-12 23:48:17,583 - INFO - Claim: 'The government has secured a record-breaking number of clean energy projects in the latest renewables auction, after “Labour came in and fixed” last ...
+2026-05-12 23:48:17,583 - INFO - Date: 03-09-2024
+2026-05-12 23:48:17,583 - INFO - Asking model: qwen2.5-72b-instruct (method: strong_baseline_short)
+2026-05-12 23:48:17,583 - INFO - Claim: 'The government has secured a record-breaking number of clean energy projects in the latest renewables auction, after “Labour came in and fixed” last ...
+2026-05-12 23:48:32,165 - INFO - API Response Status: 200
+2026-05-12 23:48:32,165 - INFO - Raw model response: {"label": "Misleading", "brief_reason": "The claim mixes accurate information about a successful auction with an unverified assertion about Labour's role in fixing the previous auction."}
+2026-05-12 23:48:32,165 - INFO - Extracted label: Misleading -> Normalized: Misleading
+2026-05-12 23:48:32,165 - INFO - Prediction: Misleading
+2026-05-12 23:48:32,165 - INFO - ✓ Correct prediction
+2026-05-12 23:48:32,280 - INFO - ================================================================================
+2026-05-12 23:48:32,280 - INFO - Processing claim #48 (ID: 69)
+2026-05-12 23:48:32,280 - INFO - Claim: 'Lok Sabha passed bills related ‘One Nation, One Election’ on December 17, 2024.'...
+2026-05-12 23:48:32,280 - INFO - Date: 17-12-2024
+2026-05-12 23:48:32,280 - INFO - Asking model: qwen2.5-72b-instruct (method: strong_baseline_short)
+2026-05-12 23:48:32,280 - INFO - Claim: 'Lok Sabha passed bills related ‘One Nation, One Election’ on December 17, 2024.'...
+2026-05-12 23:48:35,581 - INFO - API Response Status: 200
+2026-05-12 23:48:35,581 - INFO - Raw model response: {
+  "label": "Not Enough Information",
+  "brief_reason": "The date and the specific legislative action are too specific without verifying against official records."
+}
+2026-05-12 23:48:35,581 - INFO - Extracted label: Not Enough Information -> Normalized: Not Enough Information
+2026-05-12 23:48:35,582 - INFO - Prediction: Not Enough Information
+2026-05-12 23:48:35,582 - INFO - ✗ Incorrect (True: Misleading, Pred: Not Enough Information)
+2026-05-12 23:48:35,693 - INFO - ================================================================================
+2026-05-12 23:48:35,693 - INFO - Processing claim #49 (ID: 70)
+2026-05-12 23:48:35,694 - INFO - Claim: Coal plant construction shows CO2 doesn't cause climate change...
+2026-05-12 23:48:35,694 - INFO - Date: 14-01-2025
+2026-05-12 23:48:35,694 - INFO - Asking model: qwen2.5-72b-instruct (method: strong_baseline_short)
+2026-05-12 23:48:35,694 - INFO - Claim: Coal plant construction shows CO2 doesn't cause climate change...
+2026-05-12 23:48:50,534 - INFO - API Response Status: 200
+2026-05-12 23:48:50,534 - INFO - Raw model response: {"label": "Misleading", "brief_reason": "Construction of coal plants does not disprove the relationship between CO2 and climate change."}
+2026-05-12 23:48:50,534 - INFO - Extracted label: Misleading -> Normalized: Misleading
+2026-05-12 23:48:50,534 - INFO - Prediction: Misleading
+2026-05-12 23:48:50,534 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-05-12 23:48:50,644 - INFO - ================================================================================
+2026-05-12 23:48:50,644 - INFO - Processing claim #50 (ID: 71)
+2026-05-12 23:48:50,644 - INFO - Claim: New study shows that climate change is greatly overestimated because oceans are cooling Earth far more than we thought...
+2026-05-12 23:48:50,644 - INFO - Date: 10-12-2024
+2026-05-12 23:48:50,645 - INFO - Asking model: qwen2.5-72b-instruct (method: strong_baseline_short)
+2026-05-12 23:48:50,645 - INFO - Claim: New study shows that climate change is greatly overestimated because oceans are cooling Earth far more than we thought...
+2026-05-12 23:49:04,047 - INFO - API Response Status: 200
+2026-05-12 23:49:04,047 - INFO - Raw model response: {"label": "Refuted", "brief_reason": "Scientific consensus and data indicate oceans are absorbing heat, not cooling the Earth."}
+2026-05-12 23:49:04,047 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2026-05-12 23:49:04,047 - INFO - Prediction: Refuted
+2026-05-12 23:49:04,047 - INFO - ✓ Correct prediction
+2026-05-12 23:49:04,159 - INFO - ================================================================================
+2026-05-12 23:49:04,159 - INFO - Processing claim #51 (ID: 97)
+2026-05-12 23:49:04,159 - INFO - Claim: "Sen. Vance has said that there's a climate problem in the past. Donald Trump called it (climate change) a hoax and then joked that these things would...
+2026-05-12 23:49:04,159 - INFO - Date: 01-10-2024
+2026-05-12 23:49:04,159 - INFO - Asking model: qwen2.5-72b-instruct (method: strong_baseline_short)
+2026-05-12 23:49:04,159 - INFO - Claim: "Sen. Vance has said that there's a climate problem in the past. Donald Trump called it (climate change) a hoax and then joked that these things would...
+2026-05-12 23:49:06,049 - INFO - API Response Status: 200
+2026-05-12 23:49:06,049 - INFO - Raw model response: {
+  "label": "Misleading",
+  "brief_reason": "The claim mixes accurate statements with potential distortions or omissions."
+}
+2026-05-12 23:49:06,049 - INFO - Extracted label: Misleading -> Normalized: Misleading
+2026-05-12 23:49:06,050 - INFO - Prediction: Misleading
+2026-05-12 23:49:06,050 - INFO - ✗ Incorrect (True: Supported, Pred: Misleading)
+2026-05-12 23:49:06,161 - INFO - ================================================================================
+2026-05-12 23:49:06,161 - INFO - Processing claim #52 (ID: 99)
+2026-05-12 23:49:06,161 - INFO - Claim: 'Government shutdowns in 2013 and 2018 “cost our economy billions of dollars each.”'...
+2026-05-12 23:49:06,162 - INFO - Date: 18-12-2024
+2026-05-12 23:49:06,162 - INFO - Asking model: qwen2.5-72b-instruct (method: strong_baseline_short)
+2026-05-12 23:49:06,162 - INFO - Claim: 'Government shutdowns in 2013 and 2018 “cost our economy billions of dollars each.”'...
+2026-05-12 23:49:09,146 - INFO - API Response Status: 200
+2026-05-12 23:49:09,146 - INFO - Raw model response: {"label": "Supported", "brief_reason": "Economic analyses have shown that government shutdowns in 2013 and 2018 did indeed cost the U.S. economy billions of dollars."}
+2026-05-12 23:49:09,146 - INFO - Extracted label: Supported -> Normalized: Supported
+2026-05-12 23:49:09,146 - INFO - Prediction: Supported
+2026-05-12 23:49:09,146 - INFO - ✓ Correct prediction
+2026-05-12 23:49:09,254 - INFO - ================================================================================
+2026-05-12 23:49:09,254 - INFO - Processing claim #53 (ID: 152)
+2026-05-12 23:49:09,254 - INFO - Claim: '"These [Moldovan presidential] elections were neither democratic nor fair. They were full of electoral manipulations."'...
+2026-05-12 23:49:09,254 - INFO - Date: 07-11-2024
+2026-05-12 23:49:09,255 - INFO - Asking model: qwen2.5-72b-instruct (method: strong_baseline_short)
+2026-05-12 23:49:09,255 - INFO - Claim: '"These [Moldovan presidential] elections were neither democratic nor fair. They were full of electoral manipulations."'...
+2026-05-12 23:49:11,330 - INFO - API Response Status: 200
+2026-05-12 23:49:11,330 - INFO - Raw model response: {"label": "Misleading", "brief_reason": "The claim generalizes and lacks specific evidence to support the broad assertion of widespread electoral manipulation."}
+2026-05-12 23:49:11,330 - INFO - Extracted label: Misleading -> Normalized: Misleading
+2026-05-12 23:49:11,330 - INFO - Prediction: Misleading
+2026-05-12 23:49:11,330 - INFO - ✓ Correct prediction
+2026-05-12 23:49:11,438 - INFO - ================================================================================
+2026-05-12 23:49:11,438 - INFO - Processing claim #54 (ID: 153)
+2026-05-12 23:49:11,438 - INFO - Claim: 'A pre-marked dot on the U.S. election ballot makes the vote void.'...
+2026-05-12 23:49:11,438 - INFO - Date: 03-11-2024
+2026-05-12 23:49:11,438 - INFO - Asking model: qwen2.5-72b-instruct (method: strong_baseline_short)
+2026-05-12 23:49:11,438 - INFO - Claim: 'A pre-marked dot on the U.S. election ballot makes the vote void.'...
+2026-05-12 23:49:24,904 - INFO - API Response Status: 200
+2026-05-12 23:49:24,904 - INFO - Raw model response: {"label": "Refuted", "brief_reason": "Pre-marked dots on ballots do not automatically invalidate votes; validity depends on specific state regulations and the nature of the marks."}
+2026-05-12 23:49:24,904 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2026-05-12 23:49:24,905 - INFO - Prediction: Refuted
+2026-05-12 23:49:24,905 - INFO - ✗ Incorrect (True: Misleading, Pred: Refuted)
+2026-05-12 23:49:25,014 - INFO - ================================================================================
+2026-05-12 23:49:25,014 - INFO - Processing claim #55 (ID: 154)
+2026-05-12 23:49:25,014 - INFO - Claim: 'Rodrigo Duterte is running for senator in the 2025 elections.'...
+2026-05-12 23:49:25,014 - INFO - Date: 08-10-2024
+2026-05-12 23:49:25,014 - INFO - Asking model: qwen2.5-72b-instruct (method: strong_baseline_short)
+2026-05-12 23:49:25,015 - INFO - Claim: 'Rodrigo Duterte is running for senator in the 2025 elections.'...
+2026-05-12 23:49:28,557 - INFO - API Response Status: 200
+2026-05-12 23:49:28,557 - INFO - Raw model response: {"label": "Not Enough Information", "brief_reason": "The claim cannot be verified without current, specific information about Rodrigo Duterte's political plans."}
+2026-05-12 23:49:28,557 - INFO - Extracted label: Not Enough Information -> Normalized: Not Enough Information
+2026-05-12 23:49:28,558 - INFO - Prediction: Not Enough Information
+2026-05-12 23:49:28,558 - INFO - ✗ Incorrect (True: Misleading, Pred: Not Enough Information)
+2026-05-12 23:49:28,666 - INFO - ================================================================================
+2026-05-12 23:49:28,666 - INFO - Processing claim #56 (ID: 159)
+2026-05-12 23:49:28,666 - INFO - Claim: 'Products from cows fed Bovaer causes health issues in humans'...
+2026-05-12 23:49:28,666 - INFO - Date: 13-12-2024
+2026-05-12 23:49:28,666 - INFO - Asking model: qwen2.5-72b-instruct (method: strong_baseline_short)
+2026-05-12 23:49:28,666 - INFO - Claim: 'Products from cows fed Bovaer causes health issues in humans'...
+2026-05-12 23:49:31,863 - INFO - API Response Status: 200
+2026-05-12 23:49:31,863 - INFO - Raw model response: {"label": "Refuted", "brief_reason": "There is no scientific evidence that Bovaer, a feed additive for reducing methane emissions in cattle, causes health issues in humans."}
+2026-05-12 23:49:31,863 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2026-05-12 23:49:31,864 - INFO - Prediction: Refuted
+2026-05-12 23:49:31,864 - INFO - ✗ Incorrect (True: Misleading, Pred: Refuted)
+2026-05-12 23:49:31,968 - INFO - ================================================================================
+2026-05-12 23:49:31,969 - INFO - Processing claim #57 (ID: 160)
+2026-05-12 23:49:31,969 - INFO - Claim: “Rather than respecting her dignity and focusing on the mental health challenges she was facing, these groups saw an opportunity to fuel their anti-go...
+2026-05-12 23:49:31,969 - INFO - Date: 13-11-2024
+2026-05-12 23:49:31,969 - INFO - Asking model: qwen2.5-72b-instruct (method: strong_baseline_short)
+2026-05-12 23:49:31,969 - INFO - Claim: “Rather than respecting her dignity and focusing on the mental health challenges she was facing, these groups saw an opportunity to fuel their anti-go...
+2026-05-12 23:49:37,746 - INFO - API Response Status: 200
+2026-05-12 23:49:37,746 - INFO - Raw model response: {"label": "Misleading", "brief_reason": "The claim implies a specific and negative motive without providing context or evidence to support such a characterization of the groups' actions."}
+2026-05-12 23:49:37,746 - INFO - Extracted label: Misleading -> Normalized: Misleading
+2026-05-12 23:49:37,746 - INFO - Prediction: Misleading
+2026-05-12 23:49:37,746 - INFO - ✓ Correct prediction
+2026-05-12 23:49:37,852 - INFO - ================================================================================
+2026-05-12 23:49:37,852 - INFO - Processing claim #58 (ID: 161)
+2026-05-12 23:49:37,852 - INFO - Claim: 'Amendment to health act will force Malaysians to be vaccinated.'...
+2026-05-12 23:49:37,852 - INFO - Date: 16-10-2024
+2026-05-12 23:49:37,852 - INFO - Asking model: qwen2.5-72b-instruct (method: strong_baseline_short)
+2026-05-12 23:49:37,852 - INFO - Claim: 'Amendment to health act will force Malaysians to be vaccinated.'...
+2026-05-12 23:49:43,133 - INFO - API Response Status: 200
+2026-05-12 23:49:43,133 - INFO - Raw model response: {"label": "Misleading", "brief_reason": "The amendment may introduce mandatory vaccination, but it does not necessarily 'force' all Malaysians; there could be exemptions or specific conditions."}
+2026-05-12 23:49:43,133 - INFO - Extracted label: Misleading -> Normalized: Misleading
+2026-05-12 23:49:43,134 - INFO - Prediction: Misleading
+2026-05-12 23:49:43,134 - INFO - ✓ Correct prediction
+2026-05-12 23:49:43,250 - INFO - ================================================================================
+2026-05-12 23:49:43,250 - INFO - Processing claim #59 (ID: 170)
+2026-05-12 23:49:43,250 - INFO - Claim: “Mysterious virus HMPV reported in China!”...
+2026-05-12 23:49:43,250 - INFO - Date: 07-01-2025
+2026-05-12 23:49:43,250 - INFO - Asking model: qwen2.5-72b-instruct (method: strong_baseline_short)
+2026-05-12 23:49:43,250 - INFO - Claim: “Mysterious virus HMPV reported in China!”...
+2026-05-12 23:49:46,347 - INFO - API Response Status: 200
+2026-05-12 23:49:46,347 - INFO - Raw model response: {"label": "Not Enough Information", "brief_reason": "The claim lacks specific details about the virus, its impact, and the source of the report."}
+2026-05-12 23:49:46,347 - INFO - Extracted label: Not Enough Information -> Normalized: Not Enough Information
+2026-05-12 23:49:46,347 - INFO - Prediction: Not Enough Information
+2026-05-12 23:49:46,347 - INFO - ✗ Incorrect (True: Misleading, Pred: Not Enough Information)
+2026-05-12 23:49:46,461 - INFO - ================================================================================
+2026-05-12 23:49:46,461 - INFO - Processing claim #60 (ID: 171)
+2026-05-12 23:49:46,461 - INFO - Claim: 'George Soros and Bill Gates owned Mologic Ltd, a company producing rapid COVID-19 tests, prior to the pandemic.'...
+2026-05-12 23:49:46,461 - INFO - Date: 10-11-2024
+2026-05-12 23:49:46,461 - INFO - Asking model: qwen2.5-72b-instruct (method: strong_baseline_short)
+2026-05-12 23:49:46,461 - INFO - Claim: 'George Soros and Bill Gates owned Mologic Ltd, a company producing rapid COVID-19 tests, prior to the pandemic.'...
+2026-05-12 23:49:49,992 - INFO - API Response Status: 200
+2026-05-12 23:49:49,992 - INFO - Raw model response: {"label": "Refuted", "brief_reason": "Public records do not show George Soros or Bill Gates owning Mologic Ltd before the pandemic."}
+2026-05-12 23:49:49,993 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2026-05-12 23:49:49,993 - INFO - Prediction: Refuted
+2026-05-12 23:49:49,993 - INFO - ✗ Incorrect (True: Misleading, Pred: Refuted)
+2026-05-12 23:49:50,104 - INFO - ================================================================================
+2026-05-12 23:49:50,104 - INFO - Processing claim #61 (ID: 172)
+2026-05-12 23:49:50,104 - INFO - Claim: 'The updated COVID-19 vaccines do “not protect against the currently dominant strain.”'...
+2026-05-12 23:49:50,104 - INFO - Date: 12-09-2024
+2026-05-12 23:49:50,104 - INFO - Asking model: qwen2.5-72b-instruct (method: strong_baseline_short)
+2026-05-12 23:49:50,104 - INFO - Claim: 'The updated COVID-19 vaccines do “not protect against the currently dominant strain.”'...
+2026-05-12 23:49:53,690 - INFO - API Response Status: 200
+2026-05-12 23:49:53,690 - INFO - Raw model response: {"label": "Misleading", "brief_reason": "The claim may omit that the vaccines still offer protection against severe disease and death, even if not fully preventing infection by the dominant strain."}
+2026-05-12 23:49:53,690 - INFO - Extracted label: Misleading -> Normalized: Misleading
+2026-05-12 23:49:53,691 - INFO - Prediction: Misleading
+2026-05-12 23:49:53,691 - INFO - ✓ Correct prediction
+2026-05-12 23:49:53,798 - INFO - ================================================================================
+2026-05-12 23:49:53,798 - INFO - Processing claim #62 (ID: 173)
+2026-05-12 23:49:53,798 - INFO - Claim: 'COVID-19 vaccines are unsafe, they cause deaths by cardiac arrest and blood clots.'...
+2026-05-12 23:49:53,798 - INFO - Date: 20-10-2024
+2026-05-12 23:49:53,798 - INFO - Asking model: qwen2.5-72b-instruct (method: strong_baseline_short)
+2026-05-12 23:49:53,798 - INFO - Claim: 'COVID-19 vaccines are unsafe, they cause deaths by cardiac arrest and blood clots.'...
+2026-05-12 23:49:57,805 - INFO - API Response Status: 200
+2026-05-12 23:49:57,805 - INFO - Raw model response: {"label": "Refuted", "brief_reason": "Clinical trials and post-market surveillance show that while rare adverse events can occur, the overall safety profile of COVID-19 vaccines is strong and the benefits outweigh the risks."}
+2026-05-12 23:49:57,805 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2026-05-12 23:49:57,805 - INFO - Prediction: Refuted
+2026-05-12 23:49:57,805 - INFO - ✗ Incorrect (True: Misleading, Pred: Refuted)
+2026-05-12 23:49:57,916 - INFO - ================================================================================
+2026-05-12 23:49:57,916 - INFO - Processing claim #63 (ID: 174)
+2026-05-12 23:49:57,916 - INFO - Claim: 'More deaths from COVID-19 occurred during Biden's administration than Trump's.'...
+2026-05-12 23:49:57,916 - INFO - Date: 10-09-2024
+2026-05-12 23:49:57,916 - INFO - Asking model: qwen2.5-72b-instruct (method: strong_baseline_short)
+2026-05-12 23:49:57,916 - INFO - Claim: 'More deaths from COVID-19 occurred during Biden's administration than Trump's.'...
+2026-05-12 23:50:04,414 - INFO - API Response Status: 200
+2026-05-12 23:50:04,414 - INFO - Raw model response: {"label": "Not Enough Information", "brief_reason": "Without specific dates and death counts for both administrations, it's impossible to accurately assess the claim."}
+2026-05-12 23:50:04,414 - INFO - Extracted label: Not Enough Information -> Normalized: Not Enough Information
+2026-05-12 23:50:04,414 - INFO - Prediction: Not Enough Information
+2026-05-12 23:50:04,415 - INFO - ✗ Incorrect (True: Misleading, Pred: Not Enough Information)
+2026-05-12 23:50:04,530 - INFO - ================================================================================
+2026-05-12 23:50:04,530 - INFO - Processing claim #64 (ID: 175)
+2026-05-12 23:50:04,530 - INFO - Claim: 'mRNA COVID-19 vaccine causes cancer.'...
+2026-05-12 23:50:04,530 - INFO - Date: 11-09-2024
+2026-05-12 23:50:04,530 - INFO - Asking model: qwen2.5-72b-instruct (method: strong_baseline_short)
+2026-05-12 23:50:04,530 - INFO - Claim: 'mRNA COVID-19 vaccine causes cancer.'...
+2026-05-12 23:50:07,680 - INFO - API Response Status: 200
+2026-05-12 23:50:07,680 - INFO - Raw model response: {"label": "Refuted", "brief_reason": "There is no scientific evidence that mRNA COVID-19 vaccines cause cancer."}
+2026-05-12 23:50:07,680 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2026-05-12 23:50:07,681 - INFO - Prediction: Refuted
+2026-05-12 23:50:07,681 - INFO - ✗ Incorrect (True: Misleading, Pred: Refuted)
+2026-05-12 23:50:07,782 - INFO - ================================================================================
+2026-05-12 23:50:07,782 - INFO - Processing claim #65 (ID: 193)
+2026-05-12 23:50:07,782 - INFO - Claim: “The Ondo state governor drew more than 1.2 billion security votes in September 2024 in the week of the Edo election.”...
+2026-05-12 23:50:07,782 - INFO - Date: 01-11-2024
+2026-05-12 23:50:07,782 - INFO - Asking model: qwen2.5-72b-instruct (method: strong_baseline_short)
+2026-05-12 23:50:07,782 - INFO - Claim: “The Ondo state governor drew more than 1.2 billion security votes in September 2024 in the week of the Edo election.”...
+2026-05-12 23:50:28,587 - INFO - API Response Status: 200
+2026-05-12 23:50:28,587 - INFO - Raw model response: {"label": "Not Enough Information", "brief_reason": "The specific financial figures and political events referenced cannot be verified without additional context or data sources."}
+2026-05-12 23:50:28,587 - INFO - Extracted label: Not Enough Information -> Normalized: Not Enough Information
+2026-05-12 23:50:28,587 - INFO - Prediction: Not Enough Information
+2026-05-12 23:50:28,587 - INFO - ✓ Correct prediction
+2026-05-12 23:50:28,694 - INFO - ================================================================================
+2026-05-12 23:50:28,694 - INFO - Processing claim #66 (ID: 237)
+2026-05-12 23:50:28,694 - INFO - Claim: “Oprah is a sex trafficker. She’s been caught and now has to be escorted around by U.S. marshals.”...
+2026-05-12 23:50:28,694 - INFO - Date: 20-09-2024
+2026-05-12 23:50:28,694 - INFO - Asking model: qwen2.5-72b-instruct (method: strong_baseline_short)
+2026-05-12 23:50:28,694 - INFO - Claim: “Oprah is a sex trafficker. She’s been caught and now has to be escorted around by U.S. marshals.”...
+2026-05-12 23:50:37,153 - INFO - API Response Status: 200
+2026-05-12 23:50:37,153 - INFO - Raw model response: {"label": "Refuted", "brief_reason": "There is no credible evidence to support the claim that Oprah Winfrey is involved in sex trafficking or that she has to be escorted by U.S. marshals."}
+2026-05-12 23:50:37,153 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2026-05-12 23:50:37,154 - INFO - Prediction: Refuted
+2026-05-12 23:50:37,154 - INFO - ✓ Correct prediction
+2026-05-12 23:50:37,266 - INFO - ================================================================================
+2026-05-12 23:50:37,266 - INFO - Processing claim #67 (ID: 299)
+2026-05-12 23:50:37,266 - INFO - Claim: 'Hunter Biden was "singled out" and "unfairly" prosecuted "only because he is my son."'...
+2026-05-12 23:50:37,266 - INFO - Date: 01-12-2024
+2026-05-12 23:50:37,266 - INFO - Asking model: qwen2.5-72b-instruct (method: strong_baseline_short)
+2026-05-12 23:50:37,266 - INFO - Claim: 'Hunter Biden was "singled out" and "unfairly" prosecuted "only because he is my son."'...
+2026-05-12 23:50:41,216 - INFO - API Response Status: 200
+2026-05-12 23:50:41,216 - INFO - Raw model response: {"label": "Not Enough Information", "brief_reason": "The claim requires more context and evidence to determine if the prosecution was solely due to his father's identity."}
+2026-05-12 23:50:41,216 - INFO - Extracted label: Not Enough Information -> Normalized: Not Enough Information
+2026-05-12 23:50:41,216 - INFO - Prediction: Not Enough Information
+2026-05-12 23:50:41,216 - INFO - ✓ Correct prediction
+2026-05-12 23:50:41,325 - INFO - ================================================================================
+2026-05-12 23:50:41,325 - INFO - Processing complete: 61 predictions (32 correct, 29 incorrect), 7 failed
+2026-05-12 23:50:41,326 - INFO - Metrics: Accuracy=0.5246, Macro-F1=0.5186
+2026-05-12 23:50:41,330 - INFO - Predictions saved to results\qwen2_5-72b-instruct\claimreview_plus\strong_baseline_short\unseen\unseen_predictions.csv
+2026-05-12 23:50:41,332 - INFO - Predictions JSON saved to results\qwen2_5-72b-instruct\claimreview_plus\strong_baseline_short\unseen\unseen_predictions.json
+2026-05-12 23:50:41,333 - INFO - Metrics saved to results\qwen2_5-72b-instruct\claimreview_plus\strong_baseline_short\unseen\unseen_metrics.json

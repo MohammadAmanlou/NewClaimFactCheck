@@ -18,6 +18,7 @@ from .reporting import (
     save_test_predictions,
     save_results_with_metrics,
     generate_summary_report,
+    NumpyEncoder,
 )
 
 
@@ -96,7 +97,7 @@ class Pipeline:
             "timestamp": datetime.now().isoformat(),
         }
         with open(out_dir / "test_summary.json", "w", encoding="utf-8") as f:
-            json.dump(summary, f, indent=4)
+            json.dump(summary, f, indent=4, cls=NumpyEncoder)
 
         print(f"✓ {method}: test predictions saved")
 
@@ -211,7 +212,7 @@ class Pipeline:
         # Persist sampling info for reproducibility
         sampling_file = self.base_output / "sampling_info.json"
         with open(sampling_file, "w", encoding="utf-8") as f:
-            json.dump(metadata, f, indent=4)
+            json.dump(metadata, f, indent=4, cls=NumpyEncoder)
 
         print(
             f"\n📊 BALANCED SAMPLING ENABLED:\n"
@@ -238,7 +239,7 @@ class Pipeline:
 
         combined_file = self.base_output / "combined_summary.json"
         with open(combined_file, "w", encoding="utf-8") as f:
-            json.dump(combined, f, indent=4, ensure_ascii=False)
+            json.dump(combined, f, indent=4, ensure_ascii=False, cls=NumpyEncoder)
 
         # Terminal table
         print("\n" + "=" * 80)

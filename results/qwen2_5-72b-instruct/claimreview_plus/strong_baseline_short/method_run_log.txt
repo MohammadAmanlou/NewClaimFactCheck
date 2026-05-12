@@ -1,0 +1,13 @@
+2026-05-12 23:33:18,624 - INFO - Prompt method: strong_baseline_short
+2026-05-12 23:42:00,901 - INFO - Metrics: Accuracy=0.3111, Macro-F1=0.3035
+2026-05-12 23:50:41,333 - INFO - Metrics: Accuracy=0.5246, Macro-F1=0.5186
+2026-05-12 23:50:41,334 - INFO - ================================================================================
+2026-05-12 23:50:41,334 - INFO - Comparing seen vs unseen performance...
+2026-05-12 23:50:41,334 - INFO - Metrics: Accuracy=0.3111, Macro-F1=0.3035
+2026-05-12 23:50:41,335 - INFO - Metrics: Accuracy=0.5246, Macro-F1=0.5186
+2026-05-12 23:50:41,339 - INFO - Seen accuracy: 0.3111
+2026-05-12 23:50:41,339 - INFO - Unseen accuracy: 0.5246
+2026-05-12 23:50:41,339 - INFO - Difference: 0.2135
+2026-05-12 23:50:41,341 - INFO - T-test p-value: 0.0083 (significant)
+2026-05-12 23:50:41,341 - INFO - Chi-square p-value: 0.0139 (significant)
+2026-05-12 23:50:41,342 - INFO - Summary report saved to results\qwen2_5-72b-instruct\claimreview_plus\strong_baseline_short\summary.json

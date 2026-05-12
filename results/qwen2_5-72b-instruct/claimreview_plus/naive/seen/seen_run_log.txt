@@ -1,0 +1,1020 @@
+2026-05-12 23:10:02,494 - INFO - Processing 92 claims...
+2026-05-12 23:10:02,496 - INFO - ================================================================================
+2026-05-12 23:10:02,496 - INFO - Processing claim #0 (ID: 22)
+2026-05-12 23:10:02,496 - INFO - Claim: 'Kelly Powers died from 'turbo cancer' caused by the Covid-19 vaccine'...
+2026-05-12 23:10:02,496 - INFO - Date: 12-04-2024
+2026-05-12 23:10:02,496 - INFO - Asking model: qwen2.5-72b-instruct (method: naive)
+2026-05-12 23:10:02,496 - INFO - Claim: 'Kelly Powers died from 'turbo cancer' caused by the Covid-19 vaccine'...
+2026-05-12 23:10:04,574 - INFO - API Response Status: 200
+2026-05-12 23:10:04,574 - INFO - Raw model response: {"label": "Refuted"}
+2026-05-12 23:10:04,577 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2026-05-12 23:10:04,577 - INFO - Prediction: Refuted
+2026-05-12 23:10:04,577 - INFO - ✓ Correct prediction
+2026-05-12 23:10:04,682 - INFO - ================================================================================
+2026-05-12 23:10:04,682 - INFO - Processing claim #1 (ID: 60)
+2026-05-12 23:10:04,682 - INFO - Claim: “It is estimated that 121 million Africans are facing severe acute food insecurity.”...
+2026-05-12 23:10:04,682 - INFO - Date: 01-03-2024
+2026-05-12 23:10:04,682 - INFO - Asking model: qwen2.5-72b-instruct (method: naive)
+2026-05-12 23:10:04,682 - INFO - Claim: “It is estimated that 121 million Africans are facing severe acute food insecurity.”...
+2026-05-12 23:10:08,809 - INFO - API Response Status: 200
+2026-05-12 23:10:08,809 - INFO - Raw model response: {"label": "Not Enough Information"}
+2026-05-12 23:10:08,809 - INFO - Extracted label: Not Enough Information -> Normalized: Not Enough Information
+2026-05-12 23:10:08,809 - INFO - Prediction: Not Enough Information
+2026-05-12 23:10:08,809 - INFO - ✗ Incorrect (True: Misleading, Pred: Not Enough Information)
+2026-05-12 23:10:08,913 - INFO - ================================================================================
+2026-05-12 23:10:08,913 - INFO - Processing claim #2 (ID: 61)
+2026-05-12 23:10:08,913 - INFO - Claim: “There are more cases of food insecurity and hunger in South Africa today than there were in 1994.”...
+2026-05-12 23:10:08,913 - INFO - Date: 01-01-2024
+2026-05-12 23:10:08,913 - INFO - Asking model: qwen2.5-72b-instruct (method: naive)
+2026-05-12 23:10:08,913 - INFO - Claim: “There are more cases of food insecurity and hunger in South Africa today than there were in 1994.”...
+2026-05-12 23:10:12,312 - INFO - API Response Status: 200
+2026-05-12 23:10:12,312 - INFO - Raw model response: {"label": "Supported"}
+2026-05-12 23:10:12,312 - INFO - Extracted label: Supported -> Normalized: Supported
+2026-05-12 23:10:12,312 - INFO - Prediction: Supported
+2026-05-12 23:10:12,312 - INFO - ✗ Incorrect (True: Not Enough Information, Pred: Supported)
+2026-05-12 23:10:12,418 - INFO - ================================================================================
+2026-05-12 23:10:12,418 - INFO - Processing claim #3 (ID: 64)
+2026-05-12 23:10:12,418 - INFO - Claim: Kamala Harris cast the deciding vote for the so-called Inflation Reduction Act that sent a lot of our resources to China.”...
+2026-05-12 23:10:12,418 - INFO - Date: 07-08-2024
+2026-05-12 23:10:12,418 - INFO - Asking model: qwen2.5-72b-instruct (method: naive)
+2026-05-12 23:10:12,418 - INFO - Claim: Kamala Harris cast the deciding vote for the so-called Inflation Reduction Act that sent a lot of our resources to China.”...
+2026-05-12 23:10:20,755 - INFO - API Response Status: 200
+2026-05-12 23:10:20,755 - INFO - Raw model response: {"label": "Refuted"}
+2026-05-12 23:10:20,755 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2026-05-12 23:10:20,756 - INFO - Prediction: Refuted
+2026-05-12 23:10:20,756 - INFO - ✓ Correct prediction
+2026-05-12 23:10:20,866 - INFO - ================================================================================
+2026-05-12 23:10:20,866 - INFO - Processing claim #4 (ID: 65)
+2026-05-12 23:10:20,866 - INFO - Claim: “Our electricity generation is almost 95% renewable, from geothermal, hydro, wind, and solar energy.”...
+2026-05-12 23:10:20,867 - INFO - Date: 01-05-2024
+2026-05-12 23:10:20,867 - INFO - Asking model: qwen2.5-72b-instruct (method: naive)
+2026-05-12 23:10:20,867 - INFO - Claim: “Our electricity generation is almost 95% renewable, from geothermal, hydro, wind, and solar energy.”...
+2026-05-12 23:10:25,843 - INFO - API Response Status: 200
+2026-05-12 23:10:25,843 - INFO - Raw model response: {"label": "Not Enough Information"}
+2026-05-12 23:10:25,843 - INFO - Extracted label: Not Enough Information -> Normalized: Not Enough Information
+2026-05-12 23:10:25,843 - INFO - Prediction: Not Enough Information
+2026-05-12 23:10:25,843 - INFO - ✗ Incorrect (True: Refuted, Pred: Not Enough Information)
+2026-05-12 23:10:25,947 - INFO - ================================================================================
+2026-05-12 23:10:25,947 - INFO - Processing claim #5 (ID: 66)
+2026-05-12 23:10:25,947 - INFO - Claim: 'Sweden, France, Finland, the UK and Germany have abandoned renewable energy.'...
+2026-05-12 23:10:25,947 - INFO - Date: 22-05-2024
+2026-05-12 23:10:25,947 - INFO - Asking model: qwen2.5-72b-instruct (method: naive)
+2026-05-12 23:10:25,947 - INFO - Claim: 'Sweden, France, Finland, the UK and Germany have abandoned renewable energy.'...
+2026-05-12 23:10:29,403 - INFO - API Response Status: 200
+2026-05-12 23:10:29,403 - INFO - Raw model response: {"label": "Refuted"}
+2026-05-12 23:10:29,403 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2026-05-12 23:10:29,404 - INFO - Prediction: Refuted
+2026-05-12 23:10:29,404 - INFO - ✓ Correct prediction
+2026-05-12 23:10:29,507 - INFO - ================================================================================
+2026-05-12 23:10:29,507 - INFO - Processing claim #6 (ID: 67)
+2026-05-12 23:10:29,507 - INFO - Claim: 'More than 100% of Scotland’s electricity needs come from renewable sources.'...
+2026-05-12 23:10:29,507 - INFO - Date: 31-05-2024
+2026-05-12 23:10:29,507 - INFO - Asking model: qwen2.5-72b-instruct (method: naive)
+2026-05-12 23:10:29,507 - INFO - Claim: 'More than 100% of Scotland’s electricity needs come from renewable sources.'...
+2026-05-12 23:10:34,623 - INFO - API Response Status: 200
+2026-05-12 23:10:34,623 - INFO - Raw model response: {"label": "Not Enough Information"}
+2026-05-12 23:10:34,623 - INFO - Extracted label: Not Enough Information -> Normalized: Not Enough Information
+2026-05-12 23:10:34,623 - INFO - Prediction: Not Enough Information
+2026-05-12 23:10:34,623 - INFO - ✗ Incorrect (True: Supported, Pred: Not Enough Information)
+2026-05-12 23:10:34,725 - INFO - ================================================================================
+2026-05-12 23:10:34,725 - INFO - Processing claim #7 (ID: 68)
+2026-05-12 23:10:34,725 - INFO - Claim: 'Liquefied natural gas offers significant environmental advantages over traditional fossil fuels contributing to reduced greenhouse gas emissions, com...
+2026-05-12 23:10:34,725 - INFO - Date: 08-03-2024
+2026-05-12 23:10:34,725 - INFO - Asking model: qwen2.5-72b-instruct (method: naive)
+2026-05-12 23:10:34,725 - INFO - Claim: 'Liquefied natural gas offers significant environmental advantages over traditional fossil fuels contributing to reduced greenhouse gas emissions, com...
+2026-05-12 23:10:41,699 - INFO - API Response Status: 200
+2026-05-12 23:10:41,699 - INFO - Raw model response: {"label": "Supported"}
+2026-05-12 23:10:41,699 - INFO - Extracted label: Supported -> Normalized: Supported
+2026-05-12 23:10:41,699 - INFO - Prediction: Supported
+2026-05-12 23:10:41,699 - INFO - ✗ Incorrect (True: Misleading, Pred: Supported)
+2026-05-12 23:10:41,805 - INFO - ================================================================================
+2026-05-12 23:10:41,805 - INFO - Processing claim #8 (ID: 98)
+2026-05-12 23:10:41,805 - INFO - Claim: 'COVID vaccines are being used to beat cancer.'...
+2026-05-12 23:10:41,805 - INFO - Date: 08-03-2024
+2026-05-12 23:10:41,805 - INFO - Asking model: qwen2.5-72b-instruct (method: naive)
+2026-05-12 23:10:41,805 - INFO - Claim: 'COVID vaccines are being used to beat cancer.'...
+2026-05-12 23:10:46,635 - INFO - API Response Status: 200
+2026-05-12 23:10:46,635 - INFO - Raw model response: {"label": "Not Enough Information"}
+2026-05-12 23:10:46,635 - INFO - Extracted label: Not Enough Information -> Normalized: Not Enough Information
+2026-05-12 23:10:46,635 - INFO - Prediction: Not Enough Information
+2026-05-12 23:10:46,635 - INFO - ✗ Incorrect (True: Supported, Pred: Not Enough Information)
+2026-05-12 23:10:46,737 - INFO - ================================================================================
+2026-05-12 23:10:46,737 - INFO - Processing claim #9 (ID: 101)
+2026-05-12 23:10:46,737 - INFO - Claim: "Homeownership is now out of reach unless you make over $106,000."...
+2026-05-12 23:10:46,737 - INFO - Date: 16-07-2024
+2026-05-12 23:10:46,737 - INFO - Asking model: qwen2.5-72b-instruct (method: naive)
+2026-05-12 23:10:46,737 - INFO - Claim: "Homeownership is now out of reach unless you make over $106,000."...
+2026-05-12 23:10:59,735 - INFO - API Response Status: 200
+2026-05-12 23:10:59,735 - INFO - Raw model response: {"label": "Not Enough Information"}
+2026-05-12 23:10:59,735 - INFO - Extracted label: Not Enough Information -> Normalized: Not Enough Information
+2026-05-12 23:10:59,735 - INFO - Prediction: Not Enough Information
+2026-05-12 23:10:59,735 - INFO - ✗ Incorrect (True: Supported, Pred: Not Enough Information)
+2026-05-12 23:10:59,843 - INFO - ================================================================================
+2026-05-12 23:10:59,844 - INFO - Processing claim #10 (ID: 103)
+2026-05-12 23:10:59,844 - INFO - Claim: 'Cote d’Ivoire’s GDP better than Ghana’s over the last 3 years'...
+2026-05-12 23:10:59,844 - INFO - Date: 24-02-2024
+2026-05-12 23:10:59,844 - INFO - Asking model: qwen2.5-72b-instruct (method: naive)
+2026-05-12 23:10:59,844 - INFO - Claim: 'Cote d’Ivoire’s GDP better than Ghana’s over the last 3 years'...
+2026-05-12 23:11:02,071 - INFO - API Response Status: 200
+2026-05-12 23:11:02,072 - INFO - Raw model response: {"label": "Not Enough Information"}
+2026-05-12 23:11:02,072 - INFO - Extracted label: Not Enough Information -> Normalized: Not Enough Information
+2026-05-12 23:11:02,072 - INFO - Prediction: Not Enough Information
+2026-05-12 23:11:02,072 - INFO - ✗ Incorrect (True: Supported, Pred: Not Enough Information)
+2026-05-12 23:11:02,174 - INFO - ================================================================================
+2026-05-12 23:11:02,175 - INFO - Processing claim #11 (ID: 104)
+2026-05-12 23:11:02,175 - INFO - Claim: "(The) top issue for college students is the economy."...
+2026-05-12 23:11:02,175 - INFO - Date: 21-01-2024
+2026-05-12 23:11:02,175 - INFO - Asking model: qwen2.5-72b-instruct (method: naive)
+2026-05-12 23:11:02,175 - INFO - Claim: "(The) top issue for college students is the economy."...
+2026-05-12 23:11:13,820 - INFO - API Response Status: 200
+2026-05-12 23:11:13,820 - INFO - Raw model response: {"label": "Not Enough Information"}
+2026-05-12 23:11:13,820 - INFO - Extracted label: Not Enough Information -> Normalized: Not Enough Information
+2026-05-12 23:11:13,820 - INFO - Prediction: Not Enough Information
+2026-05-12 23:11:13,820 - INFO - ✗ Incorrect (True: Supported, Pred: Not Enough Information)
+2026-05-12 23:11:13,930 - INFO - ================================================================================
+2026-05-12 23:11:13,930 - INFO - Processing claim #12 (ID: 114)
+2026-05-12 23:11:13,930 - INFO - Claim: “We’ve had 12 elections in 24 years in Wisconsin that have been decided by less than 30,000 votes.”...
+2026-05-12 23:11:13,931 - INFO - Date: 06-03-2024
+2026-05-12 23:11:13,931 - INFO - Asking model: qwen2.5-72b-instruct (method: naive)
+2026-05-12 23:11:13,931 - INFO - Claim: “We’ve had 12 elections in 24 years in Wisconsin that have been decided by less than 30,000 votes.”...
+2026-05-12 23:11:16,243 - INFO - API Response Status: 200
+2026-05-12 23:11:16,243 - INFO - Raw model response: {"label": "Not Enough Information"}
+2026-05-12 23:11:16,243 - INFO - Extracted label: Not Enough Information -> Normalized: Not Enough Information
+2026-05-12 23:11:16,243 - INFO - Prediction: Not Enough Information
+2026-05-12 23:11:16,243 - INFO - ✗ Incorrect (True: Supported, Pred: Not Enough Information)
+2026-05-12 23:11:16,354 - INFO - ================================================================================
+2026-05-12 23:11:16,354 - INFO - Processing claim #13 (ID: 118)
+2026-05-12 23:11:16,354 - INFO - Claim: 'Gaza has “the highest number of people facing catastrophic hunger ever recorded by the Integrated Food Security Classification system — anywhere, any...
+2026-05-12 23:11:16,354 - INFO - Date: 18-03-2024
+2026-05-12 23:11:16,354 - INFO - Asking model: qwen2.5-72b-instruct (method: naive)
+2026-05-12 23:11:16,354 - INFO - Claim: 'Gaza has “the highest number of people facing catastrophic hunger ever recorded by the Integrated Food Security Classification system — anywhere, any...
+2026-05-12 23:11:18,108 - INFO - API Response Status: 200
+2026-05-12 23:11:18,108 - INFO - Raw model response: {"label": "Not Enough Information"}
+2026-05-12 23:11:18,108 - INFO - Extracted label: Not Enough Information -> Normalized: Not Enough Information
+2026-05-12 23:11:18,108 - INFO - Prediction: Not Enough Information
+2026-05-12 23:11:18,108 - INFO - ✗ Incorrect (True: Supported, Pred: Not Enough Information)
+2026-05-12 23:11:18,219 - INFO - ================================================================================
+2026-05-12 23:11:18,219 - INFO - Processing claim #14 (ID: 141)
+2026-05-12 23:11:18,219 - INFO - Claim: 'One of Trump’s proposals is "shutting down the Department of Education."'...
+2026-05-12 23:11:18,219 - INFO - Date: 20-08-2024
+2026-05-12 23:11:18,219 - INFO - Asking model: qwen2.5-72b-instruct (method: naive)
+2026-05-12 23:11:18,219 - INFO - Claim: 'One of Trump’s proposals is "shutting down the Department of Education."'...
+2026-05-12 23:11:23,832 - INFO - API Response Status: 200
+2026-05-12 23:11:23,832 - INFO - Raw model response: {"label": "Not Enough Information"}
+2026-05-12 23:11:23,832 - INFO - Extracted label: Not Enough Information -> Normalized: Not Enough Information
+2026-05-12 23:11:23,832 - INFO - Prediction: Not Enough Information
+2026-05-12 23:11:23,832 - INFO - ✗ Incorrect (True: Supported, Pred: Not Enough Information)
+2026-05-12 23:11:23,938 - INFO - ================================================================================
+2026-05-12 23:11:23,939 - INFO - Processing claim #15 (ID: 149)
+2026-05-12 23:11:23,939 - INFO - Claim: 'Under Joe Biden, there are “record numbers of new Black entrepreneurs”'...
+2026-05-12 23:11:23,939 - INFO - Date: 13-02-2024
+2026-05-12 23:11:23,939 - INFO - Asking model: qwen2.5-72b-instruct (method: naive)
+2026-05-12 23:11:23,939 - INFO - Claim: 'Under Joe Biden, there are “record numbers of new Black entrepreneurs”'...
+2026-05-12 23:11:38,921 - INFO - API Response Status: 200
+2026-05-12 23:11:38,921 - INFO - Raw model response: {"label": "Not Enough Information"}
+2026-05-12 23:11:38,922 - INFO - Extracted label: Not Enough Information -> Normalized: Not Enough Information
+2026-05-12 23:11:38,922 - INFO - Prediction: Not Enough Information
+2026-05-12 23:11:38,922 - INFO - ✗ Incorrect (True: Supported, Pred: Not Enough Information)
+2026-05-12 23:11:39,035 - INFO - ================================================================================
+2026-05-12 23:11:39,035 - INFO - Processing claim #16 (ID: 155)
+2026-05-12 23:11:39,035 - INFO - Claim: 'Wilders and Le Pen “unanimously” win recent elections'...
+2026-05-12 23:11:39,035 - INFO - Date: 19-05-2024
+2026-05-12 23:11:39,035 - INFO - Asking model: qwen2.5-72b-instruct (method: naive)
+2026-05-12 23:11:39,035 - INFO - Claim: 'Wilders and Le Pen “unanimously” win recent elections'...
+2026-05-12 23:11:42,203 - INFO - API Response Status: 200
+2026-05-12 23:11:42,203 - INFO - Raw model response: {"label": "Not Enough Information"}
+2026-05-12 23:11:42,203 - INFO - Extracted label: Not Enough Information -> Normalized: Not Enough Information
+2026-05-12 23:11:42,203 - INFO - Prediction: Not Enough Information
+2026-05-12 23:11:42,203 - INFO - ✗ Incorrect (True: Misleading, Pred: Not Enough Information)
+2026-05-12 23:11:42,310 - INFO - ================================================================================
+2026-05-12 23:11:42,311 - INFO - Processing claim #17 (ID: 156)
+2026-05-12 23:11:42,311 - INFO - Claim: 'An 81-year-old roadside parrot astrologer was arrested from Cuddalore, Tamil Nadu by police because his parrot predicted that DMK would lose the 2024...
+2026-05-12 23:11:42,311 - INFO - Date: 13-04-2024
+2026-05-12 23:11:42,311 - INFO - Asking model: qwen2.5-72b-instruct (method: naive)
+2026-05-12 23:11:42,311 - INFO - Claim: 'An 81-year-old roadside parrot astrologer was arrested from Cuddalore, Tamil Nadu by police because his parrot predicted that DMK would lose the 2024...
+2026-05-12 23:11:44,499 - INFO - API Response Status: 200
+2026-05-12 23:11:44,499 - INFO - Raw model response: {"label": "Not Enough Information"}
+2026-05-12 23:11:44,499 - INFO - Extracted label: Not Enough Information -> Normalized: Not Enough Information
+2026-05-12 23:11:44,500 - INFO - Prediction: Not Enough Information
+2026-05-12 23:11:44,500 - INFO - ✗ Incorrect (True: Misleading, Pred: Not Enough Information)
+2026-05-12 23:11:44,615 - INFO - ================================================================================
+2026-05-12 23:11:44,615 - INFO - Processing claim #18 (ID: 157)
+2026-05-12 23:11:44,615 - INFO - Claim: 'Samantha endorsed TDP ahead of Andhra Elections'...
+2026-05-12 23:11:44,615 - INFO - Date: 01-03-2024
+2026-05-12 23:11:44,615 - INFO - Asking model: qwen2.5-72b-instruct (method: naive)
+2026-05-12 23:11:44,615 - INFO - Claim: 'Samantha endorsed TDP ahead of Andhra Elections'...
+2026-05-12 23:11:47,154 - INFO - API Response Status: 200
+2026-05-12 23:11:47,154 - INFO - Raw model response: {"label": "Not Enough Information"}
+2026-05-12 23:11:47,154 - INFO - Extracted label: Not Enough Information -> Normalized: Not Enough Information
+2026-05-12 23:11:47,154 - INFO - Prediction: Not Enough Information
+2026-05-12 23:11:47,154 - INFO - ✗ Incorrect (True: Misleading, Pred: Not Enough Information)
+2026-05-12 23:11:47,270 - INFO - ================================================================================
+2026-05-12 23:11:47,270 - INFO - Processing claim #19 (ID: 162)
+2026-05-12 23:11:47,270 - INFO - Claim: 'Great Barrier Reef broke coral population record for third year in a row'...
+2026-05-12 23:11:47,270 - INFO - Date: 29-06-2024
+2026-05-12 23:11:47,271 - INFO - Asking model: qwen2.5-72b-instruct (method: naive)
+2026-05-12 23:11:47,271 - INFO - Claim: 'Great Barrier Reef broke coral population record for third year in a row'...
+2026-05-12 23:11:51,434 - INFO - API Response Status: 200
+2026-05-12 23:11:51,434 - INFO - Raw model response: {"label": "Not Enough Information"}
+2026-05-12 23:11:51,434 - INFO - Extracted label: Not Enough Information -> Normalized: Not Enough Information
+2026-05-12 23:11:51,435 - INFO - Prediction: Not Enough Information
+2026-05-12 23:11:51,435 - INFO - ✗ Incorrect (True: Misleading, Pred: Not Enough Information)
+2026-05-12 23:11:51,548 - INFO - ================================================================================
+2026-05-12 23:11:51,548 - INFO - Processing claim #20 (ID: 163)
+2026-05-12 23:11:51,548 - INFO - Claim: 'GRACIA LATTE is a healthy way to lose weight in one week'...
+2026-05-12 23:11:51,548 - INFO - Date: 01-05-2024
+2026-05-12 23:11:51,548 - INFO - Asking model: qwen2.5-72b-instruct (method: naive)
+2026-05-12 23:11:51,548 - INFO - Claim: 'GRACIA LATTE is a healthy way to lose weight in one week'...
+2026-05-12 23:11:59,946 - INFO - API Response Status: 200
+2026-05-12 23:11:59,946 - INFO - Raw model response: {"label": "Not Enough Information"}
+2026-05-12 23:11:59,946 - INFO - Extracted label: Not Enough Information -> Normalized: Not Enough Information
+2026-05-12 23:11:59,947 - INFO - Prediction: Not Enough Information
+2026-05-12 23:11:59,947 - INFO - ✗ Incorrect (True: Misleading, Pred: Not Enough Information)
+2026-05-12 23:12:00,057 - INFO - ================================================================================
+2026-05-12 23:12:00,057 - INFO - Processing claim #21 (ID: 164)
+2026-05-12 23:12:00,057 - INFO - Claim: 'COVID-19 has symptoms similar to the flu.'...
+2026-05-12 23:12:00,057 - INFO - Date: 02-03-2024
+2026-05-12 23:12:00,057 - INFO - Asking model: qwen2.5-72b-instruct (method: naive)
+2026-05-12 23:12:00,057 - INFO - Claim: 'COVID-19 has symptoms similar to the flu.'...
+2026-05-12 23:12:02,502 - INFO - API Response Status: 200
+2026-05-12 23:12:02,502 - INFO - Raw model response: {"label": "Supported"}
+2026-05-12 23:12:02,502 - INFO - Extracted label: Supported -> Normalized: Supported
+2026-05-12 23:12:02,502 - INFO - Prediction: Supported
+2026-05-12 23:12:02,502 - INFO - ✓ Correct prediction
+2026-05-12 23:12:02,613 - INFO - ================================================================================
+2026-05-12 23:12:02,613 - INFO - Processing claim #22 (ID: 165)
+2026-05-12 23:12:02,613 - INFO - Claim: 'Maddie de Garay's case shows that COVID-19 vaccines can cause functional neurological disorder and are thus harmful.'...
+2026-05-12 23:12:02,613 - INFO - Date: 21-01-2024
+2026-05-12 23:12:02,613 - INFO - Asking model: qwen2.5-72b-instruct (method: naive)
+2026-05-12 23:12:02,614 - INFO - Claim: 'Maddie de Garay's case shows that COVID-19 vaccines can cause functional neurological disorder and are thus harmful.'...
+2026-05-12 23:12:08,939 - INFO - API Response Status: 200
+2026-05-12 23:12:08,939 - INFO - Raw model response: {"label": "Not Enough Information"}
+2026-05-12 23:12:08,939 - INFO - Extracted label: Not Enough Information -> Normalized: Not Enough Information
+2026-05-12 23:12:08,939 - INFO - Prediction: Not Enough Information
+2026-05-12 23:12:08,940 - INFO - ✗ Incorrect (True: Misleading, Pred: Not Enough Information)
+2026-05-12 23:12:09,054 - INFO - ================================================================================
+2026-05-12 23:12:09,055 - INFO - Processing claim #23 (ID: 166)
+2026-05-12 23:12:09,055 - INFO - Claim: 'Former health minister of Italy under investigation for murder'...
+2026-05-12 23:12:09,055 - INFO - Date: 12-12-2023
+2026-05-12 23:12:09,055 - INFO - Asking model: qwen2.5-72b-instruct (method: naive)
+2026-05-12 23:12:09,055 - INFO - Claim: 'Former health minister of Italy under investigation for murder'...
+2026-05-12 23:12:23,461 - INFO - API Response Status: 200
+2026-05-12 23:12:23,461 - INFO - Raw model response: {"label": "Not Enough Information"}
+2026-05-12 23:12:23,461 - INFO - Extracted label: Not Enough Information -> Normalized: Not Enough Information
+2026-05-12 23:12:23,461 - INFO - Prediction: Not Enough Information
+2026-05-12 23:12:23,461 - INFO - ✗ Incorrect (True: Misleading, Pred: Not Enough Information)
+2026-05-12 23:12:23,574 - INFO - ================================================================================
+2026-05-12 23:12:23,574 - INFO - Processing claim #24 (ID: 167)
+2026-05-12 23:12:23,575 - INFO - Claim: 'Former Italian health minister facing murder charges over COVID-19 vaccines'...
+2026-05-12 23:12:23,575 - INFO - Date: 12-12-2023
+2026-05-12 23:12:23,575 - INFO - Asking model: qwen2.5-72b-instruct (method: naive)
+2026-05-12 23:12:23,575 - INFO - Claim: 'Former Italian health minister facing murder charges over COVID-19 vaccines'...
+2026-05-12 23:12:25,583 - INFO - API Response Status: 200
+2026-05-12 23:12:25,583 - INFO - Raw model response: {"label": "Not Enough Information"}
+2026-05-12 23:12:25,583 - INFO - Extracted label: Not Enough Information -> Normalized: Not Enough Information
+2026-05-12 23:12:25,583 - INFO - Prediction: Not Enough Information
+2026-05-12 23:12:25,583 - INFO - ✗ Incorrect (True: Misleading, Pred: Not Enough Information)
+2026-05-12 23:12:25,697 - INFO - ================================================================================
+2026-05-12 23:12:25,697 - INFO - Processing claim #25 (ID: 168)
+2026-05-12 23:12:25,697 - INFO - Claim: 'Israelis get free US healthcare'...
+2026-05-12 23:12:25,697 - INFO - Date: 10-01-2024
+2026-05-12 23:12:25,697 - INFO - Asking model: qwen2.5-72b-instruct (method: naive)
+2026-05-12 23:12:25,697 - INFO - Claim: 'Israelis get free US healthcare'...
+2026-05-12 23:12:27,988 - INFO - API Response Status: 200
+2026-05-12 23:12:27,988 - INFO - Raw model response: {"label": "Refuted"}
+2026-05-12 23:12:27,988 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2026-05-12 23:12:27,988 - INFO - Prediction: Refuted
+2026-05-12 23:12:27,988 - INFO - ✗ Incorrect (True: Misleading, Pred: Refuted)
+2026-05-12 23:12:28,094 - INFO - ================================================================================
+2026-05-12 23:12:28,094 - INFO - Processing claim #26 (ID: 176)
+2026-05-12 23:12:28,094 - INFO - Claim: 'Spike protein from Covid-19 vaccines could promote cancer growth.'...
+2026-05-12 23:12:28,094 - INFO - Date: 01-07-2024
+2026-05-12 23:12:28,094 - INFO - Asking model: qwen2.5-72b-instruct (method: naive)
+2026-05-12 23:12:28,094 - INFO - Claim: 'Spike protein from Covid-19 vaccines could promote cancer growth.'...
+2026-05-12 23:12:38,015 - INFO - API Response Status: 200
+2026-05-12 23:12:38,015 - INFO - Raw model response: {"label": "Refuted"}
+2026-05-12 23:12:38,015 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2026-05-12 23:12:38,015 - INFO - Prediction: Refuted
+2026-05-12 23:12:38,015 - INFO - ✗ Incorrect (True: Misleading, Pred: Refuted)
+2026-05-12 23:12:38,127 - INFO - ================================================================================
+2026-05-12 23:12:38,127 - INFO - Processing claim #27 (ID: 177)
+2026-05-12 23:12:38,128 - INFO - Claim: 'Study proves link between Covid-19 and sudden death'...
+2026-05-12 23:12:38,128 - INFO - Date: 19-06-2024
+2026-05-12 23:12:38,128 - INFO - Asking model: qwen2.5-72b-instruct (method: naive)
+2026-05-12 23:12:38,128 - INFO - Claim: 'Study proves link between Covid-19 and sudden death'...
+2026-05-12 23:12:54,346 - INFO - API Response Status: 200
+2026-05-12 23:12:54,346 - INFO - Raw model response: {"label": "Not Enough Information"}
+2026-05-12 23:12:54,346 - INFO - Extracted label: Not Enough Information -> Normalized: Not Enough Information
+2026-05-12 23:12:54,346 - INFO - Prediction: Not Enough Information
+2026-05-12 23:12:54,346 - INFO - ✗ Incorrect (True: Misleading, Pred: Not Enough Information)
+2026-05-12 23:12:54,460 - INFO - ================================================================================
+2026-05-12 23:12:54,460 - INFO - Processing claim #28 (ID: 178)
+2026-05-12 23:12:54,460 - INFO - Claim: 'BMJ reports record excess deaths after Covid vaccine'...
+2026-05-12 23:12:54,460 - INFO - Date: 06-06-2024
+2026-05-12 23:12:54,460 - INFO - Asking model: qwen2.5-72b-instruct (method: naive)
+2026-05-12 23:12:54,460 - INFO - Claim: 'BMJ reports record excess deaths after Covid vaccine'...
+2026-05-12 23:13:05,732 - INFO - API Response Status: 200
+2026-05-12 23:13:05,732 - INFO - Raw model response: {"label": "Not Enough Information"}
+2026-05-12 23:13:05,732 - INFO - Extracted label: Not Enough Information -> Normalized: Not Enough Information
+2026-05-12 23:13:05,732 - INFO - Prediction: Not Enough Information
+2026-05-12 23:13:05,732 - INFO - ✗ Incorrect (True: Misleading, Pred: Not Enough Information)
+2026-05-12 23:13:05,847 - INFO - ================================================================================
+2026-05-12 23:13:05,847 - INFO - Processing claim #29 (ID: 179)
+2026-05-12 23:13:05,847 - INFO - Claim: “Covid vaccines may have helped fuel rise in excess deaths”...
+2026-05-12 23:13:05,848 - INFO - Date: 06-07-2024
+2026-05-12 23:13:05,848 - INFO - Asking model: qwen2.5-72b-instruct (method: naive)
+2026-05-12 23:13:05,848 - INFO - Claim: “Covid vaccines may have helped fuel rise in excess deaths”...
+2026-05-12 23:13:17,444 - INFO - API Response Status: 200
+2026-05-12 23:13:17,444 - INFO - Raw model response: {"label": "Not Enough Information"}
+2026-05-12 23:13:17,444 - INFO - Extracted label: Not Enough Information -> Normalized: Not Enough Information
+2026-05-12 23:13:17,444 - INFO - Prediction: Not Enough Information
+2026-05-12 23:13:17,444 - INFO - ✗ Incorrect (True: Misleading, Pred: Not Enough Information)
+2026-05-12 23:13:17,556 - INFO - ================================================================================
+2026-05-12 23:13:17,556 - INFO - Processing claim #30 (ID: 180)
+2026-05-12 23:13:17,556 - INFO - Claim: “AstraZeneca finally WITHDRAW Covid vaccine worldwide, months after the company admitted rare side effect for the first time in court documents.”...
+2026-05-12 23:13:17,556 - INFO - Date: 08-05-2024
+2026-05-12 23:13:17,556 - INFO - Asking model: qwen2.5-72b-instruct (method: naive)
+2026-05-12 23:13:17,556 - INFO - Claim: “AstraZeneca finally WITHDRAW Covid vaccine worldwide, months after the company admitted rare side effect for the first time in court documents.”...
+2026-05-12 23:13:21,550 - INFO - API Response Status: 200
+2026-05-12 23:13:21,550 - INFO - Raw model response: {"label": "Not Enough Information"}
+2026-05-12 23:13:21,550 - INFO - Extracted label: Not Enough Information -> Normalized: Not Enough Information
+2026-05-12 23:13:21,550 - INFO - Prediction: Not Enough Information
+2026-05-12 23:13:21,550 - INFO - ✗ Incorrect (True: Misleading, Pred: Not Enough Information)
+2026-05-12 23:13:21,664 - INFO - ================================================================================
+2026-05-12 23:13:21,664 - INFO - Processing claim #31 (ID: 181)
+2026-05-12 23:13:21,664 - INFO - Claim: 'New guidance says one day of isolation is sufficient for people with COVID-19.'...
+2026-05-12 23:13:21,664 - INFO - Date: 02-03-2024
+2026-05-12 23:13:21,664 - INFO - Asking model: qwen2.5-72b-instruct (method: naive)
+2026-05-12 23:13:21,664 - INFO - Claim: 'New guidance says one day of isolation is sufficient for people with COVID-19.'...
+2026-05-12 23:13:49,858 - INFO - API Response Status: 200
+2026-05-12 23:13:49,858 - INFO - Raw model response: {"label": "Not Enough Information"}
+2026-05-12 23:13:49,858 - INFO - Extracted label: Not Enough Information -> Normalized: Not Enough Information
+2026-05-12 23:13:49,858 - INFO - Prediction: Not Enough Information
+2026-05-12 23:13:49,858 - INFO - ✗ Incorrect (True: Misleading, Pred: Not Enough Information)
+2026-05-12 23:13:49,963 - INFO - ================================================================================
+2026-05-12 23:13:49,963 - INFO - Processing claim #32 (ID: 182)
+2026-05-12 23:13:49,964 - INFO - Claim: 'COVID-19 has been like the flu since the beginning of the pandemic.'...
+2026-05-12 23:13:49,964 - INFO - Date: 02-03-2024
+2026-05-12 23:13:49,964 - INFO - Asking model: qwen2.5-72b-instruct (method: naive)
+2026-05-12 23:13:49,964 - INFO - Claim: 'COVID-19 has been like the flu since the beginning of the pandemic.'...
+2026-05-12 23:13:51,898 - INFO - API Response Status: 200
+2026-05-12 23:13:51,898 - INFO - Raw model response: {"label": "Refuted"}
+2026-05-12 23:13:51,898 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2026-05-12 23:13:51,899 - INFO - Prediction: Refuted
+2026-05-12 23:13:51,899 - INFO - ✗ Incorrect (True: Misleading, Pred: Refuted)
+2026-05-12 23:13:52,013 - INFO - ================================================================================
+2026-05-12 23:13:52,013 - INFO - Processing claim #33 (ID: 183)
+2026-05-12 23:13:52,013 - INFO - Claim: 'Study of 99 million Covid vaccine recipients shows the shots are dangerous'...
+2026-05-12 23:13:52,013 - INFO - Date: 23-02-2024
+2026-05-12 23:13:52,013 - INFO - Asking model: qwen2.5-72b-instruct (method: naive)
+2026-05-12 23:13:52,014 - INFO - Claim: 'Study of 99 million Covid vaccine recipients shows the shots are dangerous'...
+2026-05-12 23:13:57,275 - INFO - API Response Status: 200
+2026-05-12 23:13:57,275 - INFO - Raw model response: {"label": "Not Enough Information"}
+2026-05-12 23:13:57,275 - INFO - Extracted label: Not Enough Information -> Normalized: Not Enough Information
+2026-05-12 23:13:57,275 - INFO - Prediction: Not Enough Information
+2026-05-12 23:13:57,276 - INFO - ✗ Incorrect (True: Misleading, Pred: Not Enough Information)
+2026-05-12 23:13:57,382 - INFO - ================================================================================
+2026-05-12 23:13:57,382 - INFO - Processing claim #34 (ID: 184)
+2026-05-12 23:13:57,382 - INFO - Claim: 'COVID-19 vaccine recipients might not be eligible for blood donation'...
+2026-05-12 23:13:57,382 - INFO - Date: 23-02-2024
+2026-05-12 23:13:57,382 - INFO - Asking model: qwen2.5-72b-instruct (method: naive)
+2026-05-12 23:13:57,382 - INFO - Claim: 'COVID-19 vaccine recipients might not be eligible for blood donation'...
+2026-05-12 23:14:00,710 - INFO - API Response Status: 200
+2026-05-12 23:14:00,710 - INFO - Raw model response: {"label": "Not Enough Information"}
+2026-05-12 23:14:00,711 - INFO - Extracted label: Not Enough Information -> Normalized: Not Enough Information
+2026-05-12 23:14:00,711 - INFO - Prediction: Not Enough Information
+2026-05-12 23:14:00,711 - INFO - ✗ Incorrect (True: Misleading, Pred: Not Enough Information)
+2026-05-12 23:14:00,819 - INFO - ================================================================================
+2026-05-12 23:14:00,820 - INFO - Processing claim #35 (ID: 185)
+2026-05-12 23:14:00,820 - INFO - Claim: “He [President Donald Trump] did not move on making sure that we dealt with vaccinating the American public. We ended up losing over a million people ...
+2026-05-12 23:14:00,820 - INFO - Date: 12-02-2024
+2026-05-12 23:14:00,820 - INFO - Asking model: qwen2.5-72b-instruct (method: naive)
+2026-05-12 23:14:00,820 - INFO - Claim: “He [President Donald Trump] did not move on making sure that we dealt with vaccinating the American public. We ended up losing over a million people ...
+2026-05-12 23:14:06,322 - INFO - API Response Status: 200
+2026-05-12 23:14:06,322 - INFO - Raw model response: {"label": "Not Enough Information"}
+2026-05-12 23:14:06,322 - INFO - Extracted label: Not Enough Information -> Normalized: Not Enough Information
+2026-05-12 23:14:06,322 - INFO - Prediction: Not Enough Information
+2026-05-12 23:14:06,322 - INFO - ✗ Incorrect (True: Misleading, Pred: Not Enough Information)
+2026-05-12 23:14:06,436 - INFO - ================================================================================
+2026-05-12 23:14:06,436 - INFO - Processing claim #36 (ID: 186)
+2026-05-12 23:14:06,436 - INFO - Claim: 'Covid-19 vaccine worsens thyroid issues'...
+2026-05-12 23:14:06,436 - INFO - Date: 11-03-2024
+2026-05-12 23:14:06,436 - INFO - Asking model: qwen2.5-72b-instruct (method: naive)
+2026-05-12 23:14:06,436 - INFO - Claim: 'Covid-19 vaccine worsens thyroid issues'...
+2026-05-12 23:14:08,409 - INFO - API Response Status: 200
+2026-05-12 23:14:08,409 - INFO - Raw model response: {"label": "Not Enough Information"}
+2026-05-12 23:14:08,409 - INFO - Extracted label: Not Enough Information -> Normalized: Not Enough Information
+2026-05-12 23:14:08,409 - INFO - Prediction: Not Enough Information
+2026-05-12 23:14:08,409 - INFO - ✓ Correct prediction
+2026-05-12 23:14:08,522 - INFO - ================================================================================
+2026-05-12 23:14:08,522 - INFO - Processing claim #37 (ID: 194)
+2026-05-12 23:14:08,522 - INFO - Claim: “We have scaled up our investment in the healthcare workforce [by] employing 20,000 new healthcare workers.”...
+2026-05-12 23:14:08,522 - INFO - Date: 01-11-2023
+2026-05-12 23:14:08,522 - INFO - Asking model: qwen2.5-72b-instruct (method: naive)
+2026-05-12 23:14:08,522 - INFO - Claim: “We have scaled up our investment in the healthcare workforce [by] employing 20,000 new healthcare workers.”...
+2026-05-12 23:14:11,099 - INFO - API Response Status: 200
+2026-05-12 23:14:11,100 - INFO - Raw model response: {"label": "Not Enough Information"}
+2026-05-12 23:14:11,100 - INFO - Extracted label: Not Enough Information -> Normalized: Not Enough Information
+2026-05-12 23:14:11,100 - INFO - Prediction: Not Enough Information
+2026-05-12 23:14:11,100 - INFO - ✓ Correct prediction
+2026-05-12 23:14:11,212 - INFO - ================================================================================
+2026-05-12 23:14:11,212 - INFO - Processing claim #38 (ID: 251)
+2026-05-12 23:14:11,212 - INFO - Claim: 'A CNN broadcast captured an Ohio woman placing multiple ballots into a drop box on Election Day.'...
+2026-05-12 23:14:11,212 - INFO - Date: 07-11-2023
+2026-05-12 23:14:11,212 - INFO - Asking model: qwen2.5-72b-instruct (method: naive)
+2026-05-12 23:14:11,212 - INFO - Claim: 'A CNN broadcast captured an Ohio woman placing multiple ballots into a drop box on Election Day.'...
+2026-05-12 23:14:19,251 - INFO - API Response Status: 200
+2026-05-12 23:14:19,251 - INFO - Raw model response: {"label": "Not Enough Information"}
+2026-05-12 23:14:19,251 - INFO - Extracted label: Not Enough Information -> Normalized: Not Enough Information
+2026-05-12 23:14:19,251 - INFO - Prediction: Not Enough Information
+2026-05-12 23:14:19,251 - INFO - ✗ Incorrect (True: Misleading, Pred: Not Enough Information)
+2026-05-12 23:14:19,367 - INFO - ================================================================================
+2026-05-12 23:14:19,367 - INFO - Processing claim #39 (ID: 252)
+2026-05-12 23:14:19,367 - INFO - Claim: 'Review article "has found that COVID-19 mRNA vaccines could aid cancer development”'...
+2026-05-12 23:14:19,367 - INFO - Date: 16-04-2024
+2026-05-12 23:14:19,367 - INFO - Asking model: qwen2.5-72b-instruct (method: naive)
+2026-05-12 23:14:19,367 - INFO - Claim: 'Review article "has found that COVID-19 mRNA vaccines could aid cancer development”'...
+2026-05-12 23:14:23,680 - INFO - API Response Status: 200
+2026-05-12 23:14:23,680 - INFO - Raw model response: {"label": "Not Enough Information"}
+2026-05-12 23:14:23,680 - INFO - Extracted label: Not Enough Information -> Normalized: Not Enough Information
+2026-05-12 23:14:23,680 - INFO - Prediction: Not Enough Information
+2026-05-12 23:14:23,680 - INFO - ✗ Incorrect (True: Refuted, Pred: Not Enough Information)
+2026-05-12 23:14:23,792 - INFO - ================================================================================
+2026-05-12 23:14:23,793 - INFO - Processing claim #40 (ID: 253)
+2026-05-12 23:14:23,793 - INFO - Claim: 'Trump said "A vaccination that is like 38 different vaccines, and it looks like it’s meant for a horse, not a, you know, 10-pound or 20-pound baby. ....
+2026-05-12 23:14:23,793 - INFO - Date: 16-07-2024
+2026-05-12 23:14:23,793 - INFO - Asking model: qwen2.5-72b-instruct (method: naive)
+2026-05-12 23:14:23,793 - INFO - Claim: 'Trump said "A vaccination that is like 38 different vaccines, and it looks like it’s meant for a horse, not a, you know, 10-pound or 20-pound baby. ....
+2026-05-12 23:14:34,877 - INFO - API Response Status: 200
+2026-05-12 23:14:34,877 - INFO - Raw model response: {"label": "Supported"}
+2026-05-12 23:14:34,878 - INFO - Extracted label: Supported -> Normalized: Supported
+2026-05-12 23:14:34,878 - INFO - Prediction: Supported
+2026-05-12 23:14:34,878 - INFO - ✓ Correct prediction
+2026-05-12 23:14:34,991 - INFO - ================================================================================
+2026-05-12 23:14:34,991 - INFO - Processing claim #41 (ID: 279)
+2026-05-12 23:14:34,992 - INFO - Claim: 'Turkish flag doodled by Drone over Raisi helicopter crash site'...
+2026-05-12 23:14:34,992 - INFO - Date: 21-05-2024
+2026-05-12 23:14:34,992 - INFO - Asking model: qwen2.5-72b-instruct (method: naive)
+2026-05-12 23:14:34,992 - INFO - Claim: 'Turkish flag doodled by Drone over Raisi helicopter crash site'...
+2026-05-12 23:14:55,956 - INFO - API Response Status: 502
+2026-05-12 23:14:55,956 - ERROR - API error 502: {"error":{"message":"Bad gateway","type":"gateway_error","code":"bad_gateway"}}
+2026-05-12 23:14:55,957 - WARNING - Failed to get valid prediction
+2026-05-12 23:14:56,066 - INFO - ================================================================================
+2026-05-12 23:14:56,066 - INFO - Processing claim #42 (ID: 292)
+2026-05-12 23:14:56,066 - INFO - Claim: 'The 2014 Euromaidan protests in Ukraine were a coup'...
+2026-05-12 23:14:56,066 - INFO - Date: 08-02-2024
+2026-05-12 23:14:56,066 - INFO - Asking model: qwen2.5-72b-instruct (method: naive)
+2026-05-12 23:14:56,066 - INFO - Claim: 'The 2014 Euromaidan protests in Ukraine were a coup'...
+2026-05-12 23:15:26,160 - WARNING - Network error: HTTPSConnectionPool(host='api.avalapis.ir', port=443): Read timed out. (read timeout=30). Retrying...
+2026-05-12 23:15:56,769 - WARNING - Network error: HTTPSConnectionPool(host='api.avalapis.ir', port=443): Read timed out. (read timeout=30). Retrying...
+2026-05-12 23:15:58,908 - INFO - API Response Status: 200
+2026-05-12 23:15:58,909 - INFO - Raw model response: {"label": "Refuted"}
+2026-05-12 23:15:58,909 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2026-05-12 23:15:58,909 - INFO - Prediction: Refuted
+2026-05-12 23:15:58,909 - INFO - ✓ Correct prediction
+2026-05-12 23:15:59,023 - INFO - ================================================================================
+2026-05-12 23:15:59,023 - INFO - Processing claim #43 (ID: 3)
+2026-05-12 23:15:59,023 - INFO - Claim: 'Cows' burps are a non-existent problem for climate change'...
+2026-05-12 23:15:59,023 - INFO - Date: 
+2026-05-12 23:15:59,023 - INFO - Asking model: qwen2.5-72b-instruct (method: naive)
+2026-05-12 23:15:59,023 - INFO - Claim: 'Cows' burps are a non-existent problem for climate change'...
+2026-05-12 23:16:00,801 - INFO - API Response Status: 200
+2026-05-12 23:16:00,801 - INFO - Raw model response: {"label": "Refuted"}
+2026-05-12 23:16:00,801 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2026-05-12 23:16:00,801 - INFO - Prediction: Refuted
+2026-05-12 23:16:00,801 - INFO - ✓ Correct prediction
+2026-05-12 23:16:00,907 - INFO - ================================================================================
+2026-05-12 23:16:00,907 - INFO - Processing claim #44 (ID: 25)
+2026-05-12 23:16:00,907 - INFO - Claim: 'Now Fauci admits that COVID vaccines cause MYOCARDlTlS, particularly in young men.'...
+2026-05-12 23:16:00,907 - INFO - Date: 
+2026-05-12 23:16:00,907 - INFO - Asking model: qwen2.5-72b-instruct (method: naive)
+2026-05-12 23:16:00,907 - INFO - Claim: 'Now Fauci admits that COVID vaccines cause MYOCARDlTlS, particularly in young men.'...
+2026-05-12 23:16:09,744 - INFO - API Response Status: 200
+2026-05-12 23:16:09,744 - INFO - Raw model response: {"label": "Not Enough Information"}
+2026-05-12 23:16:09,744 - INFO - Extracted label: Not Enough Information -> Normalized: Not Enough Information
+2026-05-12 23:16:09,745 - INFO - Prediction: Not Enough Information
+2026-05-12 23:16:09,745 - INFO - ✗ Incorrect (True: Refuted, Pred: Not Enough Information)
+2026-05-12 23:16:09,846 - INFO - ================================================================================
+2026-05-12 23:16:09,846 - INFO - Processing claim #45 (ID: 51)
+2026-05-12 23:16:09,846 - INFO - Claim: 'UnitedHealthcare uses an artificial intelligence (AI) tool with a 90% error rate to deny insurance claims.'...
+2026-05-12 23:16:09,846 - INFO - Date: 
+2026-05-12 23:16:09,846 - INFO - Asking model: qwen2.5-72b-instruct (method: naive)
+2026-05-12 23:16:09,846 - INFO - Claim: 'UnitedHealthcare uses an artificial intelligence (AI) tool with a 90% error rate to deny insurance claims.'...
+2026-05-12 23:16:13,316 - INFO - API Response Status: 200
+2026-05-12 23:16:13,316 - INFO - Raw model response: {"label": "Not Enough Information"}
+2026-05-12 23:16:13,316 - INFO - Extracted label: Not Enough Information -> Normalized: Not Enough Information
+2026-05-12 23:16:13,316 - INFO - Prediction: Not Enough Information
+2026-05-12 23:16:13,316 - INFO - ✓ Correct prediction
+2026-05-12 23:16:13,424 - INFO - ================================================================================
+2026-05-12 23:16:13,424 - INFO - Processing claim #46 (ID: 55)
+2026-05-12 23:16:13,424 - INFO - Claim: 'There is a statement one can post that will prevent Meta AI from collecting your data'...
+2026-05-12 23:16:13,424 - INFO - Date: 
+2026-05-12 23:16:13,424 - INFO - Asking model: qwen2.5-72b-instruct (method: naive)
+2026-05-12 23:16:13,424 - INFO - Claim: 'There is a statement one can post that will prevent Meta AI from collecting your data'...
+2026-05-12 23:16:17,966 - INFO - API Response Status: 200
+2026-05-12 23:16:17,966 - INFO - Raw model response: {"label": "Not Enough Information"}
+2026-05-12 23:16:17,966 - INFO - Extracted label: Not Enough Information -> Normalized: Not Enough Information
+2026-05-12 23:16:17,966 - INFO - Prediction: Not Enough Information
+2026-05-12 23:16:17,966 - INFO - ✗ Incorrect (True: Refuted, Pred: Not Enough Information)
+2026-05-12 23:16:18,069 - INFO - ================================================================================
+2026-05-12 23:16:18,069 - INFO - Processing claim #47 (ID: 56)
+2026-05-12 23:16:18,069 - INFO - Claim: 'By posting a statement on Facebook or Instagram that begins with "Goodbye Meta AI," users are blocking the company from scraping their data to train ...
+2026-05-12 23:16:18,069 - INFO - Date: 
+2026-05-12 23:16:18,069 - INFO - Asking model: qwen2.5-72b-instruct (method: naive)
+2026-05-12 23:16:18,069 - INFO - Claim: 'By posting a statement on Facebook or Instagram that begins with "Goodbye Meta AI," users are blocking the company from scraping their data to train ...
+2026-05-12 23:16:19,905 - INFO - API Response Status: 200
+2026-05-12 23:16:19,905 - INFO - Raw model response: {"label": "Refuted"}
+2026-05-12 23:16:19,905 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2026-05-12 23:16:19,906 - INFO - Prediction: Refuted
+2026-05-12 23:16:19,906 - INFO - ✓ Correct prediction
+2026-05-12 23:16:20,015 - INFO - ================================================================================
+2026-05-12 23:16:20,015 - INFO - Processing claim #48 (ID: 58)
+2026-05-12 23:16:20,015 - INFO - Claim: 'Bill Gates is planning to weaponize AI to silence anyone opposing his vaccine.'...
+2026-05-12 23:16:20,015 - INFO - Date: 
+2026-05-12 23:16:20,015 - INFO - Asking model: qwen2.5-72b-instruct (method: naive)
+2026-05-12 23:16:20,015 - INFO - Claim: 'Bill Gates is planning to weaponize AI to silence anyone opposing his vaccine.'...
+2026-05-12 23:16:21,905 - INFO - API Response Status: 200
+2026-05-12 23:16:21,905 - INFO - Raw model response: {"label": "Refuted"}
+2026-05-12 23:16:21,905 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2026-05-12 23:16:21,905 - INFO - Prediction: Refuted
+2026-05-12 23:16:21,905 - INFO - ✓ Correct prediction
+2026-05-12 23:16:22,006 - INFO - ================================================================================
+2026-05-12 23:16:22,006 - INFO - Processing claim #49 (ID: 100)
+2026-05-12 23:16:22,006 - INFO - Claim: 'Since the end of the Cold War in 1989, Democratic presidents created 50 million of the 51 million jobs added to the economy between then and July 202...
+2026-05-12 23:16:22,006 - INFO - Date: 
+2026-05-12 23:16:22,006 - INFO - Asking model: qwen2.5-72b-instruct (method: naive)
+2026-05-12 23:16:22,006 - INFO - Claim: 'Since the end of the Cold War in 1989, Democratic presidents created 50 million of the 51 million jobs added to the economy between then and July 202...
+2026-05-12 23:16:23,275 - INFO - API Response Status: 200
+2026-05-12 23:16:23,275 - INFO - Raw model response: {"label": "Not Enough Information"}
+2026-05-12 23:16:23,275 - INFO - Extracted label: Not Enough Information -> Normalized: Not Enough Information
+2026-05-12 23:16:23,276 - INFO - Prediction: Not Enough Information
+2026-05-12 23:16:23,276 - INFO - ✗ Incorrect (True: Supported, Pred: Not Enough Information)
+2026-05-12 23:16:23,386 - INFO - ================================================================================
+2026-05-12 23:16:23,386 - INFO - Processing claim #50 (ID: 102)
+2026-05-12 23:16:23,386 - INFO - Claim: 'During former U.S. President Donald Trump's term in office, the U.S. suffered the lowest job growth and highest unemployment rate since the Great Dep...
+2026-05-12 23:16:23,386 - INFO - Date: 
+2026-05-12 23:16:23,386 - INFO - Asking model: qwen2.5-72b-instruct (method: naive)
+2026-05-12 23:16:23,386 - INFO - Claim: 'During former U.S. President Donald Trump's term in office, the U.S. suffered the lowest job growth and highest unemployment rate since the Great Dep...
+2026-05-12 23:16:50,149 - INFO - API Response Status: 200
+2026-05-12 23:16:50,149 - INFO - Raw model response: {"label": "Refuted"}
+2026-05-12 23:16:50,149 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2026-05-12 23:16:50,149 - INFO - Prediction: Refuted
+2026-05-12 23:16:50,149 - INFO - ✗ Incorrect (True: Supported, Pred: Refuted)
+2026-05-12 23:16:50,260 - INFO - ================================================================================
+2026-05-12 23:16:50,261 - INFO - Processing claim #51 (ID: 105)
+2026-05-12 23:16:50,261 - INFO - Claim: 'In a 2004 interview on CNN, Donald Trump said, "The economy does better under the Democrats than the Republicans."'...
+2026-05-12 23:16:50,261 - INFO - Date: 
+2026-05-12 23:16:50,261 - INFO - Asking model: qwen2.5-72b-instruct (method: naive)
+2026-05-12 23:16:50,261 - INFO - Claim: 'In a 2004 interview on CNN, Donald Trump said, "The economy does better under the Democrats than the Republicans."'...
+2026-05-12 23:17:12,542 - INFO - API Response Status: 200
+2026-05-12 23:17:12,542 - INFO - Raw model response: {"label": "Not Enough Information"}
+2026-05-12 23:17:12,543 - INFO - Extracted label: Not Enough Information -> Normalized: Not Enough Information
+2026-05-12 23:17:12,543 - INFO - Prediction: Not Enough Information
+2026-05-12 23:17:12,543 - INFO - ✗ Incorrect (True: Supported, Pred: Not Enough Information)
+2026-05-12 23:17:12,645 - INFO - ================================================================================
+2026-05-12 23:17:12,645 - INFO - Processing claim #52 (ID: 107)
+2026-05-12 23:17:12,645 - INFO - Claim: 'Prior to the U.S. presidential election on Nov. 5, 2024, a FEMA official instructed relief workers to skip past homes of residents with pro-Donald Tr...
+2026-05-12 23:17:12,645 - INFO - Date: 
+2026-05-12 23:17:12,645 - INFO - Asking model: qwen2.5-72b-instruct (method: naive)
+2026-05-12 23:17:12,645 - INFO - Claim: 'Prior to the U.S. presidential election on Nov. 5, 2024, a FEMA official instructed relief workers to skip past homes of residents with pro-Donald Tr...
+2026-05-12 23:17:20,140 - INFO - API Response Status: 200
+2026-05-12 23:17:20,140 - INFO - Raw model response: {"label": "Not Enough Information"}
+2026-05-12 23:17:20,140 - INFO - Extracted label: Not Enough Information -> Normalized: Not Enough Information
+2026-05-12 23:17:20,141 - INFO - Prediction: Not Enough Information
+2026-05-12 23:17:20,141 - INFO - ✗ Incorrect (True: Supported, Pred: Not Enough Information)
+2026-05-12 23:17:20,246 - INFO - ================================================================================
+2026-05-12 23:17:20,246 - INFO - Processing claim #53 (ID: 108)
+2026-05-12 23:17:20,246 - INFO - Claim: 'Following the 2024 election of U.S. President-elect Donald Trump, demonstrators at Texas State University carried signs reading "Women are property" ...
+2026-05-12 23:17:20,246 - INFO - Date: 
+2026-05-12 23:17:20,246 - INFO - Asking model: qwen2.5-72b-instruct (method: naive)
+2026-05-12 23:17:20,246 - INFO - Claim: 'Following the 2024 election of U.S. President-elect Donald Trump, demonstrators at Texas State University carried signs reading "Women are property" ...
+2026-05-12 23:17:34,823 - INFO - API Response Status: 200
+2026-05-12 23:17:34,823 - INFO - Raw model response: {"label": "Not Enough Information"}
+2026-05-12 23:17:34,823 - INFO - Extracted label: Not Enough Information -> Normalized: Not Enough Information
+2026-05-12 23:17:34,823 - INFO - Prediction: Not Enough Information
+2026-05-12 23:17:34,823 - INFO - ✗ Incorrect (True: Supported, Pred: Not Enough Information)
+2026-05-12 23:17:34,933 - INFO - ================================================================================
+2026-05-12 23:17:34,933 - INFO - Processing claim #54 (ID: 109)
+2026-05-12 23:17:34,933 - INFO - Claim: 'Technical problems prevented the electronic scanning of ballots in Cambria County, Pennsylvania, necessitating an extension of voting hours on Electi...
+2026-05-12 23:17:34,933 - INFO - Date: 
+2026-05-12 23:17:34,933 - INFO - Asking model: qwen2.5-72b-instruct (method: naive)
+2026-05-12 23:17:34,933 - INFO - Claim: 'Technical problems prevented the electronic scanning of ballots in Cambria County, Pennsylvania, necessitating an extension of voting hours on Electi...
+2026-05-12 23:17:41,950 - INFO - API Response Status: 200
+2026-05-12 23:17:41,950 - INFO - Raw model response: {"label": "Not Enough Information"}
+2026-05-12 23:17:41,950 - INFO - Extracted label: Not Enough Information -> Normalized: Not Enough Information
+2026-05-12 23:17:41,950 - INFO - Prediction: Not Enough Information
+2026-05-12 23:17:41,950 - INFO - ✗ Incorrect (True: Supported, Pred: Not Enough Information)
+2026-05-12 23:17:42,063 - INFO - ================================================================================
+2026-05-12 23:17:42,063 - INFO - Processing claim #55 (ID: 111)
+2026-05-12 23:17:42,063 - INFO - Claim: 'The US stock market tends to rise regardless of which party wins.'...
+2026-05-12 23:17:42,063 - INFO - Date: 
+2026-05-12 23:17:42,064 - INFO - Asking model: qwen2.5-72b-instruct (method: naive)
+2026-05-12 23:17:42,064 - INFO - Claim: 'The US stock market tends to rise regardless of which party wins.'...
+2026-05-12 23:18:01,138 - INFO - API Response Status: 200
+2026-05-12 23:18:01,138 - INFO - Raw model response: {"label": "Not Enough Information"}
+2026-05-12 23:18:01,138 - INFO - Extracted label: Not Enough Information -> Normalized: Not Enough Information
+2026-05-12 23:18:01,138 - INFO - Prediction: Not Enough Information
+2026-05-12 23:18:01,138 - INFO - ✗ Incorrect (True: Supported, Pred: Not Enough Information)
+2026-05-12 23:18:01,252 - INFO - ================================================================================
+2026-05-12 23:18:01,252 - INFO - Processing claim #56 (ID: 112)
+2026-05-12 23:18:01,252 - INFO - Claim: 'Russian leader Vladimir Putin endorsed Democratic nominee Kamala Harris in September 2024 in the buildup to the U.S. presidential election.'...
+2026-05-12 23:18:01,252 - INFO - Date: 
+2026-05-12 23:18:01,252 - INFO - Asking model: qwen2.5-72b-instruct (method: naive)
+2026-05-12 23:18:01,252 - INFO - Claim: 'Russian leader Vladimir Putin endorsed Democratic nominee Kamala Harris in September 2024 in the buildup to the U.S. presidential election.'...
+2026-05-12 23:18:14,552 - INFO - API Response Status: 200
+2026-05-12 23:18:14,552 - INFO - Raw model response: {"label": "Refuted"}
+2026-05-12 23:18:14,552 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2026-05-12 23:18:14,553 - INFO - Prediction: Refuted
+2026-05-12 23:18:14,553 - INFO - ✗ Incorrect (True: Supported, Pred: Refuted)
+2026-05-12 23:18:14,658 - INFO - ================================================================================
+2026-05-12 23:18:14,658 - INFO - Processing claim #57 (ID: 113)
+2026-05-12 23:18:14,658 - INFO - Claim: 'Amazon Alexa provided an answer to the question of why someone should vote for Vice President Kamala Harris in the 2024 U.S. presidential election bu...
+2026-05-12 23:18:14,658 - INFO - Date: 
+2026-05-12 23:18:14,658 - INFO - Asking model: qwen2.5-72b-instruct (method: naive)
+2026-05-12 23:18:14,658 - INFO - Claim: 'Amazon Alexa provided an answer to the question of why someone should vote for Vice President Kamala Harris in the 2024 U.S. presidential election bu...
+2026-05-12 23:18:22,823 - INFO - API Response Status: 200
+2026-05-12 23:18:22,823 - INFO - Raw model response: {"label": "Not Enough Information"}
+2026-05-12 23:18:22,823 - INFO - Extracted label: Not Enough Information -> Normalized: Not Enough Information
+2026-05-12 23:18:22,824 - INFO - Prediction: Not Enough Information
+2026-05-12 23:18:22,824 - INFO - ✗ Incorrect (True: Supported, Pred: Not Enough Information)
+2026-05-12 23:18:22,932 - INFO - ================================================================================
+2026-05-12 23:18:22,932 - INFO - Processing claim #58 (ID: 115)
+2026-05-12 23:18:22,932 - INFO - Claim: 'Former Black Lives Matter Rhode Island leader Mark Fisher endorsed former U.S. President Donald Trump for the 2024 presidential election.'...
+2026-05-12 23:18:22,932 - INFO - Date: 
+2026-05-12 23:18:22,932 - INFO - Asking model: qwen2.5-72b-instruct (method: naive)
+2026-05-12 23:18:22,932 - INFO - Claim: 'Former Black Lives Matter Rhode Island leader Mark Fisher endorsed former U.S. President Donald Trump for the 2024 presidential election.'...
+2026-05-12 23:18:53,107 - WARNING - Network error: HTTPSConnectionPool(host='api.avalapis.ir', port=443): Read timed out. (read timeout=30). Retrying...
+2026-05-12 23:19:24,666 - WARNING - Network error: HTTPSConnectionPool(host='api.avalapis.ir', port=443): Read timed out. (read timeout=30). Retrying...
+2026-05-12 23:19:33,356 - INFO - API Response Status: 200
+2026-05-12 23:19:33,356 - INFO - Raw model response: {"label": "Not Enough Information"}
+2026-05-12 23:19:33,356 - INFO - Extracted label: Not Enough Information -> Normalized: Not Enough Information
+2026-05-12 23:19:33,356 - INFO - Prediction: Not Enough Information
+2026-05-12 23:19:33,356 - INFO - ✗ Incorrect (True: Supported, Pred: Not Enough Information)
+2026-05-12 23:19:33,456 - INFO - ================================================================================
+2026-05-12 23:19:33,456 - INFO - Processing claim #59 (ID: 116)
+2026-05-12 23:19:33,456 - INFO - Claim: "Pokémon GO" developer Niantic used location-based player data to build an artificial intelligence navigation system....
+2026-05-12 23:19:33,456 - INFO - Date: 
+2026-05-12 23:19:33,456 - INFO - Asking model: qwen2.5-72b-instruct (method: naive)
+2026-05-12 23:19:33,456 - INFO - Claim: "Pokémon GO" developer Niantic used location-based player data to build an artificial intelligence navigation system....
+2026-05-12 23:19:41,202 - INFO - API Response Status: 200
+2026-05-12 23:19:41,203 - INFO - Raw model response: {"label": "Not Enough Information"}
+2026-05-12 23:19:41,203 - INFO - Extracted label: Not Enough Information -> Normalized: Not Enough Information
+2026-05-12 23:19:41,203 - INFO - Prediction: Not Enough Information
+2026-05-12 23:19:41,203 - INFO - ✗ Incorrect (True: Supported, Pred: Not Enough Information)
+2026-05-12 23:19:41,321 - INFO - ================================================================================
+2026-05-12 23:19:41,322 - INFO - Processing claim #60 (ID: 117)
+2026-05-12 23:19:41,322 - INFO - Claim: 'Gemini, Google’s artificial intelligence chatbot, told a college student, “please die.”'...
+2026-05-12 23:19:41,322 - INFO - Date: 
+2026-05-12 23:19:41,322 - INFO - Asking model: qwen2.5-72b-instruct (method: naive)
+2026-05-12 23:19:41,322 - INFO - Claim: 'Gemini, Google’s artificial intelligence chatbot, told a college student, “please die.”'...
+2026-05-12 23:19:43,181 - INFO - API Response Status: 200
+2026-05-12 23:19:43,181 - INFO - Raw model response: {"label": "Not Enough Information"}
+2026-05-12 23:19:43,181 - INFO - Extracted label: Not Enough Information -> Normalized: Not Enough Information
+2026-05-12 23:19:43,181 - INFO - Prediction: Not Enough Information
+2026-05-12 23:19:43,181 - INFO - ✗ Incorrect (True: Supported, Pred: Not Enough Information)
+2026-05-12 23:19:43,297 - INFO - ================================================================================
+2026-05-12 23:19:43,297 - INFO - Processing claim #61 (ID: 119)
+2026-05-12 23:19:43,297 - INFO - Claim: 'Government requires more personal info from business owners'...
+2026-05-12 23:19:43,297 - INFO - Date: 
+2026-05-12 23:19:43,298 - INFO - Asking model: qwen2.5-72b-instruct (method: naive)
+2026-05-12 23:19:43,298 - INFO - Claim: 'Government requires more personal info from business owners'...
+2026-05-12 23:19:50,946 - INFO - API Response Status: 200
+2026-05-12 23:19:50,946 - INFO - Raw model response: {"label": "Not Enough Information"}
+2026-05-12 23:19:50,946 - INFO - Extracted label: Not Enough Information -> Normalized: Not Enough Information
+2026-05-12 23:19:50,947 - INFO - Prediction: Not Enough Information
+2026-05-12 23:19:50,947 - INFO - ✗ Incorrect (True: Supported, Pred: Not Enough Information)
+2026-05-12 23:19:51,062 - INFO - ================================================================================
+2026-05-12 23:19:51,062 - INFO - Processing claim #62 (ID: 122)
+2026-05-12 23:19:51,062 - INFO - Claim: 'A photograph circulating on social media shows a close-up view of a humpback whale’s eye.'...
+2026-05-12 23:19:51,062 - INFO - Date: 
+2026-05-12 23:19:51,062 - INFO - Asking model: qwen2.5-72b-instruct (method: naive)
+2026-05-12 23:19:51,062 - INFO - Claim: 'A photograph circulating on social media shows a close-up view of a humpback whale’s eye.'...
+2026-05-12 23:19:56,366 - INFO - API Response Status: 200
+2026-05-12 23:19:56,366 - INFO - Raw model response: {"label": "Not Enough Information"}
+2026-05-12 23:19:56,366 - INFO - Extracted label: Not Enough Information -> Normalized: Not Enough Information
+2026-05-12 23:19:56,366 - INFO - Prediction: Not Enough Information
+2026-05-12 23:19:56,366 - INFO - ✗ Incorrect (True: Supported, Pred: Not Enough Information)
+2026-05-12 23:19:56,479 - INFO - ================================================================================
+2026-05-12 23:19:56,479 - INFO - Processing claim #63 (ID: 126)
+2026-05-12 23:19:56,479 - INFO - Claim: 'Ancestry.com listed a Joseph Robinette Biden Jr. as having died in Guantánamo, Cuba, in 2018.'...
+2026-05-12 23:19:56,479 - INFO - Date: 
+2026-05-12 23:19:56,479 - INFO - Asking model: qwen2.5-72b-instruct (method: naive)
+2026-05-12 23:19:56,479 - INFO - Claim: 'Ancestry.com listed a Joseph Robinette Biden Jr. as having died in Guantánamo, Cuba, in 2018.'...
+2026-05-12 23:19:58,232 - INFO - API Response Status: 200
+2026-05-12 23:19:58,232 - INFO - Raw model response: {"label": "Refuted"}
+2026-05-12 23:19:58,232 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2026-05-12 23:19:58,232 - INFO - Prediction: Refuted
+2026-05-12 23:19:58,232 - INFO - ✗ Incorrect (True: Supported, Pred: Refuted)
+2026-05-12 23:19:58,335 - INFO - ================================================================================
+2026-05-12 23:19:58,335 - INFO - Processing claim #64 (ID: 127)
+2026-05-12 23:19:58,335 - INFO - Claim: 'Images shared on social media showed a mailer sent to voters in Texas ahead of a May 28, 2024, runoff election reading, in part: "Your neighbors are ...
+2026-05-12 23:19:58,336 - INFO - Date: 
+2026-05-12 23:19:58,336 - INFO - Asking model: qwen2.5-72b-instruct (method: naive)
+2026-05-12 23:19:58,336 - INFO - Claim: 'Images shared on social media showed a mailer sent to voters in Texas ahead of a May 28, 2024, runoff election reading, in part: "Your neighbors are ...
+2026-05-12 23:20:04,990 - INFO - API Response Status: 200
+2026-05-12 23:20:04,991 - INFO - Raw model response: {"label": "Not Enough Information"}
+2026-05-12 23:20:04,991 - INFO - Extracted label: Not Enough Information -> Normalized: Not Enough Information
+2026-05-12 23:20:04,991 - INFO - Prediction: Not Enough Information
+2026-05-12 23:20:04,991 - INFO - ✗ Incorrect (True: Supported, Pred: Not Enough Information)
+2026-05-12 23:20:05,102 - INFO - ================================================================================
+2026-05-12 23:20:05,103 - INFO - Processing claim #65 (ID: 128)
+2026-05-12 23:20:05,103 - INFO - Claim: 'Children under 14 in Florida could be kicked off some social media.'...
+2026-05-12 23:20:05,103 - INFO - Date: 
+2026-05-12 23:20:05,103 - INFO - Asking model: qwen2.5-72b-instruct (method: naive)
+2026-05-12 23:20:05,103 - INFO - Claim: 'Children under 14 in Florida could be kicked off some social media.'...
+2026-05-12 23:20:06,698 - INFO - API Response Status: 200
+2026-05-12 23:20:06,698 - INFO - Raw model response: {"label": "Not Enough Information"}
+2026-05-12 23:20:06,698 - INFO - Extracted label: Not Enough Information -> Normalized: Not Enough Information
+2026-05-12 23:20:06,699 - INFO - Prediction: Not Enough Information
+2026-05-12 23:20:06,699 - INFO - ✗ Incorrect (True: Supported, Pred: Not Enough Information)
+2026-05-12 23:20:06,806 - INFO - ================================================================================
+2026-05-12 23:20:06,806 - INFO - Processing claim #66 (ID: 129)
+2026-05-12 23:20:06,807 - INFO - Claim: 'Social media users stated KitKat was selling chocolate Ramadan characters during Easter 2024.'...
+2026-05-12 23:20:06,807 - INFO - Date: 
+2026-05-12 23:20:06,807 - INFO - Asking model: qwen2.5-72b-instruct (method: naive)
+2026-05-12 23:20:06,807 - INFO - Claim: 'Social media users stated KitKat was selling chocolate Ramadan characters during Easter 2024.'...
+2026-05-12 23:20:33,485 - INFO - API Response Status: 200
+2026-05-12 23:20:33,485 - INFO - Raw model response: {"label": "Not Enough Information"}
+2026-05-12 23:20:33,485 - INFO - Extracted label: Not Enough Information -> Normalized: Not Enough Information
+2026-05-12 23:20:33,485 - INFO - Prediction: Not Enough Information
+2026-05-12 23:20:33,485 - INFO - ✗ Incorrect (True: Supported, Pred: Not Enough Information)
+2026-05-12 23:20:33,598 - INFO - ================================================================================
+2026-05-12 23:20:33,598 - INFO - Processing claim #67 (ID: 136)
+2026-05-12 23:20:33,598 - INFO - Claim: 'An image shared to social media in December 2023 depicts the sun.'...
+2026-05-12 23:20:33,598 - INFO - Date: 
+2026-05-12 23:20:33,598 - INFO - Asking model: qwen2.5-72b-instruct (method: naive)
+2026-05-12 23:20:33,598 - INFO - Claim: 'An image shared to social media in December 2023 depicts the sun.'...
+2026-05-12 23:20:36,977 - INFO - API Response Status: 200
+2026-05-12 23:20:36,977 - INFO - Raw model response: {"label": "Not Enough Information"}
+2026-05-12 23:20:36,977 - INFO - Extracted label: Not Enough Information -> Normalized: Not Enough Information
+2026-05-12 23:20:36,977 - INFO - Prediction: Not Enough Information
+2026-05-12 23:20:36,978 - INFO - ✗ Incorrect (True: Supported, Pred: Not Enough Information)
+2026-05-12 23:20:37,092 - INFO - ================================================================================
+2026-05-12 23:20:37,092 - INFO - Processing claim #68 (ID: 137)
+2026-05-12 23:20:37,092 - INFO - Claim: 'Thomas Crooks, the 20-year-old man who attempted to assassinate former U.S. President Donald Trump, once donated money to a political action committe...
+2026-05-12 23:20:37,092 - INFO - Date: 
+2026-05-12 23:20:37,092 - INFO - Asking model: qwen2.5-72b-instruct (method: naive)
+2026-05-12 23:20:37,093 - INFO - Claim: 'Thomas Crooks, the 20-year-old man who attempted to assassinate former U.S. President Donald Trump, once donated money to a political action committe...
+2026-05-12 23:20:39,762 - INFO - API Response Status: 200
+2026-05-12 23:20:39,762 - INFO - Raw model response: {"label": "Not Enough Information"}
+2026-05-12 23:20:39,762 - INFO - Extracted label: Not Enough Information -> Normalized: Not Enough Information
+2026-05-12 23:20:39,762 - INFO - Prediction: Not Enough Information
+2026-05-12 23:20:39,762 - INFO - ✗ Incorrect (True: Supported, Pred: Not Enough Information)
+2026-05-12 23:20:39,874 - INFO - ================================================================================
+2026-05-12 23:20:39,874 - INFO - Processing claim #69 (ID: 138)
+2026-05-12 23:20:39,874 - INFO - Claim: 'You are required to mark a political party on your primary ballot envelope.'...
+2026-05-12 23:20:39,874 - INFO - Date: 
+2026-05-12 23:20:39,874 - INFO - Asking model: qwen2.5-72b-instruct (method: naive)
+2026-05-12 23:20:39,874 - INFO - Claim: 'You are required to mark a political party on your primary ballot envelope.'...
+2026-05-12 23:20:47,772 - INFO - API Response Status: 200
+2026-05-12 23:20:47,772 - INFO - Raw model response: {"label": "Not Enough Information"}
+2026-05-12 23:20:47,772 - INFO - Extracted label: Not Enough Information -> Normalized: Not Enough Information
+2026-05-12 23:20:47,772 - INFO - Prediction: Not Enough Information
+2026-05-12 23:20:47,772 - INFO - ✗ Incorrect (True: Supported, Pred: Not Enough Information)
+2026-05-12 23:20:47,891 - INFO - ================================================================================
+2026-05-12 23:20:47,891 - INFO - Processing claim #70 (ID: 139)
+2026-05-12 23:20:47,891 - INFO - Claim: 'If you're on the Do Not Call Registry, political texts can still come throu'...
+2026-05-12 23:20:47,891 - INFO - Date: 
+2026-05-12 23:20:47,891 - INFO - Asking model: qwen2.5-72b-instruct (method: naive)
+2026-05-12 23:20:47,891 - INFO - Claim: 'If you're on the Do Not Call Registry, political texts can still come throu'...
+2026-05-12 23:20:50,865 - INFO - API Response Status: 200
+2026-05-12 23:20:50,865 - INFO - Raw model response: {"label": "Supported"}
+2026-05-12 23:20:50,865 - INFO - Extracted label: Supported -> Normalized: Supported
+2026-05-12 23:20:50,865 - INFO - Prediction: Supported
+2026-05-12 23:20:50,865 - INFO - ✓ Correct prediction
+2026-05-12 23:20:50,979 - INFO - ================================================================================
+2026-05-12 23:20:50,979 - INFO - Processing claim #71 (ID: 140)
+2026-05-12 23:20:50,979 - INFO - Claim: 'Project 2025, a conservative coalition's plan for a future U.S. Republican presidency, proposes eliminating the federal Head Start education program....
+2026-05-12 23:20:50,979 - INFO - Date: 
+2026-05-12 23:20:50,979 - INFO - Asking model: qwen2.5-72b-instruct (method: naive)
+2026-05-12 23:20:50,979 - INFO - Claim: 'Project 2025, a conservative coalition's plan for a future U.S. Republican presidency, proposes eliminating the federal Head Start education program....
+2026-05-12 23:21:11,927 - INFO - API Response Status: 200
+2026-05-12 23:21:11,927 - INFO - Raw model response: {"label": "Not Enough Information"}
+2026-05-12 23:21:11,927 - INFO - Extracted label: Not Enough Information -> Normalized: Not Enough Information
+2026-05-12 23:21:11,927 - INFO - Prediction: Not Enough Information
+2026-05-12 23:21:11,927 - INFO - ✗ Incorrect (True: Supported, Pred: Not Enough Information)
+2026-05-12 23:21:12,037 - INFO - ================================================================================
+2026-05-12 23:21:12,037 - INFO - Processing claim #72 (ID: 142)
+2026-05-12 23:21:12,037 - INFO - Claim: 'Project 2025, a proposed conservative blueprint for the next U.S. Republican presidential administration, has called to shut down the U.S. Department...
+2026-05-12 23:21:12,037 - INFO - Date: 
+2026-05-12 23:21:12,037 - INFO - Asking model: qwen2.5-72b-instruct (method: naive)
+2026-05-12 23:21:12,037 - INFO - Claim: 'Project 2025, a proposed conservative blueprint for the next U.S. Republican presidential administration, has called to shut down the U.S. Department...
+2026-05-12 23:21:42,757 - WARNING - Network error: HTTPSConnectionPool(host='api.avalapis.ir', port=443): Read timed out. (read timeout=30). Retrying...
+2026-05-12 23:21:45,765 - INFO - API Response Status: 200
+2026-05-12 23:21:45,765 - INFO - Raw model response: {"label": "Not Enough Information"}
+2026-05-12 23:21:45,765 - INFO - Extracted label: Not Enough Information -> Normalized: Not Enough Information
+2026-05-12 23:21:45,765 - INFO - Prediction: Not Enough Information
+2026-05-12 23:21:45,765 - INFO - ✗ Incorrect (True: Supported, Pred: Not Enough Information)
+2026-05-12 23:21:45,880 - INFO - ================================================================================
+2026-05-12 23:21:45,880 - INFO - Processing claim #73 (ID: 143)
+2026-05-12 23:21:45,880 - INFO - Claim: 'Ovia, an app for tracking reproductive health, requires users to input their country and state.'...
+2026-05-12 23:21:45,880 - INFO - Date: 
+2026-05-12 23:21:45,880 - INFO - Asking model: qwen2.5-72b-instruct (method: naive)
+2026-05-12 23:21:45,880 - INFO - Claim: 'Ovia, an app for tracking reproductive health, requires users to input their country and state.'...
+2026-05-12 23:21:49,031 - INFO - API Response Status: 200
+2026-05-12 23:21:49,031 - INFO - Raw model response: {"label": "Not Enough Information"}
+2026-05-12 23:21:49,031 - INFO - Extracted label: Not Enough Information -> Normalized: Not Enough Information
+2026-05-12 23:21:49,031 - INFO - Prediction: Not Enough Information
+2026-05-12 23:21:49,031 - INFO - ✗ Incorrect (True: Supported, Pred: Not Enough Information)
+2026-05-12 23:21:49,141 - INFO - ================================================================================
+2026-05-12 23:21:49,142 - INFO - Processing claim #74 (ID: 144)
+2026-05-12 23:21:49,142 - INFO - Claim: 'Falling back to standard time is good for our health.'...
+2026-05-12 23:21:49,142 - INFO - Date: 
+2026-05-12 23:21:49,142 - INFO - Asking model: qwen2.5-72b-instruct (method: naive)
+2026-05-12 23:21:49,142 - INFO - Claim: 'Falling back to standard time is good for our health.'...
+2026-05-12 23:21:53,701 - INFO - API Response Status: 200
+2026-05-12 23:21:53,701 - INFO - Raw model response: {"label": "Not Enough Information"}
+2026-05-12 23:21:53,701 - INFO - Extracted label: Not Enough Information -> Normalized: Not Enough Information
+2026-05-12 23:21:53,701 - INFO - Prediction: Not Enough Information
+2026-05-12 23:21:53,701 - INFO - ✗ Incorrect (True: Supported, Pred: Not Enough Information)
+2026-05-12 23:21:53,808 - INFO - ================================================================================
+2026-05-12 23:21:53,808 - INFO - Processing claim #75 (ID: 145)
+2026-05-12 23:21:53,808 - INFO - Claim: 'Spring cleaning can help your mental health'...
+2026-05-12 23:21:53,808 - INFO - Date: 
+2026-05-12 23:21:53,808 - INFO - Asking model: qwen2.5-72b-instruct (method: naive)
+2026-05-12 23:21:53,808 - INFO - Claim: 'Spring cleaning can help your mental health'...
+2026-05-12 23:22:17,802 - INFO - API Response Status: 200
+2026-05-12 23:22:17,803 - INFO - Raw model response: {"label": "Supported"}
+2026-05-12 23:22:17,803 - INFO - Extracted label: Supported -> Normalized: Supported
+2026-05-12 23:22:17,803 - INFO - Prediction: Supported
+2026-05-12 23:22:17,803 - INFO - ✓ Correct prediction
+2026-05-12 23:22:17,906 - INFO - ================================================================================
+2026-05-12 23:22:17,906 - INFO - Processing claim #76 (ID: 146)
+2026-05-12 23:22:17,906 - INFO - Claim: 'Starbucks offers its employees healthcare plans that include coverage for gender reassignment surgery.'...
+2026-05-12 23:22:17,906 - INFO - Date: 
+2026-05-12 23:22:17,906 - INFO - Asking model: qwen2.5-72b-instruct (method: naive)
+2026-05-12 23:22:17,906 - INFO - Claim: 'Starbucks offers its employees healthcare plans that include coverage for gender reassignment surgery.'...
+2026-05-12 23:22:21,061 - INFO - API Response Status: 200
+2026-05-12 23:22:21,061 - INFO - Raw model response: {"label": "Not Enough Information"}
+2026-05-12 23:22:21,061 - INFO - Extracted label: Not Enough Information -> Normalized: Not Enough Information
+2026-05-12 23:22:21,061 - INFO - Prediction: Not Enough Information
+2026-05-12 23:22:21,061 - INFO - ✗ Incorrect (True: Supported, Pred: Not Enough Information)
+2026-05-12 23:22:21,176 - INFO - ================================================================================
+2026-05-12 23:22:21,176 - INFO - Processing claim #77 (ID: 147)
+2026-05-12 23:22:21,176 - INFO - Claim: 'There is a class-action lawsuit against Novant Health.'...
+2026-05-12 23:22:21,176 - INFO - Date: 
+2026-05-12 23:22:21,176 - INFO - Asking model: qwen2.5-72b-instruct (method: naive)
+2026-05-12 23:22:21,176 - INFO - Claim: 'There is a class-action lawsuit against Novant Health.'...
+2026-05-12 23:22:27,897 - INFO - API Response Status: 200
+2026-05-12 23:22:27,897 - INFO - Raw model response: {"label": "Not Enough Information"}
+2026-05-12 23:22:27,897 - INFO - Extracted label: Not Enough Information -> Normalized: Not Enough Information
+2026-05-12 23:22:27,897 - INFO - Prediction: Not Enough Information
+2026-05-12 23:22:27,898 - INFO - ✗ Incorrect (True: Supported, Pred: Not Enough Information)
+2026-05-12 23:22:28,001 - INFO - ================================================================================
+2026-05-12 23:22:28,001 - INFO - Processing claim #78 (ID: 148)
+2026-05-12 23:22:28,001 - INFO - Claim: 'The first U.S. official coin in circulation said “Mind Your Business” instead of “In God We Trust.”'...
+2026-05-12 23:22:28,001 - INFO - Date: 
+2026-05-12 23:22:28,001 - INFO - Asking model: qwen2.5-72b-instruct (method: naive)
+2026-05-12 23:22:28,001 - INFO - Claim: 'The first U.S. official coin in circulation said “Mind Your Business” instead of “In God We Trust.”'...
+2026-05-12 23:22:30,388 - INFO - API Response Status: 200
+2026-05-12 23:22:30,388 - INFO - Raw model response: {"label": "Refuted"}
+2026-05-12 23:22:30,388 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2026-05-12 23:22:30,388 - INFO - Prediction: Refuted
+2026-05-12 23:22:30,388 - INFO - ✗ Incorrect (True: Supported, Pred: Refuted)
+2026-05-12 23:22:30,491 - INFO - ================================================================================
+2026-05-12 23:22:30,492 - INFO - Processing claim #79 (ID: 150)
+2026-05-12 23:22:30,492 - INFO - Claim: 'It is legal for humane societies in Arizona to transfer animals to breeders.'...
+2026-05-12 23:22:30,492 - INFO - Date: 
+2026-05-12 23:22:30,492 - INFO - Asking model: qwen2.5-72b-instruct (method: naive)
+2026-05-12 23:22:30,492 - INFO - Claim: 'It is legal for humane societies in Arizona to transfer animals to breeders.'...
+2026-05-12 23:22:36,170 - INFO - API Response Status: 200
+2026-05-12 23:22:36,170 - INFO - Raw model response: {"label": "Not Enough Information"}
+2026-05-12 23:22:36,170 - INFO - Extracted label: Not Enough Information -> Normalized: Not Enough Information
+2026-05-12 23:22:36,170 - INFO - Prediction: Not Enough Information
+2026-05-12 23:22:36,170 - INFO - ✗ Incorrect (True: Supported, Pred: Not Enough Information)
+2026-05-12 23:22:36,285 - INFO - ================================================================================
+2026-05-12 23:22:36,285 - INFO - Processing claim #80 (ID: 151)
+2026-05-12 23:22:36,285 - INFO - Claim: 'Hamas called for end to war because of Trump’s election'...
+2026-05-12 23:22:36,285 - INFO - Date: 
+2026-05-12 23:22:36,285 - INFO - Asking model: qwen2.5-72b-instruct (method: naive)
+2026-05-12 23:22:36,285 - INFO - Claim: 'Hamas called for end to war because of Trump’s election'...
+2026-05-12 23:22:46,145 - INFO - API Response Status: 200
+2026-05-12 23:22:46,146 - INFO - Raw model response: {"label": "Not Enough Information"}
+2026-05-12 23:22:46,146 - INFO - Extracted label: Not Enough Information -> Normalized: Not Enough Information
+2026-05-12 23:22:46,146 - INFO - Prediction: Not Enough Information
+2026-05-12 23:22:46,146 - INFO - ✗ Incorrect (True: Misleading, Pred: Not Enough Information)
+2026-05-12 23:22:46,254 - INFO - ================================================================================
+2026-05-12 23:22:46,254 - INFO - Processing claim #81 (ID: 158)
+2026-05-12 23:22:46,254 - INFO - Claim: 'China declared a state of health emergency following new HMPV outbreak.'...
+2026-05-12 23:22:46,254 - INFO - Date: 
+2026-05-12 23:22:46,254 - INFO - Asking model: qwen2.5-72b-instruct (method: naive)
+2026-05-12 23:22:46,254 - INFO - Claim: 'China declared a state of health emergency following new HMPV outbreak.'...
+2026-05-12 23:22:56,306 - INFO - API Response Status: 200
+2026-05-12 23:22:56,306 - INFO - Raw model response: {"label": "Not Enough Information"}
+2026-05-12 23:22:56,306 - INFO - Extracted label: Not Enough Information -> Normalized: Not Enough Information
+2026-05-12 23:22:56,306 - INFO - Prediction: Not Enough Information
+2026-05-12 23:22:56,306 - INFO - ✗ Incorrect (True: Misleading, Pred: Not Enough Information)
+2026-05-12 23:22:56,411 - INFO - ================================================================================
+2026-05-12 23:22:56,411 - INFO - Processing claim #82 (ID: 169)
+2026-05-12 23:22:56,411 - INFO - Claim: 'There is HIV inside some COVID vaccines'...
+2026-05-12 23:22:56,411 - INFO - Date: 
+2026-05-12 23:22:56,412 - INFO - Asking model: qwen2.5-72b-instruct (method: naive)
+2026-05-12 23:22:56,412 - INFO - Claim: 'There is HIV inside some COVID vaccines'...
+2026-05-12 23:23:01,279 - INFO - API Response Status: 200
+2026-05-12 23:23:01,279 - INFO - Raw model response: {"label": "Refuted"}
+2026-05-12 23:23:01,280 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2026-05-12 23:23:01,280 - INFO - Prediction: Refuted
+2026-05-12 23:23:01,280 - INFO - ✗ Incorrect (True: Misleading, Pred: Refuted)
+2026-05-12 23:23:01,383 - INFO - ================================================================================
+2026-05-12 23:23:01,383 - INFO - Processing claim #83 (ID: 187)
+2026-05-12 23:23:01,383 - INFO - Claim: 'Former U.S. President Donald Trump reneged on an offer he made to help pay the funeral costs of a murdered soldier, saying, "It doesn't cost 60,000 b...
+2026-05-12 23:23:01,383 - INFO - Date: 
+2026-05-12 23:23:01,384 - INFO - Asking model: qwen2.5-72b-instruct (method: naive)
+2026-05-12 23:23:01,384 - INFO - Claim: 'Former U.S. President Donald Trump reneged on an offer he made to help pay the funeral costs of a murdered soldier, saying, "It doesn't cost 60,000 b...
+2026-05-12 23:23:05,155 - INFO - API Response Status: 200
+2026-05-12 23:23:05,155 - INFO - Raw model response: {"label": "Not Enough Information"}
+2026-05-12 23:23:05,155 - INFO - Extracted label: Not Enough Information -> Normalized: Not Enough Information
+2026-05-12 23:23:05,155 - INFO - Prediction: Not Enough Information
+2026-05-12 23:23:05,155 - INFO - ✓ Correct prediction
+2026-05-12 23:23:05,263 - INFO - ================================================================================
+2026-05-12 23:23:05,263 - INFO - Processing claim #84 (ID: 188)
+2026-05-12 23:23:05,263 - INFO - Claim: 'In 2020, Trump said to two people in a private conversation at the White House: "I need the kind of generals that Hitler had."'...
+2026-05-12 23:23:05,263 - INFO - Date: 
+2026-05-12 23:23:05,263 - INFO - Asking model: qwen2.5-72b-instruct (method: naive)
+2026-05-12 23:23:05,263 - INFO - Claim: 'In 2020, Trump said to two people in a private conversation at the White House: "I need the kind of generals that Hitler had."'...
+2026-05-12 23:23:15,885 - INFO - API Response Status: 200
+2026-05-12 23:23:15,885 - INFO - Raw model response: {"label": "Not Enough Information"}
+2026-05-12 23:23:15,885 - INFO - Extracted label: Not Enough Information -> Normalized: Not Enough Information
+2026-05-12 23:23:15,885 - INFO - Prediction: Not Enough Information
+2026-05-12 23:23:15,885 - INFO - ✓ Correct prediction
+2026-05-12 23:23:15,994 - INFO - ================================================================================
+2026-05-12 23:23:15,994 - INFO - Processing claim #85 (ID: 189)
+2026-05-12 23:23:15,994 - INFO - Claim: 'In 1994 or 1995, Donald Trump said of his 13-year-old daughter Ivanka, "Is it wrong to be more sexually attracted to your own daughter than your wife...
+2026-05-12 23:23:15,994 - INFO - Date: 
+2026-05-12 23:23:15,994 - INFO - Asking model: qwen2.5-72b-instruct (method: naive)
+2026-05-12 23:23:15,994 - INFO - Claim: 'In 1994 or 1995, Donald Trump said of his 13-year-old daughter Ivanka, "Is it wrong to be more sexually attracted to your own daughter than your wife...
+2026-05-12 23:23:28,425 - INFO - API Response Status: 200
+2026-05-12 23:23:28,426 - INFO - Raw model response: {"label": "Refuted"}
+2026-05-12 23:23:28,426 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2026-05-12 23:23:28,426 - INFO - Prediction: Refuted
+2026-05-12 23:23:28,426 - INFO - ✗ Incorrect (True: Not Enough Information, Pred: Refuted)
+2026-05-12 23:23:28,531 - INFO - ================================================================================
+2026-05-12 23:23:28,531 - INFO - Processing claim #86 (ID: 191)
+2026-05-12 23:23:28,531 - INFO - Claim: 'On Jan. 6, 2021, just prior to the start of the U.S. Capitol riot in Washington, D.C., Rep. Mark Green said of Republicans' support of then-President...
+2026-05-12 23:23:28,531 - INFO - Date: 
+2026-05-12 23:23:28,531 - INFO - Asking model: qwen2.5-72b-instruct (method: naive)
+2026-05-12 23:23:28,531 - INFO - Claim: 'On Jan. 6, 2021, just prior to the start of the U.S. Capitol riot in Washington, D.C., Rep. Mark Green said of Republicans' support of then-President...
+2026-05-12 23:23:32,165 - INFO - API Response Status: 200
+2026-05-12 23:23:32,165 - INFO - Raw model response: {"label": "Supported"}
+2026-05-12 23:23:32,165 - INFO - Extracted label: Supported -> Normalized: Supported
+2026-05-12 23:23:32,166 - INFO - Prediction: Supported
+2026-05-12 23:23:32,166 - INFO - ✗ Incorrect (True: Not Enough Information, Pred: Supported)
+2026-05-12 23:23:32,267 - INFO - ================================================================================
+2026-05-12 23:23:32,267 - INFO - Processing claim #87 (ID: 192)
+2026-05-12 23:23:32,267 - INFO - Claim: 'A Donald Trump animatronic used in Walt Disney World’s Hall of Presidents attraction was originally built to resemble Hillary Clinton, who Disney lea...
+2026-05-12 23:23:32,267 - INFO - Date: 
+2026-05-12 23:23:32,267 - INFO - Asking model: qwen2.5-72b-instruct (method: naive)
+2026-05-12 23:23:32,267 - INFO - Claim: 'A Donald Trump animatronic used in Walt Disney World’s Hall of Presidents attraction was originally built to resemble Hillary Clinton, who Disney lea...
+2026-05-12 23:23:49,105 - INFO - API Response Status: 200
+2026-05-12 23:23:49,105 - INFO - Raw model response: {"label": "Supported"}
+2026-05-12 23:23:49,105 - INFO - Extracted label: Supported -> Normalized: Supported
+2026-05-12 23:23:49,106 - INFO - Prediction: Supported
+2026-05-12 23:23:49,106 - INFO - ✗ Incorrect (True: Not Enough Information, Pred: Supported)
+2026-05-12 23:23:49,217 - INFO - ================================================================================
+2026-05-12 23:23:49,217 - INFO - Processing claim #88 (ID: 289)
+2026-05-12 23:23:49,217 - INFO - Claim: 'Elon Musk called Bill Gates “evil” on social media platform X.'...
+2026-05-12 23:23:49,217 - INFO - Date: 
+2026-05-12 23:23:49,218 - INFO - Asking model: qwen2.5-72b-instruct (method: naive)
+2026-05-12 23:23:49,218 - INFO - Claim: 'Elon Musk called Bill Gates “evil” on social media platform X.'...
+2026-05-12 23:23:54,327 - INFO - API Response Status: 200
+2026-05-12 23:23:54,328 - INFO - Raw model response: {"label": "Not Enough Information"}
+2026-05-12 23:23:54,328 - INFO - Extracted label: Not Enough Information -> Normalized: Not Enough Information
+2026-05-12 23:23:54,328 - INFO - Prediction: Not Enough Information
+2026-05-12 23:23:54,328 - INFO - ✗ Incorrect (True: Supported, Pred: Not Enough Information)
+2026-05-12 23:23:54,430 - INFO - ================================================================================
+2026-05-12 23:23:54,430 - INFO - Processing claim #89 (ID: 293)
+2026-05-12 23:23:54,430 - INFO - Claim: 'Russian President Vladimir Putin said of LGBTQ+ rights, "As long as I am the president of Russia, we will not have parent one and parent two. We will...
+2026-05-12 23:23:54,430 - INFO - Date: 
+2026-05-12 23:23:54,430 - INFO - Asking model: qwen2.5-72b-instruct (method: naive)
+2026-05-12 23:23:54,430 - INFO - Claim: 'Russian President Vladimir Putin said of LGBTQ+ rights, "As long as I am the president of Russia, we will not have parent one and parent two. We will...
+2026-05-12 23:24:16,485 - INFO - API Response Status: 200
+2026-05-12 23:24:16,485 - INFO - Raw model response: {"label": "Supported"}
+2026-05-12 23:24:16,485 - INFO - Extracted label: Supported -> Normalized: Supported
+2026-05-12 23:24:16,485 - INFO - Prediction: Supported
+2026-05-12 23:24:16,485 - INFO - ✓ Correct prediction
+2026-05-12 23:24:16,601 - INFO - ================================================================================
+2026-05-12 23:24:16,601 - INFO - Processing claim #90 (ID: 294)
+2026-05-12 23:24:16,601 - INFO - Claim: 'Republican vice presidential nominee and Ohio Sen. JD Vance once said parents should have a bigger say in U.S. democracy than non-parents.'...
+2026-05-12 23:24:16,601 - INFO - Date: 
+2026-05-12 23:24:16,601 - INFO - Asking model: qwen2.5-72b-instruct (method: naive)
+2026-05-12 23:24:16,601 - INFO - Claim: 'Republican vice presidential nominee and Ohio Sen. JD Vance once said parents should have a bigger say in U.S. democracy than non-parents.'...
+2026-05-12 23:24:28,204 - INFO - API Response Status: 200
+2026-05-12 23:24:28,204 - INFO - Raw model response: {"label": "Not Enough Information"}
+2026-05-12 23:24:28,204 - INFO - Extracted label: Not Enough Information -> Normalized: Not Enough Information
+2026-05-12 23:24:28,204 - INFO - Prediction: Not Enough Information
+2026-05-12 23:24:28,204 - INFO - ✗ Incorrect (True: Supported, Pred: Not Enough Information)
+2026-05-12 23:24:28,312 - INFO - ================================================================================
+2026-05-12 23:24:28,312 - INFO - Processing claim #91 (ID: 295)
+2026-05-12 23:24:28,312 - INFO - Claim: 'British statesman Winston Churchill once said, “The best argument against democracy is a five-minute conversation with the average voter.”'...
+2026-05-12 23:24:28,312 - INFO - Date: 
+2026-05-12 23:24:28,313 - INFO - Asking model: qwen2.5-72b-instruct (method: naive)
+2026-05-12 23:24:28,313 - INFO - Claim: 'British statesman Winston Churchill once said, “The best argument against democracy is a five-minute conversation with the average voter.”'...
+2026-05-12 23:24:33,343 - INFO - API Response Status: 502
+2026-05-12 23:24:33,343 - ERROR - API error 502: {"error":{"message":"Bad gateway","type":"gateway_error","code":"bad_gateway"}}
+2026-05-12 23:24:33,344 - WARNING - Failed to get valid prediction
+2026-05-12 23:24:33,462 - INFO - ================================================================================
+2026-05-12 23:24:33,462 - INFO - Processing complete: 90 predictions (17 correct, 73 incorrect), 2 failed
+2026-05-12 23:24:33,463 - INFO - Metrics: Accuracy=0.1889, Macro-F1=0.2097
+2026-05-12 23:24:33,468 - INFO - Predictions saved to results\qwen2_5-72b-instruct\claimreview_plus\naive\seen\seen_predictions.csv
+2026-05-12 23:24:33,470 - INFO - Predictions JSON saved to results\qwen2_5-72b-instruct\claimreview_plus\naive\seen\seen_predictions.json
+2026-05-12 23:24:33,470 - INFO - Metrics saved to results\qwen2_5-72b-instruct\claimreview_plus\naive\seen\seen_metrics.json

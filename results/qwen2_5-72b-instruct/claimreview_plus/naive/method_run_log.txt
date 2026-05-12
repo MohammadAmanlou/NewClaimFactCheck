@@ -1,0 +1,13 @@
+2026-05-12 23:10:02,494 - INFO - Prompt method: naive
+2026-05-12 23:24:33,471 - INFO - Metrics: Accuracy=0.1889, Macro-F1=0.2097
+2026-05-12 23:33:18,581 - INFO - Metrics: Accuracy=0.2500, Macro-F1=0.3077
+2026-05-12 23:33:18,581 - INFO - ================================================================================
+2026-05-12 23:33:18,581 - INFO - Comparing seen vs unseen performance...
+2026-05-12 23:33:18,582 - INFO - Metrics: Accuracy=0.1889, Macro-F1=0.2097
+2026-05-12 23:33:18,582 - INFO - Metrics: Accuracy=0.2500, Macro-F1=0.3077
+2026-05-12 23:33:18,596 - INFO - Seen accuracy: 0.1889
+2026-05-12 23:33:18,596 - INFO - Unseen accuracy: 0.25
+2026-05-12 23:33:18,596 - INFO - Difference: 0.0611
+2026-05-12 23:33:18,598 - INFO - T-test p-value: 0.3579 (not significant)
+2026-05-12 23:33:18,598 - INFO - Chi-square p-value: 0.4654 (not significant)
+2026-05-12 23:33:18,599 - INFO - Summary report saved to results\qwen2_5-72b-instruct\claimreview_plus\naive\summary.json

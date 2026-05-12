@@ -1,0 +1,183 @@
+{
+    "experiment_info": {
+        "dataset": "claimreview_plus",
+        "model": "qwen2.5-72b-instruct",
+        "temporal_split_date": "2024-09-01",
+        "canonical_labels": [
+            "Supported",
+            "Refuted",
+            "Not Enough Information",
+            "Misleading"
+        ],
+        "balanced_sampling": false,
+        "sampling_seed": null,
+        "prompt_method": "naive",
+        "timestamp": "2026-05-12T23:33:18.598547"
+    },
+    "seen_data": {
+        "accuracy": 0.1889,
+        "macro_precision": 0.2675,
+        "macro_recall": 0.3258,
+        "macro_f1": 0.2097,
+        "total_samples": 90,
+        "correct_predictions": 17,
+        "per_label_metrics": {
+            "Supported": {
+                "precision": 0.5556,
+                "recall": 0.1111,
+                "f1": 0.1852,
+                "support": 45
+            },
+            "Refuted": {
+                "precision": 0.4375,
+                "recall": 0.6364,
+                "f1": 0.5185,
+                "support": 11
+            },
+            "Not Enough Information": {
+                "precision": 0.0769,
+                "recall": 0.5556,
+                "f1": 0.1351,
+                "support": 9
+            },
+            "Misleading": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1": 0.0,
+                "support": 25
+            }
+        },
+        "nei_prediction_rate": 0.7222,
+        "false_nei_rate": 0.7407
+    },
+    "unseen_data": {
+        "accuracy": 0.25,
+        "macro_precision": 0.4692,
+        "macro_recall": 0.4464,
+        "macro_f1": 0.3077,
+        "total_samples": 68,
+        "correct_predictions": 17,
+        "per_label_metrics": {
+            "Supported": {
+                "precision": 1.0,
+                "recall": 0.5,
+                "f1": 0.6667,
+                "support": 2
+            },
+            "Refuted": {
+                "precision": 0.8,
+                "recall": 0.2857,
+                "f1": 0.4211,
+                "support": 42
+            },
+            "Not Enough Information": {
+                "precision": 0.0769,
+                "recall": 1.0,
+                "f1": 0.1429,
+                "support": 4
+            },
+            "Misleading": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1": 0.0,
+                "support": 20
+            }
+        },
+        "nei_prediction_rate": 0.7647,
+        "false_nei_rate": 0.75
+    },
+    "comparison": {
+        "seen_metrics": {
+            "accuracy": 0.1889,
+            "macro_precision": 0.2675,
+            "macro_recall": 0.3258,
+            "macro_f1": 0.2097,
+            "total_samples": 90,
+            "correct_predictions": 17,
+            "per_label_metrics": {
+                "Supported": {
+                    "precision": 0.5556,
+                    "recall": 0.1111,
+                    "f1": 0.1852,
+                    "support": 45
+                },
+                "Refuted": {
+                    "precision": 0.4375,
+                    "recall": 0.6364,
+                    "f1": 0.5185,
+                    "support": 11
+                },
+                "Not Enough Information": {
+                    "precision": 0.0769,
+                    "recall": 0.5556,
+                    "f1": 0.1351,
+                    "support": 9
+                },
+                "Misleading": {
+                    "precision": 0.0,
+                    "recall": 0.0,
+                    "f1": 0.0,
+                    "support": 25
+                }
+            },
+            "nei_prediction_rate": 0.7222,
+            "false_nei_rate": 0.7407
+        },
+        "unseen_metrics": {
+            "accuracy": 0.25,
+            "macro_precision": 0.4692,
+            "macro_recall": 0.4464,
+            "macro_f1": 0.3077,
+            "total_samples": 68,
+            "correct_predictions": 17,
+            "per_label_metrics": {
+                "Supported": {
+                    "precision": 1.0,
+                    "recall": 0.5,
+                    "f1": 0.6667,
+                    "support": 2
+                },
+                "Refuted": {
+                    "precision": 0.8,
+                    "recall": 0.2857,
+                    "f1": 0.4211,
+                    "support": 42
+                },
+                "Not Enough Information": {
+                    "precision": 0.0769,
+                    "recall": 1.0,
+                    "f1": 0.1429,
+                    "support": 4
+                },
+                "Misleading": {
+                    "precision": 0.0,
+                    "recall": 0.0,
+                    "f1": 0.0,
+                    "support": 20
+                }
+            },
+            "nei_prediction_rate": 0.7647,
+            "false_nei_rate": 0.75
+        },
+        "statistical_tests": {
+            "t_test": {
+                "t_statistic": -0.9221,
+                "p_value": 0.3579,
+                "significant_at_0.05": false,
+                "interpretation": "No significant difference"
+            },
+            "chi_square_test": {
+                "chi2_statistic": 0.5329,
+                "p_value": 0.4654,
+                "degrees_of_freedom": 1,
+                "significant_at_0.05": false,
+                "interpretation": "No significant difference"
+            }
+        },
+        "accuracy_difference": 0.0611,
+        "sampling_info": {
+            "enabled": false
+        },
+        "prompt_method": "naive"
+    }
+}
