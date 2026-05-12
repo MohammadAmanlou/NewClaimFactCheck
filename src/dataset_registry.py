@@ -20,6 +20,7 @@ from typing import List, Dict, Any, Optional, Tuple
 import pandas as pd
 from datasets import load_dataset as hf_load_dataset
 
+from .dataset_filters import apply_csv_filter, apply_json_filter
 
 class DatasetRegistry:
     def __init__(self, registry_path: Path):
@@ -73,6 +74,11 @@ class DatasetRegistry:
             df = df[~df[label_col].isin(excluded)]
             print(f"  Filtered out {original_count - len(df)} rows with labels {excluded}")
 
+        # Apply custom dataset-specific filter if defined in YAML
+        if "filter" in spec and "custom_csv_filter" in spec["filter"]:
+            filter_name = spec["filter"]["custom_csv_filter"]
+            df = apply_csv_filter(filter_name, df)
+
         claims = []
         date_fmt_in = spec.get("date_format", "%Y-%m-%d")
         is_test = spec.get("is_test", False)
@@ -124,6 +130,11 @@ class DatasetRegistry:
         mapping = spec["mapping"]
         date_fmt_in = spec.get("date_format", output_date_format)
         is_test = spec.get("is_test", False)
+
+        # Apply custom dataset-specific filter if defined in YAML
+        if "filter" in spec and "custom_json_filter" in spec["filter"]:
+            filter_name = spec["filter"]["custom_json_filter"]
+            data = apply_json_filter(filter_name, data)
 
         claims = []
         for idx, item in enumerate(data):

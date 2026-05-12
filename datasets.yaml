@@ -3,7 +3,7 @@
 
 claimreview_plus:
   type: csv
-  path: ".\\data\\crp_with_bias.csv"
+  path: ".\\crp_with_bias.csv"
   mapping:
     claim_id: "id"
     claim: "text"
@@ -13,7 +13,8 @@ claimreview_plus:
     detected_biases: "all_detected_biases"
   filter:
     exclude_labels: []
-    label_column: "normalised_rating"
+    label_column: "label"
+    custom_csv_filter: "crp_no_image"
   date_format: "%Y-%m-%d %H:%M:%S%z"      # ISO format (we'll strip time part)
   is_test: false
 
