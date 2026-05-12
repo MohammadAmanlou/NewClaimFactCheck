@@ -1,10 +1,24 @@
 import json
 import logging
+import numpy as np
 import pandas as pd
 from pathlib import Path
 from typing import List, Dict, Any
 from datetime import datetime
 from .config import Config
+
+class NumpyEncoder(json.JSONEncoder):
+    """Custom encoder for numpy data types"""
+    def default(self, obj):
+        if isinstance(obj, (np.bool_, np.bool_)):
+            return bool(obj)
+        if isinstance(obj, (np.integer, int)):
+            return int(obj)
+        if isinstance(obj, (np.floating, float)):
+            return float(obj)
+        if isinstance(obj, np.ndarray):
+            return obj.tolist()
+        return super().default(obj)
 
 def save_test_predictions(results: List[Dict], output_file: Path, logger: logging.Logger):
     output_data = []
@@ -27,7 +41,7 @@ def save_test_predictions(results: List[Dict], output_file: Path, logger: loggin
         output_data.append(item)
 
     with open(output_file, 'w', encoding='utf-8') as f:
-        json.dump(output_data, f, indent=4, ensure_ascii=False)
+        json.dump(output_data, f, indent=4, ensure_ascii=False, cls=NumpyEncoder)
     logger.info(f"Test predictions saved to {output_file}")
     print(f"✓ Test predictions saved to {output_file}")
 
@@ -40,13 +54,13 @@ def save_results_with_metrics(results: List[Dict], metrics: Dict, output_dir: Pa
     # JSON
     pred_json = output_dir / f"{split_name}_predictions.json"
     with open(pred_json, 'w', encoding='utf-8') as f:
-        json.dump(results, f, indent=4, ensure_ascii=False)
+        json.dump(results, f, indent=4, ensure_ascii=False, cls=NumpyEncoder)
     logger.info(f"Predictions JSON saved to {pred_json}")
 
     # Metrics
     metrics_file = output_dir / f"{split_name}_metrics.json"
     with open(metrics_file, 'w', encoding='utf-8') as f:
-        json.dump(metrics, f, indent=4)
+        json.dump(metrics, f, indent=4, cls=NumpyEncoder)
     logger.info(f"Metrics saved to {metrics_file}")
 
     print(f"✓ {split_name.capitalize()} results saved to {output_dir}")
@@ -77,7 +91,7 @@ def generate_summary_report(
 
     summary_file = output_dir / "summary.json"
     with open(summary_file, "w", encoding="utf-8") as f:
-        json.dump(summary, f, indent=4)
+        json.dump(summary, f, indent=4, cls=NumpyEncoder)
     logger.info("Summary report saved to %s", summary_file)
     print(f"✓ Summary report saved to {summary_file}")
 

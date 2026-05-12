@@ -53,7 +53,8 @@ class Pipeline:
     # ------------------------------------------------------------------
     def run(self) -> None:
         claims, is_test = load_dataset(self.config.dataset, self.config)
-        self.logger.info("Loaded %d claims (is_test=%s)", len(claims), is_test)
+        
+        self.logger.info(f"Loaded {len(claims)} claims (is_test={is_test}) and token is {self.config.api_key}")
 
         if is_test:
             for method in self.config.prompt_methods:
