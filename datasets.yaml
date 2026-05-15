@@ -1,5 +1,18 @@
-# Dataset definitions – maps a dataset name to a local file and column mapping.
-# All paths are relative to the data_dir specified in config.yaml.
+combined_biased:
+  type: csv
+  path: "combined_biased_factchecking_dataset.csv"
+  mapping:
+    claim_id: "combined_key"
+    claim: "claim_text_norm"
+    claim_date: "date_norm"
+    label: "factcheck_label_norm"
+    detected_biases: "all_detected_biases"
+  filter:
+    exclude_labels: []
+    label_column: "factcheck_label_norm"
+  date_format: "%Y-%m-%d"
+  is_test: false
+
 
 claimreview_plus:
   type: csv

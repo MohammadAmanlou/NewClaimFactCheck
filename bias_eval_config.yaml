@@ -1,0 +1,32 @@
+dataset: "combined_biased"
+model: "gemini-1.5-flash"  # Using Flash as requested via Google AI Studio
+api_url: "https://generativelanguage.googleapis.com/v1beta/openai/chat/completions"
+
+labels:
+  - Supported
+  - Refuted
+  - Not Enough Information
+  - Misleading
+
+prompt_methods:
+  - strong_baseline_short
+  - cognitive_bias_aware
+
+rate_limit:
+  max_retries: 5
+  initial_retry_delay: 0.5
+  sleep_between_calls: 0.1
+
+sampling:
+  max_samples: null
+  balanced: false
+  seed: 42
+
+display_every_n: 10
+
+output_root: "bias_evaluation_results"
+api_key_env: "GEMINI_API_KEY"
+datasets_config: "datasets.yaml"
+# Dummy temporal split to satisfy Config object validation if any (won't be used by the pipeline)
+temporal_split: "2099-01-01"
+date_format: "%Y-%m-%d"
