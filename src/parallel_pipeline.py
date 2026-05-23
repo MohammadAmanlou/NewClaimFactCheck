@@ -48,6 +48,7 @@ class ParallelPipeline:
         Skips already completed claims instantly.
         """
         self.logger.info("Dataset contains %d items.", len(claims))
+        all_methods_results = {}
         
         for method in self.config.prompt_methods:
             self.logger.info("Starting processing for prompt method: %s", method)
@@ -70,9 +71,96 @@ class ParallelPipeline:
                 print("\n[!] Daily quota exhausted across all provided API Keys.")
                 print("[i] Progress saved securely to progress.jsonl. You may resume tomorrow.\n")
                 return # Exit the run safely, ready for tomorrow
+            
+            # 100% complete -> Generate Metrics
+            self.logger.info("Method '%s' is 100%% complete. Generating metrics.", method)
+            metrics = self._finalize_method_results(claims, method)
+            all_methods_results[method] = {"metrics": metrics}
 
+        self._save_combined_summary(all_methods_results)
         self.logger.info("All prompt methods completed successfully.")
         print("\n✓ Parallel execution completed entirely.")
+
+    def _finalize_method_results(self, claims: List[Dict[str, Any]], method: str) -> dict:
+        """Joins predictions with claims, saves JSONs, and calculates metrics out of the core run loop."""
+        import json
+        from .reporting import NumpyEncoder
+        from .evaluation import calculate_metrics
+
+        results = self._build_final_results(claims, method)
+        out_dir_method = self.out_dir / method
+        out_dir_method.mkdir(exist_ok=True)
+        
+        pred_file = out_dir_method / "predictions.json"
+        with open(pred_file, 'w', encoding='utf-8') as f:
+            json.dump(results, f, indent=4, ensure_ascii=False, cls=NumpyEncoder)
+            
+        metrics = calculate_metrics(results, self.config.labels, self.logger)
+        
+        metrics_file = out_dir_method / "metrics.json"
+        with open(metrics_file, 'w', encoding='utf-8') as f:
+            json.dump(metrics, f, indent=4, cls=NumpyEncoder)
+            
+        return metrics
+
+    def _build_final_results(self, claims: List[Dict[str, Any]], method: str) -> List[Dict[str, Any]]:
+        """Matches original claims with the predictions housed in the progress jsonl."""
+        import json
+        
+        # Load all lines from progress.jsonl into a lookup dictionary
+        predictions_map = {}
+        if self.state_manager.file_path.exists():
+            with open(self.state_manager.file_path, "r", encoding="utf-8") as f:
+                for line in f:
+                    if not line.strip(): continue
+                    try:
+                        rec = json.loads(line)
+                        if rec.get("prompt_method") == method:
+                            predictions_map[str(rec.get("claim_id"))] = rec.get("prediction")
+                    except json.JSONDecodeError:
+                        pass
+        
+        results = []
+        for claim in claims:
+            # We copy to avoid mutating the original dict shared across loops
+            r = dict(claim)
+            c_id = str(r.get("claim_id"))
+            r["prediction"] = predictions_map.get(c_id)
+            results.append(r)
+            
+        return results
+
+    def _save_combined_summary(self, all_methods: dict) -> None:
+        """Generates the combined JSON summary and console table."""
+        from datetime import datetime
+        import json
+        from .reporting import NumpyEncoder
+        
+        combined = {
+            "experiment_info": {
+                "dataset": self.config.dataset,
+                "model": self.config.model,
+                "prompt_methods": self.config.prompt_methods,
+                "timestamp": datetime.now().isoformat(),
+            },
+            "methods": all_methods,
+        }
+
+        combined_file = self.out_dir / "combined_summary.json"
+        with open(combined_file, "w", encoding="utf-8") as f:
+            json.dump(combined, f, indent=4, ensure_ascii=False, cls=NumpyEncoder)
+
+        print("\n" + "=" * 80)
+        print("COMBINED RESULTS")
+        print("=" * 80)
+        header = f"{'Method':<25} {'Accuracy':<10} {'Macro F1':<12}"
+        print(header)
+        print("-" * len(header))
+        for method, data in all_methods.items():
+            acc = data["metrics"].get("accuracy", "N/A")
+            f1 = data["metrics"].get("macro_f1", "N/A")
+            print(f"{method:<25} {str(acc):<10} {str(f1):<12}")
+        print("=" * 80) 
 
     def _execute_pool(self, claims: List[Dict[str, Any]], method: str) -> None:
         """Submits claims to a thread pool executor and writes results dynamically."""
