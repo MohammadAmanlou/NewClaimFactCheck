@@ -20,40 +20,118 @@ def normalize_label(label: Optional[str]) -> Optional[str]:
         return None
 
     s = str(label).strip().lower()
-    compact = re.sub(r"[^a-z]+", "", s)
+    
+    # Clean up JSON-like array strings and typical punctuation (e.g. "['false']" -> "false")
+    clean_s = re.sub(r"[\"\'\[\]]+", "", s).strip()
 
-    if s in {
+    if clean_s in {
         "not enough information",
         "not enough evidence",
         "insufficient information",
         "insufficient evidence",
+        "not enough experts",
+        "unverifiable",
+        "unproven",
+        "neoveriteľné"
     }:
         return "Not Enough Information"
 
     mapping = {
+        # --- SUPPORTED ---
         "supported": "Supported",
         "support": "Supported",
         "true": "Supported",
+        "pravda": "Supported",
+        "prawda": "Supported",
+        "verdadeiro": "Supported",
+        "doğru": "Supported",
+        "correct": "Supported",
+        "mostly true": "Supported",
+        "mostly-true": "Supported",
+        "correct-attribution": "Supported",
+        "istina": "Supported",
 
+        # --- REFUTED ---
         "refuted": "Refuted",
         "refute": "Refuted",
         "false": "Refuted",
+        "falso": "Refuted",
+        "faux": "Refuted",
+        "fals": "Refuted",
+        "falsch": "Refuted",
+        "fałsz": "Refuted",
+        "yanlış": "Refuted",
+        "yanlis": "Refuted",
+        "errado": "Refuted",
+        "nepravda": "Refuted",
+        "neistina": "Refuted",
+        "fake": "Refuted",
+        "disinformation": "Refuted",
+        "untrue": "Refuted",
+        "incorrect": "Refuted",
+        "نادرست": "Refuted",
+        "خطأ": "Refuted",
+        "زائف": "Refuted",
+        "زائف, fake": "Refuted",
+        "false, falso": "Refuted",
+        "錯誤": "Refuted",
+        "ψευδές": "Refuted",
+        "rrenë": "Refuted",
+        "pants on fire": "Refuted",
+        "fourpinocchios": "Refuted",
+        "pants-on-fire": "Refuted",
+        "mostly false": "Refuted",
+        "mostly-false": "Refuted",
+        "notizia falsa": "Refuted",
+        "salah": "Refuted",
+        "salah -": "Refuted",
+        "salah false context": "Refuted",
+        "salah fabricated content": "Refuted",
+        "me kos": "Refuted",
+        "pimenta na língua": "Refuted",
 
+        # --- MISLEADING ---
         "misleading": "Misleading",
         "partlytrue": "Misleading",
         "partiallytrue": "Misleading",
+        "partially true": "Misleading",
         "halftrue": "Misleading",
+        "half-true": "Misleading",
+        "half true": "Misleading",
         "cherrypicking": "Misleading",
         "cherrypicked": "Misleading",
         "conflictingevidence": "Misleading",
-
-        "notenoughinformation": "Not Enough Information",
-        "notenoughevidence": "Not Enough Information",
-        "insufficientinformation": "Not Enough Information",
-        "insufficientevidence": "Not Enough Information",
-        "nei": "Not Enough Information",
-        "unknown": "Not Enough Information",
-        "unverifiable": "Not Enough Information",
+        "engañoso": "Misleading",
+        "enganoso": "Misleading",
+        "impreciso": "Misleading",
+        "zavádzajúce": "Misleading",
+        "keliru": "Misleading",
+        "مضلل": "Misleading",
+        "misleading, مضلل": "Misleading",
+        "mixture": "Misleading",
+        "altered": "Misleading",
+        "miscaptioned": "Misleading",
+        "missing context": "Misleading",
+        "needs context": "Misleading",
+        "needscontext": "Misleading",
+        "fuori contesto": "Misleading",
+        "fuoricontesto": "Misleading",
+        "verdadeiro, mas": "Misleading",
+        "labeled-satire": "Misleading",
+        "salah misleading content": "Misleading",
+        "salah manipulated content": "Misleading",
+        "sesat": "Misleading",
+        "部分錯誤": "Misleading",
+        "trunchiat": "Misleading",
+        "conflictingevidence": "Misleading",
     }
 
-    return mapping.get(compact)
+    if clean_s in mapping:
+        return mapping[clean_s]
+
+    # Fallback to compact (letters only) lookup for older normalized formats
+    compact = re.sub(r"[^a-z]+", "", clean_s)
+    if compact in mapping:
+        return mapping[compact]
+        
+    return None
