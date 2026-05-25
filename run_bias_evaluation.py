@@ -24,10 +24,14 @@ def main():
     
     # Run the isolated parallel pipeline
     # max_workers=50 easily accommodates 165 keys running 15 requests per minute simultaneously
+    import os
+    target_key_file = "google_api_list_active_only.txt" if os.path.exists("google_api_list_active_only.txt") else "google_api_list.txt"
+    print(f"Using API keys file: {target_key_file}")
+    
     pipeline = ParallelPipeline(
         config=cfg, 
-        key_list_path="google_api_list_active_only.txt", 
-        max_workers=50
+        key_list_path=target_key_file, 
+        max_workers=20  # Reduced slightly to prevent network pool flooding from 50 worker retry spikes
     )
     pipeline.run(claims)
 
