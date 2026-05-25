@@ -1,5 +1,5 @@
 dataset: "combined_biased"
-model: "gemma-2-31b-it"  # Note: Gemma 4 31B doesn't exist yet via official endpoints; updating to closest standard terminology or whatever specific alias you have
+model: "gemma-4-31b-it"  # Note: Gemma 4 31B doesn't exist yet via official endpoints; updating to closest standard terminology or whatever specific alias you have
 api_url: "https://generativelanguage.googleapis.com/v1beta/openai/chat/completions"
 
 labels:
