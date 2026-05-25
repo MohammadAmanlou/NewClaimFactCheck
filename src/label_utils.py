@@ -32,7 +32,9 @@ def normalize_label(label: Optional[str]) -> Optional[str]:
         "not enough experts",
         "unverifiable",
         "unproven",
-        "neoveriteľné"
+        "neoveriteľné",
+        "other",
+        "unverifiable"
     }:
         return "Not Enough Information"
 
@@ -109,6 +111,7 @@ def normalize_label(label: Optional[str]) -> Optional[str]:
         "مضلل": "Misleading",
         "misleading, مضلل": "Misleading",
         "mixture": "Misleading",
+        "mixed": "Misleading",
         "altered": "Misleading",
         "miscaptioned": "Misleading",
         "missing context": "Misleading",

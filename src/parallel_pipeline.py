@@ -78,6 +78,7 @@ class ParallelPipeline:
             all_methods_results[method] = {"metrics": metrics}
 
         self._save_combined_summary(all_methods_results)
+        self._generate_final_csv_dataset(claims)
         self.logger.info("All prompt methods completed successfully.")
         print("\n✓ Parallel execution completed entirely.")
 
@@ -161,6 +162,56 @@ class ParallelPipeline:
             f1 = data["metrics"].get("macro_f1", "N/A")
             print(f"{method:<25} {str(acc):<10} {str(f1):<12}")
         print("=" * 80) 
+
+    def _generate_final_csv_dataset(self, claims: List[Dict[str, Any]]) -> None:
+        """
+        Generates a final combined CSV dataset containing the original claim attributes natively
+        merged with the final generated predictions from every executed prompt method.
+        """
+        import pandas as pd
+        import json
+        
+        # Build a nested lookup for predictions: lookup[claim_id][method] = prediction
+        predictions = {str(c.get("claim_id")): {} for c in claims}
+        
+        if self.state_manager.file_path.exists():
+            with open(self.state_manager.file_path, "r", encoding="utf-8") as f:
+                for line in f:
+                    if not line.strip(): continue
+                    try:
+                        rec = json.loads(line)
+                        cid = str(rec.get("claim_id"))
+                        method = rec.get("prompt_method")
+                        pred = rec.get("prediction")
+                        if cid in predictions and method:
+                            predictions[cid][method] = pred
+                    except json.JSONDecodeError:
+                        pass
+        
+        rows = []
+        for claim in claims:
+            cid = str(claim.get("claim_id"))
+            row = {
+                "id": cid,
+                "claim": claim.get("claim", ""),
+                "source dataset": claim.get("source", ""),
+                "biases": claim.get("detected_biases", ""),
+                "factcheck label": claim.get("label", ""),
+            }
+            
+            # Add columns natively for each dynamically requested prompt method
+            for method in self.config.prompt_methods:
+                col_name = f"factcheck predicted label by {method}"
+                row[col_name] = predictions[cid].get(method, "")
+                
+            rows.append(row)
+            
+        df = pd.DataFrame(rows)
+        out_csv = self.out_dir / "final_evaluation_dataset.csv"
+        df.to_csv(out_csv, index=False, encoding="utf-8")
+        
+        self.logger.info("Saved final structured dataset CSV to %s", out_csv)
+        print(f"[i] Final structured dataset natively exported to: {out_csv}")
 
     def _execute_pool(self, claims: List[Dict[str, Any]], method: str) -> None:
         """Submits claims to a thread pool executor and writes results dynamically."""
