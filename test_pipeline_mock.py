@@ -55,7 +55,13 @@ class TestPipelineMock(unittest.TestCase):
         mock_response.json.return_value = {
             "choices": [{"message": {"content": '{"label": "Supported"}'}}]
         }
-        mock_send.return_value = mock_response
+        
+        import time
+        def fake_send(*args, **kwargs):
+            time.sleep(0.05)
+            return mock_response
+            
+        mock_send.side_effect = fake_send
 
         print("\n--- RUN 1: Simulating Day 1 (Exhausing quota after 4 claims) ---")
         pipeline1 = ParallelPipeline(self.config, key_list_path=self.keys_path, max_workers=2, rpm_limit=10, rpd_limit=2)

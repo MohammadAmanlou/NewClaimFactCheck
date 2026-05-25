@@ -2,6 +2,7 @@ import concurrent.futures
 import logging
 from typing import List, Dict, Any, Tuple, Optional
 from pathlib import Path
+from tqdm import tqdm
 
 from .config import Config
 from .logging_config import setup_logger
@@ -49,24 +50,37 @@ class ParallelPipeline:
         """
         from .label_utils import normalize_label
         
+        print(f"\n{'=' * 80}")
+        print(f"STARTING PARALLEL EXPERIMENT")
+        print(f"Dataset: {self.config.dataset}, Model: {self.config.model}")
+        print(f"Prompt methods: {self.config.prompt_methods}")
+        print(f"Workers: {self.max_workers}")
+        print(f"{'=' * 80}\n")
+        
         # Extremely Important optimization: Drop anything we can't map (so we never waste API quotas)
         valid_claims = [c for c in claims if normalize_label(c.get("label")) is not None]
         dropped = len(claims) - len(valid_claims)
         
         self.logger.info("Dataset contains %d raw items. Filtered to %d strictly mapped valid items (dropped %d).", 
                          len(claims), len(valid_claims), dropped)
+        print(f"Loaded {len(claims)} raw items. Filtered to {len(valid_claims)} valid items (dropped {dropped}).")
         
         all_methods_results = {}
         
         for method in self.config.prompt_methods:
+            print(f"\n--- Running method: {method} ---")
             self.logger.info("Starting processing for prompt method: %s", method)
             
             # Identify which items we STILL need to process
             completed_ids = self.state_manager.load_completed_ids(method)
             pending_claims = [c for c in valid_claims if str(c.get("claim_id")) not in completed_ids]
             
+            if completed_ids:
+                print(f"Skipping {len(completed_ids)} already evaluated items. {len(pending_claims)} items remaining.")
+
             if not pending_claims:
                 self.logger.info("All claims for method '%s' already completed. Skipping.", method)
+                print(f"✓ All items for {method} already completed.")
                 continue
                 
             self.logger.info("%d claims pending for method '%s' (skipped %d).", 
@@ -88,7 +102,10 @@ class ParallelPipeline:
         self._save_combined_summary(all_methods_results)
         self._generate_final_csv_dataset(claims)
         self.logger.info("All prompt methods completed successfully.")
-        print("\n✓ Parallel execution completed entirely.")
+        
+        print(f"\n{'=' * 80}")
+        print("PIPELINE COMPLETE")
+        print(f"✓ All outputs saved to: {self.out_dir}")
 
     def _finalize_method_results(self, claims: List[Dict[str, Any]], method: str) -> dict:
         """Joins predictions with claims, saves JSONs, and calculates metrics out of the core run loop."""
@@ -237,15 +254,20 @@ class ParallelPipeline:
 
     def _process_futures(self, executor: concurrent.futures.ThreadPoolExecutor, future_to_claim: dict, method: str) -> None:
         """Iterates over completed futures and manages state saving or exception handling."""
-        for future in concurrent.futures.as_completed(future_to_claim):
-            claim_data = future_to_claim[future]
-            
-            if future.exception() is not None:
-                self._handle_future_error(executor, future.exception(), claim_data)
-                continue
+        
+        # Use tqdm to give visual tracking for the parallel operations
+        with tqdm(total=len(future_to_claim), desc=f"Evaluating claims ({method})", dynamic_ncols=True) as pbar:
+            for future in concurrent.futures.as_completed(future_to_claim):
+                claim_data = future_to_claim[future]
+                
+                if future.exception() is not None:
+                    self._handle_future_error(executor, future.exception(), claim_data)
+                    pbar.update(1)
+                    continue
 
-            claim_id, prediction = future.result()
-            self._record_successful_inference(claim_id, method, prediction)
+                claim_id, prediction = future.result()
+                self._record_successful_inference(claim_id, method, prediction)
+                pbar.update(1)
 
     def _handle_future_error(self, executor: concurrent.futures.ThreadPoolExecutor, exception: BaseException, claim_data: Dict[str, Any]) -> None:
         """Handles exceptions from futures, triggering safe shutdown if quota is exhausted."""

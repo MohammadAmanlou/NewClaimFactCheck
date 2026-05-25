@@ -31,7 +31,7 @@ def main():
     pipeline = ParallelPipeline(
         config=cfg, 
         key_list_path=target_key_file, 
-        max_workers=10  # Reduced slightly to prevent network pool flooding from 50 worker retry spikes
+        max_workers=5  # Reduced slightly to prevent network pool flooding from 50 worker retry spikes
     )
     pipeline.run(claims)
 
