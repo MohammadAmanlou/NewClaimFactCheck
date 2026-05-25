@@ -1,6 +1,6 @@
 import concurrent.futures
 import logging
-from typing import List, Dict, Any, Tuple
+from typing import List, Dict, Any, Tuple, Optional
 from pathlib import Path
 
 from .config import Config
@@ -15,7 +15,7 @@ class ParallelPipeline:
     safely managed by a ThreadPoolExecutor.
     """
 
-    def __init__(self, config: Config, key_list_path: str, max_workers: int = 20):
+    def __init__(self, config: Config, key_list_path: str, max_workers: int = 20, rpm_limit: int = 15, rpd_limit: int = 1450):
         self.config = config
         self.max_workers = max_workers
         self.out_dir = self._prepare_output_directory()
@@ -25,8 +25,8 @@ class ParallelPipeline:
         # Initialize the global key manager ensuring RPM/RPD limits
         self.key_manager = MultiKeyManager(
             key_file_path=key_list_path, 
-            rpm_limit=15, 
-            rpd_limit=1450
+            rpm_limit=rpm_limit, 
+            rpd_limit=rpd_limit
         )
         
         # The append-only state file to resume progress seamlessly
