@@ -26,7 +26,7 @@ def main():
     # max_workers=50 easily accommodates 165 keys running 15 requests per minute simultaneously
     pipeline = ParallelPipeline(
         config=cfg, 
-        key_list_path="google_api_list.txt", 
+        key_list_path="google_api_list_active_only.txt", 
         max_workers=50
     )
     pipeline.run(claims)
