@@ -16,7 +16,7 @@ def main():
     load_dotenv()
     
     # Load the dedicated configuration file
-    cfg = Config("bias_eval_config.yaml")
+    cfg = Config.from_yaml("bias_eval_config.yaml")
     
     # Load the comprehensive combined dataset
     print(f"Loading '{cfg.dataset}' dataset...")
