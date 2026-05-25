@@ -47,7 +47,15 @@ class ParallelPipeline:
         Executes the thread pool over all requested prompt methods.
         Skips already completed claims instantly.
         """
-        self.logger.info("Dataset contains %d items.", len(claims))
+        from .label_utils import normalize_label
+        
+        # Extremely Important optimization: Drop anything we can't map (so we never waste API quotas)
+        valid_claims = [c for c in claims if normalize_label(c.get("label")) is not None]
+        dropped = len(claims) - len(valid_claims)
+        
+        self.logger.info("Dataset contains %d raw items. Filtered to %d strictly mapped valid items (dropped %d).", 
+                         len(claims), len(valid_claims), dropped)
+        
         all_methods_results = {}
         
         for method in self.config.prompt_methods:
@@ -55,7 +63,7 @@ class ParallelPipeline:
             
             # Identify which items we STILL need to process
             completed_ids = self.state_manager.load_completed_ids(method)
-            pending_claims = [c for c in claims if str(c.get("claim_id")) not in completed_ids]
+            pending_claims = [c for c in valid_claims if str(c.get("claim_id")) not in completed_ids]
             
             if not pending_claims:
                 self.logger.info("All claims for method '%s' already completed. Skipping.", method)

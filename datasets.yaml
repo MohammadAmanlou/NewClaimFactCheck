@@ -5,11 +5,11 @@ combined_biased:
     claim_id: "combined_key"
     claim: "claim_text_norm"
     claim_date: "date_norm"
-    label: "factcheck_label_norm"
+    label: "factcheck_label_raw_examples"
     detected_biases: "all_detected_biases"
   filter:
     exclude_labels: []
-    label_column: "factcheck_label_norm"
+    label_column: "factcheck_label_raw_examples"
   date_format: "%Y-%m-%d"
   is_test: false
 
