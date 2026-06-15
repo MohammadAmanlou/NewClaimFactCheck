@@ -1,12 +1,1 @@
-2026-06-15 18:35:54,361 - INFO - Prompt method: cognitive_bias_aware
-2026-06-15 18:35:58,321 - WARNING - No valid results for metric calculation
-2026-06-15 18:36:02,282 - WARNING - No valid results for metric calculation
-2026-06-15 18:36:02,283 - INFO - ================================================================================
-2026-06-15 18:36:02,283 - INFO - Comparing seen vs unseen performance...
-2026-06-15 18:36:02,283 - WARNING - No valid results for metric calculation
-2026-06-15 18:36:02,283 - WARNING - No valid results for metric calculation
-2026-06-15 18:36:02,283 - WARNING - Statistical tests skipped: Need more than one sample per group for statistical tests.
-2026-06-15 18:36:02,283 - INFO - Seen accuracy: N/A
-2026-06-15 18:36:02,283 - INFO - Unseen accuracy: N/A
-2026-06-15 18:36:02,283 - INFO - Difference: 0.0000
-2026-06-15 18:36:02,286 - INFO - Summary report saved to results\qwen2_5-72b-instruct\matteroffact_all\cognitive_bias_aware\summary.json
+2026-06-15 18:57:51,554 - INFO - Prompt method: cognitive_bias_aware

@@ -28,6 +28,6 @@ sampling:
 display_every_n: 10
 
 output_root: "results"
-api_key_env: "aa-7WCmv4uyk7z1VIUl3QjoNCDAOkQBpvNKbSSjOsbLwJvcfakK"
+api_key_env: "AVALAI_API_KEY"
 
 datasets_config: "datasets.yaml"

@@ -1,26 +1,26 @@
-2026-06-15 18:35:58,322 - INFO - Processing 1 samples (limited)
-2026-06-15 18:35:58,322 - INFO - Processing 1 claims...
-2026-06-15 18:35:58,323 - INFO - ================================================================================
-2026-06-15 18:35:58,323 - INFO - Processing claim #0 (ID: 2503.22477v2_3_T)
-2026-06-15 18:35:58,323 - INFO - Claim: The Debye temperature in LaRu₃(Si₁₋ₓGeₓ)₂ decreases from approximately 405K to 384K as germanium content increases from x = 0 to x = 0.07....
-2026-06-15 18:35:58,323 - INFO - Date: 2025-03-01
-2026-06-15 18:35:58,323 - INFO - Asking model: qwen2.5-72b-instruct (method: cognitive_bias_aware)
-2026-06-15 18:35:58,323 - INFO - Claim: The Debye temperature in LaRu₃(Si₁₋ₓGeₓ)₂ decreases from approximately 405K to 384K as germanium content increases from x = 0 to x = 0.07....
-2026-06-15 18:36:02,169 - INFO - API Response Status: 401
-2026-06-15 18:36:02,169 - ERROR - API error 401: {
+2026-06-15 18:48:38,500 - INFO - Processing 1 samples (limited)
+2026-06-15 18:48:38,500 - INFO - Processing 1 claims...
+2026-06-15 18:48:38,501 - INFO - ================================================================================
+2026-06-15 18:48:38,501 - INFO - Processing claim #0 (ID: 2503.22477v2_3_T)
+2026-06-15 18:48:38,501 - INFO - Claim: The Debye temperature in LaRu₃(Si₁₋ₓGeₓ)₂ decreases from approximately 405K to 384K as germanium content increases from x = 0 to x = 0.07....
+2026-06-15 18:48:38,501 - INFO - Date: 2025-03-01
+2026-06-15 18:48:38,501 - INFO - Asking model: qwen2.5-72b-instruct (method: cognitive_bias_aware)
+2026-06-15 18:48:38,501 - INFO - Claim: The Debye temperature in LaRu₃(Si₁₋ₓGeₓ)₂ decreases from approximately 405K to 384K as germanium content increases from x = 0 to x = 0.07....
+2026-06-15 18:48:53,656 - INFO - API Response Status: 403
+2026-06-15 18:48:53,656 - ERROR - API error 403: {
   "error": {
-    "message": "Incorrect API key provided: Bearer. You can find your API key at https://ava.al/keys . Please contact support at support@avalai.ir and include the request ID 019ecbd1-7418-7e41-8705-13a851f5c480 in your email if you believe this is an error.",
-    "type": "invalid_request_error",
+    "message": "Access denied. For details, see: https://www.alibabacloud.com/help/en/model-studio/error-code#access-denied",
+    "type": "permission_denied",
     "param": null,
-    "code": "invalid_api_key",
-    "solution": "If your API key was recently created, please wait up to 60 seconds for it to activate. Otherwise, verify you're using the correct key and that it hasn't been revoked. You can manage your API keys at https://ava.al/keys .",
-    "request_id": "019ecbd1-7418-7e41-8705-13a851f5c480"
+    "code": "permission_denied",
+    "solution": "Check your API access permissions and credentials. If you believe this is an error, contact support@avalai.ir with Request ID: 019ecbdd-0d93-7493-99cd-65f47b6bcf08.",
+    "request_id": "019ecbdd-0d93-7493-99cd-65f47b6bcf08"
   }
 }
-2026-06-15 18:36:02,171 - WARNING - Failed to get valid prediction
-2026-06-15 18:36:02,274 - INFO - ================================================================================
-2026-06-15 18:36:02,274 - INFO - Processing complete: 0 predictions (0 correct, 0 incorrect), 1 failed
-2026-06-15 18:36:02,274 - WARNING - No valid results for metric calculation
-2026-06-15 18:36:02,281 - INFO - Predictions saved to results\qwen2_5-72b-instruct\matteroffact_all\cognitive_bias_aware\unseen\unseen_predictions.csv
-2026-06-15 18:36:02,281 - INFO - Predictions JSON saved to results\qwen2_5-72b-instruct\matteroffact_all\cognitive_bias_aware\unseen\unseen_predictions.json
-2026-06-15 18:36:02,282 - INFO - Metrics saved to results\qwen2_5-72b-instruct\matteroffact_all\cognitive_bias_aware\unseen\unseen_metrics.json
+2026-06-15 18:48:53,658 - WARNING - Failed to get valid prediction
+2026-06-15 18:48:53,760 - INFO - ================================================================================
+2026-06-15 18:48:53,760 - INFO - Processing complete: 0 predictions (0 correct, 0 incorrect), 1 failed
+2026-06-15 18:48:53,760 - WARNING - No valid results for metric calculation
+2026-06-15 18:48:53,766 - INFO - Predictions saved to results\qwen2_5-72b-instruct\matteroffact_all\cognitive_bias_aware\unseen\unseen_predictions.csv
+2026-06-15 18:48:53,767 - INFO - Predictions JSON saved to results\qwen2_5-72b-instruct\matteroffact_all\cognitive_bias_aware\unseen\unseen_predictions.json
+2026-06-15 18:48:53,767 - INFO - Metrics saved to results\qwen2_5-72b-instruct\matteroffact_all\cognitive_bias_aware\unseen\unseen_metrics.json

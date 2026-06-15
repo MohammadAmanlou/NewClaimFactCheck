@@ -1,26 +1,8 @@
-2026-06-15 18:35:54,362 - INFO - Processing 1 samples (limited)
-2026-06-15 18:35:54,362 - INFO - Processing 1 claims...
-2026-06-15 18:35:54,368 - INFO - ================================================================================
-2026-06-15 18:35:54,368 - INFO - Processing claim #0 (ID: 2405.03680v2_14_T)
-2026-06-15 18:35:54,368 - INFO - Claim: AtomGPT uses parameter-efficient fine-tuning techniques like LoRA to reduce computational requirements while maintaining high performance for material...
-2026-06-15 18:35:54,368 - INFO - Date: 2024-05-01
-2026-06-15 18:35:54,368 - INFO - Asking model: qwen2.5-72b-instruct (method: cognitive_bias_aware)
-2026-06-15 18:35:54,368 - INFO - Claim: AtomGPT uses parameter-efficient fine-tuning techniques like LoRA to reduce computational requirements while maintaining high performance for material...
-2026-06-15 18:35:58,212 - INFO - API Response Status: 401
-2026-06-15 18:35:58,212 - ERROR - API error 401: {
-  "error": {
-    "message": "Incorrect API key provided: Bearer. You can find your API key at https://ava.al/keys . Please contact support at support@avalai.ir and include the request ID 019ecbd1-649e-7fb0-8c53-cca1d6a02ed3 in your email if you believe this is an error.",
-    "type": "invalid_request_error",
-    "param": null,
-    "code": "invalid_api_key",
-    "solution": "If your API key was recently created, please wait up to 60 seconds for it to activate. Otherwise, verify you're using the correct key and that it hasn't been revoked. You can manage your API keys at https://ava.al/keys .",
-    "request_id": "019ecbd1-649e-7fb0-8c53-cca1d6a02ed3"
-  }
-}
-2026-06-15 18:35:58,214 - WARNING - Failed to get valid prediction
-2026-06-15 18:35:58,316 - INFO - ================================================================================
-2026-06-15 18:35:58,316 - INFO - Processing complete: 0 predictions (0 correct, 0 incorrect), 1 failed
-2026-06-15 18:35:58,316 - WARNING - No valid results for metric calculation
-2026-06-15 18:35:58,320 - INFO - Predictions saved to results\qwen2_5-72b-instruct\matteroffact_all\cognitive_bias_aware\seen\seen_predictions.csv
-2026-06-15 18:35:58,320 - INFO - Predictions JSON saved to results\qwen2_5-72b-instruct\matteroffact_all\cognitive_bias_aware\seen\seen_predictions.json
-2026-06-15 18:35:58,321 - INFO - Metrics saved to results\qwen2_5-72b-instruct\matteroffact_all\cognitive_bias_aware\seen\seen_metrics.json
+2026-06-15 18:57:51,554 - INFO - Processing 1 samples (limited)
+2026-06-15 18:57:51,554 - INFO - Processing 1 claims...
+2026-06-15 18:57:51,555 - INFO - ================================================================================
+2026-06-15 18:57:51,555 - INFO - Processing claim #0 (ID: 2405.03680v2_14_T)
+2026-06-15 18:57:51,555 - INFO - Claim: AtomGPT uses parameter-efficient fine-tuning techniques like LoRA to reduce computational requirements while maintaining high performance for material...
+2026-06-15 18:57:51,555 - INFO - Date: 2024-05-01
+2026-06-15 18:57:51,555 - INFO - Asking model: qwen2.5-72b-instruct (method: cognitive_bias_aware)
+2026-06-15 18:57:51,555 - INFO - Claim: AtomGPT uses parameter-efficient fine-tuning techniques like LoRA to reduce computational requirements while maintaining high performance for material...

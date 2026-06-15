@@ -1,26 +1,8 @@
-2026-06-15 18:35:50,373 - INFO - Processing 1 samples (limited)
-2026-06-15 18:35:50,373 - INFO - Processing 1 claims...
-2026-06-15 18:35:50,373 - INFO - ================================================================================
-2026-06-15 18:35:50,373 - INFO - Processing claim #0 (ID: 2503.22477v2_3_T)
-2026-06-15 18:35:50,374 - INFO - Claim: The Debye temperature in LaRu₃(Si₁₋ₓGeₓ)₂ decreases from approximately 405K to 384K as germanium content increases from x = 0 to x = 0.07....
-2026-06-15 18:35:50,374 - INFO - Date: 2025-03-01
-2026-06-15 18:35:50,374 - INFO - Asking model: qwen2.5-72b-instruct (method: strong_baseline_short)
-2026-06-15 18:35:50,374 - INFO - Claim: The Debye temperature in LaRu₃(Si₁₋ₓGeₓ)₂ decreases from approximately 405K to 384K as germanium content increases from x = 0 to x = 0.07....
-2026-06-15 18:35:54,241 - INFO - API Response Status: 401
-2026-06-15 18:35:54,241 - ERROR - API error 401: {
-  "error": {
-    "message": "Incorrect API key provided: Bearer. You can find your API key at https://ava.al/keys . Please contact support at support@avalai.ir and include the request ID 019ecbd1-551f-7f52-8a54-9a3fb6e5f756 in your email if you believe this is an error.",
-    "type": "invalid_request_error",
-    "param": null,
-    "code": "invalid_api_key",
-    "solution": "If your API key was recently created, please wait up to 60 seconds for it to activate. Otherwise, verify you're using the correct key and that it hasn't been revoked. You can manage your API keys at https://ava.al/keys .",
-    "request_id": "019ecbd1-551f-7f52-8a54-9a3fb6e5f756"
-  }
-}
-2026-06-15 18:35:54,243 - WARNING - Failed to get valid prediction
-2026-06-15 18:35:54,345 - INFO - ================================================================================
-2026-06-15 18:35:54,345 - INFO - Processing complete: 0 predictions (0 correct, 0 incorrect), 1 failed
-2026-06-15 18:35:54,345 - WARNING - No valid results for metric calculation
-2026-06-15 18:35:54,348 - INFO - Predictions saved to results\qwen2_5-72b-instruct\matteroffact_all\strong_baseline_short\unseen\unseen_predictions.csv
-2026-06-15 18:35:54,348 - INFO - Predictions JSON saved to results\qwen2_5-72b-instruct\matteroffact_all\strong_baseline_short\unseen\unseen_predictions.json
-2026-06-15 18:35:54,349 - INFO - Metrics saved to results\qwen2_5-72b-instruct\matteroffact_all\strong_baseline_short\unseen\unseen_metrics.json
+2026-06-15 18:57:35,450 - INFO - Processing 1 samples (limited)
+2026-06-15 18:57:35,450 - INFO - Processing 1 claims...
+2026-06-15 18:57:35,451 - INFO - ================================================================================
+2026-06-15 18:57:35,451 - INFO - Processing claim #0 (ID: 2503.22477v2_3_T)
+2026-06-15 18:57:35,451 - INFO - Claim: The Debye temperature in LaRu₃(Si₁₋ₓGeₓ)₂ decreases from approximately 405K to 384K as germanium content increases from x = 0 to x = 0.07....
+2026-06-15 18:57:35,451 - INFO - Date: 2025-03-01
+2026-06-15 18:57:35,451 - INFO - Asking model: qwen2.5-72b-instruct (method: strong_baseline_short)
+2026-06-15 18:57:35,451 - INFO - Claim: The Debye temperature in LaRu₃(Si₁₋ₓGeₓ)₂ decreases from approximately 405K to 384K as germanium content increases from x = 0 to x = 0.07....

@@ -1,9 +1,4 @@
-2026-06-15 18:35:36,588 - INFO - ================================================================================
-2026-06-15 18:35:36,588 - INFO - STARTING FACT-CHECK INFERENCE PIPELINE
-2026-06-15 18:35:36,588 - INFO - Dataset: matteroffact_all, Model: qwen2.5-72b-instruct
-2026-06-15 18:35:36,588 - INFO - Prompt methods: ['naive', 'strong_baseline_short', 'cognitive_bias_aware']
-2026-06-15 18:35:38,371 - INFO - Loaded 8360 claims (is_test=False) and token is 
-2026-06-15 18:35:38,371 - INFO - Processing LABELED data with temporal split analysis
-2026-06-15 18:35:38,440 - INFO - Balanced sampling: 5896 → 2464
-2026-06-15 18:36:02,307 - INFO - ================================================================================
-2026-06-15 18:36:02,307 - INFO - PIPELINE COMPLETE
+2026-06-15 18:56:38,484 - INFO - ================================================================================
+2026-06-15 18:56:38,485 - INFO - STARTING FACT-CHECK INFERENCE PIPELINE
+2026-06-15 18:56:38,485 - INFO - Dataset: matteroffact_all, Model: qwen2.5-72b-instruct
+2026-06-15 18:56:38,485 - INFO - Prompt methods: ['naive', 'strong_baseline_short', 'cognitive_bias_aware']

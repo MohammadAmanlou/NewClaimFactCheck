@@ -1,12 +1,12 @@
-2026-06-15 18:35:46,404 - INFO - Prompt method: strong_baseline_short
-2026-06-15 18:35:50,372 - WARNING - No valid results for metric calculation
-2026-06-15 18:35:54,349 - WARNING - No valid results for metric calculation
-2026-06-15 18:35:54,349 - INFO - ================================================================================
-2026-06-15 18:35:54,349 - INFO - Comparing seen vs unseen performance...
-2026-06-15 18:35:54,349 - WARNING - No valid results for metric calculation
-2026-06-15 18:35:54,349 - WARNING - No valid results for metric calculation
-2026-06-15 18:35:54,350 - WARNING - Statistical tests skipped: Need more than one sample per group for statistical tests.
-2026-06-15 18:35:54,350 - INFO - Seen accuracy: N/A
-2026-06-15 18:35:54,350 - INFO - Unseen accuracy: N/A
-2026-06-15 18:35:54,350 - INFO - Difference: 0.0000
-2026-06-15 18:35:54,353 - INFO - Summary report saved to results\qwen2_5-72b-instruct\matteroffact_all\strong_baseline_short\summary.json
+2026-06-15 18:57:20,619 - INFO - Prompt method: strong_baseline_short
+2026-06-15 18:57:35,449 - WARNING - No valid results for metric calculation
+2026-06-15 18:57:51,547 - WARNING - No valid results for metric calculation
+2026-06-15 18:57:51,547 - INFO - ================================================================================
+2026-06-15 18:57:51,547 - INFO - Comparing seen vs unseen performance...
+2026-06-15 18:57:51,547 - WARNING - No valid results for metric calculation
+2026-06-15 18:57:51,547 - WARNING - No valid results for metric calculation
+2026-06-15 18:57:51,547 - WARNING - Statistical tests skipped: Need more than one sample per group for statistical tests.
+2026-06-15 18:57:51,548 - INFO - Seen accuracy: N/A
+2026-06-15 18:57:51,548 - INFO - Unseen accuracy: N/A
+2026-06-15 18:57:51,548 - INFO - Difference: 0.0000
+2026-06-15 18:57:51,550 - INFO - Summary report saved to results\qwen2_5-72b-instruct\matteroffact_all\strong_baseline_short\summary.json

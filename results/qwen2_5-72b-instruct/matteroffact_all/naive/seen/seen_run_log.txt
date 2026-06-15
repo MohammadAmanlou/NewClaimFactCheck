@@ -1,26 +1,26 @@
-2026-06-15 18:35:38,442 - INFO - Processing 1 samples (limited)
-2026-06-15 18:35:38,442 - INFO - Processing 1 claims...
-2026-06-15 18:35:38,444 - INFO - ================================================================================
-2026-06-15 18:35:38,444 - INFO - Processing claim #0 (ID: 2405.03680v2_14_T)
-2026-06-15 18:35:38,444 - INFO - Claim: AtomGPT uses parameter-efficient fine-tuning techniques like LoRA to reduce computational requirements while maintaining high performance for material...
-2026-06-15 18:35:38,444 - INFO - Date: 2024-05-01
-2026-06-15 18:35:38,444 - INFO - Asking model: qwen2.5-72b-instruct (method: naive)
-2026-06-15 18:35:38,444 - INFO - Claim: AtomGPT uses parameter-efficient fine-tuning techniques like LoRA to reduce computational requirements while maintaining high performance for material...
-2026-06-15 18:35:42,317 - INFO - API Response Status: 401
-2026-06-15 18:35:42,317 - ERROR - API error 401: {
+2026-06-15 18:56:40,423 - INFO - Processing 1 samples (limited)
+2026-06-15 18:56:40,423 - INFO - Processing 1 claims...
+2026-06-15 18:56:40,426 - INFO - ================================================================================
+2026-06-15 18:56:40,426 - INFO - Processing claim #0 (ID: 2405.03680v2_14_T)
+2026-06-15 18:56:40,426 - INFO - Claim: AtomGPT uses parameter-efficient fine-tuning techniques like LoRA to reduce computational requirements while maintaining high performance for material...
+2026-06-15 18:56:40,426 - INFO - Date: 2024-05-01
+2026-06-15 18:56:40,426 - INFO - Asking model: qwen2.5-72b-instruct (method: naive)
+2026-06-15 18:56:40,426 - INFO - Claim: AtomGPT uses parameter-efficient fine-tuning techniques like LoRA to reduce computational requirements while maintaining high performance for material...
+2026-06-15 18:56:55,437 - INFO - API Response Status: 403
+2026-06-15 18:56:55,437 - ERROR - API error 403: {
   "error": {
-    "message": "Incorrect API key provided: Bearer. You can find your API key at https://ava.al/keys . Please contact support at support@avalai.ir and include the request ID 019ecbd1-268a-7b62-8777-41fb90349c72 in your email if you believe this is an error.",
-    "type": "invalid_request_error",
+    "message": "Access denied. For details, see: https://www.alibabacloud.com/help/en/model-studio/error-code#access-denied",
+    "type": "permission_denied",
     "param": null,
-    "code": "invalid_api_key",
-    "solution": "If your API key was recently created, please wait up to 60 seconds for it to activate. Otherwise, verify you're using the correct key and that it hasn't been revoked. You can manage your API keys at https://ava.al/keys .",
-    "request_id": "019ecbd1-268a-7b62-8777-41fb90349c72"
+    "code": "permission_denied",
+    "solution": "Check your API access permissions and credentials. If you believe this is an error, contact support@avalai.ir with Request ID: 019ecbe4-6862-7842-883f-81ce5c2c13b3.",
+    "request_id": "019ecbe4-6862-7842-883f-81ce5c2c13b3"
   }
 }
-2026-06-15 18:35:42,319 - WARNING - Failed to get valid prediction
-2026-06-15 18:35:42,421 - INFO - ================================================================================
-2026-06-15 18:35:42,421 - INFO - Processing complete: 0 predictions (0 correct, 0 incorrect), 1 failed
-2026-06-15 18:35:42,421 - WARNING - No valid results for metric calculation
-2026-06-15 18:35:42,426 - INFO - Predictions saved to results\qwen2_5-72b-instruct\matteroffact_all\naive\seen\seen_predictions.csv
-2026-06-15 18:35:42,426 - INFO - Predictions JSON saved to results\qwen2_5-72b-instruct\matteroffact_all\naive\seen\seen_predictions.json
-2026-06-15 18:35:42,427 - INFO - Metrics saved to results\qwen2_5-72b-instruct\matteroffact_all\naive\seen\seen_metrics.json
+2026-06-15 18:56:55,439 - WARNING - Failed to get valid prediction
+2026-06-15 18:56:55,541 - INFO - ================================================================================
+2026-06-15 18:56:55,541 - INFO - Processing complete: 0 predictions (0 correct, 0 incorrect), 1 failed
+2026-06-15 18:56:55,541 - WARNING - No valid results for metric calculation
+2026-06-15 18:56:55,546 - INFO - Predictions saved to results\qwen2_5-72b-instruct\matteroffact_all\naive\seen\seen_predictions.csv
+2026-06-15 18:56:55,546 - INFO - Predictions JSON saved to results\qwen2_5-72b-instruct\matteroffact_all\naive\seen\seen_predictions.json
+2026-06-15 18:56:55,547 - INFO - Metrics saved to results\qwen2_5-72b-instruct\matteroffact_all\naive\seen\seen_metrics.json
