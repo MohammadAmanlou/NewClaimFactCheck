@@ -92,3 +92,19 @@ fever_test_2025:
     speaker: "speaker"
   date_format: "%d-%m-%Y"
   is_test: true
+
+matteroffact_all:
+  type: csv
+  path: "matteroffact/matteroffact_all.csv"
+  mapping:
+    claim_id: "claim_id"
+    claim: "claim"
+    claim_date: "claim_date"
+    label: "label"
+    source: "source"
+    detected_biases: "detected_biases"
+  filter:
+    exclude_labels: []
+    label_column: "label"
+  date_format: "%Y-%m-%d"
+  is_test: false

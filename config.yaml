@@ -1,20 +1,19 @@
-# Options: "claimreview_plus", "factors"
-dataset: "claimreview_plus"                 
+dataset: "matteroffact_all"
+
 model: "qwen2.5-72b-instruct"
-api_url: "https://api.avalapis.ir/v1/chat/completions"
+api_url: "https://api.avalai.ir/v1/chat/completions"
 
 labels:
   - Supported
   - Refuted
-  - Not Enough Information
-  - Misleading
 
-# Prompt methods to evaluate (can be one or more)
 prompt_methods:
+  - naive
+  - strong_baseline_short
   - cognitive_bias_aware
 
 temporal_split: "2024-09-01"
-date_format: "%d-%m-%Y"
+date_format: "%Y-%m-%d"
 
 rate_limit:
   max_retries: 5
@@ -22,14 +21,13 @@ rate_limit:
   sleep_between_calls: 0.1
 
 sampling:
-  max_samples: null
-  balanced: false
+  max_samples: 1
+  balanced: true
   seed: 42
 
 display_every_n: 10
 
 output_root: "results"
-hf_token_env: "HF_TOKEN"
-api_key_env: "AVALAI_API_KEY"
+api_key_env: "aa-7WCmv4uyk7z1VIUl3QjoNCDAOkQBpvNKbSSjOsbLwJvcfakK"
 
 datasets_config: "datasets.yaml"
