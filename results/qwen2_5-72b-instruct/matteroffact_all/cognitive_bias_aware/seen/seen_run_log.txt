@@ -6,3 +6,22 @@
 2026-06-15 18:57:51,555 - INFO - Date: 2024-05-01
 2026-06-15 18:57:51,555 - INFO - Asking model: qwen2.5-72b-instruct (method: cognitive_bias_aware)
 2026-06-15 18:57:51,555 - INFO - Claim: AtomGPT uses parameter-efficient fine-tuning techniques like LoRA to reduce computational requirements while maintaining high performance for material...
+2026-06-15 18:57:55,260 - WARNING - Network error: HTTPSConnectionPool(host='api.avalai.ir', port=443): Max retries exceeded with url: /v1/chat/completions (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1077)'))). Retrying...
+2026-06-15 18:58:10,195 - INFO - API Response Status: 403
+2026-06-15 18:58:10,195 - ERROR - API error 403: {
+  "error": {
+    "message": "Access denied. For details, see: https://www.alibabacloud.com/help/en/model-studio/error-code#access-denied",
+    "type": "permission_denied",
+    "param": null,
+    "code": "permission_denied",
+    "solution": "Check your API access permissions and credentials. If you believe this is an error, contact support@avalai.ir with Request ID: 019ecbe5-8e79-79a2-9c31-c1d83f95502d.",
+    "request_id": "019ecbe5-8e79-79a2-9c31-c1d83f95502d"
+  }
+}
+2026-06-15 18:58:10,197 - WARNING - Failed to get valid prediction
+2026-06-15 18:58:10,299 - INFO - ================================================================================
+2026-06-15 18:58:10,299 - INFO - Processing complete: 0 predictions (0 correct, 0 incorrect), 1 failed
+2026-06-15 18:58:10,299 - WARNING - No valid results for metric calculation
+2026-06-15 18:58:10,302 - INFO - Predictions saved to results\qwen2_5-72b-instruct\matteroffact_all\cognitive_bias_aware\seen\seen_predictions.csv
+2026-06-15 18:58:10,303 - INFO - Predictions JSON saved to results\qwen2_5-72b-instruct\matteroffact_all\cognitive_bias_aware\seen\seen_predictions.json
+2026-06-15 18:58:10,303 - INFO - Metrics saved to results\qwen2_5-72b-instruct\matteroffact_all\cognitive_bias_aware\seen\seen_metrics.json
