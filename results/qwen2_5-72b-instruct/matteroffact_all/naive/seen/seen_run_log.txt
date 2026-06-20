@@ -1,26 +1,26 @@
-2026-06-15 18:56:40,423 - INFO - Processing 1 samples (limited)
-2026-06-15 18:56:40,423 - INFO - Processing 1 claims...
-2026-06-15 18:56:40,426 - INFO - ================================================================================
-2026-06-15 18:56:40,426 - INFO - Processing claim #0 (ID: 2405.03680v2_14_T)
-2026-06-15 18:56:40,426 - INFO - Claim: AtomGPT uses parameter-efficient fine-tuning techniques like LoRA to reduce computational requirements while maintaining high performance for material...
-2026-06-15 18:56:40,426 - INFO - Date: 2024-05-01
-2026-06-15 18:56:40,426 - INFO - Asking model: qwen2.5-72b-instruct (method: naive)
-2026-06-15 18:56:40,426 - INFO - Claim: AtomGPT uses parameter-efficient fine-tuning techniques like LoRA to reduce computational requirements while maintaining high performance for material...
-2026-06-15 18:56:55,437 - INFO - API Response Status: 403
-2026-06-15 18:56:55,437 - ERROR - API error 403: {
+2026-06-20 16:50:14,020 - INFO - Processing 1 samples (limited)
+2026-06-20 16:50:14,020 - INFO - Processing 1 claims...
+2026-06-20 16:50:14,024 - INFO - ================================================================================
+2026-06-20 16:50:14,024 - INFO - Processing claim #0 (ID: 2405.03680v2_14_T)
+2026-06-20 16:50:14,024 - INFO - Claim: AtomGPT uses parameter-efficient fine-tuning techniques like LoRA to reduce computational requirements while maintaining high performance for material...
+2026-06-20 16:50:14,024 - INFO - Date: 2024-05-01
+2026-06-20 16:50:14,024 - INFO - Asking model: qwen2.5-72b-instruct (method: naive)
+2026-06-20 16:50:14,025 - INFO - Claim: AtomGPT uses parameter-efficient fine-tuning techniques like LoRA to reduce computational requirements while maintaining high performance for material...
+2026-06-20 16:50:26,259 - INFO - API Response Status: 403
+2026-06-20 16:50:26,259 - ERROR - API error 403: {
   "error": {
     "message": "Access denied. For details, see: https://www.alibabacloud.com/help/en/model-studio/error-code#access-denied",
     "type": "permission_denied",
     "param": null,
     "code": "permission_denied",
-    "solution": "Check your API access permissions and credentials. If you believe this is an error, contact support@avalai.ir with Request ID: 019ecbe4-6862-7842-883f-81ce5c2c13b3.",
-    "request_id": "019ecbe4-6862-7842-883f-81ce5c2c13b3"
+    "solution": "Check your API access permissions and credentials. If you believe this is an error, contact support@avalai.ir with Request ID: 019ee530-6360-7e50-b758-09e13895f32d.",
+    "request_id": "019ee530-6360-7e50-b758-09e13895f32d"
   }
 }
-2026-06-15 18:56:55,439 - WARNING - Failed to get valid prediction
-2026-06-15 18:56:55,541 - INFO - ================================================================================
-2026-06-15 18:56:55,541 - INFO - Processing complete: 0 predictions (0 correct, 0 incorrect), 1 failed
-2026-06-15 18:56:55,541 - WARNING - No valid results for metric calculation
-2026-06-15 18:56:55,546 - INFO - Predictions saved to results\qwen2_5-72b-instruct\matteroffact_all\naive\seen\seen_predictions.csv
-2026-06-15 18:56:55,546 - INFO - Predictions JSON saved to results\qwen2_5-72b-instruct\matteroffact_all\naive\seen\seen_predictions.json
-2026-06-15 18:56:55,547 - INFO - Metrics saved to results\qwen2_5-72b-instruct\matteroffact_all\naive\seen\seen_metrics.json
+2026-06-20 16:50:26,261 - WARNING - Failed to get valid prediction
+2026-06-20 16:50:26,364 - INFO - ================================================================================
+2026-06-20 16:50:26,364 - INFO - Processing complete: 0 predictions (0 correct, 0 incorrect), 1 failed
+2026-06-20 16:50:26,364 - WARNING - No valid results for metric calculation
+2026-06-20 16:50:26,378 - INFO - Predictions saved to results\qwen2_5-72b-instruct\matteroffact_all\naive\seen\seen_predictions.csv
+2026-06-20 16:50:26,378 - INFO - Predictions JSON saved to results\qwen2_5-72b-instruct\matteroffact_all\naive\seen\seen_predictions.json
+2026-06-20 16:50:26,379 - INFO - Metrics saved to results\qwen2_5-72b-instruct\matteroffact_all\naive\seen\seen_metrics.json

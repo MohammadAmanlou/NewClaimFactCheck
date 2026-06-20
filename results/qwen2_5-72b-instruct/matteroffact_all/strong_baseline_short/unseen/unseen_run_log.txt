@@ -1,26 +1,26 @@
-2026-06-15 18:57:35,450 - INFO - Processing 1 samples (limited)
-2026-06-15 18:57:35,450 - INFO - Processing 1 claims...
-2026-06-15 18:57:35,451 - INFO - ================================================================================
-2026-06-15 18:57:35,451 - INFO - Processing claim #0 (ID: 2503.22477v2_3_T)
-2026-06-15 18:57:35,451 - INFO - Claim: The Debye temperature in LaRu₃(Si₁₋ₓGeₓ)₂ decreases from approximately 405K to 384K as germanium content increases from x = 0 to x = 0.07....
-2026-06-15 18:57:35,451 - INFO - Date: 2025-03-01
-2026-06-15 18:57:35,451 - INFO - Asking model: qwen2.5-72b-instruct (method: strong_baseline_short)
-2026-06-15 18:57:35,451 - INFO - Claim: The Debye temperature in LaRu₃(Si₁₋ₓGeₓ)₂ decreases from approximately 405K to 384K as germanium content increases from x = 0 to x = 0.07....
-2026-06-15 18:57:51,437 - INFO - API Response Status: 403
-2026-06-15 18:57:51,437 - ERROR - API error 403: {
+2026-06-20 16:50:49,571 - INFO - Processing 1 samples (limited)
+2026-06-20 16:50:49,571 - INFO - Processing 1 claims...
+2026-06-20 16:50:49,571 - INFO - ================================================================================
+2026-06-20 16:50:49,571 - INFO - Processing claim #0 (ID: 2503.22477v2_3_T)
+2026-06-20 16:50:49,571 - INFO - Claim: The Debye temperature in LaRu₃(Si₁₋ₓGeₓ)₂ decreases from approximately 405K to 384K as germanium content increases from x = 0 to x = 0.07....
+2026-06-20 16:50:49,571 - INFO - Date: 2025-03-01
+2026-06-20 16:50:49,572 - INFO - Asking model: qwen2.5-72b-instruct (method: strong_baseline_short)
+2026-06-20 16:50:49,572 - INFO - Claim: The Debye temperature in LaRu₃(Si₁₋ₓGeₓ)₂ decreases from approximately 405K to 384K as germanium content increases from x = 0 to x = 0.07....
+2026-06-20 16:51:01,408 - INFO - API Response Status: 403
+2026-06-20 16:51:01,408 - ERROR - API error 403: {
   "error": {
     "message": "Access denied. For details, see: https://www.alibabacloud.com/help/en/model-studio/error-code#access-denied",
     "type": "permission_denied",
     "param": null,
     "code": "permission_denied",
-    "solution": "Check your API access permissions and credentials. If you believe this is an error, contact support@avalai.ir with Request ID: 019ecbe5-3f41-76f0-92f6-f2bca2ddb657.",
-    "request_id": "019ecbe5-3f41-76f0-92f6-f2bca2ddb657"
+    "solution": "Check your API access permissions and credentials. If you believe this is an error, contact support@avalai.ir with Request ID: 019ee530-ee4d-7762-8394-323c0f61bf1b.",
+    "request_id": "019ee530-ee4d-7762-8394-323c0f61bf1b"
   }
 }
-2026-06-15 18:57:51,440 - WARNING - Failed to get valid prediction
-2026-06-15 18:57:51,542 - INFO - ================================================================================
-2026-06-15 18:57:51,542 - INFO - Processing complete: 0 predictions (0 correct, 0 incorrect), 1 failed
-2026-06-15 18:57:51,542 - WARNING - No valid results for metric calculation
-2026-06-15 18:57:51,545 - INFO - Predictions saved to results\qwen2_5-72b-instruct\matteroffact_all\strong_baseline_short\unseen\unseen_predictions.csv
-2026-06-15 18:57:51,546 - INFO - Predictions JSON saved to results\qwen2_5-72b-instruct\matteroffact_all\strong_baseline_short\unseen\unseen_predictions.json
-2026-06-15 18:57:51,546 - INFO - Metrics saved to results\qwen2_5-72b-instruct\matteroffact_all\strong_baseline_short\unseen\unseen_metrics.json
+2026-06-20 16:51:01,410 - WARNING - Failed to get valid prediction
+2026-06-20 16:51:01,512 - INFO - ================================================================================
+2026-06-20 16:51:01,512 - INFO - Processing complete: 0 predictions (0 correct, 0 incorrect), 1 failed
+2026-06-20 16:51:01,512 - WARNING - No valid results for metric calculation
+2026-06-20 16:51:01,516 - INFO - Predictions saved to results\qwen2_5-72b-instruct\matteroffact_all\strong_baseline_short\unseen\unseen_predictions.csv
+2026-06-20 16:51:01,516 - INFO - Predictions JSON saved to results\qwen2_5-72b-instruct\matteroffact_all\strong_baseline_short\unseen\unseen_predictions.json
+2026-06-20 16:51:01,517 - INFO - Metrics saved to results\qwen2_5-72b-instruct\matteroffact_all\strong_baseline_short\unseen\unseen_metrics.json

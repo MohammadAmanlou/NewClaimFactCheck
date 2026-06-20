@@ -1,12 +1,12 @@
-2026-06-15 18:57:51,554 - INFO - Prompt method: cognitive_bias_aware
-2026-06-15 18:58:10,303 - WARNING - No valid results for metric calculation
-2026-06-15 18:58:25,657 - WARNING - No valid results for metric calculation
-2026-06-15 18:58:25,657 - INFO - ================================================================================
-2026-06-15 18:58:25,657 - INFO - Comparing seen vs unseen performance...
-2026-06-15 18:58:25,657 - WARNING - No valid results for metric calculation
-2026-06-15 18:58:25,658 - WARNING - No valid results for metric calculation
-2026-06-15 18:58:25,658 - WARNING - Statistical tests skipped: Need more than one sample per group for statistical tests.
-2026-06-15 18:58:25,658 - INFO - Seen accuracy: N/A
-2026-06-15 18:58:25,658 - INFO - Unseen accuracy: N/A
-2026-06-15 18:58:25,658 - INFO - Difference: 0.0000
-2026-06-15 18:58:25,661 - INFO - Summary report saved to results\qwen2_5-72b-instruct\matteroffact_all\cognitive_bias_aware\summary.json
+2026-06-20 16:51:01,534 - INFO - Prompt method: cognitive_bias_aware
+2026-06-20 16:51:12,784 - WARNING - No valid results for metric calculation
+2026-06-20 16:51:24,340 - WARNING - No valid results for metric calculation
+2026-06-20 16:51:24,341 - INFO - ================================================================================
+2026-06-20 16:51:24,341 - INFO - Comparing seen vs unseen performance...
+2026-06-20 16:51:24,341 - WARNING - No valid results for metric calculation
+2026-06-20 16:51:24,341 - WARNING - No valid results for metric calculation
+2026-06-20 16:51:24,341 - WARNING - Statistical tests skipped: Need more than one sample per group for statistical tests.
+2026-06-20 16:51:24,341 - INFO - Seen accuracy: N/A
+2026-06-20 16:51:24,341 - INFO - Unseen accuracy: N/A
+2026-06-20 16:51:24,341 - INFO - Difference: 0.0000
+2026-06-20 16:51:24,344 - INFO - Summary report saved to results\qwen2_5-72b-instruct\matteroffact_all\cognitive_bias_aware\summary.json

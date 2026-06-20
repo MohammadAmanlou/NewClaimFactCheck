@@ -1,26 +1,26 @@
-2026-06-15 18:56:55,548 - INFO - Processing 1 samples (limited)
-2026-06-15 18:56:55,548 - INFO - Processing 1 claims...
-2026-06-15 18:56:55,548 - INFO - ================================================================================
-2026-06-15 18:56:55,549 - INFO - Processing claim #0 (ID: 2503.22477v2_3_T)
-2026-06-15 18:56:55,549 - INFO - Claim: The Debye temperature in LaRu₃(Si₁₋ₓGeₓ)₂ decreases from approximately 405K to 384K as germanium content increases from x = 0 to x = 0.07....
-2026-06-15 18:56:55,549 - INFO - Date: 2025-03-01
-2026-06-15 18:56:55,549 - INFO - Asking model: qwen2.5-72b-instruct (method: naive)
-2026-06-15 18:56:55,549 - INFO - Claim: The Debye temperature in LaRu₃(Si₁₋ₓGeₓ)₂ decreases from approximately 405K to 384K as germanium content increases from x = 0 to x = 0.07....
-2026-06-15 18:57:20,490 - INFO - API Response Status: 403
-2026-06-15 18:57:20,490 - ERROR - API error 403: {
+2026-06-20 16:50:26,380 - INFO - Processing 1 samples (limited)
+2026-06-20 16:50:26,381 - INFO - Processing 1 claims...
+2026-06-20 16:50:26,381 - INFO - ================================================================================
+2026-06-20 16:50:26,381 - INFO - Processing claim #0 (ID: 2503.22477v2_3_T)
+2026-06-20 16:50:26,381 - INFO - Claim: The Debye temperature in LaRu₃(Si₁₋ₓGeₓ)₂ decreases from approximately 405K to 384K as germanium content increases from x = 0 to x = 0.07....
+2026-06-20 16:50:26,381 - INFO - Date: 2025-03-01
+2026-06-20 16:50:26,381 - INFO - Asking model: qwen2.5-72b-instruct (method: naive)
+2026-06-20 16:50:26,381 - INFO - Claim: The Debye temperature in LaRu₃(Si₁₋ₓGeₓ)₂ decreases from approximately 405K to 384K as germanium content increases from x = 0 to x = 0.07....
+2026-06-20 16:50:37,515 - INFO - API Response Status: 403
+2026-06-20 16:50:37,515 - ERROR - API error 403: {
   "error": {
     "message": "Access denied. For details, see: https://www.alibabacloud.com/help/en/model-studio/error-code#access-denied",
     "type": "permission_denied",
     "param": null,
     "code": "permission_denied",
-    "solution": "Check your API access permissions and credentials. If you believe this is an error, contact support@avalai.ir with Request ID: 019ecbe4-a33d-7831-be47-7ebec5eae557.",
-    "request_id": "019ecbe4-a33d-7831-be47-7ebec5eae557"
+    "solution": "Check your API access permissions and credentials. If you believe this is an error, contact support@avalai.ir with Request ID: 019ee530-9392-7693-9548-785f509b55d3.",
+    "request_id": "019ee530-9392-7693-9548-785f509b55d3"
   }
 }
-2026-06-15 18:57:20,492 - WARNING - Failed to get valid prediction
-2026-06-15 18:57:20,595 - INFO - ================================================================================
-2026-06-15 18:57:20,595 - INFO - Processing complete: 0 predictions (0 correct, 0 incorrect), 1 failed
-2026-06-15 18:57:20,595 - WARNING - No valid results for metric calculation
-2026-06-15 18:57:20,598 - INFO - Predictions saved to results\qwen2_5-72b-instruct\matteroffact_all\naive\unseen\unseen_predictions.csv
-2026-06-15 18:57:20,599 - INFO - Predictions JSON saved to results\qwen2_5-72b-instruct\matteroffact_all\naive\unseen\unseen_predictions.json
-2026-06-15 18:57:20,599 - INFO - Metrics saved to results\qwen2_5-72b-instruct\matteroffact_all\naive\unseen\unseen_metrics.json
+2026-06-20 16:50:37,517 - WARNING - Failed to get valid prediction
+2026-06-20 16:50:37,619 - INFO - ================================================================================
+2026-06-20 16:50:37,619 - INFO - Processing complete: 0 predictions (0 correct, 0 incorrect), 1 failed
+2026-06-20 16:50:37,619 - WARNING - No valid results for metric calculation
+2026-06-20 16:50:37,622 - INFO - Predictions saved to results\qwen2_5-72b-instruct\matteroffact_all\naive\unseen\unseen_predictions.csv
+2026-06-20 16:50:37,623 - INFO - Predictions JSON saved to results\qwen2_5-72b-instruct\matteroffact_all\naive\unseen\unseen_predictions.json
+2026-06-20 16:50:37,623 - INFO - Metrics saved to results\qwen2_5-72b-instruct\matteroffact_all\naive\unseen\unseen_metrics.json

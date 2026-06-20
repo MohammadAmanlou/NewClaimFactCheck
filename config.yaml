@@ -1,6 +1,6 @@
 dataset: "matteroffact_all"
 
-model: "qwen2.5-72b-instruct"
+model: "gpt-4o-mini-2024-07-18"
 api_url: "https://api.avalai.ir/v1/chat/completions"
 
 labels:
@@ -12,7 +12,7 @@ prompt_methods:
   - strong_baseline_short
   - cognitive_bias_aware
 
-temporal_split: "2024-09-01"
+temporal_split: "2023-10-01"
 date_format: "%Y-%m-%d"
 
 rate_limit:
@@ -21,8 +21,8 @@ rate_limit:
   sleep_between_calls: 0.1
 
 sampling:
-  max_samples: 1
-  balanced: true
+  max_samples: null
+  balanced: false
   seed: 42
 
 display_every_n: 10

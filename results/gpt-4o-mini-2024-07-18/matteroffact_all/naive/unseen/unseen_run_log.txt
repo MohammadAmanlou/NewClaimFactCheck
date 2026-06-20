@@ -1,0 +1,18 @@
+2026-06-20 18:51:10,022 - INFO - Processing 5124 claims...
+2026-06-20 18:51:10,023 - INFO - ================================================================================
+2026-06-20 18:51:10,023 - INFO - Processing claim #0 (ID: 2311.07943v2_3_T)
+2026-06-20 18:51:10,023 - INFO - Claim: The anisotropy parameter of the upper critical field in air-annealed CaFeAsF single crystals is 7....
+2026-06-20 18:51:10,023 - INFO - Date: 2023-11-01
+2026-06-20 18:51:10,023 - INFO - Asking model: gpt-4o-mini-2024-07-18 (method: naive)
+2026-06-20 18:51:10,023 - INFO - Claim: The anisotropy parameter of the upper critical field in air-annealed CaFeAsF single crystals is 7....
+2026-06-20 18:51:10,653 - INFO - API Response Status: 200
+2026-06-20 18:51:10,653 - INFO - Raw model response: {"label": "Supported"}
+2026-06-20 18:51:10,653 - INFO - Extracted label: Supported -> Normalized: Supported
+2026-06-20 18:51:10,654 - INFO - Prediction: Supported
+2026-06-20 18:51:10,654 - INFO - ✓ Correct prediction
+2026-06-20 18:51:10,756 - INFO - ================================================================================
+2026-06-20 18:51:10,756 - INFO - Processing claim #1 (ID: 2311.07943v2_3_F)
+2026-06-20 18:51:10,756 - INFO - Claim: The anisotropy parameter of the upper critical field in air-annealed CaFeAsF single crystals is 3....
+2026-06-20 18:51:10,756 - INFO - Date: 2023-11-01
+2026-06-20 18:51:10,756 - INFO - Asking model: gpt-4o-mini-2024-07-18 (method: naive)
+2026-06-20 18:51:10,756 - INFO - Claim: The anisotropy parameter of the upper critical field in air-annealed CaFeAsF single crystals is 3....

@@ -10,7 +10,7 @@
             "strong_baseline_short",
             "cognitive_bias_aware"
         ],
-        "timestamp": "2026-06-15T18:58:25.663759"
+        "timestamp": "2026-06-20T16:51:24.347392"
     },
     "methods": {
         "naive": {
@@ -2501,7 +2501,7 @@
                         "2204.04525v1_1_F",
                         "2305.05612v2_7_T"
                     ],
-                    "timestamp": "2026-06-15T18:56:40.416982"
+                    "timestamp": "2026-06-20T16:50:14.015473"
                 },
                 "prompt_method": "naive"
             }
@@ -4994,7 +4994,7 @@
                         "2204.04525v1_1_F",
                         "2305.05612v2_7_T"
                     ],
-                    "timestamp": "2026-06-15T18:56:40.416982"
+                    "timestamp": "2026-06-20T16:50:14.015473"
                 },
                 "prompt_method": "strong_baseline_short"
             }
@@ -7487,7 +7487,7 @@
                         "2204.04525v1_1_F",
                         "2305.05612v2_7_T"
                     ],
-                    "timestamp": "2026-06-15T18:56:40.416982"
+                    "timestamp": "2026-06-20T16:50:14.015473"
                 },
                 "prompt_method": "cognitive_bias_aware"
             }

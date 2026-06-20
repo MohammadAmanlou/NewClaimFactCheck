@@ -1,12 +1,12 @@
-2026-06-15 18:56:40,422 - INFO - Prompt method: naive
-2026-06-15 18:56:55,547 - WARNING - No valid results for metric calculation
-2026-06-15 18:57:20,599 - WARNING - No valid results for metric calculation
-2026-06-15 18:57:20,600 - INFO - ================================================================================
-2026-06-15 18:57:20,600 - INFO - Comparing seen vs unseen performance...
-2026-06-15 18:57:20,600 - WARNING - No valid results for metric calculation
-2026-06-15 18:57:20,600 - WARNING - No valid results for metric calculation
-2026-06-15 18:57:20,600 - WARNING - Statistical tests skipped: Need more than one sample per group for statistical tests.
-2026-06-15 18:57:20,601 - INFO - Seen accuracy: N/A
-2026-06-15 18:57:20,601 - INFO - Unseen accuracy: N/A
-2026-06-15 18:57:20,602 - INFO - Difference: 0.0000
-2026-06-15 18:57:20,605 - INFO - Summary report saved to results\qwen2_5-72b-instruct\matteroffact_all\naive\summary.json
+2026-06-20 16:50:14,019 - INFO - Prompt method: naive
+2026-06-20 16:50:26,379 - WARNING - No valid results for metric calculation
+2026-06-20 16:50:37,623 - WARNING - No valid results for metric calculation
+2026-06-20 16:50:37,624 - INFO - ================================================================================
+2026-06-20 16:50:37,624 - INFO - Comparing seen vs unseen performance...
+2026-06-20 16:50:37,624 - WARNING - No valid results for metric calculation
+2026-06-20 16:50:37,624 - WARNING - No valid results for metric calculation
+2026-06-20 16:50:37,624 - WARNING - Statistical tests skipped: Need more than one sample per group for statistical tests.
+2026-06-20 16:50:37,624 - INFO - Seen accuracy: N/A
+2026-06-20 16:50:37,624 - INFO - Unseen accuracy: N/A
+2026-06-20 16:50:37,625 - INFO - Difference: 0.0000
+2026-06-20 16:50:37,628 - INFO - Summary report saved to results\qwen2_5-72b-instruct\matteroffact_all\naive\summary.json
