@@ -1,1 +1,31 @@
 2026-06-20 17:46:00,945 - INFO - Prompt method: naive
+2026-06-20 18:51:10,020 - INFO - Metrics: Accuracy=0.6462, Macro-F1=0.6237
+2026-06-20 20:38:44,772 - INFO - Metrics: Accuracy=0.6628, Macro-F1=0.6586
+2026-06-20 20:38:44,773 - INFO - ================================================================================
+2026-06-20 20:38:44,773 - INFO - Comparing seen vs unseen performance...
+2026-06-20 20:38:44,842 - INFO - Metrics: Accuracy=0.6462, Macro-F1=0.6237
+2026-06-20 20:38:44,952 - INFO - Metrics: Accuracy=0.6628, Macro-F1=0.6586
+2026-06-20 20:38:45,015 - INFO - Seen accuracy: 0.6462
+2026-06-20 20:38:45,017 - INFO - Unseen accuracy: 0.6628
+2026-06-20 20:38:45,017 - INFO - Difference: 0.0166
+2026-06-20 20:38:45,017 - INFO - T-test p-value: 0.1183 (not significant)
+2026-06-20 20:38:45,017 - INFO - Chi-square p-value: 0.1239 (not significant)
+2026-06-20 20:38:45,018 - INFO - Summary report saved to results\gpt-4o-mini-2024-07-18\matteroffact_all\naive\summary.json
+2026-06-20 20:38:45,108 - INFO - Metrics: Accuracy=0.6462, Macro-F1=0.6237
+2026-06-20 20:38:45,181 - INFO - Metrics: Accuracy=0.6555, Macro-F1=0.6508
+2026-06-20 20:38:45,181 - INFO - ================================================================================
+2026-06-20 20:38:45,181 - INFO - Comparing seen vs unseen performance...
+2026-06-20 20:38:45,253 - INFO - Metrics: Accuracy=0.6462, Macro-F1=0.6237
+2026-06-20 20:38:45,324 - INFO - Metrics: Accuracy=0.6555, Macro-F1=0.6508
+2026-06-20 20:38:45,373 - INFO - Seen accuracy: 0.6462
+2026-06-20 20:38:45,373 - INFO - Unseen accuracy: 0.6555
+2026-06-20 20:38:45,373 - INFO - Difference: 0.0093
+2026-06-20 20:38:45,373 - INFO - T-test p-value: 0.4295 (not significant)
+2026-06-20 20:38:45,373 - INFO - Chi-square p-value: 0.4448 (not significant)
+2026-06-20 20:38:45,411 - INFO - Predictions saved to results\gpt-4o-mini-2024-07-18\matteroffact_all\naive\posthoc_balanced\seen\seen_posthoc_balanced_predictions.csv
+2026-06-20 20:38:45,460 - INFO - Predictions JSON saved to results\gpt-4o-mini-2024-07-18\matteroffact_all\naive\posthoc_balanced\seen\seen_posthoc_balanced_predictions.json
+2026-06-20 20:38:45,462 - INFO - Metrics saved to results\gpt-4o-mini-2024-07-18\matteroffact_all\naive\posthoc_balanced\seen\seen_posthoc_balanced_metrics.json
+2026-06-20 20:38:45,506 - INFO - Predictions saved to results\gpt-4o-mini-2024-07-18\matteroffact_all\naive\posthoc_balanced\unseen\unseen_posthoc_balanced_predictions.csv
+2026-06-20 20:38:45,559 - INFO - Predictions JSON saved to results\gpt-4o-mini-2024-07-18\matteroffact_all\naive\posthoc_balanced\unseen\unseen_posthoc_balanced_predictions.json
+2026-06-20 20:38:45,561 - INFO - Metrics saved to results\gpt-4o-mini-2024-07-18\matteroffact_all\naive\posthoc_balanced\unseen\unseen_posthoc_balanced_metrics.json
+2026-06-20 20:38:45,562 - INFO - Summary report saved to results\gpt-4o-mini-2024-07-18\matteroffact_all\naive\posthoc_balanced\summary.json
