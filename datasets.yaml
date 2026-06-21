@@ -108,3 +108,19 @@ matteroffact_all:
     label_column: "label"
   date_format: "%Y-%m-%d"
   is_test: false
+
+tracer_all:
+  type: csv
+  path: "tracer/tracer_all.csv"
+  mapping:
+    claim_id: "claim_id"
+    claim: "claim"
+    claim_date: "claim_date"
+    label: "label"
+    source: "source"
+    detected_biases: "detected_biases"
+  filter:
+    exclude_labels: []
+    label_column: "label"
+  date_format: "%Y-%m-%d"
+  is_test: false
