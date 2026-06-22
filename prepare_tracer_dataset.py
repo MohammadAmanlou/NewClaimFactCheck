@@ -1,187 +1,195 @@
-import json
 from pathlib import Path
+import json
 import pandas as pd
 
 
-INPUT_DIR = Path("data/tracer/TRACER/dataset")
-OUTPUT_DIR = Path("data/tracer")
-OUTPUT_FILE = OUTPUT_DIR / "tracer_all.csv"
+INPUT_FILE = Path("data/tracer/tracer_with_bias.csv")
+OUTPUT_FILE = Path("data/tracer/tracer_bias_all.csv")
 
 
-def load_json_or_jsonl(path: Path):
-    text = path.read_text(encoding="utf-8").strip()
-
-    if not text:
-        return []
-
-    try:
-        obj = json.loads(text)
-        if isinstance(obj, list):
-            return obj
-        if isinstance(obj, dict):
-            for key in ["data", "examples", "claims", "items"]:
-                if key in obj and isinstance(obj[key], list):
-                    return obj[key]
-            return [obj]
-    except json.JSONDecodeError:
-        pass
-
-    rows = []
-    for line in text.splitlines():
-        line = line.strip()
-        if line:
-            rows.append(json.loads(line))
-    return rows
-
-
-def first_existing(d, keys, default=""):
-    for key in keys:
-        if key in d and d[key] is not None:
-            return d[key]
-    return default
-
-
-def normalize_label(value):
-    if value is None:
+def normalize_label(x):
+    if pd.isna(x):
         return ""
 
-    s = str(value).strip()
-    low = s.lower().replace("_", " ").replace("-", " ")
+    s = str(x).strip().lower()
 
-    if low in ["true"]:
-        return "True"
+    if s in ["supported", "support", "true"]:
+        return "Supported"
 
-    if low in [
-        "half true",
-        "halftrue",
-        "half",
-        "partly true",
-        "partially true",
-        "mostly true",
-        "barely true",
-    ]:
+    if s in ["half-true", "half true", "half_true", "partly true", "partially true"]:
         return "Half-True"
 
-    if low in [
-        "false",
-        "mostly false",
-        "pants on fire",
-        "pantsfire",
-        "pants on fire!",
-    ]:
-        return "False"
+    if s in ["refuted", "refute", "false"]:
+        return "Refuted"
 
-    if s in ["True", "Half-True", "False"]:
-        return s
-
-    return s
+    return str(x).strip()
 
 
-def normalize_date(value):
-    if value is None or str(value).strip() == "":
+def normalize_date(x):
+    if pd.isna(x) or str(x).strip() == "":
         return ""
 
-    dt = pd.to_datetime(str(value).strip(), errors="coerce")
+    dt = pd.to_datetime(str(x).strip(), errors="coerce")
     if pd.isna(dt):
         return ""
 
     return dt.strftime("%Y-%m-%d")
 
 
-def convert_split(split_name: str, filename: str):
-    path = INPUT_DIR / filename
-    if not path.exists():
-        raise FileNotFoundError(f"Missing file: {path}")
+def clean_bias_string(x):
+    if pd.isna(x):
+        return ""
 
-    data = load_json_or_jsonl(path)
-    rows = []
+    s = str(x).strip()
 
-    for i, item in enumerate(data):
-        if not isinstance(item, dict):
-            continue
+    if s == "" or s.lower() in ["nan", "none", "null", "[]", "{}"]:
+        return ""
 
-        claim = str(first_existing(item, ["claim", "statement", "text"], "")).strip()
+    try:
+        obj = json.loads(s)
+        if isinstance(obj, list) and len(obj) == 0:
+            return ""
+        return json.dumps(obj, ensure_ascii=False)
+    except Exception:
+        return s
 
-        raw_label = first_existing(
-            item,
-            ["veracity", "label", "rating", "verdict", "gold_label"],
-            "",
+
+def read_csv_file(path: Path) -> pd.DataFrame:
+    """
+    Read the merged TRACER bias CSV file.
+    This version is for comma-separated CSV files, not TSV files.
+    """
+
+    try:
+        df = pd.read_csv(
+            path,
+            dtype=str,
+            keep_default_na=False,
+            encoding="utf-8-sig",
         )
-        label = normalize_label(raw_label)
+        return df
 
-        raw_date = first_existing(
-            item,
-            ["date", "claim_date", "statement_date", "published_date"],
-            "",
+    except Exception as e:
+        print("\nNormal CSV read failed:")
+        print(type(e).__name__, e)
+        print("\nRetrying with safer CSV settings...")
+
+        df = pd.read_csv(
+            path,
+            dtype=str,
+            keep_default_na=False,
+            encoding="utf-8-sig",
+            quotechar='"',
+            doublequote=True,
+            escapechar="\\",
+            engine="python",
+            on_bad_lines="warn",
         )
-        claim_date = normalize_date(raw_date)
-
-        claim_id = first_existing(
-            item,
-            ["example_id", "claim_id", "id", "uid"],
-            f"{split_name}_{i}",
-        )
-
-        speaker = first_existing(item, ["speaker"], "")
-
-        # فقط ستون‌های لازم برای pipeline را نگه می‌داریم.
-        # ruling/evidence را عمداً حذف می‌کنیم چون خیلی بلند و noisy هستند.
-        rows.append(
-            {
-                "claim_id": claim_id,
-                "claim": claim,
-                "claim_date": claim_date,
-                "label": label,
-                "raw_label": raw_label,
-                "split": split_name,
-                "source": "TRACER_POLITIFACT_HIDDEN",
-                "speaker": speaker,
-                "detected_biases": "",
-            }
-        )
-
-    return rows
+        return df
 
 
 def main():
-    OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
+    print("Looking for input file:")
+    print(INPUT_FILE.resolve())
 
-    all_rows = []
-    all_rows.extend(convert_split("train", "train.json"))
-    all_rows.extend(convert_split("dev", "dev.json"))
-    all_rows.extend(convert_split("test", "test.json"))
+    if not INPUT_FILE.exists():
+        raise FileNotFoundError(f"Input file not found: {INPUT_FILE}")
 
-    df = pd.DataFrame(all_rows)
+    df = read_csv_file(INPUT_FILE)
 
-    print("\nBefore filtering")
-    print("Rows:", len(df))
-    print("\nColumns:")
+    print("\nRaw rows:", len(df))
+    print("Raw columns:")
     print(df.columns.tolist())
-    print("\nRaw label distribution:")
-    print(df["raw_label"].value_counts(dropna=False))
-    print("\nNormalized label distribution:")
-    print(df["label"].value_counts(dropna=False))
-    print("\nSplit distribution:")
-    print(df["split"].value_counts(dropna=False))
-    print("\nMissing dates:", df["claim_date"].eq("").sum())
-    print("Missing claims:", df["claim"].eq("").sum())
 
-    # فقط ردیف‌های قابل استفاده
-    df = df[df["claim"].astype(str).str.strip() != ""]
-    df = df[df["label"].isin(["True", "Half-True", "False"])]
+    required = [
+        "source_dataset",
+        "source_split",
+        "source_id",
+        "claim_text",
+        "date_norm",
+        "factcheck_label_norm",
+        "all_detected_biases",
+    ]
 
-    # claim_id را string نگه می‌داریم که بعداً مشکل type ندهد
-    df["claim_id"] = df["claim_id"].astype(str)
+    missing = [c for c in required if c not in df.columns]
+    if missing:
+        print("\nAvailable columns:")
+        for c in df.columns:
+            print("-", c)
+        raise ValueError(f"Missing required columns: {missing}")
 
-    df.to_csv(OUTPUT_FILE, index=False, encoding="utf-8")
+    out = pd.DataFrame()
 
-    print("\nAfter filtering")
-    print("Rows:", len(df))
+    # If _source_file exists, use it in claim_id to avoid duplicated ids across splits.
+    if "_source_file" in df.columns:
+        file_part = (
+            df["_source_file"]
+            .astype(str)
+            .str.replace(".json", "", regex=False)
+            .str.strip()
+        )
+    else:
+        file_part = df["source_split"].astype(str).str.strip()
+
+    out["claim_id"] = (
+        df["source_dataset"].astype(str).str.strip()
+        + "_"
+        + file_part
+        + "_"
+        + df["source_id"].astype(str).str.strip()
+    )
+
+    out["claim"] = df["claim_text"].astype(str).str.strip()
+    out["claim_date"] = df["date_norm"].apply(normalize_date)
+    out["label"] = df["factcheck_label_norm"].apply(normalize_label)
+    out["raw_label"] = df["factcheck_label_norm"]
+    out["split"] = df["source_split"].astype(str).str.strip()
+    out["source"] = df["source_dataset"].astype(str).str.strip()
+    out["detected_biases"] = df["all_detected_biases"].apply(clean_bias_string)
+
+    if "speaker" in df.columns:
+        out["speaker"] = df["speaker"].astype(str).str.strip()
+
+    print("\nBefore filtering:")
+    print("Rows:", len(out))
+
+    print("\nLabel distribution:")
+    print(out["label"].value_counts(dropna=False))
+
+    print("\nMissing dates:", int((out["claim_date"] == "").sum()))
+    print("Missing claims:", int((out["claim"] == "").sum()))
+
+    has_bias = out["detected_biases"].astype(str).str.strip() != ""
+    print("\nRows with detected biases:", int(has_bias.sum()))
+    print("Bias coverage:", round(has_bias.mean() * 100, 2), "%")
+
+    # Keep only usable rows.
+    out = out[out["claim"].astype(str).str.strip() != ""]
+    out = out[out["claim_date"].astype(str).str.strip() != ""]
+    out = out[out["label"].isin(["Supported", "Half-True", "Refuted"])]
+
+    before_dedup = len(out)
+    out = out.drop_duplicates(subset=["claim_id"], keep="first")
+    after_dedup = len(out)
+
+    OUTPUT_FILE.parent.mkdir(parents=True, exist_ok=True)
+    out.to_csv(OUTPUT_FILE, index=False, encoding="utf-8")
+
+    print("\nAfter filtering:")
+    print("Rows:", len(out))
+    print("Dropped duplicates:", before_dedup - after_dedup)
+
     print("\nFinal label distribution:")
-    print(df["label"].value_counts(dropna=False))
+    print(out["label"].value_counts(dropna=False))
+
     print("\nFinal split distribution:")
-    print(df["split"].value_counts(dropna=False))
-    print("\nSaved:", OUTPUT_FILE)
+    print(out["split"].value_counts(dropna=False))
+
+    final_has_bias = out["detected_biases"].astype(str).str.strip() != ""
+    print("\nFinal rows with detected biases:", int(final_has_bias.sum()))
+    print("Final bias coverage:", round(final_has_bias.mean() * 100, 2), "%")
+
+    print("\nSaved to:", OUTPUT_FILE)
 
 
 if __name__ == "__main__":

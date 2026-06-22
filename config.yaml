@@ -1,15 +1,15 @@
-dataset: "tracer_all"
+dataset: "tracer_bias_all"
 
 model: "gpt-4o-mini-2024-07-18"
 api_url: "https://api.avalai.ir/v1/chat/completions"
 
 labels:
-  - True
+  - Supported
   - Half-True
-  - False
+  - Refuted
 
 prompt_methods:
-  - naive
+  - cognitive_bias_aware
 
 temporal_split: "2023-10-01"
 date_format: "%Y-%m-%d"
@@ -20,11 +20,11 @@ rate_limit:
   sleep_between_calls: 0.1
 
 sampling:
-  max_samples: 20
+  max_samples: null
   balanced: false
   seed: 42
 
-display_every_n: 1
+display_every_n: 100
 
 output_root: "results"
 api_key_env: "AVALAI_API_KEY"

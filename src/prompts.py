@@ -14,6 +14,10 @@ def _is_tracer_three_class(labels: list[str] | None) -> bool:
     return set(labels or []) == {"True", "Half-True", "False"}
 
 
+def _is_supported_half_refuted(labels: list[str] | None) -> bool:
+    return set(labels or []) == {"Supported", "Half-True", "Refuted"}
+
+
 def _format_date(date: str | None) -> str:
     if date:
         return f"\nDate: {date}\n"
@@ -68,6 +72,32 @@ Rules:
 - Check materials, mechanisms, experimental conditions, numbers, units, comparisons, and causal claims.
 - If the claim describes a feasible or accurate scientific result, choose Supported.
 - If the claim describes an infeasible or false scientific result, choose Refuted.
+- Always choose the single best label.
+
+Claim:
+{claim}
+{date_str}
+Return only JSON:
+{{"label": "...", "brief_reason": "one short sentence"}}
+""".strip()
+
+    if _is_supported_half_refuted(labels):
+        return f"""
+You are a strict fact-checking classifier.
+
+Choose exactly one label:
+Supported, Half-True, Refuted.
+
+Definitions:
+- Supported: The central factual claim is accurate or substantially supported.
+- Half-True: The claim contains some truth but leaves out important context, exaggerates, simplifies, or creates a partly misleading impression.
+- Refuted: The central factual claim is inaccurate, unsupported, or contradicted by the available facts.
+
+Rules:
+- Do not choose Half-True only because the claim is complex.
+- Use Half-True when the claim is partly correct but missing important context or overstated.
+- If the central factual assertion is false, choose Refuted.
+- If the central factual assertion is accurate, choose Supported.
 - Always choose the single best label.
 
 Claim:
@@ -141,7 +171,10 @@ def build_prompt_cognitive_bias_aware(
 
     bias_definitions_str = ""
     if detected_biases:
-        bias_definitions_str = BiasRegistry.format_definitions(detected_biases)
+        try:
+            bias_definitions_str = BiasRegistry.format_definitions(detected_biases)
+        except Exception:
+            bias_definitions_str = ""
 
     if _is_binary_supported_refuted(labels):
         return f"""
@@ -168,6 +201,48 @@ Apply this cognitive verification protocol internally:
 3. Check materials, entities, mechanisms, relations, dates, numbers, units, comparisons, quantifiers, and negation.
 4. Use the provided bias signals to inspect risks such as missing context, cherry-picking, exaggeration, causal overclaiming, temporal mismatch, misleading comparison, or unsupported generalization.
 5. Decide whether the claim is more likely Supported or Refuted.
+
+Claim:
+{claim}
+{date_str}
+Return only valid JSON:
+{{"label": "...", "brief_reason": "one short sentence"}}
+""".strip()
+
+    if _is_supported_half_refuted(labels):
+        return f"""
+You are a careful fact-checking classifier.
+
+Choose exactly one label:
+Supported, Half-True, Refuted.
+
+Definitions:
+- Supported: The central factual claim is accurate or substantially supported.
+- Half-True: The claim contains some truth but leaves out important context, exaggerates, simplifies, or creates a partly misleading impression.
+- Refuted: The central factual claim is inaccurate, unsupported, or contradicted by the available facts.
+
+Rules:
+- Do not choose Half-True only because the claim is complex.
+- Use Half-True when the claim is partly correct but contextually distorted, missing important context, exaggerated, or overstated.
+- If the central factual assertion is false, choose Refuted.
+- If the central factual assertion is accurate, choose Supported.
+- Always choose the single best label.
+
+Detected bias signals with confidence scores:
+{detected_biases if detected_biases else "No detected bias signals were provided."}
+{bias_definitions_str}
+
+The detected bias signals above are externally identified bias indicators with confidence scores.
+Use them as part of your verification process. A higher confidence score means that the corresponding bias is more likely to be present in the claim.
+However, the final label must still be selected according to the factual meaning of the claim and the label definitions.
+
+Apply this cognitive verification protocol internally:
+1. Identify the central factual assertion.
+2. Check whether the claim is time-sensitive.
+3. Check entities, relations, dates, numbers, quantifiers, and negation.
+4. Use the provided bias signals to inspect possible distortions such as missing context, cherry-picking, exaggeration, emotional framing, causal overclaiming, temporal mismatch, misleading comparison, or unsupported generalization.
+5. Before choosing Half-True, consider whether Supported or Refuted is more appropriate.
+6. Choose the single best final label.
 
 Claim:
 {claim}

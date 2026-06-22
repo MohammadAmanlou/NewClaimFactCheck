@@ -109,9 +109,9 @@ matteroffact_all:
   date_format: "%Y-%m-%d"
   is_test: false
 
-tracer_all:
+tracer_bias_all:
   type: csv
-  path: "tracer/tracer_all.csv"
+  path: "tracer/tracer_bias_all.csv"
   mapping:
     claim_id: "claim_id"
     claim: "claim"

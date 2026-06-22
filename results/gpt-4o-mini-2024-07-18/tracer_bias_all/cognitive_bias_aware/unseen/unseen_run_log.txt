@@ -1,0 +1,228 @@
+2026-06-22 15:17:07,070 - INFO - Processing 20 samples (limited)
+2026-06-22 15:17:07,070 - INFO - Processing 20 claims...
+2026-06-22 15:17:07,070 - INFO - ================================================================================
+2026-06-22 15:17:07,071 - INFO - Processing claim #0 (ID: tracer_test_14238)
+2026-06-22 15:17:07,071 - INFO - Claim: "Since the mid-'90s, this country has been governed by revolving continuing resolution and omnibus spending bill(s). … That is the reason we're $33 tr...
+2026-06-22 15:17:07,071 - INFO - Date: 2023-10-01
+2026-06-22 15:17:07,071 - INFO - Asking model: gpt-4o-mini-2024-07-18 (method: cognitive_bias_aware)
+2026-06-22 15:17:07,073 - INFO - Claim: "Since the mid-'90s, this country has been governed by revolving continuing resolution and omnibus spending bill(s). … That is the reason we're $33 tr...
+2026-06-22 15:17:08,710 - INFO - API Response Status: 200
+2026-06-22 15:17:08,710 - INFO - Raw model response: {"label": "Half-True", "brief_reason": "While the claim about the use of continuing resolutions and omnibus bills is accurate, it oversimplifies the complex reasons behind the national debt."}
+2026-06-22 15:17:08,710 - INFO - Extracted label: Half-True -> Normalized: Misleading
+2026-06-22 15:17:08,711 - INFO - Prediction: Misleading
+2026-06-22 15:17:08,711 - INFO - ✓ Correct prediction
+2026-06-22 15:17:08,814 - INFO - ================================================================================
+2026-06-22 15:17:08,814 - INFO - Processing claim #1 (ID: tracer_test_14239)
+2026-06-22 15:17:08,814 - INFO - Claim: New York Attorney General Letitia James and Judge Arthur Engoron valued Mar-a-Lago at $18 million....
+2026-06-22 15:17:08,814 - INFO - Date: 2023-10-01
+2026-06-22 15:17:08,814 - INFO - Asking model: gpt-4o-mini-2024-07-18 (method: cognitive_bias_aware)
+2026-06-22 15:17:08,814 - INFO - Claim: New York Attorney General Letitia James and Judge Arthur Engoron valued Mar-a-Lago at $18 million....
+2026-06-22 15:17:10,544 - INFO - API Response Status: 200
+2026-06-22 15:17:10,544 - INFO - Raw model response: {"label": "Refuted", "brief_reason": "The valuation of Mar-a-Lago at $18 million is inaccurate; it has been reported to be worth significantly more."}
+2026-06-22 15:17:10,544 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2026-06-22 15:17:10,545 - INFO - Prediction: Refuted
+2026-06-22 15:17:10,545 - INFO - ✓ Correct prediction
+2026-06-22 15:17:10,648 - INFO - ================================================================================
+2026-06-22 15:17:10,648 - INFO - Processing claim #2 (ID: tracer_test_14240)
+2026-06-22 15:17:10,648 - INFO - Claim: Flu shot ingredients include aborted human cell cultures, monkey kidney cells and antifreeze....
+2026-06-22 15:17:10,648 - INFO - Date: 2023-10-02
+2026-06-22 15:17:10,648 - INFO - Asking model: gpt-4o-mini-2024-07-18 (method: cognitive_bias_aware)
+2026-06-22 15:17:10,648 - INFO - Claim: Flu shot ingredients include aborted human cell cultures, monkey kidney cells and antifreeze....
+2026-06-22 15:17:11,955 - INFO - API Response Status: 200
+2026-06-22 15:17:11,955 - INFO - Raw model response: {"label": "Half-True", "brief_reason": "While flu vaccines may use cell cultures derived from aborted fetal tissue, the claim exaggerates by implying all ingredients are harmful or controversial."}
+2026-06-22 15:17:11,955 - INFO - Extracted label: Half-True -> Normalized: Misleading
+2026-06-22 15:17:11,957 - INFO - Prediction: Misleading
+2026-06-22 15:17:11,957 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-06-22 15:17:12,059 - INFO - ================================================================================
+2026-06-22 15:17:12,059 - INFO - Processing claim #3 (ID: tracer_test_14241)
+2026-06-22 15:17:12,060 - INFO - Claim: Video shows a family learning their debt was resolved by the “American Debt Relief program” for American citizens and legal residents who “have over $...
+2026-06-22 15:17:12,060 - INFO - Date: 2023-10-03
+2026-06-22 15:17:12,060 - INFO - Asking model: gpt-4o-mini-2024-07-18 (method: cognitive_bias_aware)
+2026-06-22 15:17:12,060 - INFO - Claim: Video shows a family learning their debt was resolved by the “American Debt Relief program” for American citizens and legal residents who “have over $...
+2026-06-22 15:17:13,977 - INFO - API Response Status: 200
+2026-06-22 15:17:13,977 - INFO - Raw model response: {"label": "Half-True", "brief_reason": "The claim accurately describes a program but may oversimplify or misrepresent its eligibility criteria and effectiveness."}
+2026-06-22 15:17:13,978 - INFO - Extracted label: Half-True -> Normalized: Misleading
+2026-06-22 15:17:13,979 - INFO - Prediction: Misleading
+2026-06-22 15:17:13,979 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-06-22 15:17:14,081 - INFO - ================================================================================
+2026-06-22 15:17:14,081 - INFO - Processing claim #4 (ID: tracer_test_14242)
+2026-06-22 15:17:14,081 - INFO - Claim: There are "about a half a dozen" transgender athletes competing in Wisconsin K-12 schools....
+2026-06-22 15:17:14,081 - INFO - Date: 2023-10-04
+2026-06-22 15:17:14,081 - INFO - Asking model: gpt-4o-mini-2024-07-18 (method: cognitive_bias_aware)
+2026-06-22 15:17:14,081 - INFO - Claim: There are "about a half a dozen" transgender athletes competing in Wisconsin K-12 schools....
+2026-06-22 15:17:16,058 - INFO - API Response Status: 200
+2026-06-22 15:17:16,058 - INFO - Raw model response: {"label": "Half-True", "brief_reason": "The claim is partially accurate but lacks specific context about the actual number and scope of transgender athletes in Wisconsin K-12 schools."}
+2026-06-22 15:17:16,058 - INFO - Extracted label: Half-True -> Normalized: Misleading
+2026-06-22 15:17:16,059 - INFO - Prediction: Misleading
+2026-06-22 15:17:16,059 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-06-22 15:17:16,162 - INFO - ================================================================================
+2026-06-22 15:17:16,162 - INFO - Processing claim #5 (ID: tracer_test_14243)
+2026-06-22 15:17:16,162 - INFO - Claim: The Milwaukee Brewers “are complaining about a lack of transit going to the ballpark at the same time as they are testifying in favor (of) taking $135...
+2026-06-22 15:17:16,163 - INFO - Date: 2023-10-05
+2026-06-22 15:17:16,163 - INFO - Asking model: gpt-4o-mini-2024-07-18 (method: cognitive_bias_aware)
+2026-06-22 15:17:16,163 - INFO - Claim: The Milwaukee Brewers “are complaining about a lack of transit going to the ballpark at the same time as they are testifying in favor (of) taking $135...
+2026-06-22 15:17:18,201 - INFO - API Response Status: 200
+2026-06-22 15:17:18,201 - INFO - Raw model response: {"label": "Half-True", "brief_reason": "The Brewers' testimony and complaints about transit are accurate, but the claim oversimplifies the context of their funding request."}
+2026-06-22 15:17:18,201 - INFO - Extracted label: Half-True -> Normalized: Misleading
+2026-06-22 15:17:18,202 - INFO - Prediction: Misleading
+2026-06-22 15:17:18,202 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-06-22 15:17:18,306 - INFO - ================================================================================
+2026-06-22 15:17:18,306 - INFO - Processing claim #6 (ID: tracer_test_14244)
+2026-06-22 15:17:18,306 - INFO - Claim: The Biden administration “wanted Israel to stand down after the attack" by Hamas....
+2026-06-22 15:17:18,306 - INFO - Date: 2023-10-07
+2026-06-22 15:17:18,306 - INFO - Asking model: gpt-4o-mini-2024-07-18 (method: cognitive_bias_aware)
+2026-06-22 15:17:18,306 - INFO - Claim: The Biden administration “wanted Israel to stand down after the attack" by Hamas....
+2026-06-22 15:17:21,120 - INFO - API Response Status: 200
+2026-06-22 15:17:21,120 - INFO - Raw model response: {"label": "Half-True", "brief_reason": "The claim simplifies the complex diplomatic stance of the Biden administration regarding Israel and Hamas, omitting important context about the administration's support for Israel."}
+2026-06-22 15:17:21,120 - INFO - Extracted label: Half-True -> Normalized: Misleading
+2026-06-22 15:17:21,122 - INFO - Prediction: Misleading
+2026-06-22 15:17:21,122 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-06-22 15:17:21,225 - INFO - ================================================================================
+2026-06-22 15:17:21,225 - INFO - Processing claim #7 (ID: tracer_test_14245)
+2026-06-22 15:17:21,225 - INFO - Claim: "Sadly, American taxpayer dollars helped fund these attacks, which many reports are saying came from the Biden administration.”...
+2026-06-22 15:17:21,225 - INFO - Date: 2023-10-07
+2026-06-22 15:17:21,225 - INFO - Asking model: gpt-4o-mini-2024-07-18 (method: cognitive_bias_aware)
+2026-06-22 15:17:21,225 - INFO - Claim: "Sadly, American taxpayer dollars helped fund these attacks, which many reports are saying came from the Biden administration.”...
+2026-06-22 15:17:23,588 - INFO - API Response Status: 200
+2026-06-22 15:17:23,588 - INFO - Raw model response: {"label": "Refuted", "brief_reason": "There is no evidence that American taxpayer dollars funded the attacks or that they were directly linked to the Biden administration."}
+2026-06-22 15:17:23,588 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2026-06-22 15:17:23,590 - INFO - Prediction: Refuted
+2026-06-22 15:17:23,590 - INFO - ✓ Correct prediction
+2026-06-22 15:17:23,692 - INFO - ================================================================================
+2026-06-22 15:17:23,692 - INFO - Processing claim #8 (ID: tracer_test_14246)
+2026-06-22 15:17:23,692 - INFO - Claim: “The same people that raided Israel are pouring into our once beautiful USA, through our TOTALLY OPEN SOUTHERN BORDER, at Record Numbers.”...
+2026-06-22 15:17:23,692 - INFO - Date: 2023-10-09
+2026-06-22 15:17:23,692 - INFO - Asking model: gpt-4o-mini-2024-07-18 (method: cognitive_bias_aware)
+2026-06-22 15:17:23,692 - INFO - Claim: “The same people that raided Israel are pouring into our once beautiful USA, through our TOTALLY OPEN SOUTHERN BORDER, at Record Numbers.”...
+2026-06-22 15:17:25,186 - INFO - API Response Status: 200
+2026-06-22 15:17:25,186 - INFO - Raw model response: {"label": "Refuted", "brief_reason": "The claim inaccurately suggests a direct connection between the raiders in Israel and immigration through the southern border, which is unsupported by facts."}
+2026-06-22 15:17:25,186 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2026-06-22 15:17:25,188 - INFO - Prediction: Refuted
+2026-06-22 15:17:25,188 - INFO - ✓ Correct prediction
+2026-06-22 15:17:25,290 - INFO - ================================================================================
+2026-06-22 15:17:25,291 - INFO - Processing claim #9 (ID: tracer_test_14247)
+2026-06-22 15:17:25,291 - INFO - Claim: Biden is “funding every angle” of the Israel-Hamas war....
+2026-06-22 15:17:25,291 - INFO - Date: 2023-10-11
+2026-06-22 15:17:25,291 - INFO - Asking model: gpt-4o-mini-2024-07-18 (method: cognitive_bias_aware)
+2026-06-22 15:17:25,291 - INFO - Claim: Biden is “funding every angle” of the Israel-Hamas war....
+2026-06-22 15:17:27,367 - INFO - API Response Status: 200
+2026-06-22 15:17:27,367 - INFO - Raw model response: {"label": "Half-True", "brief_reason": "The claim exaggerates the extent of U.S. funding and support, lacking important context about the nature and specifics of the aid."}
+2026-06-22 15:17:27,367 - INFO - Extracted label: Half-True -> Normalized: Misleading
+2026-06-22 15:17:27,369 - INFO - Prediction: Misleading
+2026-06-22 15:17:27,369 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-06-22 15:17:27,471 - INFO - ================================================================================
+2026-06-22 15:17:27,471 - INFO - Processing claim #10 (ID: tracer_test_14248)
+2026-06-22 15:17:27,471 - INFO - Claim: It has been U.S. policy “for at least 79 years" to require Americans who intend to be evacuated from overseas to sign a promissory note....
+2026-06-22 15:17:27,471 - INFO - Date: 2023-10-12
+2026-06-22 15:17:27,471 - INFO - Asking model: gpt-4o-mini-2024-07-18 (method: cognitive_bias_aware)
+2026-06-22 15:17:27,471 - INFO - Claim: It has been U.S. policy “for at least 79 years" to require Americans who intend to be evacuated from overseas to sign a promissory note....
+2026-06-22 15:17:29,331 - INFO - API Response Status: 200
+2026-06-22 15:17:29,331 - INFO - Raw model response: {"label": "Refuted", "brief_reason": "The claim about a 79-year policy requiring promissory notes for evacuation is inaccurate and unsupported by historical evidence."}
+2026-06-22 15:17:29,331 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2026-06-22 15:17:29,332 - INFO - Prediction: Refuted
+2026-06-22 15:17:29,332 - INFO - ✗ Incorrect (True: Supported, Pred: Refuted)
+2026-06-22 15:17:29,434 - INFO - ================================================================================
+2026-06-22 15:17:29,434 - INFO - Processing claim #11 (ID: tracer_test_14249)
+2026-06-22 15:17:29,434 - INFO - Claim: China is “the largest developer of neuro-strike weapons, weapons engineered to change the brain activity of military commanders and segments of the po...
+2026-06-22 15:17:29,434 - INFO - Date: 2023-10-12
+2026-06-22 15:17:29,434 - INFO - Asking model: gpt-4o-mini-2024-07-18 (method: cognitive_bias_aware)
+2026-06-22 15:17:29,434 - INFO - Claim: China is “the largest developer of neuro-strike weapons, weapons engineered to change the brain activity of military commanders and segments of the po...
+2026-06-22 15:17:31,212 - INFO - API Response Status: 200
+2026-06-22 15:17:31,213 - INFO - Raw model response: {"label": "Refuted", "brief_reason": "There is no credible evidence to support the existence or development of neuro-strike weapons as described."}
+2026-06-22 15:17:31,213 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2026-06-22 15:17:31,214 - INFO - Prediction: Refuted
+2026-06-22 15:17:31,214 - INFO - ✗ Incorrect (True: Misleading, Pred: Refuted)
+2026-06-22 15:17:31,316 - INFO - ================================================================================
+2026-06-22 15:17:31,316 - INFO - Processing claim #12 (ID: tracer_test_14250)
+2026-06-22 15:17:31,316 - INFO - Claim: “Kids who don’t even know what day it is or their colors can decide to permanently change themselves” through medical gender transition....
+2026-06-22 15:17:31,316 - INFO - Date: 2023-10-12
+2026-06-22 15:17:31,316 - INFO - Asking model: gpt-4o-mini-2024-07-18 (method: cognitive_bias_aware)
+2026-06-22 15:17:31,317 - INFO - Claim: “Kids who don’t even know what day it is or their colors can decide to permanently change themselves” through medical gender transition....
+2026-06-22 15:17:32,783 - INFO - API Response Status: 200
+2026-06-22 15:17:32,783 - INFO - Raw model response: {"label": "Half-True", "brief_reason": "The claim exaggerates the decision-making capacity of children regarding medical gender transition, but it does reflect concerns about informed consent."}
+2026-06-22 15:17:32,783 - INFO - Extracted label: Half-True -> Normalized: Misleading
+2026-06-22 15:17:32,784 - INFO - Prediction: Misleading
+2026-06-22 15:17:32,785 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-06-22 15:17:32,887 - INFO - ================================================================================
+2026-06-22 15:17:32,887 - INFO - Processing claim #13 (ID: tracer_test_14251)
+2026-06-22 15:17:32,887 - INFO - Claim: Video shows North Korean President Kim Jong Un blaming President Joe Biden for the Israel-Hamas war and Russia’s invasion of Ukraine, and saying, “I s...
+2026-06-22 15:17:32,887 - INFO - Date: 2023-10-12
+2026-06-22 15:17:32,887 - INFO - Asking model: gpt-4o-mini-2024-07-18 (method: cognitive_bias_aware)
+2026-06-22 15:17:32,887 - INFO - Claim: Video shows North Korean President Kim Jong Un blaming President Joe Biden for the Israel-Hamas war and Russia’s invasion of Ukraine, and saying, “I s...
+2026-06-22 15:17:34,163 - INFO - API Response Status: 200
+2026-06-22 15:17:34,163 - INFO - Raw model response: {"label": "Refuted", "brief_reason": "There is no evidence that Kim Jong Un made such statements regarding Biden, Trump, or the conflicts mentioned."}
+2026-06-22 15:17:34,163 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2026-06-22 15:17:34,165 - INFO - Prediction: Refuted
+2026-06-22 15:17:34,165 - INFO - ✓ Correct prediction
+2026-06-22 15:17:34,267 - INFO - ================================================================================
+2026-06-22 15:17:34,268 - INFO - Processing claim #14 (ID: tracer_test_14252)
+2026-06-22 15:17:34,268 - INFO - Claim: "95% of over-the-counter pharmaceuticals" in the U.S. come from China....
+2026-06-22 15:17:34,268 - INFO - Date: 2023-10-13
+2026-06-22 15:17:34,268 - INFO - Asking model: gpt-4o-mini-2024-07-18 (method: cognitive_bias_aware)
+2026-06-22 15:17:34,268 - INFO - Claim: "95% of over-the-counter pharmaceuticals" in the U.S. come from China....
+2026-06-22 15:17:36,202 - INFO - API Response Status: 200
+2026-06-22 15:17:36,203 - INFO - Raw model response: {"label": "Refuted", "brief_reason": "The claim that 95% of over-the-counter pharmaceuticals in the U.S. come from China is inaccurate and unsupported by available data."}
+2026-06-22 15:17:36,203 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2026-06-22 15:17:36,204 - INFO - Prediction: Refuted
+2026-06-22 15:17:36,204 - INFO - ✓ Correct prediction
+2026-06-22 15:17:36,306 - INFO - ================================================================================
+2026-06-22 15:17:36,306 - INFO - Processing claim #15 (ID: tracer_test_14253)
+2026-06-22 15:17:36,307 - INFO - Claim: Republicans in Congress are “trying to wipe out federal funding to end the HIV epidemic.”...
+2026-06-22 15:17:36,307 - INFO - Date: 2023-10-14
+2026-06-22 15:17:36,307 - INFO - Asking model: gpt-4o-mini-2024-07-18 (method: cognitive_bias_aware)
+2026-06-22 15:17:36,307 - INFO - Claim: Republicans in Congress are “trying to wipe out federal funding to end the HIV epidemic.”...
+2026-06-22 15:17:38,428 - INFO - API Response Status: 200
+2026-06-22 15:17:38,428 - INFO - Raw model response: {"label": "Half-True", "brief_reason": "While there are efforts by some Republicans to cut funding, the claim oversimplifies the broader context of budget negotiations and differing priorities."}
+2026-06-22 15:17:38,429 - INFO - Extracted label: Half-True -> Normalized: Misleading
+2026-06-22 15:17:38,430 - INFO - Prediction: Misleading
+2026-06-22 15:17:38,430 - INFO - ✓ Correct prediction
+2026-06-22 15:17:38,532 - INFO - ================================================================================
+2026-06-22 15:17:38,533 - INFO - Processing claim #16 (ID: tracer_test_14254)
+2026-06-22 15:17:38,533 - INFO - Claim: “Nikki Haley argues in support of bringing Gaza refugees to America.”...
+2026-06-22 15:17:38,533 - INFO - Date: 2023-10-16
+2026-06-22 15:17:38,533 - INFO - Asking model: gpt-4o-mini-2024-07-18 (method: cognitive_bias_aware)
+2026-06-22 15:17:38,533 - INFO - Claim: “Nikki Haley argues in support of bringing Gaza refugees to America.”...
+2026-06-22 15:17:40,366 - INFO - API Response Status: 200
+2026-06-22 15:17:40,366 - INFO - Raw model response: {"label": "Supported", "brief_reason": "Nikki Haley has publicly expressed support for bringing Gaza refugees to America."}
+2026-06-22 15:17:40,366 - INFO - Extracted label: Supported -> Normalized: Supported
+2026-06-22 15:17:40,367 - INFO - Prediction: Supported
+2026-06-22 15:17:40,367 - INFO - ✗ Incorrect (True: Refuted, Pred: Supported)
+2026-06-22 15:17:40,470 - INFO - ================================================================================
+2026-06-22 15:17:40,470 - INFO - Processing claim #17 (ID: tracer_test_14255)
+2026-06-22 15:17:40,470 - INFO - Claim: The Democrats are pushing “to take in a million Palestinian refugees.”...
+2026-06-22 15:17:40,470 - INFO - Date: 2023-10-16
+2026-06-22 15:17:40,470 - INFO - Asking model: gpt-4o-mini-2024-07-18 (method: cognitive_bias_aware)
+2026-06-22 15:17:40,470 - INFO - Claim: The Democrats are pushing “to take in a million Palestinian refugees.”...
+2026-06-22 15:17:41,732 - INFO - API Response Status: 200
+2026-06-22 15:17:41,732 - INFO - Raw model response: {"label": "Half-True", "brief_reason": "While there are discussions about refugee intake, the claim exaggerates the extent and certainty of Democratic proposals."}
+2026-06-22 15:17:41,732 - INFO - Extracted label: Half-True -> Normalized: Misleading
+2026-06-22 15:17:41,733 - INFO - Prediction: Misleading
+2026-06-22 15:17:41,733 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-06-22 15:17:41,836 - INFO - ================================================================================
+2026-06-22 15:17:41,836 - INFO - Processing claim #18 (ID: tracer_test_14256)
+2026-06-22 15:17:41,836 - INFO - Claim: “Since 1981, the state Senate has only rejected five executive appointments. The GOP today is more than doubling that number.”...
+2026-06-22 15:17:41,836 - INFO - Date: 2023-10-17
+2026-06-22 15:17:41,836 - INFO - Asking model: gpt-4o-mini-2024-07-18 (method: cognitive_bias_aware)
+2026-06-22 15:17:41,836 - INFO - Claim: “Since 1981, the state Senate has only rejected five executive appointments. The GOP today is more than doubling that number.”...
+2026-06-22 15:17:44,117 - INFO - API Response Status: 200
+2026-06-22 15:17:44,117 - INFO - Raw model response: {"label": "Half-True", "brief_reason": "The claim accurately states the number of rejections but lacks context about the reasons and implications of the GOP's actions."}
+2026-06-22 15:17:44,117 - INFO - Extracted label: Half-True -> Normalized: Misleading
+2026-06-22 15:17:44,118 - INFO - Prediction: Misleading
+2026-06-22 15:17:44,118 - INFO - ✗ Incorrect (True: Supported, Pred: Misleading)
+2026-06-22 15:17:44,221 - INFO - ================================================================================
+2026-06-22 15:17:44,221 - INFO - Processing claim #19 (ID: tracer_test_14257)
+2026-06-22 15:17:44,221 - INFO - Claim: Some individuals or businesses in Wisconsin are charging $2 or $2.25 an hour for child care....
+2026-06-22 15:17:44,221 - INFO - Date: 2023-10-18
+2026-06-22 15:17:44,221 - INFO - Asking model: gpt-4o-mini-2024-07-18 (method: cognitive_bias_aware)
+2026-06-22 15:17:44,221 - INFO - Claim: Some individuals or businesses in Wisconsin are charging $2 or $2.25 an hour for child care....
+2026-06-22 15:17:45,916 - INFO - API Response Status: 200
+2026-06-22 15:17:45,916 - INFO - Raw model response: {"label": "Half-True", "brief_reason": "While some may charge low rates, this claim lacks context about the overall child care market and quality."}
+2026-06-22 15:17:45,916 - INFO - Extracted label: Half-True -> Normalized: Misleading
+2026-06-22 15:17:45,918 - INFO - Prediction: Misleading
+2026-06-22 15:17:45,918 - INFO - ✓ Correct prediction
+2026-06-22 15:17:46,021 - INFO - ================================================================================
+2026-06-22 15:17:46,022 - INFO - Processing complete: 20 predictions (8 correct, 12 incorrect), 0 failed
+2026-06-22 15:17:46,022 - INFO - Metrics: Accuracy=0.4000, Macro-F1=0.2500
+2026-06-22 15:17:46,026 - INFO - Predictions saved to results\gpt-4o-mini-2024-07-18\tracer_bias_all\cognitive_bias_aware\unseen\unseen_predictions.csv
+2026-06-22 15:17:46,029 - INFO - Predictions JSON saved to results\gpt-4o-mini-2024-07-18\tracer_bias_all\cognitive_bias_aware\unseen\unseen_predictions.json
+2026-06-22 15:17:46,030 - INFO - Metrics saved to results\gpt-4o-mini-2024-07-18\tracer_bias_all\cognitive_bias_aware\unseen\unseen_metrics.json
