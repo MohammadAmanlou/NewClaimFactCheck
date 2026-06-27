@@ -1,0 +1,37 @@
+{
+    "enabled": true,
+    "stage": "post_inference",
+    "strategy": "label_stratified_seen_unseen_balance_after_prediction",
+    "method": "strong_baseline_short",
+    "seed": 42,
+    "original_seen_count": 14238,
+    "original_unseen_count": 756,
+    "sampled_seen_count": 756,
+    "sampled_unseen_count": 756,
+    "labels": [
+        "Supported",
+        "Half-True",
+        "Refuted"
+    ],
+    "per_label_info": {
+        "Supported": {
+            "original_seen": 1461,
+            "original_unseen": 48,
+            "sampled_seen": 48,
+            "sampled_unseen": 48
+        },
+        "Half-True": {
+            "original_seen": 5023,
+            "original_unseen": 142,
+            "sampled_seen": 142,
+            "sampled_unseen": 142
+        },
+        "Refuted": {
+            "original_seen": 7754,
+            "original_unseen": 566,
+            "sampled_seen": 566,
+            "sampled_unseen": 566
+        }
+    },
+    "timestamp": "2026-06-24T10:10:29.081132"
+}

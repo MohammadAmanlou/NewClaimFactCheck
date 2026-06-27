@@ -4,10 +4,10 @@
     "strategy": "label_stratified_seen_unseen_balance_after_prediction",
     "method": "cognitive_bias_aware",
     "seed": 42,
-    "original_seen_count": 20,
-    "original_unseen_count": 20,
-    "sampled_seen_count": 17,
-    "sampled_unseen_count": 17,
+    "original_seen_count": 14238,
+    "original_unseen_count": 756,
+    "sampled_seen_count": 756,
+    "sampled_unseen_count": 756,
     "labels": [
         "Supported",
         "Half-True",
@@ -15,23 +15,23 @@
     ],
     "per_label_info": {
         "Supported": {
-            "original_seen": 2,
-            "original_unseen": 2,
-            "sampled_seen": 2,
-            "sampled_unseen": 2
+            "original_seen": 1461,
+            "original_unseen": 48,
+            "sampled_seen": 48,
+            "sampled_unseen": 48
         },
         "Half-True": {
-            "original_seen": 7,
-            "original_unseen": 4,
-            "sampled_seen": 4,
-            "sampled_unseen": 4
+            "original_seen": 5023,
+            "original_unseen": 142,
+            "sampled_seen": 142,
+            "sampled_unseen": 142
         },
         "Refuted": {
-            "original_seen": 11,
-            "original_unseen": 14,
-            "sampled_seen": 11,
-            "sampled_unseen": 11
+            "original_seen": 7754,
+            "original_unseen": 566,
+            "sampled_seen": 566,
+            "sampled_unseen": 566
         }
     },
-    "timestamp": "2026-06-22T15:17:46.044120"
+    "timestamp": "2026-06-23T08:17:16.949940"
 }

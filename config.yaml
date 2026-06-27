@@ -9,7 +9,8 @@ labels:
   - Refuted
 
 prompt_methods:
-  - cognitive_bias_aware
+  - naive
+  - strong_baseline_short
 
 temporal_split: "2023-10-01"
 date_format: "%Y-%m-%d"

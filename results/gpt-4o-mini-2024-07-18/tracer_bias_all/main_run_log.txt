@@ -1,4 +1,8 @@
-2026-06-22 15:18:16,658 - INFO - ================================================================================
-2026-06-22 15:18:16,659 - INFO - STARTING FACT-CHECK INFERENCE PIPELINE
-2026-06-22 15:18:16,659 - INFO - Dataset: tracer_bias_all, Model: gpt-4o-mini-2024-07-18
-2026-06-22 15:18:16,659 - INFO - Prompt methods: ['cognitive_bias_aware']
+2026-06-23 14:12:52,080 - INFO - ================================================================================
+2026-06-23 14:12:52,081 - INFO - STARTING FACT-CHECK INFERENCE PIPELINE
+2026-06-23 14:12:52,081 - INFO - Dataset: tracer_bias_all, Model: gpt-4o-mini-2024-07-18
+2026-06-23 14:12:52,081 - INFO - Prompt methods: ['naive', 'strong_baseline_short']
+2026-06-23 14:12:55,415 - INFO - Loaded 14994 claims (is_test=False). API key configured: True
+2026-06-23 14:12:55,415 - INFO - Processing LABELED data with temporal split analysis
+2026-06-24 10:10:29,228 - INFO - ================================================================================
+2026-06-24 10:10:29,228 - INFO - PIPELINE COMPLETE

@@ -1,1 +1,31 @@
 2026-06-22 15:18:20,043 - INFO - Prompt method: cognitive_bias_aware
+2026-06-23 07:54:42,960 - INFO - Metrics: Accuracy=0.4967, Macro-F1=0.4703
+2026-06-23 08:17:16,483 - INFO - Metrics: Accuracy=0.6169, Macro-F1=0.5370
+2026-06-23 08:17:16,483 - INFO - ================================================================================
+2026-06-23 08:17:16,484 - INFO - Comparing seen vs unseen performance...
+2026-06-23 08:17:16,807 - INFO - Metrics: Accuracy=0.4967, Macro-F1=0.4703
+2026-06-23 08:17:16,824 - INFO - Metrics: Accuracy=0.6169, Macro-F1=0.5370
+2026-06-23 08:17:16,938 - INFO - Seen accuracy: 0.4967
+2026-06-23 08:17:16,938 - INFO - Unseen accuracy: 0.6169
+2026-06-23 08:17:16,938 - INFO - Difference: 0.1202
+2026-06-23 08:17:16,938 - INFO - T-test p-value: 0.0000 (significant)
+2026-06-23 08:17:16,938 - INFO - Chi-square p-value: 0.0000 (significant)
+2026-06-23 08:17:16,939 - INFO - Summary report saved to results\gpt-4o-mini-2024-07-18\tracer_bias_all\cognitive_bias_aware\summary.json
+2026-06-23 08:17:16,973 - INFO - Metrics: Accuracy=0.4711, Macro-F1=0.4813
+2026-06-23 08:17:16,991 - INFO - Metrics: Accuracy=0.6169, Macro-F1=0.5370
+2026-06-23 08:17:16,991 - INFO - ================================================================================
+2026-06-23 08:17:16,991 - INFO - Comparing seen vs unseen performance...
+2026-06-23 08:17:17,009 - INFO - Metrics: Accuracy=0.4711, Macro-F1=0.4813
+2026-06-23 08:17:17,026 - INFO - Metrics: Accuracy=0.6169, Macro-F1=0.5370
+2026-06-23 08:17:17,040 - INFO - Seen accuracy: 0.4711
+2026-06-23 08:17:17,040 - INFO - Unseen accuracy: 0.6169
+2026-06-23 08:17:17,040 - INFO - Difference: 0.1458
+2026-06-23 08:17:17,040 - INFO - T-test p-value: 0.0000 (significant)
+2026-06-23 08:17:17,040 - INFO - Chi-square p-value: 0.0000 (significant)
+2026-06-23 08:17:17,052 - INFO - Predictions saved to results\gpt-4o-mini-2024-07-18\tracer_bias_all\cognitive_bias_aware\posthoc_balanced\seen\seen_posthoc_balanced_predictions.csv
+2026-06-23 08:17:17,064 - INFO - Predictions JSON saved to results\gpt-4o-mini-2024-07-18\tracer_bias_all\cognitive_bias_aware\posthoc_balanced\seen\seen_posthoc_balanced_predictions.json
+2026-06-23 08:17:17,065 - INFO - Metrics saved to results\gpt-4o-mini-2024-07-18\tracer_bias_all\cognitive_bias_aware\posthoc_balanced\seen\seen_posthoc_balanced_metrics.json
+2026-06-23 08:17:17,075 - INFO - Predictions saved to results\gpt-4o-mini-2024-07-18\tracer_bias_all\cognitive_bias_aware\posthoc_balanced\unseen\unseen_posthoc_balanced_predictions.csv
+2026-06-23 08:17:17,088 - INFO - Predictions JSON saved to results\gpt-4o-mini-2024-07-18\tracer_bias_all\cognitive_bias_aware\posthoc_balanced\unseen\unseen_posthoc_balanced_predictions.json
+2026-06-23 08:17:17,088 - INFO - Metrics saved to results\gpt-4o-mini-2024-07-18\tracer_bias_all\cognitive_bias_aware\posthoc_balanced\unseen\unseen_posthoc_balanced_metrics.json
+2026-06-23 08:17:17,089 - INFO - Summary report saved to results\gpt-4o-mini-2024-07-18\tracer_bias_all\cognitive_bias_aware\posthoc_balanced\summary.json
