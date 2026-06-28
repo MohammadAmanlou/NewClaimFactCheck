@@ -1,0 +1,13 @@
+[
+    {
+        "claim_id": "crp_281",
+        "claim": "'In 2005, Britain's Prince Harry was photographed wearing a Nazi costume at a party.'",
+        "claim_date": "2021-03-12",
+        "speaker": null,
+        "source": "claimreview2024plus",
+        "label": "Supported",
+        "detected_biases": "[{\"bias\": \"Just-world hypothesis\", \"confidence\": 0.3629}]",
+        "prediction": "Supported",
+        "prediction_error": null
+    }
+]

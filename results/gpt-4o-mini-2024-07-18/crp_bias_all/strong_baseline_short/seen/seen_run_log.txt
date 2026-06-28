@@ -1,0 +1,18 @@
+2026-06-28 16:41:41,584 - INFO - Processing 1 claims...
+2026-06-28 16:41:41,585 - INFO - ================================================================================
+2026-06-28 16:41:41,585 - INFO - Processing claim #0 (ID: crp_281)
+2026-06-28 16:41:41,585 - INFO - Claim: 'In 2005, Britain's Prince Harry was photographed wearing a Nazi costume at a party.'...
+2026-06-28 16:41:41,585 - INFO - Date: 2021-03-12
+2026-06-28 16:41:41,585 - INFO - Asking model: gpt-4o-mini-2024-07-18 (method: strong_baseline_short)
+2026-06-28 16:41:41,585 - INFO - Claim: 'In 2005, Britain's Prince Harry was photographed wearing a Nazi costume at a party.'...
+2026-06-28 16:41:42,551 - INFO - API Response Status: 200
+2026-06-28 16:41:42,551 - INFO - Raw model response: {"label": "Supported", "brief_reason": "The claim accurately describes an event that occurred in 2005."}
+2026-06-28 16:41:42,551 - INFO - Extracted label: Supported -> Normalized: Supported
+2026-06-28 16:41:42,553 - INFO - Prediction: Supported
+2026-06-28 16:41:42,553 - INFO - ✓ Correct prediction
+2026-06-28 16:41:42,656 - INFO - ================================================================================
+2026-06-28 16:41:42,656 - INFO - Processing complete: 1 predictions (1 correct, 0 incorrect), 0 failed
+2026-06-28 16:41:42,657 - INFO - Metrics: Accuracy=1.0000, Macro-F1=1.0000
+2026-06-28 16:41:42,662 - INFO - Predictions saved to results\gpt-4o-mini-2024-07-18\crp_bias_all\strong_baseline_short\seen\seen_predictions.csv
+2026-06-28 16:41:42,664 - INFO - Predictions JSON saved to results\gpt-4o-mini-2024-07-18\crp_bias_all\strong_baseline_short\seen\seen_predictions.json
+2026-06-28 16:41:42,664 - INFO - Metrics saved to results\gpt-4o-mini-2024-07-18\crp_bias_all\strong_baseline_short\seen\seen_metrics.json

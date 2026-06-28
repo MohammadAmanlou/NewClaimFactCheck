@@ -1,0 +1,13 @@
+[
+    {
+        "claim_id": "crp_82",
+        "claim": "'A photo circulating on social media for years showed a 37-million-year-old fossilized whale skeleton discovered in Egypt.'",
+        "claim_date": "2024-08-03",
+        "speaker": null,
+        "source": "claimreview2024plus",
+        "label": "Supported",
+        "detected_biases": "[{\"bias\": \"Availability heuristic\", \"confidence\": 0.4085}]",
+        "prediction": "Not Enough Information",
+        "prediction_error": null
+    }
+]

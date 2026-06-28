@@ -1,0 +1,18 @@
+{
+    "accuracy": 0.0,
+    "macro_precision": 0.0,
+    "macro_recall": 0.0,
+    "macro_f1": 0.0,
+    "total_samples": 1,
+    "correct_predictions": 0,
+    "per_label_metrics": {
+        "Supported": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 1
+        }
+    },
+    "nei_prediction_rate": 1.0,
+    "false_nei_rate": 1.0
+}

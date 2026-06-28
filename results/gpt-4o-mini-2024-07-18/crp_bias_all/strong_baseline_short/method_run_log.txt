@@ -1,0 +1,29 @@
+2026-06-28 16:41:41,583 - INFO - Prompt method: strong_baseline_short
+2026-06-28 16:41:42,666 - INFO - Metrics: Accuracy=1.0000, Macro-F1=1.0000
+2026-06-28 16:52:30,144 - INFO - Metrics: Accuracy=0.4027, Macro-F1=0.3688
+2026-06-28 16:52:30,144 - INFO - ================================================================================
+2026-06-28 16:52:30,145 - INFO - Comparing seen vs unseen performance...
+2026-06-28 16:52:30,145 - INFO - Metrics: Accuracy=1.0000, Macro-F1=1.0000
+2026-06-28 16:52:30,151 - INFO - Metrics: Accuracy=0.4027, Macro-F1=0.3688
+2026-06-28 16:52:30,153 - WARNING - Statistical tests skipped: Need more than one sample per group for statistical tests.
+2026-06-28 16:52:30,155 - INFO - Seen accuracy: 1.0
+2026-06-28 16:52:30,155 - INFO - Unseen accuracy: 0.4027
+2026-06-28 16:52:30,155 - INFO - Difference: -0.5973
+2026-06-28 16:52:30,157 - INFO - Summary report saved to results\gpt-4o-mini-2024-07-18\crp_bias_all\strong_baseline_short\summary.json
+2026-06-28 16:52:30,164 - INFO - Metrics: Accuracy=1.0000, Macro-F1=1.0000
+2026-06-28 16:52:30,164 - INFO - Metrics: Accuracy=0.0000, Macro-F1=0.0000
+2026-06-28 16:52:30,164 - INFO - ================================================================================
+2026-06-28 16:52:30,164 - INFO - Comparing seen vs unseen performance...
+2026-06-28 16:52:30,164 - INFO - Metrics: Accuracy=1.0000, Macro-F1=1.0000
+2026-06-28 16:52:30,164 - INFO - Metrics: Accuracy=0.0000, Macro-F1=0.0000
+2026-06-28 16:52:30,164 - WARNING - Statistical tests skipped: Need more than one sample per group for statistical tests.
+2026-06-28 16:52:30,165 - INFO - Seen accuracy: 1.0
+2026-06-28 16:52:30,166 - INFO - Unseen accuracy: 0.0
+2026-06-28 16:52:30,166 - INFO - Difference: -1.0000
+2026-06-28 16:52:30,168 - INFO - Predictions saved to results\gpt-4o-mini-2024-07-18\crp_bias_all\strong_baseline_short\posthoc_balanced\seen\seen_posthoc_balanced_predictions.csv
+2026-06-28 16:52:30,169 - INFO - Predictions JSON saved to results\gpt-4o-mini-2024-07-18\crp_bias_all\strong_baseline_short\posthoc_balanced\seen\seen_posthoc_balanced_predictions.json
+2026-06-28 16:52:30,170 - INFO - Metrics saved to results\gpt-4o-mini-2024-07-18\crp_bias_all\strong_baseline_short\posthoc_balanced\seen\seen_posthoc_balanced_metrics.json
+2026-06-28 16:52:30,173 - INFO - Predictions saved to results\gpt-4o-mini-2024-07-18\crp_bias_all\strong_baseline_short\posthoc_balanced\unseen\unseen_posthoc_balanced_predictions.csv
+2026-06-28 16:52:30,174 - INFO - Predictions JSON saved to results\gpt-4o-mini-2024-07-18\crp_bias_all\strong_baseline_short\posthoc_balanced\unseen\unseen_posthoc_balanced_predictions.json
+2026-06-28 16:52:30,175 - INFO - Metrics saved to results\gpt-4o-mini-2024-07-18\crp_bias_all\strong_baseline_short\posthoc_balanced\unseen\unseen_posthoc_balanced_metrics.json
+2026-06-28 16:52:30,177 - INFO - Summary report saved to results\gpt-4o-mini-2024-07-18\crp_bias_all\strong_baseline_short\posthoc_balanced\summary.json
