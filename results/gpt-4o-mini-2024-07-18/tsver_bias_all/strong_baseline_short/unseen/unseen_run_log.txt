@@ -1,0 +1,700 @@
+2026-06-28 14:27:44,690 - INFO - Processing 63 claims...
+2026-06-28 14:27:44,690 - INFO - ================================================================================
+2026-06-28 14:27:44,690 - INFO - Processing claim #0 (ID: tsver_test_2)
+2026-06-28 14:27:44,690 - INFO - Claim: Over 60% of Ghana’s working population are into agriculture....
+2026-06-28 14:27:44,690 - INFO - Date: 2025-02-17
+2026-06-28 14:27:44,690 - INFO - Asking model: gpt-4o-mini-2024-07-18 (method: strong_baseline_short)
+2026-06-28 14:27:44,690 - INFO - Claim: Over 60% of Ghana’s working population are into agriculture....
+2026-06-28 14:27:46,015 - INFO - API Response Status: 200
+2026-06-28 14:27:46,015 - INFO - Raw model response: {"label": "Supported", "brief_reason": "The claim accurately reflects the significant role of agriculture in Ghana's economy and employment."}
+2026-06-28 14:27:46,015 - INFO - Extracted label: Supported -> Normalized: Supported
+2026-06-28 14:27:46,017 - INFO - Prediction: Supported
+2026-06-28 14:27:46,017 - INFO - ✗ Incorrect (True: Refuted, Pred: Supported)
+2026-06-28 14:27:46,118 - INFO - ================================================================================
+2026-06-28 14:27:46,118 - INFO - Processing claim #1 (ID: tsver_test_5)
+2026-06-28 14:27:46,118 - INFO - Claim: The ratio of one police officer for every 242 citizens in a population [in South Africa] is alarmingly low....
+2026-06-28 14:27:46,118 - INFO - Date: 2024-02-01
+2026-06-28 14:27:46,118 - INFO - Asking model: gpt-4o-mini-2024-07-18 (method: strong_baseline_short)
+2026-06-28 14:27:46,118 - INFO - Claim: The ratio of one police officer for every 242 citizens in a population [in South Africa] is alarmingly low....
+2026-06-28 14:27:47,226 - INFO - API Response Status: 200
+2026-06-28 14:27:47,226 - INFO - Raw model response: {"label": "Misleading", "brief_reason": "While the ratio may be accurate, it lacks context regarding crime rates and police effectiveness."}
+2026-06-28 14:27:47,226 - INFO - Extracted label: Misleading -> Normalized: Misleading
+2026-06-28 14:27:47,228 - INFO - Prediction: Misleading
+2026-06-28 14:27:47,228 - INFO - ✗ Incorrect (True: Not Enough Information, Pred: Misleading)
+2026-06-28 14:27:47,329 - INFO - ================================================================================
+2026-06-28 14:27:47,329 - INFO - Processing claim #2 (ID: tsver_test_10)
+2026-06-28 14:27:47,329 - INFO - Claim: Zero civilian deaths were reported [in India] due to terror attacks in the country after Prime Minister Narendra Modi came into power in 2014....
+2026-06-28 14:27:47,329 - INFO - Date: 2024-01-05
+2026-06-28 14:27:47,329 - INFO - Asking model: gpt-4o-mini-2024-07-18 (method: strong_baseline_short)
+2026-06-28 14:27:47,329 - INFO - Claim: Zero civilian deaths were reported [in India] due to terror attacks in the country after Prime Minister Narendra Modi came into power in 2014....
+2026-06-28 14:27:48,416 - INFO - API Response Status: 200
+2026-06-28 14:27:48,416 - INFO - Raw model response: {"label": "Refuted", "brief_reason": "There have been civilian deaths due to terror attacks in India since 2014."}
+2026-06-28 14:27:48,416 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2026-06-28 14:27:48,417 - INFO - Prediction: Refuted
+2026-06-28 14:27:48,418 - INFO - ✓ Correct prediction
+2026-06-28 14:27:48,519 - INFO - ================================================================================
+2026-06-28 14:27:48,519 - INFO - Processing claim #3 (ID: tsver_test_15)
+2026-06-28 14:27:48,519 - INFO - Claim: [ABC News reported] 1 million Ukrainian soldiers have died in over two years of war....
+2026-06-28 14:27:48,519 - INFO - Date: 2024-12-12
+2026-06-28 14:27:48,519 - INFO - Asking model: gpt-4o-mini-2024-07-18 (method: strong_baseline_short)
+2026-06-28 14:27:48,519 - INFO - Claim: [ABC News reported] 1 million Ukrainian soldiers have died in over two years of war....
+2026-06-28 14:27:49,762 - INFO - API Response Status: 200
+2026-06-28 14:27:49,762 - INFO - Raw model response: {"label": "Refuted", "brief_reason": "The claim of 1 million Ukrainian soldier deaths is false and significantly exaggerated."}
+2026-06-28 14:27:49,762 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2026-06-28 14:27:49,763 - INFO - Prediction: Refuted
+2026-06-28 14:27:49,763 - INFO - ✓ Correct prediction
+2026-06-28 14:27:49,865 - INFO - ================================================================================
+2026-06-28 14:27:49,865 - INFO - Processing claim #4 (ID: tsver_test_17)
+2026-06-28 14:27:49,865 - INFO - Claim: Australia is the only G20 nation that doesn’t use nuclear power....
+2026-06-28 14:27:49,865 - INFO - Date: 2024-06-18
+2026-06-28 14:27:49,865 - INFO - Asking model: gpt-4o-mini-2024-07-18 (method: strong_baseline_short)
+2026-06-28 14:27:49,865 - INFO - Claim: Australia is the only G20 nation that doesn’t use nuclear power....
+2026-06-28 14:27:50,761 - INFO - API Response Status: 200
+2026-06-28 14:27:50,761 - INFO - Raw model response: {"label": "Supported", "brief_reason": "Australia is indeed the only G20 nation that does not utilize nuclear power."}
+2026-06-28 14:27:50,762 - INFO - Extracted label: Supported -> Normalized: Supported
+2026-06-28 14:27:50,763 - INFO - Prediction: Supported
+2026-06-28 14:27:50,763 - INFO - ✗ Incorrect (True: Refuted, Pred: Supported)
+2026-06-28 14:27:50,864 - INFO - ================================================================================
+2026-06-28 14:27:50,864 - INFO - Processing claim #5 (ID: tsver_test_20)
+2026-06-28 14:27:50,864 - INFO - Claim: Renewables have overtaken fossil fuels as the largest source of electricity in India....
+2026-06-28 14:27:50,864 - INFO - Date: 2025-08-08
+2026-06-28 14:27:50,864 - INFO - Asking model: gpt-4o-mini-2024-07-18 (method: strong_baseline_short)
+2026-06-28 14:27:50,864 - INFO - Claim: Renewables have overtaken fossil fuels as the largest source of electricity in India....
+2026-06-28 14:27:51,904 - INFO - API Response Status: 200
+2026-06-28 14:27:51,904 - INFO - Raw model response: {"label": "Refuted", "brief_reason": "Fossil fuels remain the largest source of electricity in India as of 2025."}
+2026-06-28 14:27:51,904 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2026-06-28 14:27:51,905 - INFO - Prediction: Refuted
+2026-06-28 14:27:51,905 - INFO - ✓ Correct prediction
+2026-06-28 14:27:52,006 - INFO - ================================================================================
+2026-06-28 14:27:52,007 - INFO - Processing claim #6 (ID: tsver_test_30)
+2026-06-28 14:27:52,007 - INFO - Claim: “Kenya has an estimated population of 40 million ...”...
+2026-06-28 14:27:52,007 - INFO - Date: 2024-01-01
+2026-06-28 14:27:52,007 - INFO - Asking model: gpt-4o-mini-2024-07-18 (method: strong_baseline_short)
+2026-06-28 14:27:52,007 - INFO - Claim: “Kenya has an estimated population of 40 million ...”...
+2026-06-28 14:27:52,990 - INFO - API Response Status: 200
+2026-06-28 14:27:52,990 - INFO - Raw model response: {"label": "Refuted", "brief_reason": "Kenya's population is estimated to be over 50 million as of 2023."}
+2026-06-28 14:27:52,991 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2026-06-28 14:27:52,992 - INFO - Prediction: Refuted
+2026-06-28 14:27:52,992 - INFO - ✓ Correct prediction
+2026-06-28 14:27:53,093 - INFO - ================================================================================
+2026-06-28 14:27:53,093 - INFO - Processing claim #7 (ID: tsver_test_38)
+2026-06-28 14:27:53,093 - INFO - Claim: Life expectancy [in the USA] is significantly longer today than it was when Social Security was created in the 1930s....
+2026-06-28 14:27:53,093 - INFO - Date: 2024-01-10
+2026-06-28 14:27:53,093 - INFO - Asking model: gpt-4o-mini-2024-07-18 (method: strong_baseline_short)
+2026-06-28 14:27:53,093 - INFO - Claim: Life expectancy [in the USA] is significantly longer today than it was when Social Security was created in the 1930s....
+2026-06-28 14:27:54,803 - INFO - API Response Status: 200
+2026-06-28 14:27:54,803 - INFO - Raw model response: {"label": "Supported", "brief_reason": "Life expectancy in the USA has increased since the 1930s when Social Security was created."}
+2026-06-28 14:27:54,803 - INFO - Extracted label: Supported -> Normalized: Supported
+2026-06-28 14:27:54,804 - INFO - Prediction: Supported
+2026-06-28 14:27:54,805 - INFO - ✓ Correct prediction
+2026-06-28 14:27:54,906 - INFO - ================================================================================
+2026-06-28 14:27:54,906 - INFO - Processing claim #8 (ID: tsver_test_39)
+2026-06-28 14:27:54,906 - INFO - Claim: Nigeria's population is over 240 million....
+2026-06-28 14:27:54,906 - INFO - Date: 2024-03-03
+2026-06-28 14:27:54,906 - INFO - Asking model: gpt-4o-mini-2024-07-18 (method: strong_baseline_short)
+2026-06-28 14:27:54,906 - INFO - Claim: Nigeria's population is over 240 million....
+2026-06-28 14:27:55,863 - INFO - API Response Status: 200
+2026-06-28 14:27:55,863 - INFO - Raw model response: {"label": "Refuted", "brief_reason": "Nigeria's population is not over 240 million as of 2024."}
+2026-06-28 14:27:55,863 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2026-06-28 14:27:55,864 - INFO - Prediction: Refuted
+2026-06-28 14:27:55,864 - INFO - ✗ Incorrect (True: Not Enough Information, Pred: Refuted)
+2026-06-28 14:27:55,965 - INFO - ================================================================================
+2026-06-28 14:27:55,965 - INFO - Processing claim #9 (ID: tsver_test_42)
+2026-06-28 14:27:55,965 - INFO - Claim: 19% of the Kenyan population is between 15 and 24....
+2026-06-28 14:27:55,965 - INFO - Date: 2024-01-01
+2026-06-28 14:27:55,966 - INFO - Asking model: gpt-4o-mini-2024-07-18 (method: strong_baseline_short)
+2026-06-28 14:27:55,966 - INFO - Claim: 19% of the Kenyan population is between 15 and 24....
+2026-06-28 14:27:56,877 - INFO - API Response Status: 200
+2026-06-28 14:27:56,877 - INFO - Raw model response: {"label": "Not Enough Information", "brief_reason": "The claim lacks a specific source or context to verify the accuracy of the statistic."}
+2026-06-28 14:27:56,877 - INFO - Extracted label: Not Enough Information -> Normalized: Not Enough Information
+2026-06-28 14:27:56,878 - INFO - Prediction: Not Enough Information
+2026-06-28 14:27:56,878 - INFO - ✗ Incorrect (True: Supported, Pred: Not Enough Information)
+2026-06-28 14:27:56,981 - INFO - ================================================================================
+2026-06-28 14:27:56,981 - INFO - Processing claim #10 (ID: tsver_test_49)
+2026-06-28 14:27:56,981 - INFO - Claim: Our [Nigeria] young people [ages 15-29] … constitute more than 60% of our population....
+2026-06-28 14:27:56,981 - INFO - Date: 2024-10-01
+2026-06-28 14:27:56,981 - INFO - Asking model: gpt-4o-mini-2024-07-18 (method: strong_baseline_short)
+2026-06-28 14:27:56,981 - INFO - Claim: Our [Nigeria] young people [ages 15-29] … constitute more than 60% of our population....
+2026-06-28 14:27:58,768 - INFO - API Response Status: 200
+2026-06-28 14:27:58,768 - INFO - Raw model response: {"label": "Refuted", "brief_reason": "The claim that young people aged 15-29 constitute more than 60% of Nigeria's population is false."}
+2026-06-28 14:27:58,768 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2026-06-28 14:27:58,770 - INFO - Prediction: Refuted
+2026-06-28 14:27:58,770 - INFO - ✓ Correct prediction
+2026-06-28 14:27:58,871 - INFO - ================================================================================
+2026-06-28 14:27:58,871 - INFO - Processing claim #11 (ID: tsver_test_53)
+2026-06-28 14:27:58,871 - INFO - Claim: Namibia's battle against food insecurity persists, with approximately 22% of the population experiencing acute food insecurity....
+2026-06-28 14:27:58,871 - INFO - Date: 2024-08-01
+2026-06-28 14:27:58,871 - INFO - Asking model: gpt-4o-mini-2024-07-18 (method: strong_baseline_short)
+2026-06-28 14:27:58,871 - INFO - Claim: Namibia's battle against food insecurity persists, with approximately 22% of the population experiencing acute food insecurity....
+2026-06-28 14:27:59,875 - INFO - API Response Status: 200
+2026-06-28 14:27:59,875 - INFO - Raw model response: {"label": "Supported", "brief_reason": "The claim accurately reflects the ongoing issue of food insecurity in Namibia."}
+2026-06-28 14:27:59,875 - INFO - Extracted label: Supported -> Normalized: Supported
+2026-06-28 14:27:59,877 - INFO - Prediction: Supported
+2026-06-28 14:27:59,877 - INFO - ✗ Incorrect (True: Not Enough Information, Pred: Supported)
+2026-06-28 14:27:59,978 - INFO - ================================================================================
+2026-06-28 14:27:59,978 - INFO - Processing claim #12 (ID: tsver_test_62)
+2026-06-28 14:27:59,978 - INFO - Claim: Ghana's population has increased by over 5 million in 8 years....
+2026-06-28 14:27:59,978 - INFO - Date: 2024-09-18
+2026-06-28 14:27:59,978 - INFO - Asking model: gpt-4o-mini-2024-07-18 (method: strong_baseline_short)
+2026-06-28 14:27:59,978 - INFO - Claim: Ghana's population has increased by over 5 million in 8 years....
+2026-06-28 14:28:00,943 - INFO - API Response Status: 200
+2026-06-28 14:28:00,943 - INFO - Raw model response: {"label": "Supported", "brief_reason": "Ghana's population has indeed increased by over 5 million in the past 8 years."}
+2026-06-28 14:28:00,943 - INFO - Extracted label: Supported -> Normalized: Supported
+2026-06-28 14:28:00,944 - INFO - Prediction: Supported
+2026-06-28 14:28:00,944 - INFO - ✗ Incorrect (True: Refuted, Pred: Supported)
+2026-06-28 14:28:01,045 - INFO - ================================================================================
+2026-06-28 14:28:01,045 - INFO - Processing claim #13 (ID: tsver_test_76)
+2026-06-28 14:28:01,046 - INFO - Claim: Record low unemployment [in the USA] — 2 years of unemployment below 4%....
+2026-06-28 14:28:01,046 - INFO - Date: 2023-12-05
+2026-06-28 14:28:01,046 - INFO - Asking model: gpt-4o-mini-2024-07-18 (method: strong_baseline_short)
+2026-06-28 14:28:01,046 - INFO - Claim: Record low unemployment [in the USA] — 2 years of unemployment below 4%....
+2026-06-28 14:28:02,021 - INFO - API Response Status: 200
+2026-06-28 14:28:02,021 - INFO - Raw model response: {"label": "Supported", "brief_reason": "The claim accurately reflects the unemployment rate being below 4% for two consecutive years."}
+2026-06-28 14:28:02,021 - INFO - Extracted label: Supported -> Normalized: Supported
+2026-06-28 14:28:02,022 - INFO - Prediction: Supported
+2026-06-28 14:28:02,022 - INFO - ✓ Correct prediction
+2026-06-28 14:28:02,123 - INFO - ================================================================================
+2026-06-28 14:28:02,123 - INFO - Processing claim #14 (ID: tsver_test_77)
+2026-06-28 14:28:02,123 - INFO - Claim: Recent migrants account for a small proportion of the UK population....
+2026-06-28 14:28:02,124 - INFO - Date: 2024-03-15
+2026-06-28 14:28:02,124 - INFO - Asking model: gpt-4o-mini-2024-07-18 (method: strong_baseline_short)
+2026-06-28 14:28:02,124 - INFO - Claim: Recent migrants account for a small proportion of the UK population....
+2026-06-28 14:28:03,232 - INFO - API Response Status: 200
+2026-06-28 14:28:03,232 - INFO - Raw model response: {"label": "Supported", "brief_reason": "Recent data shows that migrants make up a small percentage of the total UK population."}
+2026-06-28 14:28:03,232 - INFO - Extracted label: Supported -> Normalized: Supported
+2026-06-28 14:28:03,233 - INFO - Prediction: Supported
+2026-06-28 14:28:03,233 - INFO - ✗ Incorrect (True: Refuted, Pred: Supported)
+2026-06-28 14:28:03,335 - INFO - ================================================================================
+2026-06-28 14:28:03,335 - INFO - Processing claim #15 (ID: tsver_test_91)
+2026-06-28 14:28:03,335 - INFO - Claim: In Africa, over 60% of the population is below 25....
+2026-06-28 14:28:03,335 - INFO - Date: 2024-01-01
+2026-06-28 14:28:03,335 - INFO - Asking model: gpt-4o-mini-2024-07-18 (method: strong_baseline_short)
+2026-06-28 14:28:03,335 - INFO - Claim: In Africa, over 60% of the population is below 25....
+2026-06-28 14:28:07,812 - INFO - API Response Status: 200
+2026-06-28 14:28:07,812 - INFO - Raw model response: {"label": "Supported", "brief_reason": "Demographic data indicates that a significant portion of Africa's population is indeed under 25."}
+2026-06-28 14:28:07,812 - INFO - Extracted label: Supported -> Normalized: Supported
+2026-06-28 14:28:07,813 - INFO - Prediction: Supported
+2026-06-28 14:28:07,813 - INFO - ✓ Correct prediction
+2026-06-28 14:28:07,914 - INFO - ================================================================================
+2026-06-28 14:28:07,914 - INFO - Processing claim #16 (ID: tsver_test_93)
+2026-06-28 14:28:07,914 - INFO - Claim: Half of the nation’s [Kenya] population comprises children....
+2026-06-28 14:28:07,914 - INFO - Date: 2024-02-01
+2026-06-28 14:28:07,914 - INFO - Asking model: gpt-4o-mini-2024-07-18 (method: strong_baseline_short)
+2026-06-28 14:28:07,914 - INFO - Claim: Half of the nation’s [Kenya] population comprises children....
+2026-06-28 14:28:08,837 - INFO - API Response Status: 200
+2026-06-28 14:28:08,837 - INFO - Raw model response: {"label": "Supported", "brief_reason": "Current statistics indicate that approximately half of Kenya's population is indeed children."}
+2026-06-28 14:28:08,837 - INFO - Extracted label: Supported -> Normalized: Supported
+2026-06-28 14:28:08,839 - INFO - Prediction: Supported
+2026-06-28 14:28:08,839 - INFO - ✗ Incorrect (True: Refuted, Pred: Supported)
+2026-06-28 14:28:08,940 - INFO - ================================================================================
+2026-06-28 14:28:08,940 - INFO - Processing claim #17 (ID: tsver_test_94)
+2026-06-28 14:28:08,940 - INFO - Claim: Nigeria has the third highest birth rate in the world....
+2026-06-28 14:28:08,940 - INFO - Date: 2024-04-01
+2026-06-28 14:28:08,940 - INFO - Asking model: gpt-4o-mini-2024-07-18 (method: strong_baseline_short)
+2026-06-28 14:28:08,940 - INFO - Claim: Nigeria has the third highest birth rate in the world....
+2026-06-28 14:28:09,930 - INFO - API Response Status: 200
+2026-06-28 14:28:09,931 - INFO - Raw model response: {"label": "Supported", "brief_reason": "Nigeria does have one of the highest birth rates globally, often ranking third."}
+2026-06-28 14:28:09,931 - INFO - Extracted label: Supported -> Normalized: Supported
+2026-06-28 14:28:09,932 - INFO - Prediction: Supported
+2026-06-28 14:28:09,932 - INFO - ✗ Incorrect (True: Refuted, Pred: Supported)
+2026-06-28 14:28:10,033 - INFO - ================================================================================
+2026-06-28 14:28:10,034 - INFO - Processing claim #18 (ID: tsver_test_100)
+2026-06-28 14:28:10,034 - INFO - Claim: Nigeria’s population has grown at a rate of more than 14% in the past 10 years....
+2026-06-28 14:28:10,034 - INFO - Date: 2025-01-01
+2026-06-28 14:28:10,034 - INFO - Asking model: gpt-4o-mini-2024-07-18 (method: strong_baseline_short)
+2026-06-28 14:28:10,034 - INFO - Claim: Nigeria’s population has grown at a rate of more than 14% in the past 10 years....
+2026-06-28 14:28:11,019 - INFO - API Response Status: 200
+2026-06-28 14:28:11,020 - INFO - Raw model response: {"label": "Refuted", "brief_reason": "Nigeria's population growth rate over the past decade has not exceeded 14%."}
+2026-06-28 14:28:11,020 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2026-06-28 14:28:11,021 - INFO - Prediction: Refuted
+2026-06-28 14:28:11,021 - INFO - ✗ Incorrect (True: Supported, Pred: Refuted)
+2026-06-28 14:28:11,123 - INFO - ================================================================================
+2026-06-28 14:28:11,123 - INFO - Processing claim #19 (ID: tsver_test_107)
+2026-06-28 14:28:11,123 - INFO - Claim: Life expectancy [in South Africa] has increased from 54 years in 2003 to 65 years in 2023....
+2026-06-28 14:28:11,123 - INFO - Date: 2024-02-08
+2026-06-28 14:28:11,124 - INFO - Asking model: gpt-4o-mini-2024-07-18 (method: strong_baseline_short)
+2026-06-28 14:28:11,124 - INFO - Claim: Life expectancy [in South Africa] has increased from 54 years in 2003 to 65 years in 2023....
+2026-06-28 14:28:12,221 - INFO - API Response Status: 200
+2026-06-28 14:28:12,221 - INFO - Raw model response: {"label": "Supported", "brief_reason": "The claim accurately reflects the increase in life expectancy in South Africa over the specified years."}
+2026-06-28 14:28:12,221 - INFO - Extracted label: Supported -> Normalized: Supported
+2026-06-28 14:28:12,222 - INFO - Prediction: Supported
+2026-06-28 14:28:12,223 - INFO - ✓ Correct prediction
+2026-06-28 14:28:12,324 - INFO - ================================================================================
+2026-06-28 14:28:12,324 - INFO - Processing claim #20 (ID: tsver_test_121)
+2026-06-28 14:28:12,324 - INFO - Claim: 45% of the Kenyan population is below 15 years....
+2026-06-28 14:28:12,325 - INFO - Date: 2024-01-01
+2026-06-28 14:28:12,325 - INFO - Asking model: gpt-4o-mini-2024-07-18 (method: strong_baseline_short)
+2026-06-28 14:28:12,325 - INFO - Claim: 45% of the Kenyan population is below 15 years....
+2026-06-28 14:28:13,764 - INFO - API Response Status: 200
+2026-06-28 14:28:13,764 - INFO - Raw model response: {"label": "Supported", "brief_reason": "The claim accurately reflects demographic data about Kenya's population."}
+2026-06-28 14:28:13,764 - INFO - Extracted label: Supported -> Normalized: Supported
+2026-06-28 14:28:13,766 - INFO - Prediction: Supported
+2026-06-28 14:28:13,766 - INFO - ✗ Incorrect (True: Refuted, Pred: Supported)
+2026-06-28 14:28:13,867 - INFO - ================================================================================
+2026-06-28 14:28:13,868 - INFO - Processing claim #21 (ID: tsver_test_126)
+2026-06-28 14:28:13,868 - INFO - Claim: In Iran, the female literacy rate is 98.9% and 70% of STEM university graduates are women, as of the most recent data available in June 2025....
+2026-06-28 14:28:13,868 - INFO - Date: 2025-06-25
+2026-06-28 14:28:13,868 - INFO - Asking model: gpt-4o-mini-2024-07-18 (method: strong_baseline_short)
+2026-06-28 14:28:13,868 - INFO - Claim: In Iran, the female literacy rate is 98.9% and 70% of STEM university graduates are women, as of the most recent data available in June 2025....
+2026-06-28 14:28:21,180 - INFO - API Response Status: 200
+2026-06-28 14:28:21,181 - INFO - Raw model response: {"label": "Refuted", "brief_reason": "The claim about the female literacy rate and the percentage of women STEM graduates in Iran is inaccurate."}
+2026-06-28 14:28:21,181 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2026-06-28 14:28:21,182 - INFO - Prediction: Refuted
+2026-06-28 14:28:21,182 - INFO - ✗ Incorrect (True: Not Enough Information, Pred: Refuted)
+2026-06-28 14:28:21,284 - INFO - ================================================================================
+2026-06-28 14:28:21,284 - INFO - Processing claim #22 (ID: tsver_test_128)
+2026-06-28 14:28:21,284 - INFO - Claim: Nigeria currently has close to 200,000 new HIV infections every year.”...
+2026-06-28 14:28:21,284 - INFO - Date: 2025-01-01
+2026-06-28 14:28:21,284 - INFO - Asking model: gpt-4o-mini-2024-07-18 (method: strong_baseline_short)
+2026-06-28 14:28:21,284 - INFO - Claim: Nigeria currently has close to 200,000 new HIV infections every year.”...
+2026-06-28 14:28:22,268 - INFO - API Response Status: 200
+2026-06-28 14:28:22,268 - INFO - Raw model response: {"label": "Refuted", "brief_reason": "The claim is false as Nigeria's new HIV infections are significantly lower than 200,000 annually."}
+2026-06-28 14:28:22,268 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2026-06-28 14:28:22,270 - INFO - Prediction: Refuted
+2026-06-28 14:28:22,270 - INFO - ✓ Correct prediction
+2026-06-28 14:28:22,371 - INFO - ================================================================================
+2026-06-28 14:28:22,371 - INFO - Processing claim #23 (ID: tsver_test_134)
+2026-06-28 14:28:22,371 - INFO - Claim: Sweden, France, Finland, the UK and Germany have abandoned renewable energy....
+2026-06-28 14:28:22,371 - INFO - Date: 2024-05-22
+2026-06-28 14:28:22,371 - INFO - Asking model: gpt-4o-mini-2024-07-18 (method: strong_baseline_short)
+2026-06-28 14:28:22,371 - INFO - Claim: Sweden, France, Finland, the UK and Germany have abandoned renewable energy....
+2026-06-28 14:28:23,445 - INFO - API Response Status: 200
+2026-06-28 14:28:23,445 - INFO - Raw model response: {"label": "Refuted", "brief_reason": "These countries have not abandoned renewable energy; they continue to invest in and utilize it."}
+2026-06-28 14:28:23,445 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2026-06-28 14:28:23,446 - INFO - Prediction: Refuted
+2026-06-28 14:28:23,446 - INFO - ✓ Correct prediction
+2026-06-28 14:28:23,547 - INFO - ================================================================================
+2026-06-28 14:28:23,547 - INFO - Processing claim #24 (ID: tsver_test_137)
+2026-06-28 14:28:23,548 - INFO - Claim: No country in the world has ever planted as many trees as China....
+2026-06-28 14:28:23,548 - INFO - Date: 2024-07-15
+2026-06-28 14:28:23,548 - INFO - Asking model: gpt-4o-mini-2024-07-18 (method: strong_baseline_short)
+2026-06-28 14:28:23,548 - INFO - Claim: No country in the world has ever planted as many trees as China....
+2026-06-28 14:28:24,555 - INFO - API Response Status: 200
+2026-06-28 14:28:24,556 - INFO - Raw model response: {"label": "Refuted", "brief_reason": "China has planted a significant number of trees, but other countries have also engaged in large-scale tree planting efforts."}
+2026-06-28 14:28:24,556 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2026-06-28 14:28:24,557 - INFO - Prediction: Refuted
+2026-06-28 14:28:24,557 - INFO - ✗ Incorrect (True: Supported, Pred: Refuted)
+2026-06-28 14:28:24,659 - INFO - ================================================================================
+2026-06-28 14:28:24,659 - INFO - Processing claim #25 (ID: tsver_test_144)
+2026-06-28 14:28:24,659 - INFO - Claim: Zimbabwe's economic growth fluctuated, not a steady 3-6%....
+2026-06-28 14:28:24,659 - INFO - Date: 2024-11-02
+2026-06-28 14:28:24,659 - INFO - Asking model: gpt-4o-mini-2024-07-18 (method: strong_baseline_short)
+2026-06-28 14:28:24,659 - INFO - Claim: Zimbabwe's economic growth fluctuated, not a steady 3-6%....
+2026-06-28 14:28:25,904 - INFO - API Response Status: 200
+2026-06-28 14:28:25,904 - INFO - Raw model response: {"label": "Supported", "brief_reason": "Zimbabwe's economic growth has indeed fluctuated over time."}
+2026-06-28 14:28:25,904 - INFO - Extracted label: Supported -> Normalized: Supported
+2026-06-28 14:28:25,906 - INFO - Prediction: Supported
+2026-06-28 14:28:25,906 - INFO - ✓ Correct prediction
+2026-06-28 14:28:26,007 - INFO - ================================================================================
+2026-06-28 14:28:26,007 - INFO - Processing claim #26 (ID: tsver_test_150)
+2026-06-28 14:28:26,007 - INFO - Claim: Our [Kenya] electricity generation is almost 95% renewable, from geothermal, hydro, wind, and solar energy....
+2026-06-28 14:28:26,007 - INFO - Date: 2024-05-01
+2026-06-28 14:28:26,007 - INFO - Asking model: gpt-4o-mini-2024-07-18 (method: strong_baseline_short)
+2026-06-28 14:28:26,007 - INFO - Claim: Our [Kenya] electricity generation is almost 95% renewable, from geothermal, hydro, wind, and solar energy....
+2026-06-28 14:28:26,971 - INFO - API Response Status: 200
+2026-06-28 14:28:26,972 - INFO - Raw model response: {"label": "Supported", "brief_reason": "Kenya's electricity generation is indeed reported to be around 95% renewable."}
+2026-06-28 14:28:26,972 - INFO - Extracted label: Supported -> Normalized: Supported
+2026-06-28 14:28:26,973 - INFO - Prediction: Supported
+2026-06-28 14:28:26,973 - INFO - ✓ Correct prediction
+2026-06-28 14:28:27,075 - INFO - ================================================================================
+2026-06-28 14:28:27,075 - INFO - Processing claim #27 (ID: tsver_test_162)
+2026-06-28 14:28:27,075 - INFO - Claim: Trump is the only U.S. president in the last 72 years (since 1952) not to "have any wars."...
+2026-06-28 14:28:27,075 - INFO - Date: 2024-01-11
+2026-06-28 14:28:27,075 - INFO - Asking model: gpt-4o-mini-2024-07-18 (method: strong_baseline_short)
+2026-06-28 14:28:27,075 - INFO - Claim: Trump is the only U.S. president in the last 72 years (since 1952) not to "have any wars."...
+2026-06-28 14:28:33,124 - INFO - API Response Status: 200
+2026-06-28 14:28:33,125 - INFO - Raw model response: {"label": "Misleading", "brief_reason": "While Trump did not initiate new wars, the claim omits the context of military engagements and conflicts during his presidency."}
+2026-06-28 14:28:33,125 - INFO - Extracted label: Misleading -> Normalized: Misleading
+2026-06-28 14:28:33,126 - INFO - Prediction: Misleading
+2026-06-28 14:28:33,126 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-06-28 14:28:33,228 - INFO - ================================================================================
+2026-06-28 14:28:33,228 - INFO - Processing claim #28 (ID: tsver_test_166)
+2026-06-28 14:28:33,228 - INFO - Claim: The last administration [USA] oversaw the largest increase in murders ever recorded....
+2026-06-28 14:28:33,228 - INFO - Date: 2024-05-24
+2026-06-28 14:28:33,228 - INFO - Asking model: gpt-4o-mini-2024-07-18 (method: strong_baseline_short)
+2026-06-28 14:28:33,228 - INFO - Claim: The last administration [USA] oversaw the largest increase in murders ever recorded....
+2026-06-28 14:28:34,394 - INFO - API Response Status: 200
+2026-06-28 14:28:34,394 - INFO - Raw model response: {"label": "Refuted", "brief_reason": "The claim about the last administration overseeing the largest increase in murders is false based on available crime data."}
+2026-06-28 14:28:34,394 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2026-06-28 14:28:34,396 - INFO - Prediction: Refuted
+2026-06-28 14:28:34,396 - INFO - ✓ Correct prediction
+2026-06-28 14:28:34,498 - INFO - ================================================================================
+2026-06-28 14:28:34,498 - INFO - Processing claim #29 (ID: tsver_test_172)
+2026-06-28 14:28:34,498 - INFO - Claim: Methane claims against cattle are overblown because all emissions from all livestock is only 3.9% of total US greenhouse gas emissions....
+2026-06-28 14:28:34,498 - INFO - Date: 2023-12-19
+2026-06-28 14:28:34,498 - INFO - Asking model: gpt-4o-mini-2024-07-18 (method: strong_baseline_short)
+2026-06-28 14:28:34,498 - INFO - Claim: Methane claims against cattle are overblown because all emissions from all livestock is only 3.9% of total US greenhouse gas emissions....
+2026-06-28 14:28:40,594 - INFO - API Response Status: 200
+2026-06-28 14:28:40,594 - INFO - Raw model response: {"label": "Misleading", "brief_reason": "While the percentage of livestock emissions is accurate, it downplays the significant impact of methane as a potent greenhouse gas."}
+2026-06-28 14:28:40,594 - INFO - Extracted label: Misleading -> Normalized: Misleading
+2026-06-28 14:28:40,596 - INFO - Prediction: Misleading
+2026-06-28 14:28:40,596 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-06-28 14:28:40,699 - INFO - ================================================================================
+2026-06-28 14:28:40,699 - INFO - Processing claim #30 (ID: tsver_test_177)
+2026-06-28 14:28:40,699 - INFO - Claim: Germany is "back to coal," coal plants are being opened “all over Germany.”...
+2026-06-28 14:28:40,699 - INFO - Date: 2025-04-08
+2026-06-28 14:28:40,699 - INFO - Asking model: gpt-4o-mini-2024-07-18 (method: strong_baseline_short)
+2026-06-28 14:28:40,699 - INFO - Claim: Germany is "back to coal," coal plants are being opened “all over Germany.”...
+2026-06-28 14:28:41,725 - INFO - API Response Status: 200
+2026-06-28 14:28:41,725 - INFO - Raw model response: {"label": "Misleading", "brief_reason": "While Germany has increased coal usage, the claim exaggerates the extent and context of coal plant openings."}
+2026-06-28 14:28:41,725 - INFO - Extracted label: Misleading -> Normalized: Misleading
+2026-06-28 14:28:41,727 - INFO - Prediction: Misleading
+2026-06-28 14:28:41,728 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-06-28 14:28:41,829 - INFO - ================================================================================
+2026-06-28 14:28:41,829 - INFO - Processing claim #31 (ID: tsver_test_179)
+2026-06-28 14:28:41,830 - INFO - Claim: I had no wars. I’m the only president in 72 years, I didn’t have any wars....
+2026-06-28 14:28:41,830 - INFO - Date: 2024-01-10
+2026-06-28 14:28:41,830 - INFO - Asking model: gpt-4o-mini-2024-07-18 (method: strong_baseline_short)
+2026-06-28 14:28:41,830 - INFO - Claim: I had no wars. I’m the only president in 72 years, I didn’t have any wars....
+2026-06-28 14:28:42,974 - INFO - API Response Status: 200
+2026-06-28 14:28:42,974 - INFO - Raw model response: {"label": "Refuted", "brief_reason": "The claim is false as there have been military engagements during the president's term."}
+2026-06-28 14:28:42,974 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2026-06-28 14:28:42,976 - INFO - Prediction: Refuted
+2026-06-28 14:28:42,976 - INFO - ✓ Correct prediction
+2026-06-28 14:28:43,078 - INFO - ================================================================================
+2026-06-28 14:28:43,078 - INFO - Processing claim #32 (ID: tsver_test_181)
+2026-06-28 14:28:43,078 - INFO - Claim: Cocoa Production, which was at 960,000 metric tonnes in the 2016/2017 season, has now declined to below 500,000 metric tonnes....
+2026-06-28 14:28:43,078 - INFO - Date: 2024-02-15
+2026-06-28 14:28:43,078 - INFO - Asking model: gpt-4o-mini-2024-07-18 (method: strong_baseline_short)
+2026-06-28 14:28:43,078 - INFO - Claim: Cocoa Production, which was at 960,000 metric tonnes in the 2016/2017 season, has now declined to below 500,000 metric tonnes....
+2026-06-28 14:28:49,884 - INFO - API Response Status: 200
+2026-06-28 14:28:49,884 - INFO - Raw model response: {"label": "Not Enough Information", "brief_reason": "The claim lacks current data to verify the decline in cocoa production."}
+2026-06-28 14:28:49,884 - INFO - Extracted label: Not Enough Information -> Normalized: Not Enough Information
+2026-06-28 14:28:49,886 - INFO - Prediction: Not Enough Information
+2026-06-28 14:28:49,886 - INFO - ✗ Incorrect (True: Refuted, Pred: Not Enough Information)
+2026-06-28 14:28:49,988 - INFO - ================================================================================
+2026-06-28 14:28:49,988 - INFO - Processing claim #33 (ID: tsver_test_183)
+2026-06-28 14:28:49,988 - INFO - Claim: I [Donald Trump] have stopped all government censorship and brought back free speech in America. It’s back....
+2026-06-28 14:28:49,988 - INFO - Date: 2025-03-04
+2026-06-28 14:28:49,988 - INFO - Asking model: gpt-4o-mini-2024-07-18 (method: strong_baseline_short)
+2026-06-28 14:28:49,989 - INFO - Claim: I [Donald Trump] have stopped all government censorship and brought back free speech in America. It’s back....
+2026-06-28 14:28:50,977 - INFO - API Response Status: 200
+2026-06-28 14:28:50,978 - INFO - Raw model response: {"label": "Refuted", "brief_reason": "Government censorship and free speech issues remain contentious and unresolved."}
+2026-06-28 14:28:50,978 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2026-06-28 14:28:50,980 - INFO - Prediction: Refuted
+2026-06-28 14:28:50,980 - INFO - ✗ Incorrect (True: Not Enough Information, Pred: Refuted)
+2026-06-28 14:28:51,081 - INFO - ================================================================================
+2026-06-28 14:28:51,082 - INFO - Processing claim #34 (ID: tsver_test_185)
+2026-06-28 14:28:51,082 - INFO - Claim: [There has been] a global boost in cereal production over the last 60 years....
+2026-06-28 14:28:51,082 - INFO - Date: 2024-10-28
+2026-06-28 14:28:51,082 - INFO - Asking model: gpt-4o-mini-2024-07-18 (method: strong_baseline_short)
+2026-06-28 14:28:51,082 - INFO - Claim: [There has been] a global boost in cereal production over the last 60 years....
+2026-06-28 14:28:52,073 - INFO - API Response Status: 200
+2026-06-28 14:28:52,074 - INFO - Raw model response: {"label": "Supported", "brief_reason": "Cereal production has indeed increased globally over the past 60 years."}
+2026-06-28 14:28:52,074 - INFO - Extracted label: Supported -> Normalized: Supported
+2026-06-28 14:28:52,076 - INFO - Prediction: Supported
+2026-06-28 14:28:52,076 - INFO - ✓ Correct prediction
+2026-06-28 14:28:52,178 - INFO - ================================================================================
+2026-06-28 14:28:52,178 - INFO - Processing claim #35 (ID: tsver_test_188)
+2026-06-28 14:28:52,178 - INFO - Claim: China doesn’t have a lot of wind farms. … Very, very few....
+2026-06-28 14:28:52,178 - INFO - Date: 2025-07-08
+2026-06-28 14:28:52,178 - INFO - Asking model: gpt-4o-mini-2024-07-18 (method: strong_baseline_short)
+2026-06-28 14:28:52,178 - INFO - Claim: China doesn’t have a lot of wind farms. … Very, very few....
+2026-06-28 14:28:53,977 - INFO - API Response Status: 200
+2026-06-28 14:28:53,978 - INFO - Raw model response: {"label": "Refuted", "brief_reason": "China has the largest number of wind farms in the world."}
+2026-06-28 14:28:53,978 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2026-06-28 14:28:53,980 - INFO - Prediction: Refuted
+2026-06-28 14:28:53,980 - INFO - ✓ Correct prediction
+2026-06-28 14:28:54,081 - INFO - ================================================================================
+2026-06-28 14:28:54,081 - INFO - Processing claim #36 (ID: tsver_test_189)
+2026-06-28 14:28:54,081 - INFO - Claim: [Kenya's] GDP growth improved from 4.9% in 2022 to 5.6% in 2023 …...
+2026-06-28 14:28:54,081 - INFO - Date: 2025-03-01
+2026-06-28 14:28:54,081 - INFO - Asking model: gpt-4o-mini-2024-07-18 (method: strong_baseline_short)
+2026-06-28 14:28:54,081 - INFO - Claim: [Kenya's] GDP growth improved from 4.9% in 2022 to 5.6% in 2023 …...
+2026-06-28 14:28:55,818 - INFO - API Response Status: 200
+2026-06-28 14:28:55,819 - INFO - Raw model response: {"label": "Not Enough Information", "brief_reason": "The claim lacks specific data or context to verify the GDP growth figures for 2023."}
+2026-06-28 14:28:55,819 - INFO - Extracted label: Not Enough Information -> Normalized: Not Enough Information
+2026-06-28 14:28:55,821 - INFO - Prediction: Not Enough Information
+2026-06-28 14:28:55,821 - INFO - ✗ Incorrect (True: Supported, Pred: Not Enough Information)
+2026-06-28 14:28:55,923 - INFO - ================================================================================
+2026-06-28 14:28:55,923 - INFO - Processing claim #37 (ID: tsver_test_193)
+2026-06-28 14:28:55,923 - INFO - Claim: ... homophobic views declined in countries around the world from 1993 to 2022....
+2026-06-28 14:28:55,924 - INFO - Date: 2025-08-15
+2026-06-28 14:28:55,924 - INFO - Asking model: gpt-4o-mini-2024-07-18 (method: strong_baseline_short)
+2026-06-28 14:28:55,924 - INFO - Claim: ... homophobic views declined in countries around the world from 1993 to 2022....
+2026-06-28 14:28:56,852 - INFO - API Response Status: 200
+2026-06-28 14:28:56,853 - INFO - Raw model response: {"label": "Not Enough Information", "brief_reason": "The claim lacks specific data or context to assess the accuracy of the decline in homophobic views."}
+2026-06-28 14:28:56,853 - INFO - Extracted label: Not Enough Information -> Normalized: Not Enough Information
+2026-06-28 14:28:56,855 - INFO - Prediction: Not Enough Information
+2026-06-28 14:28:56,855 - INFO - ✗ Incorrect (True: Supported, Pred: Not Enough Information)
+2026-06-28 14:28:56,956 - INFO - ================================================================================
+2026-06-28 14:28:56,956 - INFO - Processing claim #38 (ID: tsver_test_196)
+2026-06-28 14:28:56,956 - INFO - Claim: If wind and solar power were the answer, China would be building them at record speed. Instead they’re increasing their use of coal....
+2026-06-28 14:28:56,956 - INFO - Date: 2024-09-01
+2026-06-28 14:28:56,956 - INFO - Asking model: gpt-4o-mini-2024-07-18 (method: strong_baseline_short)
+2026-06-28 14:28:56,957 - INFO - Claim: If wind and solar power were the answer, China would be building them at record speed. Instead they’re increasing their use of coal....
+2026-06-28 14:28:57,999 - INFO - API Response Status: 200
+2026-06-28 14:28:57,999 - INFO - Raw model response: {"label": "Misleading", "brief_reason": "The claim overlooks China's significant investments in renewable energy while also increasing coal use."}
+2026-06-28 14:28:58,000 - INFO - Extracted label: Misleading -> Normalized: Misleading
+2026-06-28 14:28:58,001 - INFO - Prediction: Misleading
+2026-06-28 14:28:58,002 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-06-28 14:28:58,103 - INFO - ================================================================================
+2026-06-28 14:28:58,103 - INFO - Processing claim #39 (ID: tsver_test_197)
+2026-06-28 14:28:58,104 - INFO - Claim: 47.3% of Nigerians were multidimensionally poor in 2021....
+2026-06-28 14:28:58,104 - INFO - Date: 2024-05-01
+2026-06-28 14:28:58,104 - INFO - Asking model: gpt-4o-mini-2024-07-18 (method: strong_baseline_short)
+2026-06-28 14:28:58,104 - INFO - Claim: 47.3% of Nigerians were multidimensionally poor in 2021....
+2026-06-28 14:28:59,120 - INFO - API Response Status: 200
+2026-06-28 14:28:59,120 - INFO - Raw model response: {"label": "Supported", "brief_reason": "The claim accurately reflects the multidimensional poverty rate in Nigeria for 2021."}
+2026-06-28 14:28:59,120 - INFO - Extracted label: Supported -> Normalized: Supported
+2026-06-28 14:28:59,122 - INFO - Prediction: Supported
+2026-06-28 14:28:59,122 - INFO - ✗ Incorrect (True: Refuted, Pred: Supported)
+2026-06-28 14:28:59,226 - INFO - ================================================================================
+2026-06-28 14:28:59,226 - INFO - Processing claim #40 (ID: tsver_test_205)
+2026-06-28 14:28:59,226 - INFO - Claim: We [USA] had no terrorist attacks at all during my four years....
+2026-06-28 14:28:59,226 - INFO - Date: 2024-01-10
+2026-06-28 14:28:59,226 - INFO - Asking model: gpt-4o-mini-2024-07-18 (method: strong_baseline_short)
+2026-06-28 14:28:59,226 - INFO - Claim: We [USA] had no terrorist attacks at all during my four years....
+2026-06-28 14:29:00,504 - INFO - API Response Status: 200
+2026-06-28 14:29:00,504 - INFO - Raw model response: {"label": "Refuted", "brief_reason": "There were terrorist attacks in the USA during that time period."}
+2026-06-28 14:29:00,504 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2026-06-28 14:29:00,506 - INFO - Prediction: Refuted
+2026-06-28 14:29:00,506 - INFO - ✓ Correct prediction
+2026-06-28 14:29:00,608 - INFO - ================================================================================
+2026-06-28 14:29:00,608 - INFO - Processing claim #41 (ID: tsver_test_209)
+2026-06-28 14:29:00,608 - INFO - Claim: 300,000 or 350,000 people died last year from drugs [in the USA]....
+2026-06-28 14:29:00,608 - INFO - Date: 2025-09-05
+2026-06-28 14:29:00,608 - INFO - Asking model: gpt-4o-mini-2024-07-18 (method: strong_baseline_short)
+2026-06-28 14:29:00,608 - INFO - Claim: 300,000 or 350,000 people died last year from drugs [in the USA]....
+2026-06-28 14:29:01,672 - INFO - API Response Status: 200
+2026-06-28 14:29:01,673 - INFO - Raw model response: {"label": "Not Enough Information", "brief_reason": "The claim lacks specific data to verify the exact number of drug-related deaths."}
+2026-06-28 14:29:01,673 - INFO - Extracted label: Not Enough Information -> Normalized: Not Enough Information
+2026-06-28 14:29:01,674 - INFO - Prediction: Not Enough Information
+2026-06-28 14:29:01,675 - INFO - ✓ Correct prediction
+2026-06-28 14:29:01,776 - INFO - ================================================================================
+2026-06-28 14:29:01,776 - INFO - Processing claim #42 (ID: tsver_test_210)
+2026-06-28 14:29:01,776 - INFO - Claim: Cocoa production in West and Central Africa is increasing, there is no impact of climate change....
+2026-06-28 14:29:01,776 - INFO - Date: 2025-04-16
+2026-06-28 14:29:01,776 - INFO - Asking model: gpt-4o-mini-2024-07-18 (method: strong_baseline_short)
+2026-06-28 14:29:01,776 - INFO - Claim: Cocoa production in West and Central Africa is increasing, there is no impact of climate change....
+2026-06-28 14:29:02,846 - INFO - API Response Status: 200
+2026-06-28 14:29:02,846 - INFO - Raw model response: {"label": "Refuted", "brief_reason": "Climate change is known to negatively impact cocoa production in these regions."}
+2026-06-28 14:29:02,846 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2026-06-28 14:29:02,848 - INFO - Prediction: Refuted
+2026-06-28 14:29:02,848 - INFO - ✗ Incorrect (True: Misleading, Pred: Refuted)
+2026-06-28 14:29:02,950 - INFO - ================================================================================
+2026-06-28 14:29:02,950 - INFO - Processing claim #43 (ID: tsver_test_214)
+2026-06-28 14:29:02,950 - INFO - Claim: India ranks fourth globally in income inequality....
+2026-06-28 14:29:02,950 - INFO - Date: 2025-07-05
+2026-06-28 14:29:02,950 - INFO - Asking model: gpt-4o-mini-2024-07-18 (method: strong_baseline_short)
+2026-06-28 14:29:02,950 - INFO - Claim: India ranks fourth globally in income inequality....
+2026-06-28 14:29:08,002 - INFO - API Response Status: 200
+2026-06-28 14:29:08,002 - INFO - Raw model response: {"label": "Refuted", "brief_reason": "India does not rank fourth globally in income inequality according to the latest data."}
+2026-06-28 14:29:08,002 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2026-06-28 14:29:08,005 - INFO - Prediction: Refuted
+2026-06-28 14:29:08,005 - INFO - ✓ Correct prediction
+2026-06-28 14:29:08,107 - INFO - ================================================================================
+2026-06-28 14:29:08,107 - INFO - Processing claim #44 (ID: tsver_test_216)
+2026-06-28 14:29:08,107 - INFO - Claim: We [Namibia] are gradually reducing income inequality, as measured by the Gini coefficient, falling from 0.70 in the 1990s …...
+2026-06-28 14:29:08,107 - INFO - Date: 2024-09-01
+2026-06-28 14:29:08,107 - INFO - Asking model: gpt-4o-mini-2024-07-18 (method: strong_baseline_short)
+2026-06-28 14:29:08,107 - INFO - Claim: We [Namibia] are gradually reducing income inequality, as measured by the Gini coefficient, falling from 0.70 in the 1990s …...
+2026-06-28 14:29:14,538 - INFO - API Response Status: 200
+2026-06-28 14:29:14,538 - INFO - Raw model response: {"label": "Supported", "brief_reason": "The claim about Namibia reducing income inequality is accurate based on Gini coefficient trends."}
+2026-06-28 14:29:14,538 - INFO - Extracted label: Supported -> Normalized: Supported
+2026-06-28 14:29:14,539 - INFO - Prediction: Supported
+2026-06-28 14:29:14,540 - INFO - ✓ Correct prediction
+2026-06-28 14:29:14,641 - INFO - ================================================================================
+2026-06-28 14:29:14,641 - INFO - Processing claim #45 (ID: tsver_test_226)
+2026-06-28 14:29:14,641 - INFO - Claim: The UK economy is growing faster than almost any other major country, including the United States....
+2026-06-28 14:29:14,641 - INFO - Date: 2024-05-23
+2026-06-28 14:29:14,641 - INFO - Asking model: gpt-4o-mini-2024-07-18 (method: strong_baseline_short)
+2026-06-28 14:29:14,641 - INFO - Claim: The UK economy is growing faster than almost any other major country, including the United States....
+2026-06-28 14:29:15,736 - INFO - API Response Status: 200
+2026-06-28 14:29:15,736 - INFO - Raw model response: {"label": "Misleading", "brief_reason": "While the UK economy may show growth, it often lags behind major economies like the US in overall performance and context."}
+2026-06-28 14:29:15,736 - INFO - Extracted label: Misleading -> Normalized: Misleading
+2026-06-28 14:29:15,737 - INFO - Prediction: Misleading
+2026-06-28 14:29:15,737 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-06-28 14:29:15,839 - INFO - ================================================================================
+2026-06-28 14:29:15,839 - INFO - Processing claim #46 (ID: tsver_test_229)
+2026-06-28 14:29:15,839 - INFO - Claim: We [South Africa] have the highest unemployment rate on earth, and that has now been the case for decades....
+2026-06-28 14:29:15,839 - INFO - Date: 2025-02-01
+2026-06-28 14:29:15,839 - INFO - Asking model: gpt-4o-mini-2024-07-18 (method: strong_baseline_short)
+2026-06-28 14:29:15,839 - INFO - Claim: We [South Africa] have the highest unemployment rate on earth, and that has now been the case for decades....
+2026-06-28 14:29:16,897 - INFO - API Response Status: 200
+2026-06-28 14:29:16,897 - INFO - Raw model response: {"label": "Misleading", "brief_reason": "While South Africa has a high unemployment rate, it is not consistently the highest in the world, and the claim lacks context regarding changes over decades."}
+2026-06-28 14:29:16,897 - INFO - Extracted label: Misleading -> Normalized: Misleading
+2026-06-28 14:29:16,899 - INFO - Prediction: Misleading
+2026-06-28 14:29:16,899 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-06-28 14:29:17,000 - INFO - ================================================================================
+2026-06-28 14:29:17,000 - INFO - Processing claim #47 (ID: tsver_test_232)
+2026-06-28 14:29:17,000 - INFO - Claim: Australia spends twice what Taiwan spends on the military, despite having about the same population and similarly sized economies....
+2026-06-28 14:29:17,000 - INFO - Date: 2024-04-28
+2026-06-28 14:29:17,000 - INFO - Asking model: gpt-4o-mini-2024-07-18 (method: strong_baseline_short)
+2026-06-28 14:29:17,000 - INFO - Claim: Australia spends twice what Taiwan spends on the military, despite having about the same population and similarly sized economies....
+2026-06-28 14:29:23,107 - INFO - API Response Status: 200
+2026-06-28 14:29:23,108 - INFO - Raw model response: {"label": "Misleading", "brief_reason": "While Australia may spend more on its military, the comparison lacks context regarding defense needs and budget allocations."}
+2026-06-28 14:29:23,108 - INFO - Extracted label: Misleading -> Normalized: Misleading
+2026-06-28 14:29:23,109 - INFO - Prediction: Misleading
+2026-06-28 14:29:23,109 - INFO - ✗ Incorrect (True: Supported, Pred: Misleading)
+2026-06-28 14:29:23,211 - INFO - ================================================================================
+2026-06-28 14:29:23,211 - INFO - Processing claim #48 (ID: tsver_test_245)
+2026-06-28 14:29:23,211 - INFO - Claim: Tuberculosis cases are rising in the United States....
+2026-06-28 14:29:23,211 - INFO - Date: 2024-04-04
+2026-06-28 14:29:23,211 - INFO - Asking model: gpt-4o-mini-2024-07-18 (method: strong_baseline_short)
+2026-06-28 14:29:23,211 - INFO - Claim: Tuberculosis cases are rising in the United States....
+2026-06-28 14:29:24,572 - INFO - API Response Status: 200
+2026-06-28 14:29:24,572 - INFO - Raw model response: {"label": "Supported", "brief_reason": "Recent data indicates an increase in tuberculosis cases in the United States."}
+2026-06-28 14:29:24,572 - INFO - Extracted label: Supported -> Normalized: Supported
+2026-06-28 14:29:24,574 - INFO - Prediction: Supported
+2026-06-28 14:29:24,574 - INFO - ✓ Correct prediction
+2026-06-28 14:29:24,676 - INFO - ================================================================================
+2026-06-28 14:29:24,676 - INFO - Processing claim #49 (ID: tsver_test_249)
+2026-06-28 14:29:24,676 - INFO - Claim: India surpassed Japan to become the fourth largest economy; India is currently a $4 trillion economy....
+2026-06-28 14:29:24,676 - INFO - Date: 2025-05-24
+2026-06-28 14:29:24,676 - INFO - Asking model: gpt-4o-mini-2024-07-18 (method: strong_baseline_short)
+2026-06-28 14:29:24,676 - INFO - Claim: India surpassed Japan to become the fourth largest economy; India is currently a $4 trillion economy....
+2026-06-28 14:29:27,745 - INFO - API Response Status: 200
+2026-06-28 14:29:27,745 - INFO - Raw model response: {"label": "Supported", "brief_reason": "India did surpass Japan to become the fourth largest economy and is currently a $4 trillion economy."}
+2026-06-28 14:29:27,745 - INFO - Extracted label: Supported -> Normalized: Supported
+2026-06-28 14:29:27,746 - INFO - Prediction: Supported
+2026-06-28 14:29:27,747 - INFO - ✗ Incorrect (True: Refuted, Pred: Supported)
+2026-06-28 14:29:27,848 - INFO - ================================================================================
+2026-06-28 14:29:27,849 - INFO - Processing claim #50 (ID: tsver_test_253)
+2026-06-28 14:29:27,849 - INFO - Claim: “Alarming” rise of measles cases in Europe. Measles infections increased more than 45-fold in one year....
+2026-06-28 14:29:27,849 - INFO - Date: 2024-02-01
+2026-06-28 14:29:27,849 - INFO - Asking model: gpt-4o-mini-2024-07-18 (method: strong_baseline_short)
+2026-06-28 14:29:27,849 - INFO - Claim: “Alarming” rise of measles cases in Europe. Measles infections increased more than 45-fold in one year....
+2026-06-28 14:29:28,925 - INFO - API Response Status: 200
+2026-06-28 14:29:28,925 - INFO - Raw model response: {"label": "Misleading", "brief_reason": "While there may be an increase in measles cases, the claim exaggerates the situation without providing necessary context."}
+2026-06-28 14:29:28,925 - INFO - Extracted label: Misleading -> Normalized: Misleading
+2026-06-28 14:29:28,926 - INFO - Prediction: Misleading
+2026-06-28 14:29:28,926 - INFO - ✓ Correct prediction
+2026-06-28 14:29:29,028 - INFO - ================================================================================
+2026-06-28 14:29:29,028 - INFO - Processing claim #51 (ID: tsver_test_257)
+2026-06-28 14:29:29,028 - INFO - Claim: Adult literacy [in South Africa] now stands at 85%....
+2026-06-28 14:29:29,028 - INFO - Date: 2024-01-01
+2026-06-28 14:29:29,028 - INFO - Asking model: gpt-4o-mini-2024-07-18 (method: strong_baseline_short)
+2026-06-28 14:29:29,028 - INFO - Claim: Adult literacy [in South Africa] now stands at 85%....
+2026-06-28 14:29:30,109 - INFO - API Response Status: 200
+2026-06-28 14:29:30,109 - INFO - Raw model response: {"label": "Refuted", "brief_reason": "The claim that adult literacy in South Africa stands at 85% is false."}
+2026-06-28 14:29:30,109 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2026-06-28 14:29:30,110 - INFO - Prediction: Refuted
+2026-06-28 14:29:30,110 - INFO - ✗ Incorrect (True: Not Enough Information, Pred: Refuted)
+2026-06-28 14:29:30,212 - INFO - ================================================================================
+2026-06-28 14:29:30,212 - INFO - Processing claim #52 (ID: tsver_test_267)
+2026-06-28 14:29:30,212 - INFO - Claim: Australia is experiencing its worst GDP per capita recession in history....
+2026-06-28 14:29:30,212 - INFO - Date: 2024-11-05
+2026-06-28 14:29:30,212 - INFO - Asking model: gpt-4o-mini-2024-07-18 (method: strong_baseline_short)
+2026-06-28 14:29:30,212 - INFO - Claim: Australia is experiencing its worst GDP per capita recession in history....
+2026-06-28 14:29:31,163 - INFO - API Response Status: 200
+2026-06-28 14:29:31,163 - INFO - Raw model response: {"label": "Not Enough Information", "brief_reason": "The claim lacks specific data or context to verify the assertion about GDP per capita recession."}
+2026-06-28 14:29:31,164 - INFO - Extracted label: Not Enough Information -> Normalized: Not Enough Information
+2026-06-28 14:29:31,165 - INFO - Prediction: Not Enough Information
+2026-06-28 14:29:31,165 - INFO - ✗ Incorrect (True: Refuted, Pred: Not Enough Information)
+2026-06-28 14:29:31,266 - INFO - ================================================================================
+2026-06-28 14:29:31,266 - INFO - Processing claim #53 (ID: tsver_test_269)
+2026-06-28 14:29:31,266 - INFO - Claim: Russia's defence spending is at 43% of its GDP....
+2026-06-28 14:29:31,266 - INFO - Date: 2025-05-11
+2026-06-28 14:29:31,266 - INFO - Asking model: gpt-4o-mini-2024-07-18 (method: strong_baseline_short)
+2026-06-28 14:29:31,266 - INFO - Claim: Russia's defence spending is at 43% of its GDP....
+2026-06-28 14:29:37,649 - INFO - API Response Status: 200
+2026-06-28 14:29:37,649 - INFO - Raw model response: {"label": "Not Enough Information", "brief_reason": "The claim lacks context regarding the accuracy of the GDP figure and current defense spending data."}
+2026-06-28 14:29:37,649 - INFO - Extracted label: Not Enough Information -> Normalized: Not Enough Information
+2026-06-28 14:29:37,650 - INFO - Prediction: Not Enough Information
+2026-06-28 14:29:37,650 - INFO - ✗ Incorrect (True: Refuted, Pred: Not Enough Information)
+2026-06-28 14:29:37,752 - INFO - ================================================================================
+2026-06-28 14:29:37,752 - INFO - Processing claim #54 (ID: tsver_test_273)
+2026-06-28 14:29:37,752 - INFO - Claim: Measles cases [in Europe] rose sharply in 2023, but they did not even reach pre pandemic levels....
+2026-06-28 14:29:37,752 - INFO - Date: 2024-02-01
+2026-06-28 14:29:37,752 - INFO - Asking model: gpt-4o-mini-2024-07-18 (method: strong_baseline_short)
+2026-06-28 14:29:37,752 - INFO - Claim: Measles cases [in Europe] rose sharply in 2023, but they did not even reach pre pandemic levels....
+2026-06-28 14:29:38,768 - INFO - API Response Status: 200
+2026-06-28 14:29:38,769 - INFO - Raw model response: {"label": "Supported", "brief_reason": "The claim accurately reflects the rise in measles cases in Europe in 2023 without reaching pre-pandemic levels."}
+2026-06-28 14:29:38,769 - INFO - Extracted label: Supported -> Normalized: Supported
+2026-06-28 14:29:38,770 - INFO - Prediction: Supported
+2026-06-28 14:29:38,770 - INFO - ✓ Correct prediction
+2026-06-28 14:29:38,871 - INFO - ================================================================================
+2026-06-28 14:29:38,871 - INFO - Processing claim #55 (ID: tsver_test_282)
+2026-06-28 14:29:38,871 - INFO - Claim: NHS figures show about one in 10 children in Reception [typically aged 4-5] are clinically obese....
+2026-06-28 14:29:38,871 - INFO - Date: 2025-01-15
+2026-06-28 14:29:38,872 - INFO - Asking model: gpt-4o-mini-2024-07-18 (method: strong_baseline_short)
+2026-06-28 14:29:38,872 - INFO - Claim: NHS figures show about one in 10 children in Reception [typically aged 4-5] are clinically obese....
+2026-06-28 14:29:46,079 - INFO - API Response Status: 200
+2026-06-28 14:29:46,079 - INFO - Raw model response: {"label": "Not Enough Information", "brief_reason": "The claim lacks a specific source or context for the NHS figures mentioned."}
+2026-06-28 14:29:46,079 - INFO - Extracted label: Not Enough Information -> Normalized: Not Enough Information
+2026-06-28 14:29:46,080 - INFO - Prediction: Not Enough Information
+2026-06-28 14:29:46,081 - INFO - ✗ Incorrect (True: Refuted, Pred: Not Enough Information)
+2026-06-28 14:29:46,181 - INFO - ================================================================================
+2026-06-28 14:29:46,182 - INFO - Processing claim #56 (ID: tsver_test_285)
+2026-06-28 14:29:46,182 - INFO - Claim: The murder rate in South Africa is behind only Jamaica and Ecuador....
+2026-06-28 14:29:46,182 - INFO - Date: 2025-09-01
+2026-06-28 14:29:46,182 - INFO - Asking model: gpt-4o-mini-2024-07-18 (method: strong_baseline_short)
+2026-06-28 14:29:46,182 - INFO - Claim: The murder rate in South Africa is behind only Jamaica and Ecuador....
+2026-06-28 14:29:47,542 - INFO - API Response Status: 200
+2026-06-28 14:29:47,543 - INFO - Raw model response: {"label": "Refuted", "brief_reason": "The claim is false as South Africa's murder rate is not the third highest globally."}
+2026-06-28 14:29:47,543 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2026-06-28 14:29:47,544 - INFO - Prediction: Refuted
+2026-06-28 14:29:47,544 - INFO - ✗ Incorrect (True: Not Enough Information, Pred: Refuted)
+2026-06-28 14:29:47,646 - INFO - ================================================================================
+2026-06-28 14:29:47,646 - INFO - Processing claim #57 (ID: tsver_test_286)
+2026-06-28 14:29:47,646 - INFO - Claim: The mass of ice in Antarctica has rebounded after increasing in recent years....
+2026-06-28 14:29:47,646 - INFO - Date: 2025-08-26
+2026-06-28 14:29:47,646 - INFO - Asking model: gpt-4o-mini-2024-07-18 (method: strong_baseline_short)
+2026-06-28 14:29:47,646 - INFO - Claim: The mass of ice in Antarctica has rebounded after increasing in recent years....
+2026-06-28 14:29:48,652 - INFO - API Response Status: 200
+2026-06-28 14:29:48,652 - INFO - Raw model response: {"label": "Misleading", "brief_reason": "While some areas of Antarctica may show ice mass increases, overall trends indicate significant ice loss."}
+2026-06-28 14:29:48,652 - INFO - Extracted label: Misleading -> Normalized: Misleading
+2026-06-28 14:29:48,654 - INFO - Prediction: Misleading
+2026-06-28 14:29:48,654 - INFO - ✗ Incorrect (True: Not Enough Information, Pred: Misleading)
+2026-06-28 14:29:48,756 - INFO - ================================================================================
+2026-06-28 14:29:48,756 - INFO - Processing claim #58 (ID: tsver_test_288)
+2026-06-28 14:29:48,756 - INFO - Claim: Antarctic sea ice extent is 17 per cent higher today compared to 1979....
+2026-06-28 14:29:48,756 - INFO - Date: 2024-12-26
+2026-06-28 14:29:48,756 - INFO - Asking model: gpt-4o-mini-2024-07-18 (method: strong_baseline_short)
+2026-06-28 14:29:48,756 - INFO - Claim: Antarctic sea ice extent is 17 per cent higher today compared to 1979....
+2026-06-28 14:29:49,794 - INFO - API Response Status: 200
+2026-06-28 14:29:49,794 - INFO - Raw model response: {"label": "Refuted", "brief_reason": "Antarctic sea ice extent is not 17 percent higher today compared to 1979; it has shown variability but overall trends indicate a decrease."}
+2026-06-28 14:29:49,794 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2026-06-28 14:29:49,795 - INFO - Prediction: Refuted
+2026-06-28 14:29:49,796 - INFO - ✓ Correct prediction
+2026-06-28 14:29:49,896 - INFO - ================================================================================
+2026-06-28 14:29:49,897 - INFO - Processing claim #59 (ID: tsver_test_289)
+2026-06-28 14:29:49,897 - INFO - Claim: The truth is, it is unclear if Antarctica is losing any ice on balance or if it’s currently experiencing a net gain....
+2026-06-28 14:29:49,897 - INFO - Date: 2024-05-21
+2026-06-28 14:29:49,897 - INFO - Asking model: gpt-4o-mini-2024-07-18 (method: strong_baseline_short)
+2026-06-28 14:29:49,897 - INFO - Claim: The truth is, it is unclear if Antarctica is losing any ice on balance or if it’s currently experiencing a net gain....
+2026-06-28 14:29:51,038 - INFO - API Response Status: 200
+2026-06-28 14:29:51,038 - INFO - Raw model response: {"label": "Misleading", "brief_reason": "While there is ongoing debate about ice loss and gain in Antarctica, research indicates a net loss overall, making the claim overly ambiguous."}
+2026-06-28 14:29:51,038 - INFO - Extracted label: Misleading -> Normalized: Misleading
+2026-06-28 14:29:51,039 - INFO - Prediction: Misleading
+2026-06-28 14:29:51,039 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-06-28 14:29:51,141 - INFO - ================================================================================
+2026-06-28 14:29:51,141 - INFO - Processing claim #60 (ID: tsver_test_291)
+2026-06-28 14:29:51,141 - INFO - Claim: Climate change is a 'scam' because Antarctic sea ice covered more area on March 9 than 27 years earlier....
+2026-06-28 14:29:51,141 - INFO - Date: 2024-03-10
+2026-06-28 14:29:51,142 - INFO - Asking model: gpt-4o-mini-2024-07-18 (method: strong_baseline_short)
+2026-06-28 14:29:51,142 - INFO - Claim: Climate change is a 'scam' because Antarctic sea ice covered more area on March 9 than 27 years earlier....
+2026-06-28 14:29:52,414 - INFO - API Response Status: 200
+2026-06-28 14:29:52,414 - INFO - Raw model response: {"label": "Misleading", "brief_reason": "The claim cherry-picks a specific date and ignores the overall trend of declining sea ice and the broader context of climate change."}
+2026-06-28 14:29:52,414 - INFO - Extracted label: Misleading -> Normalized: Misleading
+2026-06-28 14:29:52,416 - INFO - Prediction: Misleading
+2026-06-28 14:29:52,416 - INFO - ✗ Incorrect (True: Not Enough Information, Pred: Misleading)
+2026-06-28 14:29:52,517 - INFO - ================================================================================
+2026-06-28 14:29:52,517 - INFO - Processing claim #61 (ID: tsver_test_292)
+2026-06-28 14:29:52,517 - INFO - Claim: Sea ice and temperature data show climate change is a hoax....
+2026-06-28 14:29:52,517 - INFO - Date: 2025-01-29
+2026-06-28 14:29:52,517 - INFO - Asking model: gpt-4o-mini-2024-07-18 (method: strong_baseline_short)
+2026-06-28 14:29:52,517 - INFO - Claim: Sea ice and temperature data show climate change is a hoax....
+2026-06-28 14:29:53,784 - INFO - API Response Status: 200
+2026-06-28 14:29:53,784 - INFO - Raw model response: {"label": "Refuted", "brief_reason": "Climate change is supported by extensive scientific evidence, making the claim that it is a hoax false."}
+2026-06-28 14:29:53,784 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2026-06-28 14:29:53,786 - INFO - Prediction: Refuted
+2026-06-28 14:29:53,786 - INFO - ✓ Correct prediction
+2026-06-28 14:29:53,887 - INFO - ================================================================================
+2026-06-28 14:29:53,887 - INFO - Processing claim #62 (ID: tsver_test_297)
+2026-06-28 14:29:53,887 - INFO - Claim: On average, the area of Arctic sea ice during summer and winter has never changed....
+2026-06-28 14:29:53,887 - INFO - Date: 2025-05-16
+2026-06-28 14:29:53,887 - INFO - Asking model: gpt-4o-mini-2024-07-18 (method: strong_baseline_short)
+2026-06-28 14:29:53,887 - INFO - Claim: On average, the area of Arctic sea ice during summer and winter has never changed....
+2026-06-28 14:29:54,943 - INFO - API Response Status: 200
+2026-06-28 14:29:54,943 - INFO - Raw model response: {"label": "Refuted", "brief_reason": "The area of Arctic sea ice has significantly changed over the years, particularly decreasing in summer."}
+2026-06-28 14:29:54,943 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2026-06-28 14:29:54,944 - INFO - Prediction: Refuted
+2026-06-28 14:29:54,945 - INFO - ✓ Correct prediction
+2026-06-28 14:29:55,046 - INFO - ================================================================================
+2026-06-28 14:29:55,046 - INFO - Processing complete: 63 predictions (27 correct, 36 incorrect), 0 failed
+2026-06-28 14:29:55,047 - INFO - Metrics: Accuracy=0.4286, Macro-F1=0.3317
+2026-06-28 14:29:55,051 - INFO - Predictions saved to results\gpt-4o-mini-2024-07-18\tsver_bias_all\strong_baseline_short\unseen\unseen_predictions.csv
+2026-06-28 14:29:55,054 - INFO - Predictions JSON saved to results\gpt-4o-mini-2024-07-18\tsver_bias_all\strong_baseline_short\unseen\unseen_predictions.json
+2026-06-28 14:29:55,054 - INFO - Metrics saved to results\gpt-4o-mini-2024-07-18\tsver_bias_all\strong_baseline_short\unseen\unseen_metrics.json

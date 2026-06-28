@@ -1,4 +1,4 @@
-dataset: "tsver_bias_all"
+dataset: "crp_bias_all"
 
 model: "gpt-4o-mini-2024-07-18"
 api_url: "https://api.avalai.ir/v1/chat/completions"

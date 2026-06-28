@@ -1,0 +1,6 @@
+2026-06-28 16:33:01,823 - INFO - ================================================================================
+2026-06-28 16:33:01,824 - INFO - STARTING FACT-CHECK INFERENCE PIPELINE
+2026-06-28 16:33:01,824 - INFO - Dataset: crp_bias_all, Model: gpt-4o-mini-2024-07-18
+2026-06-28 16:33:01,824 - INFO - Prompt methods: ['naive', 'strong_baseline_short', 'cognitive_bias_aware']
+2026-06-28 16:33:01,887 - INFO - Loaded 300 claims (is_test=False). API key configured: True
+2026-06-28 16:33:01,887 - INFO - Processing LABELED data with temporal split analysis

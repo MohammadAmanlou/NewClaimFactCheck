@@ -1,0 +1,44 @@
+{
+    "enabled": true,
+    "stage": "post_inference",
+    "strategy": "label_stratified_seen_unseen_balance_after_prediction",
+    "method": "naive",
+    "seed": 42,
+    "original_seen_count": 241,
+    "original_unseen_count": 63,
+    "sampled_seen_count": 63,
+    "sampled_unseen_count": 63,
+    "labels": [
+        "Supported",
+        "Refuted",
+        "Misleading",
+        "Not Enough Information"
+    ],
+    "per_label_info": {
+        "Supported": {
+            "original_seen": 76,
+            "original_unseen": 16,
+            "sampled_seen": 16,
+            "sampled_unseen": 16
+        },
+        "Refuted": {
+            "original_seen": 129,
+            "original_unseen": 35,
+            "sampled_seen": 35,
+            "sampled_unseen": 35
+        },
+        "Misleading": {
+            "original_seen": 10,
+            "original_unseen": 2,
+            "sampled_seen": 2,
+            "sampled_unseen": 2
+        },
+        "Not Enough Information": {
+            "original_seen": 26,
+            "original_unseen": 10,
+            "sampled_seen": 10,
+            "sampled_unseen": 10
+        }
+    },
+    "timestamp": "2026-06-28T14:20:25.550389"
+}
