@@ -93,9 +93,9 @@ fever_test_2025:
   date_format: "%d-%m-%Y"
   is_test: true
 
-matteroffact_all:
+matteroffact_bias_all:
   type: csv
-  path: "matteroffact/matteroffact_all.csv"
+  path: "matteroffact/matteroffact_bias_all.csv"
   mapping:
     claim_id: "claim_id"
     claim: "claim"
@@ -112,6 +112,38 @@ matteroffact_all:
 tracer_bias_all:
   type: csv
   path: "tracer/tracer_bias_all.csv"
+  mapping:
+    claim_id: "claim_id"
+    claim: "claim"
+    claim_date: "claim_date"
+    label: "label"
+    source: "source"
+    detected_biases: "detected_biases"
+  filter:
+    exclude_labels: []
+    label_column: "label"
+  date_format: "%Y-%m-%d"
+  is_test: false
+
+fact5_bias_all:
+  type: csv
+  path: "fact5/fact5_bias_all.csv"
+  mapping:
+    claim_id: "claim_id"
+    claim: "claim"
+    claim_date: "claim_date"
+    label: "label"
+    source: "source"
+    detected_biases: "detected_biases"
+  filter:
+    exclude_labels: []
+    label_column: "label"
+  date_format: "%Y-%m-%d"
+  is_test: false
+
+tsver_bias_all:
+  type: csv
+  path: "tsver/tsver_bias_all.csv"
   mapping:
     claim_id: "claim_id"
     claim: "claim"

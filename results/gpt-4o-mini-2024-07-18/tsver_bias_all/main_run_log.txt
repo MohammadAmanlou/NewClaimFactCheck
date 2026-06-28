@@ -1,0 +1,6 @@
+2026-06-28 14:12:53,429 - INFO - ================================================================================
+2026-06-28 14:12:53,429 - INFO - STARTING FACT-CHECK INFERENCE PIPELINE
+2026-06-28 14:12:53,429 - INFO - Dataset: tsver_bias_all, Model: gpt-4o-mini-2024-07-18
+2026-06-28 14:12:53,429 - INFO - Prompt methods: ['naive', 'strong_baseline_short', 'cognitive_bias_aware']
+2026-06-28 14:12:53,551 - INFO - Loaded 304 claims (is_test=False). API key configured: True
+2026-06-28 14:12:53,551 - INFO - Processing LABELED data with temporal split analysis

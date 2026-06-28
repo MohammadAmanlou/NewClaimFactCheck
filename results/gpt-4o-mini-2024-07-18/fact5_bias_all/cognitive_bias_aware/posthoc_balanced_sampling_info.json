@@ -1,0 +1,14 @@
+{
+    "enabled": true,
+    "stage": "post_inference",
+    "strategy": "label_stratified_seen_unseen_balance_after_prediction",
+    "method": "cognitive_bias_aware",
+    "seed": 42,
+    "original_seen_count": 0,
+    "original_unseen_count": 150,
+    "sampled_seen_count": 0,
+    "sampled_unseen_count": 0,
+    "labels": [],
+    "per_label_info": {},
+    "timestamp": "2026-06-28T14:17:17.993838"
+}

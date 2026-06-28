@@ -1,0 +1,7 @@
+2026-06-28 14:04:44,406 - INFO - Processing 0 claims...
+2026-06-28 14:04:44,409 - INFO - ================================================================================
+2026-06-28 14:04:44,409 - INFO - Processing complete: 0 predictions (0 correct, 0 incorrect), 0 failed
+2026-06-28 14:04:44,409 - WARNING - No valid results for metric calculation
+2026-06-28 14:04:44,412 - INFO - Predictions saved to results\gpt-4o-mini-2024-07-18\fact5_bias_all\naive\seen\seen_predictions.csv
+2026-06-28 14:04:44,413 - INFO - Predictions JSON saved to results\gpt-4o-mini-2024-07-18\fact5_bias_all\naive\seen\seen_predictions.json
+2026-06-28 14:04:44,415 - INFO - Metrics saved to results\gpt-4o-mini-2024-07-18\fact5_bias_all\naive\seen\seen_metrics.json

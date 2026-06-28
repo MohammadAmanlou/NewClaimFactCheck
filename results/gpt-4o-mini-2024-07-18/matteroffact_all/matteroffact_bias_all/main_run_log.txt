@@ -1,0 +1,8 @@
+2026-06-27 14:25:39,191 - INFO - ================================================================================
+2026-06-27 14:25:39,192 - INFO - STARTING FACT-CHECK INFERENCE PIPELINE
+2026-06-27 14:25:39,192 - INFO - Dataset: matteroffact_bias_all, Model: gpt-4o-mini-2024-07-18
+2026-06-27 14:25:39,192 - INFO - Prompt methods: ['cognitive_bias_aware']
+2026-06-27 14:25:40,155 - INFO - Loaded 8360 claims (is_test=False). API key configured: True
+2026-06-27 14:25:40,155 - INFO - Processing LABELED data with temporal split analysis
+2026-06-27 18:13:04,009 - INFO - ================================================================================
+2026-06-27 18:13:04,010 - INFO - PIPELINE COMPLETE

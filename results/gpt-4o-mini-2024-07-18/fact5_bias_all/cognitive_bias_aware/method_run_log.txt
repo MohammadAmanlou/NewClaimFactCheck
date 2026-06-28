@@ -1,0 +1,29 @@
+2026-06-28 14:12:52,290 - INFO - Prompt method: cognitive_bias_aware
+2026-06-28 14:12:52,297 - WARNING - No valid results for metric calculation
+2026-06-28 14:17:17,971 - INFO - Metrics: Accuracy=0.3931, Macro-F1=0.3443
+2026-06-28 14:17:17,972 - INFO - ================================================================================
+2026-06-28 14:17:17,972 - INFO - Comparing seen vs unseen performance...
+2026-06-28 14:17:17,972 - WARNING - No valid results for metric calculation
+2026-06-28 14:17:17,975 - INFO - Metrics: Accuracy=0.3931, Macro-F1=0.3443
+2026-06-28 14:17:17,978 - WARNING - Statistical tests skipped: Need more than one sample per group for statistical tests.
+2026-06-28 14:17:17,980 - INFO - Seen accuracy: N/A
+2026-06-28 14:17:17,980 - INFO - Unseen accuracy: 0.3931
+2026-06-28 14:17:17,980 - INFO - Difference: 0.3931
+2026-06-28 14:17:17,983 - INFO - Summary report saved to results\gpt-4o-mini-2024-07-18\fact5_bias_all\cognitive_bias_aware\summary.json
+2026-06-28 14:17:17,996 - WARNING - No valid results for metric calculation
+2026-06-28 14:17:17,997 - WARNING - No valid results for metric calculation
+2026-06-28 14:17:17,997 - INFO - ================================================================================
+2026-06-28 14:17:17,997 - INFO - Comparing seen vs unseen performance...
+2026-06-28 14:17:17,997 - WARNING - No valid results for metric calculation
+2026-06-28 14:17:17,997 - WARNING - No valid results for metric calculation
+2026-06-28 14:17:17,998 - WARNING - Statistical tests skipped: Need more than one sample per group for statistical tests.
+2026-06-28 14:17:17,998 - INFO - Seen accuracy: N/A
+2026-06-28 14:17:17,998 - INFO - Unseen accuracy: N/A
+2026-06-28 14:17:17,998 - INFO - Difference: 0.0000
+2026-06-28 14:17:17,999 - INFO - Predictions saved to results\gpt-4o-mini-2024-07-18\fact5_bias_all\cognitive_bias_aware\posthoc_balanced\seen\seen_posthoc_balanced_predictions.csv
+2026-06-28 14:17:18,000 - INFO - Predictions JSON saved to results\gpt-4o-mini-2024-07-18\fact5_bias_all\cognitive_bias_aware\posthoc_balanced\seen\seen_posthoc_balanced_predictions.json
+2026-06-28 14:17:18,001 - INFO - Metrics saved to results\gpt-4o-mini-2024-07-18\fact5_bias_all\cognitive_bias_aware\posthoc_balanced\seen\seen_posthoc_balanced_metrics.json
+2026-06-28 14:17:18,003 - INFO - Predictions saved to results\gpt-4o-mini-2024-07-18\fact5_bias_all\cognitive_bias_aware\posthoc_balanced\unseen\unseen_posthoc_balanced_predictions.csv
+2026-06-28 14:17:18,004 - INFO - Predictions JSON saved to results\gpt-4o-mini-2024-07-18\fact5_bias_all\cognitive_bias_aware\posthoc_balanced\unseen\unseen_posthoc_balanced_predictions.json
+2026-06-28 14:17:18,005 - INFO - Metrics saved to results\gpt-4o-mini-2024-07-18\fact5_bias_all\cognitive_bias_aware\posthoc_balanced\unseen\unseen_posthoc_balanced_metrics.json
+2026-06-28 14:17:18,006 - INFO - Summary report saved to results\gpt-4o-mini-2024-07-18\fact5_bias_all\cognitive_bias_aware\posthoc_balanced\summary.json

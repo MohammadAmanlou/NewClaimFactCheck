@@ -1,0 +1,1652 @@
+2026-06-28 14:12:52,298 - INFO - Processing 150 claims...
+2026-06-28 14:12:52,299 - INFO - ================================================================================
+2026-06-28 14:12:52,299 - INFO - Processing claim #0 (ID: fact5_unknown_0)
+2026-06-28 14:12:52,299 - INFO - Claim: "House Republicans took numerous votes that would have damaged economic growth and harmed our national security, like attempting to eliminate over 2,0...
+2026-06-28 14:12:52,299 - INFO - Date: 2024-01-10
+2026-06-28 14:12:52,299 - INFO - Asking model: gpt-4o-mini-2024-07-18 (method: cognitive_bias_aware)
+2026-06-28 14:12:52,300 - INFO - Claim: "House Republicans took numerous votes that would have damaged economic growth and harmed our national security, like attempting to eliminate over 2,0...
+2026-06-28 14:12:53,541 - INFO - API Response Status: 200
+2026-06-28 14:12:53,541 - INFO - Raw model response: {"label": "Half-True", "brief_reason": "The claim about House Republicans' votes contains some truth but lacks specific context regarding the implications of those votes on economic growth and national security."}
+2026-06-28 14:12:53,541 - INFO - Extracted label: Half-True -> Normalized: Misleading
+2026-06-28 14:12:53,543 - INFO - Prediction: Misleading
+2026-06-28 14:12:53,543 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-06-28 14:12:53,645 - INFO - ================================================================================
+2026-06-28 14:12:53,645 - INFO - Processing claim #1 (ID: fact5_unknown_1)
+2026-06-28 14:12:53,645 - INFO - Claim: "Former U.S. President Donald Trump's margin of victory in the 2024 Republican Iowa caucuses was the smallest of any GOP candidate in history."...
+2026-06-28 14:12:53,645 - INFO - Date: 2024-01-15
+2026-06-28 14:12:53,645 - INFO - Asking model: gpt-4o-mini-2024-07-18 (method: cognitive_bias_aware)
+2026-06-28 14:12:53,645 - INFO - Claim: "Former U.S. President Donald Trump's margin of victory in the 2024 Republican Iowa caucuses was the smallest of any GOP candidate in history."...
+2026-06-28 14:12:54,829 - INFO - API Response Status: 200
+2026-06-28 14:12:54,829 - INFO - Raw model response: {"label": "Not Enough Information", "brief_reason": "The claim is about a future event that cannot be verified as of the current date."}
+2026-06-28 14:12:54,829 - INFO - Extracted label: Not Enough Information -> Normalized: Not Enough Information
+2026-06-28 14:12:54,831 - INFO - Prediction: Not Enough Information
+2026-06-28 14:12:54,831 - INFO - ✗ Incorrect (True: Refuted, Pred: Not Enough Information)
+2026-06-28 14:12:54,933 - INFO - ================================================================================
+2026-06-28 14:12:54,933 - INFO - Processing claim #2 (ID: fact5_unknown_2)
+2026-06-28 14:12:54,933 - INFO - Claim: “[Nikki Haley] spent 100% of her money attacking me, and not one red cent attacking Donald Trump,” DeSantis claimed. “And I faced almost $50 million i...
+2026-06-28 14:12:54,933 - INFO - Date: 2024-01-16
+2026-06-28 14:12:54,933 - INFO - Asking model: gpt-4o-mini-2024-07-18 (method: cognitive_bias_aware)
+2026-06-28 14:12:54,933 - INFO - Claim: “[Nikki Haley] spent 100% of her money attacking me, and not one red cent attacking Donald Trump,” DeSantis claimed. “And I faced almost $50 million i...
+2026-06-28 14:13:01,041 - INFO - API Response Status: 200
+2026-06-28 14:13:01,041 - INFO - Raw model response: {"label": "Half-True", "brief_reason": "DeSantis's claim about Haley's spending lacks context and may exaggerate the focus of her campaign."}
+2026-06-28 14:13:01,041 - INFO - Extracted label: Half-True -> Normalized: Misleading
+2026-06-28 14:13:01,043 - INFO - Prediction: Misleading
+2026-06-28 14:13:01,043 - INFO - ✗ Incorrect (True: Supported, Pred: Misleading)
+2026-06-28 14:13:01,144 - INFO - ================================================================================
+2026-06-28 14:13:01,144 - INFO - Processing claim #3 (ID: fact5_unknown_3)
+2026-06-28 14:13:01,144 - INFO - Claim: "Look, folks, you know how many billionaires we have in America today? One thousand. You know what their average rate — tax rate — federal tax rate is...
+2026-06-28 14:13:01,145 - INFO - Date: 2024-01-18
+2026-06-28 14:13:01,145 - INFO - Asking model: gpt-4o-mini-2024-07-18 (method: cognitive_bias_aware)
+2026-06-28 14:13:01,145 - INFO - Claim: "Look, folks, you know how many billionaires we have in America today? One thousand. You know what their average rate — tax rate — federal tax rate is...
+2026-06-28 14:13:02,199 - INFO - API Response Status: 200
+2026-06-28 14:13:02,200 - INFO - Raw model response: {"label": "Half-True", "brief_reason": "The claim about the number of billionaires and their average tax rate is partially accurate but lacks context regarding tax structures and effective rates."}
+2026-06-28 14:13:02,200 - INFO - Extracted label: Half-True -> Normalized: Misleading
+2026-06-28 14:13:02,201 - INFO - Prediction: Misleading
+2026-06-28 14:13:02,201 - INFO - ✓ Correct prediction
+2026-06-28 14:13:02,303 - INFO - ================================================================================
+2026-06-28 14:13:02,303 - INFO - Processing claim #4 (ID: fact5_unknown_4)
+2026-06-28 14:13:02,303 - INFO - Claim: "Former U.S. President Donald Trump is the first presidential candidate to win the New Hampshire primary three times."...
+2026-06-28 14:13:02,303 - INFO - Date: 2024-01-23
+2026-06-28 14:13:02,303 - INFO - Asking model: gpt-4o-mini-2024-07-18 (method: cognitive_bias_aware)
+2026-06-28 14:13:02,303 - INFO - Claim: "Former U.S. President Donald Trump is the first presidential candidate to win the New Hampshire primary three times."...
+2026-06-28 14:13:03,288 - INFO - API Response Status: 200
+2026-06-28 14:13:03,288 - INFO - Raw model response: {"label": "Refuted", "brief_reason": "Donald Trump did not win the New Hampshire primary three times; he won it twice."}
+2026-06-28 14:13:03,289 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2026-06-28 14:13:03,290 - INFO - Prediction: Refuted
+2026-06-28 14:13:03,290 - INFO - ✓ Correct prediction
+2026-06-28 14:13:03,392 - INFO - ================================================================================
+2026-06-28 14:13:03,393 - INFO - Processing claim #5 (ID: fact5_unknown_5)
+2026-06-28 14:13:03,393 - INFO - Claim: “Tens of thousands of auto jobs were lost nationwide during Trump's presidency,” but during Biden’s presidency, “we've created more than 250,000 auto ...
+2026-06-28 14:13:03,393 - INFO - Date: 2024-01-24
+2026-06-28 14:13:03,393 - INFO - Asking model: gpt-4o-mini-2024-07-18 (method: cognitive_bias_aware)
+2026-06-28 14:13:03,393 - INFO - Claim: “Tens of thousands of auto jobs were lost nationwide during Trump's presidency,” but during Biden’s presidency, “we've created more than 250,000 auto ...
+2026-06-28 14:13:04,486 - INFO - API Response Status: 200
+2026-06-28 14:13:04,486 - INFO - Raw model response: {"label": "Half-True", "brief_reason": "The claim about job losses during Trump's presidency is accurate, but the context of job creation under Biden may oversimplify the situation."}
+2026-06-28 14:13:04,486 - INFO - Extracted label: Half-True -> Normalized: Misleading
+2026-06-28 14:13:04,488 - INFO - Prediction: Misleading
+2026-06-28 14:13:04,488 - INFO - ✓ Correct prediction
+2026-06-28 14:13:04,589 - INFO - ================================================================================
+2026-06-28 14:13:04,589 - INFO - Processing claim #6 (ID: fact5_unknown_6)
+2026-06-28 14:13:04,589 - INFO - Claim: The Obamas were "secretly plotting" for U.S. President Joe Biden to drop out of the 2024 election so that former first lady Michelle Obama could take ...
+2026-06-28 14:13:04,589 - INFO - Date: 2024-01-27
+2026-06-28 14:13:04,589 - INFO - Asking model: gpt-4o-mini-2024-07-18 (method: cognitive_bias_aware)
+2026-06-28 14:13:04,589 - INFO - Claim: The Obamas were "secretly plotting" for U.S. President Joe Biden to drop out of the 2024 election so that former first lady Michelle Obama could take ...
+2026-06-28 14:13:07,759 - INFO - API Response Status: 200
+2026-06-28 14:13:07,759 - INFO - Raw model response: {"label": "Refuted", "brief_reason": "There is no credible evidence to support the claim that the Obamas are plotting for Michelle Obama to replace Biden in the 2024 election."}
+2026-06-28 14:13:07,759 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2026-06-28 14:13:07,761 - INFO - Prediction: Refuted
+2026-06-28 14:13:07,761 - INFO - ✗ Incorrect (True: Not Enough Information, Pred: Refuted)
+2026-06-28 14:13:07,862 - INFO - ================================================================================
+2026-06-28 14:13:07,862 - INFO - Processing claim #7 (ID: fact5_unknown_7)
+2026-06-28 14:13:07,862 - INFO - Claim: "The top donor to a major super PAC supporting Donald Trump for president in 2024 is also the top donor to the super PAC supporting Robert F. Kennedy ...
+2026-06-28 14:13:07,862 - INFO - Date: 2024-02-01
+2026-06-28 14:13:07,862 - INFO - Asking model: gpt-4o-mini-2024-07-18 (method: cognitive_bias_aware)
+2026-06-28 14:13:07,862 - INFO - Claim: "The top donor to a major super PAC supporting Donald Trump for president in 2024 is also the top donor to the super PAC supporting Robert F. Kennedy ...
+2026-06-28 14:13:08,917 - INFO - API Response Status: 200
+2026-06-28 14:13:08,917 - INFO - Raw model response: {"label": "Not Enough Information", "brief_reason": "The claim lacks specific details about the donors and super PACs involved, making it unverifiable."}
+2026-06-28 14:13:08,917 - INFO - Extracted label: Not Enough Information -> Normalized: Not Enough Information
+2026-06-28 14:13:08,918 - INFO - Prediction: Not Enough Information
+2026-06-28 14:13:08,919 - INFO - ✗ Incorrect (True: Supported, Pred: Not Enough Information)
+2026-06-28 14:13:09,020 - INFO - ================================================================================
+2026-06-28 14:13:09,020 - INFO - Processing claim #8 (ID: fact5_unknown_8)
+2026-06-28 14:13:09,020 - INFO - Claim: "In February 2024, Nikki Haley lost the Nevada presidential primary to 'None of These Candidates.' "...
+2026-06-28 14:13:09,020 - INFO - Date: 2024-02-07
+2026-06-28 14:13:09,020 - INFO - Asking model: gpt-4o-mini-2024-07-18 (method: cognitive_bias_aware)
+2026-06-28 14:13:09,020 - INFO - Claim: "In February 2024, Nikki Haley lost the Nevada presidential primary to 'None of These Candidates.' "...
+2026-06-28 14:13:10,565 - INFO - API Response Status: 200
+2026-06-28 14:13:10,566 - INFO - Raw model response: {"label": "Not Enough Information", "brief_reason": "The claim refers to a future event that cannot be verified."}
+2026-06-28 14:13:10,566 - INFO - Extracted label: Not Enough Information -> Normalized: Not Enough Information
+2026-06-28 14:13:10,567 - INFO - Prediction: Not Enough Information
+2026-06-28 14:13:10,567 - INFO - ✗ Incorrect (True: Supported, Pred: Not Enough Information)
+2026-06-28 14:13:10,669 - INFO - ================================================================================
+2026-06-28 14:13:10,669 - INFO - Processing claim #9 (ID: fact5_unknown_9)
+2026-06-28 14:13:10,669 - INFO - Claim: “We're having the largest classes of correctional officers we've ever had before.”...
+2026-06-28 14:13:10,669 - INFO - Date: 2024-02-11
+2026-06-28 14:13:10,669 - INFO - Asking model: gpt-4o-mini-2024-07-18 (method: cognitive_bias_aware)
+2026-06-28 14:13:10,669 - INFO - Claim: “We're having the largest classes of correctional officers we've ever had before.”...
+2026-06-28 14:13:11,850 - INFO - API Response Status: 200
+2026-06-28 14:13:11,850 - INFO - Raw model response: {"label": "Not Enough Information", "brief_reason": "The claim lacks specific data or context to verify the size of the classes of correctional officers."}
+2026-06-28 14:13:11,850 - INFO - Extracted label: Not Enough Information -> Normalized: Not Enough Information
+2026-06-28 14:13:11,852 - INFO - Prediction: Not Enough Information
+2026-06-28 14:13:11,852 - INFO - ✗ Incorrect (True: Supported, Pred: Not Enough Information)
+2026-06-28 14:13:11,955 - INFO - ================================================================================
+2026-06-28 14:13:11,956 - INFO - Processing claim #10 (ID: fact5_unknown_10)
+2026-06-28 14:13:11,956 - INFO - Claim: After a 2022 law, “The vast majority of colleges in New York State do not have on-campus poll sites.”...
+2026-06-28 14:13:11,956 - INFO - Date: 2024-02-16
+2026-06-28 14:13:11,956 - INFO - Asking model: gpt-4o-mini-2024-07-18 (method: cognitive_bias_aware)
+2026-06-28 14:13:11,956 - INFO - Claim: After a 2022 law, “The vast majority of colleges in New York State do not have on-campus poll sites.”...
+2026-06-28 14:13:13,037 - INFO - API Response Status: 200
+2026-06-28 14:13:13,037 - INFO - Raw model response: {"label": "Half-True", "brief_reason": "The claim is partially accurate but lacks specific context about the number of colleges and the nature of the law."}
+2026-06-28 14:13:13,037 - INFO - Extracted label: Half-True -> Normalized: Misleading
+2026-06-28 14:13:13,038 - INFO - Prediction: Misleading
+2026-06-28 14:13:13,039 - INFO - ✗ Incorrect (True: Supported, Pred: Misleading)
+2026-06-28 14:13:13,140 - INFO - ================================================================================
+2026-06-28 14:13:13,140 - INFO - Processing claim #11 (ID: fact5_unknown_11)
+2026-06-28 14:13:13,140 - INFO - Claim: "In New York, there are no barriers to law enforcement to work with the federal government on immigration laws, and there are 100 crimes where migrant...
+2026-06-28 14:13:13,140 - INFO - Date: 2024-02-22
+2026-06-28 14:13:13,140 - INFO - Asking model: gpt-4o-mini-2024-07-18 (method: cognitive_bias_aware)
+2026-06-28 14:13:13,140 - INFO - Claim: "In New York, there are no barriers to law enforcement to work with the federal government on immigration laws, and there are 100 crimes where migrant...
+2026-06-28 14:13:14,288 - INFO - API Response Status: 200
+2026-06-28 14:13:14,289 - INFO - Raw model response: {"label": "Half-True", "brief_reason": "The claim oversimplifies the relationship between state and federal law enforcement on immigration, as there are complexities and nuances in cooperation."}
+2026-06-28 14:13:14,289 - INFO - Extracted label: Half-True -> Normalized: Misleading
+2026-06-28 14:13:14,290 - INFO - Prediction: Misleading
+2026-06-28 14:13:14,290 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-06-28 14:13:14,391 - INFO - ================================================================================
+2026-06-28 14:13:14,391 - INFO - Processing claim #12 (ID: fact5_unknown_12)
+2026-06-28 14:13:14,392 - INFO - Claim: "And then you wonder why we have a $2 trillion deficit. If you look at it now, it’s gotten to a level that nobody can even believe; it’s so bad under ...
+2026-06-28 14:13:14,392 - INFO - Date: 2024-02-24
+2026-06-28 14:13:14,392 - INFO - Asking model: gpt-4o-mini-2024-07-18 (method: cognitive_bias_aware)
+2026-06-28 14:13:14,392 - INFO - Claim: "And then you wonder why we have a $2 trillion deficit. If you look at it now, it’s gotten to a level that nobody can even believe; it’s so bad under ...
+2026-06-28 14:13:16,046 - INFO - API Response Status: 200
+2026-06-28 14:13:16,046 - INFO - Raw model response: {"label": "Half-True", "brief_reason": "The claim about the deficit is partially accurate but lacks context regarding its causes and historical trends."}
+2026-06-28 14:13:16,046 - INFO - Extracted label: Half-True -> Normalized: Misleading
+2026-06-28 14:13:16,048 - INFO - Prediction: Misleading
+2026-06-28 14:13:16,048 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-06-28 14:13:16,150 - INFO - ================================================================================
+2026-06-28 14:13:16,150 - INFO - Processing claim #13 (ID: fact5_unknown_13)
+2026-06-28 14:13:16,150 - INFO - Claim: "And President Xi – I told him this – said, ‘All right, well, we won’t do it. We won’t do it.’ They didn’t buy. By the way, they’re buying billions an...
+2026-06-28 14:13:16,150 - INFO - Date: 2024-02-24
+2026-06-28 14:13:16,150 - INFO - Asking model: gpt-4o-mini-2024-07-18 (method: cognitive_bias_aware)
+2026-06-28 14:13:16,150 - INFO - Claim: "And President Xi – I told him this – said, ‘All right, well, we won’t do it. We won’t do it.’ They didn’t buy. By the way, they’re buying billions an...
+2026-06-28 14:13:17,236 - INFO - API Response Status: 200
+2026-06-28 14:13:17,237 - INFO - Raw model response: {"label": "Half-True", "brief_reason": "The claim inaccurately suggests that China is not buying oil while it is currently purchasing significant amounts."}
+2026-06-28 14:13:17,237 - INFO - Extracted label: Half-True -> Normalized: Misleading
+2026-06-28 14:13:17,239 - INFO - Prediction: Misleading
+2026-06-28 14:13:17,239 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-06-28 14:13:17,340 - INFO - ================================================================================
+2026-06-28 14:13:17,340 - INFO - Processing claim #14 (ID: fact5_unknown_14)
+2026-06-28 14:13:17,340 - INFO - Claim: "I ended Nord Stream” and that “I stopped it, it was over."...
+2026-06-28 14:13:17,340 - INFO - Date: 2024-02-24
+2026-06-28 14:13:17,340 - INFO - Asking model: gpt-4o-mini-2024-07-18 (method: cognitive_bias_aware)
+2026-06-28 14:13:17,340 - INFO - Claim: "I ended Nord Stream” and that “I stopped it, it was over."...
+2026-06-28 14:13:18,431 - INFO - API Response Status: 200
+2026-06-28 14:13:18,431 - INFO - Raw model response: {"label": "Refuted", "brief_reason": "The claim that an individual ended or stopped Nord Stream is inaccurate and unsupported by available facts."}
+2026-06-28 14:13:18,431 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2026-06-28 14:13:18,432 - INFO - Prediction: Refuted
+2026-06-28 14:13:18,432 - INFO - ✓ Correct prediction
+2026-06-28 14:13:18,534 - INFO - ================================================================================
+2026-06-28 14:13:18,534 - INFO - Processing claim #15 (ID: fact5_unknown_15)
+2026-06-28 14:13:18,534 - INFO - Claim: "I’ll tell you what: If I didn’t bring in the National Guard – ’cause the governor didn’t want to do it, they’d never want to do it … I wish I didn’t ...
+2026-06-28 14:13:18,534 - INFO - Date: 2024-02-24
+2026-06-28 14:13:18,534 - INFO - Asking model: gpt-4o-mini-2024-07-18 (method: cognitive_bias_aware)
+2026-06-28 14:13:18,534 - INFO - Claim: "I’ll tell you what: If I didn’t bring in the National Guard – ’cause the governor didn’t want to do it, they’d never want to do it … I wish I didn’t ...
+2026-06-28 14:13:19,858 - INFO - API Response Status: 200
+2026-06-28 14:13:19,859 - INFO - Raw model response: {"label": "Half-True", "brief_reason": "The claim suggests a direct causation between bringing in the National Guard and saving the city, which oversimplifies the situation and lacks context."}
+2026-06-28 14:13:19,859 - INFO - Extracted label: Half-True -> Normalized: Misleading
+2026-06-28 14:13:19,861 - INFO - Prediction: Misleading
+2026-06-28 14:13:19,861 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-06-28 14:13:19,963 - INFO - ================================================================================
+2026-06-28 14:13:19,963 - INFO - Processing claim #16 (ID: fact5_unknown_16)
+2026-06-28 14:13:19,963 - INFO - Claim: "Remember I used to say a long time ago, ‘Don’t go into Iraq. Don’t do it!’ But I was only a civilian, so I didn’t get that much press. I said, ‘Don’t...
+2026-06-28 14:13:19,963 - INFO - Date: 2024-02-24
+2026-06-28 14:13:19,963 - INFO - Asking model: gpt-4o-mini-2024-07-18 (method: cognitive_bias_aware)
+2026-06-28 14:13:19,963 - INFO - Claim: "Remember I used to say a long time ago, ‘Don’t go into Iraq. Don’t do it!’ But I was only a civilian, so I didn’t get that much press. I said, ‘Don’t...
+2026-06-28 14:13:21,084 - INFO - API Response Status: 200
+2026-06-28 14:13:21,084 - INFO - Raw model response: {"label": "Half-True", "brief_reason": "The claim reflects a past sentiment about Iraq and oil but lacks context about the speaker's influence and the broader implications of the statement."}
+2026-06-28 14:13:21,085 - INFO - Extracted label: Half-True -> Normalized: Misleading
+2026-06-28 14:13:21,086 - INFO - Prediction: Misleading
+2026-06-28 14:13:21,086 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-06-28 14:13:21,187 - INFO - ================================================================================
+2026-06-28 14:13:21,188 - INFO - Processing claim #17 (ID: fact5_unknown_17)
+2026-06-28 14:13:21,188 - INFO - Claim: “We built 571 miles of border wall.”...
+2026-06-28 14:13:21,188 - INFO - Date: 2024-02-24
+2026-06-28 14:13:21,188 - INFO - Asking model: gpt-4o-mini-2024-07-18 (method: cognitive_bias_aware)
+2026-06-28 14:13:21,188 - INFO - Claim: “We built 571 miles of border wall.”...
+2026-06-28 14:13:22,311 - INFO - API Response Status: 200
+2026-06-28 14:13:22,311 - INFO - Raw model response: {"label": "Half-True", "brief_reason": "The claim is partially accurate but lacks context about the total border wall construction and funding."}
+2026-06-28 14:13:22,311 - INFO - Extracted label: Half-True -> Normalized: Misleading
+2026-06-28 14:13:22,314 - INFO - Prediction: Misleading
+2026-06-28 14:13:22,314 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-06-28 14:13:22,416 - INFO - ================================================================================
+2026-06-28 14:13:22,417 - INFO - Processing claim #18 (ID: fact5_unknown_18)
+2026-06-28 14:13:22,417 - INFO - Claim: The Great Lakes account for “over 20% of the world’s freshwater and over 80% of North America’s freshwater.”...
+2026-06-28 14:13:22,417 - INFO - Date: 2024-03-02
+2026-06-28 14:13:22,417 - INFO - Asking model: gpt-4o-mini-2024-07-18 (method: cognitive_bias_aware)
+2026-06-28 14:13:22,417 - INFO - Claim: The Great Lakes account for “over 20% of the world’s freshwater and over 80% of North America’s freshwater.”...
+2026-06-28 14:13:23,443 - INFO - API Response Status: 200
+2026-06-28 14:13:23,443 - INFO - Raw model response: {"label": "Supported", "brief_reason": "The claim accurately reflects that the Great Lakes contain a significant portion of the world's and North America's freshwater."}
+2026-06-28 14:13:23,443 - INFO - Extracted label: Supported -> Normalized: Supported
+2026-06-28 14:13:23,445 - INFO - Prediction: Supported
+2026-06-28 14:13:23,445 - INFO - ✓ Correct prediction
+2026-06-28 14:13:23,546 - INFO - ================================================================================
+2026-06-28 14:13:23,546 - INFO - Processing claim #19 (ID: fact5_unknown_19)
+2026-06-28 14:13:23,546 - INFO - Claim: “When it comes to how many votes (President) Joe Biden won, it was literally less than a few votes per ward.”...
+2026-06-28 14:13:23,546 - INFO - Date: 2024-03-03
+2026-06-28 14:13:23,546 - INFO - Asking model: gpt-4o-mini-2024-07-18 (method: cognitive_bias_aware)
+2026-06-28 14:13:23,546 - INFO - Claim: “When it comes to how many votes (President) Joe Biden won, it was literally less than a few votes per ward.”...
+2026-06-28 14:13:24,629 - INFO - API Response Status: 200
+2026-06-28 14:13:24,629 - INFO - Raw model response: {"label": "Refuted", "brief_reason": "The claim inaccurately suggests that Biden's victory margin was extremely small in every ward, which is not supported by the actual vote counts."}
+2026-06-28 14:13:24,630 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2026-06-28 14:13:24,631 - INFO - Prediction: Refuted
+2026-06-28 14:13:24,631 - INFO - ✗ Incorrect (True: Supported, Pred: Refuted)
+2026-06-28 14:13:24,733 - INFO - ================================================================================
+2026-06-28 14:13:24,733 - INFO - Processing claim #20 (ID: fact5_unknown_20)
+2026-06-28 14:13:24,733 - INFO - Claim: "We’ve had 12 elections in 24 years in Wisconsin that have been decided by less than 30,000 votes.”...
+2026-06-28 14:13:24,733 - INFO - Date: 2024-03-06
+2026-06-28 14:13:24,733 - INFO - Asking model: gpt-4o-mini-2024-07-18 (method: cognitive_bias_aware)
+2026-06-28 14:13:24,733 - INFO - Claim: "We’ve had 12 elections in 24 years in Wisconsin that have been decided by less than 30,000 votes.”...
+2026-06-28 14:13:25,669 - INFO - API Response Status: 200
+2026-06-28 14:13:25,669 - INFO - Raw model response: {"label": "Half-True", "brief_reason": "The claim is accurate but lacks context about the significance and implications of those elections."}
+2026-06-28 14:13:25,669 - INFO - Extracted label: Half-True -> Normalized: Misleading
+2026-06-28 14:13:25,671 - INFO - Prediction: Misleading
+2026-06-28 14:13:25,671 - INFO - ✗ Incorrect (True: Supported, Pred: Misleading)
+2026-06-28 14:13:25,772 - INFO - ================================================================================
+2026-06-28 14:13:25,772 - INFO - Processing claim #21 (ID: fact5_unknown_21)
+2026-06-28 14:13:25,772 - INFO - Claim: “We’re facing situations these days where you have to have two officers in the evidence room in case there’s an accidental (fentanyl) exposure.”...
+2026-06-28 14:13:25,772 - INFO - Date: 2024-03-07
+2026-06-28 14:13:25,772 - INFO - Asking model: gpt-4o-mini-2024-07-18 (method: cognitive_bias_aware)
+2026-06-28 14:13:25,772 - INFO - Claim: “We’re facing situations these days where you have to have two officers in the evidence room in case there’s an accidental (fentanyl) exposure.”...
+2026-06-28 14:13:26,752 - INFO - API Response Status: 200
+2026-06-28 14:13:26,752 - INFO - Raw model response: {"label": "Half-True", "brief_reason": "The claim reflects a real concern about fentanyl exposure but lacks context on the frequency and specifics of such incidents."}
+2026-06-28 14:13:26,752 - INFO - Extracted label: Half-True -> Normalized: Misleading
+2026-06-28 14:13:26,753 - INFO - Prediction: Misleading
+2026-06-28 14:13:26,754 - INFO - ✗ Incorrect (True: Supported, Pred: Misleading)
+2026-06-28 14:13:26,856 - INFO - ================================================================================
+2026-06-28 14:13:26,856 - INFO - Processing claim #22 (ID: fact5_unknown_22)
+2026-06-28 14:13:26,856 - INFO - Claim: "We know that President Biden didn’t just create this border crisis. He invited it with 94 executive actions in his first 100 days. When I took office...
+2026-06-28 14:13:26,856 - INFO - Date: 2024-03-07
+2026-06-28 14:13:26,856 - INFO - Asking model: gpt-4o-mini-2024-07-18 (method: cognitive_bias_aware)
+2026-06-28 14:13:26,856 - INFO - Claim: "We know that President Biden didn’t just create this border crisis. He invited it with 94 executive actions in his first 100 days. When I took office...
+2026-06-28 14:13:27,997 - INFO - API Response Status: 200
+2026-06-28 14:13:27,997 - INFO - Raw model response: {"label": "Half-True", "brief_reason": "The claim about Biden's executive actions is exaggerated and lacks context regarding the complexities of border issues."}
+2026-06-28 14:13:27,997 - INFO - Extracted label: Half-True -> Normalized: Misleading
+2026-06-28 14:13:27,998 - INFO - Prediction: Misleading
+2026-06-28 14:13:27,998 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-06-28 14:13:28,100 - INFO - ================================================================================
+2026-06-28 14:13:28,100 - INFO - Processing claim #23 (ID: fact5_unknown_23)
+2026-06-28 14:13:28,100 - INFO - Claim: "[The Trump Administration] added more to the national debt than any presidential term in American history. Check the numbers.”...
+2026-06-28 14:13:28,100 - INFO - Date: 2024-03-07
+2026-06-28 14:13:28,100 - INFO - Asking model: gpt-4o-mini-2024-07-18 (method: cognitive_bias_aware)
+2026-06-28 14:13:28,100 - INFO - Claim: "[The Trump Administration] added more to the national debt than any presidential term in American history. Check the numbers.”...
+2026-06-28 14:13:29,771 - INFO - API Response Status: 200
+2026-06-28 14:13:29,772 - INFO - Raw model response: {"label": "Supported", "brief_reason": "The claim that the Trump Administration added more to the national debt than any previous presidential term is accurate based on available data."}
+2026-06-28 14:13:29,772 - INFO - Extracted label: Supported -> Normalized: Supported
+2026-06-28 14:13:29,773 - INFO - Prediction: Supported
+2026-06-28 14:13:29,773 - INFO - ✗ Incorrect (True: Misleading, Pred: Supported)
+2026-06-28 14:13:29,875 - INFO - ================================================================================
+2026-06-28 14:13:29,875 - INFO - Processing claim #24 (ID: fact5_unknown_24)
+2026-06-28 14:13:29,875 - INFO - Claim: "Biden claimed the economy created a record 15 million jobs in the first three years of his term."...
+2026-06-28 14:13:29,876 - INFO - Date: 2024-03-07
+2026-06-28 14:13:29,876 - INFO - Asking model: gpt-4o-mini-2024-07-18 (method: cognitive_bias_aware)
+2026-06-28 14:13:29,876 - INFO - Claim: "Biden claimed the economy created a record 15 million jobs in the first three years of his term."...
+2026-06-28 14:13:30,934 - INFO - API Response Status: 200
+2026-06-28 14:13:30,934 - INFO - Raw model response: {"label": "Half-True", "brief_reason": "While job creation figures are accurate, the context of economic recovery and other factors influencing these numbers are not fully addressed."}
+2026-06-28 14:13:30,934 - INFO - Extracted label: Half-True -> Normalized: Misleading
+2026-06-28 14:13:30,936 - INFO - Prediction: Misleading
+2026-06-28 14:13:30,936 - INFO - ✗ Incorrect (True: Supported, Pred: Misleading)
+2026-06-28 14:13:31,038 - INFO - ================================================================================
+2026-06-28 14:13:31,038 - INFO - Processing claim #25 (ID: fact5_unknown_25)
+2026-06-28 14:13:31,038 - INFO - Claim: “I have been delivering real results in fiscally responsible ways. We’ve already cut the federal deficit – we’ve already cut the federal deficit of ov...
+2026-06-28 14:13:31,038 - INFO - Date: 2024-03-07
+2026-06-28 14:13:31,038 - INFO - Asking model: gpt-4o-mini-2024-07-18 (method: cognitive_bias_aware)
+2026-06-28 14:13:31,038 - INFO - Claim: “I have been delivering real results in fiscally responsible ways. We’ve already cut the federal deficit – we’ve already cut the federal deficit of ov...
+2026-06-28 14:13:32,106 - INFO - API Response Status: 200
+2026-06-28 14:13:32,106 - INFO - Raw model response: {"label": "Half-True", "brief_reason": "The claim about cutting the federal deficit is partially accurate but lacks context regarding the overall fiscal situation and specific measures taken."}
+2026-06-28 14:13:32,106 - INFO - Extracted label: Half-True -> Normalized: Misleading
+2026-06-28 14:13:32,108 - INFO - Prediction: Misleading
+2026-06-28 14:13:32,108 - INFO - ✗ Incorrect (True: Supported, Pred: Misleading)
+2026-06-28 14:13:32,210 - INFO - ================================================================================
+2026-06-28 14:13:32,210 - INFO - Processing claim #26 (ID: fact5_unknown_26)
+2026-06-28 14:13:32,210 - INFO - Claim: "President Biden inherited the most secure border of all time. But minutes after taking office, he suspended all deportations."...
+2026-06-28 14:13:32,210 - INFO - Date: 2024-03-07
+2026-06-28 14:13:32,210 - INFO - Asking model: gpt-4o-mini-2024-07-18 (method: cognitive_bias_aware)
+2026-06-28 14:13:32,211 - INFO - Claim: "President Biden inherited the most secure border of all time. But minutes after taking office, he suspended all deportations."...
+2026-06-28 14:13:33,247 - INFO - API Response Status: 200
+2026-06-28 14:13:33,248 - INFO - Raw model response: {"label": "Half-True", "brief_reason": "The claim about the border's security is exaggerated and lacks context, while the suspension of deportations is accurate but oversimplified."}
+2026-06-28 14:13:33,248 - INFO - Extracted label: Half-True -> Normalized: Misleading
+2026-06-28 14:13:33,249 - INFO - Prediction: Misleading
+2026-06-28 14:13:33,249 - INFO - ✓ Correct prediction
+2026-06-28 14:13:33,351 - INFO - ================================================================================
+2026-06-28 14:13:33,351 - INFO - Processing claim #27 (ID: fact5_unknown_27)
+2026-06-28 14:13:33,351 - INFO - Claim: “Remember in 2020, 55 of the biggest companies in America made $40 billion and paid zero in federal income taxes. Zero. Not anymore. Thanks to the law...
+2026-06-28 14:13:33,351 - INFO - Date: 2024-03-07
+2026-06-28 14:13:33,351 - INFO - Asking model: gpt-4o-mini-2024-07-18 (method: cognitive_bias_aware)
+2026-06-28 14:13:33,351 - INFO - Claim: “Remember in 2020, 55 of the biggest companies in America made $40 billion and paid zero in federal income taxes. Zero. Not anymore. Thanks to the law...
+2026-06-28 14:13:34,592 - INFO - API Response Status: 200
+2026-06-28 14:13:34,592 - INFO - Raw model response: {"label": "Half-True", "brief_reason": "The claim about companies paying zero taxes in 2020 is accurate, but the assertion that the new law ensures a minimum tax of 15% oversimplifies the complexities of tax law
+2026-06-28 14:13:34,592 - WARNING - Could not find JSON in response: {"label": "Half-True", "brief_reason": "The claim about companies paying zero taxes in 2020 is accurate, but the assertion that the new law ensures a minimum tax of 15% oversimplifies the complexities of tax law
+2026-06-28 14:13:34,594 - WARNING - Failed to get valid prediction
+2026-06-28 14:13:34,696 - INFO - ================================================================================
+2026-06-28 14:13:34,696 - INFO - Processing claim #28 (ID: fact5_unknown_28)
+2026-06-28 14:13:34,696 - INFO - Claim: "The economy has added “800,000 new manufacturing jobs” during his administration."...
+2026-06-28 14:13:34,696 - INFO - Date: 2024-03-07
+2026-06-28 14:13:34,696 - INFO - Asking model: gpt-4o-mini-2024-07-18 (method: cognitive_bias_aware)
+2026-06-28 14:13:34,696 - INFO - Claim: "The economy has added “800,000 new manufacturing jobs” during his administration."...
+2026-06-28 14:13:35,623 - INFO - API Response Status: 200
+2026-06-28 14:13:35,623 - INFO - Raw model response: {"label": "Supported", "brief_reason": "The claim accurately reflects the reported increase in manufacturing jobs during the specified administration."}
+2026-06-28 14:13:35,623 - INFO - Extracted label: Supported -> Normalized: Supported
+2026-06-28 14:13:35,625 - INFO - Prediction: Supported
+2026-06-28 14:13:35,625 - INFO - ✓ Correct prediction
+2026-06-28 14:13:35,727 - INFO - ================================================================================
+2026-06-28 14:13:35,727 - INFO - Processing claim #29 (ID: fact5_unknown_29)
+2026-06-28 14:13:35,727 - INFO - Claim: "Violent crime has fallen to lowest levels in ‘more than 50 years’"...
+2026-06-28 14:13:35,727 - INFO - Date: 2024-03-07
+2026-06-28 14:13:35,727 - INFO - Asking model: gpt-4o-mini-2024-07-18 (method: cognitive_bias_aware)
+2026-06-28 14:13:35,727 - INFO - Claim: "Violent crime has fallen to lowest levels in ‘more than 50 years’"...
+2026-06-28 14:13:36,782 - INFO - API Response Status: 200
+2026-06-28 14:13:36,782 - INFO - Raw model response: {"label": "Supported", "brief_reason": "The claim accurately reflects data showing that violent crime rates have reached historically low levels."}
+2026-06-28 14:13:36,782 - INFO - Extracted label: Supported -> Normalized: Supported
+2026-06-28 14:13:36,783 - INFO - Prediction: Supported
+2026-06-28 14:13:36,784 - INFO - ✓ Correct prediction
+2026-06-28 14:13:36,886 - INFO - ================================================================================
+2026-06-28 14:13:36,886 - INFO - Processing claim #30 (ID: fact5_unknown_30)
+2026-06-28 14:13:36,886 - INFO - Claim: "We have the worst inflation in 40 years"...
+2026-06-28 14:13:36,886 - INFO - Date: 2024-03-07
+2026-06-28 14:13:36,886 - INFO - Asking model: gpt-4o-mini-2024-07-18 (method: cognitive_bias_aware)
+2026-06-28 14:13:36,886 - INFO - Claim: "We have the worst inflation in 40 years"...
+2026-06-28 14:13:38,024 - INFO - API Response Status: 200
+2026-06-28 14:13:38,024 - INFO - Raw model response: {"label": "Supported", "brief_reason": "The claim accurately reflects the inflation rates observed in recent years, which are the highest in four decades."}
+2026-06-28 14:13:38,024 - INFO - Extracted label: Supported -> Normalized: Supported
+2026-06-28 14:13:38,026 - INFO - Prediction: Supported
+2026-06-28 14:13:38,026 - INFO - ✗ Incorrect (True: Refuted, Pred: Supported)
+2026-06-28 14:13:38,128 - INFO - ================================================================================
+2026-06-28 14:13:38,128 - INFO - Processing claim #31 (ID: fact5_unknown_31)
+2026-06-28 14:13:38,128 - INFO - Claim: Former U.S. President Donald Trump said Adolf Hitler "did some good things."...
+2026-06-28 14:13:38,128 - INFO - Date: 2024-03-11
+2026-06-28 14:13:38,128 - INFO - Asking model: gpt-4o-mini-2024-07-18 (method: cognitive_bias_aware)
+2026-06-28 14:13:38,128 - INFO - Claim: Former U.S. President Donald Trump said Adolf Hitler "did some good things."...
+2026-06-28 14:13:39,092 - INFO - API Response Status: 200
+2026-06-28 14:13:39,093 - INFO - Raw model response: {"label": "Supported", "brief_reason": "The claim accurately reflects a statement made by Donald Trump regarding Adolf Hitler."}
+2026-06-28 14:13:39,093 - INFO - Extracted label: Supported -> Normalized: Supported
+2026-06-28 14:13:39,095 - INFO - Prediction: Supported
+2026-06-28 14:13:39,095 - INFO - ✗ Incorrect (True: Not Enough Information, Pred: Supported)
+2026-06-28 14:13:39,197 - INFO - ================================================================================
+2026-06-28 14:13:39,197 - INFO - Processing claim #32 (ID: fact5_unknown_32)
+2026-06-28 14:13:39,197 - INFO - Claim: "Now, if I don’t get elected, it’s going to be a bloodbath for the whole — that’s gonna be the least of it. It’s going to be a bloodbath for the count...
+2026-06-28 14:13:39,197 - INFO - Date: 2024-03-17
+2026-06-28 14:13:39,197 - INFO - Asking model: gpt-4o-mini-2024-07-18 (method: cognitive_bias_aware)
+2026-06-28 14:13:39,197 - INFO - Claim: "Now, if I don’t get elected, it’s going to be a bloodbath for the whole — that’s gonna be the least of it. It’s going to be a bloodbath for the count...
+2026-06-28 14:13:40,259 - INFO - API Response Status: 200
+2026-06-28 14:13:40,259 - INFO - Raw model response: {"label": "Not Enough Information", "brief_reason": "The claim is vague and lacks specific context or evidence to assess its accuracy."}
+2026-06-28 14:13:40,259 - INFO - Extracted label: Not Enough Information -> Normalized: Not Enough Information
+2026-06-28 14:13:40,261 - INFO - Prediction: Not Enough Information
+2026-06-28 14:13:40,261 - INFO - ✗ Incorrect (True: Supported, Pred: Not Enough Information)
+2026-06-28 14:13:40,362 - INFO - ================================================================================
+2026-06-28 14:13:40,362 - INFO - Processing claim #33 (ID: fact5_unknown_33)
+2026-06-28 14:13:40,362 - INFO - Claim: Gaza has “the highest number of people facing catastrophic hunger ever recorded by the Integrated Food Security Classification system — anywhere, anyt...
+2026-06-28 14:13:40,362 - INFO - Date: 2024-03-18
+2026-06-28 14:13:40,362 - INFO - Asking model: gpt-4o-mini-2024-07-18 (method: cognitive_bias_aware)
+2026-06-28 14:13:40,362 - INFO - Claim: Gaza has “the highest number of people facing catastrophic hunger ever recorded by the Integrated Food Security Classification system — anywhere, anyt...
+2026-06-28 14:13:41,388 - INFO - API Response Status: 200
+2026-06-28 14:13:41,388 - INFO - Raw model response: {"label": "Supported", "brief_reason": "The claim accurately reflects the reported situation regarding hunger in Gaza as per the Integrated Food Security Classification system."}
+2026-06-28 14:13:41,388 - INFO - Extracted label: Supported -> Normalized: Supported
+2026-06-28 14:13:41,390 - INFO - Prediction: Supported
+2026-06-28 14:13:41,390 - INFO - ✓ Correct prediction
+2026-06-28 14:13:41,492 - INFO - ================================================================================
+2026-06-28 14:13:41,492 - INFO - Processing claim #34 (ID: fact5_unknown_34)
+2026-06-28 14:13:41,492 - INFO - Claim: "Insulin for Medicare beneficiaries "was costing 400 bucks a month on average. It now costs $35 a month."...
+2026-06-28 14:13:41,492 - INFO - Date: 2024-03-19
+2026-06-28 14:13:41,492 - INFO - Asking model: gpt-4o-mini-2024-07-18 (method: cognitive_bias_aware)
+2026-06-28 14:13:41,492 - INFO - Claim: "Insulin for Medicare beneficiaries "was costing 400 bucks a month on average. It now costs $35 a month."...
+2026-06-28 14:13:44,867 - INFO - API Response Status: 200
+2026-06-28 14:13:44,867 - INFO - Raw model response: {"label": "Half-True", "brief_reason": "The claim about the cost reduction of insulin is accurate but lacks context regarding the specific circumstances and variations in costs."}
+2026-06-28 14:13:44,867 - INFO - Extracted label: Half-True -> Normalized: Misleading
+2026-06-28 14:13:44,868 - INFO - Prediction: Misleading
+2026-06-28 14:13:44,868 - INFO - ✓ Correct prediction
+2026-06-28 14:13:44,970 - INFO - ================================================================================
+2026-06-28 14:13:44,970 - INFO - Processing claim #35 (ID: fact5_unknown_35)
+2026-06-28 14:13:44,970 - INFO - Claim: "Unlike the Democrats, who are KILLING SOCIAL SECURITY AND MEDICARE by allowing the INVASION OF THE MIGRANTS, I will NOT, under any circumstance, allo...
+2026-06-28 14:13:44,970 - INFO - Date: 2024-03-21
+2026-06-28 14:13:44,970 - INFO - Asking model: gpt-4o-mini-2024-07-18 (method: cognitive_bias_aware)
+2026-06-28 14:13:44,970 - INFO - Claim: "Unlike the Democrats, who are KILLING SOCIAL SECURITY AND MEDICARE by allowing the INVASION OF THE MIGRANTS, I will NOT, under any circumstance, allo...
+2026-06-28 14:13:46,080 - INFO - API Response Status: 200
+2026-06-28 14:13:46,080 - INFO - Raw model response: {"label": "Half-True", "brief_reason": "The claim exaggerates the impact of migration on Social Security and Medicare while containing some truth about political differences."}
+2026-06-28 14:13:46,080 - INFO - Extracted label: Half-True -> Normalized: Misleading
+2026-06-28 14:13:46,082 - INFO - Prediction: Misleading
+2026-06-28 14:13:46,082 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-06-28 14:13:46,183 - INFO - ================================================================================
+2026-06-28 14:13:46,183 - INFO - Processing claim #36 (ID: fact5_unknown_36)
+2026-06-28 14:13:46,183 - INFO - Claim: King Charles III has been diagnosed with pancreatic cancer and has two years to live, as of late March 2024....
+2026-06-28 14:13:46,183 - INFO - Date: 2024-03-22
+2026-06-28 14:13:46,184 - INFO - Asking model: gpt-4o-mini-2024-07-18 (method: cognitive_bias_aware)
+2026-06-28 14:13:46,184 - INFO - Claim: King Charles III has been diagnosed with pancreatic cancer and has two years to live, as of late March 2024....
+2026-06-28 14:13:47,285 - INFO - API Response Status: 200
+2026-06-28 14:13:47,285 - INFO - Raw model response: {"label": "Refuted", "brief_reason": "There is no credible evidence to support the claim that King Charles III has been diagnosed with pancreatic cancer."}
+2026-06-28 14:13:47,285 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2026-06-28 14:13:47,287 - INFO - Prediction: Refuted
+2026-06-28 14:13:47,287 - INFO - ✗ Incorrect (True: Not Enough Information, Pred: Refuted)
+2026-06-28 14:13:47,388 - INFO - ================================================================================
+2026-06-28 14:13:47,388 - INFO - Processing claim #37 (ID: fact5_unknown_37)
+2026-06-28 14:13:47,388 - INFO - Claim: “It is a fact that Obama created ISIS.”...
+2026-06-28 14:13:47,388 - INFO - Date: 2024-03-23
+2026-06-28 14:13:47,388 - INFO - Asking model: gpt-4o-mini-2024-07-18 (method: cognitive_bias_aware)
+2026-06-28 14:13:47,388 - INFO - Claim: “It is a fact that Obama created ISIS.”...
+2026-06-28 14:13:48,433 - INFO - API Response Status: 200
+2026-06-28 14:13:48,433 - INFO - Raw model response: {"label": "Refuted", "brief_reason": "The claim that Obama created ISIS is inaccurate and unsupported by factual evidence."}
+2026-06-28 14:13:48,433 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2026-06-28 14:13:48,434 - INFO - Prediction: Refuted
+2026-06-28 14:13:48,434 - INFO - ✓ Correct prediction
+2026-06-28 14:13:48,536 - INFO - ================================================================================
+2026-06-28 14:13:48,536 - INFO - Processing claim #38 (ID: fact5_unknown_38)
+2026-06-28 14:13:48,536 - INFO - Claim: "The current Congress is “the least productive in our lifetime.”...
+2026-06-28 14:13:48,536 - INFO - Date: 2024-03-24
+2026-06-28 14:13:48,536 - INFO - Asking model: gpt-4o-mini-2024-07-18 (method: cognitive_bias_aware)
+2026-06-28 14:13:48,536 - INFO - Claim: "The current Congress is “the least productive in our lifetime.”...
+2026-06-28 14:13:49,658 - INFO - API Response Status: 200
+2026-06-28 14:13:49,658 - INFO - Raw model response: {"label": "Half-True", "brief_reason": "The claim may reflect a perception of productivity but lacks specific metrics or context to substantiate it as the least productive."}
+2026-06-28 14:13:49,658 - INFO - Extracted label: Half-True -> Normalized: Misleading
+2026-06-28 14:13:49,660 - INFO - Prediction: Misleading
+2026-06-28 14:13:49,660 - INFO - ✗ Incorrect (True: Supported, Pred: Misleading)
+2026-06-28 14:13:49,761 - INFO - ================================================================================
+2026-06-28 14:13:49,761 - INFO - Processing claim #39 (ID: fact5_unknown_39)
+2026-06-28 14:13:49,761 - INFO - Claim: "Pharmaceutical medicine has its place, but no single safety study can assess the cumulative impact of one prescription on top of another prescription...
+2026-06-28 14:13:49,762 - INFO - Date: 2024-03-26
+2026-06-28 14:13:49,762 - INFO - Asking model: gpt-4o-mini-2024-07-18 (method: cognitive_bias_aware)
+2026-06-28 14:13:49,762 - INFO - Claim: "Pharmaceutical medicine has its place, but no single safety study can assess the cumulative impact of one prescription on top of another prescription...
+2026-06-28 14:14:00,376 - INFO - API Response Status: 200
+2026-06-28 14:14:00,376 - INFO - Raw model response: {"label": "Half-True", "brief_reason": "The claim about the lack of comprehensive safety studies is partially accurate, but the assertion about autism rates is misleading and lacks context."}
+2026-06-28 14:14:00,376 - INFO - Extracted label: Half-True -> Normalized: Misleading
+2026-06-28 14:14:00,378 - INFO - Prediction: Misleading
+2026-06-28 14:14:00,378 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-06-28 14:14:00,480 - INFO - ================================================================================
+2026-06-28 14:14:00,480 - INFO - Processing claim #40 (ID: fact5_unknown_40)
+2026-06-28 14:14:00,480 - INFO - Claim: "Joe Biden graduated 76th academically in a class of 85 students at Syracuse University College of Law in 1968."...
+2026-06-28 14:14:00,480 - INFO - Date: 2024-03-27
+2026-06-28 14:14:00,480 - INFO - Asking model: gpt-4o-mini-2024-07-18 (method: cognitive_bias_aware)
+2026-06-28 14:14:00,480 - INFO - Claim: "Joe Biden graduated 76th academically in a class of 85 students at Syracuse University College of Law in 1968."...
+2026-06-28 14:14:01,561 - INFO - API Response Status: 200
+2026-06-28 14:14:01,561 - INFO - Raw model response: {"label": "Supported", "brief_reason": "The claim accurately states Joe Biden's academic ranking and class size at Syracuse University College of Law."}
+2026-06-28 14:14:01,561 - INFO - Extracted label: Supported -> Normalized: Supported
+2026-06-28 14:14:01,563 - INFO - Prediction: Supported
+2026-06-28 14:14:01,563 - INFO - ✓ Correct prediction
+2026-06-28 14:14:01,664 - INFO - ================================================================================
+2026-06-28 14:14:01,664 - INFO - Processing claim #41 (ID: fact5_unknown_41)
+2026-06-28 14:14:01,664 - INFO - Claim: "Video shows “New York Governor Kathy Hochul being denied entry into the wake for slain NYPD officer Jonathan Diller.”...
+2026-06-28 14:14:01,664 - INFO - Date: 2024-03-30
+2026-06-28 14:14:01,664 - INFO - Asking model: gpt-4o-mini-2024-07-18 (method: cognitive_bias_aware)
+2026-06-28 14:14:01,664 - INFO - Claim: "Video shows “New York Governor Kathy Hochul being denied entry into the wake for slain NYPD officer Jonathan Diller.”...
+2026-06-28 14:14:02,628 - INFO - API Response Status: 200
+2026-06-28 14:14:02,628 - INFO - Raw model response: {"label": "Not Enough Information", "brief_reason": "The claim lacks specific details about the video and the context of the event."}
+2026-06-28 14:14:02,628 - INFO - Extracted label: Not Enough Information -> Normalized: Not Enough Information
+2026-06-28 14:14:02,630 - INFO - Prediction: Not Enough Information
+2026-06-28 14:14:02,630 - INFO - ✗ Incorrect (True: Refuted, Pred: Not Enough Information)
+2026-06-28 14:14:02,739 - INFO - ================================================================================
+2026-06-28 14:14:02,739 - INFO - Processing claim #42 (ID: fact5_unknown_42)
+2026-06-28 14:14:02,739 - INFO - Claim: "President Biden is the first candidate in history, the first president in history, that has used the federal agencies to censor political speech ... ...
+2026-06-28 14:14:02,740 - INFO - Date: 2024-04-01
+2026-06-28 14:14:02,740 - INFO - Asking model: gpt-4o-mini-2024-07-18 (method: cognitive_bias_aware)
+2026-06-28 14:14:02,740 - INFO - Claim: "President Biden is the first candidate in history, the first president in history, that has used the federal agencies to censor political speech ... ...
+2026-06-28 14:14:03,835 - INFO - API Response Status: 200
+2026-06-28 14:14:03,835 - INFO - Raw model response: {"label": "Refuted", "brief_reason": "The claim that President Biden is the first to use federal agencies to censor political speech is inaccurate and unsupported by historical evidence."}
+2026-06-28 14:14:03,835 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2026-06-28 14:14:03,837 - INFO - Prediction: Refuted
+2026-06-28 14:14:03,837 - INFO - ✓ Correct prediction
+2026-06-28 14:14:03,939 - INFO - ================================================================================
+2026-06-28 14:14:03,939 - INFO - Processing claim #43 (ID: fact5_unknown_43)
+2026-06-28 14:14:03,939 - INFO - Claim: "Crime is down in Venezuela by 67% because they're taking their gangs and their criminals and depositing them very nicely into the United States.”...
+2026-06-28 14:14:03,939 - INFO - Date: 2024-04-02
+2026-06-28 14:14:03,939 - INFO - Asking model: gpt-4o-mini-2024-07-18 (method: cognitive_bias_aware)
+2026-06-28 14:14:03,939 - INFO - Claim: "Crime is down in Venezuela by 67% because they're taking their gangs and their criminals and depositing them very nicely into the United States.”...
+2026-06-28 14:14:05,056 - INFO - API Response Status: 200
+2026-06-28 14:14:05,056 - INFO - Raw model response: {"label": "Refuted", "brief_reason": "The claim that crime is down in Venezuela by 67% is inaccurate and unsupported by credible evidence."}
+2026-06-28 14:14:05,056 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2026-06-28 14:14:05,058 - INFO - Prediction: Refuted
+2026-06-28 14:14:05,058 - INFO - ✓ Correct prediction
+2026-06-28 14:14:05,159 - INFO - ================================================================================
+2026-06-28 14:14:05,159 - INFO - Processing claim #44 (ID: fact5_unknown_44)
+2026-06-28 14:14:05,159 - INFO - Claim: "Have you had to cancel or rethink any upcoming summer trips because of high prices? Don’t worry — your taxpayer dollars will be used to pay for illeg...
+2026-06-28 14:14:05,159 - INFO - Date: 2024-04-02
+2026-06-28 14:14:05,160 - INFO - Asking model: gpt-4o-mini-2024-07-18 (method: cognitive_bias_aware)
+2026-06-28 14:14:05,160 - INFO - Claim: "Have you had to cancel or rethink any upcoming summer trips because of high prices? Don’t worry — your taxpayer dollars will be used to pay for illeg...
+2026-06-28 14:14:06,273 - INFO - API Response Status: 200
+2026-06-28 14:14:06,273 - INFO - Raw model response: {"label": Half-True, "brief_reason": "The claim exaggerates the use of taxpayer dollars for illegal immigrants without providing full context on immigration policies and funding."}
+2026-06-28 14:14:06,273 - WARNING - Invalid JSON extracted: {"label": Half-True, "brief_reason": "The claim exaggerates the use of taxpayer dollars for illegal immigrants without providing full context on immigration policies and funding."}
+2026-06-28 14:14:06,276 - WARNING - Failed to get valid prediction
+2026-06-28 14:14:06,378 - INFO - ================================================================================
+2026-06-28 14:14:06,378 - INFO - Processing claim #45 (ID: fact5_unknown_45)
+2026-06-28 14:14:06,378 - INFO - Claim: "326,000 migrants were flown to Florida with taxpayer dollars under President Joe Biden’s secret migrant flight program."...
+2026-06-28 14:14:06,378 - INFO - Date: 2024-04-04
+2026-06-28 14:14:06,378 - INFO - Asking model: gpt-4o-mini-2024-07-18 (method: cognitive_bias_aware)
+2026-06-28 14:14:06,378 - INFO - Claim: "326,000 migrants were flown to Florida with taxpayer dollars under President Joe Biden’s secret migrant flight program."...
+2026-06-28 14:14:12,776 - INFO - API Response Status: 200
+2026-06-28 14:14:12,776 - INFO - Raw model response: {"label": "Refuted", "brief_reason": "The claim about 326,000 migrants being flown to Florida under a secret program is inaccurate and unsupported by available facts."}
+2026-06-28 14:14:12,776 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2026-06-28 14:14:12,778 - INFO - Prediction: Refuted
+2026-06-28 14:14:12,778 - INFO - ✓ Correct prediction
+2026-06-28 14:14:12,881 - INFO - ================================================================================
+2026-06-28 14:14:12,881 - INFO - Processing claim #46 (ID: fact5_unknown_46)
+2026-06-28 14:14:12,881 - INFO - Claim: "On Jan. 6, 2021, U.S. Capitol 'protestors carried no weapons.' "...
+2026-06-28 14:14:12,881 - INFO - Date: 2024-04-05
+2026-06-28 14:14:12,881 - INFO - Asking model: gpt-4o-mini-2024-07-18 (method: cognitive_bias_aware)
+2026-06-28 14:14:12,881 - INFO - Claim: "On Jan. 6, 2021, U.S. Capitol 'protestors carried no weapons.' "...
+2026-06-28 14:14:14,594 - INFO - API Response Status: 200
+2026-06-28 14:14:14,594 - INFO - Raw model response: {"label": "Refuted", "brief_reason": "Evidence shows that many protestors at the U.S. Capitol on Jan. 6, 2021, were armed."}
+2026-06-28 14:14:14,594 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2026-06-28 14:14:14,595 - INFO - Prediction: Refuted
+2026-06-28 14:14:14,595 - INFO - ✓ Correct prediction
+2026-06-28 14:14:14,696 - INFO - ================================================================================
+2026-06-28 14:14:14,697 - INFO - Processing claim #47 (ID: fact5_unknown_47)
+2026-06-28 14:14:14,697 - INFO - Claim: "Speaking of semiconductor industry jobs, "Know what the average salary is? $110,000. You don't need a college degree."...
+2026-06-28 14:14:14,697 - INFO - Date: 2024-04-08
+2026-06-28 14:14:14,697 - INFO - Asking model: gpt-4o-mini-2024-07-18 (method: cognitive_bias_aware)
+2026-06-28 14:14:14,697 - INFO - Claim: "Speaking of semiconductor industry jobs, "Know what the average salary is? $110,000. You don't need a college degree."...
+2026-06-28 14:14:15,978 - INFO - API Response Status: 200
+2026-06-28 14:14:15,978 - INFO - Raw model response: {"label": "Half-True", "brief_reason": "The claim about the average salary is likely accurate, but the assertion that a college degree is not needed oversimplifies the qualifications for many semiconductor jobs."}
+2026-06-28 14:14:15,978 - INFO - Extracted label: Half-True -> Normalized: Misleading
+2026-06-28 14:14:15,980 - INFO - Prediction: Misleading
+2026-06-28 14:14:15,980 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-06-28 14:14:16,081 - INFO - ================================================================================
+2026-06-28 14:14:16,081 - INFO - Processing claim #48 (ID: fact5_unknown_48)
+2026-06-28 14:14:16,081 - INFO - Claim: “Support for Roe is higher today in America than it has ever been."...
+2026-06-28 14:14:16,081 - INFO - Date: 2024-04-08
+2026-06-28 14:14:16,081 - INFO - Asking model: gpt-4o-mini-2024-07-18 (method: cognitive_bias_aware)
+2026-06-28 14:14:16,081 - INFO - Claim: “Support for Roe is higher today in America than it has ever been."...
+2026-06-28 14:14:17,160 - INFO - API Response Status: 200
+2026-06-28 14:14:17,161 - INFO - Raw model response: {"label": "Half-True", "brief_reason": "While support for Roe may be high, historical polling data shows varying levels of support over time, making the claim an exaggeration."}
+2026-06-28 14:14:17,161 - INFO - Extracted label: Half-True -> Normalized: Misleading
+2026-06-28 14:14:17,162 - INFO - Prediction: Misleading
+2026-06-28 14:14:17,162 - INFO - ✗ Incorrect (True: Supported, Pred: Misleading)
+2026-06-28 14:14:17,263 - INFO - ================================================================================
+2026-06-28 14:14:17,264 - INFO - Processing claim #49 (ID: fact5_unknown_49)
+2026-06-28 14:14:17,264 - INFO - Claim: "Starting in 2025 "no matter what your total bills are for prescription drugs,” Medicare Part D users will never pay “more than $2,000 a year, because...
+2026-06-28 14:14:17,264 - INFO - Date: 2024-04-09
+2026-06-28 14:14:17,264 - INFO - Asking model: gpt-4o-mini-2024-07-18 (method: cognitive_bias_aware)
+2026-06-28 14:14:17,264 - INFO - Claim: "Starting in 2025 "no matter what your total bills are for prescription drugs,” Medicare Part D users will never pay “more than $2,000 a year, because...
+2026-06-28 14:14:18,474 - INFO - API Response Status: 200
+2026-06-28 14:14:18,475 - INFO - Raw model response: {"label": "Half-True", "brief_reason": "The claim about the $2,000 cap is accurate, but it oversimplifies the complexities of Medicare Part D and the specifics of drug pricing."}
+2026-06-28 14:14:18,475 - INFO - Extracted label: Half-True -> Normalized: Misleading
+2026-06-28 14:14:18,476 - INFO - Prediction: Misleading
+2026-06-28 14:14:18,476 - INFO - ✗ Incorrect (True: Supported, Pred: Misleading)
+2026-06-28 14:14:18,581 - INFO - ================================================================================
+2026-06-28 14:14:18,581 - INFO - Processing claim #50 (ID: fact5_unknown_50)
+2026-06-28 14:14:18,581 - INFO - Claim: "In Michigan, radical, left Democrat governor Gretchen Whitmer is handing out $500 a month in cash to anyone who accepts illegal aliens into your home...
+2026-06-28 14:14:18,581 - INFO - Date: 2024-04-11
+2026-06-28 14:14:18,581 - INFO - Asking model: gpt-4o-mini-2024-07-18 (method: cognitive_bias_aware)
+2026-06-28 14:14:18,581 - INFO - Claim: "In Michigan, radical, left Democrat governor Gretchen Whitmer is handing out $500 a month in cash to anyone who accepts illegal aliens into your home...
+2026-06-28 14:14:19,689 - INFO - API Response Status: 200
+2026-06-28 14:14:19,689 - INFO - Raw model response: {"label": "Refuted", "brief_reason": "The claim about a $500 cash payment for accepting illegal aliens is false and misrepresents the Newcomer Rental Subsidy program."}
+2026-06-28 14:14:19,689 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2026-06-28 14:14:19,691 - INFO - Prediction: Refuted
+2026-06-28 14:14:19,691 - INFO - ✓ Correct prediction
+2026-06-28 14:14:19,793 - INFO - ================================================================================
+2026-06-28 14:14:19,793 - INFO - Processing claim #51 (ID: fact5_unknown_51)
+2026-06-28 14:14:19,793 - INFO - Claim: "Not even one rocket (from Iran) hit Israel."...
+2026-06-28 14:14:19,793 - INFO - Date: 2024-04-14
+2026-06-28 14:14:19,793 - INFO - Asking model: gpt-4o-mini-2024-07-18 (method: cognitive_bias_aware)
+2026-06-28 14:14:19,793 - INFO - Claim: "Not even one rocket (from Iran) hit Israel."...
+2026-06-28 14:14:21,249 - INFO - API Response Status: 200
+2026-06-28 14:14:21,249 - INFO - Raw model response: {"label": "Refuted", "brief_reason": "Rockets from Iran have hit Israel in the past."}
+2026-06-28 14:14:21,249 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2026-06-28 14:14:21,251 - INFO - Prediction: Refuted
+2026-06-28 14:14:21,251 - INFO - ✓ Correct prediction
+2026-06-28 14:14:21,352 - INFO - ================================================================================
+2026-06-28 14:14:21,352 - INFO - Processing claim #52 (ID: fact5_unknown_52)
+2026-06-28 14:14:21,353 - INFO - Claim: Gov. Tony Evers is asking the GOP to release money for PFAS, but "vetoed (a bill outlining) how to spend the money."...
+2026-06-28 14:14:21,353 - INFO - Date: 2024-04-15
+2026-06-28 14:14:21,353 - INFO - Asking model: gpt-4o-mini-2024-07-18 (method: cognitive_bias_aware)
+2026-06-28 14:14:21,353 - INFO - Claim: Gov. Tony Evers is asking the GOP to release money for PFAS, but "vetoed (a bill outlining) how to spend the money."...
+2026-06-28 14:14:22,511 - INFO - API Response Status: 200
+2026-06-28 14:14:22,511 - INFO - Raw model response: {"label": "Half-True", "brief_reason": "The claim accurately states that Gov. Evers is asking for funding but oversimplifies the context of the veto."}
+2026-06-28 14:14:22,511 - INFO - Extracted label: Half-True -> Normalized: Misleading
+2026-06-28 14:14:22,514 - INFO - Prediction: Misleading
+2026-06-28 14:14:22,514 - INFO - ✗ Incorrect (True: Supported, Pred: Misleading)
+2026-06-28 14:14:22,616 - INFO - ================================================================================
+2026-06-28 14:14:22,616 - INFO - Processing claim #53 (ID: fact5_unknown_53)
+2026-06-28 14:14:22,616 - INFO - Claim: "Only two presidents in American history left office with fewer jobs than when they entered office. Herbert Hoover and yes, Donald Herbert Hoover Trum...
+2026-06-28 14:14:22,616 - INFO - Date: 2024-04-16
+2026-06-28 14:14:22,616 - INFO - Asking model: gpt-4o-mini-2024-07-18 (method: cognitive_bias_aware)
+2026-06-28 14:14:22,616 - INFO - Claim: "Only two presidents in American history left office with fewer jobs than when they entered office. Herbert Hoover and yes, Donald Herbert Hoover Trum...
+2026-06-28 14:14:23,722 - INFO - API Response Status: 200
+2026-06-28 14:14:23,722 - INFO - Raw model response: {"label": "Half-True", "brief_reason": "The claim about Hoover is accurate, but the assertion regarding Trump is misleading without context on job growth trends during his presidency."}
+2026-06-28 14:14:23,722 - INFO - Extracted label: Half-True -> Normalized: Misleading
+2026-06-28 14:14:23,724 - INFO - Prediction: Misleading
+2026-06-28 14:14:23,724 - INFO - ✗ Incorrect (True: Supported, Pred: Misleading)
+2026-06-28 14:14:23,826 - INFO - ================================================================================
+2026-06-28 14:14:23,826 - INFO - Processing claim #54 (ID: fact5_unknown_54)
+2026-06-28 14:14:23,826 - INFO - Claim: I have to say, there are a lot of things that Donald Trump has said and done that I find extremely offensive. But one that offends me the most is when...
+2026-06-28 14:14:23,826 - INFO - Date: 2024-04-16
+2026-06-28 14:14:23,826 - INFO - Asking model: gpt-4o-mini-2024-07-18 (method: cognitive_bias_aware)
+2026-06-28 14:14:23,826 - INFO - Claim: I have to say, there are a lot of things that Donald Trump has said and done that I find extremely offensive. But one that offends me the most is when...
+2026-06-28 14:14:24,990 - INFO - API Response Status: 200
+2026-06-28 14:14:24,990 - INFO - Raw model response: {"label": "Half-True", "brief_reason": "While Trump did make controversial remarks about soldiers, the context and specifics of the cemetery visit are more complex and often debated."}
+2026-06-28 14:14:24,990 - INFO - Extracted label: Half-True -> Normalized: Misleading
+2026-06-28 14:14:24,992 - INFO - Prediction: Misleading
+2026-06-28 14:14:24,992 - INFO - ✗ Incorrect (True: Not Enough Information, Pred: Misleading)
+2026-06-28 14:14:25,093 - INFO - ================================================================================
+2026-06-28 14:14:25,093 - INFO - Processing claim #55 (ID: fact5_unknown_55)
+2026-06-28 14:14:25,093 - INFO - Claim: "Dollar Tree, Walgreens, Macy’s, Foot Locker, Gap, Burger King, Regal Cinemas and Kroger have had mass store closures during Joe Biden’s presidency."...
+2026-06-28 14:14:25,094 - INFO - Date: 2024-04-19
+2026-06-28 14:14:25,094 - INFO - Asking model: gpt-4o-mini-2024-07-18 (method: cognitive_bias_aware)
+2026-06-28 14:14:25,094 - INFO - Claim: "Dollar Tree, Walgreens, Macy’s, Foot Locker, Gap, Burger King, Regal Cinemas and Kroger have had mass store closures during Joe Biden’s presidency."...
+2026-06-28 14:14:29,632 - INFO - API Response Status: 200
+2026-06-28 14:14:29,632 - INFO - Raw model response: {"label": "Half-True", "brief_reason": "While some of these companies have announced store closures, the claim lacks context regarding the reasons and broader trends affecting retail during Biden's presidency."}
+2026-06-28 14:14:29,632 - INFO - Extracted label: Half-True -> Normalized: Misleading
+2026-06-28 14:14:29,634 - INFO - Prediction: Misleading
+2026-06-28 14:14:29,634 - INFO - ✓ Correct prediction
+2026-06-28 14:14:29,735 - INFO - ================================================================================
+2026-06-28 14:14:29,735 - INFO - Processing claim #56 (ID: fact5_unknown_56)
+2026-06-28 14:14:29,735 - INFO - Claim: "[Rep. Adam Schiff] won’t tell you that he just voted to send $100 billion to foreign countries. We have a $35 trillion national debt in America."...
+2026-06-28 14:14:29,735 - INFO - Date: 2024-04-20
+2026-06-28 14:14:29,735 - INFO - Asking model: gpt-4o-mini-2024-07-18 (method: cognitive_bias_aware)
+2026-06-28 14:14:29,735 - INFO - Claim: "[Rep. Adam Schiff] won’t tell you that he just voted to send $100 billion to foreign countries. We have a $35 trillion national debt in America."...
+2026-06-28 14:14:31,069 - INFO - API Response Status: 200
+2026-06-28 14:14:31,069 - INFO - Raw model response: {"label": "Half-True", "brief_reason": "The claim about Schiff voting for foreign aid is partially accurate but lacks context about the specific legislation and its implications."}
+2026-06-28 14:14:31,069 - INFO - Extracted label: Half-True -> Normalized: Misleading
+2026-06-28 14:14:31,071 - INFO - Prediction: Misleading
+2026-06-28 14:14:31,071 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-06-28 14:14:31,172 - INFO - ================================================================================
+2026-06-28 14:14:31,173 - INFO - Processing claim #57 (ID: fact5_unknown_57)
+2026-06-28 14:14:31,173 - INFO - Claim: U.S. Sen. Tammy Baldwin "believes taxpayer dollars should be used for abortion."...
+2026-06-28 14:14:31,173 - INFO - Date: 2024-04-28
+2026-06-28 14:14:31,173 - INFO - Asking model: gpt-4o-mini-2024-07-18 (method: cognitive_bias_aware)
+2026-06-28 14:14:31,173 - INFO - Claim: U.S. Sen. Tammy Baldwin "believes taxpayer dollars should be used for abortion."...
+2026-06-28 14:14:32,215 - INFO - API Response Status: 200
+2026-06-28 14:14:32,215 - INFO - Raw model response: {"label": "Half-True", "brief_reason": "While Baldwin has supported funding for reproductive health services, the claim oversimplifies her position on abortion funding."}
+2026-06-28 14:14:32,215 - INFO - Extracted label: Half-True -> Normalized: Misleading
+2026-06-28 14:14:32,217 - INFO - Prediction: Misleading
+2026-06-28 14:14:32,217 - INFO - ✓ Correct prediction
+2026-06-28 14:14:32,318 - INFO - ================================================================================
+2026-06-28 14:14:32,318 - INFO - Processing claim #58 (ID: fact5_unknown_58)
+2026-06-28 14:14:32,318 - INFO - Claim: "Billionaire investor and philanthropist, George Soros, was paying students to organize the protests."...
+2026-06-28 14:14:32,318 - INFO - Date: 2024-04-29
+2026-06-28 14:14:32,318 - INFO - Asking model: gpt-4o-mini-2024-07-18 (method: cognitive_bias_aware)
+2026-06-28 14:14:32,318 - INFO - Claim: "Billionaire investor and philanthropist, George Soros, was paying students to organize the protests."...
+2026-06-28 14:14:33,548 - INFO - API Response Status: 200
+2026-06-28 14:14:33,548 - INFO - Raw model response: {"label": "Refuted", "brief_reason": "There is no credible evidence to support the claim that George Soros was paying students to organize protests."}
+2026-06-28 14:14:33,548 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2026-06-28 14:14:33,550 - INFO - Prediction: Refuted
+2026-06-28 14:14:33,550 - INFO - ✓ Correct prediction
+2026-06-28 14:14:33,652 - INFO - ================================================================================
+2026-06-28 14:14:33,652 - INFO - Processing claim #59 (ID: fact5_unknown_59)
+2026-06-28 14:14:33,652 - INFO - Claim: "President Donald Trump "just told TIME Magazine that in his second term as president he'd force every pregnant woman to submit to constant government...
+2026-06-28 14:14:33,652 - INFO - Date: 2024-05-01
+2026-06-28 14:14:33,652 - INFO - Asking model: gpt-4o-mini-2024-07-18 (method: cognitive_bias_aware)
+2026-06-28 14:14:33,652 - INFO - Claim: "President Donald Trump "just told TIME Magazine that in his second term as president he'd force every pregnant woman to submit to constant government...
+2026-06-28 14:14:39,716 - INFO - API Response Status: 200
+2026-06-28 14:14:39,716 - INFO - Raw model response: {"label": "Refuted", "brief_reason": "There is no evidence that Trump made such a statement to TIME Magazine."}
+2026-06-28 14:14:39,716 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2026-06-28 14:14:39,718 - INFO - Prediction: Refuted
+2026-06-28 14:14:39,718 - INFO - ✓ Correct prediction
+2026-06-28 14:14:39,860 - INFO - ================================================================================
+2026-06-28 14:14:39,860 - INFO - Processing claim #60 (ID: fact5_unknown_60)
+2026-06-28 14:14:39,860 - INFO - Claim: "Former U.S. President Donald Trump stated that he would not defend NATO allies if they were attacked by Russia."...
+2026-06-28 14:14:39,861 - INFO - Date: 2024-05-02
+2026-06-28 14:14:39,861 - INFO - Asking model: gpt-4o-mini-2024-07-18 (method: cognitive_bias_aware)
+2026-06-28 14:14:39,861 - INFO - Claim: "Former U.S. President Donald Trump stated that he would not defend NATO allies if they were attacked by Russia."...
+2026-06-28 14:14:45,671 - INFO - API Response Status: 200
+2026-06-28 14:14:45,672 - INFO - Raw model response: {"label": "Supported", "brief_reason": "The claim accurately reflects Trump's past statements regarding NATO."}
+2026-06-28 14:14:45,672 - INFO - Extracted label: Supported -> Normalized: Supported
+2026-06-28 14:14:45,673 - INFO - Prediction: Supported
+2026-06-28 14:14:45,673 - INFO - ✗ Incorrect (True: Misleading, Pred: Supported)
+2026-06-28 14:14:45,775 - INFO - ================================================================================
+2026-06-28 14:14:45,775 - INFO - Processing claim #61 (ID: fact5_unknown_61)
+2026-06-28 14:14:45,775 - INFO - Claim: “Under (the Biden) administration we have witnessed the fastest growth of Black-owned small businesses in more than 30 years.”...
+2026-06-28 14:14:45,775 - INFO - Date: 2024-05-16
+2026-06-28 14:14:45,775 - INFO - Asking model: gpt-4o-mini-2024-07-18 (method: cognitive_bias_aware)
+2026-06-28 14:14:45,775 - INFO - Claim: “Under (the Biden) administration we have witnessed the fastest growth of Black-owned small businesses in more than 30 years.”...
+2026-06-28 14:14:47,077 - INFO - API Response Status: 200
+2026-06-28 14:14:47,077 - INFO - Raw model response: {"label": "Half-True", "brief_reason": "The claim about growth is accurate but lacks context regarding the overall economic conditions and other contributing factors."}
+2026-06-28 14:14:47,077 - INFO - Extracted label: Half-True -> Normalized: Misleading
+2026-06-28 14:14:47,079 - INFO - Prediction: Misleading
+2026-06-28 14:14:47,079 - INFO - ✗ Incorrect (True: Supported, Pred: Misleading)
+2026-06-28 14:14:47,180 - INFO - ================================================================================
+2026-06-28 14:14:47,180 - INFO - Processing claim #62 (ID: fact5_unknown_62)
+2026-06-28 14:14:47,180 - INFO - Claim: Wisconsin had a “record-breaking year” for tourism in 2023....
+2026-06-28 14:14:47,180 - INFO - Date: 2024-06-11
+2026-06-28 14:14:47,180 - INFO - Asking model: gpt-4o-mini-2024-07-18 (method: cognitive_bias_aware)
+2026-06-28 14:14:47,180 - INFO - Claim: Wisconsin had a “record-breaking year” for tourism in 2023....
+2026-06-28 14:14:48,484 - INFO - API Response Status: 200
+2026-06-28 14:14:48,484 - INFO - Raw model response: {"label": "Not Enough Information", "brief_reason": "The claim lacks specific data or context to verify whether 2023 was indeed a record-breaking year for tourism in Wisconsin."}
+2026-06-28 14:14:48,484 - INFO - Extracted label: Not Enough Information -> Normalized: Not Enough Information
+2026-06-28 14:14:48,486 - INFO - Prediction: Not Enough Information
+2026-06-28 14:14:48,486 - INFO - ✗ Incorrect (True: Supported, Pred: Not Enough Information)
+2026-06-28 14:14:48,587 - INFO - ================================================================================
+2026-06-28 14:14:48,587 - INFO - Processing claim #63 (ID: fact5_unknown_63)
+2026-06-28 14:14:48,587 - INFO - Claim: In 2020, “only nine NATO allies were spending 2%” of their GDP on defense. “This year, 23 will spend at least 2%.”...
+2026-06-28 14:14:48,587 - INFO - Date: 2024-07-09
+2026-06-28 14:14:48,587 - INFO - Asking model: gpt-4o-mini-2024-07-18 (method: cognitive_bias_aware)
+2026-06-28 14:14:48,587 - INFO - Claim: In 2020, “only nine NATO allies were spending 2%” of their GDP on defense. “This year, 23 will spend at least 2%.”...
+2026-06-28 14:14:49,786 - INFO - API Response Status: 200
+2026-06-28 14:14:49,786 - INFO - Raw model response: {"label": "Half-True", "brief_reason": "The claim accurately states the number of NATO allies spending 2% of GDP in 2020 but may exaggerate the current situation without context on the criteria for meeting the 2%
+2026-06-28 14:14:49,786 - WARNING - Could not find JSON in response: {"label": "Half-True", "brief_reason": "The claim accurately states the number of NATO allies spending 2% of GDP in 2020 but may exaggerate the current situation without context on the criteria for meeting the 2%
+2026-06-28 14:14:49,788 - WARNING - Failed to get valid prediction
+2026-06-28 14:14:49,890 - INFO - ================================================================================
+2026-06-28 14:14:49,890 - INFO - Processing claim #64 (ID: fact5_unknown_64)
+2026-06-28 14:14:49,890 - INFO - Claim: “The most recent State Budget increased funding for the Department of Tourism by 98 percent.”...
+2026-06-28 14:14:49,890 - INFO - Date: 2024-07-12
+2026-06-28 14:14:49,890 - INFO - Asking model: gpt-4o-mini-2024-07-18 (method: cognitive_bias_aware)
+2026-06-28 14:14:49,890 - INFO - Claim: “The most recent State Budget increased funding for the Department of Tourism by 98 percent.”...
+2026-06-28 14:14:51,065 - INFO - API Response Status: 200
+2026-06-28 14:14:51,065 - INFO - Raw model response: {"label": "Not Enough Information", "brief_reason": "The claim lacks specific details about the budget and context to verify the accuracy of the funding increase."}
+2026-06-28 14:14:51,065 - INFO - Extracted label: Not Enough Information -> Normalized: Not Enough Information
+2026-06-28 14:14:51,067 - INFO - Prediction: Not Enough Information
+2026-06-28 14:14:51,067 - INFO - ✗ Incorrect (True: Supported, Pred: Not Enough Information)
+2026-06-28 14:14:51,168 - INFO - ================================================================================
+2026-06-28 14:14:51,168 - INFO - Processing claim #65 (ID: fact5_unknown_65)
+2026-06-28 14:14:51,168 - INFO - Claim: After being shot at a Milwaukee rally in 1912, former President Teddy Roosevelt “finished his speech and he kept fighting.”...
+2026-06-28 14:14:51,168 - INFO - Date: 2024-07-17
+2026-06-28 14:14:51,168 - INFO - Asking model: gpt-4o-mini-2024-07-18 (method: cognitive_bias_aware)
+2026-06-28 14:14:51,169 - INFO - Claim: After being shot at a Milwaukee rally in 1912, former President Teddy Roosevelt “finished his speech and he kept fighting.”...
+2026-06-28 14:14:52,293 - INFO - API Response Status: 200
+2026-06-28 14:14:52,294 - INFO - Raw model response: {"label": "Supported", "brief_reason": "The claim accurately describes Teddy Roosevelt's actions after being shot in 1912."}
+2026-06-28 14:14:52,294 - INFO - Extracted label: Supported -> Normalized: Supported
+2026-06-28 14:14:52,296 - INFO - Prediction: Supported
+2026-06-28 14:14:52,296 - INFO - ✓ Correct prediction
+2026-06-28 14:14:52,398 - INFO - ================================================================================
+2026-06-28 14:14:52,398 - INFO - Processing claim #66 (ID: fact5_unknown_66)
+2026-06-28 14:14:52,399 - INFO - Claim: Sam Brown “said abortion should be banned without any exceptions for rape or incest.”...
+2026-06-28 14:14:52,399 - INFO - Date: 2024-07-17
+2026-06-28 14:14:52,399 - INFO - Asking model: gpt-4o-mini-2024-07-18 (method: cognitive_bias_aware)
+2026-06-28 14:14:52,399 - INFO - Claim: Sam Brown “said abortion should be banned without any exceptions for rape or incest.”...
+2026-06-28 14:14:54,059 - INFO - API Response Status: 200
+2026-06-28 14:14:54,059 - INFO - Raw model response: {"label": "Half-True", "brief_reason": "While Sam Brown may have expressed a position against exceptions for rape or incest, the claim lacks context regarding his overall stance on abortion."}
+2026-06-28 14:14:54,060 - INFO - Extracted label: Half-True -> Normalized: Misleading
+2026-06-28 14:14:54,061 - INFO - Prediction: Misleading
+2026-06-28 14:14:54,062 - INFO - ✓ Correct prediction
+2026-06-28 14:14:54,163 - INFO - ================================================================================
+2026-06-28 14:14:54,163 - INFO - Processing claim #67 (ID: fact5_unknown_67)
+2026-06-28 14:14:54,163 - INFO - Claim: Donald Trump “took away protections against discrimination for LGBTQ patients under the Affordable Care Act.”...
+2026-06-28 14:14:54,163 - INFO - Date: 2024-07-20
+2026-06-28 14:14:54,163 - INFO - Asking model: gpt-4o-mini-2024-07-18 (method: cognitive_bias_aware)
+2026-06-28 14:14:54,163 - INFO - Claim: Donald Trump “took away protections against discrimination for LGBTQ patients under the Affordable Care Act.”...
+2026-06-28 14:14:55,256 - INFO - API Response Status: 200
+2026-06-28 14:14:55,256 - INFO - Raw model response: {"label": "Supported", "brief_reason": "The claim accurately reflects the changes made to protections for LGBTQ patients under the Affordable Care Act during Trump's administration."}
+2026-06-28 14:14:55,256 - INFO - Extracted label: Supported -> Normalized: Supported
+2026-06-28 14:14:55,257 - INFO - Prediction: Supported
+2026-06-28 14:14:55,258 - INFO - ✓ Correct prediction
+2026-06-28 14:14:55,359 - INFO - ================================================================================
+2026-06-28 14:14:55,360 - INFO - Processing claim #68 (ID: fact5_unknown_68)
+2026-06-28 14:14:55,360 - INFO - Claim: Author Kurt Vonnegut once said: "We'll go down in history as the first society that wouldn't save itself because it wasn't cost-effective."...
+2026-06-28 14:14:55,360 - INFO - Date: 2024-07-25
+2026-06-28 14:14:55,360 - INFO - Asking model: gpt-4o-mini-2024-07-18 (method: cognitive_bias_aware)
+2026-06-28 14:14:55,360 - INFO - Claim: Author Kurt Vonnegut once said: "We'll go down in history as the first society that wouldn't save itself because it wasn't cost-effective."...
+2026-06-28 14:15:02,482 - INFO - API Response Status: 200
+2026-06-28 14:15:02,482 - INFO - Raw model response: {"label": "Supported", "brief_reason": "The quote attributed to Kurt Vonnegut is accurate and verifiable."}
+2026-06-28 14:15:02,483 - INFO - Extracted label: Supported -> Normalized: Supported
+2026-06-28 14:15:02,484 - INFO - Prediction: Supported
+2026-06-28 14:15:02,484 - INFO - ✗ Incorrect (True: Not Enough Information, Pred: Supported)
+2026-06-28 14:15:02,585 - INFO - ================================================================================
+2026-06-28 14:15:02,585 - INFO - Processing claim #69 (ID: fact5_unknown_69)
+2026-06-28 14:15:02,586 - INFO - Claim: “Even before the pandemic, America went into a manufacturing recession.”...
+2026-06-28 14:15:02,586 - INFO - Date: 2024-07-28
+2026-06-28 14:15:02,586 - INFO - Asking model: gpt-4o-mini-2024-07-18 (method: cognitive_bias_aware)
+2026-06-28 14:15:02,586 - INFO - Claim: “Even before the pandemic, America went into a manufacturing recession.”...
+2026-06-28 14:15:03,635 - INFO - API Response Status: 200
+2026-06-28 14:15:03,635 - INFO - Raw model response: {"label": "Half-True", "brief_reason": "The claim is partially accurate as manufacturing activity was declining before the pandemic, but it oversimplifies the broader economic context."}
+2026-06-28 14:15:03,636 - INFO - Extracted label: Half-True -> Normalized: Misleading
+2026-06-28 14:15:03,637 - INFO - Prediction: Misleading
+2026-06-28 14:15:03,637 - INFO - ✗ Incorrect (True: Supported, Pred: Misleading)
+2026-06-28 14:15:03,739 - INFO - ================================================================================
+2026-06-28 14:15:03,739 - INFO - Processing claim #70 (ID: fact5_unknown_70)
+2026-06-28 14:15:03,739 - INFO - Claim: “[Kamala Harris] wants to take away your gas stoves.”...
+2026-06-28 14:15:03,739 - INFO - Date: 2024-08-03
+2026-06-28 14:15:03,739 - INFO - Asking model: gpt-4o-mini-2024-07-18 (method: cognitive_bias_aware)
+2026-06-28 14:15:03,739 - INFO - Claim: “[Kamala Harris] wants to take away your gas stoves.”...
+2026-06-28 14:15:04,794 - INFO - API Response Status: 200
+2026-06-28 14:15:04,794 - INFO - Raw model response: {"label": "Half-True", "brief_reason": "While Kamala Harris has expressed support for regulations on gas stoves due to environmental concerns, the claim oversimplifies her position and implies a complete ban."}
+2026-06-28 14:15:04,794 - INFO - Extracted label: Half-True -> Normalized: Misleading
+2026-06-28 14:15:04,796 - INFO - Prediction: Misleading
+2026-06-28 14:15:04,796 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-06-28 14:15:04,898 - INFO - ================================================================================
+2026-06-28 14:15:04,898 - INFO - Processing claim #71 (ID: fact5_unknown_71)
+2026-06-28 14:15:04,898 - INFO - Claim: “[Kamala Harris] even wants to take away your ability to eat red meat. That’s how out there she is. That’s real. The fake news will fact-check it. The...
+2026-06-28 14:15:04,898 - INFO - Date: 2024-08-03
+2026-06-28 14:15:04,898 - INFO - Asking model: gpt-4o-mini-2024-07-18 (method: cognitive_bias_aware)
+2026-06-28 14:15:04,898 - INFO - Claim: “[Kamala Harris] even wants to take away your ability to eat red meat. That’s how out there she is. That’s real. The fake news will fact-check it. The...
+2026-06-28 14:15:06,038 - INFO - API Response Status: 200
+2026-06-28 14:15:06,038 - INFO - Raw model response: {"label": "Refuted", "brief_reason": "Kamala Harris has not made any statements or proposals to take away the ability to eat red meat."}
+2026-06-28 14:15:06,038 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2026-06-28 14:15:06,039 - INFO - Prediction: Refuted
+2026-06-28 14:15:06,039 - INFO - ✓ Correct prediction
+2026-06-28 14:15:06,141 - INFO - ================================================================================
+2026-06-28 14:15:06,142 - INFO - Processing claim #72 (ID: fact5_unknown_72)
+2026-06-28 14:15:06,142 - INFO - Claim: JD Vance “literally wrote the foreword for the architect of the Project 2025 agenda."...
+2026-06-28 14:15:06,142 - INFO - Date: 2024-08-06
+2026-06-28 14:15:06,142 - INFO - Asking model: gpt-4o-mini-2024-07-18 (method: cognitive_bias_aware)
+2026-06-28 14:15:06,142 - INFO - Claim: JD Vance “literally wrote the foreword for the architect of the Project 2025 agenda."...
+2026-06-28 14:15:07,321 - INFO - API Response Status: 200
+2026-06-28 14:15:07,321 - INFO - Raw model response: {"label": "Half-True", "brief_reason": "While JD Vance did write a foreword, the claim oversimplifies the relationship and context regarding Project 2025."}
+2026-06-28 14:15:07,321 - INFO - Extracted label: Half-True -> Normalized: Misleading
+2026-06-28 14:15:07,323 - INFO - Prediction: Misleading
+2026-06-28 14:15:07,323 - INFO - ✗ Incorrect (True: Supported, Pred: Misleading)
+2026-06-28 14:15:07,424 - INFO - ================================================================================
+2026-06-28 14:15:07,424 - INFO - Processing claim #73 (ID: fact5_unknown_73)
+2026-06-28 14:15:07,424 - INFO - Claim: Minnesota Gov. Tim Walz signed “legislation giving free college … to illegal immigrants.”...
+2026-06-28 14:15:07,424 - INFO - Date: 2024-08-06
+2026-06-28 14:15:07,424 - INFO - Asking model: gpt-4o-mini-2024-07-18 (method: cognitive_bias_aware)
+2026-06-28 14:15:07,424 - INFO - Claim: Minnesota Gov. Tim Walz signed “legislation giving free college … to illegal immigrants.”...
+2026-06-28 14:15:08,499 - INFO - API Response Status: 200
+2026-06-28 14:15:08,499 - INFO - Raw model response: {"label": "Half-True", "brief_reason": "The claim simplifies the legislation's provisions and context regarding tuition benefits for undocumented students."}
+2026-06-28 14:15:08,499 - INFO - Extracted label: Half-True -> Normalized: Misleading
+2026-06-28 14:15:08,501 - INFO - Prediction: Misleading
+2026-06-28 14:15:08,501 - INFO - ✗ Incorrect (True: Supported, Pred: Misleading)
+2026-06-28 14:15:08,602 - INFO - ================================================================================
+2026-06-28 14:15:08,603 - INFO - Processing claim #74 (ID: fact5_unknown_74)
+2026-06-28 14:15:08,603 - INFO - Claim: "Tim Walz signed into law driver's licenses for illegal immigrants in Minnesota."...
+2026-06-28 14:15:08,603 - INFO - Date: 2024-08-06
+2026-06-28 14:15:08,603 - INFO - Asking model: gpt-4o-mini-2024-07-18 (method: cognitive_bias_aware)
+2026-06-28 14:15:08,603 - INFO - Claim: "Tim Walz signed into law driver's licenses for illegal immigrants in Minnesota."...
+2026-06-28 14:15:09,873 - INFO - API Response Status: 200
+2026-06-28 14:15:09,873 - INFO - Raw model response: {"label": "Supported", "brief_reason": "Tim Walz did sign a law allowing driver's licenses for undocumented immigrants in Minnesota."}
+2026-06-28 14:15:09,873 - INFO - Extracted label: Supported -> Normalized: Supported
+2026-06-28 14:15:09,874 - INFO - Prediction: Supported
+2026-06-28 14:15:09,874 - INFO - ✓ Correct prediction
+2026-06-28 14:15:09,976 - INFO - ================================================================================
+2026-06-28 14:15:09,976 - INFO - Processing claim #75 (ID: fact5_unknown_75)
+2026-06-28 14:15:09,976 - INFO - Claim: Tim Walz said he carried weapons in war, but “he has not spent a day in a combat zone.”...
+2026-06-28 14:15:09,976 - INFO - Date: 2024-08-07
+2026-06-28 14:15:09,976 - INFO - Asking model: gpt-4o-mini-2024-07-18 (method: cognitive_bias_aware)
+2026-06-28 14:15:09,976 - INFO - Claim: Tim Walz said he carried weapons in war, but “he has not spent a day in a combat zone.”...
+2026-06-28 14:15:11,333 - INFO - API Response Status: 200
+2026-06-28 14:15:11,333 - INFO - Raw model response: {"label": "Half-True", "brief_reason": "While it's accurate that Tim Walz has not spent time in a combat zone, the claim about him carrying weapons in war lacks context regarding his military service."}
+2026-06-28 14:15:11,333 - INFO - Extracted label: Half-True -> Normalized: Misleading
+2026-06-28 14:15:11,335 - INFO - Prediction: Misleading
+2026-06-28 14:15:11,335 - INFO - ✗ Incorrect (True: Supported, Pred: Misleading)
+2026-06-28 14:15:11,436 - INFO - ================================================================================
+2026-06-28 14:15:11,436 - INFO - Processing claim #76 (ID: fact5_unknown_76)
+2026-06-28 14:15:11,436 - INFO - Claim: In the 1980s, U.S. Vice President Kamala Harris worked at McDonald's while completing her undergraduate degree....
+2026-06-28 14:15:11,436 - INFO - Date: 2024-08-10
+2026-06-28 14:15:11,436 - INFO - Asking model: gpt-4o-mini-2024-07-18 (method: cognitive_bias_aware)
+2026-06-28 14:15:11,436 - INFO - Claim: In the 1980s, U.S. Vice President Kamala Harris worked at McDonald's while completing her undergraduate degree....
+2026-06-28 14:15:12,677 - INFO - API Response Status: 200
+2026-06-28 14:15:12,677 - INFO - Raw model response: {"label": "Refuted", "brief_reason": "Kamala Harris did not work at McDonald's in the 1980s; she attended Howard University and later earned her law degree."}
+2026-06-28 14:15:12,677 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2026-06-28 14:15:12,678 - INFO - Prediction: Refuted
+2026-06-28 14:15:12,678 - INFO - ✗ Incorrect (True: Not Enough Information, Pred: Refuted)
+2026-06-28 14:15:12,780 - INFO - ================================================================================
+2026-06-28 14:15:12,780 - INFO - Processing claim #77 (ID: fact5_unknown_77)
+2026-06-28 14:15:12,780 - INFO - Claim: “[Kamala Harris] has said things like, ‘it’s reasonable not to have children over climate change.’ I think that’s the exact opposite message we should...
+2026-06-28 14:15:12,780 - INFO - Date: 2024-08-11
+2026-06-28 14:15:12,780 - INFO - Asking model: gpt-4o-mini-2024-07-18 (method: cognitive_bias_aware)
+2026-06-28 14:15:12,780 - INFO - Claim: “[Kamala Harris] has said things like, ‘it’s reasonable not to have children over climate change.’ I think that’s the exact opposite message we should...
+2026-06-28 14:15:13,881 - INFO - API Response Status: 200
+2026-06-28 14:15:13,881 - INFO - Raw model response: {"label": "Half-True", "brief_reason": "While Kamala Harris has discussed concerns about climate change affecting family planning, the claim simplifies her message and lacks full context."}
+2026-06-28 14:15:13,881 - INFO - Extracted label: Half-True -> Normalized: Misleading
+2026-06-28 14:15:13,883 - INFO - Prediction: Misleading
+2026-06-28 14:15:13,883 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-06-28 14:15:13,984 - INFO - ================================================================================
+2026-06-28 14:15:13,984 - INFO - Processing claim #78 (ID: fact5_unknown_78)
+2026-06-28 14:15:13,984 - INFO - Claim: “Sam Brown publicly supported forcing massive cuts to Social Security and Medicare and was caught on tape saying he admires the plan to phase out Soci...
+2026-06-28 14:15:13,984 - INFO - Date: 2024-08-13
+2026-06-28 14:15:13,984 - INFO - Asking model: gpt-4o-mini-2024-07-18 (method: cognitive_bias_aware)
+2026-06-28 14:15:13,984 - INFO - Claim: “Sam Brown publicly supported forcing massive cuts to Social Security and Medicare and was caught on tape saying he admires the plan to phase out Soci...
+2026-06-28 14:15:15,170 - INFO - API Response Status: 200
+2026-06-28 14:15:15,170 - INFO - Raw model response: {"label": "Half-True", "brief_reason": "While Sam Brown has made statements regarding cuts to Social Security and Medicare, the claim about him admiring a specific plan to phase them out in five years lacks full context and may exaggerate
+2026-06-28 14:15:15,170 - WARNING - Could not find JSON in response: {"label": "Half-True", "brief_reason": "While Sam Brown has made statements regarding cuts to Social Security and Medicare, the claim about him admiring a specific plan to phase them out in five years lacks full context and may exaggerate
+2026-06-28 14:15:15,172 - WARNING - Failed to get valid prediction
+2026-06-28 14:15:15,273 - INFO - ================================================================================
+2026-06-28 14:15:15,273 - INFO - Processing claim #79 (ID: fact5_unknown_79)
+2026-06-28 14:15:15,273 - INFO - Claim: “400,000 workers are now in a union that were not in a union when (Biden) became president.”...
+2026-06-28 14:15:15,273 - INFO - Date: 2024-08-15
+2026-06-28 14:15:15,273 - INFO - Asking model: gpt-4o-mini-2024-07-18 (method: cognitive_bias_aware)
+2026-06-28 14:15:15,273 - INFO - Claim: “400,000 workers are now in a union that were not in a union when (Biden) became president.”...
+2026-06-28 14:15:16,395 - INFO - API Response Status: 200
+2026-06-28 14:15:16,396 - INFO - Raw model response: {"label": "Half-True", "brief_reason": "The claim is partially accurate but lacks context about union membership trends and factors influencing the increase."}
+2026-06-28 14:15:16,396 - INFO - Extracted label: Half-True -> Normalized: Misleading
+2026-06-28 14:15:16,397 - INFO - Prediction: Misleading
+2026-06-28 14:15:16,397 - INFO - ✗ Incorrect (True: Supported, Pred: Misleading)
+2026-06-28 14:15:16,500 - INFO - ================================================================================
+2026-06-28 14:15:16,500 - INFO - Processing claim #80 (ID: fact5_unknown_80)
+2026-06-28 14:15:16,500 - INFO - Claim: Nevada Sen. Jacky Rosen said the Biden administration did a "tremendous job" on the U.S. military’s Afghanistan withdrawal....
+2026-06-28 14:15:16,500 - INFO - Date: 2024-08-15
+2026-06-28 14:15:16,501 - INFO - Asking model: gpt-4o-mini-2024-07-18 (method: cognitive_bias_aware)
+2026-06-28 14:15:16,501 - INFO - Claim: Nevada Sen. Jacky Rosen said the Biden administration did a "tremendous job" on the U.S. military’s Afghanistan withdrawal....
+2026-06-28 14:15:17,535 - INFO - API Response Status: 200
+2026-06-28 14:15:17,535 - INFO - Raw model response: {"label": "Half-True", "brief_reason": "While some may view the withdrawal positively, it was widely criticized and controversial, lacking important context."}
+2026-06-28 14:15:17,535 - INFO - Extracted label: Half-True -> Normalized: Misleading
+2026-06-28 14:15:17,537 - INFO - Prediction: Misleading
+2026-06-28 14:15:17,537 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-06-28 14:15:17,638 - INFO - ================================================================================
+2026-06-28 14:15:17,638 - INFO - Processing claim #81 (ID: fact5_unknown_81)
+2026-06-28 14:15:17,638 - INFO - Claim: “MAGA Republicans like Kari Lake support Project 2025, which would raise the retirement age for 73% of Arizonans.”...
+2026-06-28 14:15:17,638 - INFO - Date: 2024-08-17
+2026-06-28 14:15:17,638 - INFO - Asking model: gpt-4o-mini-2024-07-18 (method: cognitive_bias_aware)
+2026-06-28 14:15:17,638 - INFO - Claim: “MAGA Republicans like Kari Lake support Project 2025, which would raise the retirement age for 73% of Arizonans.”...
+2026-06-28 14:15:18,890 - INFO - API Response Status: 200
+2026-06-28 14:15:18,890 - INFO - Raw model response: {"label": "Half-True", "brief_reason": "The claim about MAGA Republicans supporting Project 2025 is accurate, but the assertion that it would raise the retirement age for 73% of Arizonans lacks context and specificity."
+2026-06-28 14:15:18,890 - WARNING - Could not find JSON in response: {"label": "Half-True", "brief_reason": "The claim about MAGA Republicans supporting Project 2025 is accurate, but the assertion that it would raise the retirement age for 73% of Arizonans lacks context and specificity."
+2026-06-28 14:15:18,892 - WARNING - Failed to get valid prediction
+2026-06-28 14:15:18,994 - INFO - ================================================================================
+2026-06-28 14:15:18,994 - INFO - Processing claim #82 (ID: fact5_unknown_82)
+2026-06-28 14:15:18,994 - INFO - Claim: In a phone call with Benjamin Netanyahu, Donald Trump told the Israeli prime minister to stop a Gaza ceasefire deal because it would help Vice Preside...
+2026-06-28 14:15:18,994 - INFO - Date: 2024-08-20
+2026-06-28 14:15:18,994 - INFO - Asking model: gpt-4o-mini-2024-07-18 (method: cognitive_bias_aware)
+2026-06-28 14:15:18,994 - INFO - Claim: In a phone call with Benjamin Netanyahu, Donald Trump told the Israeli prime minister to stop a Gaza ceasefire deal because it would help Vice Preside...
+2026-06-28 14:15:20,147 - INFO - API Response Status: 200
+2026-06-28 14:15:20,147 - INFO - Raw model response: {"label": "Not Enough Information", "brief_reason": "The claim lacks sufficient evidence to verify the specifics of the conversation between Trump and Netanyahu."}
+2026-06-28 14:15:20,147 - INFO - Extracted label: Not Enough Information -> Normalized: Not Enough Information
+2026-06-28 14:15:20,148 - INFO - Prediction: Not Enough Information
+2026-06-28 14:15:20,148 - INFO - ✓ Correct prediction
+2026-06-28 14:15:20,250 - INFO - ================================================================================
+2026-06-28 14:15:20,250 - INFO - Processing claim #83 (ID: fact5_unknown_83)
+2026-06-28 14:15:20,250 - INFO - Claim: “JD Vance actually sent a letter last year to the Department of Justice saying, ‘enforce the Comstock Act.’”...
+2026-06-28 14:15:20,250 - INFO - Date: 2024-08-25
+2026-06-28 14:15:20,250 - INFO - Asking model: gpt-4o-mini-2024-07-18 (method: cognitive_bias_aware)
+2026-06-28 14:15:20,250 - INFO - Claim: “JD Vance actually sent a letter last year to the Department of Justice saying, ‘enforce the Comstock Act.’”...
+2026-06-28 14:15:21,363 - INFO - API Response Status: 200
+2026-06-28 14:15:21,363 - INFO - Raw model response: {"label": "Supported", "brief_reason": "The claim accurately states that JD Vance sent a letter to the Department of Justice regarding the enforcement of the Comstock Act."}
+2026-06-28 14:15:21,364 - INFO - Extracted label: Supported -> Normalized: Supported
+2026-06-28 14:15:21,365 - INFO - Prediction: Supported
+2026-06-28 14:15:21,365 - INFO - ✓ Correct prediction
+2026-06-28 14:15:21,467 - INFO - ================================================================================
+2026-06-28 14:15:21,467 - INFO - Processing claim #84 (ID: fact5_unknown_84)
+2026-06-28 14:15:21,467 - INFO - Claim: “This month alone, more than 16,000 non-citizens have been removed from the voter rolls in 3 states.”...
+2026-06-28 14:15:21,467 - INFO - Date: 2024-08-28
+2026-06-28 14:15:21,467 - INFO - Asking model: gpt-4o-mini-2024-07-18 (method: cognitive_bias_aware)
+2026-06-28 14:15:21,467 - INFO - Claim: “This month alone, more than 16,000 non-citizens have been removed from the voter rolls in 3 states.”...
+2026-06-28 14:15:22,505 - INFO - API Response Status: 200
+2026-06-28 14:15:22,505 - INFO - Raw model response: {"label": "Not Enough Information", "brief_reason": "The claim lacks specific details about the states and the context of the removals, making it unverifiable."}
+2026-06-28 14:15:22,505 - INFO - Extracted label: Not Enough Information -> Normalized: Not Enough Information
+2026-06-28 14:15:22,507 - INFO - Prediction: Not Enough Information
+2026-06-28 14:15:22,507 - INFO - ✗ Incorrect (True: Misleading, Pred: Not Enough Information)
+2026-06-28 14:15:22,608 - INFO - ================================================================================
+2026-06-28 14:15:22,609 - INFO - Processing claim #85 (ID: fact5_unknown_85)
+2026-06-28 14:15:22,609 - INFO - Claim: “We didn’t lose one person in 18 months. And then they took over that disaster.” — Former president Donald Trump, in a video of him at Arlington Natio...
+2026-06-28 14:15:22,609 - INFO - Date: 2024-08-28
+2026-06-28 14:15:22,609 - INFO - Asking model: gpt-4o-mini-2024-07-18 (method: cognitive_bias_aware)
+2026-06-28 14:15:22,609 - INFO - Claim: “We didn’t lose one person in 18 months. And then they took over that disaster.” — Former president Donald Trump, in a video of him at Arlington Natio...
+2026-06-28 14:15:23,935 - INFO - API Response Status: 200
+2026-06-28 14:15:23,935 - INFO - Raw model response: {"label": "Refuted", "brief_reason": "The claim that 'we didn’t lose one person in 18 months' is inaccurate as U.S. military casualties occurred during that period."}
+2026-06-28 14:15:23,935 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2026-06-28 14:15:23,937 - INFO - Prediction: Refuted
+2026-06-28 14:15:23,937 - INFO - ✗ Incorrect (True: Misleading, Pred: Refuted)
+2026-06-28 14:15:24,038 - INFO - ================================================================================
+2026-06-28 14:15:24,038 - INFO - Processing claim #86 (ID: fact5_unknown_86)
+2026-06-28 14:15:24,038 - INFO - Claim: "Typically you have three to four debates in a U.S. Senate race. (Sen. Tammy Baldwin, D-Wis. has) given me one debate, almost a month after early voti...
+2026-06-28 14:15:24,039 - INFO - Date: 2024-09-03
+2026-06-28 14:15:24,039 - INFO - Asking model: gpt-4o-mini-2024-07-18 (method: cognitive_bias_aware)
+2026-06-28 14:15:24,039 - INFO - Claim: "Typically you have three to four debates in a U.S. Senate race. (Sen. Tammy Baldwin, D-Wis. has) given me one debate, almost a month after early voti...
+2026-06-28 14:15:25,791 - INFO - API Response Status: 200
+2026-06-28 14:15:25,792 - INFO - Raw model response: {"label": "Half-True", "brief_reason": "The claim about the typical number of debates is generally accurate, but the specific context regarding Sen. Tammy Baldwin's debate schedule may be misleading."}
+2026-06-28 14:15:25,792 - INFO - Extracted label: Half-True -> Normalized: Misleading
+2026-06-28 14:15:25,793 - INFO - Prediction: Misleading
+2026-06-28 14:15:25,793 - INFO - ✗ Incorrect (True: Supported, Pred: Misleading)
+2026-06-28 14:15:25,895 - INFO - ================================================================================
+2026-06-28 14:15:25,895 - INFO - Processing claim #87 (ID: fact5_unknown_87)
+2026-06-28 14:15:25,895 - INFO - Claim: “Dave McCormick is fully against abortion.”...
+2026-06-28 14:15:25,895 - INFO - Date: 2024-09-03
+2026-06-28 14:15:25,895 - INFO - Asking model: gpt-4o-mini-2024-07-18 (method: cognitive_bias_aware)
+2026-06-28 14:15:25,895 - INFO - Claim: “Dave McCormick is fully against abortion.”...
+2026-06-28 14:15:27,227 - INFO - API Response Status: 200
+2026-06-28 14:15:27,227 - INFO - Raw model response: {"label": "Half-True", "brief_reason": "While Dave McCormick has expressed opposition to abortion, the claim lacks nuance regarding his specific positions and any potential exceptions."}
+2026-06-28 14:15:27,228 - INFO - Extracted label: Half-True -> Normalized: Misleading
+2026-06-28 14:15:27,229 - INFO - Prediction: Misleading
+2026-06-28 14:15:27,229 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-06-28 14:15:27,331 - INFO - ================================================================================
+2026-06-28 14:15:27,331 - INFO - Processing claim #88 (ID: fact5_unknown_88)
+2026-06-28 14:15:27,331 - INFO - Claim: U.S. Sen. Sherrod Brown “supported allowing puberty blockers and sex-change surgeries for minor children.”...
+2026-06-28 14:15:27,331 - INFO - Date: 2024-09-03
+2026-06-28 14:15:27,331 - INFO - Asking model: gpt-4o-mini-2024-07-18 (method: cognitive_bias_aware)
+2026-06-28 14:15:27,331 - INFO - Claim: U.S. Sen. Sherrod Brown “supported allowing puberty blockers and sex-change surgeries for minor children.”...
+2026-06-28 14:15:29,287 - INFO - API Response Status: 200
+2026-06-28 14:15:29,288 - INFO - Raw model response: {"label": "Half-True", "brief_reason": "Sen. Sherrod Brown has expressed support for transgender rights, but the claim oversimplifies his position on specific medical treatments for minors."}
+2026-06-28 14:15:29,288 - INFO - Extracted label: Half-True -> Normalized: Misleading
+2026-06-28 14:15:29,289 - INFO - Prediction: Misleading
+2026-06-28 14:15:29,289 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-06-28 14:15:29,391 - INFO - ================================================================================
+2026-06-28 14:15:29,391 - INFO - Processing claim #89 (ID: fact5_unknown_89)
+2026-06-28 14:15:29,391 - INFO - Claim: Of Bernie Moreno, “Now, he’s arguing for a national abortion ban, no exceptions.”...
+2026-06-28 14:15:29,391 - INFO - Date: 2024-09-04
+2026-06-28 14:15:29,391 - INFO - Asking model: gpt-4o-mini-2024-07-18 (method: cognitive_bias_aware)
+2026-06-28 14:15:29,391 - INFO - Claim: Of Bernie Moreno, “Now, he’s arguing for a national abortion ban, no exceptions.”...
+2026-06-28 14:15:30,558 - INFO - API Response Status: 200
+2026-06-28 14:15:30,558 - INFO - Raw model response: {"label": "Half-True", "brief_reason": "While Moreno supports a national abortion ban, the claim lacks context regarding his stance on exceptions."}
+2026-06-28 14:15:30,558 - INFO - Extracted label: Half-True -> Normalized: Misleading
+2026-06-28 14:15:30,560 - INFO - Prediction: Misleading
+2026-06-28 14:15:30,560 - INFO - ✓ Correct prediction
+2026-06-28 14:15:30,664 - INFO - ================================================================================
+2026-06-28 14:15:30,664 - INFO - Processing claim #90 (ID: fact5_unknown_90)
+2026-06-28 14:15:30,664 - INFO - Claim: Laurie Buckhout is “trying to get to Congress to pass a national abortion ban, allowing politicians to ban abortions with no exceptions and prosecute ...
+2026-06-28 14:15:30,664 - INFO - Date: 2024-09-09
+2026-06-28 14:15:30,664 - INFO - Asking model: gpt-4o-mini-2024-07-18 (method: cognitive_bias_aware)
+2026-06-28 14:15:30,664 - INFO - Claim: Laurie Buckhout is “trying to get to Congress to pass a national abortion ban, allowing politicians to ban abortions with no exceptions and prosecute ...
+2026-06-28 14:15:31,801 - INFO - API Response Status: 200
+2026-06-28 14:15:31,802 - INFO - Raw model response: {"label": "Half-True", "brief_reason": "The claim exaggerates the intent and implications of Buckhout's actions regarding abortion legislation."}
+2026-06-28 14:15:31,802 - INFO - Extracted label: Half-True -> Normalized: Misleading
+2026-06-28 14:15:31,803 - INFO - Prediction: Misleading
+2026-06-28 14:15:31,804 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-06-28 14:15:31,908 - INFO - ================================================================================
+2026-06-28 14:15:31,908 - INFO - Processing claim #91 (ID: fact5_unknown_91)
+2026-06-28 14:15:31,908 - INFO - Claim: “Less than three months ago, Kamala Harris and her administration blocked 300,000 unvetted Haitian migrants from being deported out of our country."...
+2026-06-28 14:15:31,908 - INFO - Date: 2024-09-09
+2026-06-28 14:15:31,908 - INFO - Asking model: gpt-4o-mini-2024-07-18 (method: cognitive_bias_aware)
+2026-06-28 14:15:31,908 - INFO - Claim: “Less than three months ago, Kamala Harris and her administration blocked 300,000 unvetted Haitian migrants from being deported out of our country."...
+2026-06-28 14:15:33,466 - INFO - API Response Status: 200
+2026-06-28 14:15:33,466 - INFO - Raw model response: {"label": "Refuted", "brief_reason": "The claim that Kamala Harris and her administration blocked 300,000 unvetted Haitian migrants from being deported is inaccurate and unsupported by available facts."}
+2026-06-28 14:15:33,466 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2026-06-28 14:15:33,468 - INFO - Prediction: Refuted
+2026-06-28 14:15:33,468 - INFO - ✓ Correct prediction
+2026-06-28 14:15:33,569 - INFO - ================================================================================
+2026-06-28 14:15:33,570 - INFO - Processing claim #92 (ID: fact5_unknown_92)
+2026-06-28 14:15:33,570 - INFO - Claim: “Donald Trump said he was going to allow Medicare to negotiate drug prices. He never did. We did.”...
+2026-06-28 14:15:33,570 - INFO - Date: 2024-09-10
+2026-06-28 14:15:33,570 - INFO - Asking model: gpt-4o-mini-2024-07-18 (method: cognitive_bias_aware)
+2026-06-28 14:15:33,570 - INFO - Claim: “Donald Trump said he was going to allow Medicare to negotiate drug prices. He never did. We did.”...
+2026-06-28 14:15:34,665 - INFO - API Response Status: 200
+2026-06-28 14:15:34,665 - INFO - Raw model response: {"label": "Half-True", "brief_reason": "While Trump did express intentions to allow Medicare to negotiate drug prices, he did not implement this policy during his presidency."}
+2026-06-28 14:15:34,665 - INFO - Extracted label: Half-True -> Normalized: Misleading
+2026-06-28 14:15:34,667 - INFO - Prediction: Misleading
+2026-06-28 14:15:34,667 - INFO - ✗ Incorrect (True: Supported, Pred: Misleading)
+2026-06-28 14:15:34,769 - INFO - ================================================================================
+2026-06-28 14:15:34,769 - INFO - Processing claim #93 (ID: fact5_unknown_93)
+2026-06-28 14:15:34,769 - INFO - Claim: Mike Rogers supported “laws that could eliminate IVF and birth control.”...
+2026-06-28 14:15:34,769 - INFO - Date: 2024-09-11
+2026-06-28 14:15:34,769 - INFO - Asking model: gpt-4o-mini-2024-07-18 (method: cognitive_bias_aware)
+2026-06-28 14:15:34,769 - INFO - Claim: Mike Rogers supported “laws that could eliminate IVF and birth control.”...
+2026-06-28 14:15:36,005 - INFO - API Response Status: 200
+2026-06-28 14:15:36,005 - INFO - Raw model response: {"label": "Half-True", "brief_reason": "While Mike Rogers has expressed support for certain laws that could impact reproductive rights, the claim oversimplifies and lacks context regarding his full stance on IVF and birth control."}
+2026-06-28 14:15:36,006 - INFO - Extracted label: Half-True -> Normalized: Misleading
+2026-06-28 14:15:36,007 - INFO - Prediction: Misleading
+2026-06-28 14:15:36,007 - INFO - ✓ Correct prediction
+2026-06-28 14:15:36,110 - INFO - ================================================================================
+2026-06-28 14:15:36,110 - INFO - Processing claim #94 (ID: fact5_unknown_94)
+2026-06-28 14:15:36,110 - INFO - Claim: Former President Donald Trump “started out with $400 million on a silver platter and then filed for bankruptcy six times.”...
+2026-06-28 14:15:36,110 - INFO - Date: 2024-09-12
+2026-06-28 14:15:36,110 - INFO - Asking model: gpt-4o-mini-2024-07-18 (method: cognitive_bias_aware)
+2026-06-28 14:15:36,110 - INFO - Claim: Former President Donald Trump “started out with $400 million on a silver platter and then filed for bankruptcy six times.”...
+2026-06-28 14:15:37,464 - INFO - API Response Status: 200
+2026-06-28 14:15:37,464 - INFO - Raw model response: {"label": "Half-True", "brief_reason": "While Trump did have significant financial backing, the claim oversimplifies his financial history and the context of his bankruptcies."}
+2026-06-28 14:15:37,464 - INFO - Extracted label: Half-True -> Normalized: Misleading
+2026-06-28 14:15:37,466 - INFO - Prediction: Misleading
+2026-06-28 14:15:37,466 - INFO - ✓ Correct prediction
+2026-06-28 14:15:37,568 - INFO - ================================================================================
+2026-06-28 14:15:37,568 - INFO - Processing claim #95 (ID: fact5_unknown_95)
+2026-06-28 14:15:37,568 - INFO - Claim: Gubernatorial candidate Kelly Ayotte “has voted for national abortion bans, she has voted to defund Planned Parenthood, and she shepherded Neil Gorsuc...
+2026-06-28 14:15:37,568 - INFO - Date: 2024-09-15
+2026-06-28 14:15:37,568 - INFO - Asking model: gpt-4o-mini-2024-07-18 (method: cognitive_bias_aware)
+2026-06-28 14:15:37,568 - INFO - Claim: Gubernatorial candidate Kelly Ayotte “has voted for national abortion bans, she has voted to defund Planned Parenthood, and she shepherded Neil Gorsuc...
+2026-06-28 14:15:38,643 - INFO - API Response Status: 200
+2026-06-28 14:15:38,643 - INFO - Raw model response: {"label": "Half-True", "brief_reason": "While Ayotte has supported measures related to abortion and judicial appointments, the claim lacks specific context about her overall stance and the implications of her actions."}
+2026-06-28 14:15:38,644 - INFO - Extracted label: Half-True -> Normalized: Misleading
+2026-06-28 14:15:38,645 - INFO - Prediction: Misleading
+2026-06-28 14:15:38,645 - INFO - ✓ Correct prediction
+2026-06-28 14:15:38,747 - INFO - ================================================================================
+2026-06-28 14:15:38,748 - INFO - Processing claim #96 (ID: fact5_unknown_96)
+2026-06-28 14:15:38,748 - INFO - Claim: “Project 2025 wants to get rid of NOAA” and the National Weather Service....
+2026-06-28 14:15:38,748 - INFO - Date: 2024-09-19
+2026-06-28 14:15:38,748 - INFO - Asking model: gpt-4o-mini-2024-07-18 (method: cognitive_bias_aware)
+2026-06-28 14:15:38,748 - INFO - Claim: “Project 2025 wants to get rid of NOAA” and the National Weather Service....
+2026-06-28 14:15:39,876 - INFO - API Response Status: 200
+2026-06-28 14:15:39,876 - INFO - Raw model response: {"label": "Refuted", "brief_reason": "There is no credible evidence that Project 2025 aims to eliminate NOAA or the National Weather Service."}
+2026-06-28 14:15:39,876 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2026-06-28 14:15:39,878 - INFO - Prediction: Refuted
+2026-06-28 14:15:39,878 - INFO - ✗ Incorrect (True: Misleading, Pred: Refuted)
+2026-06-28 14:15:39,980 - INFO - ================================================================================
+2026-06-28 14:15:39,980 - INFO - Processing claim #97 (ID: fact5_unknown_97)
+2026-06-28 14:15:39,980 - INFO - Claim: Kamala Harris “supports taxpayer-funded sex changes for prisoners and illegal aliens.”...
+2026-06-28 14:15:39,981 - INFO - Date: 2024-09-20
+2026-06-28 14:15:39,981 - INFO - Asking model: gpt-4o-mini-2024-07-18 (method: cognitive_bias_aware)
+2026-06-28 14:15:39,981 - INFO - Claim: Kamala Harris “supports taxpayer-funded sex changes for prisoners and illegal aliens.”...
+2026-06-28 14:15:41,093 - INFO - API Response Status: 200
+2026-06-28 14:15:41,093 - INFO - Raw model response: {"label": "Half-True", "brief_reason": "The claim contains elements of truth regarding support for certain medical treatments but misrepresents the broader context and specifics of the policies."}
+2026-06-28 14:15:41,093 - INFO - Extracted label: Half-True -> Normalized: Misleading
+2026-06-28 14:15:41,095 - INFO - Prediction: Misleading
+2026-06-28 14:15:41,095 - INFO - ✗ Incorrect (True: Supported, Pred: Misleading)
+2026-06-28 14:15:41,197 - INFO - ================================================================================
+2026-06-28 14:15:41,197 - INFO - Processing claim #98 (ID: fact5_unknown_98)
+2026-06-28 14:15:41,197 - INFO - Claim: Wisconsin GOP U.S. Senate candidate Eric Hovde "brags about being in the 1%."...
+2026-06-28 14:15:41,197 - INFO - Date: 2024-09-20
+2026-06-28 14:15:41,197 - INFO - Asking model: gpt-4o-mini-2024-07-18 (method: cognitive_bias_aware)
+2026-06-28 14:15:41,197 - INFO - Claim: Wisconsin GOP U.S. Senate candidate Eric Hovde "brags about being in the 1%."...
+2026-06-28 14:15:44,588 - INFO - API Response Status: 200
+2026-06-28 14:15:44,588 - INFO - Raw model response: {"label": "Half-True", "brief_reason": "The claim suggests Eric Hovde boasts about his wealth, which may be true, but lacks context about his political messaging or the implications of such a statement."}
+2026-06-28 14:15:44,588 - INFO - Extracted label: Half-True -> Normalized: Misleading
+2026-06-28 14:15:44,590 - INFO - Prediction: Misleading
+2026-06-28 14:15:44,590 - INFO - ✗ Incorrect (True: Supported, Pred: Misleading)
+2026-06-28 14:15:44,692 - INFO - ================================================================================
+2026-06-28 14:15:44,692 - INFO - Processing claim #99 (ID: fact5_unknown_99)
+2026-06-28 14:15:44,692 - INFO - Claim: “Donald Trump added more to the national debt than any other president, ever.”...
+2026-06-28 14:15:44,692 - INFO - Date: 2024-09-21
+2026-06-28 14:15:44,692 - INFO - Asking model: gpt-4o-mini-2024-07-18 (method: cognitive_bias_aware)
+2026-06-28 14:15:44,692 - INFO - Claim: “Donald Trump added more to the national debt than any other president, ever.”...
+2026-06-28 14:15:45,841 - INFO - API Response Status: 200
+2026-06-28 14:15:45,841 - INFO - Raw model response: {"label": "Half-True", "brief_reason": "While Trump did increase the national debt significantly, the claim lacks context regarding the overall economic conditions and previous debt levels."}
+2026-06-28 14:15:45,842 - INFO - Extracted label: Half-True -> Normalized: Misleading
+2026-06-28 14:15:45,844 - INFO - Prediction: Misleading
+2026-06-28 14:15:45,844 - INFO - ✓ Correct prediction
+2026-06-28 14:15:45,946 - INFO - ================================================================================
+2026-06-28 14:15:45,946 - INFO - Processing claim #100 (ID: fact5_unknown_100)
+2026-06-28 14:15:45,946 - INFO - Claim: Florida "put Tom Walz instead of Tim Walz" on its ballots....
+2026-06-28 14:15:45,947 - INFO - Date: 2024-09-22
+2026-06-28 14:15:45,947 - INFO - Asking model: gpt-4o-mini-2024-07-18 (method: cognitive_bias_aware)
+2026-06-28 14:15:45,947 - INFO - Claim: Florida "put Tom Walz instead of Tim Walz" on its ballots....
+2026-06-28 14:15:47,080 - INFO - API Response Status: 200
+2026-06-28 14:15:47,080 - INFO - Raw model response: {"label": "Refuted", "brief_reason": "The claim is inaccurate; Tim Walz is the correct name on the ballots."}
+2026-06-28 14:15:47,080 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2026-06-28 14:15:47,082 - INFO - Prediction: Refuted
+2026-06-28 14:15:47,082 - INFO - ✗ Incorrect (True: Misleading, Pred: Refuted)
+2026-06-28 14:15:47,183 - INFO - ================================================================================
+2026-06-28 14:15:47,184 - INFO - Processing claim #101 (ID: fact5_unknown_101)
+2026-06-28 14:15:47,184 - INFO - Claim: “There was a bill to basically create a ban to make sure we never become a sanctuary state, that no locality passes those regulations, and (former Man...
+2026-06-28 14:15:47,184 - INFO - Date: 2024-09-25
+2026-06-28 14:15:47,184 - INFO - Asking model: gpt-4o-mini-2024-07-18 (method: cognitive_bias_aware)
+2026-06-28 14:15:47,184 - INFO - Claim: “There was a bill to basically create a ban to make sure we never become a sanctuary state, that no locality passes those regulations, and (former Man...
+2026-06-28 14:15:48,377 - INFO - API Response Status: 200
+2026-06-28 14:15:48,377 - INFO - Raw model response: {"label": "Half-True", "brief_reason": "The claim accurately states that there was a bill related to sanctuary state regulations, but it may oversimplify the context of Joyce Craig's opposition."}
+2026-06-28 14:15:48,378 - INFO - Extracted label: Half-True -> Normalized: Misleading
+2026-06-28 14:15:48,379 - INFO - Prediction: Misleading
+2026-06-28 14:15:48,379 - INFO - ✗ Incorrect (True: Supported, Pred: Misleading)
+2026-06-28 14:15:48,481 - INFO - ================================================================================
+2026-06-28 14:15:48,481 - INFO - Processing claim #102 (ID: fact5_unknown_102)
+2026-06-28 14:15:48,481 - INFO - Claim: “Even before the pandemic, (Donald Trump) lost manufacturing jobs, by most people’s estimates at least 200,000.”...
+2026-06-28 14:15:48,481 - INFO - Date: 2024-09-25
+2026-06-28 14:15:48,481 - INFO - Asking model: gpt-4o-mini-2024-07-18 (method: cognitive_bias_aware)
+2026-06-28 14:15:48,481 - INFO - Claim: “Even before the pandemic, (Donald Trump) lost manufacturing jobs, by most people’s estimates at least 200,000.”...
+2026-06-28 14:15:49,635 - INFO - API Response Status: 200
+2026-06-28 14:15:49,635 - INFO - Raw model response: {"label": "Half-True", "brief_reason": "The claim about job losses is partially accurate but lacks context regarding the overall manufacturing job trends during Trump's presidency."}
+2026-06-28 14:15:49,635 - INFO - Extracted label: Half-True -> Normalized: Misleading
+2026-06-28 14:15:49,636 - INFO - Prediction: Misleading
+2026-06-28 14:15:49,637 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-06-28 14:15:49,738 - INFO - ================================================================================
+2026-06-28 14:15:49,738 - INFO - Processing claim #103 (ID: fact5_unknown_103)
+2026-06-28 14:15:49,738 - INFO - Claim: When New Hampshire gubernatorial nominee Kelly Ayotte served on two companies’ boards, one “laid off 18,000 workers” and the other “laid off 1,200 Ame...
+2026-06-28 14:15:49,738 - INFO - Date: 2024-09-27
+2026-06-28 14:15:49,738 - INFO - Asking model: gpt-4o-mini-2024-07-18 (method: cognitive_bias_aware)
+2026-06-28 14:15:49,738 - INFO - Claim: When New Hampshire gubernatorial nominee Kelly Ayotte served on two companies’ boards, one “laid off 18,000 workers” and the other “laid off 1,200 Ame...
+2026-06-28 14:15:50,790 - INFO - API Response Status: 200
+2026-06-28 14:15:50,790 - INFO - Raw model response: {"label": "Half-True", "brief_reason": "The claim accurately states layoffs but lacks context on the reasons and broader implications of those actions."}
+2026-06-28 14:15:50,790 - INFO - Extracted label: Half-True -> Normalized: Misleading
+2026-06-28 14:15:50,792 - INFO - Prediction: Misleading
+2026-06-28 14:15:50,792 - INFO - ✓ Correct prediction
+2026-06-28 14:15:50,893 - INFO - ================================================================================
+2026-06-28 14:15:50,893 - INFO - Processing claim #104 (ID: fact5_unknown_104)
+2026-06-28 14:15:50,893 - INFO - Claim: "The ERA could also mandate that schools allow biological males to compete in girls' sports."...
+2026-06-28 14:15:50,893 - INFO - Date: 2024-09-29
+2026-06-28 14:15:50,893 - INFO - Asking model: gpt-4o-mini-2024-07-18 (method: cognitive_bias_aware)
+2026-06-28 14:15:50,893 - INFO - Claim: "The ERA could also mandate that schools allow biological males to compete in girls' sports."...
+2026-06-28 14:15:52,144 - INFO - API Response Status: 200
+2026-06-28 14:15:52,144 - INFO - Raw model response: {"label": "Half-True", "brief_reason": "The claim reflects a potential interpretation of the ERA but oversimplifies the complexities and ongoing debates surrounding its implications for sports."}
+2026-06-28 14:15:52,145 - INFO - Extracted label: Half-True -> Normalized: Misleading
+2026-06-28 14:15:52,147 - INFO - Prediction: Misleading
+2026-06-28 14:15:52,147 - INFO - ✗ Incorrect (True: Supported, Pred: Misleading)
+2026-06-28 14:15:52,249 - INFO - ================================================================================
+2026-06-28 14:15:52,249 - INFO - Processing claim #105 (ID: fact5_unknown_105)
+2026-06-28 14:15:52,250 - INFO - Claim: U.S. Senate candidate Mike Rogers “believes he should make that decision” about whether to end pregnancies....
+2026-06-28 14:15:52,250 - INFO - Date: 2024-09-30
+2026-06-28 14:15:52,250 - INFO - Asking model: gpt-4o-mini-2024-07-18 (method: cognitive_bias_aware)
+2026-06-28 14:15:52,250 - INFO - Claim: U.S. Senate candidate Mike Rogers “believes he should make that decision” about whether to end pregnancies....
+2026-06-28 14:15:53,363 - INFO - API Response Status: 200
+2026-06-28 14:15:53,363 - INFO - Raw model response: {"label": "Not Enough Information", "brief_reason": "The claim lacks specific context about Mike Rogers' statements or positions on the issue."}
+2026-06-28 14:15:53,364 - INFO - Extracted label: Not Enough Information -> Normalized: Not Enough Information
+2026-06-28 14:15:53,365 - INFO - Prediction: Not Enough Information
+2026-06-28 14:15:53,365 - INFO - ✗ Incorrect (True: Refuted, Pred: Not Enough Information)
+2026-06-28 14:15:53,466 - INFO - ================================================================================
+2026-06-28 14:15:53,466 - INFO - Processing claim #106 (ID: fact5_unknown_106)
+2026-06-28 14:15:53,466 - INFO - Claim: In 1994 or 1995, Donald Trump said of his 13-year-old daughter, Ivanka, "Is it wrong to be more sexually attracted to your own daughter than your wife...
+2026-06-28 14:15:53,466 - INFO - Date: 2024-10-02
+2026-06-28 14:15:53,467 - INFO - Asking model: gpt-4o-mini-2024-07-18 (method: cognitive_bias_aware)
+2026-06-28 14:15:53,467 - INFO - Claim: In 1994 or 1995, Donald Trump said of his 13-year-old daughter, Ivanka, "Is it wrong to be more sexually attracted to your own daughter than your wife...
+2026-06-28 14:15:54,489 - INFO - API Response Status: 200
+2026-06-28 14:15:54,489 - INFO - Raw model response: {"label": "Refuted", "brief_reason": "There is no credible evidence that Donald Trump made this statement about his daughter Ivanka."}
+2026-06-28 14:15:54,489 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2026-06-28 14:15:54,491 - INFO - Prediction: Refuted
+2026-06-28 14:15:54,491 - INFO - ✗ Incorrect (True: Not Enough Information, Pred: Refuted)
+2026-06-28 14:15:54,595 - INFO - ================================================================================
+2026-06-28 14:15:54,595 - INFO - Processing claim #107 (ID: fact5_unknown_107)
+2026-06-28 14:15:54,595 - INFO - Claim: “The Harris-Biden administration says they don’t have any money [for hurricane relief]. … They spent it all on illegal migrants. … They stole the FEMA...
+2026-06-28 14:15:54,595 - INFO - Date: 2024-10-03
+2026-06-28 14:15:54,595 - INFO - Asking model: gpt-4o-mini-2024-07-18 (method: cognitive_bias_aware)
+2026-06-28 14:15:54,595 - INFO - Claim: “The Harris-Biden administration says they don’t have any money [for hurricane relief]. … They spent it all on illegal migrants. … They stole the FEMA...
+2026-06-28 14:15:55,724 - INFO - API Response Status: 200
+2026-06-28 14:15:55,725 - INFO - Raw model response: {"label": "Refuted", "brief_reason": "The claim that the Harris-Biden administration stole FEMA money for illegal migrants is inaccurate and unsupported."}
+2026-06-28 14:15:55,725 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2026-06-28 14:15:55,726 - INFO - Prediction: Refuted
+2026-06-28 14:15:55,726 - INFO - ✓ Correct prediction
+2026-06-28 14:15:55,828 - INFO - ================================================================================
+2026-06-28 14:15:55,828 - INFO - Processing claim #108 (ID: fact5_unknown_108)
+2026-06-28 14:15:55,828 - INFO - Claim: “Milwaukee is one of the sex trafficking capitals in our country.”...
+2026-06-28 14:15:55,828 - INFO - Date: 2024-10-08
+2026-06-28 14:15:55,828 - INFO - Asking model: gpt-4o-mini-2024-07-18 (method: cognitive_bias_aware)
+2026-06-28 14:15:55,828 - INFO - Claim: “Milwaukee is one of the sex trafficking capitals in our country.”...
+2026-06-28 14:15:57,157 - INFO - API Response Status: 200
+2026-06-28 14:15:57,157 - INFO - Raw model response: {"label": "Half-True", "brief_reason": "The claim reflects concerns about sex trafficking in Milwaukee but lacks specific context or data to substantiate it as a 'capital'."}
+2026-06-28 14:15:57,157 - INFO - Extracted label: Half-True -> Normalized: Misleading
+2026-06-28 14:15:57,159 - INFO - Prediction: Misleading
+2026-06-28 14:15:57,159 - INFO - ✗ Incorrect (True: Supported, Pred: Misleading)
+2026-06-28 14:15:57,261 - INFO - ================================================================================
+2026-06-28 14:15:57,261 - INFO - Processing claim #109 (ID: fact5_unknown_109)
+2026-06-28 14:15:57,261 - INFO - Claim: “Two weeks ago 100 GOP lawmakers voted against additional FEMA funding.”...
+2026-06-28 14:15:57,261 - INFO - Date: 2024-10-08
+2026-06-28 14:15:57,261 - INFO - Asking model: gpt-4o-mini-2024-07-18 (method: cognitive_bias_aware)
+2026-06-28 14:15:57,261 - INFO - Claim: “Two weeks ago 100 GOP lawmakers voted against additional FEMA funding.”...
+2026-06-28 14:15:58,762 - INFO - API Response Status: 200
+2026-06-28 14:15:58,762 - INFO - Raw model response: {"label": "Not Enough Information", "brief_reason": "The claim lacks specific details about the vote and its context, making it unverifiable."}
+2026-06-28 14:15:58,762 - INFO - Extracted label: Not Enough Information -> Normalized: Not Enough Information
+2026-06-28 14:15:58,764 - INFO - Prediction: Not Enough Information
+2026-06-28 14:15:58,764 - INFO - ✗ Incorrect (True: Misleading, Pred: Not Enough Information)
+2026-06-28 14:15:58,866 - INFO - ================================================================================
+2026-06-28 14:15:58,866 - INFO - Processing claim #110 (ID: fact5_unknown_110)
+2026-06-28 14:15:58,866 - INFO - Claim: Arizona U.S. Senate candidate Kari Lake “was against” the child tax credit expansion “when the bill was on the floor.”...
+2026-06-28 14:15:58,866 - INFO - Date: 2024-10-09
+2026-06-28 14:15:58,866 - INFO - Asking model: gpt-4o-mini-2024-07-18 (method: cognitive_bias_aware)
+2026-06-28 14:15:58,866 - INFO - Claim: Arizona U.S. Senate candidate Kari Lake “was against” the child tax credit expansion “when the bill was on the floor.”...
+2026-06-28 14:16:00,273 - INFO - API Response Status: 200
+2026-06-28 14:16:00,273 - INFO - Raw model response: {"label": "Half-True", "brief_reason": "Kari Lake's position on the child tax credit expansion may be accurate, but the claim lacks context about her reasons or the specifics of her opposition."}
+2026-06-28 14:16:00,273 - INFO - Extracted label: Half-True -> Normalized: Misleading
+2026-06-28 14:16:00,275 - INFO - Prediction: Misleading
+2026-06-28 14:16:00,275 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-06-28 14:16:00,377 - INFO - ================================================================================
+2026-06-28 14:16:00,378 - INFO - Processing claim #111 (ID: fact5_unknown_111)
+2026-06-28 14:16:00,378 - INFO - Claim: Uber increases ride prices for customers with low phone batteries....
+2026-06-28 14:16:00,378 - INFO - Date: 2024-10-10
+2026-06-28 14:16:00,378 - INFO - Asking model: gpt-4o-mini-2024-07-18 (method: cognitive_bias_aware)
+2026-06-28 14:16:00,378 - INFO - Claim: Uber increases ride prices for customers with low phone batteries....
+2026-06-28 14:16:01,457 - INFO - API Response Status: 200
+2026-06-28 14:16:01,457 - INFO - Raw model response: {"label": "Refuted", "brief_reason": "There is no evidence to support the claim that Uber increases ride prices based on customers' phone battery levels."}
+2026-06-28 14:16:01,457 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2026-06-28 14:16:01,459 - INFO - Prediction: Refuted
+2026-06-28 14:16:01,459 - INFO - ✗ Incorrect (True: Not Enough Information, Pred: Refuted)
+2026-06-28 14:16:01,560 - INFO - ================================================================================
+2026-06-28 14:16:01,560 - INFO - Processing claim #112 (ID: fact5_unknown_112)
+2026-06-28 14:16:01,560 - INFO - Claim: Says opponent Eric Hovde “supports a $4 trillion tax plan that would disproportionately advantage the well-off and profitable corporations”...
+2026-06-28 14:16:01,560 - INFO - Date: 2024-10-11
+2026-06-28 14:16:01,560 - INFO - Asking model: gpt-4o-mini-2024-07-18 (method: cognitive_bias_aware)
+2026-06-28 14:16:01,560 - INFO - Claim: Says opponent Eric Hovde “supports a $4 trillion tax plan that would disproportionately advantage the well-off and profitable corporations”...
+2026-06-28 14:16:02,601 - INFO - API Response Status: 200
+2026-06-28 14:16:02,601 - INFO - Raw model response: {"label": "Half-True", "brief_reason": "The claim about Eric Hovde's tax plan is partially accurate but lacks specific context regarding the details and implications of the plan."}
+2026-06-28 14:16:02,601 - INFO - Extracted label: Half-True -> Normalized: Misleading
+2026-06-28 14:16:02,603 - INFO - Prediction: Misleading
+2026-06-28 14:16:02,603 - INFO - ✗ Incorrect (True: Supported, Pred: Misleading)
+2026-06-28 14:16:02,704 - INFO - ================================================================================
+2026-06-28 14:16:02,704 - INFO - Processing claim #113 (ID: fact5_unknown_113)
+2026-06-28 14:16:02,704 - INFO - Claim: CBS exposed “the fact” that Kamala Harris’ crowd sizes are inflated because her campaign bused hundreds of attendees to her New Hampshire rally....
+2026-06-28 14:16:02,704 - INFO - Date: 2024-10-12
+2026-06-28 14:16:02,704 - INFO - Asking model: gpt-4o-mini-2024-07-18 (method: cognitive_bias_aware)
+2026-06-28 14:16:02,704 - INFO - Claim: CBS exposed “the fact” that Kamala Harris’ crowd sizes are inflated because her campaign bused hundreds of attendees to her New Hampshire rally....
+2026-06-28 14:16:04,225 - INFO - API Response Status: 200
+2026-06-28 14:16:04,225 - INFO - Raw model response: {"label": "Half-True", "brief_reason": "The claim about crowd sizes being inflated is partially accurate but lacks context regarding the common practice of campaign transportation."}
+2026-06-28 14:16:04,225 - INFO - Extracted label: Half-True -> Normalized: Misleading
+2026-06-28 14:16:04,227 - INFO - Prediction: Misleading
+2026-06-28 14:16:04,227 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-06-28 14:16:04,328 - INFO - ================================================================================
+2026-06-28 14:16:04,328 - INFO - Processing claim #114 (ID: fact5_unknown_114)
+2026-06-28 14:16:04,328 - INFO - Claim: “Wages adjusted for inflation were massively up under Donald Trump for Black men. … The (Black-white) wage gap in 2019 was actually shrinking under Do...
+2026-06-28 14:16:04,329 - INFO - Date: 2024-10-13
+2026-06-28 14:16:04,329 - INFO - Asking model: gpt-4o-mini-2024-07-18 (method: cognitive_bias_aware)
+2026-06-28 14:16:04,329 - INFO - Claim: “Wages adjusted for inflation were massively up under Donald Trump for Black men. … The (Black-white) wage gap in 2019 was actually shrinking under Do...
+2026-06-28 14:16:05,407 - INFO - API Response Status: 200
+2026-06-28 14:16:05,407 - INFO - Raw model response: {"label": "Half-True", "brief_reason": "While wages for Black men did see some increases during Trump's administration, the claim oversimplifies the broader context of wage growth and the wage gap."}
+2026-06-28 14:16:05,407 - INFO - Extracted label: Half-True -> Normalized: Misleading
+2026-06-28 14:16:05,409 - INFO - Prediction: Misleading
+2026-06-28 14:16:05,409 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-06-28 14:16:05,510 - INFO - ================================================================================
+2026-06-28 14:16:05,510 - INFO - Processing claim #115 (ID: fact5_unknown_115)
+2026-06-28 14:16:05,510 - INFO - Claim: Says opponent Eric Hovde “opposes efforts to negotiate with the big pharmaceutical companies to lower the price of prescription drugs.”...
+2026-06-28 14:16:05,510 - INFO - Date: 2024-10-18
+2026-06-28 14:16:05,511 - INFO - Asking model: gpt-4o-mini-2024-07-18 (method: cognitive_bias_aware)
+2026-06-28 14:16:05,511 - INFO - Claim: Says opponent Eric Hovde “opposes efforts to negotiate with the big pharmaceutical companies to lower the price of prescription drugs.”...
+2026-06-28 14:16:06,586 - INFO - API Response Status: 200
+2026-06-28 14:16:06,587 - INFO - Raw model response: {"label": "Not Enough Information", "brief_reason": "The claim lacks specific evidence or context to verify whether Eric Hovde opposes negotiations with pharmaceutical companies."}
+2026-06-28 14:16:06,587 - INFO - Extracted label: Not Enough Information -> Normalized: Not Enough Information
+2026-06-28 14:16:06,588 - INFO - Prediction: Not Enough Information
+2026-06-28 14:16:06,588 - INFO - ✗ Incorrect (True: Refuted, Pred: Not Enough Information)
+2026-06-28 14:16:06,690 - INFO - ================================================================================
+2026-06-28 14:16:06,690 - INFO - Processing claim #116 (ID: fact5_unknown_116)
+2026-06-28 14:16:06,690 - INFO - Claim: “I’ve not gotten a single call from the White House [after Hurricane Helene hit North Carolina], but [Donald Trump] and his team have been in touch wi...
+2026-06-28 14:16:06,691 - INFO - Date: 2024-10-21
+2026-06-28 14:16:06,691 - INFO - Asking model: gpt-4o-mini-2024-07-18 (method: cognitive_bias_aware)
+2026-06-28 14:16:06,691 - INFO - Claim: “I’ve not gotten a single call from the White House [after Hurricane Helene hit North Carolina], but [Donald Trump] and his team have been in touch wi...
+2026-06-28 14:16:07,949 - INFO - API Response Status: 200
+2026-06-28 14:16:07,949 - INFO - Raw model response: {"label": "Half-True", "brief_reason": "The claim suggests a lack of communication from the White House while asserting contact from Trump, but it lacks context on the nature and timing of communications."}
+2026-06-28 14:16:07,949 - INFO - Extracted label: Half-True -> Normalized: Misleading
+2026-06-28 14:16:07,951 - INFO - Prediction: Misleading
+2026-06-28 14:16:07,951 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-06-28 14:16:08,052 - INFO - ================================================================================
+2026-06-28 14:16:08,052 - INFO - Processing claim #117 (ID: fact5_unknown_117)
+2026-06-28 14:16:08,052 - INFO - Claim: Former U.S. President Donald Trump reneged on an offer he made to help pay the funeral costs of a murdered soldier, saying, "It doesn't cost 60,000 bu...
+2026-06-28 14:16:08,052 - INFO - Date: 2024-10-22
+2026-06-28 14:16:08,052 - INFO - Asking model: gpt-4o-mini-2024-07-18 (method: cognitive_bias_aware)
+2026-06-28 14:16:08,052 - INFO - Claim: Former U.S. President Donald Trump reneged on an offer he made to help pay the funeral costs of a murdered soldier, saying, "It doesn't cost 60,000 bu...
+2026-06-28 14:16:09,279 - INFO - API Response Status: 200
+2026-06-28 14:16:09,279 - INFO - Raw model response: {"label": "Half-True", "brief_reason": "The claim contains elements of truth but lacks context regarding Trump's comments and the circumstances surrounding the offer."}
+2026-06-28 14:16:09,279 - INFO - Extracted label: Half-True -> Normalized: Misleading
+2026-06-28 14:16:09,281 - INFO - Prediction: Misleading
+2026-06-28 14:16:09,281 - INFO - ✗ Incorrect (True: Not Enough Information, Pred: Misleading)
+2026-06-28 14:16:09,383 - INFO - ================================================================================
+2026-06-28 14:16:09,383 - INFO - Processing claim #118 (ID: fact5_unknown_118)
+2026-06-28 14:16:09,383 - INFO - Claim: "As of today, we have cut the flow of immigration by over half."...
+2026-06-28 14:16:09,383 - INFO - Date: 2024-10-23
+2026-06-28 14:16:09,383 - INFO - Asking model: gpt-4o-mini-2024-07-18 (method: cognitive_bias_aware)
+2026-06-28 14:16:09,383 - INFO - Claim: "As of today, we have cut the flow of immigration by over half."...
+2026-06-28 14:16:10,371 - INFO - API Response Status: 200
+2026-06-28 14:16:10,371 - INFO - Raw model response: {"label": "Not Enough Information", "brief_reason": "The claim lacks specific data or context to verify the accuracy of the immigration flow reduction."}
+2026-06-28 14:16:10,371 - INFO - Extracted label: Not Enough Information -> Normalized: Not Enough Information
+2026-06-28 14:16:10,373 - INFO - Prediction: Not Enough Information
+2026-06-28 14:16:10,373 - INFO - ✗ Incorrect (True: Supported, Pred: Not Enough Information)
+2026-06-28 14:16:10,474 - INFO - ================================================================================
+2026-06-28 14:16:10,475 - INFO - Processing claim #119 (ID: fact5_unknown_119)
+2026-06-28 14:16:10,475 - INFO - Claim: Republican Senate candidate Sam Brown “wants to cut Medicaid and Social Security.”...
+2026-06-28 14:16:10,475 - INFO - Date: 2024-10-28
+2026-06-28 14:16:10,475 - INFO - Asking model: gpt-4o-mini-2024-07-18 (method: cognitive_bias_aware)
+2026-06-28 14:16:10,475 - INFO - Claim: Republican Senate candidate Sam Brown “wants to cut Medicaid and Social Security.”...
+2026-06-28 14:16:16,762 - INFO - API Response Status: 200
+2026-06-28 14:16:16,762 - INFO - Raw model response: {"label": "Half-True", "brief_reason": "While Sam Brown has expressed intentions to reform entitlement programs, the claim oversimplifies his position by stating he wants to cut them without context."}
+2026-06-28 14:16:16,762 - INFO - Extracted label: Half-True -> Normalized: Misleading
+2026-06-28 14:16:16,764 - INFO - Prediction: Misleading
+2026-06-28 14:16:16,764 - INFO - ✓ Correct prediction
+2026-06-28 14:16:16,866 - INFO - ================================================================================
+2026-06-28 14:16:16,866 - INFO - Processing claim #120 (ID: fact5_unknown_120)
+2026-06-28 14:16:16,866 - INFO - Claim: “The lady who leaked passwords for voting systems in Colorado is the same person who tried to remove Trump from the ballot.”...
+2026-06-28 14:16:16,866 - INFO - Date: 2024-10-30
+2026-06-28 14:16:16,866 - INFO - Asking model: gpt-4o-mini-2024-07-18 (method: cognitive_bias_aware)
+2026-06-28 14:16:16,866 - INFO - Claim: “The lady who leaked passwords for voting systems in Colorado is the same person who tried to remove Trump from the ballot.”...
+2026-06-28 14:16:17,990 - INFO - API Response Status: 200
+2026-06-28 14:16:17,990 - INFO - Raw model response: {"label": "Refuted", "brief_reason": "The claim inaccurately conflates two separate incidents involving different individuals."}
+2026-06-28 14:16:17,991 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2026-06-28 14:16:17,992 - INFO - Prediction: Refuted
+2026-06-28 14:16:17,992 - INFO - ✓ Correct prediction
+2026-06-28 14:16:18,095 - INFO - ================================================================================
+2026-06-28 14:16:18,095 - INFO - Processing claim #121 (ID: fact5_unknown_121)
+2026-06-28 14:16:18,095 - INFO - Claim: “ICE officials have been ordered NOT to wear their uniforms or badges when they vote today" so as not to intimidate noncitizens....
+2026-06-28 14:16:18,095 - INFO - Date: 2024-11-05
+2026-06-28 14:16:18,095 - INFO - Asking model: gpt-4o-mini-2024-07-18 (method: cognitive_bias_aware)
+2026-06-28 14:16:18,095 - INFO - Claim: “ICE officials have been ordered NOT to wear their uniforms or badges when they vote today" so as not to intimidate noncitizens....
+2026-06-28 14:16:19,113 - INFO - API Response Status: 200
+2026-06-28 14:16:19,113 - INFO - Raw model response: {"label": "Not Enough Information", "brief_reason": "The claim lacks specific details about the order and its context, making it unverifiable."}
+2026-06-28 14:16:19,113 - INFO - Extracted label: Not Enough Information -> Normalized: Not Enough Information
+2026-06-28 14:16:19,114 - INFO - Prediction: Not Enough Information
+2026-06-28 14:16:19,115 - INFO - ✗ Incorrect (True: Refuted, Pred: Not Enough Information)
+2026-06-28 14:16:19,216 - INFO - ================================================================================
+2026-06-28 14:16:19,217 - INFO - Processing claim #122 (ID: fact5_unknown_122)
+2026-06-28 14:16:19,217 - INFO - Claim: Kamala Harris’ campaign paid Oprah $1 million, Megan Thee Stallion $5 million, and Eminem $1.8 million....
+2026-06-28 14:16:19,217 - INFO - Date: 2024-11-09
+2026-06-28 14:16:19,217 - INFO - Asking model: gpt-4o-mini-2024-07-18 (method: cognitive_bias_aware)
+2026-06-28 14:16:19,217 - INFO - Claim: Kamala Harris’ campaign paid Oprah $1 million, Megan Thee Stallion $5 million, and Eminem $1.8 million....
+2026-06-28 14:16:20,334 - INFO - API Response Status: 200
+2026-06-28 14:16:20,335 - INFO - Raw model response: {"label": "Refuted", "brief_reason": "The claim about payments to Oprah, Megan Thee Stallion, and Eminem by Kamala Harris' campaign is inaccurate and unsupported."}
+2026-06-28 14:16:20,335 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2026-06-28 14:16:20,336 - INFO - Prediction: Refuted
+2026-06-28 14:16:20,336 - INFO - ✓ Correct prediction
+2026-06-28 14:16:20,438 - INFO - ================================================================================
+2026-06-28 14:16:20,438 - INFO - Processing claim #123 (ID: fact5_unknown_123)
+2026-06-28 14:16:20,438 - INFO - Claim: Elon Musk’s Starlink technology manipulated votes in the 2024 election to benefit Donald Trump....
+2026-06-28 14:16:20,438 - INFO - Date: 2024-11-10
+2026-06-28 14:16:20,438 - INFO - Asking model: gpt-4o-mini-2024-07-18 (method: cognitive_bias_aware)
+2026-06-28 14:16:20,438 - INFO - Claim: Elon Musk’s Starlink technology manipulated votes in the 2024 election to benefit Donald Trump....
+2026-06-28 14:16:21,633 - INFO - API Response Status: 200
+2026-06-28 14:16:21,633 - INFO - Raw model response: {"label": "Refuted", "brief_reason": "There is no evidence to support the claim that Starlink technology manipulated votes in the 2024 election."}
+2026-06-28 14:16:21,633 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2026-06-28 14:16:21,635 - INFO - Prediction: Refuted
+2026-06-28 14:16:21,635 - INFO - ✓ Correct prediction
+2026-06-28 14:16:21,736 - INFO - ================================================================================
+2026-06-28 14:16:21,737 - INFO - Processing claim #124 (ID: fact5_unknown_124)
+2026-06-28 14:16:21,737 - INFO - Claim: We’ve created 732,000 jobs since I've been governor....
+2026-06-28 14:16:21,737 - INFO - Date: 2024-11-19
+2026-06-28 14:16:21,737 - INFO - Asking model: gpt-4o-mini-2024-07-18 (method: cognitive_bias_aware)
+2026-06-28 14:16:21,737 - INFO - Claim: We’ve created 732,000 jobs since I've been governor....
+2026-06-28 14:16:22,773 - INFO - API Response Status: 200
+2026-06-28 14:16:22,773 - INFO - Raw model response: {"label": "Supported", "brief_reason": "The claim accurately states the number of jobs created under the governor's tenure."}
+2026-06-28 14:16:22,773 - INFO - Extracted label: Supported -> Normalized: Supported
+2026-06-28 14:16:22,776 - INFO - Prediction: Supported
+2026-06-28 14:16:22,776 - INFO - ✓ Correct prediction
+2026-06-28 14:16:22,878 - INFO - ================================================================================
+2026-06-28 14:16:22,878 - INFO - Processing claim #125 (ID: fact5_unknown_125)
+2026-06-28 14:16:22,878 - INFO - Claim: “The Universities of Wisconsin are 43rd out of 50 states in the nation, in terms of public support for our universities. The $855 million (budget requ...
+2026-06-28 14:16:22,878 - INFO - Date: 2024-12-01
+2026-06-28 14:16:22,878 - INFO - Asking model: gpt-4o-mini-2024-07-18 (method: cognitive_bias_aware)
+2026-06-28 14:16:22,878 - INFO - Claim: “The Universities of Wisconsin are 43rd out of 50 states in the nation, in terms of public support for our universities. The $855 million (budget requ...
+2026-06-28 14:16:24,056 - INFO - API Response Status: 200
+2026-06-28 14:16:24,057 - INFO - Raw model response: {"label": "Half-True", "brief_reason": "The claim about Wisconsin's ranking in public support is likely accurate, but the assertion that the budget request would bring it to average lacks context on what 'average' entails."}
+2026-06-28 14:16:24,057 - INFO - Extracted label: Half-True -> Normalized: Misleading
+2026-06-28 14:16:24,058 - INFO - Prediction: Misleading
+2026-06-28 14:16:24,058 - INFO - ✗ Incorrect (True: Supported, Pred: Misleading)
+2026-06-28 14:16:24,160 - INFO - ================================================================================
+2026-06-28 14:16:24,161 - INFO - Processing claim #126 (ID: fact5_unknown_126)
+2026-06-28 14:16:24,161 - INFO - Claim: A CNN headline says, “Elon Musk considers melting down Statue of Liberty to make series of limited edition cyber trucks"...
+2026-06-28 14:16:24,161 - INFO - Date: 2024-12-01
+2026-06-28 14:16:24,161 - INFO - Asking model: gpt-4o-mini-2024-07-18 (method: cognitive_bias_aware)
+2026-06-28 14:16:24,161 - INFO - Claim: A CNN headline says, “Elon Musk considers melting down Statue of Liberty to make series of limited edition cyber trucks"...
+2026-06-28 14:16:25,483 - INFO - API Response Status: 200
+2026-06-28 14:16:25,483 - INFO - Raw model response: {"label": "Refuted", "brief_reason": "The claim about Elon Musk considering melting down the Statue of Liberty is false and lacks any credible support."}
+2026-06-28 14:16:25,483 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2026-06-28 14:16:25,485 - INFO - Prediction: Refuted
+2026-06-28 14:16:25,485 - INFO - ✓ Correct prediction
+2026-06-28 14:16:25,586 - INFO - ================================================================================
+2026-06-28 14:16:25,586 - INFO - Processing claim #127 (ID: fact5_unknown_127)
+2026-06-28 14:16:25,586 - INFO - Claim: North Carolina Republicans “took money out of western North Carolina” with Hurricane Helene relief bill....
+2026-06-28 14:16:25,587 - INFO - Date: 2024-12-03
+2026-06-28 14:16:25,587 - INFO - Asking model: gpt-4o-mini-2024-07-18 (method: cognitive_bias_aware)
+2026-06-28 14:16:25,587 - INFO - Claim: North Carolina Republicans “took money out of western North Carolina” with Hurricane Helene relief bill....
+2026-06-28 14:16:26,769 - INFO - API Response Status: 200
+2026-06-28 14:16:26,769 - INFO - Raw model response: {"label": "Half-True", "brief_reason": "The claim suggests a negative impact on western North Carolina without providing full context on the allocation of relief funds."}
+2026-06-28 14:16:26,769 - INFO - Extracted label: Half-True -> Normalized: Misleading
+2026-06-28 14:16:26,771 - INFO - Prediction: Misleading
+2026-06-28 14:16:26,771 - INFO - ✓ Correct prediction
+2026-06-28 14:16:26,872 - INFO - ================================================================================
+2026-06-28 14:16:26,872 - INFO - Processing claim #128 (ID: fact5_unknown_128)
+2026-06-28 14:16:26,872 - INFO - Claim: About 1% of federal employees are “actually working in the office.”...
+2026-06-28 14:16:26,872 - INFO - Date: 2024-12-05
+2026-06-28 14:16:26,872 - INFO - Asking model: gpt-4o-mini-2024-07-18 (method: cognitive_bias_aware)
+2026-06-28 14:16:26,872 - INFO - Claim: About 1% of federal employees are “actually working in the office.”...
+2026-06-28 14:16:28,013 - INFO - API Response Status: 200
+2026-06-28 14:16:28,013 - INFO - Raw model response: {"label": "Refuted", "brief_reason": "The claim is inaccurate as it misrepresents the actual percentage of federal employees working in the office."}
+2026-06-28 14:16:28,013 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2026-06-28 14:16:28,014 - INFO - Prediction: Refuted
+2026-06-28 14:16:28,014 - INFO - ✓ Correct prediction
+2026-06-28 14:16:28,116 - INFO - ================================================================================
+2026-06-28 14:16:28,117 - INFO - Processing claim #129 (ID: fact5_unknown_129)
+2026-06-28 14:16:28,117 - INFO - Claim: Government shutdowns in 2013 and 2018 “cost our economy billions of dollars each.”...
+2026-06-28 14:16:28,117 - INFO - Date: 2024-12-18
+2026-06-28 14:16:28,117 - INFO - Asking model: gpt-4o-mini-2024-07-18 (method: cognitive_bias_aware)
+2026-06-28 14:16:28,117 - INFO - Claim: Government shutdowns in 2013 and 2018 “cost our economy billions of dollars each.”...
+2026-06-28 14:16:29,407 - INFO - API Response Status: 200
+2026-06-28 14:16:29,407 - INFO - Raw model response: {"label": "Half-True", "brief_reason": "While government shutdowns can have significant economic impacts, the claim lacks specific context and may exaggerate the total costs."}
+2026-06-28 14:16:29,407 - INFO - Extracted label: Half-True -> Normalized: Misleading
+2026-06-28 14:16:29,409 - INFO - Prediction: Misleading
+2026-06-28 14:16:29,409 - INFO - ✗ Incorrect (True: Supported, Pred: Misleading)
+2026-06-28 14:16:29,512 - INFO - ================================================================================
+2026-06-28 14:16:29,512 - INFO - Processing claim #130 (ID: fact5_unknown_130)
+2026-06-28 14:16:29,512 - INFO - Claim: “After 30 years of Wisconsin’s checking account running a deficit, we've ended every fiscal year I've been governor with a positive balance. Today, we...
+2026-06-28 14:16:29,512 - INFO - Date: 2024-12-28
+2026-06-28 14:16:29,512 - INFO - Asking model: gpt-4o-mini-2024-07-18 (method: cognitive_bias_aware)
+2026-06-28 14:16:29,512 - INFO - Claim: “After 30 years of Wisconsin’s checking account running a deficit, we've ended every fiscal year I've been governor with a positive balance. Today, we...
+2026-06-28 14:16:30,571 - INFO - API Response Status: 200
+2026-06-28 14:16:30,571 - INFO - Raw model response: {"label": "Supported", "brief_reason": "The claim accurately states that Wisconsin has ended fiscal years with a positive balance under the governor's tenure and cites a specific positive balance."}
+2026-06-28 14:16:30,572 - INFO - Extracted label: Supported -> Normalized: Supported
+2026-06-28 14:16:30,573 - INFO - Prediction: Supported
+2026-06-28 14:16:30,573 - INFO - ✓ Correct prediction
+2026-06-28 14:16:30,675 - INFO - ================================================================================
+2026-06-28 14:16:30,675 - INFO - Processing claim #131 (ID: fact5_unknown_131)
+2026-06-28 14:16:30,675 - INFO - Claim: H-1B guest workers are “being employed as dog trainers, massage therapists, cooks, and English teachers.”...
+2026-06-28 14:16:30,675 - INFO - Date: 2025-01-02
+2026-06-28 14:16:30,675 - INFO - Asking model: gpt-4o-mini-2024-07-18 (method: cognitive_bias_aware)
+2026-06-28 14:16:30,675 - INFO - Claim: H-1B guest workers are “being employed as dog trainers, massage therapists, cooks, and English teachers.”...
+2026-06-28 14:16:32,023 - INFO - API Response Status: 200
+2026-06-28 14:16:32,023 - INFO - Raw model response: {"label": "Half-True", "brief_reason": "While H-1B workers can be employed in various roles, the claim oversimplifies and may exaggerate the prevalence of such positions."}
+2026-06-28 14:16:32,023 - INFO - Extracted label: Half-True -> Normalized: Misleading
+2026-06-28 14:16:32,024 - INFO - Prediction: Misleading
+2026-06-28 14:16:32,024 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-06-28 14:16:32,126 - INFO - ================================================================================
+2026-06-28 14:16:32,127 - INFO - Processing claim #132 (ID: fact5_unknown_132)
+2026-06-28 14:16:32,127 - INFO - Claim: President Joe Biden rescinded a Medal of Freedom given to Trump’s “campaign manager, Bradley Birkenfeld, in 2021.”...
+2026-06-28 14:16:32,127 - INFO - Date: 2025-01-04
+2026-06-28 14:16:32,127 - INFO - Asking model: gpt-4o-mini-2024-07-18 (method: cognitive_bias_aware)
+2026-06-28 14:16:32,127 - INFO - Claim: President Joe Biden rescinded a Medal of Freedom given to Trump’s “campaign manager, Bradley Birkenfeld, in 2021.”...
+2026-06-28 14:16:33,238 - INFO - API Response Status: 200
+2026-06-28 14:16:33,238 - INFO - Raw model response: {"label": "Refuted", "brief_reason": "President Biden did not rescind a Medal of Freedom awarded to Bradley Birkenfeld, as he was never awarded one."}
+2026-06-28 14:16:33,239 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2026-06-28 14:16:33,240 - INFO - Prediction: Refuted
+2026-06-28 14:16:33,241 - INFO - ✓ Correct prediction
+2026-06-28 14:16:33,342 - INFO - ================================================================================
+2026-06-28 14:16:33,342 - INFO - Processing claim #133 (ID: fact5_unknown_133)
+2026-06-28 14:16:33,343 - INFO - Claim: Buncombe County “is still demanding property taxes on homes destroyed by Hurricane Helene based on pre-Helene assessments that no longer apply.”...
+2026-06-28 14:16:33,343 - INFO - Date: 2025-01-06
+2026-06-28 14:16:33,343 - INFO - Asking model: gpt-4o-mini-2024-07-18 (method: cognitive_bias_aware)
+2026-06-28 14:16:33,343 - INFO - Claim: Buncombe County “is still demanding property taxes on homes destroyed by Hurricane Helene based on pre-Helene assessments that no longer apply.”...
+2026-06-28 14:16:39,443 - INFO - API Response Status: 200
+2026-06-28 14:16:39,443 - INFO - Raw model response: {"label": "Half-True", "brief_reason": "The claim highlights an issue with property tax assessments post-disaster but lacks context on the legal framework governing such assessments."}
+2026-06-28 14:16:39,444 - INFO - Extracted label: Half-True -> Normalized: Misleading
+2026-06-28 14:16:39,445 - INFO - Prediction: Misleading
+2026-06-28 14:16:39,445 - INFO - ✓ Correct prediction
+2026-06-28 14:16:39,547 - INFO - ================================================================================
+2026-06-28 14:16:39,547 - INFO - Processing claim #134 (ID: fact5_unknown_134)
+2026-06-28 14:16:39,547 - INFO - Claim: Voter ID "is supported, if you look at any poll, by 70 to 80% of the public."...
+2026-06-28 14:16:39,547 - INFO - Date: 2025-01-08
+2026-06-28 14:16:39,547 - INFO - Asking model: gpt-4o-mini-2024-07-18 (method: cognitive_bias_aware)
+2026-06-28 14:16:39,547 - INFO - Claim: Voter ID "is supported, if you look at any poll, by 70 to 80% of the public."...
+2026-06-28 14:16:40,860 - INFO - API Response Status: 200
+2026-06-28 14:16:40,860 - INFO - Raw model response: {"label": "Half-True", "brief_reason": "While polls may show significant support for voter ID laws, the claim lacks context regarding the specifics of the polls and the nuances of public opinion."}
+2026-06-28 14:16:40,861 - INFO - Extracted label: Half-True -> Normalized: Misleading
+2026-06-28 14:16:40,862 - INFO - Prediction: Misleading
+2026-06-28 14:16:40,862 - INFO - ✗ Incorrect (True: Supported, Pred: Misleading)
+2026-06-28 14:16:40,963 - INFO - ================================================================================
+2026-06-28 14:16:40,963 - INFO - Processing claim #135 (ID: fact5_unknown_135)
+2026-06-28 14:16:40,963 - INFO - Claim: “FEMA spent billions on illegal immigrants and now has no money for California!”...
+2026-06-28 14:16:40,963 - INFO - Date: 2025-01-08
+2026-06-28 14:16:40,963 - INFO - Asking model: gpt-4o-mini-2024-07-18 (method: cognitive_bias_aware)
+2026-06-28 14:16:40,963 - INFO - Claim: “FEMA spent billions on illegal immigrants and now has no money for California!”...
+2026-06-28 14:16:47,023 - INFO - API Response Status: 200
+2026-06-28 14:16:47,023 - INFO - Raw model response: {"label": "Refuted", "brief_reason": "The claim that FEMA spent billions on illegal immigrants is inaccurate and unsupported by available facts."}
+2026-06-28 14:16:47,023 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2026-06-28 14:16:47,025 - INFO - Prediction: Refuted
+2026-06-28 14:16:47,025 - INFO - ✓ Correct prediction
+2026-06-28 14:16:47,127 - INFO - ================================================================================
+2026-06-28 14:16:47,127 - INFO - Processing claim #136 (ID: fact5_unknown_136)
+2026-06-28 14:16:47,127 - INFO - Claim: “Some of these (California) reservoirs have been dry for 15, 20 years."...
+2026-06-28 14:16:47,127 - INFO - Date: 2025-01-12
+2026-06-28 14:16:47,127 - INFO - Asking model: gpt-4o-mini-2024-07-18 (method: cognitive_bias_aware)
+2026-06-28 14:16:47,127 - INFO - Claim: “Some of these (California) reservoirs have been dry for 15, 20 years."...
+2026-06-28 14:16:49,535 - INFO - API Response Status: 200
+2026-06-28 14:16:49,536 - INFO - Raw model response: {"label": "Half-True", "brief_reason": "While some reservoirs in California have experienced prolonged dry periods, the claim lacks specific context and may exaggerate the extent of the issue."}
+2026-06-28 14:16:49,536 - INFO - Extracted label: Half-True -> Normalized: Misleading
+2026-06-28 14:16:49,537 - INFO - Prediction: Misleading
+2026-06-28 14:16:49,537 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-06-28 14:16:49,638 - INFO - ================================================================================
+2026-06-28 14:16:49,639 - INFO - Processing claim #137 (ID: fact5_unknown_137)
+2026-06-28 14:16:49,639 - INFO - Claim: "Our nation’s tallest mountain … has been called Denali for thousands of years."...
+2026-06-28 14:16:49,639 - INFO - Date: 2025-01-20
+2026-06-28 14:16:49,639 - INFO - Asking model: gpt-4o-mini-2024-07-18 (method: cognitive_bias_aware)
+2026-06-28 14:16:49,639 - INFO - Claim: "Our nation’s tallest mountain … has been called Denali for thousands of years."...
+2026-06-28 14:16:50,618 - INFO - API Response Status: 200
+2026-06-28 14:16:50,618 - INFO - Raw model response: {"label": "Supported", "brief_reason": "Denali has been known by that name for thousands of years among Indigenous peoples."}
+2026-06-28 14:16:50,619 - INFO - Extracted label: Supported -> Normalized: Supported
+2026-06-28 14:16:50,620 - INFO - Prediction: Supported
+2026-06-28 14:16:50,620 - INFO - ✓ Correct prediction
+2026-06-28 14:16:50,721 - INFO - ================================================================================
+2026-06-28 14:16:50,722 - INFO - Processing claim #138 (ID: fact5_unknown_138)
+2026-06-28 14:16:50,722 - INFO - Claim: “If there is culpability for what happened, there really need to be conditions that follow that aid. It’s not unprecedented, by the way. After Katrina...
+2026-06-28 14:16:50,722 - INFO - Date: 2025-01-21
+2026-06-28 14:16:50,722 - INFO - Asking model: gpt-4o-mini-2024-07-18 (method: cognitive_bias_aware)
+2026-06-28 14:16:50,722 - INFO - Claim: “If there is culpability for what happened, there really need to be conditions that follow that aid. It’s not unprecedented, by the way. After Katrina...
+2026-06-28 14:16:51,888 - INFO - API Response Status: 200
+2026-06-28 14:16:51,889 - INFO - Raw model response: {"label": "Half-True", "brief_reason": "The claim about conditions placed on aid after disasters is partially accurate but lacks specific context about the nature and effectiveness of those conditions."}
+2026-06-28 14:16:51,889 - INFO - Extracted label: Half-True -> Normalized: Misleading
+2026-06-28 14:16:51,890 - INFO - Prediction: Misleading
+2026-06-28 14:16:51,890 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-06-28 14:16:51,991 - INFO - ================================================================================
+2026-06-28 14:16:51,992 - INFO - Processing claim #139 (ID: fact5_unknown_139)
+2026-06-28 14:16:51,992 - INFO - Claim: A proposed constitutional amendment “would allow anyone to run for a 3rd term. Including — Barack Obama.”...
+2026-06-28 14:16:51,992 - INFO - Date: 2025-01-23
+2026-06-28 14:16:51,992 - INFO - Asking model: gpt-4o-mini-2024-07-18 (method: cognitive_bias_aware)
+2026-06-28 14:16:51,992 - INFO - Claim: A proposed constitutional amendment “would allow anyone to run for a 3rd term. Including — Barack Obama.”...
+2026-06-28 14:16:59,120 - INFO - API Response Status: 200
+2026-06-28 14:16:59,120 - INFO - Raw model response: {"label": "Refuted", "brief_reason": "The claim inaccurately suggests that a proposed amendment would allow Barack Obama to run for a third term, which is not possible under current constitutional constraints."}
+2026-06-28 14:16:59,120 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2026-06-28 14:16:59,121 - INFO - Prediction: Refuted
+2026-06-28 14:16:59,121 - INFO - ✓ Correct prediction
+2026-06-28 14:16:59,224 - INFO - ================================================================================
+2026-06-28 14:16:59,224 - INFO - Processing claim #140 (ID: fact5_unknown_140)
+2026-06-28 14:16:59,224 - INFO - Claim: "The Biden administration kicked 2,000 displaced North Carolinians out of their temporary housing into freezing 20-degree weather," earlier in January...
+2026-06-28 14:16:59,224 - INFO - Date: 2025-01-24
+2026-06-28 14:16:59,224 - INFO - Asking model: gpt-4o-mini-2024-07-18 (method: cognitive_bias_aware)
+2026-06-28 14:16:59,224 - INFO - Claim: "The Biden administration kicked 2,000 displaced North Carolinians out of their temporary housing into freezing 20-degree weather," earlier in January...
+2026-06-28 14:17:00,335 - INFO - API Response Status: 200
+2026-06-28 14:17:00,336 - INFO - Raw model response: {"label": "Refuted", "brief_reason": "The claim inaccurately states that the Biden administration was responsible for kicking out displaced North Carolinians, which is not supported by available facts."}
+2026-06-28 14:17:00,336 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2026-06-28 14:17:00,337 - INFO - Prediction: Refuted
+2026-06-28 14:17:00,337 - INFO - ✓ Correct prediction
+2026-06-28 14:17:00,439 - INFO - ================================================================================
+2026-06-28 14:17:00,439 - INFO - Processing claim #141 (ID: fact5_unknown_141)
+2026-06-28 14:17:00,439 - INFO - Claim: “Biden pardons are unconstitutional! 7th Circuit Court Judge Joseph Barron ruled that there is no provision to pardon someone who hasn’t been formally...
+2026-06-28 14:17:00,439 - INFO - Date: 2025-01-24
+2026-06-28 14:17:00,439 - INFO - Asking model: gpt-4o-mini-2024-07-18 (method: cognitive_bias_aware)
+2026-06-28 14:17:00,440 - INFO - Claim: “Biden pardons are unconstitutional! 7th Circuit Court Judge Joseph Barron ruled that there is no provision to pardon someone who hasn’t been formally...
+2026-06-28 14:17:01,514 - INFO - API Response Status: 200
+2026-06-28 14:17:01,514 - INFO - Raw model response: {"label": "Refuted", "brief_reason": "The claim about Biden's pardons being unconstitutional is inaccurate; the 7th Circuit Court does not have a ruling that supports this assertion."}
+2026-06-28 14:17:01,514 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2026-06-28 14:17:01,516 - INFO - Prediction: Refuted
+2026-06-28 14:17:01,516 - INFO - ✓ Correct prediction
+2026-06-28 14:17:01,618 - INFO - ================================================================================
+2026-06-28 14:17:01,618 - INFO - Processing claim #142 (ID: fact5_unknown_142)
+2026-06-28 14:17:01,618 - INFO - Claim: “Elon Musk confirms he will spend a massive amount to acquire MSNBC, vows to fire Joy Reid to ‘end toxicity.’”...
+2026-06-28 14:17:01,618 - INFO - Date: 2025-01-25
+2026-06-28 14:17:01,618 - INFO - Asking model: gpt-4o-mini-2024-07-18 (method: cognitive_bias_aware)
+2026-06-28 14:17:01,618 - INFO - Claim: “Elon Musk confirms he will spend a massive amount to acquire MSNBC, vows to fire Joy Reid to ‘end toxicity.’”...
+2026-06-28 14:17:02,635 - INFO - API Response Status: 200
+2026-06-28 14:17:02,635 - INFO - Raw model response: {"label": "Refuted", "brief_reason": "There is no evidence that Elon Musk has confirmed plans to acquire MSNBC or fire Joy Reid."}
+2026-06-28 14:17:02,635 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2026-06-28 14:17:02,636 - INFO - Prediction: Refuted
+2026-06-28 14:17:02,636 - INFO - ✓ Correct prediction
+2026-06-28 14:17:02,738 - INFO - ================================================================================
+2026-06-28 14:17:02,738 - INFO - Processing claim #143 (ID: fact5_unknown_143)
+2026-06-28 14:17:02,738 - INFO - Claim: “As a Californian, we have given more to the recovery of other states than any other state in the union.”...
+2026-06-28 14:17:02,738 - INFO - Date: 2025-01-26
+2026-06-28 14:17:02,738 - INFO - Asking model: gpt-4o-mini-2024-07-18 (method: cognitive_bias_aware)
+2026-06-28 14:17:02,738 - INFO - Claim: “As a Californian, we have given more to the recovery of other states than any other state in the union.”...
+2026-06-28 14:17:03,786 - INFO - API Response Status: 200
+2026-06-28 14:17:03,786 - INFO - Raw model response: {"label": "Half-True", "brief_reason": "While California has contributed significantly to disaster recovery efforts, the claim lacks specific context and may exaggerate its comparative contributions to other states."}
+2026-06-28 14:17:03,786 - INFO - Extracted label: Half-True -> Normalized: Misleading
+2026-06-28 14:17:03,788 - INFO - Prediction: Misleading
+2026-06-28 14:17:03,788 - INFO - ✗ Incorrect (True: Supported, Pred: Misleading)
+2026-06-28 14:17:03,889 - INFO - ================================================================================
+2026-06-28 14:17:03,889 - INFO - Processing claim #144 (ID: fact5_unknown_144)
+2026-06-28 14:17:03,889 - INFO - Claim: The U.S. has an egg shortage because the “Biden administration and the Department of Agriculture directed the mass killing of more than 100 million ch...
+2026-06-28 14:17:03,889 - INFO - Date: 2025-01-28
+2026-06-28 14:17:03,889 - INFO - Asking model: gpt-4o-mini-2024-07-18 (method: cognitive_bias_aware)
+2026-06-28 14:17:03,889 - INFO - Claim: The U.S. has an egg shortage because the “Biden administration and the Department of Agriculture directed the mass killing of more than 100 million ch...
+2026-06-28 14:17:05,144 - INFO - API Response Status: 200
+2026-06-28 14:17:05,144 - INFO - Raw model response: {"label": "Refuted", "brief_reason": "The claim inaccurately attributes the egg shortage to a specific action by the Biden administration that is not supported by evidence."}
+2026-06-28 14:17:05,144 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2026-06-28 14:17:05,146 - INFO - Prediction: Refuted
+2026-06-28 14:17:05,147 - INFO - ✗ Incorrect (True: Misleading, Pred: Refuted)
+2026-06-28 14:17:05,248 - INFO - ================================================================================
+2026-06-28 14:17:05,249 - INFO - Processing claim #145 (ID: fact5_unknown_145)
+2026-06-28 14:17:05,249 - INFO - Claim: “DOGE and OMB also found that there was about to be $50 million taxpayer dollars that went out the door to fund condoms in Gaza.”...
+2026-06-28 14:17:05,249 - INFO - Date: 2025-01-28
+2026-06-28 14:17:05,249 - INFO - Asking model: gpt-4o-mini-2024-07-18 (method: cognitive_bias_aware)
+2026-06-28 14:17:05,249 - INFO - Claim: “DOGE and OMB also found that there was about to be $50 million taxpayer dollars that went out the door to fund condoms in Gaza.”...
+2026-06-28 14:17:12,565 - INFO - API Response Status: 200
+2026-06-28 14:17:12,565 - INFO - Raw model response: {"label": "Not Enough Information", "brief_reason": "The claim lacks specific details and context to verify the accuracy of the funding assertion."}
+2026-06-28 14:17:12,565 - INFO - Extracted label: Not Enough Information -> Normalized: Not Enough Information
+2026-06-28 14:17:12,567 - INFO - Prediction: Not Enough Information
+2026-06-28 14:17:12,567 - INFO - ✗ Incorrect (True: Refuted, Pred: Not Enough Information)
+2026-06-28 14:17:12,669 - INFO - ================================================================================
+2026-06-28 14:17:12,669 - INFO - Processing claim #146 (ID: fact5_unknown_146)
+2026-06-28 14:17:12,669 - INFO - Claim: Robert F. Kennedy Jr. “made $2.5 million off suing one of the entities that (he would be regulating) and plans to keep getting a take of every lawsuit...
+2026-06-28 14:17:12,669 - INFO - Date: 2025-01-29
+2026-06-28 14:17:12,669 - INFO - Asking model: gpt-4o-mini-2024-07-18 (method: cognitive_bias_aware)
+2026-06-28 14:17:12,669 - INFO - Claim: Robert F. Kennedy Jr. “made $2.5 million off suing one of the entities that (he would be regulating) and plans to keep getting a take of every lawsuit...
+2026-06-28 14:17:13,855 - INFO - API Response Status: 200
+2026-06-28 14:17:13,855 - INFO - Raw model response: {"label": "Half-True", "brief_reason": "The claim contains some truth about Kennedy's financial interests but lacks context regarding the nature of the lawsuits and regulatory role."}
+2026-06-28 14:17:13,855 - INFO - Extracted label: Half-True -> Normalized: Misleading
+2026-06-28 14:17:13,857 - INFO - Prediction: Misleading
+2026-06-28 14:17:13,857 - INFO - ✓ Correct prediction
+2026-06-28 14:17:13,959 - INFO - ================================================================================
+2026-06-28 14:17:13,959 - INFO - Processing claim #147 (ID: fact5_unknown_147)
+2026-06-28 14:17:13,959 - INFO - Claim: A Jan. 6, 2021, U.S. Capitol rioter pardoned by President Donald Trump was “killed when she used her 2A rights with a shotgun while being served for e...
+2026-06-28 14:17:13,959 - INFO - Date: 2025-01-29
+2026-06-28 14:17:13,959 - INFO - Asking model: gpt-4o-mini-2024-07-18 (method: cognitive_bias_aware)
+2026-06-28 14:17:13,959 - INFO - Claim: A Jan. 6, 2021, U.S. Capitol rioter pardoned by President Donald Trump was “killed when she used her 2A rights with a shotgun while being served for e...
+2026-06-28 14:17:15,121 - INFO - API Response Status: 200
+2026-06-28 14:17:15,122 - INFO - Raw model response: {"label": "Refuted", "brief_reason": "The claim inaccurately states that a pardoned rioter was killed while using a shotgun during an eviction, which is not supported by factual evidence."}
+2026-06-28 14:17:15,122 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2026-06-28 14:17:15,124 - INFO - Prediction: Refuted
+2026-06-28 14:17:15,124 - INFO - ✓ Correct prediction
+2026-06-28 14:17:15,225 - INFO - ================================================================================
+2026-06-28 14:17:15,225 - INFO - Processing claim #148 (ID: fact5_unknown_148)
+2026-06-28 14:17:15,225 - INFO - Claim: “I changed the Obama policy (on hiring air traffic controllers) ... And then Biden came in and he changed it.”...
+2026-06-28 14:17:15,225 - INFO - Date: 2025-01-30
+2026-06-28 14:17:15,225 - INFO - Asking model: gpt-4o-mini-2024-07-18 (method: cognitive_bias_aware)
+2026-06-28 14:17:15,225 - INFO - Claim: “I changed the Obama policy (on hiring air traffic controllers) ... And then Biden came in and he changed it.”...
+2026-06-28 14:17:16,430 - INFO - API Response Status: 200
+2026-06-28 14:17:16,430 - INFO - Raw model response: {"label": "Half-True", "brief_reason": "The claim suggests a direct change in policy by Biden from Obama's, but lacks context on the specifics of the policies and the nature of the changes."}
+2026-06-28 14:17:16,430 - INFO - Extracted label: Half-True -> Normalized: Misleading
+2026-06-28 14:17:16,431 - INFO - Prediction: Misleading
+2026-06-28 14:17:16,432 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-06-28 14:17:16,533 - INFO - ================================================================================
+2026-06-28 14:17:16,533 - INFO - Processing claim #149 (ID: fact5_unknown_149)
+2026-06-28 14:17:16,533 - INFO - Claim: “Pilot of Blackhawk helicopter that crashed into passenger jet at Reagan National was a transgender woman named Jo Ellis.”...
+2026-06-28 14:17:16,533 - INFO - Date: 2025-01-31
+2026-06-28 14:17:16,533 - INFO - Asking model: gpt-4o-mini-2024-07-18 (method: cognitive_bias_aware)
+2026-06-28 14:17:16,533 - INFO - Claim: “Pilot of Blackhawk helicopter that crashed into passenger jet at Reagan National was a transgender woman named Jo Ellis.”...
+2026-06-28 14:17:17,847 - INFO - API Response Status: 200
+2026-06-28 14:17:17,847 - INFO - Raw model response: {"label": "Refuted", "brief_reason": "The claim about the pilot's identity is inaccurate; there is no evidence supporting that a transgender woman named Jo Ellis was involved in such an incident."}
+2026-06-28 14:17:17,847 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2026-06-28 14:17:17,849 - INFO - Prediction: Refuted
+2026-06-28 14:17:17,849 - INFO - ✓ Correct prediction
+2026-06-28 14:17:17,952 - INFO - ================================================================================
+2026-06-28 14:17:17,953 - INFO - Processing complete: 145 predictions (57 correct, 88 incorrect), 5 failed
+2026-06-28 14:17:17,956 - INFO - Metrics: Accuracy=0.3931, Macro-F1=0.3443
+2026-06-28 14:17:17,962 - INFO - Predictions saved to results\gpt-4o-mini-2024-07-18\fact5_bias_all\cognitive_bias_aware\unseen\unseen_predictions.csv
+2026-06-28 14:17:17,967 - INFO - Predictions JSON saved to results\gpt-4o-mini-2024-07-18\fact5_bias_all\cognitive_bias_aware\unseen\unseen_predictions.json
+2026-06-28 14:17:17,968 - INFO - Metrics saved to results\gpt-4o-mini-2024-07-18\fact5_bias_all\cognitive_bias_aware\unseen\unseen_metrics.json
