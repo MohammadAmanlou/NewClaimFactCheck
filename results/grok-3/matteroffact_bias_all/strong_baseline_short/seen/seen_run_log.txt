@@ -1,0 +1,224 @@
+2026-06-29 13:51:19,845 - INFO - Processing 20 samples (limited)
+2026-06-29 13:51:19,845 - INFO - Processing 20 claims...
+2026-06-29 13:51:19,846 - INFO - ================================================================================
+2026-06-29 13:51:19,846 - INFO - Processing claim #0 (ID: 2206.01072v1_9_T)
+2026-06-29 13:51:19,846 - INFO - Claim: In Fe chains on Rh(111) surface, nearest neighbor isotropic exchange interactions are ferromagnetic while next nearest neighbor interactions are antif...
+2026-06-29 13:51:19,846 - INFO - Date: 2022-06-01
+2026-06-29 13:51:19,846 - INFO - Asking model: grok-3 (method: strong_baseline_short)
+2026-06-29 13:51:19,846 - INFO - Claim: In Fe chains on Rh(111) surface, nearest neighbor isotropic exchange interactions are ferromagnetic while next nearest neighbor interactions are antif...
+2026-06-29 13:51:26,515 - INFO - API Response Status: 200
+2026-06-29 13:51:26,515 - INFO - Raw model response: {"label": "Supported", "brief_reason": "Claim matches reported DFT results on Fe chains/Rh(111) exchange parameters (FM NN, AFM NNN, ~0.6 mRy edge NN)."}
+2026-06-29 13:51:26,515 - INFO - Extracted label: Supported -> Normalized: Supported
+2026-06-29 13:51:26,517 - INFO - Prediction: Supported
+2026-06-29 13:51:26,517 - INFO - ✓ Correct prediction
+2026-06-29 13:51:27,018 - INFO - ================================================================================
+2026-06-29 13:51:27,018 - INFO - Processing claim #1 (ID: 2206.01072v1_9_F)
+2026-06-29 13:51:27,018 - INFO - Claim: In Fe chains on Rh(111) surface, both nearest neighbor and next nearest neighbor isotropic exchange interactions are ferromagnetic, with the nearest n...
+2026-06-29 13:51:27,018 - INFO - Date: 2022-06-01
+2026-06-29 13:51:27,018 - INFO - Asking model: grok-3 (method: strong_baseline_short)
+2026-06-29 13:51:27,018 - INFO - Claim: In Fe chains on Rh(111) surface, both nearest neighbor and next nearest neighbor isotropic exchange interactions are ferromagnetic, with the nearest n...
+2026-06-29 13:51:32,124 - INFO - API Response Status: 200
+2026-06-29 13:51:32,125 - INFO - Raw model response: {"label": "Supported", "brief_reason": "Claim accurately matches calculated J values and signs from DFT studies of Fe/Rh(111) chains (NN edge ~1.2 mRy FM, NNN also FM)."}
+2026-06-29 13:51:32,125 - INFO - Extracted label: Supported -> Normalized: Supported
+2026-06-29 13:51:32,126 - INFO - Prediction: Supported
+2026-06-29 13:51:32,126 - INFO - ✗ Incorrect (True: Refuted, Pred: Supported)
+2026-06-29 13:51:32,627 - INFO - ================================================================================
+2026-06-29 13:51:32,627 - INFO - Processing claim #2 (ID: 2212.06128v1_11_T)
+2026-06-29 13:51:32,627 - INFO - Claim: The carrier density in Fe₁₋ₓCuₓSe increases significantly in the high-pressure phase above 10 kbar compared to the low-pressure nematic phase....
+2026-06-29 13:51:32,627 - INFO - Date: 2022-12-01
+2026-06-29 13:51:32,627 - INFO - Asking model: grok-3 (method: strong_baseline_short)
+2026-06-29 13:51:32,627 - INFO - Claim: The carrier density in Fe₁₋ₓCuₓSe increases significantly in the high-pressure phase above 10 kbar compared to the low-pressure nematic phase....
+2026-06-29 13:51:40,057 - INFO - API Response Status: 200
+2026-06-29 13:51:40,057 - INFO - Raw model response: {"label": "Supported", "brief_reason": "Specific claim on pressure-driven carrier density jump above ~10 kbar matches reported Hall-effect results for Fe₁₋ₓCuₓSe."}
+2026-06-29 13:51:40,057 - INFO - Extracted label: Supported -> Normalized: Supported
+2026-06-29 13:51:40,059 - INFO - Prediction: Supported
+2026-06-29 13:51:40,059 - INFO - ✓ Correct prediction
+2026-06-29 13:51:40,560 - INFO - ================================================================================
+2026-06-29 13:51:40,560 - INFO - Processing claim #3 (ID: 2212.06128v1_11_F)
+2026-06-29 13:51:40,560 - INFO - Claim: The carrier density in Fe₁₋ₓCuₓSe decreases significantly in the high-pressure phase above 10 kbar compared to the low-pressure nematic phase....
+2026-06-29 13:51:40,560 - INFO - Date: 2022-12-01
+2026-06-29 13:51:40,560 - INFO - Asking model: grok-3 (method: strong_baseline_short)
+2026-06-29 13:51:40,560 - INFO - Claim: The carrier density in Fe₁₋ₓCuₓSe decreases significantly in the high-pressure phase above 10 kbar compared to the low-pressure nematic phase....
+2026-06-29 13:51:53,634 - INFO - API Response Status: 200
+2026-06-29 13:51:53,634 - INFO - Raw model response: {"label": "Refuted", "brief_reason": "In Fe_{1-x}Cu_xSe, pressure suppresses the nematic phase above ~10 kbar and typically increases effective carrier density via Fermi-surface reconstruction, contradicting the claimed decrease."}
+2026-06-29 13:51:53,634 - WARNING - Invalid JSON extracted: {"label": "Refuted", "brief_reason": "In Fe_{1-x}
+2026-06-29 13:51:53,636 - WARNING - Failed to get valid prediction
+2026-06-29 13:51:54,137 - INFO - ================================================================================
+2026-06-29 13:51:54,137 - INFO - Processing claim #4 (ID: 2206.01063v2_16_T)
+2026-06-29 13:51:54,137 - INFO - Claim: The Heisenberg exchange constant in the mean-field resonating valence bond model is J = 4t²/U, where t is the hopping parameter and U is the onsite Co...
+2026-06-29 13:51:54,137 - INFO - Date: 2022-06-01
+2026-06-29 13:51:54,138 - INFO - Asking model: grok-3 (method: strong_baseline_short)
+2026-06-29 13:51:54,138 - INFO - Claim: The Heisenberg exchange constant in the mean-field resonating valence bond model is J = 4t²/U, where t is the hopping parameter and U is the onsite Co...
+2026-06-29 13:51:58,501 - INFO - API Response Status: 200
+2026-06-29 13:51:58,501 - INFO - Raw model response: {"label": "Supported", "brief_reason": "Standard second-order perturbation result from Hubbard model gives J=4t²/U, used in t-J/RVB mean-field theory."}
+2026-06-29 13:51:58,501 - INFO - Extracted label: Supported -> Normalized: Supported
+2026-06-29 13:51:58,503 - INFO - Prediction: Supported
+2026-06-29 13:51:58,503 - INFO - ✓ Correct prediction
+2026-06-29 13:51:59,004 - INFO - ================================================================================
+2026-06-29 13:51:59,004 - INFO - Processing claim #5 (ID: 2206.01063v2_16_F)
+2026-06-29 13:51:59,004 - INFO - Claim: The Heisenberg exchange constant in the mean-field resonating valence bond model is J = 2t²/U, where t is the hopping parameter and U is the onsite Co...
+2026-06-29 13:51:59,004 - INFO - Date: 2022-06-01
+2026-06-29 13:51:59,004 - INFO - Asking model: grok-3 (method: strong_baseline_short)
+2026-06-29 13:51:59,004 - INFO - Claim: The Heisenberg exchange constant in the mean-field resonating valence bond model is J = 2t²/U, where t is the hopping parameter and U is the onsite Co...
+2026-06-29 13:52:07,447 - INFO - API Response Status: 200
+2026-06-29 13:52:07,447 - INFO - Raw model response: {"label": "Refuted", "brief_reason": "Standard derivation from Hubbard model yields J = 4t²/U for Heisenberg exchange, not 2t²/U."}
+2026-06-29 13:52:07,447 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2026-06-29 13:52:07,449 - INFO - Prediction: Refuted
+2026-06-29 13:52:07,449 - INFO - ✓ Correct prediction
+2026-06-29 13:52:07,950 - INFO - ================================================================================
+2026-06-29 13:52:07,950 - INFO - Processing claim #6 (ID: 2202.12952v1_12_T)
+2026-06-29 13:52:07,950 - INFO - Claim: The striking universality of the phase diagram across different cuprate compounds suggests that superconductivity in cuprates is governed by topologic...
+2026-06-29 13:52:07,950 - INFO - Date: 2022-02-01
+2026-06-29 13:52:07,950 - INFO - Asking model: grok-3 (method: strong_baseline_short)
+2026-06-29 13:52:07,950 - INFO - Claim: The striking universality of the phase diagram across different cuprate compounds suggests that superconductivity in cuprates is governed by topologic...
+2026-06-29 13:52:15,706 - INFO - API Response Status: 200
+2026-06-29 13:52:15,706 - INFO - Raw model response: {"label": "Refuted", "brief_reason": "Universality of cuprate phase diagrams is real, but the claim that superconductivity is governed by topological constraints from the 2D AF lattice is not an established or supported conclusion."}
+2026-06-29 13:52:15,706 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2026-06-29 13:52:15,708 - INFO - Prediction: Refuted
+2026-06-29 13:52:15,708 - INFO - ✗ Incorrect (True: Supported, Pred: Refuted)
+2026-06-29 13:52:16,209 - INFO - ================================================================================
+2026-06-29 13:52:16,209 - INFO - Processing claim #7 (ID: 2202.12952v1_12_F)
+2026-06-29 13:52:16,209 - INFO - Claim: The variations in the phase diagrams of different cuprate compounds indicate that superconductivity in cuprates is primarily determined by material-sp...
+2026-06-29 13:52:16,209 - INFO - Date: 2022-02-01
+2026-06-29 13:52:16,209 - INFO - Asking model: grok-3 (method: strong_baseline_short)
+2026-06-29 13:52:16,209 - INFO - Claim: The variations in the phase diagrams of different cuprate compounds indicate that superconductivity in cuprates is primarily determined by material-sp...
+2026-06-29 13:52:21,265 - INFO - API Response Status: 200
+2026-06-29 13:52:21,265 - INFO - Raw model response: {"label": "Supported", "brief_reason": "Standard condensed-matter knowledge confirms that cuprate phase diagrams (Tc dome, optimal doping) vary systematically with CuO2 layer count and reservoir chemistry."}
+2026-06-29 13:52:21,265 - INFO - Extracted label: Supported -> Normalized: Supported
+2026-06-29 13:52:21,266 - INFO - Prediction: Supported
+2026-06-29 13:52:21,266 - INFO - ✗ Incorrect (True: Refuted, Pred: Supported)
+2026-06-29 13:52:21,767 - INFO - ================================================================================
+2026-06-29 13:52:21,767 - INFO - Processing claim #8 (ID: 2211.15972v1_8_T)
+2026-06-29 13:52:21,767 - INFO - Claim: Arsenic atoms preferentially substitute iodine at the I2 position (inside the interlayer) in bilayer CrI3...
+2026-06-29 13:52:21,768 - INFO - Date: 2022-11-01
+2026-06-29 13:52:21,768 - INFO - Asking model: grok-3 (method: strong_baseline_short)
+2026-06-29 13:52:21,768 - INFO - Claim: Arsenic atoms preferentially substitute iodine at the I2 position (inside the interlayer) in bilayer CrI3...
+2026-06-29 13:52:28,192 - INFO - API Response Status: 200
+2026-06-29 13:52:28,192 - INFO - Raw model response: {"label": "Supported", "brief_reason": "Specific DFT studies on As-doped bilayer CrI3 confirm preferential substitution at the inner I2 (interlayer) iodine site."}
+2026-06-29 13:52:28,193 - INFO - Extracted label: Supported -> Normalized: Supported
+2026-06-29 13:52:28,194 - INFO - Prediction: Supported
+2026-06-29 13:52:28,194 - INFO - ✓ Correct prediction
+2026-06-29 13:52:28,695 - INFO - ================================================================================
+2026-06-29 13:52:28,695 - INFO - Processing claim #9 (ID: 2211.15972v1_8_F)
+2026-06-29 13:52:28,695 - INFO - Claim: Arsenic atoms preferentially substitute iodine at the I1 position (at the surface) in bilayer CrI3...
+2026-06-29 13:52:28,695 - INFO - Date: 2022-11-01
+2026-06-29 13:52:28,695 - INFO - Asking model: grok-3 (method: strong_baseline_short)
+2026-06-29 13:52:28,695 - INFO - Claim: Arsenic atoms preferentially substitute iodine at the I1 position (at the surface) in bilayer CrI3...
+2026-06-29 13:52:33,011 - INFO - API Response Status: 200
+2026-06-29 13:52:33,011 - INFO - Raw model response: {"label": "Supported", "brief_reason": "Specific structural preference for As substitution at surface I1 sites in bilayer CrI3 is confirmed by DFT and experimental studies (e.g., 2022 literature)."}
+2026-06-29 13:52:33,011 - INFO - Extracted label: Supported -> Normalized: Supported
+2026-06-29 13:52:33,013 - INFO - Prediction: Supported
+2026-06-29 13:52:33,013 - INFO - ✗ Incorrect (True: Refuted, Pred: Supported)
+2026-06-29 13:52:33,515 - INFO - ================================================================================
+2026-06-29 13:52:33,515 - INFO - Processing claim #10 (ID: 2208.04658v1_15_T)
+2026-06-29 13:52:33,515 - INFO - Claim: Crystallization of strontium hexaferrite from as-grown films requires annealing at 850°C in air for three hours, which transforms the nanocrystalline ...
+2026-06-29 13:52:33,515 - INFO - Date: 2022-08-01
+2026-06-29 13:52:33,515 - INFO - Asking model: grok-3 (method: strong_baseline_short)
+2026-06-29 13:52:33,515 - INFO - Claim: Crystallization of strontium hexaferrite from as-grown films requires annealing at 850°C in air for three hours, which transforms the nanocrystalline ...
+2026-06-29 13:52:39,451 - INFO - API Response Status: 200
+2026-06-29 13:52:39,451 - INFO - Raw model response: {"label": "Supported", "brief_reason": "Claim accurately describes standard annealing conditions and phase transformation for SrFe₁₂O₁₉ formation from maghemite/SrO precursors in the literature."}
+2026-06-29 13:52:39,451 - INFO - Extracted label: Supported -> Normalized: Supported
+2026-06-29 13:52:39,453 - INFO - Prediction: Supported
+2026-06-29 13:52:39,453 - INFO - ✓ Correct prediction
+2026-06-29 13:52:39,954 - INFO - ================================================================================
+2026-06-29 13:52:39,954 - INFO - Processing claim #11 (ID: 2208.04658v1_15_F)
+2026-06-29 13:52:39,954 - INFO - Claim: Crystallization of strontium hexaferrite from as-grown films requires annealing at 600°C in vacuum for one hour, which is sufficient to transform the ...
+2026-06-29 13:52:39,954 - INFO - Date: 2022-08-01
+2026-06-29 13:52:39,954 - INFO - Asking model: grok-3 (method: strong_baseline_short)
+2026-06-29 13:52:39,954 - INFO - Claim: Crystallization of strontium hexaferrite from as-grown films requires annealing at 600°C in vacuum for one hour, which is sufficient to transform the ...
+2026-06-29 13:52:47,556 - INFO - API Response Status: 200
+2026-06-29 13:52:47,556 - INFO - Raw model response: {"label": "Refuted", "brief_reason": "600°C/1h vacuum annealing is too low to crystallize amorphous SrFe₁₂O₁₉ precursors into well-ordered hexaferrite; literature requires ≥800–900°C."}
+2026-06-29 13:52:47,556 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2026-06-29 13:52:47,557 - INFO - Prediction: Refuted
+2026-06-29 13:52:47,557 - INFO - ✓ Correct prediction
+2026-06-29 13:52:48,059 - INFO - ================================================================================
+2026-06-29 13:52:48,059 - INFO - Processing claim #12 (ID: 2203.14301v1_6_T)
+2026-06-29 13:52:48,059 - INFO - Claim: The hexagonal warping term in spin-orbit coupling is essential for opening a gap at the band crossing point and enabling both quantized and half-quant...
+2026-06-29 13:52:48,059 - INFO - Date: 2022-03-01
+2026-06-29 13:52:48,059 - INFO - Asking model: grok-3 (method: strong_baseline_short)
+2026-06-29 13:52:48,059 - INFO - Claim: The hexagonal warping term in spin-orbit coupling is essential for opening a gap at the band crossing point and enabling both quantized and half-quant...
+2026-06-29 13:52:55,379 - INFO - API Response Status: 200
+2026-06-29 13:52:55,379 - INFO - Raw model response: {"label": "Supported", "brief_reason": "Hexagonal warping (\lambda k^{3} \sigma_z term) is required to gap Dirac crossings under in-plane exchange, enabling QAHE/HQAHE; linear Dirac + in-plane field alone
+2026-06-29 13:52:55,379 - WARNING - Invalid JSON extracted: {"label": "Supported", "brief_reason": "Hexagonal warping (\lambda k^{3}
+2026-06-29 13:52:55,381 - WARNING - Failed to get valid prediction
+2026-06-29 13:52:55,882 - INFO - ================================================================================
+2026-06-29 13:52:55,882 - INFO - Processing claim #13 (ID: 2203.14301v1_6_F)
+2026-06-29 13:52:55,882 - INFO - Claim: The hexagonal warping term in spin-orbit coupling is irrelevant for the anomalous Hall effect in systems with in-plane magnetic fields, as the Zeeman ...
+2026-06-29 13:52:55,882 - INFO - Date: 2022-03-01
+2026-06-29 13:52:55,882 - INFO - Asking model: grok-3 (method: strong_baseline_short)
+2026-06-29 13:52:55,882 - INFO - Claim: The hexagonal warping term in spin-orbit coupling is irrelevant for the anomalous Hall effect in systems with in-plane magnetic fields, as the Zeeman ...
+2026-06-29 13:53:05,076 - INFO - API Response Status: 200
+2026-06-29 13:53:05,077 - INFO - Raw model response: {"label": "Refuted", "brief_reason": "For in-plane Zeeman, linear Dirac term alone yields only a shifted gapless node; hexagonal warping supplies the necessary out-of-plane mass at the shifted momentum, so warping is required for a
+2026-06-29 13:53:05,077 - WARNING - Could not find JSON in response: {"label": "Refuted", "brief_reason": "For in-plane Zeeman, linear Dirac term alone yields only a shifted gapless node; hexagonal warping supplies the necessary out-of-plane mass at the shifted momentum, so warping is required for a
+2026-06-29 13:53:05,078 - WARNING - Failed to get valid prediction
+2026-06-29 13:53:05,579 - INFO - ================================================================================
+2026-06-29 13:53:05,579 - INFO - Processing claim #14 (ID: 2202.01918v2_10_T)
+2026-06-29 13:53:05,579 - INFO - Claim: The amorphization of crystalline GST-225 occurs through the rupture of longer, weaker Ge-Te bonds while shorter, stronger bonds remain intact, causing...
+2026-06-29 13:53:05,580 - INFO - Date: 2022-02-01
+2026-06-29 13:53:05,580 - INFO - Asking model: grok-3 (method: strong_baseline_short)
+2026-06-29 13:53:05,580 - INFO - Claim: The amorphization of crystalline GST-225 occurs through the rupture of longer, weaker Ge-Te bonds while shorter, stronger bonds remain intact, causing...
+2026-06-29 13:53:10,454 - INFO - API Response Status: 200
+2026-06-29 13:53:10,454 - INFO - Raw model response: {"label": "Supported", "brief_reason": "The described bond-rupture and umbrella-flip mechanism for GST-225 amorphization matches established literature on the rocksalt-to-tetrahedral transition."}
+2026-06-29 13:53:10,455 - INFO - Extracted label: Supported -> Normalized: Supported
+2026-06-29 13:53:10,456 - INFO - Prediction: Supported
+2026-06-29 13:53:10,457 - INFO - ✓ Correct prediction
+2026-06-29 13:53:10,958 - INFO - ================================================================================
+2026-06-29 13:53:10,958 - INFO - Processing claim #15 (ID: 2202.01918v2_10_F)
+2026-06-29 13:53:10,958 - INFO - Claim: The amorphization of crystalline GST-225 occurs through the complete melting and random rearrangement of all atomic bonds, with both short and long bo...
+2026-06-29 13:53:10,958 - INFO - Date: 2022-02-01
+2026-06-29 13:53:10,958 - INFO - Asking model: grok-3 (method: strong_baseline_short)
+2026-06-29 13:53:10,958 - INFO - Claim: The amorphization of crystalline GST-225 occurs through the complete melting and random rearrangement of all atomic bonds, with both short and long bo...
+2026-06-29 13:53:16,009 - INFO - API Response Status: 200
+2026-06-29 13:53:16,009 - INFO - Raw model response: {"label": "Refuted", "brief_reason": "GST-225 amorphization involves preferential breaking of longer/weaker bonds and retains local structural motifs related to the crystal, not equal bond breaking or fully unrelated disorder."}
+2026-06-29 13:53:16,009 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2026-06-29 13:53:16,011 - INFO - Prediction: Refuted
+2026-06-29 13:53:16,011 - INFO - ✓ Correct prediction
+2026-06-29 13:53:16,512 - INFO - ================================================================================
+2026-06-29 13:53:16,512 - INFO - Processing claim #16 (ID: 2208.03296v2_4_T)
+2026-06-29 13:53:16,512 - INFO - Claim: The GNN model was trained on 10,000 dislocation configurations generated from 100 DDD simulations, with each simulation running for 10,000 time-steps ...
+2026-06-29 13:53:16,512 - INFO - Date: 2022-08-01
+2026-06-29 13:53:16,512 - INFO - Asking model: grok-3 (method: strong_baseline_short)
+2026-06-29 13:53:16,513 - INFO - Claim: The GNN model was trained on 10,000 dislocation configurations generated from 100 DDD simulations, with each simulation running for 10,000 time-steps ...
+2026-06-29 13:53:21,143 - INFO - API Response Status: 200
+2026-06-29 13:53:21,143 - INFO - Raw model response: {"label": "Supported", "brief_reason": "Numbers are internally consistent: 100 sims \times (10k steps / 100) = exactly 10k configs."}
+2026-06-29 13:53:21,143 - INFO - Extracted label: Supported -> Normalized: Supported
+2026-06-29 13:53:21,144 - INFO - Prediction: Supported
+2026-06-29 13:53:21,144 - INFO - ✓ Correct prediction
+2026-06-29 13:53:21,646 - INFO - ================================================================================
+2026-06-29 13:53:21,646 - INFO - Processing claim #17 (ID: 2208.03296v2_4_F)
+2026-06-29 13:53:21,646 - INFO - Claim: The GNN model was trained on 1,000 dislocation configurations generated from 10 DDD simulations, with each simulation running for 1,000 time-steps and...
+2026-06-29 13:53:21,646 - INFO - Date: 2022-08-01
+2026-06-29 13:53:21,646 - INFO - Asking model: grok-3 (method: strong_baseline_short)
+2026-06-29 13:53:21,646 - INFO - Claim: The GNN model was trained on 1,000 dislocation configurations generated from 10 DDD simulations, with each simulation running for 1,000 time-steps and...
+2026-06-29 13:53:29,247 - INFO - API Response Status: 200
+2026-06-29 13:53:29,247 - INFO - Raw model response: {"label": "Supported", "brief_reason": "Numbers are internally consistent: 10 simulations × (1000 steps / 10) = exactly 1000 configurations."}
+2026-06-29 13:53:29,247 - INFO - Extracted label: Supported -> Normalized: Supported
+2026-06-29 13:53:29,248 - INFO - Prediction: Supported
+2026-06-29 13:53:29,249 - INFO - ✗ Incorrect (True: Refuted, Pred: Supported)
+2026-06-29 13:53:29,750 - INFO - ================================================================================
+2026-06-29 13:53:29,750 - INFO - Processing claim #18 (ID: 2203.15868v1_7_T)
+2026-06-29 13:53:29,750 - INFO - Claim: The amount of retained austenite in martensitic stainless steel can be reduced to less than 5% through proper heat treatment...
+2026-06-29 13:53:29,750 - INFO - Date: 2022-03-01
+2026-06-29 13:53:29,750 - INFO - Asking model: grok-3 (method: strong_baseline_short)
+2026-06-29 13:53:29,750 - INFO - Claim: The amount of retained austenite in martensitic stainless steel can be reduced to less than 5% through proper heat treatment...
+2026-06-29 13:53:33,513 - INFO - API Response Status: 200
+2026-06-29 13:53:33,513 - INFO - Raw model response: {"label": "Supported", "brief_reason": "Martensitic stainless steels routinely achieve <5% retained austenite via optimized austenitizing/quenching/tempering or cryogenic treatment."}
+2026-06-29 13:53:33,513 - INFO - Extracted label: Supported -> Normalized: Supported
+2026-06-29 13:53:33,515 - INFO - Prediction: Supported
+2026-06-29 13:53:33,515 - INFO - ✓ Correct prediction
+2026-06-29 13:53:34,016 - INFO - ================================================================================
+2026-06-29 13:53:34,017 - INFO - Processing claim #19 (ID: 2203.15868v1_7_F)
+2026-06-29 13:53:34,017 - INFO - Claim: The amount of retained austenite in martensitic stainless steel cannot be reduced below 15% regardless of heat treatment parameters...
+2026-06-29 13:53:34,017 - INFO - Date: 2022-03-01
+2026-06-29 13:53:34,017 - INFO - Asking model: grok-3 (method: strong_baseline_short)
+2026-06-29 13:53:34,017 - INFO - Claim: The amount of retained austenite in martensitic stainless steel cannot be reduced below 15% regardless of heat treatment parameters...
+2026-06-29 13:53:38,554 - INFO - API Response Status: 200
+2026-06-29 13:53:38,554 - INFO - Raw model response: {"label": "Refuted", "brief_reason": "Retained austenite levels in martensitic stainless steels can be reduced well below 15% (often <5%) via optimized quenching, sub-zero/cryogenic treatments, or multiple tempering
+2026-06-29 13:53:38,554 - WARNING - Could not find JSON in response: {"label": "Refuted", "brief_reason": "Retained austenite levels in martensitic stainless steels can be reduced well below 15% (often <5%) via optimized quenching, sub-zero/cryogenic treatments, or multiple tempering
+2026-06-29 13:53:38,556 - WARNING - Failed to get valid prediction
+2026-06-29 13:53:39,058 - INFO - ================================================================================
+2026-06-29 13:53:39,058 - INFO - Processing complete: 16 predictions (11 correct, 5 incorrect), 4 failed
+2026-06-29 13:53:39,058 - INFO - Metrics: Accuracy=0.6875, Macro-F1=0.6537
+2026-06-29 13:53:39,065 - INFO - Predictions saved to results\grok-3\matteroffact_bias_all\strong_baseline_short\seen\seen_predictions.csv
+2026-06-29 13:53:39,067 - INFO - Predictions JSON saved to results\grok-3\matteroffact_bias_all\strong_baseline_short\seen\seen_predictions.json
+2026-06-29 13:53:39,067 - INFO - Metrics saved to results\grok-3\matteroffact_bias_all\strong_baseline_short\seen\seen_metrics.json

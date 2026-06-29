@@ -1,0 +1,236 @@
+2026-06-29 14:17:44,023 - INFO - Processing 20 samples (limited)
+2026-06-29 14:17:44,023 - INFO - Processing 20 claims...
+2026-06-29 14:17:44,026 - INFO - ================================================================================
+2026-06-29 14:17:44,026 - INFO - Processing claim #0 (ID: tracer_train_0)
+2026-06-29 14:17:44,027 - INFO - Claim: "In the 1990s, the Biden Crime Bill added 100,000 cops to America's streets. As a result, murder and violent crime rates went down eight years in a ro...
+2026-06-29 14:17:44,027 - INFO - Date: 2007-11-02
+2026-06-29 14:17:44,027 - INFO - Asking model: grok-3 (method: naive)
+2026-06-29 14:17:44,028 - INFO - Claim: "In the 1990s, the Biden Crime Bill added 100,000 cops to America's streets. As a result, murder and violent crime rates went down eight years in a ro...
+2026-06-29 14:17:52,830 - INFO - API Response Status: 200
+2026-06-29 14:17:52,830 - INFO - Raw model response: {"label": "Half-True"}
+2026-06-29 14:17:52,830 - INFO - Extracted label: Half-True -> Normalized: Misleading
+2026-06-29 14:17:52,832 - INFO - Prediction: Misleading
+2026-06-29 14:17:52,833 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-06-29 14:17:53,334 - INFO - ================================================================================
+2026-06-29 14:17:53,334 - INFO - Processing claim #1 (ID: tracer_train_1)
+2026-06-29 14:17:53,334 - INFO - Claim: "(Ronald Reagan) raised taxes a billion dollars in his first year as governor of California."...
+2026-06-29 14:17:53,334 - INFO - Date: 2008-01-10
+2026-06-29 14:17:53,334 - INFO - Asking model: grok-3 (method: naive)
+2026-06-29 14:17:53,335 - INFO - Claim: "(Ronald Reagan) raised taxes a billion dollars in his first year as governor of California."...
+2026-06-29 14:18:02,383 - INFO - API Response Status: 200
+2026-06-29 14:18:02,383 - INFO - Raw model response: {"label": "Supported"}
+2026-06-29 14:18:02,384 - INFO - Extracted label: Supported -> Normalized: Supported
+2026-06-29 14:18:02,386 - INFO - Prediction: Supported
+2026-06-29 14:18:02,386 - INFO - ✓ Correct prediction
+2026-06-29 14:18:02,887 - INFO - ================================================================================
+2026-06-29 14:18:02,887 - INFO - Processing claim #2 (ID: tracer_train_2)
+2026-06-29 14:18:02,887 - INFO - Claim: Hillary Clinton "has the only health care plan that covers every American."...
+2026-06-29 14:18:02,888 - INFO - Date: 2008-02-13
+2026-06-29 14:18:02,888 - INFO - Asking model: grok-3 (method: naive)
+2026-06-29 14:18:02,888 - INFO - Claim: Hillary Clinton "has the only health care plan that covers every American."...
+2026-06-29 14:18:12,137 - INFO - API Response Status: 200
+2026-06-29 14:18:12,137 - INFO - Raw model response: {"label": "Refuted"}
+2026-06-29 14:18:12,137 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2026-06-29 14:18:12,138 - INFO - Prediction: Refuted
+2026-06-29 14:18:12,139 - INFO - ✗ Incorrect (True: Supported, Pred: Refuted)
+2026-06-29 14:18:12,640 - INFO - ================================================================================
+2026-06-29 14:18:12,640 - INFO - Processing claim #3 (ID: tracer_train_3)
+2026-06-29 14:18:12,640 - INFO - Claim: "Joe Biden brought Republicans and Democrats together to pass the 1994 crime bill, putting 100,000 cops on the streets and starting an eight-year drop...
+2026-06-29 14:18:12,640 - INFO - Date: 2008-08-23
+2026-06-29 14:18:12,640 - INFO - Asking model: grok-3 (method: naive)
+2026-06-29 14:18:12,640 - INFO - Claim: "Joe Biden brought Republicans and Democrats together to pass the 1994 crime bill, putting 100,000 cops on the streets and starting an eight-year drop...
+2026-06-29 14:18:20,628 - INFO - API Response Status: 200
+2026-06-29 14:18:20,628 - INFO - Raw model response: {"label": "Half-True"}
+2026-06-29 14:18:20,628 - INFO - Extracted label: Half-True -> Normalized: Misleading
+2026-06-29 14:18:20,629 - INFO - Prediction: Misleading
+2026-06-29 14:18:20,629 - INFO - ✓ Correct prediction
+2026-06-29 14:18:21,130 - INFO - ================================================================================
+2026-06-29 14:18:21,131 - INFO - Processing claim #4 (ID: tracer_train_4)
+2026-06-29 14:18:21,131 - INFO - Claim: "While Sarah was Mayor of Wasilla she tried to fire our highly respected City Librarian because the Librarian refused to consider removing from the li...
+2026-06-29 14:18:21,131 - INFO - Date: 2008-08-31
+2026-06-29 14:18:21,131 - INFO - Asking model: grok-3 (method: naive)
+2026-06-29 14:18:21,131 - INFO - Claim: "While Sarah was Mayor of Wasilla she tried to fire our highly respected City Librarian because the Librarian refused to consider removing from the li...
+2026-06-29 14:18:29,895 - INFO - API Response Status: 200
+2026-06-29 14:18:29,896 - INFO - Raw model response: {"label": "Half-True"}
+2026-06-29 14:18:29,896 - INFO - Extracted label: Half-True -> Normalized: Misleading
+2026-06-29 14:18:29,897 - INFO - Prediction: Misleading
+2026-06-29 14:18:29,897 - INFO - ✓ Correct prediction
+2026-06-29 14:18:30,398 - INFO - ================================================================================
+2026-06-29 14:18:30,399 - INFO - Processing claim #5 (ID: tracer_train_5)
+2026-06-29 14:18:30,399 - INFO - Claim: On the economic troubles of 2008, "really the match that lit this fire was Fannie Mae and Freddie Mac."...
+2026-06-29 14:18:30,399 - INFO - Date: 2008-10-07
+2026-06-29 14:18:30,399 - INFO - Asking model: grok-3 (method: naive)
+2026-06-29 14:18:30,399 - INFO - Claim: On the economic troubles of 2008, "really the match that lit this fire was Fannie Mae and Freddie Mac."...
+2026-06-29 14:18:37,183 - INFO - API Response Status: 200
+2026-06-29 14:18:37,183 - INFO - Raw model response: {"label": "Half-True"}
+2026-06-29 14:18:37,183 - INFO - Extracted label: Half-True -> Normalized: Misleading
+2026-06-29 14:18:37,184 - INFO - Prediction: Misleading
+2026-06-29 14:18:37,185 - INFO - ✓ Correct prediction
+2026-06-29 14:18:37,686 - INFO - ================================================================================
+2026-06-29 14:18:37,686 - INFO - Processing claim #6 (ID: tracer_train_6)
+2026-06-29 14:18:37,686 - INFO - Claim: "In April, Sen. McCain came out against helping women earn equal pay for equal work."...
+2026-06-29 14:18:37,686 - INFO - Date: 2008-10-20
+2026-06-29 14:18:37,686 - INFO - Asking model: grok-3 (method: naive)
+2026-06-29 14:18:37,686 - INFO - Claim: "In April, Sen. McCain came out against helping women earn equal pay for equal work."...
+2026-06-29 14:18:46,683 - INFO - API Response Status: 200
+2026-06-29 14:18:46,683 - INFO - Raw model response: {"label": "Half-True"}
+2026-06-29 14:18:46,683 - INFO - Extracted label: Half-True -> Normalized: Misleading
+2026-06-29 14:18:46,685 - INFO - Prediction: Misleading
+2026-06-29 14:18:46,685 - INFO - ✓ Correct prediction
+2026-06-29 14:18:47,187 - INFO - ================================================================================
+2026-06-29 14:18:47,187 - INFO - Processing claim #7 (ID: tracer_train_7)
+2026-06-29 14:18:47,187 - INFO - Claim: "There are no earmarks" in the stimulus bill....
+2026-06-29 14:18:47,187 - INFO - Date: 2009-02-02
+2026-06-29 14:18:47,187 - INFO - Asking model: grok-3 (method: naive)
+2026-06-29 14:18:47,187 - INFO - Claim: "There are no earmarks" in the stimulus bill....
+2026-06-29 14:18:53,935 - INFO - API Response Status: 200
+2026-06-29 14:18:53,935 - INFO - Raw model response: {"label": "Supported"}
+2026-06-29 14:18:53,936 - INFO - Extracted label: Supported -> Normalized: Supported
+2026-06-29 14:18:53,938 - INFO - Prediction: Supported
+2026-06-29 14:18:53,938 - INFO - ✗ Incorrect (True: Refuted, Pred: Supported)
+2026-06-29 14:18:54,440 - INFO - ================================================================================
+2026-06-29 14:18:54,440 - INFO - Processing claim #8 (ID: tracer_train_8)
+2026-06-29 14:18:54,440 - INFO - Claim: "A new poll shows 62 percent support the president's plan to reform health care. That means ... letting you choose between keeping the private insuran...
+2026-06-29 14:18:54,440 - INFO - Date: 2009-06-14
+2026-06-29 14:18:54,440 - INFO - Asking model: grok-3 (method: naive)
+2026-06-29 14:18:54,440 - INFO - Claim: "A new poll shows 62 percent support the president's plan to reform health care. That means ... letting you choose between keeping the private insuran...
+2026-06-29 14:19:06,208 - INFO - API Response Status: 200
+2026-06-29 14:19:06,208 - INFO - Raw model response: {"label": "Half-True"}
+2026-06-29 14:19:06,208 - INFO - Extracted label: Half-True -> Normalized: Misleading
+2026-06-29 14:19:06,209 - INFO - Prediction: Misleading
+2026-06-29 14:19:06,210 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-06-29 14:19:06,711 - INFO - ================================================================================
+2026-06-29 14:19:06,711 - INFO - Processing claim #9 (ID: tracer_train_9)
+2026-06-29 14:19:06,711 - INFO - Claim: Health insurance companies are "making record profits, right now."...
+2026-06-29 14:19:06,711 - INFO - Date: 2009-07-22
+2026-06-29 14:19:06,711 - INFO - Asking model: grok-3 (method: naive)
+2026-06-29 14:19:06,711 - INFO - Claim: Health insurance companies are "making record profits, right now."...
+2026-06-29 14:19:16,956 - INFO - API Response Status: 200
+2026-06-29 14:19:16,956 - INFO - Raw model response: {"label": "Half-True"}
+2026-06-29 14:19:16,956 - INFO - Extracted label: Half-True -> Normalized: Misleading
+2026-06-29 14:19:16,957 - INFO - Prediction: Misleading
+2026-06-29 14:19:16,957 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-06-29 14:19:17,460 - INFO - ================================================================================
+2026-06-29 14:19:17,460 - INFO - Processing claim #10 (ID: tracer_train_10)
+2026-06-29 14:19:17,460 - INFO - Claim: "There's no rationing in any of these bills."...
+2026-06-29 14:19:17,460 - INFO - Date: 2009-08-09
+2026-06-29 14:19:17,460 - INFO - Asking model: grok-3 (method: naive)
+2026-06-29 14:19:17,460 - INFO - Claim: "There's no rationing in any of these bills."...
+2026-06-29 14:19:27,771 - INFO - API Response Status: 200
+2026-06-29 14:19:27,771 - INFO - Raw model response: {"label": "Half-True"}
+2026-06-29 14:19:27,771 - INFO - Extracted label: Half-True -> Normalized: Misleading
+2026-06-29 14:19:27,773 - INFO - Prediction: Misleading
+2026-06-29 14:19:27,773 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-06-29 14:19:28,274 - INFO - ================================================================================
+2026-06-29 14:19:28,274 - INFO - Processing claim #11 (ID: tracer_train_11)
+2026-06-29 14:19:28,274 - INFO - Claim: The health bill's plan for comparative effectiveness research "would be used by the government to ration care."...
+2026-06-29 14:19:28,274 - INFO - Date: 2009-08-18
+2026-06-29 14:19:28,274 - INFO - Asking model: grok-3 (method: naive)
+2026-06-29 14:19:28,274 - INFO - Claim: The health bill's plan for comparative effectiveness research "would be used by the government to ration care."...
+2026-06-29 14:19:36,341 - INFO - API Response Status: 200
+2026-06-29 14:19:36,341 - INFO - Raw model response: {"label": "Refuted"}
+2026-06-29 14:19:36,341 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2026-06-29 14:19:36,343 - INFO - Prediction: Refuted
+2026-06-29 14:19:36,343 - INFO - ✓ Correct prediction
+2026-06-29 14:19:36,845 - INFO - ================================================================================
+2026-06-29 14:19:36,845 - INFO - Processing claim #12 (ID: tracer_train_12)
+2026-06-29 14:19:36,845 - INFO - Claim: "I signed the largest single tax cut in the history of Florida, a $25 billion tax cut over five years, directed at property tax cuts."...
+2026-06-29 14:19:36,845 - INFO - Date: 2009-09-25
+2026-06-29 14:19:36,845 - INFO - Asking model: grok-3 (method: naive)
+2026-06-29 14:19:36,845 - INFO - Claim: "I signed the largest single tax cut in the history of Florida, a $25 billion tax cut over five years, directed at property tax cuts."...
+2026-06-29 14:19:45,659 - INFO - API Response Status: 200
+2026-06-29 14:19:45,660 - INFO - Raw model response: {"label": "Half-True"}
+2026-06-29 14:19:45,660 - INFO - Extracted label: Half-True -> Normalized: Misleading
+2026-06-29 14:19:45,662 - INFO - Prediction: Misleading
+2026-06-29 14:19:45,662 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-06-29 14:19:46,164 - INFO - ================================================================================
+2026-06-29 14:19:46,164 - INFO - Processing claim #13 (ID: tracer_train_13)
+2026-06-29 14:19:46,164 - INFO - Claim: "Fifty-seven" of  Rubio's 100 ideas "ultimately became law."...
+2026-06-29 14:19:46,164 - INFO - Date: 2009-11-04
+2026-06-29 14:19:46,164 - INFO - Asking model: grok-3 (method: naive)
+2026-06-29 14:19:46,164 - INFO - Claim: "Fifty-seven" of  Rubio's 100 ideas "ultimately became law."...
+2026-06-29 14:19:55,195 - INFO - API Response Status: 200
+2026-06-29 14:19:55,195 - INFO - Raw model response: {"label": "Half-True"}
+2026-06-29 14:19:55,195 - INFO - Extracted label: Half-True -> Normalized: Misleading
+2026-06-29 14:19:55,197 - INFO - Prediction: Misleading
+2026-06-29 14:19:55,197 - INFO - ✓ Correct prediction
+2026-06-29 14:19:55,698 - INFO - ================================================================================
+2026-06-29 14:19:55,698 - INFO - Processing claim #14 (ID: tracer_train_14)
+2026-06-29 14:19:55,698 - INFO - Claim: President Obama "doesn't ... want to admit we're at war."...
+2026-06-29 14:19:55,698 - INFO - Date: 2009-12-30
+2026-06-29 14:19:55,698 - INFO - Asking model: grok-3 (method: naive)
+2026-06-29 14:19:55,698 - INFO - Claim: President Obama "doesn't ... want to admit we're at war."...
+2026-06-29 14:20:04,086 - INFO - API Response Status: 200
+2026-06-29 14:20:04,086 - INFO - Raw model response: {"label": "Refuted"}
+2026-06-29 14:20:04,086 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2026-06-29 14:20:04,087 - INFO - Prediction: Refuted
+2026-06-29 14:20:04,088 - INFO - ✓ Correct prediction
+2026-06-29 14:20:04,589 - INFO - ================================================================================
+2026-06-29 14:20:04,589 - INFO - Processing claim #15 (ID: tracer_train_15)
+2026-06-29 14:20:04,589 - INFO - Claim: "Governor (Perry), you were a Democrat, having worked for Al Gore as his campaign manager..."...
+2026-06-29 14:20:04,589 - INFO - Date: 2010-01-14
+2026-06-29 14:20:04,589 - INFO - Asking model: grok-3 (method: naive)
+2026-06-29 14:20:04,589 - INFO - Claim: "Governor (Perry), you were a Democrat, having worked for Al Gore as his campaign manager..."...
+2026-06-29 14:20:12,482 - INFO - API Response Status: 200
+2026-06-29 14:20:12,482 - INFO - Raw model response: {"label": "Half-True"}
+2026-06-29 14:20:12,482 - INFO - Extracted label: Half-True -> Normalized: Misleading
+2026-06-29 14:20:12,484 - INFO - Prediction: Misleading
+2026-06-29 14:20:12,484 - INFO - ✓ Correct prediction
+2026-06-29 14:20:12,985 - INFO - ================================================================================
+2026-06-29 14:20:12,985 - INFO - Processing claim #16 (ID: tracer_train_16)
+2026-06-29 14:20:12,985 - INFO - Claim: "Amendment 4 will reduce Florida’s economic output by $34 billion annually."...
+2026-06-29 14:20:12,985 - INFO - Date: 2010-01-21
+2026-06-29 14:20:12,985 - INFO - Asking model: grok-3 (method: naive)
+2026-06-29 14:20:12,985 - INFO - Claim: "Amendment 4 will reduce Florida’s economic output by $34 billion annually."...
+2026-06-29 14:20:22,123 - INFO - API Response Status: 200
+2026-06-29 14:20:22,123 - INFO - Raw model response: {"label": "Refuted"}
+2026-06-29 14:20:22,123 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2026-06-29 14:20:22,125 - INFO - Prediction: Refuted
+2026-06-29 14:20:22,125 - INFO - ✓ Correct prediction
+2026-06-29 14:20:22,627 - INFO - ================================================================================
+2026-06-29 14:20:22,627 - INFO - Processing claim #17 (ID: tracer_train_17)
+2026-06-29 14:20:22,627 - INFO - Claim: "One of the most recent polls said 75 percent of the American people have said either don't do anything or start over (on health care reform)."...
+2026-06-29 14:20:22,627 - INFO - Date: 2010-02-20
+2026-06-29 14:20:22,627 - INFO - Asking model: grok-3 (method: naive)
+2026-06-29 14:20:22,627 - INFO - Claim: "One of the most recent polls said 75 percent of the American people have said either don't do anything or start over (on health care reform)."...
+2026-06-29 14:20:32,081 - INFO - API Response Status: 200
+2026-06-29 14:20:32,081 - INFO - Raw model response: {"label": "Half-True"}
+2026-06-29 14:20:32,081 - INFO - Extracted label: Half-True -> Normalized: Misleading
+2026-06-29 14:20:32,083 - INFO - Prediction: Misleading
+2026-06-29 14:20:32,083 - INFO - ✓ Correct prediction
+2026-06-29 14:20:32,584 - INFO - ================================================================================
+2026-06-29 14:20:32,584 - INFO - Processing claim #18 (ID: tracer_train_18)
+2026-06-29 14:20:32,584 - INFO - Claim: Several times, Obama "has apologized for what he deems to be American arrogance, dismissiveness, and derision; for dictating solutions, for acting uni...
+2026-06-29 14:20:32,584 - INFO - Date: 2010-03-02
+2026-06-29 14:20:32,584 - INFO - Asking model: grok-3 (method: naive)
+2026-06-29 14:20:32,584 - INFO - Claim: Several times, Obama "has apologized for what he deems to be American arrogance, dismissiveness, and derision; for dictating solutions, for acting uni...
+2026-06-29 14:20:44,176 - INFO - API Response Status: 200
+2026-06-29 14:20:44,177 - INFO - Raw model response: {"label": "Half-True"}
+2026-06-29 14:20:44,177 - INFO - Extracted label: Half-True -> Normalized: Misleading
+2026-06-29 14:20:44,178 - INFO - Prediction: Misleading
+2026-06-29 14:20:44,178 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-06-29 14:20:44,679 - INFO - ================================================================================
+2026-06-29 14:20:44,679 - INFO - Processing claim #19 (ID: tracer_train_19)
+2026-06-29 14:20:44,679 - INFO - Claim: Charges on the Republican Party of Florida credit card were made with "my money."...
+2026-06-29 14:20:44,679 - INFO - Date: 2010-03-04
+2026-06-29 14:20:44,679 - INFO - Asking model: grok-3 (method: naive)
+2026-06-29 14:20:44,679 - INFO - Claim: Charges on the Republican Party of Florida credit card were made with "my money."...
+2026-06-29 14:20:45,035 - INFO - API Response Status: 429
+2026-06-29 14:20:45,035 - INFO - Rate limited. Retry 1/5 after 1.5s
+2026-06-29 14:20:47,052 - INFO - API Response Status: 429
+2026-06-29 14:20:47,052 - INFO - Rate limited. Retry 2/5 after 3.0s
+2026-06-29 14:20:50,429 - INFO - API Response Status: 429
+2026-06-29 14:20:50,429 - INFO - Rate limited. Retry 3/5 after 6.0s
+2026-06-29 14:20:56,783 - INFO - API Response Status: 429
+2026-06-29 14:20:56,783 - INFO - Rate limited. Retry 4/5 after 12.0s
+2026-06-29 14:21:09,136 - INFO - API Response Status: 429
+2026-06-29 14:21:09,136 - INFO - Rate limited. Retry 5/5 after 24.0s
+2026-06-29 14:21:33,723 - INFO - API Response Status: 429
+2026-06-29 14:21:33,723 - ERROR - Max retries reached for rate limiting
+2026-06-29 14:21:33,724 - WARNING - Failed to get valid prediction
+2026-06-29 14:21:34,227 - INFO - ================================================================================
+2026-06-29 14:21:34,227 - INFO - Processing complete: 19 predictions (11 correct, 8 incorrect), 1 failed
+2026-06-29 14:21:34,227 - INFO - Metrics: Accuracy=0.5789, Macro-F1=0.4643
+2026-06-29 14:21:34,234 - INFO - Predictions saved to results\grok-3\tracer_bias_all\naive\seen\seen_predictions.csv
+2026-06-29 14:21:34,236 - INFO - Predictions JSON saved to results\grok-3\tracer_bias_all\naive\seen\seen_predictions.json
+2026-06-29 14:21:34,237 - INFO - Metrics saved to results\grok-3\tracer_bias_all\naive\seen\seen_metrics.json

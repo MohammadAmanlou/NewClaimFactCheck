@@ -1,0 +1,228 @@
+2026-06-29 13:37:18,682 - INFO - Processing 20 samples (limited)
+2026-06-29 13:37:18,682 - INFO - Processing 20 claims...
+2026-06-29 13:37:18,683 - INFO - ================================================================================
+2026-06-29 13:37:18,683 - INFO - Processing claim #0 (ID: crp_0)
+2026-06-29 13:37:18,683 - INFO - Claim: 'Cow farts [methane emissions from cattle] are blamed for climate change, but there are bigger issues like people burning millions of tires in the des...
+2026-06-29 13:37:18,683 - INFO - Date: 2024-11-23
+2026-06-29 13:37:18,683 - INFO - Asking model: grok-3 (method: strong_baseline_short)
+2026-06-29 13:37:18,683 - INFO - Claim: 'Cow farts [methane emissions from cattle] are blamed for climate change, but there are bigger issues like people burning millions of tires in the des...
+2026-06-29 13:37:25,434 - INFO - API Response Status: 200
+2026-06-29 13:37:25,434 - INFO - Raw model response: {"label": "Misleading", "brief_reason": "Cattle methane is accurately noted as a blamed factor, but the claim distorts by falsely implying tire burning in Kuwait is a bigger climate issue."}
+2026-06-29 13:37:25,435 - INFO - Extracted label: Misleading -> Normalized: Misleading
+2026-06-29 13:37:25,436 - INFO - Prediction: Misleading
+2026-06-29 13:37:25,437 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-06-29 13:37:25,739 - INFO - ================================================================================
+2026-06-29 13:37:25,739 - INFO - Processing claim #1 (ID: crp_1)
+2026-06-29 13:37:25,739 - INFO - Claim: 'New study shows that climate change is greatly overestimated because oceans are cooling Earth far more than we thought.'...
+2026-06-29 13:37:25,739 - INFO - Date: 2024-11-23
+2026-06-29 13:37:25,739 - INFO - Asking model: grok-3 (method: strong_baseline_short)
+2026-06-29 13:37:25,739 - INFO - Claim: 'New study shows that climate change is greatly overestimated because oceans are cooling Earth far more than we thought.'...
+2026-06-29 13:37:30,990 - INFO - API Response Status: 200
+2026-06-29 13:37:30,991 - INFO - Raw model response: {"label": "Refuted", "brief_reason": "No credible study shows oceans cooling Earth enough to greatly overestimate climate change; oceans absorb heat, consistent with observed warming."}
+2026-06-29 13:37:30,991 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2026-06-29 13:37:30,993 - INFO - Prediction: Refuted
+2026-06-29 13:37:30,993 - INFO - ✓ Correct prediction
+2026-06-29 13:37:31,295 - INFO - ================================================================================
+2026-06-29 13:37:31,295 - INFO - Processing claim #2 (ID: crp_2)
+2026-06-29 13:37:31,295 - INFO - Claim: 'Climate change has only had 'positive effects' on global food production.'...
+2026-06-29 13:37:31,295 - INFO - Date: 2024-10-20
+2026-06-29 13:37:31,295 - INFO - Asking model: grok-3 (method: strong_baseline_short)
+2026-06-29 13:37:31,295 - INFO - Claim: 'Climate change has only had 'positive effects' on global food production.'...
+2026-06-29 13:37:36,081 - INFO - API Response Status: 200
+2026-06-29 13:37:36,082 - INFO - Raw model response: {"label": "Refuted", "brief_reason": "The claim's absolute assertion of 'only positive effects' is false, as extensive evidence shows net negative impacts from climate change on global food production."}
+2026-06-29 13:37:36,082 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2026-06-29 13:37:36,084 - INFO - Prediction: Refuted
+2026-06-29 13:37:36,084 - INFO - ✓ Correct prediction
+2026-06-29 13:37:36,385 - INFO - ================================================================================
+2026-06-29 13:37:36,385 - INFO - Processing claim #3 (ID: crp_3)
+2026-06-29 13:37:36,385 - INFO - Claim: 'Cows' burps are a non-existent problem for climate change'...
+2026-06-29 13:37:36,385 - INFO - Date: 2024-11-27
+2026-06-29 13:37:36,385 - INFO - Asking model: grok-3 (method: strong_baseline_short)
+2026-06-29 13:37:36,385 - INFO - Claim: 'Cows' burps are a non-existent problem for climate change'...
+2026-06-29 13:37:39,535 - INFO - API Response Status: 200
+2026-06-29 13:37:39,535 - INFO - Raw model response: {"label": "Refuted", "brief_reason": "Cows produce substantial methane via enteric fermentation (burps), a major verified contributor to agricultural GHG emissions and climate change."}
+2026-06-29 13:37:39,535 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2026-06-29 13:37:39,538 - INFO - Prediction: Refuted
+2026-06-29 13:37:39,538 - INFO - ✓ Correct prediction
+2026-06-29 13:37:39,840 - INFO - ================================================================================
+2026-06-29 13:37:39,840 - INFO - Processing claim #4 (ID: crp_4)
+2026-06-29 13:37:39,840 - INFO - Claim: 'The UK government is to fund “Bill Gates’ geoengineering experiments” to explore combatting global warming by cooling the earth.'...
+2026-06-29 13:37:39,840 - INFO - Date: 2024-11-24
+2026-06-29 13:37:39,840 - INFO - Asking model: grok-3 (method: strong_baseline_short)
+2026-06-29 13:37:39,840 - INFO - Claim: 'The UK government is to fund “Bill Gates’ geoengineering experiments” to explore combatting global warming by cooling the earth.'...
+2026-06-29 13:37:46,129 - INFO - API Response Status: 200
+2026-06-29 13:37:46,129 - INFO - Raw model response: {"label": "Misleading", "brief_reason": "UK has funded some geoengineering research, but the claim falsely attributes this to funding 'Bill Gates’ experiments'."}
+2026-06-29 13:37:46,129 - INFO - Extracted label: Misleading -> Normalized: Misleading
+2026-06-29 13:37:46,131 - INFO - Prediction: Misleading
+2026-06-29 13:37:46,131 - INFO - ✓ Correct prediction
+2026-06-29 13:37:46,432 - INFO - ================================================================================
+2026-06-29 13:37:46,433 - INFO - Processing claim #5 (ID: crp_5)
+2026-06-29 13:37:46,433 - INFO - Claim: 'First-ever snowfall on record in the Al-Jouf (or Al-Jawf) desert in Saudi Arabia occurred in early November 2024.'...
+2026-06-29 13:37:46,433 - INFO - Date: 2024-11-03
+2026-06-29 13:37:46,433 - INFO - Asking model: grok-3 (method: strong_baseline_short)
+2026-06-29 13:37:46,433 - INFO - Claim: 'First-ever snowfall on record in the Al-Jouf (or Al-Jawf) desert in Saudi Arabia occurred in early November 2024.'...
+2026-06-29 13:37:54,017 - INFO - API Response Status: 200
+2026-06-29 13:37:54,017 - INFO - Raw model response: {"label": "Refuted", "brief_reason": "Al-Jouf has recorded snowfall multiple times in prior winters (e.g., 2016, 2019–2023); the 'first-ever' assertion is therefore false."}
+2026-06-29 13:37:54,017 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2026-06-29 13:37:54,019 - INFO - Prediction: Refuted
+2026-06-29 13:37:54,019 - INFO - ✓ Correct prediction
+2026-06-29 13:37:54,320 - INFO - ================================================================================
+2026-06-29 13:37:54,320 - INFO - Processing claim #6 (ID: crp_6)
+2026-06-29 13:37:54,320 - INFO - Claim: 'A staggering $41 billion has gone missing from the globalist World Bank’s Climate Change fund under the watch of Ajay Banga.'...
+2026-06-29 13:37:54,320 - INFO - Date: 2024-10-28
+2026-06-29 13:37:54,320 - INFO - Asking model: grok-3 (method: strong_baseline_short)
+2026-06-29 13:37:54,320 - INFO - Claim: 'A staggering $41 billion has gone missing from the globalist World Bank’s Climate Change fund under the watch of Ajay Banga.'...
+2026-06-29 13:37:59,749 - INFO - API Response Status: 200
+2026-06-29 13:37:59,749 - INFO - Raw model response: {"label": "Refuted", "brief_reason": "No credible evidence supports $41B missing from any World Bank climate fund under Banga (president since June 2023); the claim appears fabricated or grossly distorted."}
+2026-06-29 13:37:59,749 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2026-06-29 13:37:59,750 - INFO - Prediction: Refuted
+2026-06-29 13:37:59,751 - INFO - ✓ Correct prediction
+2026-06-29 13:38:00,051 - INFO - ================================================================================
+2026-06-29 13:38:00,052 - INFO - Processing claim #7 (ID: crp_7)
+2026-06-29 13:38:00,052 - INFO - Claim: 'Impact of human-induced CO2 is insignificant when compared to natural climate variations.'...
+2026-06-29 13:38:00,052 - INFO - Date: 2024-11-10
+2026-06-29 13:38:00,052 - INFO - Asking model: grok-3 (method: strong_baseline_short)
+2026-06-29 13:38:00,052 - INFO - Claim: 'Impact of human-induced CO2 is insignificant when compared to natural climate variations.'...
+2026-06-29 13:38:03,365 - INFO - API Response Status: 200
+2026-06-29 13:38:03,365 - INFO - Raw model response: {"label": "Refuted", "brief_reason": "Scientific consensus shows human CO2 emissions are the dominant driver of recent warming, exceeding natural variability."}
+2026-06-29 13:38:03,365 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2026-06-29 13:38:03,367 - INFO - Prediction: Refuted
+2026-06-29 13:38:03,367 - INFO - ✓ Correct prediction
+2026-06-29 13:38:03,668 - INFO - ================================================================================
+2026-06-29 13:38:03,668 - INFO - Processing claim #8 (ID: crp_8)
+2026-06-29 13:38:03,668 - INFO - Claim: 'Rising CO2 and temperatures are behind the global boost in grain production over the last 60 years.'...
+2026-06-29 13:38:03,668 - INFO - Date: 2024-10-28
+2026-06-29 13:38:03,668 - INFO - Asking model: grok-3 (method: strong_baseline_short)
+2026-06-29 13:38:03,668 - INFO - Claim: 'Rising CO2 and temperatures are behind the global boost in grain production over the last 60 years.'...
+2026-06-29 13:38:09,592 - INFO - API Response Status: 200
+2026-06-29 13:38:09,592 - INFO - Raw model response: {"label": "Misleading", "brief_reason": "Main drivers of grain yield gains since the 1960s are Green Revolution technologies, not CO2 or temperature rises, which play only a minor or mixed role."}
+2026-06-29 13:38:09,592 - INFO - Extracted label: Misleading -> Normalized: Misleading
+2026-06-29 13:38:09,594 - INFO - Prediction: Misleading
+2026-06-29 13:38:09,594 - INFO - ✓ Correct prediction
+2026-06-29 13:38:09,895 - INFO - ================================================================================
+2026-06-29 13:38:09,895 - INFO - Processing claim #9 (ID: crp_9)
+2026-06-29 13:38:09,895 - INFO - Claim: 'A study into global warming proves it is a hoax.'...
+2026-06-29 13:38:09,895 - INFO - Date: 2024-10-15
+2026-06-29 13:38:09,895 - INFO - Asking model: grok-3 (method: strong_baseline_short)
+2026-06-29 13:38:09,895 - INFO - Claim: 'A study into global warming proves it is a hoax.'...
+2026-06-29 13:38:13,673 - INFO - API Response Status: 200
+2026-06-29 13:38:13,673 - INFO - Raw model response: {"label": "Refuted", "brief_reason": "No credible study proves global warming is a hoax, as the claim directly contradicts established scientific consensus."}
+2026-06-29 13:38:13,673 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2026-06-29 13:38:13,675 - INFO - Prediction: Refuted
+2026-06-29 13:38:13,675 - INFO - ✓ Correct prediction
+2026-06-29 13:38:13,977 - INFO - ================================================================================
+2026-06-29 13:38:13,978 - INFO - Processing claim #10 (ID: crp_10)
+2026-06-29 13:38:13,978 - INFO - Claim: 'HAARP is responsible for recent floods in Spain, New Mexico, and elsewhere.'...
+2026-06-29 13:38:13,978 - INFO - Date: 2024-10-30
+2026-06-29 13:38:13,978 - INFO - Asking model: grok-3 (method: strong_baseline_short)
+2026-06-29 13:38:13,978 - INFO - Claim: 'HAARP is responsible for recent floods in Spain, New Mexico, and elsewhere.'...
+2026-06-29 13:38:17,232 - INFO - API Response Status: 200
+2026-06-29 13:38:17,232 - INFO - Raw model response: {"label": "Refuted", "brief_reason": "HAARP is an ionospheric research facility with no capability to cause weather events like floods, making the claim a baseless conspiracy theory."}
+2026-06-29 13:38:17,232 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2026-06-29 13:38:17,234 - INFO - Prediction: Refuted
+2026-06-29 13:38:17,234 - INFO - ✓ Correct prediction
+2026-06-29 13:38:17,535 - INFO - ================================================================================
+2026-06-29 13:38:17,535 - INFO - Processing claim #11 (ID: crp_11)
+2026-06-29 13:38:17,535 - INFO - Claim: 'The World Economic Forum (WEF) demanded a ban on homegrown plants to check global warming.'...
+2026-06-29 13:38:17,535 - INFO - Date: 2024-10-09
+2026-06-29 13:38:17,535 - INFO - Asking model: grok-3 (method: strong_baseline_short)
+2026-06-29 13:38:17,535 - INFO - Claim: 'The World Economic Forum (WEF) demanded a ban on homegrown plants to check global warming.'...
+2026-06-29 13:38:23,109 - INFO - API Response Status: 200
+2026-06-29 13:38:23,109 - INFO - Raw model response: {"label": "Refuted", "brief_reason": "No WEF statement, report, or policy has ever demanded or proposed banning homegrown plants."}
+2026-06-29 13:38:23,109 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2026-06-29 13:38:23,111 - INFO - Prediction: Refuted
+2026-06-29 13:38:23,111 - INFO - ✓ Correct prediction
+2026-06-29 13:38:23,412 - INFO - ================================================================================
+2026-06-29 13:38:23,412 - INFO - Processing claim #12 (ID: crp_12)
+2026-06-29 13:38:23,412 - INFO - Claim: 'There were no hurricanes this season even despite forecasts for a high activity; it has been a light hurricane season.'...
+2026-06-29 13:38:23,412 - INFO - Date: 2024-09-09
+2026-06-29 13:38:23,412 - INFO - Asking model: grok-3 (method: strong_baseline_short)
+2026-06-29 13:38:23,412 - INFO - Claim: 'There were no hurricanes this season even despite forecasts for a high activity; it has been a light hurricane season.'...
+2026-06-29 13:38:27,551 - INFO - API Response Status: 200
+2026-06-29 13:38:27,552 - INFO - Raw model response: {"label": "Refuted", "brief_reason": "Multiple hurricanes (Beryl, Debby, Ernesto) had already formed by Sept 9 2024, contradicting both 'no hurricanes' and 'light season' claims."}
+2026-06-29 13:38:27,552 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2026-06-29 13:38:27,553 - INFO - Prediction: Refuted
+2026-06-29 13:38:27,553 - INFO - ✗ Incorrect (True: Misleading, Pred: Refuted)
+2026-06-29 13:38:27,854 - INFO - ================================================================================
+2026-06-29 13:38:27,854 - INFO - Processing claim #13 (ID: crp_13)
+2026-06-29 13:38:27,854 - INFO - Claim: 'A Centers for Disease Control and Prevention study finds children who received the Pfizer covid vaccine are more likely to get covid infection than u...
+2026-06-29 13:38:27,854 - INFO - Date: 2025-01-03
+2026-06-29 13:38:27,854 - INFO - Asking model: grok-3 (method: strong_baseline_short)
+2026-06-29 13:38:27,854 - INFO - Claim: 'A Centers for Disease Control and Prevention study finds children who received the Pfizer covid vaccine are more likely to get covid infection than u...
+2026-06-29 13:38:36,103 - INFO - API Response Status: 200
+2026-06-29 13:38:36,103 - INFO - Raw model response: {"label": "Refuted", "brief_reason": "No CDC study concludes vaccinated children are more likely to get COVID; any raw rate differences reflect confounding, not causation."}
+2026-06-29 13:38:36,103 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2026-06-29 13:38:36,104 - INFO - Prediction: Refuted
+2026-06-29 13:38:36,104 - INFO - ✓ Correct prediction
+2026-06-29 13:38:36,405 - INFO - ================================================================================
+2026-06-29 13:38:36,406 - INFO - Processing claim #14 (ID: crp_14)
+2026-06-29 13:38:36,406 - INFO - Claim: 'Japan named COVID-19 mRNA vaccine the 'deadliest drug in history''...
+2026-06-29 13:38:36,406 - INFO - Date: 2024-11-12
+2026-06-29 13:38:36,406 - INFO - Asking model: grok-3 (method: strong_baseline_short)
+2026-06-29 13:38:36,406 - INFO - Claim: 'Japan named COVID-19 mRNA vaccine the 'deadliest drug in history''...
+2026-06-29 13:38:39,986 - INFO - API Response Status: 200
+2026-06-29 13:38:39,986 - INFO - Raw model response: {"label": "Refuted", "brief_reason": "No Japanese government or official body has named the COVID-19 mRNA vaccine the 'deadliest drug in history'; the claim is fabricated."}
+2026-06-29 13:38:39,987 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2026-06-29 13:38:39,988 - INFO - Prediction: Refuted
+2026-06-29 13:38:39,988 - INFO - ✓ Correct prediction
+2026-06-29 13:38:40,289 - INFO - ================================================================================
+2026-06-29 13:38:40,289 - INFO - Processing claim #15 (ID: crp_15)
+2026-06-29 13:38:40,289 - INFO - Claim: 'The CEO of BioNTech, which developed a COVID-19 vaccine with Pfizer, did not get vaccinated.'...
+2026-06-29 13:38:40,289 - INFO - Date: 2024-12-19
+2026-06-29 13:38:40,290 - INFO - Asking model: grok-3 (method: strong_baseline_short)
+2026-06-29 13:38:40,290 - INFO - Claim: 'The CEO of BioNTech, which developed a COVID-19 vaccine with Pfizer, did not get vaccinated.'...
+2026-06-29 13:38:44,452 - INFO - API Response Status: 200
+2026-06-29 13:38:44,453 - INFO - Raw model response: {"label": "Refuted", "brief_reason": "Ugur Sahin publicly confirmed he and his wife received the BioNTech/Pfizer vaccine in 2021."}
+2026-06-29 13:38:44,453 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2026-06-29 13:38:44,454 - INFO - Prediction: Refuted
+2026-06-29 13:38:44,454 - INFO - ✓ Correct prediction
+2026-06-29 13:38:44,755 - INFO - ================================================================================
+2026-06-29 13:38:44,755 - INFO - Processing claim #16 (ID: crp_16)
+2026-06-29 13:38:44,755 - INFO - Claim: 'Australian officials have warned that vaccine-linked turbo cancers will kill billions.'...
+2026-06-29 13:38:44,755 - INFO - Date: 2024-12-13
+2026-06-29 13:38:44,755 - INFO - Asking model: grok-3 (method: strong_baseline_short)
+2026-06-29 13:38:44,755 - INFO - Claim: 'Australian officials have warned that vaccine-linked turbo cancers will kill billions.'...
+2026-06-29 13:38:49,892 - INFO - API Response Status: 200
+2026-06-29 13:38:49,892 - INFO - Raw model response: {"label": "Refuted", "brief_reason": "No Australian officials have issued any such warning; 'turbo cancers' from vaccines is not a recognized medical claim and the 'billions' figure is fabricated."}
+2026-06-29 13:38:49,892 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2026-06-29 13:38:49,894 - INFO - Prediction: Refuted
+2026-06-29 13:38:49,894 - INFO - ✓ Correct prediction
+2026-06-29 13:38:50,196 - INFO - ================================================================================
+2026-06-29 13:38:50,196 - INFO - Processing claim #17 (ID: crp_17)
+2026-06-29 13:38:50,196 - INFO - Claim: “Ivermectin is a treatment after Covid and after vaccination, it is an effective medicine in all phases of Covid 19.”...
+2026-06-29 13:38:50,196 - INFO - Date: 2024-12-10
+2026-06-29 13:38:50,196 - INFO - Asking model: grok-3 (method: strong_baseline_short)
+2026-06-29 13:38:50,196 - INFO - Claim: “Ivermectin is a treatment after Covid and after vaccination, it is an effective medicine in all phases of Covid 19.”...
+2026-06-29 13:38:53,965 - INFO - API Response Status: 200
+2026-06-29 13:38:53,965 - INFO - Raw model response: {"label": "Refuted", "brief_reason": "Scientific consensus from RCTs and health authorities shows ivermectin lacks proven efficacy against COVID-19 in any phase."}
+2026-06-29 13:38:53,966 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2026-06-29 13:38:53,967 - INFO - Prediction: Refuted
+2026-06-29 13:38:53,967 - INFO - ✓ Correct prediction
+2026-06-29 13:38:54,268 - INFO - ================================================================================
+2026-06-29 13:38:54,268 - INFO - Processing claim #18 (ID: crp_18)
+2026-06-29 13:38:54,268 - INFO - Claim: 'RFK Jr's only statement on vaccines is that they need to be studied.'...
+2026-06-29 13:38:54,268 - INFO - Date: 2024-12-10
+2026-06-29 13:38:54,268 - INFO - Asking model: grok-3 (method: strong_baseline_short)
+2026-06-29 13:38:54,268 - INFO - Claim: 'RFK Jr's only statement on vaccines is that they need to be studied.'...
+2026-06-29 13:38:59,205 - INFO - API Response Status: 200
+2026-06-29 13:38:59,206 - INFO - Raw model response: {"label": "Refuted", "brief_reason": "RFK Jr. has repeatedly made many specific claims about vaccines (e.g., causing autism, chronic illness) far beyond merely calling for more study."}
+2026-06-29 13:38:59,206 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2026-06-29 13:38:59,207 - INFO - Prediction: Refuted
+2026-06-29 13:38:59,207 - INFO - ✓ Correct prediction
+2026-06-29 13:38:59,509 - INFO - ================================================================================
+2026-06-29 13:38:59,509 - INFO - Processing claim #19 (ID: crp_19)
+2026-06-29 13:38:59,509 - INFO - Claim: 'Vaccine researcher warned ‘multiple viruses will be unleashed’ in January'...
+2026-06-29 13:38:59,509 - INFO - Date: 2024-12-04
+2026-06-29 13:38:59,509 - INFO - Asking model: grok-3 (method: strong_baseline_short)
+2026-06-29 13:38:59,509 - INFO - Claim: 'Vaccine researcher warned ‘multiple viruses will be unleashed’ in January'...
+2026-06-29 13:39:07,238 - INFO - API Response Status: 200
+2026-06-29 13:39:07,238 - INFO - Raw model response: {"label": "Misleading", "brief_reason": "Vague headline phrasing distorts an unspecified researcher's comments on viral risks into an exaggerated 'unleashed' warning."}
+2026-06-29 13:39:07,238 - INFO - Extracted label: Misleading -> Normalized: Misleading
+2026-06-29 13:39:07,239 - INFO - Prediction: Misleading
+2026-06-29 13:39:07,239 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-06-29 13:39:07,542 - INFO - ================================================================================
+2026-06-29 13:39:07,542 - INFO - Processing complete: 20 predictions (17 correct, 3 incorrect), 0 failed
+2026-06-29 13:39:07,543 - INFO - Metrics: Accuracy=0.8500, Macro-F1=0.7403
+2026-06-29 13:39:07,547 - INFO - Predictions saved to results\grok-3\crp_bias_all\strong_baseline_short\seen\seen_predictions.csv
+2026-06-29 13:39:07,548 - INFO - Predictions JSON saved to results\grok-3\crp_bias_all\strong_baseline_short\seen\seen_predictions.json
+2026-06-29 13:39:07,548 - INFO - Metrics saved to results\grok-3\crp_bias_all\strong_baseline_short\seen\seen_metrics.json

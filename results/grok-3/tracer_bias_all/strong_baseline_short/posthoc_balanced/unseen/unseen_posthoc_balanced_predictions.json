@@ -1,0 +1,167 @@
+[
+    {
+        "claim_id": "tracer_test_14985",
+        "claim": "President Joe Biden’s immigration policy was “a giant voter importation scam.”",
+        "claim_date": "2025-02-20",
+        "speaker": null,
+        "source": "tracer",
+        "label": "Refuted",
+        "detected_biases": "",
+        "prediction": null,
+        "prediction_error": "Failed to get valid prediction"
+    },
+    {
+        "claim_id": "tracer_test_14979",
+        "claim": "“I am not making this up: Republicans have introduced legislation … to increase your bank fees.\"",
+        "claim_date": "2025-02-18",
+        "speaker": null,
+        "source": "tracer",
+        "label": "Refuted",
+        "detected_biases": "[{\"bias\": \"Availability heuristic\", \"confidence\": 0.3839}]",
+        "prediction": null,
+        "prediction_error": "Failed to get valid prediction"
+    },
+    {
+        "claim_id": "tracer_test_14983",
+        "claim": "“The single biggest driver of our national debt since 2001 has been Republican tax cuts.”",
+        "claim_date": "2025-02-20",
+        "speaker": null,
+        "source": "tracer",
+        "label": "Half-True",
+        "detected_biases": "",
+        "prediction": null,
+        "prediction_error": "Failed to get valid prediction"
+    },
+    {
+        "claim_id": "tracer_test_14991",
+        "claim": "The Trump administration identified $1.9 billion in federal dollars going to a “decarbonization of homes” group Stacey Abrams “headed up.”",
+        "claim_date": "2025-03-04",
+        "speaker": null,
+        "source": "tracer",
+        "label": "Refuted",
+        "detected_biases": "",
+        "prediction": null,
+        "prediction_error": "Failed to get valid prediction"
+    },
+    {
+        "claim_id": "tracer_test_14984",
+        "claim": "“You either have XX or XY chromosomes. Those are the options.”",
+        "claim_date": "2025-02-20",
+        "speaker": null,
+        "source": "tracer",
+        "label": "Refuted",
+        "detected_biases": "",
+        "prediction": null,
+        "prediction_error": "Failed to get valid prediction"
+    },
+    {
+        "claim_id": "tracer_test_14986",
+        "claim": "“71 out of 72 Wisconsin counties filed lawsuits against Purdue Pharma. Brad Schimel refused to join them.”",
+        "claim_date": "2025-02-24",
+        "speaker": null,
+        "source": "tracer",
+        "label": "Half-True",
+        "detected_biases": "[{\"bias\": \"Just-world hypothesis\", \"confidence\": 0.3376}]",
+        "prediction": null,
+        "prediction_error": "Failed to get valid prediction"
+    },
+    {
+        "claim_id": "tracer_test_14992",
+        "claim": "During President Joe Biden’s four years in office, “31% of U.S. job growth” came from public-sector jobs.",
+        "claim_date": "2025-03-07",
+        "speaker": null,
+        "source": "tracer",
+        "label": "Refuted",
+        "detected_biases": "[{\"bias\": \"hindsight bias\", \"confidence\": 0.4194}, {\"bias\": \"Availability heuristic\", \"confidence\": 0.3142}]",
+        "prediction": null,
+        "prediction_error": "Failed to get valid prediction"
+    },
+    {
+        "claim_id": "tracer_test_14988",
+        "claim": "“We've never audited government for 100 years.”",
+        "claim_date": "2025-02-24",
+        "speaker": null,
+        "source": "tracer",
+        "label": "Refuted",
+        "detected_biases": "",
+        "prediction": null,
+        "prediction_error": "Failed to get valid prediction"
+    },
+    {
+        "claim_id": "tracer_test_14989",
+        "claim": "\"All armed services are having among the best recruiting results ever” because of Trump policies, and “it was just a few months ago where the results were exactly the opposite.”",
+        "claim_date": "2025-03-04",
+        "speaker": null,
+        "source": "tracer",
+        "label": "Refuted",
+        "detected_biases": "",
+        "prediction": null,
+        "prediction_error": "Failed to get valid prediction"
+    },
+    {
+        "claim_id": "tracer_test_14977",
+        "claim": "The Chicago Cubs owner is bankrolling Brad Schimel.",
+        "claim_date": "2025-02-18",
+        "speaker": null,
+        "source": "tracer",
+        "label": "Half-True",
+        "detected_biases": "",
+        "prediction": null,
+        "prediction_error": "Failed to get valid prediction"
+    },
+    {
+        "claim_id": "tracer_test_14982",
+        "claim": "“Stacey Abrams stole $2 BILLION from taxpayers.”",
+        "claim_date": "2025-02-19",
+        "speaker": null,
+        "source": "tracer",
+        "label": "Refuted",
+        "detected_biases": "",
+        "prediction": null,
+        "prediction_error": "Failed to get valid prediction"
+    },
+    {
+        "claim_id": "tracer_test_14987",
+        "claim": "Zero votes for 2024 Democratic presidential nominee Kamala Harris in Rockland County, New York, precinct proves Elon Musk hacked 2024 presidential election.",
+        "claim_date": "2025-02-24",
+        "speaker": null,
+        "source": "tracer",
+        "label": "Refuted",
+        "detected_biases": "",
+        "prediction": null,
+        "prediction_error": "Failed to get valid prediction"
+    },
+    {
+        "claim_id": "tracer_test_14980",
+        "claim": "Volodymyr Zelenskyy “started” the war in Ukraine with Russia.",
+        "claim_date": "2025-02-18",
+        "speaker": null,
+        "source": "tracer",
+        "label": "Refuted",
+        "detected_biases": "",
+        "prediction": null,
+        "prediction_error": "Failed to get valid prediction"
+    },
+    {
+        "claim_id": "tracer_test_14981",
+        "claim": "“90% of the (school) districts in Wisconsin already have a policy” banning cellphones during class time.",
+        "claim_date": "2025-02-19",
+        "speaker": null,
+        "source": "tracer",
+        "label": "Supported",
+        "detected_biases": "",
+        "prediction": null,
+        "prediction_error": "Failed to get valid prediction"
+    },
+    {
+        "claim_id": "tracer_test_14978",
+        "claim": "Former President Joe Biden “fired” 14,000 Keystone XL pipeline workers “​​on day one” of his administration.",
+        "claim_date": "2025-02-18",
+        "speaker": null,
+        "source": "tracer",
+        "label": "Refuted",
+        "detected_biases": "",
+        "prediction": null,
+        "prediction_error": "Failed to get valid prediction"
+    }
+]

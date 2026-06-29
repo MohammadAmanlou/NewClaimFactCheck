@@ -1,0 +1,31 @@
+2026-06-29 13:46:35,240 - INFO - Prompt method: naive
+2026-06-29 13:48:43,895 - INFO - Metrics: Accuracy=0.8000, Macro-F1=0.7916
+2026-06-29 13:51:19,790 - INFO - Metrics: Accuracy=0.7000, Macro-F1=0.7000
+2026-06-29 13:51:19,790 - INFO - ================================================================================
+2026-06-29 13:51:19,790 - INFO - Comparing seen vs unseen performance...
+2026-06-29 13:51:19,790 - INFO - Metrics: Accuracy=0.8000, Macro-F1=0.7916
+2026-06-29 13:51:19,791 - INFO - Metrics: Accuracy=0.7000, Macro-F1=0.7000
+2026-06-29 13:51:19,794 - INFO - Seen accuracy: 0.8
+2026-06-29 13:51:19,795 - INFO - Unseen accuracy: 0.7
+2026-06-29 13:51:19,795 - INFO - Difference: -0.1000
+2026-06-29 13:51:19,795 - INFO - T-test p-value: 0.4780 (not significant)
+2026-06-29 13:51:19,795 - INFO - Chi-square p-value: 0.7150 (not significant)
+2026-06-29 13:51:19,796 - INFO - Summary report saved to results\grok-3\matteroffact_bias_all\naive\summary.json
+2026-06-29 13:51:19,814 - INFO - Metrics: Accuracy=0.8000, Macro-F1=0.7916
+2026-06-29 13:51:19,815 - INFO - Metrics: Accuracy=0.7000, Macro-F1=0.7000
+2026-06-29 13:51:19,815 - INFO - ================================================================================
+2026-06-29 13:51:19,815 - INFO - Comparing seen vs unseen performance...
+2026-06-29 13:51:19,816 - INFO - Metrics: Accuracy=0.8000, Macro-F1=0.7916
+2026-06-29 13:51:19,816 - INFO - Metrics: Accuracy=0.7000, Macro-F1=0.7000
+2026-06-29 13:51:19,818 - INFO - Seen accuracy: 0.8
+2026-06-29 13:51:19,818 - INFO - Unseen accuracy: 0.7
+2026-06-29 13:51:19,818 - INFO - Difference: -0.1000
+2026-06-29 13:51:19,818 - INFO - T-test p-value: 0.4780 (not significant)
+2026-06-29 13:51:19,819 - INFO - Chi-square p-value: 0.7150 (not significant)
+2026-06-29 13:51:19,822 - INFO - Predictions saved to results\grok-3\matteroffact_bias_all\naive\posthoc_balanced\seen\seen_posthoc_balanced_predictions.csv
+2026-06-29 13:51:19,823 - INFO - Predictions JSON saved to results\grok-3\matteroffact_bias_all\naive\posthoc_balanced\seen\seen_posthoc_balanced_predictions.json
+2026-06-29 13:51:19,824 - INFO - Metrics saved to results\grok-3\matteroffact_bias_all\naive\posthoc_balanced\seen\seen_posthoc_balanced_metrics.json
+2026-06-29 13:51:19,827 - INFO - Predictions saved to results\grok-3\matteroffact_bias_all\naive\posthoc_balanced\unseen\unseen_posthoc_balanced_predictions.csv
+2026-06-29 13:51:19,830 - INFO - Predictions JSON saved to results\grok-3\matteroffact_bias_all\naive\posthoc_balanced\unseen\unseen_posthoc_balanced_predictions.json
+2026-06-29 13:51:19,833 - INFO - Metrics saved to results\grok-3\matteroffact_bias_all\naive\posthoc_balanced\unseen\unseen_posthoc_balanced_metrics.json
+2026-06-29 13:51:19,836 - INFO - Summary report saved to results\grok-3\matteroffact_bias_all\naive\posthoc_balanced\summary.json

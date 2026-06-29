@@ -1,0 +1,228 @@
+2026-06-29 13:35:25,005 - INFO - Processing 20 samples (limited)
+2026-06-29 13:35:25,005 - INFO - Processing 20 claims...
+2026-06-29 13:35:25,008 - INFO - ================================================================================
+2026-06-29 13:35:25,008 - INFO - Processing claim #0 (ID: crp_0)
+2026-06-29 13:35:25,008 - INFO - Claim: 'Cow farts [methane emissions from cattle] are blamed for climate change, but there are bigger issues like people burning millions of tires in the des...
+2026-06-29 13:35:25,008 - INFO - Date: 2024-11-23
+2026-06-29 13:35:25,008 - INFO - Asking model: grok-3 (method: naive)
+2026-06-29 13:35:25,008 - INFO - Claim: 'Cow farts [methane emissions from cattle] are blamed for climate change, but there are bigger issues like people burning millions of tires in the des...
+2026-06-29 13:35:31,565 - INFO - API Response Status: 200
+2026-06-29 13:35:31,566 - INFO - Raw model response: {"label": "Misleading"}
+2026-06-29 13:35:31,566 - INFO - Extracted label: Misleading -> Normalized: Misleading
+2026-06-29 13:35:31,568 - INFO - Prediction: Misleading
+2026-06-29 13:35:31,568 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-06-29 13:35:31,870 - INFO - ================================================================================
+2026-06-29 13:35:31,871 - INFO - Processing claim #1 (ID: crp_1)
+2026-06-29 13:35:31,871 - INFO - Claim: 'New study shows that climate change is greatly overestimated because oceans are cooling Earth far more than we thought.'...
+2026-06-29 13:35:31,871 - INFO - Date: 2024-11-23
+2026-06-29 13:35:31,871 - INFO - Asking model: grok-3 (method: naive)
+2026-06-29 13:35:31,871 - INFO - Claim: 'New study shows that climate change is greatly overestimated because oceans are cooling Earth far more than we thought.'...
+2026-06-29 13:35:38,662 - INFO - API Response Status: 200
+2026-06-29 13:35:38,662 - INFO - Raw model response: {"label": "Misleading"}
+2026-06-29 13:35:38,663 - INFO - Extracted label: Misleading -> Normalized: Misleading
+2026-06-29 13:35:38,665 - INFO - Prediction: Misleading
+2026-06-29 13:35:38,666 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-06-29 13:35:38,967 - INFO - ================================================================================
+2026-06-29 13:35:38,968 - INFO - Processing claim #2 (ID: crp_2)
+2026-06-29 13:35:38,968 - INFO - Claim: 'Climate change has only had 'positive effects' on global food production.'...
+2026-06-29 13:35:38,968 - INFO - Date: 2024-10-20
+2026-06-29 13:35:38,968 - INFO - Asking model: grok-3 (method: naive)
+2026-06-29 13:35:38,968 - INFO - Claim: 'Climate change has only had 'positive effects' on global food production.'...
+2026-06-29 13:35:42,353 - INFO - API Response Status: 200
+2026-06-29 13:35:42,353 - INFO - Raw model response: {"label": "Refuted"}
+2026-06-29 13:35:42,353 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2026-06-29 13:35:42,355 - INFO - Prediction: Refuted
+2026-06-29 13:35:42,355 - INFO - ✓ Correct prediction
+2026-06-29 13:35:42,656 - INFO - ================================================================================
+2026-06-29 13:35:42,657 - INFO - Processing claim #3 (ID: crp_3)
+2026-06-29 13:35:42,657 - INFO - Claim: 'Cows' burps are a non-existent problem for climate change'...
+2026-06-29 13:35:42,657 - INFO - Date: 2024-11-27
+2026-06-29 13:35:42,657 - INFO - Asking model: grok-3 (method: naive)
+2026-06-29 13:35:42,657 - INFO - Claim: 'Cows' burps are a non-existent problem for climate change'...
+2026-06-29 13:35:45,659 - INFO - API Response Status: 200
+2026-06-29 13:35:45,660 - INFO - Raw model response: {"label": "Refuted"}
+2026-06-29 13:35:45,660 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2026-06-29 13:35:45,661 - INFO - Prediction: Refuted
+2026-06-29 13:35:45,662 - INFO - ✓ Correct prediction
+2026-06-29 13:35:45,964 - INFO - ================================================================================
+2026-06-29 13:35:45,964 - INFO - Processing claim #4 (ID: crp_4)
+2026-06-29 13:35:45,964 - INFO - Claim: 'The UK government is to fund “Bill Gates’ geoengineering experiments” to explore combatting global warming by cooling the earth.'...
+2026-06-29 13:35:45,964 - INFO - Date: 2024-11-24
+2026-06-29 13:35:45,964 - INFO - Asking model: grok-3 (method: naive)
+2026-06-29 13:35:45,964 - INFO - Claim: 'The UK government is to fund “Bill Gates’ geoengineering experiments” to explore combatting global warming by cooling the earth.'...
+2026-06-29 13:35:52,032 - INFO - API Response Status: 200
+2026-06-29 13:35:52,032 - INFO - Raw model response: {"label": "Misleading"}
+2026-06-29 13:35:52,033 - INFO - Extracted label: Misleading -> Normalized: Misleading
+2026-06-29 13:35:52,034 - INFO - Prediction: Misleading
+2026-06-29 13:35:52,034 - INFO - ✓ Correct prediction
+2026-06-29 13:35:52,336 - INFO - ================================================================================
+2026-06-29 13:35:52,336 - INFO - Processing claim #5 (ID: crp_5)
+2026-06-29 13:35:52,336 - INFO - Claim: 'First-ever snowfall on record in the Al-Jouf (or Al-Jawf) desert in Saudi Arabia occurred in early November 2024.'...
+2026-06-29 13:35:52,337 - INFO - Date: 2024-11-03
+2026-06-29 13:35:52,337 - INFO - Asking model: grok-3 (method: naive)
+2026-06-29 13:35:52,337 - INFO - Claim: 'First-ever snowfall on record in the Al-Jouf (or Al-Jawf) desert in Saudi Arabia occurred in early November 2024.'...
+2026-06-29 13:36:00,215 - INFO - API Response Status: 200
+2026-06-29 13:36:00,215 - INFO - Raw model response: {"label": "Refuted"}
+2026-06-29 13:36:00,215 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2026-06-29 13:36:00,217 - INFO - Prediction: Refuted
+2026-06-29 13:36:00,217 - INFO - ✓ Correct prediction
+2026-06-29 13:36:00,518 - INFO - ================================================================================
+2026-06-29 13:36:00,519 - INFO - Processing claim #6 (ID: crp_6)
+2026-06-29 13:36:00,519 - INFO - Claim: 'A staggering $41 billion has gone missing from the globalist World Bank’s Climate Change fund under the watch of Ajay Banga.'...
+2026-06-29 13:36:00,519 - INFO - Date: 2024-10-28
+2026-06-29 13:36:00,519 - INFO - Asking model: grok-3 (method: naive)
+2026-06-29 13:36:00,519 - INFO - Claim: 'A staggering $41 billion has gone missing from the globalist World Bank’s Climate Change fund under the watch of Ajay Banga.'...
+2026-06-29 13:36:08,873 - INFO - API Response Status: 200
+2026-06-29 13:36:08,873 - INFO - Raw model response: {"label": "Refuted"}
+2026-06-29 13:36:08,873 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2026-06-29 13:36:08,875 - INFO - Prediction: Refuted
+2026-06-29 13:36:08,875 - INFO - ✓ Correct prediction
+2026-06-29 13:36:09,176 - INFO - ================================================================================
+2026-06-29 13:36:09,176 - INFO - Processing claim #7 (ID: crp_7)
+2026-06-29 13:36:09,176 - INFO - Claim: 'Impact of human-induced CO2 is insignificant when compared to natural climate variations.'...
+2026-06-29 13:36:09,176 - INFO - Date: 2024-11-10
+2026-06-29 13:36:09,176 - INFO - Asking model: grok-3 (method: naive)
+2026-06-29 13:36:09,176 - INFO - Claim: 'Impact of human-induced CO2 is insignificant when compared to natural climate variations.'...
+2026-06-29 13:36:13,121 - INFO - API Response Status: 200
+2026-06-29 13:36:13,121 - INFO - Raw model response: {"label": "Refuted"}
+2026-06-29 13:36:13,121 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2026-06-29 13:36:13,122 - INFO - Prediction: Refuted
+2026-06-29 13:36:13,122 - INFO - ✓ Correct prediction
+2026-06-29 13:36:13,424 - INFO - ================================================================================
+2026-06-29 13:36:13,424 - INFO - Processing claim #8 (ID: crp_8)
+2026-06-29 13:36:13,424 - INFO - Claim: 'Rising CO2 and temperatures are behind the global boost in grain production over the last 60 years.'...
+2026-06-29 13:36:13,424 - INFO - Date: 2024-10-28
+2026-06-29 13:36:13,424 - INFO - Asking model: grok-3 (method: naive)
+2026-06-29 13:36:13,424 - INFO - Claim: 'Rising CO2 and temperatures are behind the global boost in grain production over the last 60 years.'...
+2026-06-29 13:36:17,929 - INFO - API Response Status: 200
+2026-06-29 13:36:17,930 - INFO - Raw model response: {"label": "Misleading"}
+2026-06-29 13:36:17,930 - INFO - Extracted label: Misleading -> Normalized: Misleading
+2026-06-29 13:36:17,931 - INFO - Prediction: Misleading
+2026-06-29 13:36:17,931 - INFO - ✓ Correct prediction
+2026-06-29 13:36:18,233 - INFO - ================================================================================
+2026-06-29 13:36:18,233 - INFO - Processing claim #9 (ID: crp_9)
+2026-06-29 13:36:18,233 - INFO - Claim: 'A study into global warming proves it is a hoax.'...
+2026-06-29 13:36:18,233 - INFO - Date: 2024-10-15
+2026-06-29 13:36:18,233 - INFO - Asking model: grok-3 (method: naive)
+2026-06-29 13:36:18,233 - INFO - Claim: 'A study into global warming proves it is a hoax.'...
+2026-06-29 13:36:25,218 - INFO - API Response Status: 200
+2026-06-29 13:36:25,218 - INFO - Raw model response: {"label": "Refuted"}
+2026-06-29 13:36:25,218 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2026-06-29 13:36:25,220 - INFO - Prediction: Refuted
+2026-06-29 13:36:25,220 - INFO - ✓ Correct prediction
+2026-06-29 13:36:25,522 - INFO - ================================================================================
+2026-06-29 13:36:25,522 - INFO - Processing claim #10 (ID: crp_10)
+2026-06-29 13:36:25,522 - INFO - Claim: 'HAARP is responsible for recent floods in Spain, New Mexico, and elsewhere.'...
+2026-06-29 13:36:25,522 - INFO - Date: 2024-10-30
+2026-06-29 13:36:25,522 - INFO - Asking model: grok-3 (method: naive)
+2026-06-29 13:36:25,522 - INFO - Claim: 'HAARP is responsible for recent floods in Spain, New Mexico, and elsewhere.'...
+2026-06-29 13:36:30,082 - INFO - API Response Status: 200
+2026-06-29 13:36:30,082 - INFO - Raw model response: {"label": "Refuted"}
+2026-06-29 13:36:30,082 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2026-06-29 13:36:30,084 - INFO - Prediction: Refuted
+2026-06-29 13:36:30,084 - INFO - ✓ Correct prediction
+2026-06-29 13:36:30,385 - INFO - ================================================================================
+2026-06-29 13:36:30,385 - INFO - Processing claim #11 (ID: crp_11)
+2026-06-29 13:36:30,385 - INFO - Claim: 'The World Economic Forum (WEF) demanded a ban on homegrown plants to check global warming.'...
+2026-06-29 13:36:30,385 - INFO - Date: 2024-10-09
+2026-06-29 13:36:30,385 - INFO - Asking model: grok-3 (method: naive)
+2026-06-29 13:36:30,385 - INFO - Claim: 'The World Economic Forum (WEF) demanded a ban on homegrown plants to check global warming.'...
+2026-06-29 13:36:35,197 - INFO - API Response Status: 200
+2026-06-29 13:36:35,197 - INFO - Raw model response: {"label": "Refuted"}
+2026-06-29 13:36:35,197 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2026-06-29 13:36:35,199 - INFO - Prediction: Refuted
+2026-06-29 13:36:35,199 - INFO - ✓ Correct prediction
+2026-06-29 13:36:35,500 - INFO - ================================================================================
+2026-06-29 13:36:35,500 - INFO - Processing claim #12 (ID: crp_12)
+2026-06-29 13:36:35,500 - INFO - Claim: 'There were no hurricanes this season even despite forecasts for a high activity; it has been a light hurricane season.'...
+2026-06-29 13:36:35,500 - INFO - Date: 2024-09-09
+2026-06-29 13:36:35,500 - INFO - Asking model: grok-3 (method: naive)
+2026-06-29 13:36:35,500 - INFO - Claim: 'There were no hurricanes this season even despite forecasts for a high activity; it has been a light hurricane season.'...
+2026-06-29 13:36:40,000 - INFO - API Response Status: 200
+2026-06-29 13:36:40,000 - INFO - Raw model response: {"label": "Refuted"}
+2026-06-29 13:36:40,000 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2026-06-29 13:36:40,001 - INFO - Prediction: Refuted
+2026-06-29 13:36:40,002 - INFO - ✗ Incorrect (True: Misleading, Pred: Refuted)
+2026-06-29 13:36:40,303 - INFO - ================================================================================
+2026-06-29 13:36:40,303 - INFO - Processing claim #13 (ID: crp_13)
+2026-06-29 13:36:40,303 - INFO - Claim: 'A Centers for Disease Control and Prevention study finds children who received the Pfizer covid vaccine are more likely to get covid infection than u...
+2026-06-29 13:36:40,303 - INFO - Date: 2025-01-03
+2026-06-29 13:36:40,303 - INFO - Asking model: grok-3 (method: naive)
+2026-06-29 13:36:40,303 - INFO - Claim: 'A Centers for Disease Control and Prevention study finds children who received the Pfizer covid vaccine are more likely to get covid infection than u...
+2026-06-29 13:36:48,247 - INFO - API Response Status: 200
+2026-06-29 13:36:48,247 - INFO - Raw model response: {"label": "Misleading"}
+2026-06-29 13:36:48,247 - INFO - Extracted label: Misleading -> Normalized: Misleading
+2026-06-29 13:36:48,248 - INFO - Prediction: Misleading
+2026-06-29 13:36:48,248 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-06-29 13:36:48,549 - INFO - ================================================================================
+2026-06-29 13:36:48,550 - INFO - Processing claim #14 (ID: crp_14)
+2026-06-29 13:36:48,550 - INFO - Claim: 'Japan named COVID-19 mRNA vaccine the 'deadliest drug in history''...
+2026-06-29 13:36:48,550 - INFO - Date: 2024-11-12
+2026-06-29 13:36:48,550 - INFO - Asking model: grok-3 (method: naive)
+2026-06-29 13:36:48,550 - INFO - Claim: 'Japan named COVID-19 mRNA vaccine the 'deadliest drug in history''...
+2026-06-29 13:36:52,288 - INFO - API Response Status: 200
+2026-06-29 13:36:52,288 - INFO - Raw model response: {"label": "Refuted"}
+2026-06-29 13:36:52,288 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2026-06-29 13:36:52,289 - INFO - Prediction: Refuted
+2026-06-29 13:36:52,289 - INFO - ✓ Correct prediction
+2026-06-29 13:36:52,590 - INFO - ================================================================================
+2026-06-29 13:36:52,591 - INFO - Processing claim #15 (ID: crp_15)
+2026-06-29 13:36:52,591 - INFO - Claim: 'The CEO of BioNTech, which developed a COVID-19 vaccine with Pfizer, did not get vaccinated.'...
+2026-06-29 13:36:52,591 - INFO - Date: 2024-12-19
+2026-06-29 13:36:52,591 - INFO - Asking model: grok-3 (method: naive)
+2026-06-29 13:36:52,591 - INFO - Claim: 'The CEO of BioNTech, which developed a COVID-19 vaccine with Pfizer, did not get vaccinated.'...
+2026-06-29 13:36:56,727 - INFO - API Response Status: 200
+2026-06-29 13:36:56,727 - INFO - Raw model response: {"label": "Refuted"}
+2026-06-29 13:36:56,727 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2026-06-29 13:36:56,728 - INFO - Prediction: Refuted
+2026-06-29 13:36:56,728 - INFO - ✓ Correct prediction
+2026-06-29 13:36:57,030 - INFO - ================================================================================
+2026-06-29 13:36:57,030 - INFO - Processing claim #16 (ID: crp_16)
+2026-06-29 13:36:57,031 - INFO - Claim: 'Australian officials have warned that vaccine-linked turbo cancers will kill billions.'...
+2026-06-29 13:36:57,031 - INFO - Date: 2024-12-13
+2026-06-29 13:36:57,031 - INFO - Asking model: grok-3 (method: naive)
+2026-06-29 13:36:57,031 - INFO - Claim: 'Australian officials have warned that vaccine-linked turbo cancers will kill billions.'...
+2026-06-29 13:37:01,260 - INFO - API Response Status: 200
+2026-06-29 13:37:01,260 - INFO - Raw model response: {"label": "Refuted"}
+2026-06-29 13:37:01,260 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2026-06-29 13:37:01,263 - INFO - Prediction: Refuted
+2026-06-29 13:37:01,263 - INFO - ✓ Correct prediction
+2026-06-29 13:37:01,567 - INFO - ================================================================================
+2026-06-29 13:37:01,567 - INFO - Processing claim #17 (ID: crp_17)
+2026-06-29 13:37:01,567 - INFO - Claim: “Ivermectin is a treatment after Covid and after vaccination, it is an effective medicine in all phases of Covid 19.”...
+2026-06-29 13:37:01,567 - INFO - Date: 2024-12-10
+2026-06-29 13:37:01,567 - INFO - Asking model: grok-3 (method: naive)
+2026-06-29 13:37:01,567 - INFO - Claim: “Ivermectin is a treatment after Covid and after vaccination, it is an effective medicine in all phases of Covid 19.”...
+2026-06-29 13:37:06,319 - INFO - API Response Status: 200
+2026-06-29 13:37:06,319 - INFO - Raw model response: {"label": "Refuted"}
+2026-06-29 13:37:06,319 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2026-06-29 13:37:06,321 - INFO - Prediction: Refuted
+2026-06-29 13:37:06,321 - INFO - ✓ Correct prediction
+2026-06-29 13:37:06,622 - INFO - ================================================================================
+2026-06-29 13:37:06,623 - INFO - Processing claim #18 (ID: crp_18)
+2026-06-29 13:37:06,623 - INFO - Claim: 'RFK Jr's only statement on vaccines is that they need to be studied.'...
+2026-06-29 13:37:06,623 - INFO - Date: 2024-12-10
+2026-06-29 13:37:06,623 - INFO - Asking model: grok-3 (method: naive)
+2026-06-29 13:37:06,623 - INFO - Claim: 'RFK Jr's only statement on vaccines is that they need to be studied.'...
+2026-06-29 13:37:10,498 - INFO - API Response Status: 200
+2026-06-29 13:37:10,499 - INFO - Raw model response: {"label": "Refuted"}
+2026-06-29 13:37:10,499 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2026-06-29 13:37:10,501 - INFO - Prediction: Refuted
+2026-06-29 13:37:10,502 - INFO - ✓ Correct prediction
+2026-06-29 13:37:10,804 - INFO - ================================================================================
+2026-06-29 13:37:10,804 - INFO - Processing claim #19 (ID: crp_19)
+2026-06-29 13:37:10,804 - INFO - Claim: 'Vaccine researcher warned ‘multiple viruses will be unleashed’ in January'...
+2026-06-29 13:37:10,804 - INFO - Date: 2024-12-04
+2026-06-29 13:37:10,804 - INFO - Asking model: grok-3 (method: naive)
+2026-06-29 13:37:10,804 - INFO - Claim: 'Vaccine researcher warned ‘multiple viruses will be unleashed’ in January'...
+2026-06-29 13:37:18,328 - INFO - API Response Status: 200
+2026-06-29 13:37:18,329 - INFO - Raw model response: {"label": "Not Enough Information"}
+2026-06-29 13:37:18,329 - INFO - Extracted label: Not Enough Information -> Normalized: Not Enough Information
+2026-06-29 13:37:18,331 - INFO - Prediction: Not Enough Information
+2026-06-29 13:37:18,331 - INFO - ✗ Incorrect (True: Refuted, Pred: Not Enough Information)
+2026-06-29 13:37:18,633 - INFO - ================================================================================
+2026-06-29 13:37:18,634 - INFO - Processing complete: 20 predictions (15 correct, 5 incorrect), 0 failed
+2026-06-29 13:37:18,634 - INFO - Metrics: Accuracy=0.7500, Macro-F1=0.6694
+2026-06-29 13:37:18,641 - INFO - Predictions saved to results\grok-3\crp_bias_all\naive\seen\seen_predictions.csv
+2026-06-29 13:37:18,642 - INFO - Predictions JSON saved to results\grok-3\crp_bias_all\naive\seen\seen_predictions.json
+2026-06-29 13:37:18,643 - INFO - Metrics saved to results\grok-3\crp_bias_all\naive\seen\seen_metrics.json

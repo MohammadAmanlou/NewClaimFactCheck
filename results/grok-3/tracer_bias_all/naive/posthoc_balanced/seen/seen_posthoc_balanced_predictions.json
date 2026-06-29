@@ -1,0 +1,167 @@
+[
+    {
+        "claim_id": "tracer_train_14",
+        "claim": "President Obama \"doesn't ... want to admit we're at war.\"",
+        "claim_date": "2009-12-30",
+        "speaker": null,
+        "source": "tracer",
+        "label": "Refuted",
+        "detected_biases": "[{\"bias\": \"curse of knowledge\", \"confidence\": 0.3647}]",
+        "prediction": "Refuted",
+        "prediction_error": null
+    },
+    {
+        "claim_id": "tracer_train_12",
+        "claim": "\"I signed the largest single tax cut in the history of Florida, a $25 billion tax cut over five years, directed at property tax cuts.\"",
+        "claim_date": "2009-09-25",
+        "speaker": null,
+        "source": "tracer",
+        "label": "Refuted",
+        "detected_biases": "",
+        "prediction": "Misleading",
+        "prediction_error": null
+    },
+    {
+        "claim_id": "tracer_train_9",
+        "claim": "Health insurance companies are \"making record profits, right now.\"",
+        "claim_date": "2009-07-22",
+        "speaker": null,
+        "source": "tracer",
+        "label": "Refuted",
+        "detected_biases": "[{\"bias\": \"Availability heuristic\", \"confidence\": 0.4176}]",
+        "prediction": "Misleading",
+        "prediction_error": null
+    },
+    {
+        "claim_id": "tracer_train_10",
+        "claim": "\"There's no rationing in any of these bills.\"",
+        "claim_date": "2009-08-09",
+        "speaker": null,
+        "source": "tracer",
+        "label": "Refuted",
+        "detected_biases": "",
+        "prediction": "Misleading",
+        "prediction_error": null
+    },
+    {
+        "claim_id": "tracer_train_18",
+        "claim": "Several times, Obama \"has apologized for what he deems to be American arrogance, dismissiveness, and derision; for dictating solutions, for acting unilaterally ... .\"",
+        "claim_date": "2010-03-02",
+        "speaker": null,
+        "source": "tracer",
+        "label": "Refuted",
+        "detected_biases": "[{\"bias\": \"curse of knowledge\", \"confidence\": 0.6473}]",
+        "prediction": "Misleading",
+        "prediction_error": null
+    },
+    {
+        "claim_id": "tracer_train_1",
+        "claim": "\"(Ronald Reagan) raised taxes a billion dollars in his first year as governor of California.\"",
+        "claim_date": "2008-01-10",
+        "speaker": null,
+        "source": "tracer",
+        "label": "Supported",
+        "detected_biases": "[{\"bias\": \"hindsight bias\", \"confidence\": 0.6121}]",
+        "prediction": "Supported",
+        "prediction_error": null
+    },
+    {
+        "claim_id": "tracer_train_11",
+        "claim": "The health bill's plan for comparative effectiveness research \"would be used by the government to ration care.\"",
+        "claim_date": "2009-08-18",
+        "speaker": null,
+        "source": "tracer",
+        "label": "Refuted",
+        "detected_biases": "[{\"bias\": \"curse of knowledge\", \"confidence\": 0.4714}]",
+        "prediction": "Refuted",
+        "prediction_error": null
+    },
+    {
+        "claim_id": "tracer_train_0",
+        "claim": "\"In the 1990s, the Biden Crime Bill added 100,000 cops to America's streets. As a result, murder and violent crime rates went down eight years in a row.\"",
+        "claim_date": "2007-11-02",
+        "speaker": null,
+        "source": "tracer",
+        "label": "Refuted",
+        "detected_biases": "[{\"bias\": \"hindsight bias\", \"confidence\": 0.3169}]",
+        "prediction": "Misleading",
+        "prediction_error": null
+    },
+    {
+        "claim_id": "tracer_train_15",
+        "claim": "\"Governor (Perry), you were a Democrat, having worked for Al Gore as his campaign manager...\"",
+        "claim_date": "2010-01-14",
+        "speaker": null,
+        "source": "tracer",
+        "label": "Half-True",
+        "detected_biases": "",
+        "prediction": "Misleading",
+        "prediction_error": null
+    },
+    {
+        "claim_id": "tracer_train_8",
+        "claim": "\"A new poll shows 62 percent support the president's plan to reform health care. That means ... letting you choose between keeping the private insurance you have and a public health insurance plan.\"",
+        "claim_date": "2009-06-14",
+        "speaker": null,
+        "source": "tracer",
+        "label": "Refuted",
+        "detected_biases": "[{\"bias\": \"curse of knowledge\", \"confidence\": 0.4102}]",
+        "prediction": "Misleading",
+        "prediction_error": null
+    },
+    {
+        "claim_id": "tracer_train_4",
+        "claim": "\"While Sarah was Mayor of Wasilla she tried to fire our highly respected City Librarian because the Librarian refused to consider removing from the library some books that Sarah wanted removed.\"",
+        "claim_date": "2008-08-31",
+        "speaker": null,
+        "source": "tracer",
+        "label": "Half-True",
+        "detected_biases": "[{\"bias\": \"Just-world hypothesis\", \"confidence\": 0.7247}]",
+        "prediction": "Misleading",
+        "prediction_error": null
+    },
+    {
+        "claim_id": "tracer_train_5",
+        "claim": "On the economic troubles of 2008, \"really the match that lit this fire was Fannie Mae and Freddie Mac.\"",
+        "claim_date": "2008-10-07",
+        "speaker": null,
+        "source": "tracer",
+        "label": "Half-True",
+        "detected_biases": "[{\"bias\": \"hindsight bias\", \"confidence\": 0.7833}]",
+        "prediction": "Misleading",
+        "prediction_error": null
+    },
+    {
+        "claim_id": "tracer_train_19",
+        "claim": "Charges on the Republican Party of Florida credit card were made with \"my money.\"",
+        "claim_date": "2010-03-04",
+        "speaker": null,
+        "source": "tracer",
+        "label": "Refuted",
+        "detected_biases": "",
+        "prediction": null,
+        "prediction_error": "Failed to get valid prediction"
+    },
+    {
+        "claim_id": "tracer_train_16",
+        "claim": "\"Amendment 4 will reduce Florida’s economic output by $34 billion annually.\"",
+        "claim_date": "2010-01-21",
+        "speaker": null,
+        "source": "tracer",
+        "label": "Refuted",
+        "detected_biases": "",
+        "prediction": "Refuted",
+        "prediction_error": null
+    },
+    {
+        "claim_id": "tracer_train_7",
+        "claim": "\"There are no earmarks\" in the stimulus bill.",
+        "claim_date": "2009-02-02",
+        "speaker": null,
+        "source": "tracer",
+        "label": "Refuted",
+        "detected_biases": "",
+        "prediction": "Supported",
+        "prediction_error": null
+    }
+]

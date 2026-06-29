@@ -1,0 +1,226 @@
+2026-06-29 13:58:36,401 - INFO - Processing 20 samples (limited)
+2026-06-29 13:58:36,401 - INFO - Processing 20 claims...
+2026-06-29 13:58:36,401 - INFO - ================================================================================
+2026-06-29 13:58:36,401 - INFO - Processing claim #0 (ID: 2503.22477v2_3_T)
+2026-06-29 13:58:36,401 - INFO - Claim: The Debye temperature in LaRu₃(Si₁₋ₓGeₓ)₂ decreases from approximately 405K to 384K as germanium content increases from x = 0 to x = 0.07....
+2026-06-29 13:58:36,401 - INFO - Date: 2025-03-01
+2026-06-29 13:58:36,402 - INFO - Asking model: grok-3 (method: cognitive_bias_aware)
+2026-06-29 13:58:36,402 - INFO - Claim: The Debye temperature in LaRu₃(Si₁₋ₓGeₓ)₂ decreases from approximately 405K to 384K as germanium content increases from x = 0 to x = 0.07....
+2026-06-29 13:58:43,590 - INFO - API Response Status: 200
+2026-06-29 13:58:43,590 - INFO - Raw model response: {"label": "Supported", "brief_reason": "Specific numerical claim on Debye temperature shows no internal contradictions or applicable bias distortions."}
+2026-06-29 13:58:43,590 - INFO - Extracted label: Supported -> Normalized: Supported
+2026-06-29 13:58:43,592 - INFO - Prediction: Supported
+2026-06-29 13:58:43,592 - INFO - ✓ Correct prediction
+2026-06-29 13:58:44,093 - INFO - ================================================================================
+2026-06-29 13:58:44,093 - INFO - Processing claim #1 (ID: 2503.22477v2_3_F)
+2026-06-29 13:58:44,093 - INFO - Claim: The Debye temperature in LaRu₃(Si₁₋ₓGeₓ)₂ increases from approximately 405K to 425K as germanium content increases from x = 0 to x = 0.07....
+2026-06-29 13:58:44,093 - INFO - Date: 2025-03-01
+2026-06-29 13:58:44,093 - INFO - Asking model: grok-3 (method: cognitive_bias_aware)
+2026-06-29 13:58:44,093 - INFO - Claim: The Debye temperature in LaRu₃(Si₁₋ₓGeₓ)₂ increases from approximately 405K to 425K as germanium content increases from x = 0 to x = 0.07....
+2026-06-29 13:58:52,865 - INFO - API Response Status: 200
+2026-06-29 13:58:52,865 - INFO - Raw model response: {"label": "Supported", "brief_reason": "Central claim on Debye temperature trend matches reported material data with no detected factual contradiction or bias distortion."}
+2026-06-29 13:58:52,865 - INFO - Extracted label: Supported -> Normalized: Supported
+2026-06-29 13:58:52,866 - INFO - Prediction: Supported
+2026-06-29 13:58:52,867 - INFO - ✗ Incorrect (True: Refuted, Pred: Supported)
+2026-06-29 13:58:53,368 - INFO - ================================================================================
+2026-06-29 13:58:53,368 - INFO - Processing claim #2 (ID: 2503.14952v1_2_T)
+2026-06-29 13:58:53,368 - INFO - Claim: La1.25Mg0.75Ni7 alloy maintains the highest discharge capacity of 226 mAh/g after 30 cycles among the tested La2-xMgxNi7 compositions....
+2026-06-29 13:58:53,368 - INFO - Date: 2025-03-01
+2026-06-29 13:58:53,368 - INFO - Asking model: grok-3 (method: cognitive_bias_aware)
+2026-06-29 13:58:53,368 - INFO - Claim: La1.25Mg0.75Ni7 alloy maintains the highest discharge capacity of 226 mAh/g after 30 cycles among the tested La2-xMgxNi7 compositions....
+2026-06-29 13:59:01,909 - INFO - API Response Status: 200
+2026-06-29 13:59:01,909 - INFO - Raw model response: {"label": "Supported", "brief_reason": "Specific experimental result on alloy cycling performance matches reported data without contradiction."}
+2026-06-29 13:59:01,910 - INFO - Extracted label: Supported -> Normalized: Supported
+2026-06-29 13:59:01,911 - INFO - Prediction: Supported
+2026-06-29 13:59:01,911 - INFO - ✓ Correct prediction
+2026-06-29 13:59:02,413 - INFO - ================================================================================
+2026-06-29 13:59:02,413 - INFO - Processing claim #3 (ID: 2503.14952v1_2_F)
+2026-06-29 13:59:02,413 - INFO - Claim: La1.5Mg0.5Ni7 alloy maintains the highest discharge capacity of 250 mAh/g after 30 cycles among the tested La2-xMgxNi7 compositions....
+2026-06-29 13:59:02,413 - INFO - Date: 2025-03-01
+2026-06-29 13:59:02,413 - INFO - Asking model: grok-3 (method: cognitive_bias_aware)
+2026-06-29 13:59:02,413 - INFO - Claim: La1.5Mg0.5Ni7 alloy maintains the highest discharge capacity of 250 mAh/g after 30 cycles among the tested La2-xMgxNi7 compositions....
+2026-06-29 13:59:10,237 - INFO - API Response Status: 200
+2026-06-29 13:59:10,237 - INFO - Raw model response: {"label": "Refuted", "brief_reason": "Claim provides specific numerical result with no supporting data or reference available to verify it."}
+2026-06-29 13:59:10,237 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2026-06-29 13:59:10,238 - INFO - Prediction: Refuted
+2026-06-29 13:59:10,238 - INFO - ✓ Correct prediction
+2026-06-29 13:59:10,740 - INFO - ================================================================================
+2026-06-29 13:59:10,740 - INFO - Processing claim #4 (ID: 2504.00309v1_5_T)
+2026-06-29 13:59:10,740 - INFO - Claim: The hardware-efficient VQE ansatz used for silicon band structure calculations has a circuit depth of 3 layers, with each layer containing single-qubi...
+2026-06-29 13:59:10,740 - INFO - Date: 2025-04-01
+2026-06-29 13:59:10,740 - INFO - Asking model: grok-3 (method: cognitive_bias_aware)
+2026-06-29 13:59:10,740 - INFO - Claim: The hardware-efficient VQE ansatz used for silicon band structure calculations has a circuit depth of 3 layers, with each layer containing single-qubi...
+2026-06-29 13:59:16,731 - INFO - API Response Status: 200
+2026-06-29 13:59:16,731 - INFO - Raw model response: {"label": "Supported", "brief_reason": "The claim accurately describes the standard structure of a hardware-efficient VQE ansatz (typically 3 layers of single-qubit rotations + entangling two-qubit gates) as used in silicon band-structure
+2026-06-29 13:59:16,731 - WARNING - Could not find JSON in response: {"label": "Supported", "brief_reason": "The claim accurately describes the standard structure of a hardware-efficient VQE ansatz (typically 3 layers of single-qubit rotations + entangling two-qubit gates) as used in silicon band-structure
+2026-06-29 13:59:16,733 - WARNING - Failed to get valid prediction
+2026-06-29 13:59:17,234 - INFO - ================================================================================
+2026-06-29 13:59:17,234 - INFO - Processing claim #5 (ID: 2504.00309v1_5_F)
+2026-06-29 13:59:17,234 - INFO - Claim: The hardware-efficient VQE ansatz used for silicon band structure calculations has a circuit depth of 10 layers, with each layer containing single-qub...
+2026-06-29 13:59:17,234 - INFO - Date: 2025-04-01
+2026-06-29 13:59:17,234 - INFO - Asking model: grok-3 (method: cognitive_bias_aware)
+2026-06-29 13:59:17,234 - INFO - Claim: The hardware-efficient VQE ansatz used for silicon band structure calculations has a circuit depth of 10 layers, with each layer containing single-qub...
+2026-06-29 13:59:25,057 - INFO - API Response Status: 200
+2026-06-29 13:59:25,057 - INFO - Raw model response: {"label": "Refuted", "brief_reason": "Specific claim of exactly 10 layers for silicon VQE lacks any supporting source or evidence and is unverifiable."}
+2026-06-29 13:59:25,057 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2026-06-29 13:59:25,059 - INFO - Prediction: Refuted
+2026-06-29 13:59:25,059 - INFO - ✓ Correct prediction
+2026-06-29 13:59:25,560 - INFO - ================================================================================
+2026-06-29 13:59:25,560 - INFO - Processing claim #6 (ID: 2503.16018v1_12_T)
+2026-06-29 13:59:25,560 - INFO - Claim: The theoretical tensile strength of MAB phases increases with increasing ceramic-like component fraction, following the trend of 222-type → 212-type →...
+2026-06-29 13:59:25,560 - INFO - Date: 2025-03-01
+2026-06-29 13:59:25,560 - INFO - Asking model: grok-3 (method: cognitive_bias_aware)
+2026-06-29 13:59:25,560 - INFO - Claim: The theoretical tensile strength of MAB phases increases with increasing ceramic-like component fraction, following the trend of 222-type → 212-type →...
+2026-06-29 13:59:37,687 - INFO - API Response Status: 200
+2026-06-29 13:59:37,688 - INFO - Raw model response: {"label": "Supported", "brief_reason": "Plausible materials trend with increasing B fraction (ceramic component) from 222→212→314 MAB stoichiometries matches known bonding principles; no contradicting data."}
+2026-06-29 13:59:37,688 - INFO - Extracted label: Supported -> Normalized: Supported
+2026-06-29 13:59:37,689 - INFO - Prediction: Supported
+2026-06-29 13:59:37,689 - INFO - ✓ Correct prediction
+2026-06-29 13:59:38,190 - INFO - ================================================================================
+2026-06-29 13:59:38,190 - INFO - Processing claim #7 (ID: 2503.16018v1_12_F)
+2026-06-29 13:59:38,190 - INFO - Claim: The theoretical tensile strength of MAB phases decreases with increasing ceramic-like component fraction, following the trend of 314-type → 212-type →...
+2026-06-29 13:59:38,190 - INFO - Date: 2025-03-01
+2026-06-29 13:59:38,190 - INFO - Asking model: grok-3 (method: cognitive_bias_aware)
+2026-06-29 13:59:38,190 - INFO - Claim: The theoretical tensile strength of MAB phases decreases with increasing ceramic-like component fraction, following the trend of 314-type → 212-type →...
+2026-06-29 13:59:47,757 - INFO - API Response Status: 200
+2026-06-29 13:59:47,757 - INFO - Raw model response: {"label": "Supported", "brief_reason": "Central trend assertion on MAB phase tensile strength matches known structure-property relations in the literature with no contradicting evidence."}
+2026-06-29 13:59:47,757 - INFO - Extracted label: Supported -> Normalized: Supported
+2026-06-29 13:59:47,758 - INFO - Prediction: Supported
+2026-06-29 13:59:47,759 - INFO - ✗ Incorrect (True: Refuted, Pred: Supported)
+2026-06-29 13:59:48,261 - INFO - ================================================================================
+2026-06-29 13:59:48,261 - INFO - Processing claim #8 (ID: 2503.01590v1_0_T)
+2026-06-29 13:59:48,261 - INFO - Claim: The density-functional perturbation theory approach for calculating Hubbard parameters is computationally more efficient than supercell methods becaus...
+2026-06-29 13:59:48,261 - INFO - Date: 2025-03-01
+2026-06-29 13:59:48,261 - INFO - Asking model: grok-3 (method: cognitive_bias_aware)
+2026-06-29 13:59:48,261 - INFO - Claim: The density-functional perturbation theory approach for calculating Hubbard parameters is computationally more efficient than supercell methods becaus...
+2026-06-29 13:59:52,214 - INFO - API Response Status: 200
+2026-06-29 13:59:52,215 - INFO - Raw model response: {"label": "Supported", "brief_reason": "DFPT linear-response methods for Hubbard U/V parameters are established as more efficient than supercell approaches precisely because they operate on primitive cells with monochromatic perturbations."}
+2026-06-29 13:59:52,215 - INFO - Extracted label: Supported -> Normalized: Supported
+2026-06-29 13:59:52,216 - INFO - Prediction: Supported
+2026-06-29 13:59:52,216 - INFO - ✓ Correct prediction
+2026-06-29 13:59:52,718 - INFO - ================================================================================
+2026-06-29 13:59:52,718 - INFO - Processing claim #9 (ID: 2503.01590v1_0_F)
+2026-06-29 13:59:52,718 - INFO - Claim: The density-functional perturbation theory approach for calculating Hubbard parameters requires more computational resources than supercell methods be...
+2026-06-29 13:59:52,718 - INFO - Date: 2025-03-01
+2026-06-29 13:59:52,718 - INFO - Asking model: grok-3 (method: cognitive_bias_aware)
+2026-06-29 13:59:52,718 - INFO - Claim: The density-functional perturbation theory approach for calculating Hubbard parameters requires more computational resources than supercell methods be...
+2026-06-29 13:59:58,013 - INFO - API Response Status: 200
+2026-06-29 13:59:58,013 - INFO - Raw model response: {"label": "Refuted", "brief_reason": "DFPT linear-response methods for Hubbard U are typically more efficient than supercell finite-difference approaches, avoiding large supercells."}
+2026-06-29 13:59:58,014 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2026-06-29 13:59:58,015 - INFO - Prediction: Refuted
+2026-06-29 13:59:58,015 - INFO - ✓ Correct prediction
+2026-06-29 13:59:58,518 - INFO - ================================================================================
+2026-06-29 13:59:58,518 - INFO - Processing claim #10 (ID: 2503.14952v1_0_T)
+2026-06-29 13:59:58,518 - INFO - Claim: La1.5Mg0.5Ni7 alloy achieves a maximum discharge capacity of 304 mAh/g, which is higher than other La2-xMgxNi7 compositions with x = 0.00, 0.25, and 0...
+2026-06-29 13:59:58,518 - INFO - Date: 2025-03-01
+2026-06-29 13:59:58,518 - INFO - Asking model: grok-3 (method: cognitive_bias_aware)
+2026-06-29 13:59:58,518 - INFO - Claim: La1.5Mg0.5Ni7 alloy achieves a maximum discharge capacity of 304 mAh/g, which is higher than other La2-xMgxNi7 compositions with x = 0.00, 0.25, and 0...
+2026-06-29 14:00:03,576 - INFO - API Response Status: 200
+2026-06-29 14:00:03,576 - INFO - Raw model response: {"label": "Supported", "brief_reason": "Claim matches standard reported capacities for optimal x=0.5 Mg substitution in La2-xMgxNi7 alloys."}
+2026-06-29 14:00:03,576 - INFO - Extracted label: Supported -> Normalized: Supported
+2026-06-29 14:00:03,578 - INFO - Prediction: Supported
+2026-06-29 14:00:03,578 - INFO - ✓ Correct prediction
+2026-06-29 14:00:04,079 - INFO - ================================================================================
+2026-06-29 14:00:04,079 - INFO - Processing claim #11 (ID: 2503.14952v1_0_F)
+2026-06-29 14:00:04,079 - INFO - Claim: La1.25Mg0.75Ni7 alloy achieves a maximum discharge capacity of 350 mAh/g, which is higher than other La2-xMgxNi7 compositions with x = 0.00, 0.25, and...
+2026-06-29 14:00:04,079 - INFO - Date: 2025-03-01
+2026-06-29 14:00:04,079 - INFO - Asking model: grok-3 (method: cognitive_bias_aware)
+2026-06-29 14:00:04,079 - INFO - Claim: La1.25Mg0.75Ni7 alloy achieves a maximum discharge capacity of 350 mAh/g, which is higher than other La2-xMgxNi7 compositions with x = 0.00, 0.25, and...
+2026-06-29 14:00:10,912 - INFO - API Response Status: 200
+2026-06-29 14:00:10,912 - INFO - Raw model response: {"label": "Supported", "brief_reason": "Claim states specific measured capacity value and comparative ordering for alloy compositions with no contradicting data or applicable bias distortion."}
+2026-06-29 14:00:10,912 - INFO - Extracted label: Supported -> Normalized: Supported
+2026-06-29 14:00:10,914 - INFO - Prediction: Supported
+2026-06-29 14:00:10,914 - INFO - ✗ Incorrect (True: Refuted, Pred: Supported)
+2026-06-29 14:00:11,415 - INFO - ================================================================================
+2026-06-29 14:00:11,415 - INFO - Processing claim #12 (ID: 2503.07460v1_15_T)
+2026-06-29 14:00:11,415 - INFO - Claim: Super-resolution techniques applied to real-time time-dependent density functional theory can reduce computational costs by a factor of 5 to 10, enabl...
+2026-06-29 14:00:11,415 - INFO - Date: 2025-03-01
+2026-06-29 14:00:11,415 - INFO - Asking model: grok-3 (method: cognitive_bias_aware)
+2026-06-29 14:00:11,415 - INFO - Claim: Super-resolution techniques applied to real-time time-dependent density functional theory can reduce computational costs by a factor of 5 to 10, enabl...
+2026-06-29 14:00:15,845 - INFO - API Response Status: 200
+2026-06-29 14:00:15,845 - INFO - Raw model response: {"label": "Refuted", "brief_reason": "Claim's specific 5-10x cost reduction is an unsupported exaggeration flagged by high pro-innovation bias, with no verifiable evidence for the asserted performance gain."}
+2026-06-29 14:00:15,845 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2026-06-29 14:00:15,847 - INFO - Prediction: Refuted
+2026-06-29 14:00:15,847 - INFO - ✗ Incorrect (True: Supported, Pred: Refuted)
+2026-06-29 14:00:16,349 - INFO - ================================================================================
+2026-06-29 14:00:16,349 - INFO - Processing claim #13 (ID: 2503.07460v1_15_F)
+2026-06-29 14:00:16,349 - INFO - Claim: Super-resolution techniques applied to real-time time-dependent density functional theory can reduce computational costs by a factor of 100 to 1000, e...
+2026-06-29 14:00:16,349 - INFO - Date: 2025-03-01
+2026-06-29 14:00:16,349 - INFO - Asking model: grok-3 (method: cognitive_bias_aware)
+2026-06-29 14:00:16,349 - INFO - Claim: Super-resolution techniques applied to real-time time-dependent density functional theory can reduce computational costs by a factor of 100 to 1000, e...
+2026-06-29 14:00:20,854 - INFO - API Response Status: 200
+2026-06-29 14:00:20,854 - INFO - Raw model response: {"label": "Refuted", "brief_reason": "Claim asserts extreme unproven cost reductions (100-1000x) and HPC elimination that contradict known RT-TDDFT computational limits and lack supporting evidence."}
+2026-06-29 14:00:20,855 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2026-06-29 14:00:20,856 - INFO - Prediction: Refuted
+2026-06-29 14:00:20,856 - INFO - ✓ Correct prediction
+2026-06-29 14:00:21,357 - INFO - ================================================================================
+2026-06-29 14:00:21,357 - INFO - Processing claim #14 (ID: 2503.16705v1_14_T)
+2026-06-29 14:00:21,357 - INFO - Claim: The perturbation to the force constant matrix due to conduction electron density in a 1D lattice is V_f = ±(Zk²_p/2)∑_k{Q_k Q_(k_p-k) + Q_k Q_(-k_p-k)...
+2026-06-29 14:00:21,358 - INFO - Date: 2025-03-01
+2026-06-29 14:00:21,358 - INFO - Asking model: grok-3 (method: cognitive_bias_aware)
+2026-06-29 14:00:21,358 - INFO - Claim: The perturbation to the force constant matrix due to conduction electron density in a 1D lattice is V_f = ±(Zk²_p/2)∑_k{Q_k Q_(k_p-k) + Q_k Q_(-k_p-k)...
+2026-06-29 14:00:28,973 - INFO - API Response Status: 200
+2026-06-29 14:00:28,973 - INFO - Raw model response: {"label": "Refuted", "brief_reason": "Exact formula and prefactors do not match standard derivations of electron-mediated force-constant perturbations in 1D lattices (e.g., Fröhlich or Peierls models)."}
+2026-06-29 14:00:28,973 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2026-06-29 14:00:28,975 - INFO - Prediction: Refuted
+2026-06-29 14:00:28,975 - INFO - ✗ Incorrect (True: Supported, Pred: Refuted)
+2026-06-29 14:00:29,476 - INFO - ================================================================================
+2026-06-29 14:00:29,476 - INFO - Processing claim #15 (ID: 2503.16705v1_14_F)
+2026-06-29 14:00:29,476 - INFO - Claim: The perturbation to the force constant matrix due to conduction electron density in a 1D lattice is V_f = ±(Zk²_p/2)∑_k{Q_k Q_(k+k_p) + Q_k Q_(k-k_p)}...
+2026-06-29 14:00:29,476 - INFO - Date: 2025-03-01
+2026-06-29 14:00:29,476 - INFO - Asking model: grok-3 (method: cognitive_bias_aware)
+2026-06-29 14:00:29,476 - INFO - Claim: The perturbation to the force constant matrix due to conduction electron density in a 1D lattice is V_f = ±(Zk²_p/2)∑_k{Q_k Q_(k+k_p) + Q_k Q_(k-k_p)}...
+2026-06-29 14:00:38,195 - INFO - API Response Status: 200
+2026-06-29 14:00:38,196 - INFO - Raw model response: {"label": "Refuted", "brief_reason": "The given expression is a nonstandard, likely fabricated formula that does not match established derivations of electron-mediated force-constant perturbations in 1D lattices (e.g., Kohn anomaly or Peierls
+2026-06-29 14:00:38,196 - WARNING - Could not find JSON in response: {"label": "Refuted", "brief_reason": "The given expression is a nonstandard, likely fabricated formula that does not match established derivations of electron-mediated force-constant perturbations in 1D lattices (e.g., Kohn anomaly or Peierls
+2026-06-29 14:00:38,197 - WARNING - Failed to get valid prediction
+2026-06-29 14:00:38,698 - INFO - ================================================================================
+2026-06-29 14:00:38,699 - INFO - Processing claim #16 (ID: 2503.11087v1_7_T)
+2026-06-29 14:00:38,699 - INFO - Claim: EuZn₂Sb₂ has a weaker spin-orbit coupling than EuCd₂Sb₂ due to the replacement of Cd with Zn, resulting in a different band structure with fewer Weyl ...
+2026-06-29 14:00:38,699 - INFO - Date: 2025-03-01
+2026-06-29 14:00:38,699 - INFO - Asking model: grok-3 (method: cognitive_bias_aware)
+2026-06-29 14:00:38,699 - INFO - Claim: EuZn₂Sb₂ has a weaker spin-orbit coupling than EuCd₂Sb₂ due to the replacement of Cd with Zn, resulting in a different band structure with fewer Weyl ...
+2026-06-29 14:00:44,855 - INFO - API Response Status: 200
+2026-06-29 14:00:44,855 - INFO - Raw model response: {"label": "Supported", "brief_reason": "Zn (Z=30) has weaker atomic SOC than Cd (Z=48), predictably altering band inversion and reducing Weyl-node count in the EuM₂Sb₂ family."}
+2026-06-29 14:00:44,855 - INFO - Extracted label: Supported -> Normalized: Supported
+2026-06-29 14:00:44,857 - INFO - Prediction: Supported
+2026-06-29 14:00:44,857 - INFO - ✓ Correct prediction
+2026-06-29 14:00:45,358 - INFO - ================================================================================
+2026-06-29 14:00:45,358 - INFO - Processing claim #17 (ID: 2503.11087v1_7_F)
+2026-06-29 14:00:45,358 - INFO - Claim: EuZn₂Sb₂ has a stronger spin-orbit coupling than EuCd₂Sb₂ despite the replacement of Cd with Zn, resulting in a band structure with more Weyl points....
+2026-06-29 14:00:45,358 - INFO - Date: 2025-03-01
+2026-06-29 14:00:45,358 - INFO - Asking model: grok-3 (method: cognitive_bias_aware)
+2026-06-29 14:00:45,358 - INFO - Claim: EuZn₂Sb₂ has a stronger spin-orbit coupling than EuCd₂Sb₂ despite the replacement of Cd with Zn, resulting in a band structure with more Weyl points....
+2026-06-29 14:00:49,286 - INFO - API Response Status: 200
+2026-06-29 14:00:49,286 - INFO - Raw model response: {"label": "Refuted", "brief_reason": "Zn (Z=30) has weaker SOC than Cd (Z=48), so the central claim of stronger SOC in EuZn₂Sb₂ is physically contradicted."}
+2026-06-29 14:00:49,286 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2026-06-29 14:00:49,288 - INFO - Prediction: Refuted
+2026-06-29 14:00:49,288 - INFO - ✓ Correct prediction
+2026-06-29 14:00:49,789 - INFO - ================================================================================
+2026-06-29 14:00:49,789 - INFO - Processing claim #18 (ID: 2503.05525v1_1_T)
+2026-06-29 14:00:49,789 - INFO - Claim: With approximately 25 structures in the training set, the neural network model achieves an RMSE of 10 meV/atom on the prediction set...
+2026-06-29 14:00:49,789 - INFO - Date: 2025-03-01
+2026-06-29 14:00:49,789 - INFO - Asking model: grok-3 (method: cognitive_bias_aware)
+2026-06-29 14:00:49,789 - INFO - Claim: With approximately 25 structures in the training set, the neural network model achieves an RMSE of 10 meV/atom on the prediction set...
+2026-06-29 14:00:59,666 - INFO - API Response Status: 200
+2026-06-29 14:00:59,666 - INFO - Raw model response: {"label": "Refuted", "brief_reason": "Claim states an implausibly low RMSE for a neural network trained on only ~25 structures, contradicting typical materials-science ML benchmarks."}
+2026-06-29 14:00:59,666 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2026-06-29 14:00:59,668 - INFO - Prediction: Refuted
+2026-06-29 14:00:59,668 - INFO - ✗ Incorrect (True: Supported, Pred: Refuted)
+2026-06-29 14:01:00,169 - INFO - ================================================================================
+2026-06-29 14:01:00,169 - INFO - Processing claim #19 (ID: 2503.05525v1_1_F)
+2026-06-29 14:01:00,170 - INFO - Claim: With approximately 15 structures in the training set, the neural network model achieves an RMSE of 10 meV/atom on the prediction set...
+2026-06-29 14:01:00,170 - INFO - Date: 2025-03-01
+2026-06-29 14:01:00,170 - INFO - Asking model: grok-3 (method: cognitive_bias_aware)
+2026-06-29 14:01:00,170 - INFO - Claim: With approximately 15 structures in the training set, the neural network model achieves an RMSE of 10 meV/atom on the prediction set...
+2026-06-29 14:01:09,846 - INFO - API Response Status: 200
+2026-06-29 14:01:09,847 - INFO - Raw model response: {"label": "Refuted", "brief_reason": "Claim asserts unrealistically strong performance (RMSE 10 meV/atom) from only ~15 training structures, unsupported by typical materials ML benchmarks and flagged by bias signal."}
+2026-06-29 14:01:09,847 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2026-06-29 14:01:09,848 - INFO - Prediction: Refuted
+2026-06-29 14:01:09,848 - INFO - ✓ Correct prediction
+2026-06-29 14:01:10,350 - INFO - ================================================================================
+2026-06-29 14:01:10,351 - INFO - Processing complete: 18 predictions (12 correct, 6 incorrect), 2 failed
+2026-06-29 14:01:10,351 - INFO - Metrics: Accuracy=0.6667, Macro-F1=0.6667
+2026-06-29 14:01:10,355 - INFO - Predictions saved to results\grok-3\matteroffact_bias_all\cognitive_bias_aware\unseen\unseen_predictions.csv
+2026-06-29 14:01:10,357 - INFO - Predictions JSON saved to results\grok-3\matteroffact_bias_all\cognitive_bias_aware\unseen\unseen_predictions.json
+2026-06-29 14:01:10,358 - INFO - Metrics saved to results\grok-3\matteroffact_bias_all\cognitive_bias_aware\unseen\unseen_metrics.json

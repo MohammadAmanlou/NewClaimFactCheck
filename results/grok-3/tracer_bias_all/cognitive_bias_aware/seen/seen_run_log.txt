@@ -1,0 +1,322 @@
+2026-06-29 15:07:39,021 - INFO - Processing 20 samples (limited)
+2026-06-29 15:07:39,021 - INFO - Processing 20 claims...
+2026-06-29 15:07:39,022 - INFO - ================================================================================
+2026-06-29 15:07:39,022 - INFO - Processing claim #0 (ID: tracer_train_0)
+2026-06-29 15:07:39,022 - INFO - Claim: "In the 1990s, the Biden Crime Bill added 100,000 cops to America's streets. As a result, murder and violent crime rates went down eight years in a ro...
+2026-06-29 15:07:39,022 - INFO - Date: 2007-11-02
+2026-06-29 15:07:39,022 - INFO - Asking model: grok-3 (method: cognitive_bias_aware)
+2026-06-29 15:07:39,022 - INFO - Claim: "In the 1990s, the Biden Crime Bill added 100,000 cops to America's streets. As a result, murder and violent crime rates went down eight years in a ro...
+2026-06-29 15:07:39,450 - INFO - API Response Status: 429
+2026-06-29 15:07:39,450 - INFO - Rate limited. Retry 1/5 after 1.5s
+2026-06-29 15:07:41,437 - INFO - API Response Status: 429
+2026-06-29 15:07:41,437 - INFO - Rate limited. Retry 2/5 after 3.0s
+2026-06-29 15:07:44,827 - INFO - API Response Status: 429
+2026-06-29 15:07:44,827 - INFO - Rate limited. Retry 3/5 after 6.0s
+2026-06-29 15:07:51,227 - INFO - API Response Status: 429
+2026-06-29 15:07:51,227 - INFO - Rate limited. Retry 4/5 after 12.0s
+2026-06-29 15:08:03,615 - INFO - API Response Status: 429
+2026-06-29 15:08:03,615 - INFO - Rate limited. Retry 5/5 after 24.0s
+2026-06-29 15:08:28,009 - INFO - API Response Status: 429
+2026-06-29 15:08:28,009 - ERROR - Max retries reached for rate limiting
+2026-06-29 15:08:28,011 - WARNING - Failed to get valid prediction
+2026-06-29 15:08:28,512 - INFO - ================================================================================
+2026-06-29 15:08:28,512 - INFO - Processing claim #1 (ID: tracer_train_1)
+2026-06-29 15:08:28,512 - INFO - Claim: "(Ronald Reagan) raised taxes a billion dollars in his first year as governor of California."...
+2026-06-29 15:08:28,512 - INFO - Date: 2008-01-10
+2026-06-29 15:08:28,512 - INFO - Asking model: grok-3 (method: cognitive_bias_aware)
+2026-06-29 15:08:28,512 - INFO - Claim: "(Ronald Reagan) raised taxes a billion dollars in his first year as governor of California."...
+2026-06-29 15:08:28,944 - INFO - API Response Status: 429
+2026-06-29 15:08:28,944 - INFO - Rate limited. Retry 1/5 after 1.5s
+2026-06-29 15:08:31,109 - INFO - API Response Status: 429
+2026-06-29 15:08:31,109 - INFO - Rate limited. Retry 2/5 after 3.0s
+2026-06-29 15:08:34,466 - INFO - API Response Status: 429
+2026-06-29 15:08:34,466 - INFO - Rate limited. Retry 3/5 after 6.0s
+2026-06-29 15:08:40,833 - INFO - API Response Status: 429
+2026-06-29 15:08:40,834 - INFO - Rate limited. Retry 4/5 after 12.0s
+2026-06-29 15:08:53,242 - INFO - API Response Status: 429
+2026-06-29 15:08:53,242 - INFO - Rate limited. Retry 5/5 after 24.0s
+2026-06-29 15:09:17,711 - INFO - API Response Status: 429
+2026-06-29 15:09:17,711 - ERROR - Max retries reached for rate limiting
+2026-06-29 15:09:17,713 - WARNING - Failed to get valid prediction
+2026-06-29 15:09:18,215 - INFO - ================================================================================
+2026-06-29 15:09:18,215 - INFO - Processing claim #2 (ID: tracer_train_2)
+2026-06-29 15:09:18,215 - INFO - Claim: Hillary Clinton "has the only health care plan that covers every American."...
+2026-06-29 15:09:18,215 - INFO - Date: 2008-02-13
+2026-06-29 15:09:18,215 - INFO - Asking model: grok-3 (method: cognitive_bias_aware)
+2026-06-29 15:09:18,215 - INFO - Claim: Hillary Clinton "has the only health care plan that covers every American."...
+2026-06-29 15:09:18,862 - INFO - API Response Status: 429
+2026-06-29 15:09:18,862 - INFO - Rate limited. Retry 1/5 after 1.5s
+2026-06-29 15:09:20,727 - INFO - API Response Status: 429
+2026-06-29 15:09:20,728 - INFO - Rate limited. Retry 2/5 after 3.0s
+2026-06-29 15:09:24,123 - INFO - API Response Status: 429
+2026-06-29 15:09:24,123 - INFO - Rate limited. Retry 3/5 after 6.0s
+2026-06-29 15:09:30,502 - INFO - API Response Status: 429
+2026-06-29 15:09:30,502 - INFO - Rate limited. Retry 4/5 after 12.0s
+2026-06-29 15:09:43,012 - INFO - API Response Status: 429
+2026-06-29 15:09:43,012 - INFO - Rate limited. Retry 5/5 after 24.0s
+2026-06-29 15:10:07,376 - INFO - API Response Status: 429
+2026-06-29 15:10:07,376 - ERROR - Max retries reached for rate limiting
+2026-06-29 15:10:07,378 - WARNING - Failed to get valid prediction
+2026-06-29 15:10:07,880 - INFO - ================================================================================
+2026-06-29 15:10:07,880 - INFO - Processing claim #3 (ID: tracer_train_3)
+2026-06-29 15:10:07,880 - INFO - Claim: "Joe Biden brought Republicans and Democrats together to pass the 1994 crime bill, putting 100,000 cops on the streets and starting an eight-year drop...
+2026-06-29 15:10:07,880 - INFO - Date: 2008-08-23
+2026-06-29 15:10:07,880 - INFO - Asking model: grok-3 (method: cognitive_bias_aware)
+2026-06-29 15:10:07,880 - INFO - Claim: "Joe Biden brought Republicans and Democrats together to pass the 1994 crime bill, putting 100,000 cops on the streets and starting an eight-year drop...
+2026-06-29 15:10:08,238 - INFO - API Response Status: 429
+2026-06-29 15:10:08,238 - INFO - Rate limited. Retry 1/5 after 1.5s
+2026-06-29 15:10:10,145 - INFO - API Response Status: 429
+2026-06-29 15:10:10,146 - INFO - Rate limited. Retry 2/5 after 3.0s
+2026-06-29 15:10:14,025 - INFO - API Response Status: 429
+2026-06-29 15:10:14,025 - INFO - Rate limited. Retry 3/5 after 6.0s
+2026-06-29 15:10:20,376 - INFO - API Response Status: 429
+2026-06-29 15:10:20,376 - INFO - Rate limited. Retry 4/5 after 12.0s
+2026-06-29 15:10:32,730 - INFO - API Response Status: 429
+2026-06-29 15:10:32,730 - INFO - Rate limited. Retry 5/5 after 24.0s
+2026-06-29 15:10:57,136 - INFO - API Response Status: 429
+2026-06-29 15:10:57,136 - ERROR - Max retries reached for rate limiting
+2026-06-29 15:10:57,138 - WARNING - Failed to get valid prediction
+2026-06-29 15:10:57,639 - INFO - ================================================================================
+2026-06-29 15:10:57,639 - INFO - Processing claim #4 (ID: tracer_train_4)
+2026-06-29 15:10:57,639 - INFO - Claim: "While Sarah was Mayor of Wasilla she tried to fire our highly respected City Librarian because the Librarian refused to consider removing from the li...
+2026-06-29 15:10:57,639 - INFO - Date: 2008-08-31
+2026-06-29 15:10:57,639 - INFO - Asking model: grok-3 (method: cognitive_bias_aware)
+2026-06-29 15:10:57,639 - INFO - Claim: "While Sarah was Mayor of Wasilla she tried to fire our highly respected City Librarian because the Librarian refused to consider removing from the li...
+2026-06-29 15:10:58,015 - INFO - API Response Status: 429
+2026-06-29 15:10:58,015 - INFO - Rate limited. Retry 1/5 after 1.5s
+2026-06-29 15:11:02,681 - INFO - API Response Status: 429
+2026-06-29 15:11:02,681 - INFO - Rate limited. Retry 2/5 after 3.0s
+2026-06-29 15:11:09,525 - INFO - API Response Status: 429
+2026-06-29 15:11:09,525 - INFO - Rate limited. Retry 3/5 after 6.0s
+2026-06-29 15:11:16,178 - INFO - API Response Status: 429
+2026-06-29 15:11:16,178 - INFO - Rate limited. Retry 4/5 after 12.0s
+2026-06-29 15:11:28,814 - INFO - API Response Status: 429
+2026-06-29 15:11:28,814 - INFO - Rate limited. Retry 5/5 after 24.0s
+2026-06-29 15:11:53,375 - INFO - API Response Status: 429
+2026-06-29 15:11:53,375 - ERROR - Max retries reached for rate limiting
+2026-06-29 15:11:53,377 - WARNING - Failed to get valid prediction
+2026-06-29 15:11:53,879 - INFO - ================================================================================
+2026-06-29 15:11:53,879 - INFO - Processing claim #5 (ID: tracer_train_5)
+2026-06-29 15:11:53,879 - INFO - Claim: On the economic troubles of 2008, "really the match that lit this fire was Fannie Mae and Freddie Mac."...
+2026-06-29 15:11:53,879 - INFO - Date: 2008-10-07
+2026-06-29 15:11:53,879 - INFO - Asking model: grok-3 (method: cognitive_bias_aware)
+2026-06-29 15:11:53,879 - INFO - Claim: On the economic troubles of 2008, "really the match that lit this fire was Fannie Mae and Freddie Mac."...
+2026-06-29 15:11:54,273 - INFO - API Response Status: 429
+2026-06-29 15:11:54,273 - INFO - Rate limited. Retry 1/5 after 1.5s
+2026-06-29 15:11:56,160 - INFO - API Response Status: 429
+2026-06-29 15:11:56,160 - INFO - Rate limited. Retry 2/5 after 3.0s
+2026-06-29 15:11:59,585 - INFO - API Response Status: 429
+2026-06-29 15:11:59,586 - INFO - Rate limited. Retry 3/5 after 6.0s
+2026-06-29 15:12:05,977 - INFO - API Response Status: 429
+2026-06-29 15:12:05,977 - INFO - Rate limited. Retry 4/5 after 12.0s
+2026-06-29 15:12:18,394 - INFO - API Response Status: 429
+2026-06-29 15:12:18,394 - INFO - Rate limited. Retry 5/5 after 24.0s
+2026-06-29 15:12:42,762 - INFO - API Response Status: 429
+2026-06-29 15:12:42,762 - ERROR - Max retries reached for rate limiting
+2026-06-29 15:12:42,763 - WARNING - Failed to get valid prediction
+2026-06-29 15:12:43,265 - INFO - ================================================================================
+2026-06-29 15:12:43,265 - INFO - Processing claim #6 (ID: tracer_train_6)
+2026-06-29 15:12:43,265 - INFO - Claim: "In April, Sen. McCain came out against helping women earn equal pay for equal work."...
+2026-06-29 15:12:43,265 - INFO - Date: 2008-10-20
+2026-06-29 15:12:43,265 - INFO - Asking model: grok-3 (method: cognitive_bias_aware)
+2026-06-29 15:12:43,265 - INFO - Claim: "In April, Sen. McCain came out against helping women earn equal pay for equal work."...
+2026-06-29 15:12:43,621 - INFO - API Response Status: 429
+2026-06-29 15:12:43,622 - INFO - Rate limited. Retry 1/5 after 1.5s
+2026-06-29 15:12:45,479 - INFO - API Response Status: 429
+2026-06-29 15:12:45,479 - INFO - Rate limited. Retry 2/5 after 3.0s
+2026-06-29 15:12:48,847 - INFO - API Response Status: 429
+2026-06-29 15:12:48,847 - INFO - Rate limited. Retry 3/5 after 6.0s
+2026-06-29 15:12:55,651 - INFO - API Response Status: 429
+2026-06-29 15:12:55,651 - INFO - Rate limited. Retry 4/5 after 12.0s
+2026-06-29 15:13:08,039 - INFO - API Response Status: 429
+2026-06-29 15:13:08,039 - INFO - Rate limited. Retry 5/5 after 24.0s
+2026-06-29 15:13:32,440 - INFO - API Response Status: 429
+2026-06-29 15:13:32,440 - ERROR - Max retries reached for rate limiting
+2026-06-29 15:13:32,442 - WARNING - Failed to get valid prediction
+2026-06-29 15:13:32,943 - INFO - ================================================================================
+2026-06-29 15:13:32,943 - INFO - Processing claim #7 (ID: tracer_train_7)
+2026-06-29 15:13:32,943 - INFO - Claim: "There are no earmarks" in the stimulus bill....
+2026-06-29 15:13:32,943 - INFO - Date: 2009-02-02
+2026-06-29 15:13:32,943 - INFO - Asking model: grok-3 (method: cognitive_bias_aware)
+2026-06-29 15:13:32,943 - INFO - Claim: "There are no earmarks" in the stimulus bill....
+2026-06-29 15:13:33,331 - INFO - API Response Status: 429
+2026-06-29 15:13:33,331 - INFO - Rate limited. Retry 1/5 after 1.5s
+2026-06-29 15:13:35,208 - INFO - API Response Status: 429
+2026-06-29 15:13:35,209 - INFO - Rate limited. Retry 2/5 after 3.0s
+2026-06-29 15:13:46,180 - INFO - API Response Status: 429
+2026-06-29 15:13:46,181 - INFO - Rate limited. Retry 3/5 after 6.0s
+2026-06-29 15:13:52,552 - INFO - API Response Status: 429
+2026-06-29 15:13:52,552 - INFO - Rate limited. Retry 4/5 after 12.0s
+2026-06-29 15:14:04,945 - INFO - API Response Status: 429
+2026-06-29 15:14:04,945 - INFO - Rate limited. Retry 5/5 after 24.0s
+2026-06-29 15:14:29,342 - INFO - API Response Status: 429
+2026-06-29 15:14:29,342 - ERROR - Max retries reached for rate limiting
+2026-06-29 15:14:29,344 - WARNING - Failed to get valid prediction
+2026-06-29 15:14:29,846 - INFO - ================================================================================
+2026-06-29 15:14:29,847 - INFO - Processing claim #8 (ID: tracer_train_8)
+2026-06-29 15:14:29,847 - INFO - Claim: "A new poll shows 62 percent support the president's plan to reform health care. That means ... letting you choose between keeping the private insuran...
+2026-06-29 15:14:29,847 - INFO - Date: 2009-06-14
+2026-06-29 15:14:29,847 - INFO - Asking model: grok-3 (method: cognitive_bias_aware)
+2026-06-29 15:14:29,847 - INFO - Claim: "A new poll shows 62 percent support the president's plan to reform health care. That means ... letting you choose between keeping the private insuran...
+2026-06-29 15:14:30,194 - INFO - API Response Status: 429
+2026-06-29 15:14:30,194 - INFO - Rate limited. Retry 1/5 after 1.5s
+2026-06-29 15:14:32,137 - INFO - API Response Status: 429
+2026-06-29 15:14:32,137 - INFO - Rate limited. Retry 2/5 after 3.0s
+2026-06-29 15:14:35,550 - INFO - API Response Status: 429
+2026-06-29 15:14:35,550 - INFO - Rate limited. Retry 3/5 after 6.0s
+2026-06-29 15:14:41,957 - INFO - API Response Status: 429
+2026-06-29 15:14:41,957 - INFO - Rate limited. Retry 4/5 after 12.0s
+2026-06-29 15:14:54,340 - INFO - API Response Status: 429
+2026-06-29 15:14:54,340 - INFO - Rate limited. Retry 5/5 after 24.0s
+2026-06-29 15:15:18,729 - INFO - API Response Status: 429
+2026-06-29 15:15:18,730 - ERROR - Max retries reached for rate limiting
+2026-06-29 15:15:18,731 - WARNING - Failed to get valid prediction
+2026-06-29 15:15:19,233 - INFO - ================================================================================
+2026-06-29 15:15:19,233 - INFO - Processing claim #9 (ID: tracer_train_9)
+2026-06-29 15:15:19,233 - INFO - Claim: Health insurance companies are "making record profits, right now."...
+2026-06-29 15:15:19,233 - INFO - Date: 2009-07-22
+2026-06-29 15:15:19,233 - INFO - Asking model: grok-3 (method: cognitive_bias_aware)
+2026-06-29 15:15:19,233 - INFO - Claim: Health insurance companies are "making record profits, right now."...
+2026-06-29 15:15:19,853 - INFO - API Response Status: 429
+2026-06-29 15:15:19,854 - INFO - Rate limited. Retry 1/5 after 1.5s
+2026-06-29 15:15:21,971 - INFO - API Response Status: 429
+2026-06-29 15:15:21,972 - INFO - Rate limited. Retry 2/5 after 3.0s
+2026-06-29 15:15:25,349 - INFO - API Response Status: 429
+2026-06-29 15:15:25,349 - INFO - Rate limited. Retry 3/5 after 6.0s
+2026-06-29 15:15:31,703 - INFO - API Response Status: 429
+2026-06-29 15:15:31,704 - INFO - Rate limited. Retry 4/5 after 12.0s
+2026-06-29 15:15:46,210 - INFO - API Response Status: 429
+2026-06-29 15:15:46,210 - INFO - Rate limited. Retry 5/5 after 24.0s
+2026-06-29 15:16:10,594 - INFO - API Response Status: 429
+2026-06-29 15:16:10,594 - ERROR - Max retries reached for rate limiting
+2026-06-29 15:16:10,595 - WARNING - Failed to get valid prediction
+2026-06-29 15:16:11,097 - INFO - ================================================================================
+2026-06-29 15:16:11,097 - INFO - Processing claim #10 (ID: tracer_train_10)
+2026-06-29 15:16:11,097 - INFO - Claim: "There's no rationing in any of these bills."...
+2026-06-29 15:16:11,097 - INFO - Date: 2009-08-09
+2026-06-29 15:16:11,097 - INFO - Asking model: grok-3 (method: cognitive_bias_aware)
+2026-06-29 15:16:11,097 - INFO - Claim: "There's no rationing in any of these bills."...
+2026-06-29 15:16:11,525 - INFO - API Response Status: 429
+2026-06-29 15:16:11,525 - INFO - Rate limited. Retry 1/5 after 1.5s
+2026-06-29 15:16:13,407 - INFO - API Response Status: 429
+2026-06-29 15:16:13,407 - INFO - Rate limited. Retry 2/5 after 3.0s
+2026-06-29 15:16:16,830 - INFO - API Response Status: 429
+2026-06-29 15:16:16,830 - INFO - Rate limited. Retry 3/5 after 6.0s
+2026-06-29 15:16:23,215 - INFO - API Response Status: 429
+2026-06-29 15:16:23,215 - INFO - Rate limited. Retry 4/5 after 12.0s
+2026-06-29 15:16:35,569 - INFO - API Response Status: 429
+2026-06-29 15:16:35,569 - INFO - Rate limited. Retry 5/5 after 24.0s
+2026-06-29 15:17:00,060 - INFO - API Response Status: 429
+2026-06-29 15:17:00,060 - ERROR - Max retries reached for rate limiting
+2026-06-29 15:17:00,061 - WARNING - Failed to get valid prediction
+2026-06-29 15:17:00,562 - INFO - ================================================================================
+2026-06-29 15:17:00,563 - INFO - Processing claim #11 (ID: tracer_train_11)
+2026-06-29 15:17:00,563 - INFO - Claim: The health bill's plan for comparative effectiveness research "would be used by the government to ration care."...
+2026-06-29 15:17:00,563 - INFO - Date: 2009-08-18
+2026-06-29 15:17:00,563 - INFO - Asking model: grok-3 (method: cognitive_bias_aware)
+2026-06-29 15:17:00,563 - INFO - Claim: The health bill's plan for comparative effectiveness research "would be used by the government to ration care."...
+2026-06-29 15:17:00,940 - INFO - API Response Status: 429
+2026-06-29 15:17:00,940 - INFO - Rate limited. Retry 1/5 after 1.5s
+2026-06-29 15:17:02,814 - INFO - API Response Status: 429
+2026-06-29 15:17:02,814 - INFO - Rate limited. Retry 2/5 after 3.0s
+2026-06-29 15:17:06,180 - INFO - API Response Status: 429
+2026-06-29 15:17:06,180 - INFO - Rate limited. Retry 3/5 after 6.0s
+2026-06-29 15:17:12,548 - INFO - API Response Status: 429
+2026-06-29 15:17:12,548 - INFO - Rate limited. Retry 4/5 after 12.0s
+2026-06-29 15:17:24,917 - INFO - API Response Status: 429
+2026-06-29 15:17:24,917 - INFO - Rate limited. Retry 5/5 after 24.0s
+2026-06-29 15:17:49,268 - INFO - API Response Status: 429
+2026-06-29 15:17:49,268 - ERROR - Max retries reached for rate limiting
+2026-06-29 15:17:49,270 - WARNING - Failed to get valid prediction
+2026-06-29 15:17:49,771 - INFO - ================================================================================
+2026-06-29 15:17:49,771 - INFO - Processing claim #12 (ID: tracer_train_12)
+2026-06-29 15:17:49,771 - INFO - Claim: "I signed the largest single tax cut in the history of Florida, a $25 billion tax cut over five years, directed at property tax cuts."...
+2026-06-29 15:17:49,771 - INFO - Date: 2009-09-25
+2026-06-29 15:17:49,771 - INFO - Asking model: grok-3 (method: cognitive_bias_aware)
+2026-06-29 15:17:49,772 - INFO - Claim: "I signed the largest single tax cut in the history of Florida, a $25 billion tax cut over five years, directed at property tax cuts."...
+2026-06-29 15:17:50,136 - INFO - API Response Status: 429
+2026-06-29 15:17:50,136 - INFO - Rate limited. Retry 1/5 after 1.5s
+2026-06-29 15:17:51,978 - INFO - API Response Status: 429
+2026-06-29 15:17:51,978 - INFO - Rate limited. Retry 2/5 after 3.0s
+2026-06-29 15:17:55,374 - INFO - API Response Status: 429
+2026-06-29 15:17:55,374 - INFO - Rate limited. Retry 3/5 after 6.0s
+2026-06-29 15:18:01,730 - INFO - API Response Status: 429
+2026-06-29 15:18:01,731 - INFO - Rate limited. Retry 4/5 after 12.0s
+2026-06-29 15:18:14,197 - INFO - API Response Status: 429
+2026-06-29 15:18:14,197 - INFO - Rate limited. Retry 5/5 after 24.0s
+2026-06-29 15:18:38,591 - INFO - API Response Status: 429
+2026-06-29 15:18:38,591 - ERROR - Max retries reached for rate limiting
+2026-06-29 15:18:38,593 - WARNING - Failed to get valid prediction
+2026-06-29 15:18:39,094 - INFO - ================================================================================
+2026-06-29 15:18:39,094 - INFO - Processing claim #13 (ID: tracer_train_13)
+2026-06-29 15:18:39,094 - INFO - Claim: "Fifty-seven" of  Rubio's 100 ideas "ultimately became law."...
+2026-06-29 15:18:39,094 - INFO - Date: 2009-11-04
+2026-06-29 15:18:39,094 - INFO - Asking model: grok-3 (method: cognitive_bias_aware)
+2026-06-29 15:18:39,094 - INFO - Claim: "Fifty-seven" of  Rubio's 100 ideas "ultimately became law."...
+2026-06-29 15:18:43,441 - INFO - API Response Status: 429
+2026-06-29 15:18:43,441 - INFO - Rate limited. Retry 1/5 after 1.5s
+2026-06-29 15:18:45,329 - INFO - API Response Status: 429
+2026-06-29 15:18:45,329 - INFO - Rate limited. Retry 2/5 after 3.0s
+2026-06-29 15:18:48,688 - INFO - API Response Status: 429
+2026-06-29 15:18:48,688 - INFO - Rate limited. Retry 3/5 after 6.0s
+2026-06-29 15:18:55,078 - INFO - API Response Status: 429
+2026-06-29 15:18:55,079 - INFO - Rate limited. Retry 4/5 after 12.0s
+2026-06-29 15:19:07,431 - INFO - API Response Status: 429
+2026-06-29 15:19:07,431 - INFO - Rate limited. Retry 5/5 after 24.0s
+2026-06-29 15:19:31,786 - INFO - API Response Status: 429
+2026-06-29 15:19:31,786 - ERROR - Max retries reached for rate limiting
+2026-06-29 15:19:31,788 - WARNING - Failed to get valid prediction
+2026-06-29 15:19:32,290 - INFO - ================================================================================
+2026-06-29 15:19:32,290 - INFO - Processing claim #14 (ID: tracer_train_14)
+2026-06-29 15:19:32,290 - INFO - Claim: President Obama "doesn't ... want to admit we're at war."...
+2026-06-29 15:19:32,290 - INFO - Date: 2009-12-30
+2026-06-29 15:19:32,290 - INFO - Asking model: grok-3 (method: cognitive_bias_aware)
+2026-06-29 15:19:32,290 - INFO - Claim: President Obama "doesn't ... want to admit we're at war."...
+2026-06-29 15:19:32,726 - INFO - API Response Status: 429
+2026-06-29 15:19:32,726 - INFO - Rate limited. Retry 1/5 after 1.5s
+2026-06-29 15:19:39,861 - INFO - API Response Status: 429
+2026-06-29 15:19:39,861 - INFO - Rate limited. Retry 2/5 after 3.0s
+2026-06-29 15:19:43,228 - INFO - API Response Status: 429
+2026-06-29 15:19:43,228 - INFO - Rate limited. Retry 3/5 after 6.0s
+2026-06-29 15:19:49,609 - INFO - API Response Status: 429
+2026-06-29 15:19:49,610 - INFO - Rate limited. Retry 4/5 after 12.0s
+2026-06-29 15:20:01,964 - INFO - API Response Status: 429
+2026-06-29 15:20:01,964 - INFO - Rate limited. Retry 5/5 after 24.0s
+2026-06-29 15:20:26,338 - INFO - API Response Status: 429
+2026-06-29 15:20:26,338 - ERROR - Max retries reached for rate limiting
+2026-06-29 15:20:26,339 - WARNING - Failed to get valid prediction
+2026-06-29 15:20:26,841 - INFO - ================================================================================
+2026-06-29 15:20:26,841 - INFO - Processing claim #15 (ID: tracer_train_15)
+2026-06-29 15:20:26,841 - INFO - Claim: "Governor (Perry), you were a Democrat, having worked for Al Gore as his campaign manager..."...
+2026-06-29 15:20:26,841 - INFO - Date: 2010-01-14
+2026-06-29 15:20:26,841 - INFO - Asking model: grok-3 (method: cognitive_bias_aware)
+2026-06-29 15:20:26,841 - INFO - Claim: "Governor (Perry), you were a Democrat, having worked for Al Gore as his campaign manager..."...
+2026-06-29 15:20:27,251 - INFO - API Response Status: 429
+2026-06-29 15:20:27,251 - INFO - Rate limited. Retry 1/5 after 1.5s
+2026-06-29 15:20:29,578 - INFO - API Response Status: 429
+2026-06-29 15:20:29,578 - INFO - Rate limited. Retry 2/5 after 3.0s
+2026-06-29 15:20:33,056 - INFO - API Response Status: 429
+2026-06-29 15:20:33,056 - INFO - Rate limited. Retry 3/5 after 6.0s
+2026-06-29 15:20:39,431 - INFO - API Response Status: 429
+2026-06-29 15:20:39,431 - INFO - Rate limited. Retry 4/5 after 12.0s
+2026-06-29 15:20:51,814 - INFO - API Response Status: 429
+2026-06-29 15:20:51,814 - INFO - Rate limited. Retry 5/5 after 24.0s
+2026-06-29 15:21:16,175 - INFO - API Response Status: 429
+2026-06-29 15:21:16,176 - ERROR - Max retries reached for rate limiting
+2026-06-29 15:21:16,177 - WARNING - Failed to get valid prediction
+2026-06-29 15:21:16,678 - INFO - ================================================================================
+2026-06-29 15:21:16,679 - INFO - Processing claim #16 (ID: tracer_train_16)
+2026-06-29 15:21:16,679 - INFO - Claim: "Amendment 4 will reduce Florida’s economic output by $34 billion annually."...
+2026-06-29 15:21:16,679 - INFO - Date: 2010-01-21
+2026-06-29 15:21:16,679 - INFO - Asking model: grok-3 (method: cognitive_bias_aware)
+2026-06-29 15:21:16,679 - INFO - Claim: "Amendment 4 will reduce Florida’s economic output by $34 billion annually."...
+2026-06-29 15:21:17,015 - INFO - API Response Status: 429
+2026-06-29 15:21:17,016 - INFO - Rate limited. Retry 1/5 after 1.5s
+2026-06-29 15:21:18,886 - INFO - API Response Status: 429
+2026-06-29 15:21:18,886 - INFO - Rate limited. Retry 2/5 after 3.0s
+2026-06-29 15:21:22,347 - INFO - API Response Status: 429
+2026-06-29 15:21:22,347 - INFO - Rate limited. Retry 3/5 after 6.0s
+2026-06-29 15:21:28,722 - INFO - API Response Status: 429
+2026-06-29 15:21:28,722 - INFO - Rate limited. Retry 4/5 after 12.0s
+2026-06-29 15:21:41,103 - INFO - API Response Status: 429
+2026-06-29 15:21:41,103 - INFO - Rate limited. Retry 5/5 after 24.0s

@@ -1,0 +1,113 @@
+{
+    "experiment_info": {
+        "dataset": "tracer_bias_all",
+        "model": "grok-3",
+        "temporal_split_date": "2025-02-18",
+        "canonical_labels": [
+            "Supported",
+            "Half-True",
+            "Refuted"
+        ],
+        "balanced_sampling": true,
+        "sampling_seed": 42,
+        "prompt_method": "naive",
+        "timestamp": "2026-06-29T14:36:38.324546"
+    },
+    "seen_data": {
+        "accuracy": 0.5,
+        "macro_precision": 0.75,
+        "macro_recall": 0.65,
+        "macro_f1": 0.5641,
+        "total_samples": 14,
+        "correct_predictions": 7,
+        "per_label_metrics": {
+            "Supported": {
+                "precision": 0.5,
+                "recall": 1.0,
+                "f1": 0.6667,
+                "support": 1
+            },
+            "Refuted": {
+                "precision": 1.0,
+                "recall": 0.3,
+                "f1": 0.4615,
+                "support": 10
+            }
+        },
+        "nei_prediction_rate": 0.0,
+        "false_nei_rate": 0.0
+    },
+    "unseen_data": {
+        "error": "No valid results"
+    },
+    "comparison": {
+        "seen_metrics": {
+            "accuracy": 0.5,
+            "macro_precision": 0.75,
+            "macro_recall": 0.65,
+            "macro_f1": 0.5641,
+            "total_samples": 14,
+            "correct_predictions": 7,
+            "per_label_metrics": {
+                "Supported": {
+                    "precision": 0.5,
+                    "recall": 1.0,
+                    "f1": 0.6667,
+                    "support": 1
+                },
+                "Refuted": {
+                    "precision": 1.0,
+                    "recall": 0.3,
+                    "f1": 0.4615,
+                    "support": 10
+                }
+            },
+            "nei_prediction_rate": 0.0,
+            "false_nei_rate": 0.0
+        },
+        "unseen_metrics": {
+            "error": "No valid results"
+        },
+        "statistical_tests": "Insufficient data for statistical testing",
+        "accuracy_difference": -0.5,
+        "sampling_info": {
+            "enabled": true,
+            "stage": "post_inference",
+            "strategy": "label_stratified_seen_unseen_balance_after_prediction",
+            "method": "naive",
+            "seed": 42,
+            "original_seen_count": 20,
+            "original_unseen_count": 17,
+            "sampled_seen_count": 15,
+            "sampled_unseen_count": 15,
+            "labels": [
+                "Supported",
+                "Half-True",
+                "Refuted"
+            ],
+            "per_label_info": {
+                "Supported": {
+                    "original_seen": 2,
+                    "original_unseen": 1,
+                    "sampled_seen": 1,
+                    "sampled_unseen": 1
+                },
+                "Half-True": {
+                    "original_seen": 7,
+                    "original_unseen": 3,
+                    "sampled_seen": 3,
+                    "sampled_unseen": 3
+                },
+                "Refuted": {
+                    "original_seen": 11,
+                    "original_unseen": 13,
+                    "sampled_seen": 11,
+                    "sampled_unseen": 11
+                }
+            },
+            "timestamp": "2026-06-29T14:36:38.290290"
+        },
+        "prompt_method": "naive",
+        "evaluation_mode": "posthoc_label_stratified_balanced"
+    }
+}

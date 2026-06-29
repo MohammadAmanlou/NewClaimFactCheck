@@ -1,0 +1,7 @@
+2026-06-29 13:39:07,550 - INFO - Processing 0 claims...
+2026-06-29 13:39:07,551 - INFO - ================================================================================
+2026-06-29 13:39:07,551 - INFO - Processing complete: 0 predictions (0 correct, 0 incorrect), 0 failed
+2026-06-29 13:39:07,551 - WARNING - No valid results for metric calculation
+2026-06-29 13:39:07,552 - INFO - Predictions saved to results\grok-3\crp_bias_all\strong_baseline_short\unseen\unseen_predictions.csv
+2026-06-29 13:39:07,553 - INFO - Predictions JSON saved to results\grok-3\crp_bias_all\strong_baseline_short\unseen\unseen_predictions.json
+2026-06-29 13:39:07,553 - INFO - Metrics saved to results\grok-3\crp_bias_all\strong_baseline_short\unseen\unseen_metrics.json

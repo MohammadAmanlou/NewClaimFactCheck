@@ -1,0 +1,329 @@
+2026-06-29 14:21:34,239 - INFO - Processing 17 claims...
+2026-06-29 14:21:34,239 - INFO - ================================================================================
+2026-06-29 14:21:34,239 - INFO - Processing claim #0 (ID: tracer_test_14977)
+2026-06-29 14:21:34,239 - INFO - Claim: The Chicago Cubs owner is bankrolling Brad Schimel....
+2026-06-29 14:21:34,239 - INFO - Date: 2025-02-18
+2026-06-29 14:21:34,240 - INFO - Asking model: grok-3 (method: naive)
+2026-06-29 14:21:34,240 - INFO - Claim: The Chicago Cubs owner is bankrolling Brad Schimel....
+2026-06-29 14:21:34,887 - INFO - API Response Status: 429
+2026-06-29 14:21:34,888 - INFO - Rate limited. Retry 1/5 after 1.5s
+2026-06-29 14:21:37,008 - INFO - API Response Status: 429
+2026-06-29 14:21:37,008 - INFO - Rate limited. Retry 2/5 after 3.0s
+2026-06-29 14:21:40,362 - INFO - API Response Status: 429
+2026-06-29 14:21:40,362 - INFO - Rate limited. Retry 3/5 after 6.0s
+2026-06-29 14:21:46,978 - INFO - API Response Status: 429
+2026-06-29 14:21:46,978 - INFO - Rate limited. Retry 4/5 after 12.0s
+2026-06-29 14:21:59,338 - INFO - API Response Status: 429
+2026-06-29 14:21:59,338 - INFO - Rate limited. Retry 5/5 after 24.0s
+2026-06-29 14:22:23,706 - INFO - API Response Status: 429
+2026-06-29 14:22:23,706 - ERROR - Max retries reached for rate limiting
+2026-06-29 14:22:23,708 - WARNING - Failed to get valid prediction
+2026-06-29 14:22:24,209 - INFO - ================================================================================
+2026-06-29 14:22:24,209 - INFO - Processing claim #1 (ID: tracer_test_14978)
+2026-06-29 14:22:24,210 - INFO - Claim: Former President Joe Biden “fired” 14,000 Keystone XL pipeline workers “​​on day one” of his administration....
+2026-06-29 14:22:24,210 - INFO - Date: 2025-02-18
+2026-06-29 14:22:24,210 - INFO - Asking model: grok-3 (method: naive)
+2026-06-29 14:22:24,210 - INFO - Claim: Former President Joe Biden “fired” 14,000 Keystone XL pipeline workers “​​on day one” of his administration....
+2026-06-29 14:22:24,595 - INFO - API Response Status: 429
+2026-06-29 14:22:24,595 - INFO - Rate limited. Retry 1/5 after 1.5s
+2026-06-29 14:22:26,499 - INFO - API Response Status: 429
+2026-06-29 14:22:26,499 - INFO - Rate limited. Retry 2/5 after 3.0s
+2026-06-29 14:22:29,869 - INFO - API Response Status: 429
+2026-06-29 14:22:29,870 - INFO - Rate limited. Retry 3/5 after 6.0s
+2026-06-29 14:22:36,241 - INFO - API Response Status: 429
+2026-06-29 14:22:36,241 - INFO - Rate limited. Retry 4/5 after 12.0s
+2026-06-29 14:22:48,655 - INFO - API Response Status: 429
+2026-06-29 14:22:48,656 - INFO - Rate limited. Retry 5/5 after 24.0s
+2026-06-29 14:23:13,041 - INFO - API Response Status: 429
+2026-06-29 14:23:13,041 - ERROR - Max retries reached for rate limiting
+2026-06-29 14:23:13,043 - WARNING - Failed to get valid prediction
+2026-06-29 14:23:13,545 - INFO - ================================================================================
+2026-06-29 14:23:13,545 - INFO - Processing claim #2 (ID: tracer_test_14979)
+2026-06-29 14:23:13,545 - INFO - Claim: “I am not making this up: Republicans have introduced legislation … to increase your bank fees."...
+2026-06-29 14:23:13,545 - INFO - Date: 2025-02-18
+2026-06-29 14:23:13,545 - INFO - Asking model: grok-3 (method: naive)
+2026-06-29 14:23:13,545 - INFO - Claim: “I am not making this up: Republicans have introduced legislation … to increase your bank fees."...
+2026-06-29 14:23:13,916 - INFO - API Response Status: 429
+2026-06-29 14:23:13,916 - INFO - Rate limited. Retry 1/5 after 1.5s
+2026-06-29 14:23:15,848 - INFO - API Response Status: 429
+2026-06-29 14:23:15,848 - INFO - Rate limited. Retry 2/5 after 3.0s
+2026-06-29 14:23:19,193 - INFO - API Response Status: 429
+2026-06-29 14:23:19,193 - INFO - Rate limited. Retry 3/5 after 6.0s
+2026-06-29 14:23:25,794 - INFO - API Response Status: 429
+2026-06-29 14:23:25,794 - INFO - Rate limited. Retry 4/5 after 12.0s
+2026-06-29 14:23:38,143 - INFO - API Response Status: 429
+2026-06-29 14:23:38,143 - INFO - Rate limited. Retry 5/5 after 24.0s
+2026-06-29 14:24:02,777 - INFO - API Response Status: 429
+2026-06-29 14:24:02,777 - ERROR - Max retries reached for rate limiting
+2026-06-29 14:24:02,779 - WARNING - Failed to get valid prediction
+2026-06-29 14:24:03,280 - INFO - ================================================================================
+2026-06-29 14:24:03,280 - INFO - Processing claim #3 (ID: tracer_test_14980)
+2026-06-29 14:24:03,280 - INFO - Claim: Volodymyr Zelenskyy “started” the war in Ukraine with Russia....
+2026-06-29 14:24:03,280 - INFO - Date: 2025-02-18
+2026-06-29 14:24:03,280 - INFO - Asking model: grok-3 (method: naive)
+2026-06-29 14:24:03,280 - INFO - Claim: Volodymyr Zelenskyy “started” the war in Ukraine with Russia....
+2026-06-29 14:24:03,641 - INFO - API Response Status: 429
+2026-06-29 14:24:03,641 - INFO - Rate limited. Retry 1/5 after 1.5s
+2026-06-29 14:24:05,502 - INFO - API Response Status: 429
+2026-06-29 14:24:05,502 - INFO - Rate limited. Retry 2/5 after 3.0s
+2026-06-29 14:24:08,868 - INFO - API Response Status: 429
+2026-06-29 14:24:08,868 - INFO - Rate limited. Retry 3/5 after 6.0s
+2026-06-29 14:24:15,326 - INFO - API Response Status: 429
+2026-06-29 14:24:15,326 - INFO - Rate limited. Retry 4/5 after 12.0s
+2026-06-29 14:24:27,919 - INFO - API Response Status: 429
+2026-06-29 14:24:27,919 - INFO - Rate limited. Retry 5/5 after 24.0s
+2026-06-29 14:24:52,305 - INFO - API Response Status: 429
+2026-06-29 14:24:52,305 - ERROR - Max retries reached for rate limiting
+2026-06-29 14:24:52,307 - WARNING - Failed to get valid prediction
+2026-06-29 14:24:52,809 - INFO - ================================================================================
+2026-06-29 14:24:52,809 - INFO - Processing claim #4 (ID: tracer_test_14981)
+2026-06-29 14:24:52,809 - INFO - Claim: “90% of the (school) districts in Wisconsin already have a policy” banning cellphones during class time....
+2026-06-29 14:24:52,810 - INFO - Date: 2025-02-19
+2026-06-29 14:24:52,810 - INFO - Asking model: grok-3 (method: naive)
+2026-06-29 14:24:52,810 - INFO - Claim: “90% of the (school) districts in Wisconsin already have a policy” banning cellphones during class time....
+2026-06-29 14:24:53,167 - INFO - API Response Status: 429
+2026-06-29 14:24:53,167 - INFO - Rate limited. Retry 1/5 after 1.5s
+2026-06-29 14:24:55,045 - INFO - API Response Status: 429
+2026-06-29 14:24:55,045 - INFO - Rate limited. Retry 2/5 after 3.0s
+2026-06-29 14:24:58,562 - INFO - API Response Status: 429
+2026-06-29 14:24:58,562 - INFO - Rate limited. Retry 3/5 after 6.0s
+2026-06-29 14:25:04,913 - INFO - API Response Status: 429
+2026-06-29 14:25:04,913 - INFO - Rate limited. Retry 4/5 after 12.0s
+2026-06-29 14:25:17,534 - INFO - API Response Status: 429
+2026-06-29 14:25:17,534 - INFO - Rate limited. Retry 5/5 after 24.0s
+2026-06-29 14:25:42,272 - INFO - API Response Status: 429
+2026-06-29 14:25:42,273 - ERROR - Max retries reached for rate limiting
+2026-06-29 14:25:42,274 - WARNING - Failed to get valid prediction
+2026-06-29 14:25:42,776 - INFO - ================================================================================
+2026-06-29 14:25:42,776 - INFO - Processing claim #5 (ID: tracer_test_14982)
+2026-06-29 14:25:42,776 - INFO - Claim: “Stacey Abrams stole $2 BILLION from taxpayers.”...
+2026-06-29 14:25:42,776 - INFO - Date: 2025-02-19
+2026-06-29 14:25:42,776 - INFO - Asking model: grok-3 (method: naive)
+2026-06-29 14:25:42,776 - INFO - Claim: “Stacey Abrams stole $2 BILLION from taxpayers.”...
+2026-06-29 14:25:43,160 - INFO - API Response Status: 429
+2026-06-29 14:25:43,160 - INFO - Rate limited. Retry 1/5 after 1.5s
+2026-06-29 14:25:45,017 - INFO - API Response Status: 429
+2026-06-29 14:25:45,017 - INFO - Rate limited. Retry 2/5 after 3.0s
+2026-06-29 14:25:48,396 - INFO - API Response Status: 429
+2026-06-29 14:25:48,396 - INFO - Rate limited. Retry 3/5 after 6.0s
+2026-06-29 14:25:54,752 - INFO - API Response Status: 429
+2026-06-29 14:25:54,752 - INFO - Rate limited. Retry 4/5 after 12.0s
+2026-06-29 14:26:07,157 - INFO - API Response Status: 429
+2026-06-29 14:26:07,157 - INFO - Rate limited. Retry 5/5 after 24.0s
+2026-06-29 14:26:31,556 - INFO - API Response Status: 429
+2026-06-29 14:26:31,556 - ERROR - Max retries reached for rate limiting
+2026-06-29 14:26:31,558 - WARNING - Failed to get valid prediction
+2026-06-29 14:26:32,060 - INFO - ================================================================================
+2026-06-29 14:26:32,060 - INFO - Processing claim #6 (ID: tracer_test_14983)
+2026-06-29 14:26:32,060 - INFO - Claim: “The single biggest driver of our national debt since 2001 has been Republican tax cuts.”...
+2026-06-29 14:26:32,060 - INFO - Date: 2025-02-20
+2026-06-29 14:26:32,060 - INFO - Asking model: grok-3 (method: naive)
+2026-06-29 14:26:32,060 - INFO - Claim: “The single biggest driver of our national debt since 2001 has been Republican tax cuts.”...
+2026-06-29 14:26:32,421 - INFO - API Response Status: 429
+2026-06-29 14:26:32,421 - INFO - Rate limited. Retry 1/5 after 1.5s
+2026-06-29 14:26:34,321 - INFO - API Response Status: 429
+2026-06-29 14:26:34,321 - INFO - Rate limited. Retry 2/5 after 3.0s
+2026-06-29 14:26:38,033 - INFO - API Response Status: 429
+2026-06-29 14:26:38,033 - INFO - Rate limited. Retry 3/5 after 6.0s
+2026-06-29 14:26:44,399 - INFO - API Response Status: 429
+2026-06-29 14:26:44,399 - INFO - Rate limited. Retry 4/5 after 12.0s
+2026-06-29 14:26:57,026 - INFO - API Response Status: 429
+2026-06-29 14:26:57,026 - INFO - Rate limited. Retry 5/5 after 24.0s
+2026-06-29 14:27:21,662 - INFO - API Response Status: 429
+2026-06-29 14:27:21,663 - ERROR - Max retries reached for rate limiting
+2026-06-29 14:27:21,664 - WARNING - Failed to get valid prediction
+2026-06-29 14:27:22,166 - INFO - ================================================================================
+2026-06-29 14:27:22,166 - INFO - Processing claim #7 (ID: tracer_test_14984)
+2026-06-29 14:27:22,166 - INFO - Claim: “You either have XX or XY chromosomes. Those are the options.”...
+2026-06-29 14:27:22,166 - INFO - Date: 2025-02-20
+2026-06-29 14:27:22,166 - INFO - Asking model: grok-3 (method: naive)
+2026-06-29 14:27:22,166 - INFO - Claim: “You either have XX or XY chromosomes. Those are the options.”...
+2026-06-29 14:27:22,590 - INFO - API Response Status: 429
+2026-06-29 14:27:22,590 - INFO - Rate limited. Retry 1/5 after 1.5s
+2026-06-29 14:27:24,448 - INFO - API Response Status: 429
+2026-06-29 14:27:24,448 - INFO - Rate limited. Retry 2/5 after 3.0s
+2026-06-29 14:27:28,080 - INFO - API Response Status: 429
+2026-06-29 14:27:28,081 - INFO - Rate limited. Retry 3/5 after 6.0s
+2026-06-29 14:27:34,462 - INFO - API Response Status: 429
+2026-06-29 14:27:34,462 - INFO - Rate limited. Retry 4/5 after 12.0s
+2026-06-29 14:27:46,855 - INFO - API Response Status: 429
+2026-06-29 14:27:46,855 - INFO - Rate limited. Retry 5/5 after 24.0s
+2026-06-29 14:28:11,238 - INFO - API Response Status: 429
+2026-06-29 14:28:11,238 - ERROR - Max retries reached for rate limiting
+2026-06-29 14:28:11,240 - WARNING - Failed to get valid prediction
+2026-06-29 14:28:11,742 - INFO - ================================================================================
+2026-06-29 14:28:11,742 - INFO - Processing claim #8 (ID: tracer_test_14985)
+2026-06-29 14:28:11,742 - INFO - Claim: President Joe Biden’s immigration policy was “a giant voter importation scam.”...
+2026-06-29 14:28:11,742 - INFO - Date: 2025-02-20
+2026-06-29 14:28:11,742 - INFO - Asking model: grok-3 (method: naive)
+2026-06-29 14:28:11,742 - INFO - Claim: President Joe Biden’s immigration policy was “a giant voter importation scam.”...
+2026-06-29 14:28:12,132 - INFO - API Response Status: 429
+2026-06-29 14:28:12,132 - INFO - Rate limited. Retry 1/5 after 1.5s
+2026-06-29 14:28:14,056 - INFO - API Response Status: 429
+2026-06-29 14:28:14,057 - INFO - Rate limited. Retry 2/5 after 3.0s
+2026-06-29 14:28:17,462 - INFO - API Response Status: 429
+2026-06-29 14:28:17,463 - INFO - Rate limited. Retry 3/5 after 6.0s
+2026-06-29 14:28:24,193 - INFO - API Response Status: 429
+2026-06-29 14:28:24,193 - INFO - Rate limited. Retry 4/5 after 12.0s
+2026-06-29 14:28:36,788 - INFO - API Response Status: 429
+2026-06-29 14:28:36,788 - INFO - Rate limited. Retry 5/5 after 24.0s
+2026-06-29 14:29:01,149 - INFO - API Response Status: 429
+2026-06-29 14:29:01,149 - ERROR - Max retries reached for rate limiting
+2026-06-29 14:29:01,150 - WARNING - Failed to get valid prediction
+2026-06-29 14:29:01,652 - INFO - ================================================================================
+2026-06-29 14:29:01,652 - INFO - Processing claim #9 (ID: tracer_test_14986)
+2026-06-29 14:29:01,652 - INFO - Claim: “71 out of 72 Wisconsin counties filed lawsuits against Purdue Pharma. Brad Schimel refused to join them.”...
+2026-06-29 14:29:01,652 - INFO - Date: 2025-02-24
+2026-06-29 14:29:01,652 - INFO - Asking model: grok-3 (method: naive)
+2026-06-29 14:29:01,652 - INFO - Claim: “71 out of 72 Wisconsin counties filed lawsuits against Purdue Pharma. Brad Schimel refused to join them.”...
+2026-06-29 14:29:02,615 - INFO - API Response Status: 429
+2026-06-29 14:29:02,615 - INFO - Rate limited. Retry 1/5 after 1.5s
+2026-06-29 14:29:04,551 - INFO - API Response Status: 429
+2026-06-29 14:29:04,551 - INFO - Rate limited. Retry 2/5 after 3.0s
+2026-06-29 14:29:07,911 - INFO - API Response Status: 429
+2026-06-29 14:29:07,911 - INFO - Rate limited. Retry 3/5 after 6.0s
+2026-06-29 14:29:14,315 - INFO - API Response Status: 429
+2026-06-29 14:29:14,315 - INFO - Rate limited. Retry 4/5 after 12.0s
+2026-06-29 14:29:26,669 - INFO - API Response Status: 429
+2026-06-29 14:29:26,669 - INFO - Rate limited. Retry 5/5 after 24.0s
+2026-06-29 14:29:51,055 - INFO - API Response Status: 429
+2026-06-29 14:29:51,056 - ERROR - Max retries reached for rate limiting
+2026-06-29 14:29:51,059 - WARNING - Failed to get valid prediction
+2026-06-29 14:29:51,561 - INFO - ================================================================================
+2026-06-29 14:29:51,561 - INFO - Processing claim #10 (ID: tracer_test_14987)
+2026-06-29 14:29:51,561 - INFO - Claim: Zero votes for 2024 Democratic presidential nominee Kamala Harris in Rockland County, New York, precinct proves Elon Musk hacked 2024 presidential ele...
+2026-06-29 14:29:51,562 - INFO - Date: 2025-02-24
+2026-06-29 14:29:51,562 - INFO - Asking model: grok-3 (method: naive)
+2026-06-29 14:29:51,562 - INFO - Claim: Zero votes for 2024 Democratic presidential nominee Kamala Harris in Rockland County, New York, precinct proves Elon Musk hacked 2024 presidential ele...
+2026-06-29 14:29:51,913 - INFO - API Response Status: 429
+2026-06-29 14:29:51,913 - INFO - Rate limited. Retry 1/5 after 1.5s
+2026-06-29 14:29:53,793 - INFO - API Response Status: 429
+2026-06-29 14:29:53,793 - INFO - Rate limited. Retry 2/5 after 3.0s
+2026-06-29 14:29:57,203 - INFO - API Response Status: 429
+2026-06-29 14:29:57,203 - INFO - Rate limited. Retry 3/5 after 6.0s
+2026-06-29 14:30:03,670 - INFO - API Response Status: 429
+2026-06-29 14:30:03,670 - INFO - Rate limited. Retry 4/5 after 12.0s
+2026-06-29 14:30:21,578 - INFO - API Response Status: 429
+2026-06-29 14:30:21,578 - INFO - Rate limited. Retry 5/5 after 24.0s
+2026-06-29 14:30:45,940 - INFO - API Response Status: 429
+2026-06-29 14:30:45,940 - ERROR - Max retries reached for rate limiting
+2026-06-29 14:30:45,942 - WARNING - Failed to get valid prediction
+2026-06-29 14:30:46,443 - INFO - ================================================================================
+2026-06-29 14:30:46,443 - INFO - Processing claim #11 (ID: tracer_test_14988)
+2026-06-29 14:30:46,443 - INFO - Claim: “We've never audited government for 100 years.”...
+2026-06-29 14:30:46,443 - INFO - Date: 2025-02-24
+2026-06-29 14:30:46,443 - INFO - Asking model: grok-3 (method: naive)
+2026-06-29 14:30:46,443 - INFO - Claim: “We've never audited government for 100 years.”...
+2026-06-29 14:30:46,808 - INFO - API Response Status: 429
+2026-06-29 14:30:46,809 - INFO - Rate limited. Retry 1/5 after 1.5s
+2026-06-29 14:30:48,673 - INFO - API Response Status: 429
+2026-06-29 14:30:48,673 - INFO - Rate limited. Retry 2/5 after 3.0s
+2026-06-29 14:30:52,031 - INFO - API Response Status: 429
+2026-06-29 14:30:52,031 - INFO - Rate limited. Retry 3/5 after 6.0s
+2026-06-29 14:30:58,452 - INFO - API Response Status: 429
+2026-06-29 14:30:58,452 - INFO - Rate limited. Retry 4/5 after 12.0s
+2026-06-29 14:31:10,803 - INFO - API Response Status: 429
+2026-06-29 14:31:10,804 - INFO - Rate limited. Retry 5/5 after 24.0s
+2026-06-29 14:31:35,165 - INFO - API Response Status: 429
+2026-06-29 14:31:35,165 - ERROR - Max retries reached for rate limiting
+2026-06-29 14:31:35,172 - WARNING - Failed to get valid prediction
+2026-06-29 14:31:35,712 - INFO - ================================================================================
+2026-06-29 14:31:35,712 - INFO - Processing claim #12 (ID: tracer_test_14989)
+2026-06-29 14:31:35,712 - INFO - Claim: "All armed services are having among the best recruiting results ever” because of Trump policies, and “it was just a few months ago where the results ...
+2026-06-29 14:31:35,712 - INFO - Date: 2025-03-04
+2026-06-29 14:31:35,712 - INFO - Asking model: grok-3 (method: naive)
+2026-06-29 14:31:35,712 - INFO - Claim: "All armed services are having among the best recruiting results ever” because of Trump policies, and “it was just a few months ago where the results ...
+2026-06-29 14:31:36,078 - INFO - API Response Status: 429
+2026-06-29 14:31:36,078 - INFO - Rate limited. Retry 1/5 after 1.5s
+2026-06-29 14:31:37,939 - INFO - API Response Status: 429
+2026-06-29 14:31:37,940 - INFO - Rate limited. Retry 2/5 after 3.0s
+2026-06-29 14:31:41,276 - INFO - API Response Status: 429
+2026-06-29 14:31:41,276 - INFO - Rate limited. Retry 3/5 after 6.0s
+2026-06-29 14:31:47,656 - INFO - API Response Status: 429
+2026-06-29 14:31:47,656 - INFO - Rate limited. Retry 4/5 after 12.0s
+2026-06-29 14:32:00,010 - INFO - API Response Status: 429
+2026-06-29 14:32:00,010 - INFO - Rate limited. Retry 5/5 after 24.0s
+2026-06-29 14:32:24,631 - INFO - API Response Status: 429
+2026-06-29 14:32:24,631 - ERROR - Max retries reached for rate limiting
+2026-06-29 14:32:24,632 - WARNING - Failed to get valid prediction
+2026-06-29 14:32:25,134 - INFO - ================================================================================
+2026-06-29 14:32:25,134 - INFO - Processing claim #13 (ID: tracer_test_14990)
+2026-06-29 14:32:25,134 - INFO - Claim: Elon Musk’s Department of Government Efficiency is “polling very well. It’s very popular.”...
+2026-06-29 14:32:25,134 - INFO - Date: 2025-03-04
+2026-06-29 14:32:25,134 - INFO - Asking model: grok-3 (method: naive)
+2026-06-29 14:32:25,134 - INFO - Claim: Elon Musk’s Department of Government Efficiency is “polling very well. It’s very popular.”...
+2026-06-29 14:32:25,722 - INFO - API Response Status: 429
+2026-06-29 14:32:25,723 - INFO - Rate limited. Retry 1/5 after 1.5s
+2026-06-29 14:32:27,582 - INFO - API Response Status: 429
+2026-06-29 14:32:27,582 - INFO - Rate limited. Retry 2/5 after 3.0s
+2026-06-29 14:32:30,956 - INFO - API Response Status: 429
+2026-06-29 14:32:30,956 - INFO - Rate limited. Retry 3/5 after 6.0s
+2026-06-29 14:32:37,297 - INFO - API Response Status: 429
+2026-06-29 14:32:37,298 - INFO - Rate limited. Retry 4/5 after 12.0s
+2026-06-29 14:33:19,563 - WARNING - Network error: HTTPSConnectionPool(host='api.avalai.ir', port=443): Read timed out. (read timeout=30). Retrying...
+2026-06-29 14:33:43,940 - INFO - API Response Status: 429
+2026-06-29 14:33:43,940 - ERROR - Max retries reached for rate limiting
+2026-06-29 14:33:43,941 - WARNING - Failed to get valid prediction
+2026-06-29 14:33:44,442 - INFO - ================================================================================
+2026-06-29 14:33:44,442 - INFO - Processing claim #14 (ID: tracer_test_14991)
+2026-06-29 14:33:44,442 - INFO - Claim: The Trump administration identified $1.9 billion in federal dollars going to a “decarbonization of homes” group Stacey Abrams “headed up.”...
+2026-06-29 14:33:44,442 - INFO - Date: 2025-03-04
+2026-06-29 14:33:44,442 - INFO - Asking model: grok-3 (method: naive)
+2026-06-29 14:33:44,442 - INFO - Claim: The Trump administration identified $1.9 billion in federal dollars going to a “decarbonization of homes” group Stacey Abrams “headed up.”...
+2026-06-29 14:33:45,092 - INFO - API Response Status: 429
+2026-06-29 14:33:45,092 - INFO - Rate limited. Retry 1/5 after 1.5s
+2026-06-29 14:33:46,987 - INFO - API Response Status: 429
+2026-06-29 14:33:46,987 - INFO - Rate limited. Retry 2/5 after 3.0s
+2026-06-29 14:33:50,338 - INFO - API Response Status: 429
+2026-06-29 14:33:50,338 - INFO - Rate limited. Retry 3/5 after 6.0s
+2026-06-29 14:33:56,704 - INFO - API Response Status: 429
+2026-06-29 14:33:56,704 - INFO - Rate limited. Retry 4/5 after 12.0s
+2026-06-29 14:34:09,313 - INFO - API Response Status: 429
+2026-06-29 14:34:09,313 - INFO - Rate limited. Retry 5/5 after 24.0s
+2026-06-29 14:34:33,922 - INFO - API Response Status: 429
+2026-06-29 14:34:33,922 - ERROR - Max retries reached for rate limiting
+2026-06-29 14:34:33,924 - WARNING - Failed to get valid prediction
+2026-06-29 14:34:34,426 - INFO - ================================================================================
+2026-06-29 14:34:34,426 - INFO - Processing claim #15 (ID: tracer_test_14992)
+2026-06-29 14:34:34,426 - INFO - Claim: During President Joe Biden’s four years in office, “31% of U.S. job growth” came from public-sector jobs....
+2026-06-29 14:34:34,426 - INFO - Date: 2025-03-07
+2026-06-29 14:34:34,426 - INFO - Asking model: grok-3 (method: naive)
+2026-06-29 14:34:34,426 - INFO - Claim: During President Joe Biden’s four years in office, “31% of U.S. job growth” came from public-sector jobs....
+2026-06-29 14:34:34,885 - INFO - API Response Status: 429
+2026-06-29 14:34:34,885 - INFO - Rate limited. Retry 1/5 after 1.5s
+2026-06-29 14:34:45,450 - INFO - API Response Status: 429
+2026-06-29 14:34:45,450 - INFO - Rate limited. Retry 2/5 after 3.0s
+2026-06-29 14:34:53,077 - INFO - API Response Status: 429
+2026-06-29 14:34:53,077 - INFO - Rate limited. Retry 3/5 after 6.0s
+2026-06-29 14:34:59,452 - INFO - API Response Status: 429
+2026-06-29 14:34:59,452 - INFO - Rate limited. Retry 4/5 after 12.0s
+2026-06-29 14:35:12,096 - INFO - API Response Status: 429
+2026-06-29 14:35:12,096 - INFO - Rate limited. Retry 5/5 after 24.0s
+2026-06-29 14:35:36,456 - INFO - API Response Status: 429
+2026-06-29 14:35:36,456 - ERROR - Max retries reached for rate limiting
+2026-06-29 14:35:36,458 - WARNING - Failed to get valid prediction
+2026-06-29 14:35:36,959 - INFO - ================================================================================
+2026-06-29 14:35:36,960 - INFO - Processing claim #16 (ID: tracer_test_14993)
+2026-06-29 14:35:36,960 - INFO - Claim: “The number of full-time jobs (was) dropping almost the entire Biden administration.”...
+2026-06-29 14:35:36,960 - INFO - Date: 2025-03-09
+2026-06-29 14:35:36,960 - INFO - Asking model: grok-3 (method: naive)
+2026-06-29 14:35:36,960 - INFO - Claim: “The number of full-time jobs (was) dropping almost the entire Biden administration.”...
+2026-06-29 14:35:37,302 - INFO - API Response Status: 429
+2026-06-29 14:35:37,302 - INFO - Rate limited. Retry 1/5 after 1.5s
+2026-06-29 14:35:45,724 - INFO - API Response Status: 429
+2026-06-29 14:35:45,724 - INFO - Rate limited. Retry 2/5 after 3.0s
+2026-06-29 14:35:54,673 - INFO - API Response Status: 429
+2026-06-29 14:35:54,673 - INFO - Rate limited. Retry 3/5 after 6.0s
+2026-06-29 14:36:01,035 - INFO - API Response Status: 429
+2026-06-29 14:36:01,035 - INFO - Rate limited. Retry 4/5 after 12.0s
+2026-06-29 14:36:13,403 - INFO - API Response Status: 429
+2026-06-29 14:36:13,403 - INFO - Rate limited. Retry 5/5 after 24.0s
+2026-06-29 14:36:37,773 - INFO - API Response Status: 429
+2026-06-29 14:36:37,773 - ERROR - Max retries reached for rate limiting
+2026-06-29 14:36:37,775 - WARNING - Failed to get valid prediction
+2026-06-29 14:36:38,276 - INFO - ================================================================================
+2026-06-29 14:36:38,276 - INFO - Processing complete: 0 predictions (0 correct, 0 incorrect), 17 failed
+2026-06-29 14:36:38,276 - WARNING - No valid results for metric calculation
+2026-06-29 14:36:38,280 - INFO - Predictions saved to results\grok-3\tracer_bias_all\naive\unseen\unseen_predictions.csv
+2026-06-29 14:36:38,282 - INFO - Predictions JSON saved to results\grok-3\tracer_bias_all\naive\unseen\unseen_predictions.json
+2026-06-29 14:36:38,283 - INFO - Metrics saved to results\grok-3\tracer_bias_all\naive\unseen\unseen_metrics.json

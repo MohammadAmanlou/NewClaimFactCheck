@@ -1,0 +1,15 @@
+{
+    "enabled": true,
+    "stage": "pre_inference",
+    "strategy": "label_stratified_seen_unseen_balance_before_prediction",
+    "seed": 42,
+    "original_seen_count": 300,
+    "original_unseen_count": 0,
+    "sampled_seen_count": 0,
+    "sampled_unseen_count": 0,
+    "labels": [],
+    "per_label_info": {},
+    "sampled_seen_claim_ids": [],
+    "sampled_unseen_claim_ids": [],
+    "timestamp": "2026-06-29T13:34:56.854627"
+}

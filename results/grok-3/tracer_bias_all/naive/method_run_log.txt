@@ -1,0 +1,29 @@
+2026-06-29 14:17:44,021 - INFO - Prompt method: naive
+2026-06-29 14:21:34,238 - INFO - Metrics: Accuracy=0.5789, Macro-F1=0.4643
+2026-06-29 14:36:38,283 - WARNING - No valid results for metric calculation
+2026-06-29 14:36:38,283 - INFO - ================================================================================
+2026-06-29 14:36:38,283 - INFO - Comparing seen vs unseen performance...
+2026-06-29 14:36:38,284 - INFO - Metrics: Accuracy=0.5789, Macro-F1=0.4643
+2026-06-29 14:36:38,284 - WARNING - No valid results for metric calculation
+2026-06-29 14:36:38,285 - WARNING - Statistical tests skipped: Need more than one sample per group for statistical tests.
+2026-06-29 14:36:38,286 - INFO - Seen accuracy: 0.5789
+2026-06-29 14:36:38,286 - INFO - Unseen accuracy: N/A
+2026-06-29 14:36:38,286 - INFO - Difference: -0.5789
+2026-06-29 14:36:38,287 - INFO - Summary report saved to results\grok-3\tracer_bias_all\naive\summary.json
+2026-06-29 14:36:38,310 - INFO - Metrics: Accuracy=0.5000, Macro-F1=0.5641
+2026-06-29 14:36:38,310 - WARNING - No valid results for metric calculation
+2026-06-29 14:36:38,310 - INFO - ================================================================================
+2026-06-29 14:36:38,311 - INFO - Comparing seen vs unseen performance...
+2026-06-29 14:36:38,312 - INFO - Metrics: Accuracy=0.5000, Macro-F1=0.5641
+2026-06-29 14:36:38,312 - WARNING - No valid results for metric calculation
+2026-06-29 14:36:38,312 - WARNING - Statistical tests skipped: Need more than one sample per group for statistical tests.
+2026-06-29 14:36:38,312 - INFO - Seen accuracy: 0.5
+2026-06-29 14:36:38,313 - INFO - Unseen accuracy: N/A
+2026-06-29 14:36:38,313 - INFO - Difference: -0.5000
+2026-06-29 14:36:38,316 - INFO - Predictions saved to results\grok-3\tracer_bias_all\naive\posthoc_balanced\seen\seen_posthoc_balanced_predictions.csv
+2026-06-29 14:36:38,317 - INFO - Predictions JSON saved to results\grok-3\tracer_bias_all\naive\posthoc_balanced\seen\seen_posthoc_balanced_predictions.json
+2026-06-29 14:36:38,319 - INFO - Metrics saved to results\grok-3\tracer_bias_all\naive\posthoc_balanced\seen\seen_posthoc_balanced_metrics.json
+2026-06-29 14:36:38,322 - INFO - Predictions saved to results\grok-3\tracer_bias_all\naive\posthoc_balanced\unseen\unseen_posthoc_balanced_predictions.csv
+2026-06-29 14:36:38,323 - INFO - Predictions JSON saved to results\grok-3\tracer_bias_all\naive\posthoc_balanced\unseen\unseen_posthoc_balanced_predictions.json
+2026-06-29 14:36:38,324 - INFO - Metrics saved to results\grok-3\tracer_bias_all\naive\posthoc_balanced\unseen\unseen_posthoc_balanced_metrics.json
+2026-06-29 14:36:38,325 - INFO - Summary report saved to results\grok-3\tracer_bias_all\naive\posthoc_balanced\summary.json

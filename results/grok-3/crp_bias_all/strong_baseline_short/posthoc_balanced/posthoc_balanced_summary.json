@@ -1,0 +1,54 @@
+{
+    "dataset": "crp_bias_all",
+    "model": "grok-3",
+    "prompt_method": "strong_baseline_short",
+    "temporal_split": "2025-02-18",
+    "evaluation_mode": "posthoc_label_stratified_balanced",
+    "sampling_info": {
+        "enabled": true,
+        "stage": "post_inference",
+        "strategy": "label_stratified_seen_unseen_balance_after_prediction",
+        "method": "strong_baseline_short",
+        "seed": 42,
+        "original_seen_count": 20,
+        "original_unseen_count": 0,
+        "sampled_seen_count": 0,
+        "sampled_unseen_count": 0,
+        "labels": [],
+        "per_label_info": {},
+        "timestamp": "2026-06-29T13:39:07.558404"
+    },
+    "seen_metrics": {
+        "error": "No valid results"
+    },
+    "unseen_metrics": {
+        "error": "No valid results"
+    },
+    "comparison": {
+        "seen_metrics": {
+            "error": "No valid results"
+        },
+        "unseen_metrics": {
+            "error": "No valid results"
+        },
+        "statistical_tests": "Insufficient data for statistical testing",
+        "accuracy_difference": 0.0,
+        "sampling_info": {
+            "enabled": true,
+            "stage": "post_inference",
+            "strategy": "label_stratified_seen_unseen_balance_after_prediction",
+            "method": "strong_baseline_short",
+            "seed": 42,
+            "original_seen_count": 20,
+            "original_unseen_count": 0,
+            "sampled_seen_count": 0,
+            "sampled_unseen_count": 0,
+            "labels": [],
+            "per_label_info": {},
+            "timestamp": "2026-06-29T13:39:07.558404"
+        },
+        "prompt_method": "strong_baseline_short",
+        "evaluation_mode": "posthoc_label_stratified_balanced"
+    },
+    "timestamp": "2026-06-29T13:39:07.581142"
+}

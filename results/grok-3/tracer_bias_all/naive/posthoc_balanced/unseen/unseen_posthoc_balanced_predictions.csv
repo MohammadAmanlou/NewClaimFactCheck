@@ -1,0 +1,16 @@
+claim_id,claim,claim_date,speaker,source,label,detected_biases,prediction,prediction_error
+tracer_test_14985,President Joe Biden’s immigration policy was “a giant voter importation scam.”,2025-02-20,,tracer,Refuted,,,Failed to get valid prediction
+tracer_test_14979,"“I am not making this up: Republicans have introduced legislation … to increase your bank fees.""",2025-02-18,,tracer,Refuted,"[{""bias"": ""Availability heuristic"", ""confidence"": 0.3839}]",,Failed to get valid prediction
+tracer_test_14983,“The single biggest driver of our national debt since 2001 has been Republican tax cuts.”,2025-02-20,,tracer,Half-True,,,Failed to get valid prediction
+tracer_test_14991,The Trump administration identified $1.9 billion in federal dollars going to a “decarbonization of homes” group Stacey Abrams “headed up.”,2025-03-04,,tracer,Refuted,,,Failed to get valid prediction
+tracer_test_14984,“You either have XX or XY chromosomes. Those are the options.”,2025-02-20,,tracer,Refuted,,,Failed to get valid prediction
+tracer_test_14986,“71 out of 72 Wisconsin counties filed lawsuits against Purdue Pharma. Brad Schimel refused to join them.”,2025-02-24,,tracer,Half-True,"[{""bias"": ""Just-world hypothesis"", ""confidence"": 0.3376}]",,Failed to get valid prediction
+tracer_test_14992,"During President Joe Biden’s four years in office, “31% of U.S. job growth” came from public-sector jobs.",2025-03-07,,tracer,Refuted,"[{""bias"": ""hindsight bias"", ""confidence"": 0.4194}, {""bias"": ""Availability heuristic"", ""confidence"": 0.3142}]",,Failed to get valid prediction
+tracer_test_14988,“We've never audited government for 100 years.”,2025-02-24,,tracer,Refuted,,,Failed to get valid prediction
+tracer_test_14989,"""All armed services are having among the best recruiting results ever” because of Trump policies, and “it was just a few months ago where the results were exactly the opposite.”",2025-03-04,,tracer,Refuted,,,Failed to get valid prediction
+tracer_test_14977,The Chicago Cubs owner is bankrolling Brad Schimel.,2025-02-18,,tracer,Half-True,,,Failed to get valid prediction
+tracer_test_14982,“Stacey Abrams stole $2 BILLION from taxpayers.”,2025-02-19,,tracer,Refuted,,,Failed to get valid prediction
+tracer_test_14987,"Zero votes for 2024 Democratic presidential nominee Kamala Harris in Rockland County, New York, precinct proves Elon Musk hacked 2024 presidential election.",2025-02-24,,tracer,Refuted,,,Failed to get valid prediction
+tracer_test_14980,Volodymyr Zelenskyy “started” the war in Ukraine with Russia.,2025-02-18,,tracer,Refuted,,,Failed to get valid prediction
+tracer_test_14981,“90% of the (school) districts in Wisconsin already have a policy” banning cellphones during class time.,2025-02-19,,tracer,Supported,,,Failed to get valid prediction
+tracer_test_14978,"Former President Joe Biden “fired” 14,000 Keystone XL pipeline workers “​​on day one” of his administration.",2025-02-18,,tracer,Refuted,,,Failed to get valid prediction

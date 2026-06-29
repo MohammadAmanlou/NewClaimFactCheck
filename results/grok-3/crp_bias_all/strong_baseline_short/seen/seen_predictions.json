@@ -1,0 +1,222 @@
+[
+    {
+        "claim_id": "crp_0",
+        "claim": "'Cow farts [methane emissions from cattle] are blamed for climate change, but there are bigger issues like people burning millions of tires in the deserts of Kuwait.'",
+        "claim_date": "2024-11-23",
+        "speaker": null,
+        "source": "claimreview2024plus",
+        "label": "Refuted",
+        "detected_biases": "",
+        "prediction": "Misleading",
+        "prediction_error": null
+    },
+    {
+        "claim_id": "crp_1",
+        "claim": "'New study shows that climate change is greatly overestimated because oceans are cooling Earth far more than we thought.'",
+        "claim_date": "2024-11-23",
+        "speaker": null,
+        "source": "claimreview2024plus",
+        "label": "Refuted",
+        "detected_biases": "[{\"bias\": \"Attentional bias\", \"confidence\": 0.3135}]",
+        "prediction": "Refuted",
+        "prediction_error": null
+    },
+    {
+        "claim_id": "crp_2",
+        "claim": "'Climate change has only had 'positive effects' on global food production.'",
+        "claim_date": "2024-10-20",
+        "speaker": null,
+        "source": "claimreview2024plus",
+        "label": "Refuted",
+        "detected_biases": "",
+        "prediction": "Refuted",
+        "prediction_error": null
+    },
+    {
+        "claim_id": "crp_3",
+        "claim": "'Cows' burps are a non-existent problem for climate change'",
+        "claim_date": "2024-11-27",
+        "speaker": null,
+        "source": "claimreview2024plus",
+        "label": "Refuted",
+        "detected_biases": "[{\"bias\": \"Attentional bias\", \"confidence\": 0.7347}]",
+        "prediction": "Refuted",
+        "prediction_error": null
+    },
+    {
+        "claim_id": "crp_4",
+        "claim": "'The UK government is to fund “Bill Gates’ geoengineering experiments” to explore combatting global warming by cooling the earth.'",
+        "claim_date": "2024-11-24",
+        "speaker": null,
+        "source": "claimreview2024plus",
+        "label": "Misleading",
+        "detected_biases": "[{\"bias\": \"curse of knowledge\", \"confidence\": 0.8041}]",
+        "prediction": "Misleading",
+        "prediction_error": null
+    },
+    {
+        "claim_id": "crp_5",
+        "claim": "'First-ever snowfall on record in the Al-Jouf (or Al-Jawf) desert in Saudi Arabia occurred in early November 2024.'",
+        "claim_date": "2024-11-03",
+        "speaker": null,
+        "source": "claimreview2024plus",
+        "label": "Refuted",
+        "detected_biases": "[{\"bias\": \"hindsight bias\", \"confidence\": 0.3549}]",
+        "prediction": "Refuted",
+        "prediction_error": null
+    },
+    {
+        "claim_id": "crp_6",
+        "claim": "'A staggering $41 billion has gone missing from the globalist World Bank’s Climate Change fund under the watch of Ajay Banga.'",
+        "claim_date": "2024-10-28",
+        "speaker": null,
+        "source": "claimreview2024plus",
+        "label": "Refuted",
+        "detected_biases": "[{\"bias\": \"Just-world hypothesis\", \"confidence\": 0.6094}]",
+        "prediction": "Refuted",
+        "prediction_error": null
+    },
+    {
+        "claim_id": "crp_7",
+        "claim": "'Impact of human-induced CO2 is insignificant when compared to natural climate variations.'",
+        "claim_date": "2024-11-10",
+        "speaker": null,
+        "source": "claimreview2024plus",
+        "label": "Refuted",
+        "detected_biases": "[{\"bias\": \"Attentional bias\", \"confidence\": 0.3406}]",
+        "prediction": "Refuted",
+        "prediction_error": null
+    },
+    {
+        "claim_id": "crp_8",
+        "claim": "'Rising CO2 and temperatures are behind the global boost in grain production over the last 60 years.'",
+        "claim_date": "2024-10-28",
+        "speaker": null,
+        "source": "claimreview2024plus",
+        "label": "Misleading",
+        "detected_biases": "[{\"bias\": \"Just-world hypothesis\", \"confidence\": 0.5982}]",
+        "prediction": "Misleading",
+        "prediction_error": null
+    },
+    {
+        "claim_id": "crp_9",
+        "claim": "'A study into global warming proves it is a hoax.'",
+        "claim_date": "2024-10-15",
+        "speaker": null,
+        "source": "claimreview2024plus",
+        "label": "Refuted",
+        "detected_biases": "",
+        "prediction": "Refuted",
+        "prediction_error": null
+    },
+    {
+        "claim_id": "crp_10",
+        "claim": "'HAARP is responsible for recent floods in Spain, New Mexico, and elsewhere.'",
+        "claim_date": "2024-10-30",
+        "speaker": null,
+        "source": "claimreview2024plus",
+        "label": "Refuted",
+        "detected_biases": "[{\"bias\": \"Availability heuristic\", \"confidence\": 0.557}]",
+        "prediction": "Refuted",
+        "prediction_error": null
+    },
+    {
+        "claim_id": "crp_11",
+        "claim": "'The World Economic Forum (WEF) demanded a ban on homegrown plants to check global warming.'",
+        "claim_date": "2024-10-09",
+        "speaker": null,
+        "source": "claimreview2024plus",
+        "label": "Refuted",
+        "detected_biases": "",
+        "prediction": "Refuted",
+        "prediction_error": null
+    },
+    {
+        "claim_id": "crp_12",
+        "claim": "'There were no hurricanes this season even despite forecasts for a high activity; it has been a light hurricane season.'",
+        "claim_date": "2024-09-09",
+        "speaker": null,
+        "source": "claimreview2024plus",
+        "label": "Misleading",
+        "detected_biases": "",
+        "prediction": "Refuted",
+        "prediction_error": null
+    },
+    {
+        "claim_id": "crp_13",
+        "claim": "'A Centers for Disease Control and Prevention study finds children who received the Pfizer covid vaccine are more likely to get covid infection than unvaccinated.'",
+        "claim_date": "2025-01-03",
+        "speaker": null,
+        "source": "claimreview2024plus",
+        "label": "Refuted",
+        "detected_biases": "",
+        "prediction": "Refuted",
+        "prediction_error": null
+    },
+    {
+        "claim_id": "crp_14",
+        "claim": "'Japan named COVID-19 mRNA vaccine the 'deadliest drug in history''",
+        "claim_date": "2024-11-12",
+        "speaker": null,
+        "source": "claimreview2024plus",
+        "label": "Refuted",
+        "detected_biases": "",
+        "prediction": "Refuted",
+        "prediction_error": null
+    },
+    {
+        "claim_id": "crp_15",
+        "claim": "'The CEO of BioNTech, which developed a COVID-19 vaccine with Pfizer, did not get vaccinated.'",
+        "claim_date": "2024-12-19",
+        "speaker": null,
+        "source": "claimreview2024plus",
+        "label": "Refuted",
+        "detected_biases": "[{\"bias\": \"Just-world hypothesis\", \"confidence\": 0.7577}]",
+        "prediction": "Refuted",
+        "prediction_error": null
+    },
+    {
+        "claim_id": "crp_16",
+        "claim": "'Australian officials have warned that vaccine-linked turbo cancers will kill billions.'",
+        "claim_date": "2024-12-13",
+        "speaker": null,
+        "source": "claimreview2024plus",
+        "label": "Refuted",
+        "detected_biases": "",
+        "prediction": "Refuted",
+        "prediction_error": null
+    },
+    {
+        "claim_id": "crp_17",
+        "claim": "“Ivermectin is a treatment after Covid and after vaccination, it is an effective medicine in all phases of Covid 19.”",
+        "claim_date": "2024-12-10",
+        "speaker": null,
+        "source": "claimreview2024plus",
+        "label": "Refuted",
+        "detected_biases": "",
+        "prediction": "Refuted",
+        "prediction_error": null
+    },
+    {
+        "claim_id": "crp_18",
+        "claim": "'RFK Jr's only statement on vaccines is that they need to be studied.'",
+        "claim_date": "2024-12-10",
+        "speaker": null,
+        "source": "claimreview2024plus",
+        "label": "Refuted",
+        "detected_biases": "[{\"bias\": \"curse of knowledge\", \"confidence\": 0.4909}]",
+        "prediction": "Refuted",
+        "prediction_error": null
+    },
+    {
+        "claim_id": "crp_19",
+        "claim": "'Vaccine researcher warned ‘multiple viruses will be unleashed’ in January'",
+        "claim_date": "2024-12-04",
+        "speaker": null,
+        "source": "claimreview2024plus",
+        "label": "Refuted",
+        "detected_biases": "",
+        "prediction": "Misleading",
+        "prediction_error": null
+    }
+]

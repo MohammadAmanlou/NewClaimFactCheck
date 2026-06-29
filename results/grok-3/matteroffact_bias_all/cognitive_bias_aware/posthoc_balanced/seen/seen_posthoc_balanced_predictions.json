@@ -1,0 +1,222 @@
+[
+    {
+        "claim_id": "2203.14301v1_6_F",
+        "claim": "The hexagonal warping term in spin-orbit coupling is irrelevant for the anomalous Hall effect in systems with in-plane magnetic fields, as the Zeeman coupling alone is sufficient to open a gap",
+        "claim_date": "2022-03-01",
+        "speaker": null,
+        "source": "matteroffact",
+        "label": "Refuted",
+        "detected_biases": "[{\"bias\": \"Bias blind spot\", \"confidence\": 0.6426}]",
+        "prediction": null,
+        "prediction_error": "Failed to get valid prediction"
+    },
+    {
+        "claim_id": "2208.04658v1_15_F",
+        "claim": "Crystallization of strontium hexaferrite from as-grown films requires annealing at 600°C in vacuum for one hour, which is sufficient to transform the amorphous precursors into well-crystallized SrFe₁₂O₁₉.",
+        "claim_date": "2022-08-01",
+        "speaker": null,
+        "source": "matteroffact",
+        "label": "Refuted",
+        "detected_biases": "[{\"bias\": \"Outcome bias\", \"confidence\": 0.3111}]",
+        "prediction": "Refuted",
+        "prediction_error": null
+    },
+    {
+        "claim_id": "2208.03296v2_4_T",
+        "claim": "The GNN model was trained on 10,000 dislocation configurations generated from 100 DDD simulations, with each simulation running for 10,000 time-steps and configurations recorded every 100 steps.",
+        "claim_date": "2022-08-01",
+        "speaker": null,
+        "source": "matteroffact",
+        "label": "Supported",
+        "detected_biases": "[{\"bias\": \"clustering illusion\", \"confidence\": 0.9225}]",
+        "prediction": "Supported",
+        "prediction_error": null
+    },
+    {
+        "claim_id": "2212.06128v1_11_F",
+        "claim": "The carrier density in Fe₁₋ₓCuₓSe decreases significantly in the high-pressure phase above 10 kbar compared to the low-pressure nematic phase.",
+        "claim_date": "2022-12-01",
+        "speaker": null,
+        "source": "matteroffact",
+        "label": "Refuted",
+        "detected_biases": "",
+        "prediction": null,
+        "prediction_error": "Failed to get valid prediction"
+    },
+    {
+        "claim_id": "2206.01063v2_16_T",
+        "claim": "The Heisenberg exchange constant in the mean-field resonating valence bond model is J = 4t²/U, where t is the hopping parameter and U is the onsite Coulomb interaction",
+        "claim_date": "2022-06-01",
+        "speaker": null,
+        "source": "matteroffact",
+        "label": "Supported",
+        "detected_biases": "",
+        "prediction": "Supported",
+        "prediction_error": null
+    },
+    {
+        "claim_id": "2203.15868v1_7_F",
+        "claim": "The amount of retained austenite in martensitic stainless steel cannot be reduced below 15% regardless of heat treatment parameters",
+        "claim_date": "2022-03-01",
+        "speaker": null,
+        "source": "matteroffact",
+        "label": "Refuted",
+        "detected_biases": "",
+        "prediction": null,
+        "prediction_error": "Failed to get valid prediction"
+    },
+    {
+        "claim_id": "2212.06128v1_11_T",
+        "claim": "The carrier density in Fe₁₋ₓCuₓSe increases significantly in the high-pressure phase above 10 kbar compared to the low-pressure nematic phase.",
+        "claim_date": "2022-12-01",
+        "speaker": null,
+        "source": "matteroffact",
+        "label": "Supported",
+        "detected_biases": "[{\"bias\": \"Pro-Innovation Bias\", \"confidence\": 0.3005}]",
+        "prediction": "Supported",
+        "prediction_error": null
+    },
+    {
+        "claim_id": "2206.01072v1_9_T",
+        "claim": "In Fe chains on Rh(111) surface, nearest neighbor isotropic exchange interactions are ferromagnetic while next nearest neighbor interactions are antiferromagnetic, with the nearest neighbor coupling between edge atoms reaching values of approximately 0.6 mRy.",
+        "claim_date": "2022-06-01",
+        "speaker": null,
+        "source": "matteroffact",
+        "label": "Supported",
+        "detected_biases": "[{\"bias\": \"Time-saving bias\", \"confidence\": 0.5457}]",
+        "prediction": "Supported",
+        "prediction_error": null
+    },
+    {
+        "claim_id": "2206.01063v2_16_F",
+        "claim": "The Heisenberg exchange constant in the mean-field resonating valence bond model is J = 2t²/U, where t is the hopping parameter and U is the onsite Coulomb interaction",
+        "claim_date": "2022-06-01",
+        "speaker": null,
+        "source": "matteroffact",
+        "label": "Refuted",
+        "detected_biases": "",
+        "prediction": "Refuted",
+        "prediction_error": null
+    },
+    {
+        "claim_id": "2202.01918v2_10_F",
+        "claim": "The amorphization of crystalline GST-225 occurs through the complete melting and random rearrangement of all atomic bonds, with both short and long bonds breaking equally, resulting in a completely disordered atomic structure with no relationship to the original crystalline arrangement.",
+        "claim_date": "2022-02-01",
+        "speaker": null,
+        "source": "matteroffact",
+        "label": "Refuted",
+        "detected_biases": "[{\"bias\": \"Omission bias\", \"confidence\": 0.318}]",
+        "prediction": "Refuted",
+        "prediction_error": null
+    },
+    {
+        "claim_id": "2208.04658v1_15_T",
+        "claim": "Crystallization of strontium hexaferrite from as-grown films requires annealing at 850°C in air for three hours, which transforms the nanocrystalline maghemite and amorphous strontium oxide into well-crystallized SrFe₁₂O₁₉.",
+        "claim_date": "2022-08-01",
+        "speaker": null,
+        "source": "matteroffact",
+        "label": "Supported",
+        "detected_biases": "",
+        "prediction": "Supported",
+        "prediction_error": null
+    },
+    {
+        "claim_id": "2202.01918v2_10_T",
+        "claim": "The amorphization of crystalline GST-225 occurs through the rupture of longer, weaker Ge-Te bonds while shorter, stronger bonds remain intact, causing germanium atoms to be pulled from octahedral to tetrahedral positions in a process known as umbrella flip distortion.",
+        "claim_date": "2022-02-01",
+        "speaker": null,
+        "source": "matteroffact",
+        "label": "Supported",
+        "detected_biases": "",
+        "prediction": "Supported",
+        "prediction_error": null
+    },
+    {
+        "claim_id": "2202.12952v1_12_F",
+        "claim": "The variations in the phase diagrams of different cuprate compounds indicate that superconductivity in cuprates is primarily determined by material-specific factors such as the number of CuO2 layers and the nature of the charge reservoir layers.",
+        "claim_date": "2022-02-01",
+        "speaker": null,
+        "source": "matteroffact",
+        "label": "Refuted",
+        "detected_biases": "[{\"bias\": \"curse of knowledge\", \"confidence\": 0.4281}]",
+        "prediction": "Supported",
+        "prediction_error": null
+    },
+    {
+        "claim_id": "2203.14301v1_6_T",
+        "claim": "The hexagonal warping term in spin-orbit coupling is essential for opening a gap at the band crossing point and enabling both quantized and half-quantized anomalous Hall effect in systems with in-plane magnetic fields",
+        "claim_date": "2022-03-01",
+        "speaker": null,
+        "source": "matteroffact",
+        "label": "Supported",
+        "detected_biases": "",
+        "prediction": "Supported",
+        "prediction_error": null
+    },
+    {
+        "claim_id": "2202.12952v1_12_T",
+        "claim": "The striking universality of the phase diagram across different cuprate compounds suggests that superconductivity in cuprates is governed by topological constraints imposed by the 2D antiferromagnetic square lattice.",
+        "claim_date": "2022-02-01",
+        "speaker": null,
+        "source": "matteroffact",
+        "label": "Supported",
+        "detected_biases": "[{\"bias\": \"curse of knowledge\", \"confidence\": 0.5471}]",
+        "prediction": "Refuted",
+        "prediction_error": null
+    },
+    {
+        "claim_id": "2211.15972v1_8_T",
+        "claim": "Arsenic atoms preferentially substitute iodine at the I2 position (inside the interlayer) in bilayer CrI3",
+        "claim_date": "2022-11-01",
+        "speaker": null,
+        "source": "matteroffact",
+        "label": "Supported",
+        "detected_biases": "",
+        "prediction": "Supported",
+        "prediction_error": null
+    },
+    {
+        "claim_id": "2211.15972v1_8_F",
+        "claim": "Arsenic atoms preferentially substitute iodine at the I1 position (at the surface) in bilayer CrI3",
+        "claim_date": "2022-11-01",
+        "speaker": null,
+        "source": "matteroffact",
+        "label": "Refuted",
+        "detected_biases": "",
+        "prediction": "Supported",
+        "prediction_error": null
+    },
+    {
+        "claim_id": "2203.15868v1_7_T",
+        "claim": "The amount of retained austenite in martensitic stainless steel can be reduced to less than 5% through proper heat treatment",
+        "claim_date": "2022-03-01",
+        "speaker": null,
+        "source": "matteroffact",
+        "label": "Supported",
+        "detected_biases": "",
+        "prediction": "Supported",
+        "prediction_error": null
+    },
+    {
+        "claim_id": "2208.03296v2_4_F",
+        "claim": "The GNN model was trained on 1,000 dislocation configurations generated from 10 DDD simulations, with each simulation running for 1,000 time-steps and configurations recorded every 10 steps.",
+        "claim_date": "2022-08-01",
+        "speaker": null,
+        "source": "matteroffact",
+        "label": "Refuted",
+        "detected_biases": "[{\"bias\": \"clustering illusion\", \"confidence\": 0.9238}]",
+        "prediction": "Supported",
+        "prediction_error": null
+    },
+    {
+        "claim_id": "2206.01072v1_9_F",
+        "claim": "In Fe chains on Rh(111) surface, both nearest neighbor and next nearest neighbor isotropic exchange interactions are ferromagnetic, with the nearest neighbor coupling between edge atoms reaching values of approximately 1.2 mRy.",
+        "claim_date": "2022-06-01",
+        "speaker": null,
+        "source": "matteroffact",
+        "label": "Refuted",
+        "detected_biases": "",
+        "prediction": "Supported",
+        "prediction_error": null
+    }
+]

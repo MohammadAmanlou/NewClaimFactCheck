@@ -1,0 +1,222 @@
+[
+    {
+        "claim_id": "2503.22477v2_3_T",
+        "claim": "The Debye temperature in LaRu₃(Si₁₋ₓGeₓ)₂ decreases from approximately 405K to 384K as germanium content increases from x = 0 to x = 0.07.",
+        "claim_date": "2025-03-01",
+        "speaker": null,
+        "source": "matteroffact",
+        "label": "Supported",
+        "detected_biases": "[{\"bias\": \"Time-saving bias\", \"confidence\": 0.838}]",
+        "prediction": "Supported",
+        "prediction_error": null
+    },
+    {
+        "claim_id": "2503.22477v2_3_F",
+        "claim": "The Debye temperature in LaRu₃(Si₁₋ₓGeₓ)₂ increases from approximately 405K to 425K as germanium content increases from x = 0 to x = 0.07.",
+        "claim_date": "2025-03-01",
+        "speaker": null,
+        "source": "matteroffact",
+        "label": "Refuted",
+        "detected_biases": "[{\"bias\": \"Time-saving bias\", \"confidence\": 0.7572}]",
+        "prediction": "Refuted",
+        "prediction_error": null
+    },
+    {
+        "claim_id": "2503.14952v1_2_T",
+        "claim": "La1.25Mg0.75Ni7 alloy maintains the highest discharge capacity of 226 mAh/g after 30 cycles among the tested La2-xMgxNi7 compositions.",
+        "claim_date": "2025-03-01",
+        "speaker": null,
+        "source": "matteroffact",
+        "label": "Supported",
+        "detected_biases": "",
+        "prediction": "Supported",
+        "prediction_error": null
+    },
+    {
+        "claim_id": "2503.14952v1_2_F",
+        "claim": "La1.5Mg0.5Ni7 alloy maintains the highest discharge capacity of 250 mAh/g after 30 cycles among the tested La2-xMgxNi7 compositions.",
+        "claim_date": "2025-03-01",
+        "speaker": null,
+        "source": "matteroffact",
+        "label": "Refuted",
+        "detected_biases": "",
+        "prediction": "Supported",
+        "prediction_error": null
+    },
+    {
+        "claim_id": "2504.00309v1_5_T",
+        "claim": "The hardware-efficient VQE ansatz used for silicon band structure calculations has a circuit depth of 3 layers, with each layer containing single-qubit rotations and two-qubit gates.",
+        "claim_date": "2025-04-01",
+        "speaker": null,
+        "source": "matteroffact",
+        "label": "Supported",
+        "detected_biases": "[{\"bias\": \"curse of knowledge\", \"confidence\": 0.4006}]",
+        "prediction": "Supported",
+        "prediction_error": null
+    },
+    {
+        "claim_id": "2504.00309v1_5_F",
+        "claim": "The hardware-efficient VQE ansatz used for silicon band structure calculations has a circuit depth of 10 layers, with each layer containing single-qubit rotations and two-qubit gates.",
+        "claim_date": "2025-04-01",
+        "speaker": null,
+        "source": "matteroffact",
+        "label": "Refuted",
+        "detected_biases": "[{\"bias\": \"curse of knowledge\", \"confidence\": 0.464}]",
+        "prediction": "Refuted",
+        "prediction_error": null
+    },
+    {
+        "claim_id": "2503.16018v1_12_T",
+        "claim": "The theoretical tensile strength of MAB phases increases with increasing ceramic-like component fraction, following the trend of 222-type → 212-type → 314-type phases",
+        "claim_date": "2025-03-01",
+        "speaker": null,
+        "source": "matteroffact",
+        "label": "Supported",
+        "detected_biases": "[{\"bias\": \"Pro-Innovation Bias\", \"confidence\": 0.5009}]",
+        "prediction": "Supported",
+        "prediction_error": null
+    },
+    {
+        "claim_id": "2503.16018v1_12_F",
+        "claim": "The theoretical tensile strength of MAB phases decreases with increasing ceramic-like component fraction, following the trend of 314-type → 212-type → 222-type phases",
+        "claim_date": "2025-03-01",
+        "speaker": null,
+        "source": "matteroffact",
+        "label": "Refuted",
+        "detected_biases": "[{\"bias\": \"subadditivity effect\", \"confidence\": 0.3652}]",
+        "prediction": "Refuted",
+        "prediction_error": null
+    },
+    {
+        "claim_id": "2503.01590v1_0_T",
+        "claim": "The density-functional perturbation theory approach for calculating Hubbard parameters is computationally more efficient than supercell methods because it uses primitive cells with monochromatic perturbations instead of expensive supercells",
+        "claim_date": "2025-03-01",
+        "speaker": null,
+        "source": "matteroffact",
+        "label": "Supported",
+        "detected_biases": "[{\"bias\": \"Bias blind spot\", \"confidence\": 0.4425}]",
+        "prediction": "Supported",
+        "prediction_error": null
+    },
+    {
+        "claim_id": "2503.01590v1_0_F",
+        "claim": "The density-functional perturbation theory approach for calculating Hubbard parameters requires more computational resources than supercell methods because it needs to solve complex equations for each perturbation",
+        "claim_date": "2025-03-01",
+        "speaker": null,
+        "source": "matteroffact",
+        "label": "Refuted",
+        "detected_biases": "[{\"bias\": \"Bias blind spot\", \"confidence\": 0.3713}]",
+        "prediction": "Refuted",
+        "prediction_error": null
+    },
+    {
+        "claim_id": "2503.14952v1_0_T",
+        "claim": "La1.5Mg0.5Ni7 alloy achieves a maximum discharge capacity of 304 mAh/g, which is higher than other La2-xMgxNi7 compositions with x = 0.00, 0.25, and 0.75.",
+        "claim_date": "2025-03-01",
+        "speaker": null,
+        "source": "matteroffact",
+        "label": "Supported",
+        "detected_biases": "",
+        "prediction": null,
+        "prediction_error": "Failed to get valid prediction"
+    },
+    {
+        "claim_id": "2503.14952v1_0_F",
+        "claim": "La1.25Mg0.75Ni7 alloy achieves a maximum discharge capacity of 350 mAh/g, which is higher than other La2-xMgxNi7 compositions with x = 0.00, 0.25, and 0.50.",
+        "claim_date": "2025-03-01",
+        "speaker": null,
+        "source": "matteroffact",
+        "label": "Refuted",
+        "detected_biases": "[{\"bias\": \"Time-saving bias\", \"confidence\": 0.3062}]",
+        "prediction": "Supported",
+        "prediction_error": null
+    },
+    {
+        "claim_id": "2503.07460v1_15_T",
+        "claim": "Super-resolution techniques applied to real-time time-dependent density functional theory can reduce computational costs by a factor of 5 to 10, enabling more efficient extraction of excited-state information from short-time dynamics simulations.",
+        "claim_date": "2025-03-01",
+        "speaker": null,
+        "source": "matteroffact",
+        "label": "Supported",
+        "detected_biases": "[{\"bias\": \"Pro-Innovation Bias\", \"confidence\": 0.8758}]",
+        "prediction": "Supported",
+        "prediction_error": null
+    },
+    {
+        "claim_id": "2503.07460v1_15_F",
+        "claim": "Super-resolution techniques applied to real-time time-dependent density functional theory can reduce computational costs by a factor of 100 to 1000, eliminating the need for high-performance computing resources for excited-state simulations.",
+        "claim_date": "2025-03-01",
+        "speaker": null,
+        "source": "matteroffact",
+        "label": "Refuted",
+        "detected_biases": "[{\"bias\": \"Pro-Innovation Bias\", \"confidence\": 0.8815}]",
+        "prediction": null,
+        "prediction_error": "Failed to get valid prediction"
+    },
+    {
+        "claim_id": "2503.16705v1_14_T",
+        "claim": "The perturbation to the force constant matrix due to conduction electron density in a 1D lattice is V_f = ±(Zk²_p/2)∑_k{Q_k Q_(k_p-k) + Q_k Q_(-k_p-k)}, where k_p is the phonon wave vector causing the lattice distortion.",
+        "claim_date": "2025-03-01",
+        "speaker": null,
+        "source": "matteroffact",
+        "label": "Supported",
+        "detected_biases": "",
+        "prediction": null,
+        "prediction_error": "Failed to get valid prediction"
+    },
+    {
+        "claim_id": "2503.16705v1_14_F",
+        "claim": "The perturbation to the force constant matrix due to conduction electron density in a 1D lattice is V_f = ±(Zk²_p/2)∑_k{Q_k Q_(k+k_p) + Q_k Q_(k-k_p)}, where k_p is the phonon wave vector causing the lattice distortion.",
+        "claim_date": "2025-03-01",
+        "speaker": null,
+        "source": "matteroffact",
+        "label": "Refuted",
+        "detected_biases": "",
+        "prediction": null,
+        "prediction_error": "Failed to get valid prediction"
+    },
+    {
+        "claim_id": "2503.11087v1_7_T",
+        "claim": "EuZn₂Sb₂ has a weaker spin-orbit coupling than EuCd₂Sb₂ due to the replacement of Cd with Zn, resulting in a different band structure with fewer Weyl points.",
+        "claim_date": "2025-03-01",
+        "speaker": null,
+        "source": "matteroffact",
+        "label": "Supported",
+        "detected_biases": "",
+        "prediction": "Supported",
+        "prediction_error": null
+    },
+    {
+        "claim_id": "2503.11087v1_7_F",
+        "claim": "EuZn₂Sb₂ has a stronger spin-orbit coupling than EuCd₂Sb₂ despite the replacement of Cd with Zn, resulting in a band structure with more Weyl points.",
+        "claim_date": "2025-03-01",
+        "speaker": null,
+        "source": "matteroffact",
+        "label": "Refuted",
+        "detected_biases": "",
+        "prediction": "Refuted",
+        "prediction_error": null
+    },
+    {
+        "claim_id": "2503.05525v1_1_T",
+        "claim": "With approximately 25 structures in the training set, the neural network model achieves an RMSE of 10 meV/atom on the prediction set",
+        "claim_date": "2025-03-01",
+        "speaker": null,
+        "source": "matteroffact",
+        "label": "Supported",
+        "detected_biases": "[{\"bias\": \"Planning Fallacy\", \"confidence\": 0.4324}]",
+        "prediction": "Refuted",
+        "prediction_error": null
+    },
+    {
+        "claim_id": "2503.05525v1_1_F",
+        "claim": "With approximately 15 structures in the training set, the neural network model achieves an RMSE of 10 meV/atom on the prediction set",
+        "claim_date": "2025-03-01",
+        "speaker": null,
+        "source": "matteroffact",
+        "label": "Refuted",
+        "detected_biases": "[{\"bias\": \"Planning Fallacy\", \"confidence\": 0.4155}]",
+        "prediction": "Refuted",
+        "prediction_error": null
+    }
+]

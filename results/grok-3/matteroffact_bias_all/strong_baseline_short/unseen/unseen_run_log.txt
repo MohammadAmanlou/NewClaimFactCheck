@@ -1,0 +1,232 @@
+2026-06-29 13:53:39,069 - INFO - Processing 20 samples (limited)
+2026-06-29 13:53:39,069 - INFO - Processing 20 claims...
+2026-06-29 13:53:39,070 - INFO - ================================================================================
+2026-06-29 13:53:39,070 - INFO - Processing claim #0 (ID: 2503.22477v2_3_T)
+2026-06-29 13:53:39,070 - INFO - Claim: The Debye temperature in LaRu₃(Si₁₋ₓGeₓ)₂ decreases from approximately 405K to 384K as germanium content increases from x = 0 to x = 0.07....
+2026-06-29 13:53:39,070 - INFO - Date: 2025-03-01
+2026-06-29 13:53:39,070 - INFO - Asking model: grok-3 (method: strong_baseline_short)
+2026-06-29 13:53:39,071 - INFO - Claim: The Debye temperature in LaRu₃(Si₁₋ₓGeₓ)₂ decreases from approximately 405K to 384K as germanium content increases from x = 0 to x = 0.07....
+2026-06-29 13:53:52,245 - INFO - API Response Status: 200
+2026-06-29 13:53:52,246 - INFO - Raw model response: {"label": "Supported", "brief_reason": "Claim matches reported values for θ_D decrease with Ge doping in LaRu₃(Si,Ge)₂."}
+2026-06-29 13:53:52,246 - INFO - Extracted label: Supported -> Normalized: Supported
+2026-06-29 13:53:52,247 - INFO - Prediction: Supported
+2026-06-29 13:53:52,247 - INFO - ✓ Correct prediction
+2026-06-29 13:53:52,748 - INFO - ================================================================================
+2026-06-29 13:53:52,748 - INFO - Processing claim #1 (ID: 2503.22477v2_3_F)
+2026-06-29 13:53:52,748 - INFO - Claim: The Debye temperature in LaRu₃(Si₁₋ₓGeₓ)₂ increases from approximately 405K to 425K as germanium content increases from x = 0 to x = 0.07....
+2026-06-29 13:53:52,748 - INFO - Date: 2025-03-01
+2026-06-29 13:53:52,748 - INFO - Asking model: grok-3 (method: strong_baseline_short)
+2026-06-29 13:53:52,748 - INFO - Claim: The Debye temperature in LaRu₃(Si₁₋ₓGeₓ)₂ increases from approximately 405K to 425K as germanium content increases from x = 0 to x = 0.07....
+2026-06-29 13:53:58,222 - INFO - API Response Status: 200
+2026-06-29 13:53:58,222 - INFO - Raw model response: {"label": "Refuted", "brief_reason": "Heavier Ge substitution for Si must lower phonon frequencies and thus decrease Debye temperature, contradicting the claimed increase."}
+2026-06-29 13:53:58,222 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2026-06-29 13:53:58,223 - INFO - Prediction: Refuted
+2026-06-29 13:53:58,223 - INFO - ✓ Correct prediction
+2026-06-29 13:53:58,725 - INFO - ================================================================================
+2026-06-29 13:53:58,725 - INFO - Processing claim #2 (ID: 2503.14952v1_2_T)
+2026-06-29 13:53:58,725 - INFO - Claim: La1.25Mg0.75Ni7 alloy maintains the highest discharge capacity of 226 mAh/g after 30 cycles among the tested La2-xMgxNi7 compositions....
+2026-06-29 13:53:58,725 - INFO - Date: 2025-03-01
+2026-06-29 13:53:58,725 - INFO - Asking model: grok-3 (method: strong_baseline_short)
+2026-06-29 13:53:58,725 - INFO - Claim: La1.25Mg0.75Ni7 alloy maintains the highest discharge capacity of 226 mAh/g after 30 cycles among the tested La2-xMgxNi7 compositions....
+2026-06-29 13:54:07,848 - INFO - API Response Status: 200
+2026-06-29 13:54:07,848 - INFO - Raw model response: {"label": "Supported", "brief_reason": "Claim matches reported data for La1.25Mg0.75Ni7 in La2-xMgxNi7 series studies."}
+2026-06-29 13:54:07,849 - INFO - Extracted label: Supported -> Normalized: Supported
+2026-06-29 13:54:07,850 - INFO - Prediction: Supported
+2026-06-29 13:54:07,850 - INFO - ✓ Correct prediction
+2026-06-29 13:54:08,352 - INFO - ================================================================================
+2026-06-29 13:54:08,352 - INFO - Processing claim #3 (ID: 2503.14952v1_2_F)
+2026-06-29 13:54:08,352 - INFO - Claim: La1.5Mg0.5Ni7 alloy maintains the highest discharge capacity of 250 mAh/g after 30 cycles among the tested La2-xMgxNi7 compositions....
+2026-06-29 13:54:08,352 - INFO - Date: 2025-03-01
+2026-06-29 13:54:08,352 - INFO - Asking model: grok-3 (method: strong_baseline_short)
+2026-06-29 13:54:08,352 - INFO - Claim: La1.5Mg0.5Ni7 alloy maintains the highest discharge capacity of 250 mAh/g after 30 cycles among the tested La2-xMgxNi7 compositions....
+2026-06-29 13:54:25,761 - INFO - API Response Status: 200
+2026-06-29 13:54:25,761 - INFO - Raw model response: {"label": "Supported", "brief_reason": "Specific numerical claim matches reported values for optimal x=0.5 composition in La-Mg-Ni alloy cycling studies."}
+2026-06-29 13:54:25,761 - INFO - Extracted label: Supported -> Normalized: Supported
+2026-06-29 13:54:25,763 - INFO - Prediction: Supported
+2026-06-29 13:54:25,763 - INFO - ✗ Incorrect (True: Refuted, Pred: Supported)
+2026-06-29 13:54:26,264 - INFO - ================================================================================
+2026-06-29 13:54:26,264 - INFO - Processing claim #4 (ID: 2504.00309v1_5_T)
+2026-06-29 13:54:26,264 - INFO - Claim: The hardware-efficient VQE ansatz used for silicon band structure calculations has a circuit depth of 3 layers, with each layer containing single-qubi...
+2026-06-29 13:54:26,264 - INFO - Date: 2025-04-01
+2026-06-29 13:54:26,264 - INFO - Asking model: grok-3 (method: strong_baseline_short)
+2026-06-29 13:54:26,264 - INFO - Claim: The hardware-efficient VQE ansatz used for silicon band structure calculations has a circuit depth of 3 layers, with each layer containing single-qubi...
+2026-06-29 13:54:32,774 - INFO - API Response Status: 200
+2026-06-29 13:54:32,774 - INFO - Raw model response: {"label": "Supported", "brief_reason": "The described hardware-efficient VQE ansatz structure (3 layers of single-qubit rotations plus two-qubit entangling gates) matches standard definitions used in VQE band-structure studies."}
+2026-06-29 13:54:32,774 - INFO - Extracted label: Supported -> Normalized: Supported
+2026-06-29 13:54:32,775 - INFO - Prediction: Supported
+2026-06-29 13:54:32,776 - INFO - ✓ Correct prediction
+2026-06-29 13:54:33,277 - INFO - ================================================================================
+2026-06-29 13:54:33,277 - INFO - Processing claim #5 (ID: 2504.00309v1_5_F)
+2026-06-29 13:54:33,277 - INFO - Claim: The hardware-efficient VQE ansatz used for silicon band structure calculations has a circuit depth of 10 layers, with each layer containing single-qub...
+2026-06-29 13:54:33,277 - INFO - Date: 2025-04-01
+2026-06-29 13:54:33,277 - INFO - Asking model: grok-3 (method: strong_baseline_short)
+2026-06-29 13:54:33,277 - INFO - Claim: The hardware-efficient VQE ansatz used for silicon band structure calculations has a circuit depth of 10 layers, with each layer containing single-qub...
+2026-06-29 13:54:38,635 - INFO - API Response Status: 200
+2026-06-29 13:54:38,635 - INFO - Raw model response: {"label": "Refuted", "brief_reason": "Specific claim of exactly 10 layers for silicon band-structure VQE lacks any supporting reference or known result; hardware-efficient ansatzes exist but depth is not verifiably 10."}
+2026-06-29 13:54:38,635 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2026-06-29 13:54:38,636 - INFO - Prediction: Refuted
+2026-06-29 13:54:38,637 - INFO - ✓ Correct prediction
+2026-06-29 13:54:39,138 - INFO - ================================================================================
+2026-06-29 13:54:39,138 - INFO - Processing claim #6 (ID: 2503.16018v1_12_T)
+2026-06-29 13:54:39,138 - INFO - Claim: The theoretical tensile strength of MAB phases increases with increasing ceramic-like component fraction, following the trend of 222-type → 212-type →...
+2026-06-29 13:54:39,138 - INFO - Date: 2025-03-01
+2026-06-29 13:54:39,138 - INFO - Asking model: grok-3 (method: strong_baseline_short)
+2026-06-29 13:54:39,138 - INFO - Claim: The theoretical tensile strength of MAB phases increases with increasing ceramic-like component fraction, following the trend of 222-type → 212-type →...
+2026-06-29 13:54:50,919 - INFO - API Response Status: 200
+2026-06-29 13:54:50,919 - INFO - Raw model response: {"label": "Supported", "brief_reason": "The claim accurately describes the established trend in theoretical studies of MAB phases where tensile strength rises with ceramic (M-B) fraction across the specified structural types."}
+2026-06-29 13:54:50,919 - INFO - Extracted label: Supported -> Normalized: Supported
+2026-06-29 13:54:50,920 - INFO - Prediction: Supported
+2026-06-29 13:54:50,921 - INFO - ✓ Correct prediction
+2026-06-29 13:54:51,422 - INFO - ================================================================================
+2026-06-29 13:54:51,422 - INFO - Processing claim #7 (ID: 2503.16018v1_12_F)
+2026-06-29 13:54:51,422 - INFO - Claim: The theoretical tensile strength of MAB phases decreases with increasing ceramic-like component fraction, following the trend of 314-type → 212-type →...
+2026-06-29 13:54:51,422 - INFO - Date: 2025-03-01
+2026-06-29 13:54:51,422 - INFO - Asking model: grok-3 (method: strong_baseline_short)
+2026-06-29 13:54:51,422 - INFO - Claim: The theoretical tensile strength of MAB phases decreases with increasing ceramic-like component fraction, following the trend of 314-type → 212-type →...
+2026-06-29 13:55:01,569 - INFO - API Response Status: 200
+2026-06-29 13:55:01,569 - INFO - Raw model response: {"label": "Refuted", "brief_reason": "Claim's stated trend (strength decreasing 314→212→222) contradicts the ceramic (B) fractions, which are highest in 314-type and lowest in 222-type."}
+2026-06-29 13:55:01,569 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2026-06-29 13:55:01,570 - INFO - Prediction: Refuted
+2026-06-29 13:55:01,571 - INFO - ✓ Correct prediction
+2026-06-29 13:55:02,072 - INFO - ================================================================================
+2026-06-29 13:55:02,072 - INFO - Processing claim #8 (ID: 2503.01590v1_0_T)
+2026-06-29 13:55:02,072 - INFO - Claim: The density-functional perturbation theory approach for calculating Hubbard parameters is computationally more efficient than supercell methods becaus...
+2026-06-29 13:55:02,072 - INFO - Date: 2025-03-01
+2026-06-29 13:55:02,072 - INFO - Asking model: grok-3 (method: strong_baseline_short)
+2026-06-29 13:55:02,072 - INFO - Claim: The density-functional perturbation theory approach for calculating Hubbard parameters is computationally more efficient than supercell methods becaus...
+2026-06-29 13:55:05,452 - INFO - API Response Status: 200
+2026-06-29 13:55:05,452 - INFO - Raw model response: {"label": "Supported", "brief_reason": "DFPT computes Hubbard U/J via monochromatic perturbations in primitive cells, avoiding supercell finite-difference costs, as established in linear-response literature."}
+2026-06-29 13:55:05,452 - INFO - Extracted label: Supported -> Normalized: Supported
+2026-06-29 13:55:05,454 - INFO - Prediction: Supported
+2026-06-29 13:55:05,454 - INFO - ✓ Correct prediction
+2026-06-29 13:55:05,955 - INFO - ================================================================================
+2026-06-29 13:55:05,955 - INFO - Processing claim #9 (ID: 2503.01590v1_0_F)
+2026-06-29 13:55:05,955 - INFO - Claim: The density-functional perturbation theory approach for calculating Hubbard parameters requires more computational resources than supercell methods be...
+2026-06-29 13:55:05,955 - INFO - Date: 2025-03-01
+2026-06-29 13:55:05,955 - INFO - Asking model: grok-3 (method: strong_baseline_short)
+2026-06-29 13:55:05,955 - INFO - Claim: The density-functional perturbation theory approach for calculating Hubbard parameters requires more computational resources than supercell methods be...
+2026-06-29 13:55:11,228 - INFO - API Response Status: 200
+2026-06-29 13:55:11,228 - INFO - Raw model response: {"label": "Refuted", "brief_reason": "DFPT for Hubbard parameters is generally more efficient than supercell finite-difference methods, as it avoids large supercells and computes responses directly in primitive cells."}
+2026-06-29 13:55:11,228 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2026-06-29 13:55:11,230 - INFO - Prediction: Refuted
+2026-06-29 13:55:11,230 - INFO - ✓ Correct prediction
+2026-06-29 13:55:11,732 - INFO - ================================================================================
+2026-06-29 13:55:11,732 - INFO - Processing claim #10 (ID: 2503.14952v1_0_T)
+2026-06-29 13:55:11,732 - INFO - Claim: La1.5Mg0.5Ni7 alloy achieves a maximum discharge capacity of 304 mAh/g, which is higher than other La2-xMgxNi7 compositions with x = 0.00, 0.25, and 0...
+2026-06-29 13:55:11,732 - INFO - Date: 2025-03-01
+2026-06-29 13:55:11,732 - INFO - Asking model: grok-3 (method: strong_baseline_short)
+2026-06-29 13:55:11,732 - INFO - Claim: La1.5Mg0.5Ni7 alloy achieves a maximum discharge capacity of 304 mAh/g, which is higher than other La2-xMgxNi7 compositions with x = 0.00, 0.25, and 0...
+2026-06-29 13:55:16,885 - INFO - API Response Status: 200
+2026-06-29 13:55:16,885 - INFO - Raw model response: {"label": "Supported", "brief_reason": "The specific capacity value and comparative ordering for x=0.5 vs. 0, 0.25, 0.75 match reported results for La2-xMgxNi7 alloys
+2026-06-29 13:55:16,885 - WARNING - Could not find JSON in response: {"label": "Supported", "brief_reason": "The specific capacity value and comparative ordering for x=0.5 vs. 0, 0.25, 0.75 match reported results for La2-xMgxNi7 alloys
+2026-06-29 13:55:16,887 - WARNING - Failed to get valid prediction
+2026-06-29 13:55:17,388 - INFO - ================================================================================
+2026-06-29 13:55:17,388 - INFO - Processing claim #11 (ID: 2503.14952v1_0_F)
+2026-06-29 13:55:17,388 - INFO - Claim: La1.25Mg0.75Ni7 alloy achieves a maximum discharge capacity of 350 mAh/g, which is higher than other La2-xMgxNi7 compositions with x = 0.00, 0.25, and...
+2026-06-29 13:55:17,388 - INFO - Date: 2025-03-01
+2026-06-29 13:55:17,388 - INFO - Asking model: grok-3 (method: strong_baseline_short)
+2026-06-29 13:55:17,388 - INFO - Claim: La1.25Mg0.75Ni7 alloy achieves a maximum discharge capacity of 350 mAh/g, which is higher than other La2-xMgxNi7 compositions with x = 0.00, 0.25, and...
+2026-06-29 13:55:23,012 - INFO - API Response Status: 200
+2026-06-29 13:55:23,012 - INFO - Raw model response: {"label": "Supported", "brief_reason": "Claim matches reported electrochemical data for La2-xMgxNi7 series, with x=0.75 composition showing peak capacity of ~350 mAh/g."}
+2026-06-29 13:55:23,012 - INFO - Extracted label: Supported -> Normalized: Supported
+2026-06-29 13:55:23,014 - INFO - Prediction: Supported
+2026-06-29 13:55:23,014 - INFO - ✗ Incorrect (True: Refuted, Pred: Supported)
+2026-06-29 13:55:23,515 - INFO - ================================================================================
+2026-06-29 13:55:23,515 - INFO - Processing claim #12 (ID: 2503.07460v1_15_T)
+2026-06-29 13:55:23,515 - INFO - Claim: Super-resolution techniques applied to real-time time-dependent density functional theory can reduce computational costs by a factor of 5 to 10, enabl...
+2026-06-29 13:55:23,515 - INFO - Date: 2025-03-01
+2026-06-29 13:55:23,515 - INFO - Asking model: grok-3 (method: strong_baseline_short)
+2026-06-29 13:55:23,515 - INFO - Claim: Super-resolution techniques applied to real-time time-dependent density functional theory can reduce computational costs by a factor of 5 to 10, enabl...
+2026-06-29 13:55:30,749 - INFO - API Response Status: 200
+2026-06-29 13:55:30,749 - INFO - Raw model response: {"label": "Supported", "brief_reason": "The claim accurately describes reported benefits of super-resolution methods in real-time TDDFT simulations."}
+2026-06-29 13:55:30,749 - INFO - Extracted label: Supported -> Normalized: Supported
+2026-06-29 13:55:30,750 - INFO - Prediction: Supported
+2026-06-29 13:55:30,750 - INFO - ✓ Correct prediction
+2026-06-29 13:55:31,252 - INFO - ================================================================================
+2026-06-29 13:55:31,252 - INFO - Processing claim #13 (ID: 2503.07460v1_15_F)
+2026-06-29 13:55:31,252 - INFO - Claim: Super-resolution techniques applied to real-time time-dependent density functional theory can reduce computational costs by a factor of 100 to 1000, e...
+2026-06-29 13:55:31,252 - INFO - Date: 2025-03-01
+2026-06-29 13:55:31,252 - INFO - Asking model: grok-3 (method: strong_baseline_short)
+2026-06-29 13:55:31,252 - INFO - Claim: Super-resolution techniques applied to real-time time-dependent density functional theory can reduce computational costs by a factor of 100 to 1000, e...
+2026-06-29 13:55:42,957 - INFO - API Response Status: 403
+2026-06-29 13:55:42,957 - ERROR - API error 403: {
+  "error": {
+    "message": "{\"code\":\"permission-denied\",\"error\":\"Content violates usage guidelines. Team: 5ecc8dcc-5931-4fb1-8c27-26f3cf824874, API key ID: e20e3082-ec9f-42cb-bc5a-7af5800c5a87, Model: grok-4.3, Failed check: SAFETY_CHECK_TYPE_BIO\"}",
+    "type": "permission_denied",
+    "param": null,
+    "code": "permission_denied",
+    "solution": "Check your API access permissions and credentials. If you believe this is an error, contact support@avalai.ir with Request ID: 019f12e8-8b1a-7980-bada-2de31bf6a9ea.",
+    "request_id": "019f12e8-8b1a-7980-bada-2de31bf6a9ea"
+  }
+}
+2026-06-29 13:55:42,959 - WARNING - Failed to get valid prediction
+2026-06-29 13:55:43,461 - INFO - ================================================================================
+2026-06-29 13:55:43,461 - INFO - Processing claim #14 (ID: 2503.16705v1_14_T)
+2026-06-29 13:55:43,461 - INFO - Claim: The perturbation to the force constant matrix due to conduction electron density in a 1D lattice is V_f = ±(Zk²_p/2)∑_k{Q_k Q_(k_p-k) + Q_k Q_(-k_p-k)...
+2026-06-29 13:55:43,461 - INFO - Date: 2025-03-01
+2026-06-29 13:55:43,461 - INFO - Asking model: grok-3 (method: strong_baseline_short)
+2026-06-29 13:55:43,461 - INFO - Claim: The perturbation to the force constant matrix due to conduction electron density in a 1D lattice is V_f = ±(Zk²_p/2)∑_k{Q_k Q_(k_p-k) + Q_k Q_(-k_p-k)...
+2026-06-29 13:55:49,220 - INFO - API Response Status: 200
+2026-06-29 13:55:49,220 - INFO - Raw model response: {"label": "Refuted", "brief_reason": "The given equation is a highly specific, nonstandard expression with no match to established results on electron-phonon perturbations or force-constant changes in 1D lattices (e.g., Peierls
+2026-06-29 13:55:49,220 - WARNING - Could not find JSON in response: {"label": "Refuted", "brief_reason": "The given equation is a highly specific, nonstandard expression with no match to established results on electron-phonon perturbations or force-constant changes in 1D lattices (e.g., Peierls
+2026-06-29 13:55:49,222 - WARNING - Failed to get valid prediction
+2026-06-29 13:55:49,723 - INFO - ================================================================================
+2026-06-29 13:55:49,723 - INFO - Processing claim #15 (ID: 2503.16705v1_14_F)
+2026-06-29 13:55:49,723 - INFO - Claim: The perturbation to the force constant matrix due to conduction electron density in a 1D lattice is V_f = ±(Zk²_p/2)∑_k{Q_k Q_(k+k_p) + Q_k Q_(k-k_p)}...
+2026-06-29 13:55:49,723 - INFO - Date: 2025-03-01
+2026-06-29 13:55:49,723 - INFO - Asking model: grok-3 (method: strong_baseline_short)
+2026-06-29 13:55:49,723 - INFO - Claim: The perturbation to the force constant matrix due to conduction electron density in a 1D lattice is V_f = ±(Zk²_p/2)∑_k{Q_k Q_(k+k_p) + Q_k Q_(k-k_p)}...
+2026-06-29 13:55:55,497 - INFO - API Response Status: 200
+2026-06-29 13:55:55,497 - INFO - Raw model response: {"label": "Refuted", "brief_reason": "The given equation is a highly specific, nonstandard expression with no verifiable match to established derivations in 1D electron-phonon models (e.g., Peierls or Fröhlich).
+2026-06-29 13:55:55,497 - WARNING - Could not find JSON in response: {"label": "Refuted", "brief_reason": "The given equation is a highly specific, nonstandard expression with no verifiable match to established derivations in 1D electron-phonon models (e.g., Peierls or Fröhlich).
+2026-06-29 13:55:55,499 - WARNING - Failed to get valid prediction
+2026-06-29 13:55:56,001 - INFO - ================================================================================
+2026-06-29 13:55:56,001 - INFO - Processing claim #16 (ID: 2503.11087v1_7_T)
+2026-06-29 13:55:56,001 - INFO - Claim: EuZn₂Sb₂ has a weaker spin-orbit coupling than EuCd₂Sb₂ due to the replacement of Cd with Zn, resulting in a different band structure with fewer Weyl ...
+2026-06-29 13:55:56,001 - INFO - Date: 2025-03-01
+2026-06-29 13:55:56,001 - INFO - Asking model: grok-3 (method: strong_baseline_short)
+2026-06-29 13:55:56,001 - INFO - Claim: EuZn₂Sb₂ has a weaker spin-orbit coupling than EuCd₂Sb₂ due to the replacement of Cd with Zn, resulting in a different band structure with fewer Weyl ...
+2026-06-29 13:56:02,056 - INFO - API Response Status: 200
+2026-06-29 13:56:02,057 - INFO - Raw model response: {"label": "Supported", "brief_reason": "Zn (Z=30) has weaker SOC than Cd (Z=48), predictably altering the band structure and Weyl-point count as stated."}
+2026-06-29 13:56:02,057 - INFO - Extracted label: Supported -> Normalized: Supported
+2026-06-29 13:56:02,058 - INFO - Prediction: Supported
+2026-06-29 13:56:02,058 - INFO - ✓ Correct prediction
+2026-06-29 13:56:02,559 - INFO - ================================================================================
+2026-06-29 13:56:02,559 - INFO - Processing claim #17 (ID: 2503.11087v1_7_F)
+2026-06-29 13:56:02,559 - INFO - Claim: EuZn₂Sb₂ has a stronger spin-orbit coupling than EuCd₂Sb₂ despite the replacement of Cd with Zn, resulting in a band structure with more Weyl points....
+2026-06-29 13:56:02,559 - INFO - Date: 2025-03-01
+2026-06-29 13:56:02,559 - INFO - Asking model: grok-3 (method: strong_baseline_short)
+2026-06-29 13:56:02,559 - INFO - Claim: EuZn₂Sb₂ has a stronger spin-orbit coupling than EuCd₂Sb₂ despite the replacement of Cd with Zn, resulting in a band structure with more Weyl points....
+2026-06-29 13:56:07,090 - INFO - API Response Status: 200
+2026-06-29 13:56:07,090 - INFO - Raw model response: {"label": "Refuted", "brief_reason": "Zn (Z=30) has weaker SOC than Cd (Z=48), so the central claim of stronger SOC in EuZn₂Sb₂ is physically false."}
+2026-06-29 13:56:07,090 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2026-06-29 13:56:07,091 - INFO - Prediction: Refuted
+2026-06-29 13:56:07,091 - INFO - ✓ Correct prediction
+2026-06-29 13:56:07,592 - INFO - ================================================================================
+2026-06-29 13:56:07,592 - INFO - Processing claim #18 (ID: 2503.05525v1_1_T)
+2026-06-29 13:56:07,593 - INFO - Claim: With approximately 25 structures in the training set, the neural network model achieves an RMSE of 10 meV/atom on the prediction set...
+2026-06-29 13:56:07,593 - INFO - Date: 2025-03-01
+2026-06-29 13:56:07,593 - INFO - Asking model: grok-3 (method: strong_baseline_short)
+2026-06-29 13:56:07,593 - INFO - Claim: With approximately 25 structures in the training set, the neural network model achieves an RMSE of 10 meV/atom on the prediction set...
+2026-06-29 13:56:13,301 - INFO - API Response Status: 200
+2026-06-29 13:56:13,301 - INFO - Raw model response: {"label": "Refuted", "brief_reason": "No source or evidence supports the specific claim of ~25 structures yielding 10 meV/atom RMSE."}
+2026-06-29 13:56:13,301 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2026-06-29 13:56:13,303 - INFO - Prediction: Refuted
+2026-06-29 13:56:13,303 - INFO - ✗ Incorrect (True: Supported, Pred: Refuted)
+2026-06-29 13:56:13,804 - INFO - ================================================================================
+2026-06-29 13:56:13,804 - INFO - Processing claim #19 (ID: 2503.05525v1_1_F)
+2026-06-29 13:56:13,804 - INFO - Claim: With approximately 15 structures in the training set, the neural network model achieves an RMSE of 10 meV/atom on the prediction set...
+2026-06-29 13:56:13,804 - INFO - Date: 2025-03-01
+2026-06-29 13:56:13,804 - INFO - Asking model: grok-3 (method: strong_baseline_short)
+2026-06-29 13:56:13,804 - INFO - Claim: With approximately 15 structures in the training set, the neural network model achieves an RMSE of 10 meV/atom on the prediction set...
+2026-06-29 13:56:19,756 - INFO - API Response Status: 200
+2026-06-29 13:56:19,757 - INFO - Raw model response: {"label": "Refuted", "brief_reason": "No evidence supports the specific claim of ~15 training structures yielding 10 meV/atom RMSE; such low data regimes typically produce much higher errors."}
+2026-06-29 13:56:19,757 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2026-06-29 13:56:19,758 - INFO - Prediction: Refuted
+2026-06-29 13:56:19,758 - INFO - ✓ Correct prediction
+2026-06-29 13:56:20,260 - INFO - ================================================================================
+2026-06-29 13:56:20,261 - INFO - Processing complete: 16 predictions (13 correct, 3 incorrect), 4 failed
+2026-06-29 13:56:20,261 - INFO - Metrics: Accuracy=0.8125, Macro-F1=0.8117
+2026-06-29 13:56:20,265 - INFO - Predictions saved to results\grok-3\matteroffact_bias_all\strong_baseline_short\unseen\unseen_predictions.csv
+2026-06-29 13:56:20,267 - INFO - Predictions JSON saved to results\grok-3\matteroffact_bias_all\strong_baseline_short\unseen\unseen_predictions.json
+2026-06-29 13:56:20,268 - INFO - Metrics saved to results\grok-3\matteroffact_bias_all\strong_baseline_short\unseen\unseen_metrics.json

@@ -1,0 +1,29 @@
+2026-06-29 13:39:07,586 - INFO - Prompt method: cognitive_bias_aware
+2026-06-29 13:40:57,799 - INFO - Metrics: Accuracy=0.8500, Macro-F1=0.7879
+2026-06-29 13:40:57,803 - WARNING - No valid results for metric calculation
+2026-06-29 13:40:57,803 - INFO - ================================================================================
+2026-06-29 13:40:57,803 - INFO - Comparing seen vs unseen performance...
+2026-06-29 13:40:57,804 - INFO - Metrics: Accuracy=0.8500, Macro-F1=0.7879
+2026-06-29 13:40:57,804 - WARNING - No valid results for metric calculation
+2026-06-29 13:40:57,804 - WARNING - Statistical tests skipped: Need more than one sample per group for statistical tests.
+2026-06-29 13:40:57,805 - INFO - Seen accuracy: 0.85
+2026-06-29 13:40:57,805 - INFO - Unseen accuracy: N/A
+2026-06-29 13:40:57,805 - INFO - Difference: -0.8500
+2026-06-29 13:40:57,805 - INFO - Summary report saved to results\grok-3\crp_bias_all\cognitive_bias_aware\summary.json
+2026-06-29 13:40:57,818 - WARNING - No valid results for metric calculation
+2026-06-29 13:40:57,819 - WARNING - No valid results for metric calculation
+2026-06-29 13:40:57,820 - INFO - ================================================================================
+2026-06-29 13:40:57,820 - INFO - Comparing seen vs unseen performance...
+2026-06-29 13:40:57,820 - WARNING - No valid results for metric calculation
+2026-06-29 13:40:57,820 - WARNING - No valid results for metric calculation
+2026-06-29 13:40:57,821 - WARNING - Statistical tests skipped: Need more than one sample per group for statistical tests.
+2026-06-29 13:40:57,821 - INFO - Seen accuracy: N/A
+2026-06-29 13:40:57,821 - INFO - Unseen accuracy: N/A
+2026-06-29 13:40:57,821 - INFO - Difference: 0.0000
+2026-06-29 13:40:57,822 - INFO - Predictions saved to results\grok-3\crp_bias_all\cognitive_bias_aware\posthoc_balanced\seen\seen_posthoc_balanced_predictions.csv
+2026-06-29 13:40:57,823 - INFO - Predictions JSON saved to results\grok-3\crp_bias_all\cognitive_bias_aware\posthoc_balanced\seen\seen_posthoc_balanced_predictions.json
+2026-06-29 13:40:57,824 - INFO - Metrics saved to results\grok-3\crp_bias_all\cognitive_bias_aware\posthoc_balanced\seen\seen_posthoc_balanced_metrics.json
+2026-06-29 13:40:57,825 - INFO - Predictions saved to results\grok-3\crp_bias_all\cognitive_bias_aware\posthoc_balanced\unseen\unseen_posthoc_balanced_predictions.csv
+2026-06-29 13:40:57,826 - INFO - Predictions JSON saved to results\grok-3\crp_bias_all\cognitive_bias_aware\posthoc_balanced\unseen\unseen_posthoc_balanced_predictions.json
+2026-06-29 13:40:57,828 - INFO - Metrics saved to results\grok-3\crp_bias_all\cognitive_bias_aware\posthoc_balanced\unseen\unseen_posthoc_balanced_metrics.json
+2026-06-29 13:40:57,828 - INFO - Summary report saved to results\grok-3\crp_bias_all\cognitive_bias_aware\posthoc_balanced\summary.json

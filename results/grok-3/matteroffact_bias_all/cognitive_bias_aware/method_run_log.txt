@@ -1,0 +1,31 @@
+2026-06-29 13:56:20,317 - INFO - Prompt method: cognitive_bias_aware
+2026-06-29 13:58:36,400 - INFO - Metrics: Accuracy=0.7059, Macro-F1=0.6641
+2026-06-29 14:01:10,359 - INFO - Metrics: Accuracy=0.6667, Macro-F1=0.6667
+2026-06-29 14:01:10,360 - INFO - ================================================================================
+2026-06-29 14:01:10,360 - INFO - Comparing seen vs unseen performance...
+2026-06-29 14:01:10,360 - INFO - Metrics: Accuracy=0.7059, Macro-F1=0.6641
+2026-06-29 14:01:10,361 - INFO - Metrics: Accuracy=0.6667, Macro-F1=0.6667
+2026-06-29 14:01:10,363 - INFO - Seen accuracy: 0.7059
+2026-06-29 14:01:10,364 - INFO - Unseen accuracy: 0.6667
+2026-06-29 14:01:10,364 - INFO - Difference: -0.0392
+2026-06-29 14:01:10,364 - INFO - T-test p-value: 0.8097 (not significant)
+2026-06-29 14:01:10,364 - INFO - Chi-square p-value: 1.0000 (not significant)
+2026-06-29 14:01:10,366 - INFO - Summary report saved to results\grok-3\matteroffact_bias_all\cognitive_bias_aware\summary.json
+2026-06-29 14:01:10,388 - INFO - Metrics: Accuracy=0.7059, Macro-F1=0.6641
+2026-06-29 14:01:10,389 - INFO - Metrics: Accuracy=0.6667, Macro-F1=0.6667
+2026-06-29 14:01:10,389 - INFO - ================================================================================
+2026-06-29 14:01:10,389 - INFO - Comparing seen vs unseen performance...
+2026-06-29 14:01:10,390 - INFO - Metrics: Accuracy=0.7059, Macro-F1=0.6641
+2026-06-29 14:01:10,391 - INFO - Metrics: Accuracy=0.6667, Macro-F1=0.6667
+2026-06-29 14:01:10,394 - INFO - Seen accuracy: 0.7059
+2026-06-29 14:01:10,394 - INFO - Unseen accuracy: 0.6667
+2026-06-29 14:01:10,394 - INFO - Difference: -0.0392
+2026-06-29 14:01:10,394 - INFO - T-test p-value: 0.8097 (not significant)
+2026-06-29 14:01:10,394 - INFO - Chi-square p-value: 1.0000 (not significant)
+2026-06-29 14:01:10,401 - INFO - Predictions saved to results\grok-3\matteroffact_bias_all\cognitive_bias_aware\posthoc_balanced\seen\seen_posthoc_balanced_predictions.csv
+2026-06-29 14:01:10,403 - INFO - Predictions JSON saved to results\grok-3\matteroffact_bias_all\cognitive_bias_aware\posthoc_balanced\seen\seen_posthoc_balanced_predictions.json
+2026-06-29 14:01:10,405 - INFO - Metrics saved to results\grok-3\matteroffact_bias_all\cognitive_bias_aware\posthoc_balanced\seen\seen_posthoc_balanced_metrics.json
+2026-06-29 14:01:10,413 - INFO - Predictions saved to results\grok-3\matteroffact_bias_all\cognitive_bias_aware\posthoc_balanced\unseen\unseen_posthoc_balanced_predictions.csv
+2026-06-29 14:01:10,415 - INFO - Predictions JSON saved to results\grok-3\matteroffact_bias_all\cognitive_bias_aware\posthoc_balanced\unseen\unseen_posthoc_balanced_predictions.json
+2026-06-29 14:01:10,416 - INFO - Metrics saved to results\grok-3\matteroffact_bias_all\cognitive_bias_aware\posthoc_balanced\unseen\unseen_posthoc_balanced_metrics.json
+2026-06-29 14:01:10,417 - INFO - Summary report saved to results\grok-3\matteroffact_bias_all\cognitive_bias_aware\posthoc_balanced\summary.json
