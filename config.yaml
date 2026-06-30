@@ -1,6 +1,6 @@
 dataset: "tracer_bias_all"
 
-model: "gpt-4o-mini-2024-07-18"
+model: "gpt-4o-mini"
 api_url: "https://api.avalai.ir/v1/chat/completions"
 
 labels:
@@ -17,7 +17,7 @@ date_format: "%Y-%m-%d"
 
 rate_limit:
   max_retries: 5
-  initial_retry_delay: 1.0
+  initial_retry_delay: 0.5
   sleep_between_calls: 0.3
 
 sampling:

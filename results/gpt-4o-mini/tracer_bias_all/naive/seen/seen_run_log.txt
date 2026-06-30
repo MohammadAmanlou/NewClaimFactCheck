@@ -1,0 +1,1723 @@
+2026-06-30 15:41:38,836 - INFO - Processing 14238 claims...
+2026-06-30 15:41:38,839 - INFO - ================================================================================
+2026-06-30 15:41:38,839 - INFO - Processing claim #0 (ID: tracer_train_0)
+2026-06-30 15:41:38,839 - INFO - Claim: "In the 1990s, the Biden Crime Bill added 100,000 cops to America's streets. As a result, murder and violent crime rates went down eight years in a ro...
+2026-06-30 15:41:38,839 - INFO - Date: 2007-11-02
+2026-06-30 15:41:38,839 - INFO - Asking model: gpt-4o-mini (method: naive)
+2026-06-30 15:41:38,839 - INFO - Claim: "In the 1990s, the Biden Crime Bill added 100,000 cops to America's streets. As a result, murder and violent crime rates went down eight years in a ro...
+2026-06-30 15:41:39,983 - INFO - API Response Status: 200
+2026-06-30 15:41:39,983 - INFO - Raw model response: {"label": "Half-True"}
+2026-06-30 15:41:39,984 - INFO - Extracted label: Half-True -> Normalized: Misleading
+2026-06-30 15:41:39,985 - INFO - Prediction: Misleading
+2026-06-30 15:41:39,985 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-06-30 15:41:40,287 - INFO - ================================================================================
+2026-06-30 15:41:40,287 - INFO - Processing claim #1 (ID: tracer_train_1)
+2026-06-30 15:41:40,287 - INFO - Claim: "(Ronald Reagan) raised taxes a billion dollars in his first year as governor of California."...
+2026-06-30 15:41:40,287 - INFO - Date: 2008-01-10
+2026-06-30 15:41:40,287 - INFO - Asking model: gpt-4o-mini (method: naive)
+2026-06-30 15:41:40,287 - INFO - Claim: "(Ronald Reagan) raised taxes a billion dollars in his first year as governor of California."...
+2026-06-30 15:41:41,169 - INFO - API Response Status: 200
+2026-06-30 15:41:41,169 - INFO - Raw model response: {"label": "Half-True"}
+2026-06-30 15:41:41,170 - INFO - Extracted label: Half-True -> Normalized: Misleading
+2026-06-30 15:41:41,172 - INFO - Prediction: Misleading
+2026-06-30 15:41:41,172 - INFO - ✗ Incorrect (True: Supported, Pred: Misleading)
+2026-06-30 15:41:41,474 - INFO - ================================================================================
+2026-06-30 15:41:41,474 - INFO - Processing claim #2 (ID: tracer_train_2)
+2026-06-30 15:41:41,474 - INFO - Claim: Hillary Clinton "has the only health care plan that covers every American."...
+2026-06-30 15:41:41,474 - INFO - Date: 2008-02-13
+2026-06-30 15:41:41,474 - INFO - Asking model: gpt-4o-mini (method: naive)
+2026-06-30 15:41:41,474 - INFO - Claim: Hillary Clinton "has the only health care plan that covers every American."...
+2026-06-30 15:41:42,475 - INFO - API Response Status: 200
+2026-06-30 15:41:42,475 - INFO - Raw model response: {"label": "Refuted"}
+2026-06-30 15:41:42,475 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2026-06-30 15:41:42,477 - INFO - Prediction: Refuted
+2026-06-30 15:41:42,477 - INFO - ✗ Incorrect (True: Supported, Pred: Refuted)
+2026-06-30 15:41:42,779 - INFO - ================================================================================
+2026-06-30 15:41:42,779 - INFO - Processing claim #3 (ID: tracer_train_3)
+2026-06-30 15:41:42,779 - INFO - Claim: "Joe Biden brought Republicans and Democrats together to pass the 1994 crime bill, putting 100,000 cops on the streets and starting an eight-year drop...
+2026-06-30 15:41:42,779 - INFO - Date: 2008-08-23
+2026-06-30 15:41:42,779 - INFO - Asking model: gpt-4o-mini (method: naive)
+2026-06-30 15:41:42,779 - INFO - Claim: "Joe Biden brought Republicans and Democrats together to pass the 1994 crime bill, putting 100,000 cops on the streets and starting an eight-year drop...
+2026-06-30 15:41:43,604 - INFO - API Response Status: 200
+2026-06-30 15:41:43,605 - INFO - Raw model response: {"label": "Half-True"}
+2026-06-30 15:41:43,605 - INFO - Extracted label: Half-True -> Normalized: Misleading
+2026-06-30 15:41:43,607 - INFO - Prediction: Misleading
+2026-06-30 15:41:43,607 - INFO - ✓ Correct prediction
+2026-06-30 15:41:43,908 - INFO - ================================================================================
+2026-06-30 15:41:43,909 - INFO - Processing claim #4 (ID: tracer_train_4)
+2026-06-30 15:41:43,909 - INFO - Claim: "While Sarah was Mayor of Wasilla she tried to fire our highly respected City Librarian because the Librarian refused to consider removing from the li...
+2026-06-30 15:41:43,909 - INFO - Date: 2008-08-31
+2026-06-30 15:41:43,909 - INFO - Asking model: gpt-4o-mini (method: naive)
+2026-06-30 15:41:43,909 - INFO - Claim: "While Sarah was Mayor of Wasilla she tried to fire our highly respected City Librarian because the Librarian refused to consider removing from the li...
+2026-06-30 15:41:44,889 - INFO - API Response Status: 200
+2026-06-30 15:41:44,889 - INFO - Raw model response: {"label": "Supported"}
+2026-06-30 15:41:44,889 - INFO - Extracted label: Supported -> Normalized: Supported
+2026-06-30 15:41:44,892 - INFO - Prediction: Supported
+2026-06-30 15:41:44,892 - INFO - ✗ Incorrect (True: Misleading, Pred: Supported)
+2026-06-30 15:41:45,193 - INFO - ================================================================================
+2026-06-30 15:41:45,193 - INFO - Processing claim #5 (ID: tracer_train_5)
+2026-06-30 15:41:45,193 - INFO - Claim: On the economic troubles of 2008, "really the match that lit this fire was Fannie Mae and Freddie Mac."...
+2026-06-30 15:41:45,193 - INFO - Date: 2008-10-07
+2026-06-30 15:41:45,193 - INFO - Asking model: gpt-4o-mini (method: naive)
+2026-06-30 15:41:45,193 - INFO - Claim: On the economic troubles of 2008, "really the match that lit this fire was Fannie Mae and Freddie Mac."...
+2026-06-30 15:41:46,100 - INFO - API Response Status: 200
+2026-06-30 15:41:46,100 - INFO - Raw model response: {"label": "Half-True"}
+2026-06-30 15:41:46,100 - INFO - Extracted label: Half-True -> Normalized: Misleading
+2026-06-30 15:41:46,102 - INFO - Prediction: Misleading
+2026-06-30 15:41:46,102 - INFO - ✓ Correct prediction
+2026-06-30 15:41:46,403 - INFO - ================================================================================
+2026-06-30 15:41:46,403 - INFO - Processing claim #6 (ID: tracer_train_6)
+2026-06-30 15:41:46,403 - INFO - Claim: "In April, Sen. McCain came out against helping women earn equal pay for equal work."...
+2026-06-30 15:41:46,403 - INFO - Date: 2008-10-20
+2026-06-30 15:41:46,403 - INFO - Asking model: gpt-4o-mini (method: naive)
+2026-06-30 15:41:46,403 - INFO - Claim: "In April, Sen. McCain came out against helping women earn equal pay for equal work."...
+2026-06-30 15:41:52,349 - INFO - API Response Status: 200
+2026-06-30 15:41:52,349 - INFO - Raw model response: {"label": "Refuted"}
+2026-06-30 15:41:52,349 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2026-06-30 15:41:52,350 - INFO - Prediction: Refuted
+2026-06-30 15:41:52,351 - INFO - ✗ Incorrect (True: Misleading, Pred: Refuted)
+2026-06-30 15:41:52,652 - INFO - ================================================================================
+2026-06-30 15:41:52,652 - INFO - Processing claim #7 (ID: tracer_train_7)
+2026-06-30 15:41:52,652 - INFO - Claim: "There are no earmarks" in the stimulus bill....
+2026-06-30 15:41:52,652 - INFO - Date: 2009-02-02
+2026-06-30 15:41:52,652 - INFO - Asking model: gpt-4o-mini (method: naive)
+2026-06-30 15:41:52,652 - INFO - Claim: "There are no earmarks" in the stimulus bill....
+2026-06-30 15:41:53,487 - INFO - API Response Status: 200
+2026-06-30 15:41:53,487 - INFO - Raw model response: {"label": "Refuted"}
+2026-06-30 15:41:53,487 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2026-06-30 15:41:53,488 - INFO - Prediction: Refuted
+2026-06-30 15:41:53,488 - INFO - ✓ Correct prediction
+2026-06-30 15:41:53,789 - INFO - ================================================================================
+2026-06-30 15:41:53,790 - INFO - Processing claim #8 (ID: tracer_train_8)
+2026-06-30 15:41:53,790 - INFO - Claim: "A new poll shows 62 percent support the president's plan to reform health care. That means ... letting you choose between keeping the private insuran...
+2026-06-30 15:41:53,790 - INFO - Date: 2009-06-14
+2026-06-30 15:41:53,790 - INFO - Asking model: gpt-4o-mini (method: naive)
+2026-06-30 15:41:53,790 - INFO - Claim: "A new poll shows 62 percent support the president's plan to reform health care. That means ... letting you choose between keeping the private insuran...
+2026-06-30 15:41:54,797 - INFO - API Response Status: 200
+2026-06-30 15:41:54,797 - INFO - Raw model response: {"label": "Half-True"}
+2026-06-30 15:41:54,797 - INFO - Extracted label: Half-True -> Normalized: Misleading
+2026-06-30 15:41:54,799 - INFO - Prediction: Misleading
+2026-06-30 15:41:54,799 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-06-30 15:41:55,100 - INFO - ================================================================================
+2026-06-30 15:41:55,100 - INFO - Processing claim #9 (ID: tracer_train_9)
+2026-06-30 15:41:55,100 - INFO - Claim: Health insurance companies are "making record profits, right now."...
+2026-06-30 15:41:55,100 - INFO - Date: 2009-07-22
+2026-06-30 15:41:55,100 - INFO - Asking model: gpt-4o-mini (method: naive)
+2026-06-30 15:41:55,100 - INFO - Claim: Health insurance companies are "making record profits, right now."...
+2026-06-30 15:41:55,972 - INFO - API Response Status: 200
+2026-06-30 15:41:55,972 - INFO - Raw model response: {"label": "Refuted"}
+2026-06-30 15:41:55,972 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2026-06-30 15:41:55,973 - INFO - Prediction: Refuted
+2026-06-30 15:41:55,974 - INFO - ✓ Correct prediction
+2026-06-30 15:41:56,276 - INFO - ================================================================================
+2026-06-30 15:41:56,276 - INFO - Processing claim #10 (ID: tracer_train_10)
+2026-06-30 15:41:56,276 - INFO - Claim: "There's no rationing in any of these bills."...
+2026-06-30 15:41:56,276 - INFO - Date: 2009-08-09
+2026-06-30 15:41:56,276 - INFO - Asking model: gpt-4o-mini (method: naive)
+2026-06-30 15:41:56,276 - INFO - Claim: "There's no rationing in any of these bills."...
+2026-06-30 15:41:57,251 - INFO - API Response Status: 200
+2026-06-30 15:41:57,251 - INFO - Raw model response: {"label": "Refuted"}
+2026-06-30 15:41:57,251 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2026-06-30 15:41:57,253 - INFO - Prediction: Refuted
+2026-06-30 15:41:57,253 - INFO - ✓ Correct prediction
+2026-06-30 15:41:57,554 - INFO - ================================================================================
+2026-06-30 15:41:57,554 - INFO - Processing claim #11 (ID: tracer_train_11)
+2026-06-30 15:41:57,554 - INFO - Claim: The health bill's plan for comparative effectiveness research "would be used by the government to ration care."...
+2026-06-30 15:41:57,554 - INFO - Date: 2009-08-18
+2026-06-30 15:41:57,555 - INFO - Asking model: gpt-4o-mini (method: naive)
+2026-06-30 15:41:57,555 - INFO - Claim: The health bill's plan for comparative effectiveness research "would be used by the government to ration care."...
+2026-06-30 15:41:58,705 - INFO - API Response Status: 200
+2026-06-30 15:41:58,706 - INFO - Raw model response: {"label": "Half-True"}
+2026-06-30 15:41:58,706 - INFO - Extracted label: Half-True -> Normalized: Misleading
+2026-06-30 15:41:58,707 - INFO - Prediction: Misleading
+2026-06-30 15:41:58,707 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-06-30 15:41:59,009 - INFO - ================================================================================
+2026-06-30 15:41:59,009 - INFO - Processing claim #12 (ID: tracer_train_12)
+2026-06-30 15:41:59,009 - INFO - Claim: "I signed the largest single tax cut in the history of Florida, a $25 billion tax cut over five years, directed at property tax cuts."...
+2026-06-30 15:41:59,009 - INFO - Date: 2009-09-25
+2026-06-30 15:41:59,009 - INFO - Asking model: gpt-4o-mini (method: naive)
+2026-06-30 15:41:59,009 - INFO - Claim: "I signed the largest single tax cut in the history of Florida, a $25 billion tax cut over five years, directed at property tax cuts."...
+2026-06-30 15:41:59,861 - INFO - API Response Status: 200
+2026-06-30 15:41:59,861 - INFO - Raw model response: {"label": "Supported"}
+2026-06-30 15:41:59,861 - INFO - Extracted label: Supported -> Normalized: Supported
+2026-06-30 15:41:59,863 - INFO - Prediction: Supported
+2026-06-30 15:41:59,863 - INFO - ✗ Incorrect (True: Refuted, Pred: Supported)
+2026-06-30 15:42:00,165 - INFO - ================================================================================
+2026-06-30 15:42:00,165 - INFO - Processing claim #13 (ID: tracer_train_13)
+2026-06-30 15:42:00,165 - INFO - Claim: "Fifty-seven" of  Rubio's 100 ideas "ultimately became law."...
+2026-06-30 15:42:00,165 - INFO - Date: 2009-11-04
+2026-06-30 15:42:00,165 - INFO - Asking model: gpt-4o-mini (method: naive)
+2026-06-30 15:42:00,165 - INFO - Claim: "Fifty-seven" of  Rubio's 100 ideas "ultimately became law."...
+2026-06-30 15:42:01,303 - INFO - API Response Status: 200
+2026-06-30 15:42:01,303 - INFO - Raw model response: {"label": "Half-True"}
+2026-06-30 15:42:01,304 - INFO - Extracted label: Half-True -> Normalized: Misleading
+2026-06-30 15:42:01,305 - INFO - Prediction: Misleading
+2026-06-30 15:42:01,305 - INFO - ✓ Correct prediction
+2026-06-30 15:42:01,606 - INFO - ================================================================================
+2026-06-30 15:42:01,606 - INFO - Processing claim #14 (ID: tracer_train_14)
+2026-06-30 15:42:01,606 - INFO - Claim: President Obama "doesn't ... want to admit we're at war."...
+2026-06-30 15:42:01,606 - INFO - Date: 2009-12-30
+2026-06-30 15:42:01,606 - INFO - Asking model: gpt-4o-mini (method: naive)
+2026-06-30 15:42:01,606 - INFO - Claim: President Obama "doesn't ... want to admit we're at war."...
+2026-06-30 15:42:02,534 - INFO - API Response Status: 200
+2026-06-30 15:42:02,534 - INFO - Raw model response: {"label": "Half-True"}
+2026-06-30 15:42:02,534 - INFO - Extracted label: Half-True -> Normalized: Misleading
+2026-06-30 15:42:02,536 - INFO - Prediction: Misleading
+2026-06-30 15:42:02,536 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-06-30 15:42:02,837 - INFO - ================================================================================
+2026-06-30 15:42:02,837 - INFO - Processing claim #15 (ID: tracer_train_15)
+2026-06-30 15:42:02,837 - INFO - Claim: "Governor (Perry), you were a Democrat, having worked for Al Gore as his campaign manager..."...
+2026-06-30 15:42:02,837 - INFO - Date: 2010-01-14
+2026-06-30 15:42:02,837 - INFO - Asking model: gpt-4o-mini (method: naive)
+2026-06-30 15:42:02,837 - INFO - Claim: "Governor (Perry), you were a Democrat, having worked for Al Gore as his campaign manager..."...
+2026-06-30 15:42:03,782 - INFO - API Response Status: 200
+2026-06-30 15:42:03,783 - INFO - Raw model response: {"label": "Supported"}
+2026-06-30 15:42:03,783 - INFO - Extracted label: Supported -> Normalized: Supported
+2026-06-30 15:42:03,784 - INFO - Prediction: Supported
+2026-06-30 15:42:03,784 - INFO - ✗ Incorrect (True: Misleading, Pred: Supported)
+2026-06-30 15:42:04,086 - INFO - ================================================================================
+2026-06-30 15:42:04,086 - INFO - Processing claim #16 (ID: tracer_train_16)
+2026-06-30 15:42:04,086 - INFO - Claim: "Amendment 4 will reduce Florida’s economic output by $34 billion annually."...
+2026-06-30 15:42:04,086 - INFO - Date: 2010-01-21
+2026-06-30 15:42:04,086 - INFO - Asking model: gpt-4o-mini (method: naive)
+2026-06-30 15:42:04,086 - INFO - Claim: "Amendment 4 will reduce Florida’s economic output by $34 billion annually."...
+2026-06-30 15:42:04,924 - INFO - API Response Status: 200
+2026-06-30 15:42:04,924 - INFO - Raw model response: {"label": "Refuted"}
+2026-06-30 15:42:04,924 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2026-06-30 15:42:04,926 - INFO - Prediction: Refuted
+2026-06-30 15:42:04,926 - INFO - ✓ Correct prediction
+2026-06-30 15:42:05,227 - INFO - ================================================================================
+2026-06-30 15:42:05,227 - INFO - Processing claim #17 (ID: tracer_train_17)
+2026-06-30 15:42:05,228 - INFO - Claim: "One of the most recent polls said 75 percent of the American people have said either don't do anything or start over (on health care reform)."...
+2026-06-30 15:42:05,228 - INFO - Date: 2010-02-20
+2026-06-30 15:42:05,228 - INFO - Asking model: gpt-4o-mini (method: naive)
+2026-06-30 15:42:05,228 - INFO - Claim: "One of the most recent polls said 75 percent of the American people have said either don't do anything or start over (on health care reform)."...
+2026-06-30 15:42:06,417 - INFO - API Response Status: 200
+2026-06-30 15:42:06,418 - INFO - Raw model response: {"label": "Half-True"}
+2026-06-30 15:42:06,418 - INFO - Extracted label: Half-True -> Normalized: Misleading
+2026-06-30 15:42:06,420 - INFO - Prediction: Misleading
+2026-06-30 15:42:06,420 - INFO - ✓ Correct prediction
+2026-06-30 15:42:06,721 - INFO - ================================================================================
+2026-06-30 15:42:06,722 - INFO - Processing claim #18 (ID: tracer_train_18)
+2026-06-30 15:42:06,722 - INFO - Claim: Several times, Obama "has apologized for what he deems to be American arrogance, dismissiveness, and derision; for dictating solutions, for acting uni...
+2026-06-30 15:42:06,722 - INFO - Date: 2010-03-02
+2026-06-30 15:42:06,722 - INFO - Asking model: gpt-4o-mini (method: naive)
+2026-06-30 15:42:06,722 - INFO - Claim: Several times, Obama "has apologized for what he deems to be American arrogance, dismissiveness, and derision; for dictating solutions, for acting uni...
+2026-06-30 15:42:07,610 - INFO - API Response Status: 200
+2026-06-30 15:42:07,610 - INFO - Raw model response: {"label": "Supported"}
+2026-06-30 15:42:07,610 - INFO - Extracted label: Supported -> Normalized: Supported
+2026-06-30 15:42:07,612 - INFO - Prediction: Supported
+2026-06-30 15:42:07,612 - INFO - ✗ Incorrect (True: Refuted, Pred: Supported)
+2026-06-30 15:42:07,913 - INFO - ================================================================================
+2026-06-30 15:42:07,913 - INFO - Processing claim #19 (ID: tracer_train_19)
+2026-06-30 15:42:07,913 - INFO - Claim: Charges on the Republican Party of Florida credit card were made with "my money."...
+2026-06-30 15:42:07,913 - INFO - Date: 2010-03-04
+2026-06-30 15:42:07,914 - INFO - Asking model: gpt-4o-mini (method: naive)
+2026-06-30 15:42:07,914 - INFO - Claim: Charges on the Republican Party of Florida credit card were made with "my money."...
+2026-06-30 15:42:08,925 - INFO - API Response Status: 200
+2026-06-30 15:42:08,925 - INFO - Raw model response: {"label": "Half-True"}
+2026-06-30 15:42:08,925 - INFO - Extracted label: Half-True -> Normalized: Misleading
+2026-06-30 15:42:08,927 - INFO - Prediction: Misleading
+2026-06-30 15:42:08,927 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-06-30 15:42:09,230 - INFO - ================================================================================
+2026-06-30 15:42:09,230 - INFO - Processing claim #20 (ID: tracer_train_20)
+2026-06-30 15:42:09,230 - INFO - Claim: St. Pete Beach's experiences are a "fair example" of what could happen if Amendment 4 passes....
+2026-06-30 15:42:09,230 - INFO - Date: 2010-03-15
+2026-06-30 15:42:09,230 - INFO - Asking model: gpt-4o-mini (method: naive)
+2026-06-30 15:42:09,230 - INFO - Claim: St. Pete Beach's experiences are a "fair example" of what could happen if Amendment 4 passes....
+2026-06-30 15:42:10,186 - INFO - API Response Status: 200
+2026-06-30 15:42:10,187 - INFO - Raw model response: {"label": "Half-True"}
+2026-06-30 15:42:10,187 - INFO - Extracted label: Half-True -> Normalized: Misleading
+2026-06-30 15:42:10,188 - INFO - Prediction: Misleading
+2026-06-30 15:42:10,188 - INFO - ✓ Correct prediction
+2026-06-30 15:42:10,490 - INFO - ================================================================================
+2026-06-30 15:42:10,490 - INFO - Processing claim #21 (ID: tracer_train_21)
+2026-06-30 15:42:10,490 - INFO - Claim: Florida's cost for the Medicaid expansion will be $1.6 billion a year or more....
+2026-06-30 15:42:10,491 - INFO - Date: 2010-03-22
+2026-06-30 15:42:10,491 - INFO - Asking model: gpt-4o-mini (method: naive)
+2026-06-30 15:42:10,491 - INFO - Claim: Florida's cost for the Medicaid expansion will be $1.6 billion a year or more....
+2026-06-30 15:42:17,903 - INFO - API Response Status: 200
+2026-06-30 15:42:17,904 - INFO - Raw model response: {"label": "Refuted"}
+2026-06-30 15:42:17,904 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2026-06-30 15:42:17,905 - INFO - Prediction: Refuted
+2026-06-30 15:42:17,905 - INFO - ✗ Incorrect (True: Misleading, Pred: Refuted)
+2026-06-30 15:42:18,206 - INFO - ================================================================================
+2026-06-30 15:42:18,206 - INFO - Processing claim #22 (ID: tracer_train_22)
+2026-06-30 15:42:18,206 - INFO - Claim: "The path to ObamaCare becoming law all started with Charlie Crist supporting President Obama's $787 billion stimulus."...
+2026-06-30 15:42:18,206 - INFO - Date: 2010-03-22
+2026-06-30 15:42:18,206 - INFO - Asking model: gpt-4o-mini (method: naive)
+2026-06-30 15:42:18,206 - INFO - Claim: "The path to ObamaCare becoming law all started with Charlie Crist supporting President Obama's $787 billion stimulus."...
+2026-06-30 15:42:19,148 - INFO - API Response Status: 200
+2026-06-30 15:42:19,148 - INFO - Raw model response: {"label": "Half-True"}
+2026-06-30 15:42:19,148 - INFO - Extracted label: Half-True -> Normalized: Misleading
+2026-06-30 15:42:19,149 - INFO - Prediction: Misleading
+2026-06-30 15:42:19,149 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-06-30 15:42:19,451 - INFO - ================================================================================
+2026-06-30 15:42:19,451 - INFO - Processing claim #23 (ID: tracer_train_23)
+2026-06-30 15:42:19,451 - INFO - Claim: U.S. Rep. Bill Young "has accepted $737,000 from lobbyists and recipients of his earmarks."...
+2026-06-30 15:42:19,451 - INFO - Date: 2010-04-14
+2026-06-30 15:42:19,451 - INFO - Asking model: gpt-4o-mini (method: naive)
+2026-06-30 15:42:19,451 - INFO - Claim: U.S. Rep. Bill Young "has accepted $737,000 from lobbyists and recipients of his earmarks."...
+2026-06-30 15:42:20,284 - INFO - API Response Status: 200
+2026-06-30 15:42:20,284 - INFO - Raw model response: {"label": "Half-True"}
+2026-06-30 15:42:20,284 - INFO - Extracted label: Half-True -> Normalized: Misleading
+2026-06-30 15:42:20,285 - INFO - Prediction: Misleading
+2026-06-30 15:42:20,286 - INFO - ✓ Correct prediction
+2026-06-30 15:42:20,588 - INFO - ================================================================================
+2026-06-30 15:42:20,588 - INFO - Processing claim #24 (ID: tracer_train_24)
+2026-06-30 15:42:20,588 - INFO - Claim: New financial regulation "actually guarantees future bailouts of Wall Street banks."...
+2026-06-30 15:42:20,588 - INFO - Date: 2010-04-14
+2026-06-30 15:42:20,588 - INFO - Asking model: gpt-4o-mini (method: naive)
+2026-06-30 15:42:20,588 - INFO - Claim: New financial regulation "actually guarantees future bailouts of Wall Street banks."...
+2026-06-30 15:42:30,751 - INFO - API Response Status: 200
+2026-06-30 15:42:30,751 - INFO - Raw model response: {"label": "Refuted"}
+2026-06-30 15:42:30,751 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2026-06-30 15:42:30,752 - INFO - Prediction: Refuted
+2026-06-30 15:42:30,752 - INFO - ✓ Correct prediction
+2026-06-30 15:42:31,054 - INFO - ================================================================================
+2026-06-30 15:42:31,054 - INFO - Processing claim #25 (ID: tracer_train_25)
+2026-06-30 15:42:31,054 - INFO - Claim: The passage of the teacher tenure bill in the Fla. Legislature was like the health care bill in Congress because one party jammed it through....
+2026-06-30 15:42:31,054 - INFO - Date: 2010-04-15
+2026-06-30 15:42:31,054 - INFO - Asking model: gpt-4o-mini (method: naive)
+2026-06-30 15:42:31,054 - INFO - Claim: The passage of the teacher tenure bill in the Fla. Legislature was like the health care bill in Congress because one party jammed it through....
+2026-06-30 15:42:32,029 - INFO - API Response Status: 200
+2026-06-30 15:42:32,029 - INFO - Raw model response: {"label": "Half-True"}
+2026-06-30 15:42:32,029 - INFO - Extracted label: Half-True -> Normalized: Misleading
+2026-06-30 15:42:32,031 - INFO - Prediction: Misleading
+2026-06-30 15:42:32,031 - INFO - ✓ Correct prediction
+2026-06-30 15:42:32,332 - INFO - ================================================================================
+2026-06-30 15:42:32,332 - INFO - Processing claim #26 (ID: tracer_train_26)
+2026-06-30 15:42:32,332 - INFO - Claim: I've shut down pill mills....
+2026-06-30 15:42:32,332 - INFO - Date: 2010-04-28
+2026-06-30 15:42:32,332 - INFO - Asking model: gpt-4o-mini (method: naive)
+2026-06-30 15:42:32,332 - INFO - Claim: I've shut down pill mills....
+2026-06-30 15:42:33,249 - INFO - API Response Status: 200
+2026-06-30 15:42:33,249 - INFO - Raw model response: {"label": "Half-True"}
+2026-06-30 15:42:33,249 - INFO - Extracted label: Half-True -> Normalized: Misleading
+2026-06-30 15:42:33,251 - INFO - Prediction: Misleading
+2026-06-30 15:42:33,251 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-06-30 15:42:33,552 - INFO - ================================================================================
+2026-06-30 15:42:33,552 - INFO - Processing claim #27 (ID: tracer_train_27)
+2026-06-30 15:42:33,552 - INFO - Claim: Blue Cross’ new $90-million Providence headquarters "was outfitted with $25 million in decor."...
+2026-06-30 15:42:33,552 - INFO - Date: 2010-05-19
+2026-06-30 15:42:33,552 - INFO - Asking model: gpt-4o-mini (method: naive)
+2026-06-30 15:42:33,552 - INFO - Claim: Blue Cross’ new $90-million Providence headquarters "was outfitted with $25 million in decor."...
+2026-06-30 15:42:36,625 - INFO - API Response Status: 200
+2026-06-30 15:42:36,625 - INFO - Raw model response: {"label": "Half-True"}
+2026-06-30 15:42:36,625 - INFO - Extracted label: Half-True -> Normalized: Misleading
+2026-06-30 15:42:36,627 - INFO - Prediction: Misleading
+2026-06-30 15:42:36,627 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-06-30 15:42:36,928 - INFO - ================================================================================
+2026-06-30 15:42:36,928 - INFO - Processing claim #28 (ID: tracer_train_28)
+2026-06-30 15:42:36,929 - INFO - Claim: Says Gov. Rick Perry is "by far and away the highest-paid state employee on an hourly basis."...
+2026-06-30 15:42:36,929 - INFO - Date: 2010-06-17
+2026-06-30 15:42:36,929 - INFO - Asking model: gpt-4o-mini (method: naive)
+2026-06-30 15:42:36,929 - INFO - Claim: Says Gov. Rick Perry is "by far and away the highest-paid state employee on an hourly basis."...
+2026-06-30 15:42:38,238 - INFO - API Response Status: 200
+2026-06-30 15:42:38,238 - INFO - Raw model response: {"label": "Half-True"}
+2026-06-30 15:42:38,238 - INFO - Extracted label: Half-True -> Normalized: Misleading
+2026-06-30 15:42:38,239 - INFO - Prediction: Misleading
+2026-06-30 15:42:38,239 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-06-30 15:42:38,541 - INFO - ================================================================================
+2026-06-30 15:42:38,541 - INFO - Processing claim #29 (ID: tracer_train_29)
+2026-06-30 15:42:38,541 - INFO - Claim: "When I become the nominee, the Democratic nominee, I will be the only pro-choice candidate on the ballot."...
+2026-06-30 15:42:38,541 - INFO - Date: 2010-06-22
+2026-06-30 15:42:38,541 - INFO - Asking model: gpt-4o-mini (method: naive)
+2026-06-30 15:42:38,541 - INFO - Claim: "When I become the nominee, the Democratic nominee, I will be the only pro-choice candidate on the ballot."...
+2026-06-30 15:42:39,876 - INFO - API Response Status: 200
+2026-06-30 15:42:39,876 - INFO - Raw model response: {"label": "Half-True"}
+2026-06-30 15:42:39,876 - INFO - Extracted label: Half-True -> Normalized: Misleading
+2026-06-30 15:42:39,878 - INFO - Prediction: Misleading
+2026-06-30 15:42:39,878 - INFO - ✓ Correct prediction
+2026-06-30 15:42:40,180 - INFO - ================================================================================
+2026-06-30 15:42:40,180 - INFO - Processing claim #30 (ID: tracer_train_30)
+2026-06-30 15:42:40,180 - INFO - Claim: Jeff Greene "is the king of the undercover Credit Default Swap that brought about the destruction of our economy that we have right now."...
+2026-06-30 15:42:40,180 - INFO - Date: 2010-06-22
+2026-06-30 15:42:40,180 - INFO - Asking model: gpt-4o-mini (method: naive)
+2026-06-30 15:42:40,180 - INFO - Claim: Jeff Greene "is the king of the undercover Credit Default Swap that brought about the destruction of our economy that we have right now."...
+2026-06-30 15:42:41,001 - INFO - API Response Status: 200
+2026-06-30 15:42:41,001 - INFO - Raw model response: {"label": "Refuted"}
+2026-06-30 15:42:41,001 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2026-06-30 15:42:41,003 - INFO - Prediction: Refuted
+2026-06-30 15:42:41,003 - INFO - ✓ Correct prediction
+2026-06-30 15:42:41,304 - INFO - ================================================================================
+2026-06-30 15:42:41,304 - INFO - Processing claim #31 (ID: tracer_train_31)
+2026-06-30 15:42:41,304 - INFO - Claim: "Phoenix, Arizona, is the No. 2 kidnapping capital of the world."...
+2026-06-30 15:42:41,304 - INFO - Date: 2010-06-27
+2026-06-30 15:42:41,304 - INFO - Asking model: gpt-4o-mini (method: naive)
+2026-06-30 15:42:41,304 - INFO - Claim: "Phoenix, Arizona, is the No. 2 kidnapping capital of the world."...
+2026-06-30 15:42:42,199 - INFO - API Response Status: 200
+2026-06-30 15:42:42,199 - INFO - Raw model response: {"label": "Refuted"}
+2026-06-30 15:42:42,199 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2026-06-30 15:42:42,200 - INFO - Prediction: Refuted
+2026-06-30 15:42:42,201 - INFO - ✓ Correct prediction
+2026-06-30 15:42:42,502 - INFO - ================================================================================
+2026-06-30 15:42:42,502 - INFO - Processing claim #32 (ID: tracer_train_32)
+2026-06-30 15:42:42,502 - INFO - Claim: Dan Gelber's employment by BP's law firm "could disqualify him from representing Florida against BP as Attorney General."...
+2026-06-30 15:42:42,502 - INFO - Date: 2010-07-02
+2026-06-30 15:42:42,502 - INFO - Asking model: gpt-4o-mini (method: naive)
+2026-06-30 15:42:42,502 - INFO - Claim: Dan Gelber's employment by BP's law firm "could disqualify him from representing Florida against BP as Attorney General."...
+2026-06-30 15:42:43,497 - INFO - API Response Status: 200
+2026-06-30 15:42:43,497 - INFO - Raw model response: {"label": "Half-True"}
+2026-06-30 15:42:43,497 - INFO - Extracted label: Half-True -> Normalized: Misleading
+2026-06-30 15:42:43,499 - INFO - Prediction: Misleading
+2026-06-30 15:42:43,499 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-06-30 15:42:43,800 - INFO - ================================================================================
+2026-06-30 15:42:43,800 - INFO - Processing claim #33 (ID: tracer_train_33)
+2026-06-30 15:42:43,800 - INFO - Claim: "He (Kirk) did violate Pentagon rules, twice actually, for improperly mingling politics with his military service."...
+2026-06-30 15:42:43,800 - INFO - Date: 2010-07-08
+2026-06-30 15:42:43,800 - INFO - Asking model: gpt-4o-mini (method: naive)
+2026-06-30 15:42:43,800 - INFO - Claim: "He (Kirk) did violate Pentagon rules, twice actually, for improperly mingling politics with his military service."...
+2026-06-30 15:42:44,688 - INFO - API Response Status: 200
+2026-06-30 15:42:44,688 - INFO - Raw model response: {"label": "Supported"}
+2026-06-30 15:42:44,688 - INFO - Extracted label: Supported -> Normalized: Supported
+2026-06-30 15:42:44,690 - INFO - Prediction: Supported
+2026-06-30 15:42:44,690 - INFO - ✓ Correct prediction
+2026-06-30 15:42:44,991 - INFO - ================================================================================
+2026-06-30 15:42:44,992 - INFO - Processing claim #34 (ID: tracer_train_34)
+2026-06-30 15:42:44,992 - INFO - Claim: "A U.S. Government Accountability Office report says Planned Parenthood Federation of America cannot find some $1.3 billion given to it by the federal...
+2026-06-30 15:42:44,992 - INFO - Date: 2010-07-10
+2026-06-30 15:42:44,992 - INFO - Asking model: gpt-4o-mini (method: naive)
+2026-06-30 15:42:44,992 - INFO - Claim: "A U.S. Government Accountability Office report says Planned Parenthood Federation of America cannot find some $1.3 billion given to it by the federal...
+2026-06-30 15:42:45,940 - INFO - API Response Status: 200
+2026-06-30 15:42:45,940 - INFO - Raw model response: {"label": "Refuted"}
+2026-06-30 15:42:45,940 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2026-06-30 15:42:45,942 - INFO - Prediction: Refuted
+2026-06-30 15:42:45,942 - INFO - ✓ Correct prediction
+2026-06-30 15:42:46,244 - INFO - ================================================================================
+2026-06-30 15:42:46,244 - INFO - Processing claim #35 (ID: tracer_train_35)
+2026-06-30 15:42:46,244 - INFO - Claim: The Obama administration will give Pennsylvania $160 million to pay for health insurance plans that cover "any legal abortion."...
+2026-06-30 15:42:46,244 - INFO - Date: 2010-07-13
+2026-06-30 15:42:46,244 - INFO - Asking model: gpt-4o-mini (method: naive)
+2026-06-30 15:42:46,244 - INFO - Claim: The Obama administration will give Pennsylvania $160 million to pay for health insurance plans that cover "any legal abortion."...
+2026-06-30 15:42:47,208 - INFO - API Response Status: 200
+2026-06-30 15:42:47,209 - INFO - Raw model response: {"label": "Refuted"}
+2026-06-30 15:42:47,209 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2026-06-30 15:42:47,211 - INFO - Prediction: Refuted
+2026-06-30 15:42:47,211 - INFO - ✓ Correct prediction
+2026-06-30 15:42:47,512 - INFO - ================================================================================
+2026-06-30 15:42:47,513 - INFO - Processing claim #36 (ID: tracer_train_36)
+2026-06-30 15:42:47,513 - INFO - Claim: Bill McCollum "diverted a state plane to his home 53 times. A state auditor called it: likely a misuse of state resources."...
+2026-06-30 15:42:47,513 - INFO - Date: 2010-07-14
+2026-06-30 15:42:47,513 - INFO - Asking model: gpt-4o-mini (method: naive)
+2026-06-30 15:42:47,513 - INFO - Claim: Bill McCollum "diverted a state plane to his home 53 times. A state auditor called it: likely a misuse of state resources."...
+2026-06-30 15:42:48,499 - INFO - API Response Status: 200
+2026-06-30 15:42:48,499 - INFO - Raw model response: {"label": "Half-True"}
+2026-06-30 15:42:48,499 - INFO - Extracted label: Half-True -> Normalized: Misleading
+2026-06-30 15:42:48,500 - INFO - Prediction: Misleading
+2026-06-30 15:42:48,500 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-06-30 15:42:48,801 - INFO - ================================================================================
+2026-06-30 15:42:48,802 - INFO - Processing claim #37 (ID: tracer_train_37)
+2026-06-30 15:42:48,802 - INFO - Claim: Marco Rubio's "economic proposals will add $3.5 trillion to the federal deficit."...
+2026-06-30 15:42:48,802 - INFO - Date: 2010-07-19
+2026-06-30 15:42:48,802 - INFO - Asking model: gpt-4o-mini (method: naive)
+2026-06-30 15:42:48,802 - INFO - Claim: Marco Rubio's "economic proposals will add $3.5 trillion to the federal deficit."...
+2026-06-30 15:42:54,615 - INFO - API Response Status: 200
+2026-06-30 15:42:54,616 - INFO - Raw model response: {"label": "Half-True"}
+2026-06-30 15:42:54,616 - INFO - Extracted label: Half-True -> Normalized: Misleading
+2026-06-30 15:42:54,618 - INFO - Prediction: Misleading
+2026-06-30 15:42:54,618 - INFO - ✓ Correct prediction
+2026-06-30 15:42:54,919 - INFO - ================================================================================
+2026-06-30 15:42:54,919 - INFO - Processing claim #38 (ID: tracer_train_38)
+2026-06-30 15:42:54,919 - INFO - Claim: "Ohio lost 400,000 jobs on his (Ted Strickland’s) watch."...
+2026-06-30 15:42:54,919 - INFO - Date: 2010-07-21
+2026-06-30 15:42:54,919 - INFO - Asking model: gpt-4o-mini (method: naive)
+2026-06-30 15:42:54,919 - INFO - Claim: "Ohio lost 400,000 jobs on his (Ted Strickland’s) watch."...
+2026-06-30 15:42:55,818 - INFO - API Response Status: 200
+2026-06-30 15:42:55,818 - INFO - Raw model response: {"label": "Refuted"}
+2026-06-30 15:42:55,818 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2026-06-30 15:42:55,820 - INFO - Prediction: Refuted
+2026-06-30 15:42:55,820 - INFO - ✗ Incorrect (True: Misleading, Pred: Refuted)
+2026-06-30 15:42:56,121 - INFO - ================================================================================
+2026-06-30 15:42:56,121 - INFO - Processing claim #39 (ID: tracer_train_39)
+2026-06-30 15:42:56,121 - INFO - Claim: "Kendrick Meek was named one of the two most corrupt Democrats in Congress by Citizens for Responsibility and Ethics in Washington."...
+2026-06-30 15:42:56,121 - INFO - Date: 2010-07-31
+2026-06-30 15:42:56,121 - INFO - Asking model: gpt-4o-mini (method: naive)
+2026-06-30 15:42:56,121 - INFO - Claim: "Kendrick Meek was named one of the two most corrupt Democrats in Congress by Citizens for Responsibility and Ethics in Washington."...
+2026-06-30 15:42:57,270 - INFO - API Response Status: 200
+2026-06-30 15:42:57,270 - INFO - Raw model response: {"label": "Refuted"}
+2026-06-30 15:42:57,270 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2026-06-30 15:42:57,271 - INFO - Prediction: Refuted
+2026-06-30 15:42:57,272 - INFO - ✓ Correct prediction
+2026-06-30 15:42:57,573 - INFO - ================================================================================
+2026-06-30 15:42:57,573 - INFO - Processing claim #40 (ID: tracer_train_40)
+2026-06-30 15:42:57,573 - INFO - Claim: "Bill McCollum voted for higher taxes and fees 42 times while he was in Congress."...
+2026-06-30 15:42:57,573 - INFO - Date: 2010-08-03
+2026-06-30 15:42:57,574 - INFO - Asking model: gpt-4o-mini (method: naive)
+2026-06-30 15:42:57,574 - INFO - Claim: "Bill McCollum voted for higher taxes and fees 42 times while he was in Congress."...
+2026-06-30 15:42:58,491 - INFO - API Response Status: 200
+2026-06-30 15:42:58,491 - INFO - Raw model response: {"label": "Half-True"}
+2026-06-30 15:42:58,491 - INFO - Extracted label: Half-True -> Normalized: Misleading
+2026-06-30 15:42:58,492 - INFO - Prediction: Misleading
+2026-06-30 15:42:58,493 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-06-30 15:42:58,794 - INFO - ================================================================================
+2026-06-30 15:42:58,794 - INFO - Processing claim #41 (ID: tracer_train_41)
+2026-06-30 15:42:58,794 - INFO - Claim: "Reporters have uncovered another Scott company accused of criminal acts. But Scott won't come clean."...
+2026-06-30 15:42:58,794 - INFO - Date: 2010-08-17
+2026-06-30 15:42:58,794 - INFO - Asking model: gpt-4o-mini (method: naive)
+2026-06-30 15:42:58,794 - INFO - Claim: "Reporters have uncovered another Scott company accused of criminal acts. But Scott won't come clean."...
+2026-06-30 15:42:59,685 - INFO - API Response Status: 200
+2026-06-30 15:42:59,685 - INFO - Raw model response: {"label": "Half-True"}
+2026-06-30 15:42:59,685 - INFO - Extracted label: Half-True -> Normalized: Misleading
+2026-06-30 15:42:59,686 - INFO - Prediction: Misleading
+2026-06-30 15:42:59,687 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-06-30 15:42:59,988 - INFO - ================================================================================
+2026-06-30 15:42:59,988 - INFO - Processing claim #42 (ID: tracer_train_42)
+2026-06-30 15:42:59,988 - INFO - Claim: Bill McCollum "backed Jim Greer's effort to hide financial irregularities."...
+2026-06-30 15:42:59,988 - INFO - Date: 2010-08-17
+2026-06-30 15:42:59,988 - INFO - Asking model: gpt-4o-mini (method: naive)
+2026-06-30 15:42:59,988 - INFO - Claim: Bill McCollum "backed Jim Greer's effort to hide financial irregularities."...
+2026-06-30 15:43:00,870 - INFO - API Response Status: 200
+2026-06-30 15:43:00,870 - INFO - Raw model response: {"label": "Refuted"}
+2026-06-30 15:43:00,871 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2026-06-30 15:43:00,872 - INFO - Prediction: Refuted
+2026-06-30 15:43:00,872 - INFO - ✓ Correct prediction
+2026-06-30 15:43:01,174 - INFO - ================================================================================
+2026-06-30 15:43:01,174 - INFO - Processing claim #43 (ID: tracer_train_43)
+2026-06-30 15:43:01,174 - INFO - Claim: "Barbara Boxer voted to cut spending on Medicare benefits by $500 billion, cuts so costly to hospitals and nursing homes that they could stop taking M...
+2026-06-30 15:43:01,174 - INFO - Date: 2010-08-25
+2026-06-30 15:43:01,174 - INFO - Asking model: gpt-4o-mini (method: naive)
+2026-06-30 15:43:01,174 - INFO - Claim: "Barbara Boxer voted to cut spending on Medicare benefits by $500 billion, cuts so costly to hospitals and nursing homes that they could stop taking M...
+2026-06-30 15:43:01,997 - INFO - API Response Status: 200
+2026-06-30 15:43:01,997 - INFO - Raw model response: {"label": "Refuted"}
+2026-06-30 15:43:01,998 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2026-06-30 15:43:01,999 - INFO - Prediction: Refuted
+2026-06-30 15:43:01,999 - INFO - ✓ Correct prediction
+2026-06-30 15:43:02,301 - INFO - ================================================================================
+2026-06-30 15:43:02,301 - INFO - Processing claim #44 (ID: tracer_train_44)
+2026-06-30 15:43:02,301 - INFO - Claim: "Charlie Crist has six different positions on ObamaCare."...
+2026-06-30 15:43:02,301 - INFO - Date: 2010-08-27
+2026-06-30 15:43:02,301 - INFO - Asking model: gpt-4o-mini (method: naive)
+2026-06-30 15:43:02,301 - INFO - Claim: "Charlie Crist has six different positions on ObamaCare."...
+2026-06-30 15:43:03,422 - INFO - API Response Status: 200
+2026-06-30 15:43:03,423 - INFO - Raw model response: {"label": "Half-True"}
+2026-06-30 15:43:03,423 - INFO - Extracted label: Half-True -> Normalized: Misleading
+2026-06-30 15:43:03,424 - INFO - Prediction: Misleading
+2026-06-30 15:43:03,424 - INFO - ✓ Correct prediction
+2026-06-30 15:43:03,726 - INFO - ================================================================================
+2026-06-30 15:43:03,726 - INFO - Processing claim #45 (ID: tracer_train_45)
+2026-06-30 15:43:03,726 - INFO - Claim: "When career politician Daniel Webster became speaker of the House, he wasted $32,000 of our money on a spiral staircase for his office."...
+2026-06-30 15:43:03,726 - INFO - Date: 2010-08-27
+2026-06-30 15:43:03,726 - INFO - Asking model: gpt-4o-mini (method: naive)
+2026-06-30 15:43:03,726 - INFO - Claim: "When career politician Daniel Webster became speaker of the House, he wasted $32,000 of our money on a spiral staircase for his office."...
+2026-06-30 15:43:08,788 - INFO - API Response Status: 200
+2026-06-30 15:43:08,788 - INFO - Raw model response: {"label": "Refuted"}
+2026-06-30 15:43:08,789 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2026-06-30 15:43:08,791 - INFO - Prediction: Refuted
+2026-06-30 15:43:08,791 - INFO - ✗ Incorrect (True: Misleading, Pred: Refuted)
+2026-06-30 15:43:09,093 - INFO - ================================================================================
+2026-06-30 15:43:09,093 - INFO - Processing claim #46 (ID: tracer_train_46)
+2026-06-30 15:43:09,093 - INFO - Claim: Charlie Crist's "personal approval numbers are plummeting."...
+2026-06-30 15:43:09,093 - INFO - Date: 2010-08-31
+2026-06-30 15:43:09,094 - INFO - Asking model: gpt-4o-mini (method: naive)
+2026-06-30 15:43:09,094 - INFO - Claim: Charlie Crist's "personal approval numbers are plummeting."...
+2026-06-30 15:43:10,012 - INFO - API Response Status: 200
+2026-06-30 15:43:10,012 - INFO - Raw model response: {"label": "Refuted"}
+2026-06-30 15:43:10,012 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2026-06-30 15:43:10,014 - INFO - Prediction: Refuted
+2026-06-30 15:43:10,014 - INFO - ✓ Correct prediction
+2026-06-30 15:43:10,316 - INFO - ================================================================================
+2026-06-30 15:43:10,316 - INFO - Processing claim #47 (ID: tracer_train_47)
+2026-06-30 15:43:10,316 - INFO - Claim: Alex Sink wants to "cut Medicare."...
+2026-06-30 15:43:10,316 - INFO - Date: 2010-09-01
+2026-06-30 15:43:10,316 - INFO - Asking model: gpt-4o-mini (method: naive)
+2026-06-30 15:43:10,316 - INFO - Claim: Alex Sink wants to "cut Medicare."...
+2026-06-30 15:43:11,337 - INFO - API Response Status: 200
+2026-06-30 15:43:11,337 - INFO - Raw model response: {"label": "Refuted"}
+2026-06-30 15:43:11,337 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2026-06-30 15:43:11,339 - INFO - Prediction: Refuted
+2026-06-30 15:43:11,339 - INFO - ✓ Correct prediction
+2026-06-30 15:43:11,641 - INFO - ================================================================================
+2026-06-30 15:43:11,642 - INFO - Processing claim #48 (ID: tracer_train_48)
+2026-06-30 15:43:11,642 - INFO - Claim: "When these same Republicans –- including Mr. Boehner –- were in charge, the number of earmarks and pet projects went up, not down."...
+2026-06-30 15:43:11,642 - INFO - Date: 2010-09-08
+2026-06-30 15:43:11,642 - INFO - Asking model: gpt-4o-mini (method: naive)
+2026-06-30 15:43:11,642 - INFO - Claim: "When these same Republicans –- including Mr. Boehner –- were in charge, the number of earmarks and pet projects went up, not down."...
+2026-06-30 15:43:12,585 - INFO - API Response Status: 200
+2026-06-30 15:43:12,585 - INFO - Raw model response: {"label": "Supported"}
+2026-06-30 15:43:12,585 - INFO - Extracted label: Supported -> Normalized: Supported
+2026-06-30 15:43:12,586 - INFO - Prediction: Supported
+2026-06-30 15:43:12,586 - INFO - ✗ Incorrect (True: Misleading, Pred: Supported)
+2026-06-30 15:43:12,888 - INFO - ================================================================================
+2026-06-30 15:43:12,888 - INFO - Processing claim #49 (ID: tracer_train_49)
+2026-06-30 15:43:12,888 - INFO - Claim: "For every dollar a county gets in taxes from new development, it costs us 40 to 50 percent more to provide services."...
+2026-06-30 15:43:12,888 - INFO - Date: 2010-09-09
+2026-06-30 15:43:12,888 - INFO - Asking model: gpt-4o-mini (method: naive)
+2026-06-30 15:43:12,888 - INFO - Claim: "For every dollar a county gets in taxes from new development, it costs us 40 to 50 percent more to provide services."...
+2026-06-30 15:43:14,027 - INFO - API Response Status: 200
+2026-06-30 15:43:14,027 - INFO - Raw model response: {"label": "Half-True"}
+2026-06-30 15:43:14,027 - INFO - Extracted label: Half-True -> Normalized: Misleading
+2026-06-30 15:43:14,029 - INFO - Prediction: Misleading
+2026-06-30 15:43:14,029 - INFO - ✓ Correct prediction
+2026-06-30 15:43:14,331 - INFO - ================================================================================
+2026-06-30 15:43:14,331 - INFO - Processing claim #50 (ID: tracer_train_50)
+2026-06-30 15:43:14,331 - INFO - Claim: "700 jobs (were) lost because Allen Boyd" voted for the health care bill....
+2026-06-30 15:43:14,331 - INFO - Date: 2010-09-12
+2026-06-30 15:43:14,331 - INFO - Asking model: gpt-4o-mini (method: naive)
+2026-06-30 15:43:14,331 - INFO - Claim: "700 jobs (were) lost because Allen Boyd" voted for the health care bill....
+2026-06-30 15:43:15,238 - INFO - API Response Status: 200
+2026-06-30 15:43:15,239 - INFO - Raw model response: {"label": "Half-True"}
+2026-06-30 15:43:15,239 - INFO - Extracted label: Half-True -> Normalized: Misleading
+2026-06-30 15:43:15,240 - INFO - Prediction: Misleading
+2026-06-30 15:43:15,240 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-06-30 15:43:15,541 - INFO - ================================================================================
+2026-06-30 15:43:15,541 - INFO - Processing claim #51 (ID: tracer_train_51)
+2026-06-30 15:43:15,542 - INFO - Claim: "Do you know that we have pipes carrying natural gas in this country that are made of wood? I'm not joking."...
+2026-06-30 15:43:15,542 - INFO - Date: 2010-09-14
+2026-06-30 15:43:15,542 - INFO - Asking model: gpt-4o-mini (method: naive)
+2026-06-30 15:43:15,542 - INFO - Claim: "Do you know that we have pipes carrying natural gas in this country that are made of wood? I'm not joking."...
+2026-06-30 15:43:16,726 - INFO - API Response Status: 200
+2026-06-30 15:43:16,726 - INFO - Raw model response: {"label": "Refuted"}
+2026-06-30 15:43:16,726 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2026-06-30 15:43:16,728 - INFO - Prediction: Refuted
+2026-06-30 15:43:16,728 - INFO - ✓ Correct prediction
+2026-06-30 15:43:17,030 - INFO - ================================================================================
+2026-06-30 15:43:17,030 - INFO - Processing claim #52 (ID: tracer_train_52)
+2026-06-30 15:43:17,030 - INFO - Claim: Loranne Ausley "voted six times to tax your savings."...
+2026-06-30 15:43:17,030 - INFO - Date: 2010-09-16
+2026-06-30 15:43:17,030 - INFO - Asking model: gpt-4o-mini (method: naive)
+2026-06-30 15:43:17,030 - INFO - Claim: Loranne Ausley "voted six times to tax your savings."...
+2026-06-30 15:43:17,884 - INFO - API Response Status: 200
+2026-06-30 15:43:17,885 - INFO - Raw model response: {"label": "Refuted"}
+2026-06-30 15:43:17,885 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2026-06-30 15:43:17,886 - INFO - Prediction: Refuted
+2026-06-30 15:43:17,886 - INFO - ✓ Correct prediction
+2026-06-30 15:43:18,188 - INFO - ================================================================================
+2026-06-30 15:43:18,188 - INFO - Processing claim #53 (ID: tracer_train_53)
+2026-06-30 15:43:18,188 - INFO - Claim: "It takes as much energy to make a solar panel as it likely generates in its entire life."...
+2026-06-30 15:43:18,188 - INFO - Date: 2010-09-16
+2026-06-30 15:43:18,188 - INFO - Asking model: gpt-4o-mini (method: naive)
+2026-06-30 15:43:18,188 - INFO - Claim: "It takes as much energy to make a solar panel as it likely generates in its entire life."...
+2026-06-30 15:43:19,224 - INFO - API Response Status: 200
+2026-06-30 15:43:19,224 - INFO - Raw model response: {"label": "Half-True"}
+2026-06-30 15:43:19,225 - INFO - Extracted label: Half-True -> Normalized: Misleading
+2026-06-30 15:43:19,227 - INFO - Prediction: Misleading
+2026-06-30 15:43:19,227 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-06-30 15:43:19,530 - INFO - ================================================================================
+2026-06-30 15:43:19,530 - INFO - Processing claim #54 (ID: tracer_train_54)
+2026-06-30 15:43:19,530 - INFO - Claim: "Our tax rates are lower now than they were under Ronald Reagan. They're much lower than they were under Dwight Eisenhower."...
+2026-06-30 15:43:19,530 - INFO - Date: 2010-09-20
+2026-06-30 15:43:19,530 - INFO - Asking model: gpt-4o-mini (method: naive)
+2026-06-30 15:43:19,530 - INFO - Claim: "Our tax rates are lower now than they were under Ronald Reagan. They're much lower than they were under Dwight Eisenhower."...
+2026-06-30 15:43:20,488 - INFO - API Response Status: 200
+2026-06-30 15:43:20,488 - INFO - Raw model response: {"label": "Half-True"}
+2026-06-30 15:43:20,488 - INFO - Extracted label: Half-True -> Normalized: Misleading
+2026-06-30 15:43:20,489 - INFO - Prediction: Misleading
+2026-06-30 15:43:20,489 - INFO - ✓ Correct prediction
+2026-06-30 15:43:20,791 - INFO - ================================================================================
+2026-06-30 15:43:20,791 - INFO - Processing claim #55 (ID: tracer_train_55)
+2026-06-30 15:43:20,791 - INFO - Claim: Rep. Paul Hodes, D-N.H., "voted for the pork-filled stimulus bill -- $1.9 million to study ants in Africa, $39 million for office upgrades for politic...
+2026-06-30 15:43:20,791 - INFO - Date: 2010-09-20
+2026-06-30 15:43:20,791 - INFO - Asking model: gpt-4o-mini (method: naive)
+2026-06-30 15:43:20,791 - INFO - Claim: Rep. Paul Hodes, D-N.H., "voted for the pork-filled stimulus bill -- $1.9 million to study ants in Africa, $39 million for office upgrades for politic...
+2026-06-30 15:43:31,057 - INFO - API Response Status: 200
+2026-06-30 15:43:31,057 - INFO - Raw model response: {"label": "Half-True"}
+2026-06-30 15:43:31,057 - INFO - Extracted label: Half-True -> Normalized: Misleading
+2026-06-30 15:43:31,058 - INFO - Prediction: Misleading
+2026-06-30 15:43:31,058 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-06-30 15:43:31,360 - INFO - ================================================================================
+2026-06-30 15:43:31,360 - INFO - Processing claim #56 (ID: tracer_train_56)
+2026-06-30 15:43:31,360 - INFO - Claim: State pension fund staffers "lost billions. Then Sink gave them bonuses."...
+2026-06-30 15:43:31,360 - INFO - Date: 2010-09-21
+2026-06-30 15:43:31,360 - INFO - Asking model: gpt-4o-mini (method: naive)
+2026-06-30 15:43:31,360 - INFO - Claim: State pension fund staffers "lost billions. Then Sink gave them bonuses."...
+2026-06-30 15:43:32,241 - INFO - API Response Status: 200
+2026-06-30 15:43:32,241 - INFO - Raw model response: {"label": "Half-True"}
+2026-06-30 15:43:32,241 - INFO - Extracted label: Half-True -> Normalized: Misleading
+2026-06-30 15:43:32,243 - INFO - Prediction: Misleading
+2026-06-30 15:43:32,243 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-06-30 15:43:32,545 - INFO - ================================================================================
+2026-06-30 15:43:32,545 - INFO - Processing claim #57 (ID: tracer_train_57)
+2026-06-30 15:43:32,545 - INFO - Claim: Rick Scott "doesn't have any ties to a lobbyist."...
+2026-06-30 15:43:32,545 - INFO - Date: 2010-09-27
+2026-06-30 15:43:32,545 - INFO - Asking model: gpt-4o-mini (method: naive)
+2026-06-30 15:43:32,545 - INFO - Claim: Rick Scott "doesn't have any ties to a lobbyist."...
+2026-06-30 15:43:33,419 - INFO - API Response Status: 200
+2026-06-30 15:43:33,419 - INFO - Raw model response: {"label": "Refuted"}
+2026-06-30 15:43:33,420 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2026-06-30 15:43:33,421 - INFO - Prediction: Refuted
+2026-06-30 15:43:33,421 - INFO - ✓ Correct prediction
+2026-06-30 15:43:33,722 - INFO - ================================================================================
+2026-06-30 15:43:33,723 - INFO - Processing claim #58 (ID: tracer_train_58)
+2026-06-30 15:43:33,723 - INFO - Claim: "Newspapers say Florida made bad investments, lost hundreds of millions of dollars, billions in pension funds lost. Who was in charge of Florida's inv...
+2026-06-30 15:43:33,723 - INFO - Date: 2010-09-27
+2026-06-30 15:43:33,723 - INFO - Asking model: gpt-4o-mini (method: naive)
+2026-06-30 15:43:33,723 - INFO - Claim: "Newspapers say Florida made bad investments, lost hundreds of millions of dollars, billions in pension funds lost. Who was in charge of Florida's inv...
+2026-06-30 15:43:34,827 - INFO - API Response Status: 200
+2026-06-30 15:43:34,827 - INFO - Raw model response: {"label": "Half-True"}
+2026-06-30 15:43:34,828 - INFO - Extracted label: Half-True -> Normalized: Misleading
+2026-06-30 15:43:34,829 - INFO - Prediction: Misleading
+2026-06-30 15:43:34,829 - INFO - ✓ Correct prediction
+2026-06-30 15:43:35,131 - INFO - ================================================================================
+2026-06-30 15:43:35,131 - INFO - Processing claim #59 (ID: tracer_train_59)
+2026-06-30 15:43:35,131 - INFO - Claim: "Alex Sink funneled three quarters of a million dollars in no-bid contracts to Bank of America."...
+2026-06-30 15:43:35,131 - INFO - Date: 2010-09-27
+2026-06-30 15:43:35,131 - INFO - Asking model: gpt-4o-mini (method: naive)
+2026-06-30 15:43:35,131 - INFO - Claim: "Alex Sink funneled three quarters of a million dollars in no-bid contracts to Bank of America."...
+2026-06-30 15:43:35,972 - INFO - API Response Status: 200
+2026-06-30 15:43:35,972 - INFO - Raw model response: {"label": "Refuted"}
+2026-06-30 15:43:35,972 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2026-06-30 15:43:35,973 - INFO - Prediction: Refuted
+2026-06-30 15:43:35,973 - INFO - ✓ Correct prediction
+2026-06-30 15:43:36,276 - INFO - ================================================================================
+2026-06-30 15:43:36,276 - INFO - Processing claim #60 (ID: tracer_train_60)
+2026-06-30 15:43:36,276 - INFO - Claim: Says "the headlines … tell the story" of how Walker has "mismanaged" Milwaukee County...
+2026-06-30 15:43:36,276 - INFO - Date: 2010-09-30
+2026-06-30 15:43:36,276 - INFO - Asking model: gpt-4o-mini (method: naive)
+2026-06-30 15:43:36,276 - INFO - Claim: Says "the headlines … tell the story" of how Walker has "mismanaged" Milwaukee County...
+2026-06-30 15:43:37,173 - INFO - API Response Status: 200
+2026-06-30 15:43:37,173 - INFO - Raw model response: {"label": "Half-True"}
+2026-06-30 15:43:37,173 - INFO - Extracted label: Half-True -> Normalized: Misleading
+2026-06-30 15:43:37,174 - INFO - Prediction: Misleading
+2026-06-30 15:43:37,174 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-06-30 15:43:37,476 - INFO - ================================================================================
+2026-06-30 15:43:37,476 - INFO - Processing claim #61 (ID: tracer_train_61)
+2026-06-30 15:43:37,476 - INFO - Claim: "The years that I was speaker, the Florida House consistently offered leaner budgets than the governor offered."...
+2026-06-30 15:43:37,476 - INFO - Date: 2010-10-06
+2026-06-30 15:43:37,476 - INFO - Asking model: gpt-4o-mini (method: naive)
+2026-06-30 15:43:37,476 - INFO - Claim: "The years that I was speaker, the Florida House consistently offered leaner budgets than the governor offered."...
+2026-06-30 15:43:38,749 - INFO - API Response Status: 200
+2026-06-30 15:43:38,749 - INFO - Raw model response: {"label": "Half-True"}
+2026-06-30 15:43:38,749 - INFO - Extracted label: Half-True -> Normalized: Misleading
+2026-06-30 15:43:38,751 - INFO - Prediction: Misleading
+2026-06-30 15:43:38,751 - INFO - ✓ Correct prediction
+2026-06-30 15:43:39,052 - INFO - ================================================================================
+2026-06-30 15:43:39,052 - INFO - Processing claim #62 (ID: tracer_train_62)
+2026-06-30 15:43:39,052 - INFO - Claim: "Pam Bondi told a group of lobbyists she’ll side with corporate special interests as attorney general."...
+2026-06-30 15:43:39,052 - INFO - Date: 2010-10-08
+2026-06-30 15:43:39,052 - INFO - Asking model: gpt-4o-mini (method: naive)
+2026-06-30 15:43:39,052 - INFO - Claim: "Pam Bondi told a group of lobbyists she’ll side with corporate special interests as attorney general."...
+2026-06-30 15:43:39,974 - INFO - API Response Status: 200
+2026-06-30 15:43:39,975 - INFO - Raw model response: {"label": "Half-True"}
+2026-06-30 15:43:39,975 - INFO - Extracted label: Half-True -> Normalized: Misleading
+2026-06-30 15:43:39,976 - INFO - Prediction: Misleading
+2026-06-30 15:43:39,976 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-06-30 15:43:40,277 - INFO - ================================================================================
+2026-06-30 15:43:40,278 - INFO - Processing claim #63 (ID: tracer_train_63)
+2026-06-30 15:43:40,278 - INFO - Claim: Taking the Fifth Amendment in a deposition about the Columbia/HCA hospital chain he founded "means a truthful answer to the questions that (Rick Scott...
+2026-06-30 15:43:40,278 - INFO - Date: 2010-10-10
+2026-06-30 15:43:40,278 - INFO - Asking model: gpt-4o-mini (method: naive)
+2026-06-30 15:43:40,278 - INFO - Claim: Taking the Fifth Amendment in a deposition about the Columbia/HCA hospital chain he founded "means a truthful answer to the questions that (Rick Scott...
+2026-06-30 15:43:41,262 - INFO - API Response Status: 200
+2026-06-30 15:43:41,262 - INFO - Raw model response: {"label": "Half-True"}
+2026-06-30 15:43:41,262 - INFO - Extracted label: Half-True -> Normalized: Misleading
+2026-06-30 15:43:41,264 - INFO - Prediction: Misleading
+2026-06-30 15:43:41,264 - INFO - ✓ Correct prediction
+2026-06-30 15:43:41,566 - INFO - ================================================================================
+2026-06-30 15:43:41,566 - INFO - Processing claim #64 (ID: tracer_train_64)
+2026-06-30 15:43:41,566 - INFO - Claim: The Seattle Times called Patty Murray "a 'prolific sponsor of earmarks.' Patty even defended the 'Bridge to Nowhere.' "...
+2026-06-30 15:43:41,566 - INFO - Date: 2010-10-12
+2026-06-30 15:43:41,566 - INFO - Asking model: gpt-4o-mini (method: naive)
+2026-06-30 15:43:41,566 - INFO - Claim: The Seattle Times called Patty Murray "a 'prolific sponsor of earmarks.' Patty even defended the 'Bridge to Nowhere.' "...
+2026-06-30 15:43:42,983 - INFO - API Response Status: 200
+2026-06-30 15:43:42,983 - INFO - Raw model response: {"label": "Half-True"}
+2026-06-30 15:43:42,984 - INFO - Extracted label: Half-True -> Normalized: Misleading
+2026-06-30 15:43:42,985 - INFO - Prediction: Misleading
+2026-06-30 15:43:42,985 - INFO - ✓ Correct prediction
+2026-06-30 15:43:43,286 - INFO - ================================================================================
+2026-06-30 15:43:43,287 - INFO - Processing claim #65 (ID: tracer_train_65)
+2026-06-30 15:43:43,287 - INFO - Claim: Says PolitiFact says Amendment 4 "will force counties and cities across Florida to raise taxes and fees."...
+2026-06-30 15:43:43,287 - INFO - Date: 2010-10-17
+2026-06-30 15:43:43,287 - INFO - Asking model: gpt-4o-mini (method: naive)
+2026-06-30 15:43:43,287 - INFO - Claim: Says PolitiFact says Amendment 4 "will force counties and cities across Florida to raise taxes and fees."...
+2026-06-30 15:43:44,132 - INFO - API Response Status: 200
+2026-06-30 15:43:44,132 - INFO - Raw model response: {"label": "Refuted"}
+2026-06-30 15:43:44,132 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2026-06-30 15:43:44,135 - INFO - Prediction: Refuted
+2026-06-30 15:43:44,135 - INFO - ✓ Correct prediction
+2026-06-30 15:43:44,437 - INFO - ================================================================================
+2026-06-30 15:43:44,437 - INFO - Processing claim #66 (ID: tracer_train_66)
+2026-06-30 15:43:44,437 - INFO - Claim: "Dan Gelber: On the record against scholarships to help our needy children attend Jewish private schools."...
+2026-06-30 15:43:44,437 - INFO - Date: 2010-10-18
+2026-06-30 15:43:44,437 - INFO - Asking model: gpt-4o-mini (method: naive)
+2026-06-30 15:43:44,437 - INFO - Claim: "Dan Gelber: On the record against scholarships to help our needy children attend Jewish private schools."...
+2026-06-30 15:43:45,486 - INFO - API Response Status: 200
+2026-06-30 15:43:45,487 - INFO - Raw model response: {"label": "Half-True"}
+2026-06-30 15:43:45,487 - INFO - Extracted label: Half-True -> Normalized: Misleading
+2026-06-30 15:43:45,488 - INFO - Prediction: Misleading
+2026-06-30 15:43:45,488 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-06-30 15:43:45,789 - INFO - ================================================================================
+2026-06-30 15:43:45,790 - INFO - Processing claim #67 (ID: tracer_train_67)
+2026-06-30 15:43:45,790 - INFO - Claim: Says Marco Rubio sold a home to a chiropractor who had been lobbying him on automobile insurance legislation and "once he sold the home, for $380,000 ...
+2026-06-30 15:43:45,790 - INFO - Date: 2010-10-19
+2026-06-30 15:43:45,790 - INFO - Asking model: gpt-4o-mini (method: naive)
+2026-06-30 15:43:45,790 - INFO - Claim: Says Marco Rubio sold a home to a chiropractor who had been lobbying him on automobile insurance legislation and "once he sold the home, for $380,000 ...
+2026-06-30 15:43:46,744 - INFO - API Response Status: 200
+2026-06-30 15:43:46,744 - INFO - Raw model response: {"label": "Half-True"}
+2026-06-30 15:43:46,744 - INFO - Extracted label: Half-True -> Normalized: Misleading
+2026-06-30 15:43:46,745 - INFO - Prediction: Misleading
+2026-06-30 15:43:46,745 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-06-30 15:43:47,046 - INFO - ================================================================================
+2026-06-30 15:43:47,047 - INFO - Processing claim #68 (ID: tracer_train_68)
+2026-06-30 15:43:47,047 - INFO - Claim: Charlie Crist "attacks me for positions he held, like, six months ago, (when) he was running in the Republican primary."...
+2026-06-30 15:43:47,047 - INFO - Date: 2010-10-24
+2026-06-30 15:43:47,047 - INFO - Asking model: gpt-4o-mini (method: naive)
+2026-06-30 15:43:47,047 - INFO - Claim: Charlie Crist "attacks me for positions he held, like, six months ago, (when) he was running in the Republican primary."...
+2026-06-30 15:43:47,862 - INFO - API Response Status: 200
+2026-06-30 15:43:47,862 - INFO - Raw model response: {"label": "Half-True"}
+2026-06-30 15:43:47,862 - INFO - Extracted label: Half-True -> Normalized: Misleading
+2026-06-30 15:43:47,864 - INFO - Prediction: Misleading
+2026-06-30 15:43:47,864 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-06-30 15:43:48,165 - INFO - ================================================================================
+2026-06-30 15:43:48,165 - INFO - Processing claim #69 (ID: tracer_train_69)
+2026-06-30 15:43:48,165 - INFO - Claim: A proposal to reduce the deficit "involved large tax cuts for the top bracket."...
+2026-06-30 15:43:48,165 - INFO - Date: 2010-11-14
+2026-06-30 15:43:48,165 - INFO - Asking model: gpt-4o-mini (method: naive)
+2026-06-30 15:43:48,165 - INFO - Claim: A proposal to reduce the deficit "involved large tax cuts for the top bracket."...
+2026-06-30 15:43:49,112 - INFO - API Response Status: 200
+2026-06-30 15:43:49,113 - INFO - Raw model response: {"label": "Half-True"}
+2026-06-30 15:43:49,113 - INFO - Extracted label: Half-True -> Normalized: Misleading
+2026-06-30 15:43:49,114 - INFO - Prediction: Misleading
+2026-06-30 15:43:49,114 - INFO - ✓ Correct prediction
+2026-06-30 15:43:49,416 - INFO - ================================================================================
+2026-06-30 15:43:49,416 - INFO - Processing claim #70 (ID: tracer_train_70)
+2026-06-30 15:43:49,416 - INFO - Claim: "On the question on the DREAM Act, no -- no to granting lower tuition to illegals."...
+2026-06-30 15:43:49,416 - INFO - Date: 2010-11-18
+2026-06-30 15:43:49,416 - INFO - Asking model: gpt-4o-mini (method: naive)
+2026-06-30 15:43:49,416 - INFO - Claim: "On the question on the DREAM Act, no -- no to granting lower tuition to illegals."...
+2026-06-30 15:43:50,340 - INFO - API Response Status: 200
+2026-06-30 15:43:50,341 - INFO - Raw model response: {"label": "Supported"}
+2026-06-30 15:43:50,341 - INFO - Extracted label: Supported -> Normalized: Supported
+2026-06-30 15:43:50,342 - INFO - Prediction: Supported
+2026-06-30 15:43:50,343 - INFO - ✗ Incorrect (True: Refuted, Pred: Supported)
+2026-06-30 15:43:50,644 - INFO - ================================================================================
+2026-06-30 15:43:50,645 - INFO - Processing claim #71 (ID: tracer_train_71)
+2026-06-30 15:43:50,645 - INFO - Claim: "Sixteen [federal] programs exist to fight homelessness" and some of them are duplicative....
+2026-06-30 15:43:50,645 - INFO - Date: 2010-11-30
+2026-06-30 15:43:50,645 - INFO - Asking model: gpt-4o-mini (method: naive)
+2026-06-30 15:43:50,645 - INFO - Claim: "Sixteen [federal] programs exist to fight homelessness" and some of them are duplicative....
+2026-06-30 15:43:51,674 - INFO - API Response Status: 200
+2026-06-30 15:43:51,674 - INFO - Raw model response: {"label": "Half-True"}
+2026-06-30 15:43:51,674 - INFO - Extracted label: Half-True -> Normalized: Misleading
+2026-06-30 15:43:51,676 - INFO - Prediction: Misleading
+2026-06-30 15:43:51,676 - INFO - ✓ Correct prediction
+2026-06-30 15:43:51,977 - INFO - ================================================================================
+2026-06-30 15:43:51,977 - INFO - Processing claim #72 (ID: tracer_train_72)
+2026-06-30 15:43:51,977 - INFO - Claim: "No one in the private sector gets unlimited accruals of vacation and sick leave."...
+2026-06-30 15:43:51,977 - INFO - Date: 2010-12-09
+2026-06-30 15:43:51,977 - INFO - Asking model: gpt-4o-mini (method: naive)
+2026-06-30 15:43:51,977 - INFO - Claim: "No one in the private sector gets unlimited accruals of vacation and sick leave."...
+2026-06-30 15:43:52,956 - INFO - API Response Status: 200
+2026-06-30 15:43:52,956 - INFO - Raw model response: {"label": "Half-True"}
+2026-06-30 15:43:52,956 - INFO - Extracted label: Half-True -> Normalized: Misleading
+2026-06-30 15:43:52,958 - INFO - Prediction: Misleading
+2026-06-30 15:43:52,958 - INFO - ✓ Correct prediction
+2026-06-30 15:43:53,260 - INFO - ================================================================================
+2026-06-30 15:43:53,260 - INFO - Processing claim #73 (ID: tracer_train_73)
+2026-06-30 15:43:53,260 - INFO - Claim: "We had an amendment in the health care law that said the federal government is going to take over education."...
+2026-06-30 15:43:53,260 - INFO - Date: 2011-01-02
+2026-06-30 15:43:53,260 - INFO - Asking model: gpt-4o-mini (method: naive)
+2026-06-30 15:43:53,260 - INFO - Claim: "We had an amendment in the health care law that said the federal government is going to take over education."...
+2026-06-30 15:43:54,424 - INFO - API Response Status: 200
+2026-06-30 15:43:54,424 - INFO - Raw model response: {"label": "Refuted"}
+2026-06-30 15:43:54,424 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2026-06-30 15:43:54,425 - INFO - Prediction: Refuted
+2026-06-30 15:43:54,426 - INFO - ✓ Correct prediction
+2026-06-30 15:43:54,727 - INFO - ================================================================================
+2026-06-30 15:43:54,727 - INFO - Processing claim #74 (ID: tracer_train_74)
+2026-06-30 15:43:54,727 - INFO - Claim: "In 1998, nearly half of Florida's fourth-graders were functionally illiterate. Today, 72% of them can read."...
+2026-06-30 15:43:54,727 - INFO - Date: 2011-01-03
+2026-06-30 15:43:54,727 - INFO - Asking model: gpt-4o-mini (method: naive)
+2026-06-30 15:43:54,727 - INFO - Claim: "In 1998, nearly half of Florida's fourth-graders were functionally illiterate. Today, 72% of them can read."...
+2026-06-30 15:43:55,518 - INFO - API Response Status: 200
+2026-06-30 15:43:55,518 - INFO - Raw model response: {"label": "Half-True"}
+2026-06-30 15:43:55,518 - INFO - Extracted label: Half-True -> Normalized: Misleading
+2026-06-30 15:43:55,519 - INFO - Prediction: Misleading
+2026-06-30 15:43:55,519 - INFO - ✓ Correct prediction
+2026-06-30 15:43:55,821 - INFO - ================================================================================
+2026-06-30 15:43:55,821 - INFO - Processing claim #75 (ID: tracer_train_75)
+2026-06-30 15:43:55,821 - INFO - Claim: More people die from "medical misadventures" than firearm accidents nationally and in Florida....
+2026-06-30 15:43:55,821 - INFO - Date: 2011-01-16
+2026-06-30 15:43:55,821 - INFO - Asking model: gpt-4o-mini (method: naive)
+2026-06-30 15:43:55,821 - INFO - Claim: More people die from "medical misadventures" than firearm accidents nationally and in Florida....
+2026-06-30 15:43:56,881 - INFO - API Response Status: 200
+2026-06-30 15:43:56,881 - INFO - Raw model response: {"label": "Supported"}
+2026-06-30 15:43:56,881 - INFO - Extracted label: Supported -> Normalized: Supported
+2026-06-30 15:43:56,883 - INFO - Prediction: Supported
+2026-06-30 15:43:56,883 - INFO - ✗ Incorrect (True: Misleading, Pred: Supported)
+2026-06-30 15:43:57,184 - INFO - ================================================================================
+2026-06-30 15:43:57,184 - INFO - Processing claim #76 (ID: tracer_train_76)
+2026-06-30 15:43:57,184 - INFO - Claim: Says required state septic inspections would cost septic tank owners $100 to $150 every five years....
+2026-06-30 15:43:57,184 - INFO - Date: 2011-01-26
+2026-06-30 15:43:57,184 - INFO - Asking model: gpt-4o-mini (method: naive)
+2026-06-30 15:43:57,184 - INFO - Claim: Says required state septic inspections would cost septic tank owners $100 to $150 every five years....
+2026-06-30 15:43:58,116 - INFO - API Response Status: 200
+2026-06-30 15:43:58,116 - INFO - Raw model response: {"label": "Half-True"}
+2026-06-30 15:43:58,116 - INFO - Extracted label: Half-True -> Normalized: Misleading
+2026-06-30 15:43:58,118 - INFO - Prediction: Misleading
+2026-06-30 15:43:58,118 - INFO - ✓ Correct prediction
+2026-06-30 15:43:58,419 - INFO - ================================================================================
+2026-06-30 15:43:58,419 - INFO - Processing claim #77 (ID: tracer_train_77)
+2026-06-30 15:43:58,419 - INFO - Claim: Under Hosni Mubarak's rule, "Egypt received more American dollars than any country besides Israel."...
+2026-06-30 15:43:58,419 - INFO - Date: 2011-01-30
+2026-06-30 15:43:58,419 - INFO - Asking model: gpt-4o-mini (method: naive)
+2026-06-30 15:43:58,419 - INFO - Claim: Under Hosni Mubarak's rule, "Egypt received more American dollars than any country besides Israel."...
+2026-06-30 15:43:59,776 - INFO - API Response Status: 200
+2026-06-30 15:43:59,776 - INFO - Raw model response: {"label": "Supported"}
+2026-06-30 15:43:59,777 - INFO - Extracted label: Supported -> Normalized: Supported
+2026-06-30 15:43:59,778 - INFO - Prediction: Supported
+2026-06-30 15:43:59,778 - INFO - ✓ Correct prediction
+2026-06-30 15:44:00,080 - INFO - ================================================================================
+2026-06-30 15:44:00,080 - INFO - Processing claim #78 (ID: tracer_train_78)
+2026-06-30 15:44:00,080 - INFO - Claim: "Before this law was passed, Americans were told they could keep their current health care plans. After it became law, the administration issued regul...
+2026-06-30 15:44:00,080 - INFO - Date: 2011-02-01
+2026-06-30 15:44:00,080 - INFO - Asking model: gpt-4o-mini (method: naive)
+2026-06-30 15:44:00,080 - INFO - Claim: "Before this law was passed, Americans were told they could keep their current health care plans. After it became law, the administration issued regul...
+2026-06-30 15:44:00,989 - INFO - API Response Status: 200
+2026-06-30 15:44:00,989 - INFO - Raw model response: {"label": "Half-True"}
+2026-06-30 15:44:00,989 - INFO - Extracted label: Half-True -> Normalized: Misleading
+2026-06-30 15:44:00,990 - INFO - Prediction: Misleading
+2026-06-30 15:44:00,990 - INFO - ✓ Correct prediction
+2026-06-30 15:44:01,291 - INFO - ================================================================================
+2026-06-30 15:44:01,291 - INFO - Processing claim #79 (ID: tracer_train_79)
+2026-06-30 15:44:01,292 - INFO - Claim: Americans, in the last 30 years, "have more than doubled the amount of money we are spending per child (on education) … and the results have gotten wo...
+2026-06-30 15:44:01,292 - INFO - Date: 2011-02-09
+2026-06-30 15:44:01,292 - INFO - Asking model: gpt-4o-mini (method: naive)
+2026-06-30 15:44:01,292 - INFO - Claim: Americans, in the last 30 years, "have more than doubled the amount of money we are spending per child (on education) … and the results have gotten wo...
+2026-06-30 15:44:02,293 - INFO - API Response Status: 200
+2026-06-30 15:44:02,293 - INFO - Raw model response: {"label": "Half-True"}
+2026-06-30 15:44:02,293 - INFO - Extracted label: Half-True -> Normalized: Misleading
+2026-06-30 15:44:02,294 - INFO - Prediction: Misleading
+2026-06-30 15:44:02,294 - INFO - ✓ Correct prediction
+2026-06-30 15:44:02,597 - INFO - ================================================================================
+2026-06-30 15:44:02,597 - INFO - Processing claim #80 (ID: tracer_train_80)
+2026-06-30 15:44:02,597 - INFO - Claim: "Across the board, violent crime in jurisdictions that recognize the Right to Carry is lower than in areas that prevent it."...
+2026-06-30 15:44:02,597 - INFO - Date: 2011-02-10
+2026-06-30 15:44:02,597 - INFO - Asking model: gpt-4o-mini (method: naive)
+2026-06-30 15:44:02,597 - INFO - Claim: "Across the board, violent crime in jurisdictions that recognize the Right to Carry is lower than in areas that prevent it."...
+2026-06-30 15:44:03,449 - INFO - API Response Status: 200
+2026-06-30 15:44:03,450 - INFO - Raw model response: {"label": "Half-True"}
+2026-06-30 15:44:03,450 - INFO - Extracted label: Half-True -> Normalized: Misleading
+2026-06-30 15:44:03,451 - INFO - Prediction: Misleading
+2026-06-30 15:44:03,451 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-06-30 15:44:03,752 - INFO - ================================================================================
+2026-06-30 15:44:03,752 - INFO - Processing claim #81 (ID: tracer_train_81)
+2026-06-30 15:44:03,752 - INFO - Claim: "The president promised to close the space gap, but he now seems intent on repeating the events that created the space gap in the first place -- putti...
+2026-06-30 15:44:03,752 - INFO - Date: 2011-02-14
+2026-06-30 15:44:03,753 - INFO - Asking model: gpt-4o-mini (method: naive)
+2026-06-30 15:44:03,753 - INFO - Claim: "The president promised to close the space gap, but he now seems intent on repeating the events that created the space gap in the first place -- putti...
+2026-06-30 15:44:04,731 - INFO - API Response Status: 200
+2026-06-30 15:44:04,731 - INFO - Raw model response: {"label": "Half-True"}
+2026-06-30 15:44:04,731 - INFO - Extracted label: Half-True -> Normalized: Misleading
+2026-06-30 15:44:04,733 - INFO - Prediction: Misleading
+2026-06-30 15:44:04,733 - INFO - ✓ Correct prediction
+2026-06-30 15:44:05,034 - INFO - ================================================================================
+2026-06-30 15:44:05,034 - INFO - Processing claim #82 (ID: tracer_train_82)
+2026-06-30 15:44:05,034 - INFO - Claim: Under the White House’s budget proposal, "we will not be adding more to the national debt" by the middle of the decade....
+2026-06-30 15:44:05,035 - INFO - Date: 2011-02-15
+2026-06-30 15:44:05,035 - INFO - Asking model: gpt-4o-mini (method: naive)
+2026-06-30 15:44:05,035 - INFO - Claim: Under the White House’s budget proposal, "we will not be adding more to the national debt" by the middle of the decade....
+2026-06-30 15:44:06,013 - INFO - API Response Status: 200
+2026-06-30 15:44:06,013 - INFO - Raw model response: {"label": "Half-True"}
+2026-06-30 15:44:06,014 - INFO - Extracted label: Half-True -> Normalized: Misleading
+2026-06-30 15:44:06,015 - INFO - Prediction: Misleading
+2026-06-30 15:44:06,015 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-06-30 15:44:06,316 - INFO - ================================================================================
+2026-06-30 15:44:06,316 - INFO - Processing claim #83 (ID: tracer_train_83)
+2026-06-30 15:44:06,316 - INFO - Claim: Under changes being debated, state employees in Wisconsin "who earn $30,000, $40,000, $50,000 a year might have 20 percent of their income just disapp...
+2026-06-30 15:44:06,316 - INFO - Date: 2011-02-15
+2026-06-30 15:44:06,316 - INFO - Asking model: gpt-4o-mini (method: naive)
+2026-06-30 15:44:06,316 - INFO - Claim: Under changes being debated, state employees in Wisconsin "who earn $30,000, $40,000, $50,000 a year might have 20 percent of their income just disapp...
+2026-06-30 15:44:07,237 - INFO - API Response Status: 200
+2026-06-30 15:44:07,237 - INFO - Raw model response: {"label": "Half-True"}
+2026-06-30 15:44:07,237 - INFO - Extracted label: Half-True -> Normalized: Misleading
+2026-06-30 15:44:07,238 - INFO - Prediction: Misleading
+2026-06-30 15:44:07,238 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-06-30 15:44:07,540 - INFO - ================================================================================
+2026-06-30 15:44:07,540 - INFO - Processing claim #84 (ID: tracer_train_84)
+2026-06-30 15:44:07,540 - INFO - Claim: When it comes to urgency on passing a budget repair bill, "there’s no rush on this thing" because the fiscal year doesn’t end until June 30, 2011....
+2026-06-30 15:44:07,540 - INFO - Date: 2011-02-17
+2026-06-30 15:44:07,540 - INFO - Asking model: gpt-4o-mini (method: naive)
+2026-06-30 15:44:07,540 - INFO - Claim: When it comes to urgency on passing a budget repair bill, "there’s no rush on this thing" because the fiscal year doesn’t end until June 30, 2011....
+2026-06-30 15:44:08,492 - INFO - API Response Status: 200
+2026-06-30 15:44:08,493 - INFO - Raw model response: {"label": "Half-True"}
+2026-06-30 15:44:08,493 - INFO - Extracted label: Half-True -> Normalized: Misleading
+2026-06-30 15:44:08,495 - INFO - Prediction: Misleading
+2026-06-30 15:44:08,495 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-06-30 15:44:08,796 - INFO - ================================================================================
+2026-06-30 15:44:08,796 - INFO - Processing claim #85 (ID: tracer_train_85)
+2026-06-30 15:44:08,797 - INFO - Claim: Says "for the equivalent cost of a single mile of freeway, we have a bike infrastructure."...
+2026-06-30 15:44:08,797 - INFO - Date: 2011-02-22
+2026-06-30 15:44:08,797 - INFO - Asking model: gpt-4o-mini (method: naive)
+2026-06-30 15:44:08,797 - INFO - Claim: Says "for the equivalent cost of a single mile of freeway, we have a bike infrastructure."...
+2026-06-30 15:44:16,258 - INFO - API Response Status: 200
+2026-06-30 15:44:16,258 - INFO - Raw model response: {"label": "Half-True"}
+2026-06-30 15:44:16,258 - INFO - Extracted label: Half-True -> Normalized: Misleading
+2026-06-30 15:44:16,260 - INFO - Prediction: Misleading
+2026-06-30 15:44:16,260 - INFO - ✓ Correct prediction
+2026-06-30 15:44:16,562 - INFO - ================================================================================
+2026-06-30 15:44:16,562 - INFO - Processing claim #86 (ID: tracer_train_86)
+2026-06-30 15:44:16,562 - INFO - Claim: Gov. Rick Scott's sale of the state planes was "not proper."...
+2026-06-30 15:44:16,562 - INFO - Date: 2011-02-23
+2026-06-30 15:44:16,562 - INFO - Asking model: gpt-4o-mini (method: naive)
+2026-06-30 15:44:16,562 - INFO - Claim: Gov. Rick Scott's sale of the state planes was "not proper."...
+2026-06-30 15:44:17,479 - INFO - API Response Status: 200
+2026-06-30 15:44:17,479 - INFO - Raw model response: {"label": "Half-True"}
+2026-06-30 15:44:17,479 - INFO - Extracted label: Half-True -> Normalized: Misleading
+2026-06-30 15:44:17,481 - INFO - Prediction: Misleading
+2026-06-30 15:44:17,481 - INFO - ✗ Incorrect (True: Supported, Pred: Misleading)
+2026-06-30 15:44:17,783 - INFO - ================================================================================
+2026-06-30 15:44:17,783 - INFO - Processing claim #87 (ID: tracer_train_87)
+2026-06-30 15:44:17,783 - INFO - Claim: Says Florida's pension plan faces the same long-term funding problems as Social Security....
+2026-06-30 15:44:17,783 - INFO - Date: 2011-02-23
+2026-06-30 15:44:17,783 - INFO - Asking model: gpt-4o-mini (method: naive)
+2026-06-30 15:44:17,783 - INFO - Claim: Says Florida's pension plan faces the same long-term funding problems as Social Security....
+2026-06-30 15:44:18,834 - INFO - API Response Status: 200
+2026-06-30 15:44:18,834 - INFO - Raw model response: {"label": "Half-True"}
+2026-06-30 15:44:18,834 - INFO - Extracted label: Half-True -> Normalized: Misleading
+2026-06-30 15:44:18,835 - INFO - Prediction: Misleading
+2026-06-30 15:44:18,835 - INFO - ✓ Correct prediction
+2026-06-30 15:44:19,137 - INFO - ================================================================================
+2026-06-30 15:44:19,137 - INFO - Processing claim #88 (ID: tracer_train_88)
+2026-06-30 15:44:19,137 - INFO - Claim: Says Tri-Rail shows the potential problems with investing in high-speed rail....
+2026-06-30 15:44:19,137 - INFO - Date: 2011-02-27
+2026-06-30 15:44:19,137 - INFO - Asking model: gpt-4o-mini (method: naive)
+2026-06-30 15:44:19,137 - INFO - Claim: Says Tri-Rail shows the potential problems with investing in high-speed rail....
+2026-06-30 15:44:20,118 - INFO - API Response Status: 200
+2026-06-30 15:44:20,118 - INFO - Raw model response: {"label": "Half-True"}
+2026-06-30 15:44:20,118 - INFO - Extracted label: Half-True -> Normalized: Misleading
+2026-06-30 15:44:20,120 - INFO - Prediction: Misleading
+2026-06-30 15:44:20,120 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-06-30 15:44:20,421 - INFO - ================================================================================
+2026-06-30 15:44:20,421 - INFO - Processing claim #89 (ID: tracer_train_89)
+2026-06-30 15:44:20,421 - INFO - Claim: Says the Obama administration "will no longer enforce the Defense of Marriage Act (DOMA)."...
+2026-06-30 15:44:20,421 - INFO - Date: 2011-03-01
+2026-06-30 15:44:20,422 - INFO - Asking model: gpt-4o-mini (method: naive)
+2026-06-30 15:44:20,422 - INFO - Claim: Says the Obama administration "will no longer enforce the Defense of Marriage Act (DOMA)."...
+2026-06-30 15:44:21,324 - INFO - API Response Status: 200
+2026-06-30 15:44:21,325 - INFO - Raw model response: {"label": "Supported"}
+2026-06-30 15:44:21,325 - INFO - Extracted label: Supported -> Normalized: Supported
+2026-06-30 15:44:21,327 - INFO - Prediction: Supported
+2026-06-30 15:44:21,327 - INFO - ✗ Incorrect (True: Misleading, Pred: Supported)
+2026-06-30 15:44:21,629 - INFO - ================================================================================
+2026-06-30 15:44:21,629 - INFO - Processing claim #90 (ID: tracer_train_90)
+2026-06-30 15:44:21,630 - INFO - Claim: Says new EPA water regulations would force the state to make drainage canals every bit as clean as pristine Florida river systems....
+2026-06-30 15:44:21,630 - INFO - Date: 2011-03-01
+2026-06-30 15:44:21,630 - INFO - Asking model: gpt-4o-mini (method: naive)
+2026-06-30 15:44:21,630 - INFO - Claim: Says new EPA water regulations would force the state to make drainage canals every bit as clean as pristine Florida river systems....
+2026-06-30 15:44:27,827 - INFO - API Response Status: 200
+2026-06-30 15:44:27,827 - INFO - Raw model response: {"label": "Half-True"}
+2026-06-30 15:44:27,827 - INFO - Extracted label: Half-True -> Normalized: Misleading
+2026-06-30 15:44:27,829 - INFO - Prediction: Misleading
+2026-06-30 15:44:27,829 - INFO - ✓ Correct prediction
+2026-06-30 15:44:28,131 - INFO - ================================================================================
+2026-06-30 15:44:28,131 - INFO - Processing claim #91 (ID: tracer_train_91)
+2026-06-30 15:44:28,131 - INFO - Claim: A government shutdown "could disrupt ... veterans' benefits."...
+2026-06-30 15:44:28,131 - INFO - Date: 2011-03-01
+2026-06-30 15:44:28,131 - INFO - Asking model: gpt-4o-mini (method: naive)
+2026-06-30 15:44:28,131 - INFO - Claim: A government shutdown "could disrupt ... veterans' benefits."...
+2026-06-30 15:44:28,995 - INFO - API Response Status: 200
+2026-06-30 15:44:28,995 - INFO - Raw model response: {"label": "Supported"}
+2026-06-30 15:44:28,996 - INFO - Extracted label: Supported -> Normalized: Supported
+2026-06-30 15:44:28,997 - INFO - Prediction: Supported
+2026-06-30 15:44:28,997 - INFO - ✓ Correct prediction
+2026-06-30 15:44:29,298 - INFO - ================================================================================
+2026-06-30 15:44:29,298 - INFO - Processing claim #92 (ID: tracer_train_92)
+2026-06-30 15:44:29,298 - INFO - Claim: "Thirty-five states have accepted high-speed intercity rail money."...
+2026-06-30 15:44:29,298 - INFO - Date: 2011-03-02
+2026-06-30 15:44:29,298 - INFO - Asking model: gpt-4o-mini (method: naive)
+2026-06-30 15:44:29,298 - INFO - Claim: "Thirty-five states have accepted high-speed intercity rail money."...
+2026-06-30 15:44:30,282 - INFO - API Response Status: 200
+2026-06-30 15:44:30,282 - INFO - Raw model response: {"label": "Refuted"}
+2026-06-30 15:44:30,282 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2026-06-30 15:44:30,284 - INFO - Prediction: Refuted
+2026-06-30 15:44:30,284 - INFO - ✗ Incorrect (True: Misleading, Pred: Refuted)
+2026-06-30 15:44:30,586 - INFO - ================================================================================
+2026-06-30 15:44:30,586 - INFO - Processing claim #93 (ID: tracer_train_93)
+2026-06-30 15:44:30,586 - INFO - Claim: Georgia legislation on immigration is a "copycat" of an Arizona immigration bill....
+2026-06-30 15:44:30,586 - INFO - Date: 2011-03-02
+2026-06-30 15:44:30,586 - INFO - Asking model: gpt-4o-mini (method: naive)
+2026-06-30 15:44:30,586 - INFO - Claim: Georgia legislation on immigration is a "copycat" of an Arizona immigration bill....
+2026-06-30 15:44:31,556 - INFO - API Response Status: 200
+2026-06-30 15:44:31,556 - INFO - Raw model response: {"label": "Half-True"}
+2026-06-30 15:44:31,557 - INFO - Extracted label: Half-True -> Normalized: Misleading
+2026-06-30 15:44:31,558 - INFO - Prediction: Misleading
+2026-06-30 15:44:31,558 - INFO - ✓ Correct prediction
+2026-06-30 15:44:31,860 - INFO - ================================================================================
+2026-06-30 15:44:31,860 - INFO - Processing claim #94 (ID: tracer_train_94)
+2026-06-30 15:44:31,860 - INFO - Claim: "Any child born prematurely, according to the president, in his own words, can be killed."...
+2026-06-30 15:44:31,860 - INFO - Date: 2011-03-07
+2026-06-30 15:44:31,860 - INFO - Asking model: gpt-4o-mini (method: naive)
+2026-06-30 15:44:31,860 - INFO - Claim: "Any child born prematurely, according to the president, in his own words, can be killed."...
+2026-06-30 15:44:32,798 - INFO - API Response Status: 200
+2026-06-30 15:44:32,798 - INFO - Raw model response: {"label": "Refuted"}
+2026-06-30 15:44:32,798 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2026-06-30 15:44:32,800 - INFO - Prediction: Refuted
+2026-06-30 15:44:32,800 - INFO - ✓ Correct prediction
+2026-06-30 15:44:33,101 - INFO - ================================================================================
+2026-06-30 15:44:33,102 - INFO - Processing claim #95 (ID: tracer_train_95)
+2026-06-30 15:44:33,102 - INFO - Claim: Says Rick Scott's proposed budget "would lay off 20,000 teachers."...
+2026-06-30 15:44:33,102 - INFO - Date: 2011-03-08
+2026-06-30 15:44:33,102 - INFO - Asking model: gpt-4o-mini (method: naive)
+2026-06-30 15:44:33,102 - INFO - Claim: Says Rick Scott's proposed budget "would lay off 20,000 teachers."...
+2026-06-30 15:44:34,081 - INFO - API Response Status: 200
+2026-06-30 15:44:34,082 - INFO - Raw model response: {"label": "Refuted"}
+2026-06-30 15:44:34,082 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2026-06-30 15:44:34,084 - INFO - Prediction: Refuted
+2026-06-30 15:44:34,084 - INFO - ✗ Incorrect (True: Misleading, Pred: Refuted)
+2026-06-30 15:44:34,386 - INFO - ================================================================================
+2026-06-30 15:44:34,386 - INFO - Processing claim #96 (ID: tracer_train_96)
+2026-06-30 15:44:34,386 - INFO - Claim: "Last year, American oil production reached its highest level since 2003."...
+2026-06-30 15:44:34,386 - INFO - Date: 2011-03-11
+2026-06-30 15:44:34,386 - INFO - Asking model: gpt-4o-mini (method: naive)
+2026-06-30 15:44:34,386 - INFO - Claim: "Last year, American oil production reached its highest level since 2003."...
+2026-06-30 15:44:40,286 - INFO - API Response Status: 200
+2026-06-30 15:44:40,286 - INFO - Raw model response: {"label": "Refuted"}
+2026-06-30 15:44:40,286 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2026-06-30 15:44:40,288 - INFO - Prediction: Refuted
+2026-06-30 15:44:40,288 - INFO - ✗ Incorrect (True: Misleading, Pred: Refuted)
+2026-06-30 15:44:40,589 - INFO - ================================================================================
+2026-06-30 15:44:40,589 - INFO - Processing claim #97 (ID: tracer_train_97)
+2026-06-30 15:44:40,589 - INFO - Claim: A proposed revenue smart cap "gives Floridians a voice, requiring a 60 percent vote by citizens in order to impose a new tax, fee, license, fine, char...
+2026-06-30 15:44:40,589 - INFO - Date: 2011-03-15
+2026-06-30 15:44:40,589 - INFO - Asking model: gpt-4o-mini (method: naive)
+2026-06-30 15:44:40,589 - INFO - Claim: A proposed revenue smart cap "gives Floridians a voice, requiring a 60 percent vote by citizens in order to impose a new tax, fee, license, fine, char...
+2026-06-30 15:44:41,618 - INFO - API Response Status: 200
+2026-06-30 15:44:41,618 - INFO - Raw model response: {"label": "Supported"}
+2026-06-30 15:44:41,619 - INFO - Extracted label: Supported -> Normalized: Supported
+2026-06-30 15:44:41,620 - INFO - Prediction: Supported
+2026-06-30 15:44:41,620 - INFO - ✗ Incorrect (True: Refuted, Pred: Supported)
+2026-06-30 15:44:41,921 - INFO - ================================================================================
+2026-06-30 15:44:41,922 - INFO - Processing claim #98 (ID: tracer_train_98)
+2026-06-30 15:44:41,922 - INFO - Claim: Says his bill, HB 97, would prevent the use of taxpayer dollars on abortions....
+2026-06-30 15:44:41,922 - INFO - Date: 2011-03-16
+2026-06-30 15:44:41,922 - INFO - Asking model: gpt-4o-mini (method: naive)
+2026-06-30 15:44:41,922 - INFO - Claim: Says his bill, HB 97, would prevent the use of taxpayer dollars on abortions....
+2026-06-30 15:44:42,992 - INFO - API Response Status: 200
+2026-06-30 15:44:42,992 - INFO - Raw model response: {"label": "Supported"}
+2026-06-30 15:44:42,992 - INFO - Extracted label: Supported -> Normalized: Supported
+2026-06-30 15:44:42,994 - INFO - Prediction: Supported
+2026-06-30 15:44:42,994 - INFO - ✗ Incorrect (True: Refuted, Pred: Supported)
+2026-06-30 15:44:43,295 - INFO - ================================================================================
+2026-06-30 15:44:43,295 - INFO - Processing claim #99 (ID: tracer_train_99)
+2026-06-30 15:44:43,295 - INFO - Claim: Says Allen West helped thwart a terrorist plot by shooting a gun in the direction of an Iraqi detainee, then reported the incident to his superior and...
+2026-06-30 15:44:43,295 - INFO - Date: 2011-03-18
+2026-06-30 15:44:43,295 - INFO - Asking model: gpt-4o-mini (method: naive)
+2026-06-30 15:44:43,295 - INFO - Claim: Says Allen West helped thwart a terrorist plot by shooting a gun in the direction of an Iraqi detainee, then reported the incident to his superior and...
+2026-06-30 15:44:49,461 - INFO - API Response Status: 200
+2026-06-30 15:44:49,461 - INFO - Raw model response: {"label": "Refuted"}
+2026-06-30 15:44:49,461 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2026-06-30 15:44:49,463 - INFO - Prediction: Refuted
+2026-06-30 15:44:49,463 - INFO - ✗ Incorrect (True: Misleading, Pred: Refuted)
+2026-06-30 15:44:49,765 - INFO - ================================================================================
+2026-06-30 15:44:49,765 - INFO - Processing claim #100 (ID: tracer_train_100)
+2026-06-30 15:44:49,765 - INFO - Claim: "The Congressional Budget Office has this economic model where they measure the economy going forward, and they are now telling us that the entire eco...
+2026-06-30 15:44:49,765 - INFO - Date: 2011-03-18
+2026-06-30 15:44:49,765 - INFO - Asking model: gpt-4o-mini (method: naive)
+2026-06-30 15:44:49,765 - INFO - Claim: "The Congressional Budget Office has this economic model where they measure the economy going forward, and they are now telling us that the entire eco...
+2026-06-30 15:44:50,729 - INFO - API Response Status: 200
+2026-06-30 15:44:50,729 - INFO - Raw model response: {"label": "Refuted"}
+2026-06-30 15:44:50,729 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2026-06-30 15:44:50,731 - INFO - Prediction: Refuted
+2026-06-30 15:44:50,731 - INFO - ✗ Incorrect (True: Misleading, Pred: Refuted)
+2026-06-30 15:44:51,033 - INFO - ================================================================================
+2026-06-30 15:44:51,033 - INFO - Processing claim #101 (ID: tracer_train_101)
+2026-06-30 15:44:51,033 - INFO - Claim: In a lawsuit between private citizens, a Florida judge "announced the decision was going to be based on Islamic Law."...
+2026-06-30 15:44:51,033 - INFO - Date: 2011-03-20
+2026-06-30 15:44:51,033 - INFO - Asking model: gpt-4o-mini (method: naive)
+2026-06-30 15:44:51,033 - INFO - Claim: In a lawsuit between private citizens, a Florida judge "announced the decision was going to be based on Islamic Law."...
+2026-06-30 15:44:51,962 - INFO - API Response Status: 200
+2026-06-30 15:44:51,962 - INFO - Raw model response: {"label": "Refuted"}
+2026-06-30 15:44:51,962 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2026-06-30 15:44:51,963 - INFO - Prediction: Refuted
+2026-06-30 15:44:51,963 - INFO - ✗ Incorrect (True: Misleading, Pred: Refuted)
+2026-06-30 15:44:52,264 - INFO - ================================================================================
+2026-06-30 15:44:52,265 - INFO - Processing claim #102 (ID: tracer_train_102)
+2026-06-30 15:44:52,265 - INFO - Claim: "Before this (federal health care) law was enacted, Florida parents ... were able to purchase inexpensive 'child-only' coverage for their children. Th...
+2026-06-30 15:44:52,265 - INFO - Date: 2011-03-23
+2026-06-30 15:44:52,265 - INFO - Asking model: gpt-4o-mini (method: naive)
+2026-06-30 15:44:52,265 - INFO - Claim: "Before this (federal health care) law was enacted, Florida parents ... were able to purchase inexpensive 'child-only' coverage for their children. Th...
+2026-06-30 15:44:53,194 - INFO - API Response Status: 200
+2026-06-30 15:44:53,194 - INFO - Raw model response: {"label": "Half-True"}
+2026-06-30 15:44:53,194 - INFO - Extracted label: Half-True -> Normalized: Misleading
+2026-06-30 15:44:53,196 - INFO - Prediction: Misleading
+2026-06-30 15:44:53,196 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-06-30 15:44:53,497 - INFO - ================================================================================
+2026-06-30 15:44:53,498 - INFO - Processing claim #103 (ID: tracer_train_103)
+2026-06-30 15:44:53,498 - INFO - Claim: Since Oregon’s prescription-only law took effect, meth lab incidents have dropped by 96 percent and meth-related arrests by 32 percent....
+2026-06-30 15:44:53,498 - INFO - Date: 2011-03-28
+2026-06-30 15:44:53,498 - INFO - Asking model: gpt-4o-mini (method: naive)
+2026-06-30 15:44:53,498 - INFO - Claim: Since Oregon’s prescription-only law took effect, meth lab incidents have dropped by 96 percent and meth-related arrests by 32 percent....
+2026-06-30 15:44:54,539 - INFO - API Response Status: 200
+2026-06-30 15:44:54,539 - INFO - Raw model response: {"label": "Refuted"}
+2026-06-30 15:44:54,539 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2026-06-30 15:44:54,541 - INFO - Prediction: Refuted
+2026-06-30 15:44:54,541 - INFO - ✗ Incorrect (True: Supported, Pred: Refuted)
+2026-06-30 15:44:54,842 - INFO - ================================================================================
+2026-06-30 15:44:54,842 - INFO - Processing claim #104 (ID: tracer_train_104)
+2026-06-30 15:44:54,842 - INFO - Claim: Says David Prosser = Scott Walker....
+2026-06-30 15:44:54,842 - INFO - Date: 2011-03-30
+2026-06-30 15:44:54,842 - INFO - Asking model: gpt-4o-mini (method: naive)
+2026-06-30 15:44:54,842 - INFO - Claim: Says David Prosser = Scott Walker....
+2026-06-30 15:44:58,443 - INFO - API Response Status: 200
+2026-06-30 15:44:58,443 - INFO - Raw model response: {"label": "Refuted"}
+2026-06-30 15:44:58,443 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2026-06-30 15:44:58,445 - INFO - Prediction: Refuted
+2026-06-30 15:44:58,445 - INFO - ✗ Incorrect (True: Misleading, Pred: Refuted)
+2026-06-30 15:44:58,746 - INFO - ================================================================================
+2026-06-30 15:44:58,747 - INFO - Processing claim #105 (ID: tracer_train_105)
+2026-06-30 15:44:58,747 - INFO - Claim: "Every person on death row was a foster kid."...
+2026-06-30 15:44:58,747 - INFO - Date: 2011-03-31
+2026-06-30 15:44:58,747 - INFO - Asking model: gpt-4o-mini (method: naive)
+2026-06-30 15:44:58,747 - INFO - Claim: "Every person on death row was a foster kid."...
+2026-06-30 15:44:59,694 - INFO - API Response Status: 200
+2026-06-30 15:44:59,694 - INFO - Raw model response: {"label": "Refuted"}
+2026-06-30 15:44:59,694 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2026-06-30 15:44:59,695 - INFO - Prediction: Refuted
+2026-06-30 15:44:59,696 - INFO - ✓ Correct prediction
+2026-06-30 15:45:00,013 - INFO - ================================================================================
+2026-06-30 15:45:00,013 - INFO - Processing claim #106 (ID: tracer_train_106)
+2026-06-30 15:45:00,013 - INFO - Claim: In Florida, it’s not illegal for an immediate family member of state officials to prosper from legislation supported by a spouse....
+2026-06-30 15:45:00,013 - INFO - Date: 2011-04-02
+2026-06-30 15:45:00,014 - INFO - Asking model: gpt-4o-mini (method: naive)
+2026-06-30 15:45:00,014 - INFO - Claim: In Florida, it’s not illegal for an immediate family member of state officials to prosper from legislation supported by a spouse....
+2026-06-30 15:45:01,124 - INFO - API Response Status: 200
+2026-06-30 15:45:01,124 - INFO - Raw model response: {"label": "Half-True"}
+2026-06-30 15:45:01,124 - INFO - Extracted label: Half-True -> Normalized: Misleading
+2026-06-30 15:45:01,126 - INFO - Prediction: Misleading
+2026-06-30 15:45:01,126 - INFO - ✗ Incorrect (True: Supported, Pred: Misleading)
+2026-06-30 15:45:01,429 - INFO - ================================================================================
+2026-06-30 15:45:01,429 - INFO - Processing claim #107 (ID: tracer_train_107)
+2026-06-30 15:45:01,429 - INFO - Claim: Human error, such as skipping a community in the Wisconsin Supreme Court race, "is common in (the vote-tabulation) process....
+2026-06-30 15:45:01,429 - INFO - Date: 2011-04-07
+2026-06-30 15:45:01,429 - INFO - Asking model: gpt-4o-mini (method: naive)
+2026-06-30 15:45:01,429 - INFO - Claim: Human error, such as skipping a community in the Wisconsin Supreme Court race, "is common in (the vote-tabulation) process....
+2026-06-30 15:45:02,801 - INFO - API Response Status: 200
+2026-06-30 15:45:02,801 - INFO - Raw model response: {"label": "Supported"}
+2026-06-30 15:45:02,801 - INFO - Extracted label: Supported -> Normalized: Supported
+2026-06-30 15:45:02,802 - INFO - Prediction: Supported
+2026-06-30 15:45:02,802 - INFO - ✗ Incorrect (True: Refuted, Pred: Supported)
+2026-06-30 15:45:03,104 - INFO - ================================================================================
+2026-06-30 15:45:03,104 - INFO - Processing claim #108 (ID: tracer_train_108)
+2026-06-30 15:45:03,104 - INFO - Claim: A Republican proposal changes Medicare for those under age 55 so that they will  "participate in the same kind of health plan that members of Congress...
+2026-06-30 15:45:03,104 - INFO - Date: 2011-04-10
+2026-06-30 15:45:03,104 - INFO - Asking model: gpt-4o-mini (method: naive)
+2026-06-30 15:45:03,104 - INFO - Claim: A Republican proposal changes Medicare for those under age 55 so that they will  "participate in the same kind of health plan that members of Congress...
+2026-06-30 15:45:04,282 - INFO - API Response Status: 200
+2026-06-30 15:45:04,282 - INFO - Raw model response: {"label": "Supported"}
+2026-06-30 15:45:04,282 - INFO - Extracted label: Supported -> Normalized: Supported
+2026-06-30 15:45:04,284 - INFO - Prediction: Supported
+2026-06-30 15:45:04,284 - INFO - ✗ Incorrect (True: Refuted, Pred: Supported)
+2026-06-30 15:45:04,585 - INFO - ================================================================================
+2026-06-30 15:45:04,585 - INFO - Processing claim #109 (ID: tracer_train_109)
+2026-06-30 15:45:04,585 - INFO - Claim: Under a proposal by Rep. Paul Ryan, people on Medicare will only have $15,000 from the federal government to spend on their health care....
+2026-06-30 15:45:04,585 - INFO - Date: 2011-04-15
+2026-06-30 15:45:04,585 - INFO - Asking model: gpt-4o-mini (method: naive)
+2026-06-30 15:45:04,585 - INFO - Claim: Under a proposal by Rep. Paul Ryan, people on Medicare will only have $15,000 from the federal government to spend on their health care....
+2026-06-30 15:45:10,438 - INFO - API Response Status: 200
+2026-06-30 15:45:10,438 - INFO - Raw model response: {"label": "Half-True"}
+2026-06-30 15:45:10,439 - INFO - Extracted label: Half-True -> Normalized: Misleading
+2026-06-30 15:45:10,440 - INFO - Prediction: Misleading
+2026-06-30 15:45:10,440 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-06-30 15:45:10,742 - INFO - ================================================================================
+2026-06-30 15:45:10,743 - INFO - Processing claim #110 (ID: tracer_train_110)
+2026-06-30 15:45:10,743 - INFO - Claim: Per-student K-12 state funding for Portland Public Schools has dipped from $6,036 in the 2007-2008 school year to $5,644 in the 2010-2011 school year...
+2026-06-30 15:45:10,743 - INFO - Date: 2011-04-15
+2026-06-30 15:45:10,743 - INFO - Asking model: gpt-4o-mini (method: naive)
+2026-06-30 15:45:10,743 - INFO - Claim: Per-student K-12 state funding for Portland Public Schools has dipped from $6,036 in the 2007-2008 school year to $5,644 in the 2010-2011 school year...
+2026-06-30 15:45:11,816 - INFO - API Response Status: 200
+2026-06-30 15:45:11,817 - INFO - Raw model response: {"label": "Refuted"}
+2026-06-30 15:45:11,817 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2026-06-30 15:45:11,818 - INFO - Prediction: Refuted
+2026-06-30 15:45:11,819 - INFO - ✗ Incorrect (True: Misleading, Pred: Refuted)
+2026-06-30 15:45:12,120 - INFO - ================================================================================
+2026-06-30 15:45:12,121 - INFO - Processing claim #111 (ID: tracer_train_111)
+2026-06-30 15:45:12,121 - INFO - Claim: "Large majorities" of the public "oppose major changes to Medicare" and favor higher taxes on the wealthy....
+2026-06-30 15:45:12,121 - INFO - Date: 2011-04-18
+2026-06-30 15:45:12,121 - INFO - Asking model: gpt-4o-mini (method: naive)
+2026-06-30 15:45:12,121 - INFO - Claim: "Large majorities" of the public "oppose major changes to Medicare" and favor higher taxes on the wealthy....
+2026-06-30 15:45:13,051 - INFO - API Response Status: 200
+2026-06-30 15:45:13,052 - INFO - Raw model response: {"label": "Half-True"}
+2026-06-30 15:45:13,052 - INFO - Extracted label: Half-True -> Normalized: Misleading
+2026-06-30 15:45:13,054 - INFO - Prediction: Misleading
+2026-06-30 15:45:13,054 - INFO - ✗ Incorrect (True: Supported, Pred: Misleading)
+2026-06-30 15:45:13,355 - INFO - ================================================================================
+2026-06-30 15:45:13,356 - INFO - Processing claim #112 (ID: tracer_train_112)
+2026-06-30 15:45:13,356 - INFO - Claim: "Seniors will have to find $12,500 for health care because Republicans voted to end Medicare."...
+2026-06-30 15:45:13,356 - INFO - Date: 2011-04-18
+2026-06-30 15:45:13,356 - INFO - Asking model: gpt-4o-mini (method: naive)
+2026-06-30 15:45:13,356 - INFO - Claim: "Seniors will have to find $12,500 for health care because Republicans voted to end Medicare."...
+2026-06-30 15:45:14,223 - INFO - API Response Status: 200
+2026-06-30 15:45:14,223 - INFO - Raw model response: {"label": "Refuted"}
+2026-06-30 15:45:14,224 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2026-06-30 15:45:14,225 - INFO - Prediction: Refuted
+2026-06-30 15:45:14,225 - INFO - ✓ Correct prediction
+2026-06-30 15:45:14,526 - INFO - ================================================================================
+2026-06-30 15:45:14,527 - INFO - Processing claim #113 (ID: tracer_train_113)
+2026-06-30 15:45:14,527 - INFO - Claim: "Mickey Mouse was registered to vote (in Florida)."...
+2026-06-30 15:45:14,527 - INFO - Date: 2011-04-21
+2026-06-30 15:45:14,527 - INFO - Asking model: gpt-4o-mini (method: naive)
+2026-06-30 15:45:14,527 - INFO - Claim: "Mickey Mouse was registered to vote (in Florida)."...
+2026-06-30 15:45:15,379 - INFO - API Response Status: 200
+2026-06-30 15:45:15,379 - INFO - Raw model response: {"label": "Refuted"}
+2026-06-30 15:45:15,379 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2026-06-30 15:45:15,381 - INFO - Prediction: Refuted
+2026-06-30 15:45:15,381 - INFO - ✓ Correct prediction
+2026-06-30 15:45:15,682 - INFO - ================================================================================
+2026-06-30 15:45:15,683 - INFO - Processing claim #114 (ID: tracer_train_114)
+2026-06-30 15:45:15,683 - INFO - Claim: Says Florida is one of a few or perhaps the only state "that has a statewide review of local land use and zoning decisions."...
+2026-06-30 15:45:15,683 - INFO - Date: 2011-04-21
+2026-06-30 15:45:15,683 - INFO - Asking model: gpt-4o-mini (method: naive)
+2026-06-30 15:45:15,683 - INFO - Claim: Says Florida is one of a few or perhaps the only state "that has a statewide review of local land use and zoning decisions."...
+2026-06-30 15:45:16,643 - INFO - API Response Status: 200
+2026-06-30 15:45:16,643 - INFO - Raw model response: {"label": "Half-True"}
+2026-06-30 15:45:16,643 - INFO - Extracted label: Half-True -> Normalized: Misleading
+2026-06-30 15:45:16,645 - INFO - Prediction: Misleading
+2026-06-30 15:45:16,645 - INFO - ✓ Correct prediction
+2026-06-30 15:45:16,946 - INFO - ================================================================================
+2026-06-30 15:45:16,947 - INFO - Processing claim #115 (ID: tracer_train_115)
+2026-06-30 15:45:16,947 - INFO - Claim: "Most of your serial killers, most of your people who commit domestic violence, they start off by abusing animals."...
+2026-06-30 15:45:16,947 - INFO - Date: 2011-04-24
+2026-06-30 15:45:16,947 - INFO - Asking model: gpt-4o-mini (method: naive)
+2026-06-30 15:45:16,947 - INFO - Claim: "Most of your serial killers, most of your people who commit domestic violence, they start off by abusing animals."...
+2026-06-30 15:45:17,858 - INFO - API Response Status: 200
+2026-06-30 15:45:17,858 - INFO - Raw model response: {"label": "Half-True"}
+2026-06-30 15:45:17,858 - INFO - Extracted label: Half-True -> Normalized: Misleading
+2026-06-30 15:45:17,860 - INFO - Prediction: Misleading
+2026-06-30 15:45:17,860 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-06-30 15:45:18,162 - INFO - ================================================================================
+2026-06-30 15:45:18,162 - INFO - Processing claim #116 (ID: tracer_train_116)
+2026-06-30 15:45:18,162 - INFO - Claim: "The people of Rhode Island don't want same-sex marriage."...
+2026-06-30 15:45:18,162 - INFO - Date: 2011-04-29
+2026-06-30 15:45:18,162 - INFO - Asking model: gpt-4o-mini (method: naive)
+2026-06-30 15:45:18,162 - INFO - Claim: "The people of Rhode Island don't want same-sex marriage."...
+2026-06-30 15:45:19,206 - INFO - API Response Status: 200
+2026-06-30 15:45:19,206 - INFO - Raw model response: {"label": "Refuted"}
+2026-06-30 15:45:19,206 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2026-06-30 15:45:19,208 - INFO - Prediction: Refuted
+2026-06-30 15:45:19,208 - INFO - ✓ Correct prediction
+2026-06-30 15:45:19,510 - INFO - ================================================================================
+2026-06-30 15:45:19,510 - INFO - Processing claim #117 (ID: tracer_train_117)
+2026-06-30 15:45:19,510 - INFO - Claim: "The only people in this town that have voted to cut Medicare spending are the people who voted in favor of Obamacare. That’s a fact."...
+2026-06-30 15:45:19,510 - INFO - Date: 2011-05-01
+2026-06-30 15:45:19,510 - INFO - Asking model: gpt-4o-mini (method: naive)
+2026-06-30 15:45:19,510 - INFO - Claim: "The only people in this town that have voted to cut Medicare spending are the people who voted in favor of Obamacare. That’s a fact."...
+2026-06-30 15:45:20,552 - INFO - API Response Status: 200
+2026-06-30 15:45:20,552 - INFO - Raw model response: {"label": "Refuted"}
+2026-06-30 15:45:20,552 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2026-06-30 15:45:20,554 - INFO - Prediction: Refuted
+2026-06-30 15:45:20,554 - INFO - ✓ Correct prediction
+2026-06-30 15:45:20,855 - INFO - ================================================================================
+2026-06-30 15:45:20,855 - INFO - Processing claim #118 (ID: tracer_train_118)
+2026-06-30 15:45:20,855 - INFO - Claim: Rep. Paul Ryan's budget proposal cuts "nothing" from Medicare, Social Security or defense in the next two to three years, and "in three years, he does...
+2026-06-30 15:45:20,855 - INFO - Date: 2011-05-01
+2026-06-30 15:45:20,855 - INFO - Asking model: gpt-4o-mini (method: naive)
+2026-06-30 15:45:20,855 - INFO - Claim: Rep. Paul Ryan's budget proposal cuts "nothing" from Medicare, Social Security or defense in the next two to three years, and "in three years, he does...
+2026-06-30 15:45:21,966 - INFO - API Response Status: 200
+2026-06-30 15:45:21,967 - INFO - Raw model response: {"label": "Half-True"}
+2026-06-30 15:45:21,967 - INFO - Extracted label: Half-True -> Normalized: Misleading
+2026-06-30 15:45:21,968 - INFO - Prediction: Misleading
+2026-06-30 15:45:21,968 - INFO - ✗ Incorrect (True: Supported, Pred: Misleading)
+2026-06-30 15:45:22,269 - INFO - ================================================================================
+2026-06-30 15:45:22,269 - INFO - Processing claim #119 (ID: tracer_train_119)
+2026-06-30 15:45:22,269 - INFO - Claim: Promotes a chart saying that Barack Obama has "increased the debt" by 16 percent, compared to George W. Bush, who increased it by 115 percent....
+2026-06-30 15:45:22,269 - INFO - Date: 2011-05-03
+2026-06-30 15:45:22,269 - INFO - Asking model: gpt-4o-mini (method: naive)
+2026-06-30 15:45:22,269 - INFO - Claim: Promotes a chart saying that Barack Obama has "increased the debt" by 16 percent, compared to George W. Bush, who increased it by 115 percent....
+2026-06-30 15:45:23,332 - INFO - API Response Status: 200
+2026-06-30 15:45:23,332 - INFO - Raw model response: {"label": "Half-True"}
+2026-06-30 15:45:23,332 - INFO - Extracted label: Half-True -> Normalized: Misleading
+2026-06-30 15:45:23,334 - INFO - Prediction: Misleading
+2026-06-30 15:45:23,334 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-06-30 15:45:23,636 - INFO - ================================================================================
+2026-06-30 15:45:23,636 - INFO - Processing claim #120 (ID: tracer_train_120)
+2026-06-30 15:45:23,636 - INFO - Claim: " 'Scary' fact about our national debt. In 1791 it was $75 million. Today, it rises by that amount in about an hour."...
+2026-06-30 15:45:23,636 - INFO - Date: 2011-05-10
+2026-06-30 15:45:23,636 - INFO - Asking model: gpt-4o-mini (method: naive)
+2026-06-30 15:45:23,636 - INFO - Claim: " 'Scary' fact about our national debt. In 1791 it was $75 million. Today, it rises by that amount in about an hour."...
+2026-06-30 15:45:24,528 - INFO - API Response Status: 200
+2026-06-30 15:45:24,528 - INFO - Raw model response: {"label": "Half-True"}
+2026-06-30 15:45:24,528 - INFO - Extracted label: Half-True -> Normalized: Misleading
+2026-06-30 15:45:24,530 - INFO - Prediction: Misleading
+2026-06-30 15:45:24,530 - INFO - ✓ Correct prediction
+2026-06-30 15:45:24,831 - INFO - ================================================================================
+2026-06-30 15:45:24,831 - INFO - Processing claim #121 (ID: tracer_train_121)
+2026-06-30 15:45:24,831 - INFO - Claim: "The new beverage tax will increase the cost of sodas, juice drinks, sports drinks, iced teas, and flavored water up to 50%."...
+2026-06-30 15:45:24,831 - INFO - Date: 2011-05-11
+2026-06-30 15:45:24,831 - INFO - Asking model: gpt-4o-mini (method: naive)
+2026-06-30 15:45:24,831 - INFO - Claim: "The new beverage tax will increase the cost of sodas, juice drinks, sports drinks, iced teas, and flavored water up to 50%."...
+2026-06-30 15:45:25,727 - INFO - API Response Status: 200
+2026-06-30 15:45:25,727 - INFO - Raw model response: {"label": "Half-True"}
+2026-06-30 15:45:25,727 - INFO - Extracted label: Half-True -> Normalized: Misleading
+2026-06-30 15:45:25,729 - INFO - Prediction: Misleading
+2026-06-30 15:45:25,729 - INFO - ✓ Correct prediction
+2026-06-30 15:45:26,031 - INFO - ================================================================================
+2026-06-30 15:45:26,031 - INFO - Processing claim #122 (ID: tracer_train_122)
+2026-06-30 15:45:26,031 - INFO - Claim: The Providence teacher contract "is one of the longest in the country."...
+2026-06-30 15:45:26,031 - INFO - Date: 2011-05-15
+2026-06-30 15:45:26,031 - INFO - Asking model: gpt-4o-mini (method: naive)
+2026-06-30 15:45:26,031 - INFO - Claim: The Providence teacher contract "is one of the longest in the country."...
+2026-06-30 15:45:26,912 - INFO - API Response Status: 200
+2026-06-30 15:45:26,912 - INFO - Raw model response: {"label": "Half-True"}
+2026-06-30 15:45:26,912 - INFO - Extracted label: Half-True -> Normalized: Misleading
+2026-06-30 15:45:26,913 - INFO - Prediction: Misleading
+2026-06-30 15:45:26,914 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-06-30 15:45:27,215 - INFO - ================================================================================
+2026-06-30 15:45:27,215 - INFO - Processing claim #123 (ID: tracer_train_123)
+2026-06-30 15:45:27,215 - INFO - Claim: "You can't give a child an aspirin in school without permission. You can't do any kind of medication, but we can secretly take the child off and have ...
+2026-06-30 15:45:27,215 - INFO - Date: 2011-05-17
+2026-06-30 15:45:27,215 - INFO - Asking model: gpt-4o-mini (method: naive)
+2026-06-30 15:45:27,215 - INFO - Claim: "You can't give a child an aspirin in school without permission. You can't do any kind of medication, but we can secretly take the child off and have ...
+2026-06-30 15:45:28,025 - INFO - API Response Status: 200
+2026-06-30 15:45:28,026 - INFO - Raw model response: {"label": "Half-True"}
+2026-06-30 15:45:28,026 - INFO - Extracted label: Half-True -> Normalized: Misleading
+2026-06-30 15:45:28,027 - INFO - Prediction: Misleading
+2026-06-30 15:45:28,027 - INFO - ✗ Incorrect (True: Supported, Pred: Misleading)
+2026-06-30 15:45:28,329 - INFO - ================================================================================
+2026-06-30 15:45:28,329 - INFO - Processing claim #124 (ID: tracer_train_124)
+2026-06-30 15:45:28,329 - INFO - Claim: The Paul Ryan budget proposal would leave the country "without Medicare."...
+2026-06-30 15:45:28,329 - INFO - Date: 2011-05-17
+2026-06-30 15:45:28,329 - INFO - Asking model: gpt-4o-mini (method: naive)
+2026-06-30 15:45:28,329 - INFO - Claim: The Paul Ryan budget proposal would leave the country "without Medicare."...
+2026-06-30 15:45:29,193 - INFO - API Response Status: 200
+2026-06-30 15:45:29,193 - INFO - Raw model response: {"label": "Half-True"}
+2026-06-30 15:45:29,193 - INFO - Extracted label: Half-True -> Normalized: Misleading
+2026-06-30 15:45:29,194 - INFO - Prediction: Misleading
+2026-06-30 15:45:29,195 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-06-30 15:45:29,496 - INFO - ================================================================================
+2026-06-30 15:45:29,496 - INFO - Processing claim #125 (ID: tracer_train_125)
+2026-06-30 15:45:29,496 - INFO - Claim: "Rhode Island continues to have the highest rates of substance abuse in the country."...
+2026-06-30 15:45:29,496 - INFO - Date: 2011-05-18
+2026-06-30 15:45:29,496 - INFO - Asking model: gpt-4o-mini (method: naive)
+2026-06-30 15:45:29,496 - INFO - Claim: "Rhode Island continues to have the highest rates of substance abuse in the country."...
+2026-06-30 15:45:30,347 - INFO - API Response Status: 200
+2026-06-30 15:45:30,347 - INFO - Raw model response: {"label": "Refuted"}
+2026-06-30 15:45:30,347 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2026-06-30 15:45:30,348 - INFO - Prediction: Refuted
+2026-06-30 15:45:30,349 - INFO - ✗ Incorrect (True: Supported, Pred: Refuted)
+2026-06-30 15:45:30,650 - INFO - ================================================================================
+2026-06-30 15:45:30,650 - INFO - Processing claim #126 (ID: tracer_train_126)
+2026-06-30 15:45:30,650 - INFO - Claim: "Unions don’t have to comply with Obamacare."...
+2026-06-30 15:45:30,650 - INFO - Date: 2011-05-18
+2026-06-30 15:45:30,650 - INFO - Asking model: gpt-4o-mini (method: naive)
+2026-06-30 15:45:30,650 - INFO - Claim: "Unions don’t have to comply with Obamacare."...
+2026-06-30 15:45:31,458 - INFO - API Response Status: 200
+2026-06-30 15:45:31,459 - INFO - Raw model response: {"label": "Refuted"}
+2026-06-30 15:45:31,459 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2026-06-30 15:45:31,460 - INFO - Prediction: Refuted
+2026-06-30 15:45:31,460 - INFO - ✓ Correct prediction
+2026-06-30 15:45:31,762 - INFO - ================================================================================
+2026-06-30 15:45:31,762 - INFO - Processing claim #127 (ID: tracer_train_127)
+2026-06-30 15:45:31,762 - INFO - Claim: The Central Falls School system "spent $100,000 on a time clock."...
+2026-06-30 15:45:31,762 - INFO - Date: 2011-05-19
+2026-06-30 15:45:31,762 - INFO - Asking model: gpt-4o-mini (method: naive)
+2026-06-30 15:45:31,762 - INFO - Claim: The Central Falls School system "spent $100,000 on a time clock."...
+2026-06-30 15:45:32,619 - INFO - API Response Status: 200
+2026-06-30 15:45:32,619 - INFO - Raw model response: {"label": "Refuted"}
+2026-06-30 15:45:32,619 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2026-06-30 15:45:32,620 - INFO - Prediction: Refuted
+2026-06-30 15:45:32,620 - INFO - ✓ Correct prediction
+2026-06-30 15:45:32,922 - INFO - ================================================================================
+2026-06-30 15:45:32,922 - INFO - Processing claim #128 (ID: tracer_train_128)
+2026-06-30 15:45:32,922 - INFO - Claim: "750 days since Bill Nelson & the Democrats in the Senate passed a budget. How can this be justified?"...
+2026-06-30 15:45:32,922 - INFO - Date: 2011-05-19
+2026-06-30 15:45:32,923 - INFO - Asking model: gpt-4o-mini (method: naive)
+2026-06-30 15:45:32,923 - INFO - Claim: "750 days since Bill Nelson & the Democrats in the Senate passed a budget. How can this be justified?"...
+2026-06-30 15:45:33,758 - INFO - API Response Status: 200
+2026-06-30 15:45:33,758 - INFO - Raw model response: {"label": "Refuted"}
+2026-06-30 15:45:33,758 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2026-06-30 15:45:33,759 - INFO - Prediction: Refuted
+2026-06-30 15:45:33,759 - INFO - ✗ Incorrect (True: Misleading, Pred: Refuted)
+2026-06-30 15:45:34,061 - INFO - ================================================================================
+2026-06-30 15:45:34,061 - INFO - Processing claim #129 (ID: tracer_train_129)
+2026-06-30 15:45:34,061 - INFO - Claim: "There's a 1.5 percent to 2 percent overhead in Medicare. The insurance companies have a 20 percent to 30 percent overhead."...
+2026-06-30 15:45:34,061 - INFO - Date: 2011-05-24
+2026-06-30 15:45:34,061 - INFO - Asking model: gpt-4o-mini (method: naive)
+2026-06-30 15:45:34,061 - INFO - Claim: "There's a 1.5 percent to 2 percent overhead in Medicare. The insurance companies have a 20 percent to 30 percent overhead."...
+2026-06-30 15:45:35,025 - INFO - API Response Status: 200
+2026-06-30 15:45:35,025 - INFO - Raw model response: {"label": "Supported"}
+2026-06-30 15:45:35,025 - INFO - Extracted label: Supported -> Normalized: Supported
+2026-06-30 15:45:35,027 - INFO - Prediction: Supported
+2026-06-30 15:45:35,027 - INFO - ✗ Incorrect (True: Misleading, Pred: Supported)
+2026-06-30 15:45:35,329 - INFO - ================================================================================
+2026-06-30 15:45:35,329 - INFO - Processing claim #130 (ID: tracer_train_130)
+2026-06-30 15:45:35,329 - INFO - Claim: "Do this research … watch how much crime picks up if you take away [football]."...
+2026-06-30 15:45:35,329 - INFO - Date: 2011-05-25
+2026-06-30 15:45:35,329 - INFO - Asking model: gpt-4o-mini (method: naive)
+2026-06-30 15:45:35,329 - INFO - Claim: "Do this research … watch how much crime picks up if you take away [football]."...
+2026-06-30 15:45:36,294 - INFO - API Response Status: 200
+2026-06-30 15:45:36,294 - INFO - Raw model response: {"label": "Half-True"}
+2026-06-30 15:45:36,294 - INFO - Extracted label: Half-True -> Normalized: Misleading
+2026-06-30 15:45:36,296 - INFO - Prediction: Misleading
+2026-06-30 15:45:36,296 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-06-30 15:45:36,597 - INFO - ================================================================================
+2026-06-30 15:45:36,597 - INFO - Processing claim #131 (ID: tracer_train_131)
+2026-06-30 15:45:36,597 - INFO - Claim: "Ten percent of violent deaths in the U.S. each year are due to strangulation."...
+2026-06-30 15:45:36,597 - INFO - Date: 2011-05-25
+2026-06-30 15:45:36,597 - INFO - Asking model: gpt-4o-mini (method: naive)
+2026-06-30 15:45:36,597 - INFO - Claim: "Ten percent of violent deaths in the U.S. each year are due to strangulation."...
+2026-06-30 15:45:37,433 - INFO - API Response Status: 200
+2026-06-30 15:45:37,434 - INFO - Raw model response: {"label": "Refuted"}
+2026-06-30 15:45:37,434 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2026-06-30 15:45:37,435 - INFO - Prediction: Refuted
+2026-06-30 15:45:37,435 - INFO - ✓ Correct prediction
+2026-06-30 15:45:37,736 - INFO - ================================================================================
+2026-06-30 15:45:37,736 - INFO - Processing claim #132 (ID: tracer_train_132)
+2026-06-30 15:45:37,736 - INFO - Claim: "When I became president and CEO of Godfather’s Pizza, it was supposed to go bankrupt . . . We turned it around with common-sense business principles....
+2026-06-30 15:45:37,737 - INFO - Date: 2011-05-26
+2026-06-30 15:45:37,737 - INFO - Asking model: gpt-4o-mini (method: naive)
+2026-06-30 15:45:37,737 - INFO - Claim: "When I became president and CEO of Godfather’s Pizza, it was supposed to go bankrupt . . . We turned it around with common-sense business principles....
+2026-06-30 15:45:38,538 - INFO - API Response Status: 200
+2026-06-30 15:45:38,539 - INFO - Raw model response: {"label": "Supported"}
+2026-06-30 15:45:38,539 - INFO - Extracted label: Supported -> Normalized: Supported
+2026-06-30 15:45:38,540 - INFO - Prediction: Supported
+2026-06-30 15:45:38,540 - INFO - ✗ Incorrect (True: Misleading, Pred: Supported)
+2026-06-30 15:45:38,842 - INFO - ================================================================================
+2026-06-30 15:45:38,842 - INFO - Processing claim #133 (ID: tracer_train_133)
+2026-06-30 15:45:38,842 - INFO - Claim: "It is a greater crime to have an untagged alligator than to host an open house party (for kids)."...
+2026-06-30 15:45:38,842 - INFO - Date: 2011-05-30
+2026-06-30 15:45:38,843 - INFO - Asking model: gpt-4o-mini (method: naive)
+2026-06-30 15:45:38,843 - INFO - Claim: "It is a greater crime to have an untagged alligator than to host an open house party (for kids)."...
+2026-06-30 15:45:39,807 - INFO - API Response Status: 200
+2026-06-30 15:45:39,808 - INFO - Raw model response: {"label": "Refuted"}
+2026-06-30 15:45:39,808 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2026-06-30 15:45:39,809 - INFO - Prediction: Refuted
+2026-06-30 15:45:39,809 - INFO - ✗ Incorrect (True: Supported, Pred: Refuted)
+2026-06-30 15:45:40,110 - INFO - ================================================================================
+2026-06-30 15:45:40,110 - INFO - Processing claim #134 (ID: tracer_train_134)
+2026-06-30 15:45:40,110 - INFO - Claim: "We had (a bill) in Florida where we now are prohibiting doctors to talk -- particularly pediatricians -- to talk to their patients about gun safety i...
+2026-06-30 15:45:40,110 - INFO - Date: 2011-06-01
+2026-06-30 15:45:40,110 - INFO - Asking model: gpt-4o-mini (method: naive)
+2026-06-30 15:45:40,110 - INFO - Claim: "We had (a bill) in Florida where we now are prohibiting doctors to talk -- particularly pediatricians -- to talk to their patients about gun safety i...
+2026-06-30 15:45:41,043 - INFO - API Response Status: 200
+2026-06-30 15:45:41,043 - INFO - Raw model response: {"label": "Refuted"}
+2026-06-30 15:45:41,043 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2026-06-30 15:45:41,045 - INFO - Prediction: Refuted
+2026-06-30 15:45:41,045 - INFO - ✓ Correct prediction
+2026-06-30 15:45:41,346 - INFO - ================================================================================
+2026-06-30 15:45:41,346 - INFO - Processing claim #135 (ID: tracer_train_135)
+2026-06-30 15:45:41,346 - INFO - Claim: "Rep. Robert Hurt voted again today to end Medicare and raise health care costs for Virginia seniors."...
+2026-06-30 15:45:41,346 - INFO - Date: 2011-06-01
+2026-06-30 15:45:41,346 - INFO - Asking model: gpt-4o-mini (method: naive)
+2026-06-30 15:45:41,346 - INFO - Claim: "Rep. Robert Hurt voted again today to end Medicare and raise health care costs for Virginia seniors."...
+2026-06-30 15:45:42,445 - INFO - API Response Status: 200
+2026-06-30 15:45:42,445 - INFO - Raw model response: {"label": "Refuted"}
+2026-06-30 15:45:42,445 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2026-06-30 15:45:42,446 - INFO - Prediction: Refuted
+2026-06-30 15:45:42,446 - INFO - ✓ Correct prediction
+2026-06-30 15:45:42,748 - INFO - ================================================================================
+2026-06-30 15:45:42,748 - INFO - Processing claim #136 (ID: tracer_train_136)
+2026-06-30 15:45:42,748 - INFO - Claim: "If you threw a barbecue yesterday for the Memorial weekend, it was 29 percent more expensive than last year because Barack Obama's policies have led ...
+2026-06-30 15:45:42,748 - INFO - Date: 2011-06-01
+2026-06-30 15:45:42,748 - INFO - Asking model: gpt-4o-mini (method: naive)
+2026-06-30 15:45:42,748 - INFO - Claim: "If you threw a barbecue yesterday for the Memorial weekend, it was 29 percent more expensive than last year because Barack Obama's policies have led ...
+2026-06-30 15:45:43,609 - INFO - API Response Status: 200
+2026-06-30 15:45:43,609 - INFO - Raw model response: {"label": "Refuted"}
+2026-06-30 15:45:43,609 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2026-06-30 15:45:43,611 - INFO - Prediction: Refuted
+2026-06-30 15:45:43,611 - INFO - ✓ Correct prediction
+2026-06-30 15:45:43,912 - INFO - ================================================================================
+2026-06-30 15:45:43,912 - INFO - Processing claim #137 (ID: tracer_train_137)
+2026-06-30 15:45:43,912 - INFO - Claim: "Voted the ‘best specialty plate in America’"...
+2026-06-30 15:45:43,912 - INFO - Date: 2011-06-01
+2026-06-30 15:45:43,912 - INFO - Asking model: gpt-4o-mini (method: naive)
+2026-06-30 15:45:43,912 - INFO - Claim: "Voted the ‘best specialty plate in America’"...
+2026-06-30 15:45:44,823 - INFO - API Response Status: 200
+2026-06-30 15:45:44,823 - INFO - Raw model response: {"label": "Half-True"}
+2026-06-30 15:45:44,823 - INFO - Extracted label: Half-True -> Normalized: Misleading
+2026-06-30 15:45:44,824 - INFO - Prediction: Misleading
+2026-06-30 15:45:44,825 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-06-30 15:45:45,126 - INFO - ================================================================================
+2026-06-30 15:45:45,126 - INFO - Processing claim #138 (ID: tracer_train_138)
+2026-06-30 15:45:45,126 - INFO - Claim: "We already have $23 billion worth of debt."...
+2026-06-30 15:45:45,126 - INFO - Date: 2011-06-02
+2026-06-30 15:45:45,126 - INFO - Asking model: gpt-4o-mini (method: naive)
+2026-06-30 15:45:45,127 - INFO - Claim: "We already have $23 billion worth of debt."...
+2026-06-30 15:45:45,989 - INFO - API Response Status: 200
+2026-06-30 15:45:45,989 - INFO - Raw model response: {"label": "Half-True"}
+2026-06-30 15:45:45,989 - INFO - Extracted label: Half-True -> Normalized: Misleading
+2026-06-30 15:45:45,990 - INFO - Prediction: Misleading
+2026-06-30 15:45:45,990 - INFO - ✗ Incorrect (True: Supported, Pred: Misleading)
+2026-06-30 15:45:46,292 - INFO - ================================================================================
+2026-06-30 15:45:46,292 - INFO - Processing claim #139 (ID: tracer_train_139)
+2026-06-30 15:45:46,292 - INFO - Claim: "A few months into office, (President Barack Obama) traveled around the globe to apologize for America."...
+2026-06-30 15:45:46,292 - INFO - Date: 2011-06-02
+2026-06-30 15:45:46,292 - INFO - Asking model: gpt-4o-mini (method: naive)
+2026-06-30 15:45:46,292 - INFO - Claim: "A few months into office, (President Barack Obama) traveled around the globe to apologize for America."...
+2026-06-30 15:45:47,287 - INFO - API Response Status: 200
+2026-06-30 15:45:47,287 - INFO - Raw model response: {"label": "Half-True"}
+2026-06-30 15:45:47,287 - INFO - Extracted label: Half-True -> Normalized: Misleading
+2026-06-30 15:45:47,289 - INFO - Prediction: Misleading
+2026-06-30 15:45:47,289 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-06-30 15:45:47,591 - INFO - ================================================================================
+2026-06-30 15:45:47,591 - INFO - Processing claim #140 (ID: tracer_train_140)
+2026-06-30 15:45:47,591 - INFO - Claim: "Studies show that people that are on welfare are higher users of drugs than people not on welfare."...
+2026-06-30 15:45:47,591 - INFO - Date: 2011-06-05
+2026-06-30 15:45:47,591 - INFO - Asking model: gpt-4o-mini (method: naive)
+2026-06-30 15:45:47,591 - INFO - Claim: "Studies show that people that are on welfare are higher users of drugs than people not on welfare."...
+2026-06-30 15:45:49,008 - INFO - API Response Status: 200
+2026-06-30 15:45:49,008 - INFO - Raw model response: {"label": "Refuted"}
+2026-06-30 15:45:49,008 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2026-06-30 15:45:49,010 - INFO - Prediction: Refuted
+2026-06-30 15:45:49,010 - INFO - ✗ Incorrect (True: Misleading, Pred: Refuted)
+2026-06-30 15:45:49,311 - INFO - ================================================================================
+2026-06-30 15:45:49,311 - INFO - Processing claim #141 (ID: tracer_train_141)
+2026-06-30 15:45:49,311 - INFO - Claim: Accuses President Barack Obama of making contradictory claims about efforts to kill Osama bin Laden in 2008 and 2011....
+2026-06-30 15:45:49,311 - INFO - Date: 2011-06-07
+2026-06-30 15:45:49,311 - INFO - Asking model: gpt-4o-mini (method: naive)
+2026-06-30 15:45:49,311 - INFO - Claim: Accuses President Barack Obama of making contradictory claims about efforts to kill Osama bin Laden in 2008 and 2011....
+2026-06-30 15:45:50,729 - INFO - API Response Status: 200
+2026-06-30 15:45:50,729 - INFO - Raw model response: {"label": "Half-True"}
+2026-06-30 15:45:50,729 - INFO - Extracted label: Half-True -> Normalized: Misleading
+2026-06-30 15:45:50,731 - INFO - Prediction: Misleading
+2026-06-30 15:45:50,731 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-06-30 15:45:51,032 - INFO - ================================================================================
+2026-06-30 15:45:51,032 - INFO - Processing claim #142 (ID: tracer_train_142)
+2026-06-30 15:45:51,032 - INFO - Claim: "A couple of hundred American cities are infested by members of the Mexican cartels."...
+2026-06-30 15:45:51,032 - INFO - Date: 2011-06-07
+2026-06-30 15:45:51,032 - INFO - Asking model: gpt-4o-mini (method: naive)
+2026-06-30 15:45:51,032 - INFO - Claim: "A couple of hundred American cities are infested by members of the Mexican cartels."...
+2026-06-30 15:45:51,844 - INFO - API Response Status: 200
+2026-06-30 15:45:51,844 - INFO - Raw model response: {"label": "Half-True"}
+2026-06-30 15:45:51,844 - INFO - Extracted label: Half-True -> Normalized: Misleading
+2026-06-30 15:45:51,846 - INFO - Prediction: Misleading
+2026-06-30 15:45:51,846 - INFO - ✗ Incorrect (True: Supported, Pred: Misleading)
+2026-06-30 15:45:52,149 - INFO - ================================================================================
+2026-06-30 15:45:52,149 - INFO - Processing claim #143 (ID: tracer_train_143)
+2026-06-30 15:45:52,149 - INFO - Claim: Says President Barack Obama promised he would cut the deficit in half, but instead will at least double it....
+2026-06-30 15:45:52,150 - INFO - Date: 2011-06-10
+2026-06-30 15:45:52,150 - INFO - Asking model: gpt-4o-mini (method: naive)
+2026-06-30 15:45:52,150 - INFO - Claim: Says President Barack Obama promised he would cut the deficit in half, but instead will at least double it....
+2026-06-30 15:45:53,015 - INFO - API Response Status: 200
+2026-06-30 15:45:53,015 - INFO - Raw model response: {"label": "Half-True"}
+2026-06-30 15:45:53,016 - INFO - Extracted label: Half-True -> Normalized: Misleading
+2026-06-30 15:45:53,017 - INFO - Prediction: Misleading
+2026-06-30 15:45:53,017 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-06-30 15:45:53,319 - INFO - ================================================================================
+2026-06-30 15:45:53,319 - INFO - Processing claim #144 (ID: tracer_train_144)
+2026-06-30 15:45:53,319 - INFO - Claim: Says former Miami-Dade Mayor Carlos Alvarez and current mayoral candidate Carlos Gimenez  both drove fancy European cars at taxpayer expense....
+2026-06-30 15:45:53,319 - INFO - Date: 2011-06-10
+2026-06-30 15:45:53,319 - INFO - Asking model: gpt-4o-mini (method: naive)
+2026-06-30 15:45:53,319 - INFO - Claim: Says former Miami-Dade Mayor Carlos Alvarez and current mayoral candidate Carlos Gimenez  both drove fancy European cars at taxpayer expense....
+2026-06-30 15:45:54,297 - INFO - API Response Status: 200
+2026-06-30 15:45:54,297 - INFO - Raw model response: {"label": "Half-True"}
+2026-06-30 15:45:54,297 - INFO - Extracted label: Half-True -> Normalized: Misleading
+2026-06-30 15:45:54,299 - INFO - Prediction: Misleading
+2026-06-30 15:45:54,299 - INFO - ✓ Correct prediction
+2026-06-30 15:45:54,601 - INFO - ================================================================================
+2026-06-30 15:45:54,601 - INFO - Processing claim #145 (ID: tracer_train_145)
+2026-06-30 15:45:54,601 - INFO - Claim: "The cost-of-living increase in Social Security is tied to wage inflation."...
+2026-06-30 15:45:54,601 - INFO - Date: 2011-06-12
+2026-06-30 15:45:54,601 - INFO - Asking model: gpt-4o-mini (method: naive)
+2026-06-30 15:45:54,601 - INFO - Claim: "The cost-of-living increase in Social Security is tied to wage inflation."...
+2026-06-30 15:45:55,462 - INFO - API Response Status: 200
+2026-06-30 15:45:55,462 - INFO - Raw model response: {"label": "Refuted"}
+2026-06-30 15:45:55,462 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2026-06-30 15:45:55,463 - INFO - Prediction: Refuted
+2026-06-30 15:45:55,463 - INFO - ✓ Correct prediction
+2026-06-30 15:45:55,764 - INFO - ================================================================================
+2026-06-30 15:45:55,764 - INFO - Processing claim #146 (ID: tracer_train_146)
+2026-06-30 15:45:55,764 - INFO - Claim: "Providence is one of the busiest fire departments for its relative size in the country."...
+2026-06-30 15:45:55,765 - INFO - Date: 2011-06-12
+2026-06-30 15:45:55,765 - INFO - Asking model: gpt-4o-mini (method: naive)
+2026-06-30 15:45:55,765 - INFO - Claim: "Providence is one of the busiest fire departments for its relative size in the country."...
+2026-06-30 15:45:56,584 - INFO - API Response Status: 200
+2026-06-30 15:45:56,584 - INFO - Raw model response: {"label": "Supported"}
+2026-06-30 15:45:56,584 - INFO - Extracted label: Supported -> Normalized: Supported
+2026-06-30 15:45:56,586 - INFO - Prediction: Supported
+2026-06-30 15:45:56,586 - INFO - ✓ Correct prediction
+2026-06-30 15:45:56,887 - INFO - ================================================================================
+2026-06-30 15:45:56,887 - INFO - Processing claim #147 (ID: tracer_train_147)
+2026-06-30 15:45:56,887 - INFO - Claim: Says the new Dodd-Frank financial law requires a 20 percent down payment to buy a house....
+2026-06-30 15:45:56,887 - INFO - Date: 2011-06-13
+2026-06-30 15:45:56,887 - INFO - Asking model: gpt-4o-mini (method: naive)
+2026-06-30 15:45:56,887 - INFO - Claim: Says the new Dodd-Frank financial law requires a 20 percent down payment to buy a house....
+2026-06-30 15:46:05,749 - INFO - API Response Status: 200
+2026-06-30 15:46:05,750 - INFO - Raw model response: {"label": "Refuted"}
+2026-06-30 15:46:05,750 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2026-06-30 15:46:05,752 - INFO - Prediction: Refuted
+2026-06-30 15:46:05,752 - INFO - ✓ Correct prediction
+2026-06-30 15:46:06,053 - INFO - ================================================================================
+2026-06-30 15:46:06,053 - INFO - Processing claim #148 (ID: tracer_train_148)
+2026-06-30 15:46:06,053 - INFO - Claim: "It’s just crazy that the government will ... make it illegal to use the old [incandescent] bulbs."...
+2026-06-30 15:46:06,053 - INFO - Date: 2011-06-13
+2026-06-30 15:46:06,053 - INFO - Asking model: gpt-4o-mini (method: naive)
+2026-06-30 15:46:06,053 - INFO - Claim: "It’s just crazy that the government will ... make it illegal to use the old [incandescent] bulbs."...
+2026-06-30 15:46:06,974 - INFO - API Response Status: 200
+2026-06-30 15:46:06,974 - INFO - Raw model response: {"label": "Supported"}
+2026-06-30 15:46:06,974 - INFO - Extracted label: Supported -> Normalized: Supported
+2026-06-30 15:46:06,976 - INFO - Prediction: Supported
+2026-06-30 15:46:06,976 - INFO - ✗ Incorrect (True: Refuted, Pred: Supported)
+2026-06-30 15:46:07,278 - INFO - ================================================================================
+2026-06-30 15:46:07,278 - INFO - Processing claim #149 (ID: tracer_train_149)
+2026-06-30 15:46:07,278 - INFO - Claim: The WIC program "is an incredibly cost effective program, serving nearly 10 million Americans each year and costing less than $100 per person. In my d...
+2026-06-30 15:46:07,278 - INFO - Date: 2011-06-14
+2026-06-30 15:46:07,278 - INFO - Asking model: gpt-4o-mini (method: naive)
+2026-06-30 15:46:07,278 - INFO - Claim: The WIC program "is an incredibly cost effective program, serving nearly 10 million Americans each year and costing less than $100 per person. In my d...
+2026-06-30 15:46:08,158 - INFO - API Response Status: 200
+2026-06-30 15:46:08,158 - INFO - Raw model response: {"label": "Half-True"}
+2026-06-30 15:46:08,158 - INFO - Extracted label: Half-True -> Normalized: Misleading
+2026-06-30 15:46:08,160 - INFO - Prediction: Misleading
+2026-06-30 15:46:08,160 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-06-30 15:46:08,462 - INFO - ================================================================================
+2026-06-30 15:46:08,462 - INFO - Processing claim #150 (ID: tracer_train_150)
+2026-06-30 15:46:08,462 - INFO - Claim: In the Republican presidential debate in New Hampshire, none of the candidates mentioned the "middle class" or "education."...
+2026-06-30 15:46:08,462 - INFO - Date: 2011-06-14
+2026-06-30 15:46:08,462 - INFO - Asking model: gpt-4o-mini (method: naive)
+2026-06-30 15:46:08,462 - INFO - Claim: In the Republican presidential debate in New Hampshire, none of the candidates mentioned the "middle class" or "education."...
+2026-06-30 15:46:09,328 - INFO - API Response Status: 200
+2026-06-30 15:46:09,328 - INFO - Raw model response: {"label": "Refuted"}
+2026-06-30 15:46:09,328 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2026-06-30 15:46:09,329 - INFO - Prediction: Refuted
+2026-06-30 15:46:09,329 - INFO - ✓ Correct prediction
+2026-06-30 15:46:09,631 - INFO - ================================================================================
+2026-06-30 15:46:09,631 - INFO - Processing claim #151 (ID: tracer_train_151)
+2026-06-30 15:46:09,631 - INFO - Claim: Says Rick Perry of Texas was "the governor who relied most on stimulus funds to close his state’s budget deficit in 2010."...
+2026-06-30 15:46:09,631 - INFO - Date: 2011-06-15
+2026-06-30 15:46:09,631 - INFO - Asking model: gpt-4o-mini (method: naive)
+2026-06-30 15:46:09,631 - INFO - Claim: Says Rick Perry of Texas was "the governor who relied most on stimulus funds to close his state’s budget deficit in 2010."...
+2026-06-30 15:46:14,786 - INFO - API Response Status: 200
+2026-06-30 15:46:14,786 - INFO - Raw model response: {"label": "Half-True"}
+2026-06-30 15:46:14,786 - INFO - Extracted label: Half-True -> Normalized: Misleading
+2026-06-30 15:46:14,788 - INFO - Prediction: Misleading
+2026-06-30 15:46:14,788 - INFO - ✓ Correct prediction
+2026-06-30 15:46:15,089 - INFO - ================================================================================
+2026-06-30 15:46:15,089 - INFO - Processing claim #152 (ID: tracer_train_152)
+2026-06-30 15:46:15,089 - INFO - Claim: "Some criminals have learned how to spy on Americans, hacking into our home computers and looking out through the video camera attached to the screen....
+2026-06-30 15:46:15,089 - INFO - Date: 2011-06-16
+2026-06-30 15:46:15,089 - INFO - Asking model: gpt-4o-mini (method: naive)
+2026-06-30 15:46:15,089 - INFO - Claim: "Some criminals have learned how to spy on Americans, hacking into our home computers and looking out through the video camera attached to the screen....
+2026-06-30 15:46:16,106 - INFO - API Response Status: 200
+2026-06-30 15:46:16,106 - INFO - Raw model response: {"label": "Supported"}
+2026-06-30 15:46:16,106 - INFO - Extracted label: Supported -> Normalized: Supported
+2026-06-30 15:46:16,108 - INFO - Prediction: Supported
+2026-06-30 15:46:16,108 - INFO - ✓ Correct prediction
+2026-06-30 15:46:16,409 - INFO - ================================================================================
+2026-06-30 15:46:16,409 - INFO - Processing claim #153 (ID: tracer_train_153)
+2026-06-30 15:46:16,409 - INFO - Claim: "Who are the most consistently misinformed media viewers? … Fox viewers, consistently, every poll."...
+2026-06-30 15:46:16,409 - INFO - Date: 2011-06-19
+2026-06-30 15:46:16,410 - INFO - Asking model: gpt-4o-mini (method: naive)
+2026-06-30 15:46:16,410 - INFO - Claim: "Who are the most consistently misinformed media viewers? … Fox viewers, consistently, every poll."...
+2026-06-30 15:46:17,539 - INFO - API Response Status: 200
+2026-06-30 15:46:17,539 - INFO - Raw model response: {"label": "Half-True"}
+2026-06-30 15:46:17,539 - INFO - Extracted label: Half-True -> Normalized: Misleading
+2026-06-30 15:46:17,540 - INFO - Prediction: Misleading
+2026-06-30 15:46:17,540 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-06-30 15:46:17,842 - INFO - ================================================================================
+2026-06-30 15:46:17,843 - INFO - Processing claim #154 (ID: tracer_train_154)
+2026-06-30 15:46:17,843 - INFO - Claim: When Mitt Romney was governor, Massachusetts ranked 47th out of 50 states in job creation....
+2026-06-30 15:46:17,843 - INFO - Date: 2011-06-19
+2026-06-30 15:46:17,843 - INFO - Asking model: gpt-4o-mini (method: naive)
+2026-06-30 15:46:17,843 - INFO - Claim: When Mitt Romney was governor, Massachusetts ranked 47th out of 50 states in job creation....
+2026-06-30 15:46:18,737 - INFO - API Response Status: 200
+2026-06-30 15:46:18,737 - INFO - Raw model response: {"label": "Half-True"}
+2026-06-30 15:46:18,737 - INFO - Extracted label: Half-True -> Normalized: Misleading
+2026-06-30 15:46:18,739 - INFO - Prediction: Misleading
+2026-06-30 15:46:18,739 - INFO - ✓ Correct prediction
+2026-06-30 15:46:19,040 - INFO - ================================================================================
+2026-06-30 15:46:19,040 - INFO - Processing claim #155 (ID: tracer_train_155)
+2026-06-30 15:46:19,040 - INFO - Claim: "We are one of the most expensive [bus] rides in New England."...
+2026-06-30 15:46:19,040 - INFO - Date: 2011-06-20
+2026-06-30 15:46:19,040 - INFO - Asking model: gpt-4o-mini (method: naive)
+2026-06-30 15:46:19,040 - INFO - Claim: "We are one of the most expensive [bus] rides in New England."...
+2026-06-30 15:46:20,059 - INFO - API Response Status: 200
+2026-06-30 15:46:20,060 - INFO - Raw model response: {"label": "Half-True"}
+2026-06-30 15:46:20,060 - INFO - Extracted label: Half-True -> Normalized: Misleading
+2026-06-30 15:46:20,061 - INFO - Prediction: Misleading
+2026-06-30 15:46:20,061 - INFO - ✓ Correct prediction
+2026-06-30 15:46:20,362 - INFO - ================================================================================
+2026-06-30 15:46:20,362 - INFO - Processing claim #156 (ID: tracer_train_156)
+2026-06-30 15:46:20,362 - INFO - Claim: Says that in 2009, Jon Huntsman "said that the Recovery Act wasn't large enough and as governor he asked for $14.4 billion in federal stimulus funds. ...
+2026-06-30 15:46:20,362 - INFO - Date: 2011-06-21
+2026-06-30 15:46:20,362 - INFO - Asking model: gpt-4o-mini (method: naive)
+2026-06-30 15:46:20,363 - INFO - Claim: Says that in 2009, Jon Huntsman "said that the Recovery Act wasn't large enough and as governor he asked for $14.4 billion in federal stimulus funds. ...

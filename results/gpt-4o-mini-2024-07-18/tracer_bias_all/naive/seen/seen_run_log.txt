@@ -1,34 +1,28 @@
-2026-06-29 16:31:20,940 - INFO - Processing 14238 claims...
-2026-06-29 16:31:20,943 - INFO - ================================================================================
-2026-06-29 16:31:20,943 - INFO - Processing claim #0 (ID: tracer_train_0)
-2026-06-29 16:31:20,943 - INFO - Claim: "In the 1990s, the Biden Crime Bill added 100,000 cops to America's streets. As a result, murder and violent crime rates went down eight years in a ro...
-2026-06-29 16:31:20,943 - INFO - Date: 2007-11-02
-2026-06-29 16:31:20,943 - INFO - Asking model: gpt-4o-mini-2024-07-18 (method: naive)
-2026-06-29 16:31:20,943 - INFO - Claim: "In the 1990s, the Biden Crime Bill added 100,000 cops to America's streets. As a result, murder and violent crime rates went down eight years in a ro...
-2026-06-29 16:31:21,365 - INFO - API Response Status: 429
-2026-06-29 16:31:21,366 - INFO - Rate limited. Retry 1/5 after 1.0s
-2026-06-29 16:31:22,755 - INFO - API Response Status: 429
-2026-06-29 16:31:22,755 - INFO - Rate limited. Retry 2/5 after 2.0s
-2026-06-29 16:31:25,115 - INFO - API Response Status: 429
-2026-06-29 16:31:25,115 - INFO - Rate limited. Retry 3/5 after 4.0s
-2026-06-29 16:31:29,502 - INFO - API Response Status: 429
-2026-06-29 16:31:29,502 - INFO - Rate limited. Retry 4/5 after 8.0s
-2026-06-29 16:31:37,878 - INFO - API Response Status: 429
-2026-06-29 16:31:37,878 - INFO - Rate limited. Retry 5/5 after 16.0s
-2026-06-29 16:31:54,271 - INFO - API Response Status: 429
-2026-06-29 16:31:54,271 - ERROR - Max retries reached for rate limiting
-2026-06-29 16:31:54,272 - WARNING - Failed to get valid prediction
-2026-06-29 16:31:54,574 - INFO - ================================================================================
-2026-06-29 16:31:54,574 - INFO - Processing claim #1 (ID: tracer_train_1)
-2026-06-29 16:31:54,574 - INFO - Claim: "(Ronald Reagan) raised taxes a billion dollars in his first year as governor of California."...
-2026-06-29 16:31:54,574 - INFO - Date: 2008-01-10
-2026-06-29 16:31:54,574 - INFO - Asking model: gpt-4o-mini-2024-07-18 (method: naive)
-2026-06-29 16:31:54,574 - INFO - Claim: "(Ronald Reagan) raised taxes a billion dollars in his first year as governor of California."...
-2026-06-29 16:31:54,939 - INFO - API Response Status: 429
-2026-06-29 16:31:54,939 - INFO - Rate limited. Retry 1/5 after 1.0s
-2026-06-29 16:31:56,304 - INFO - API Response Status: 429
-2026-06-29 16:31:56,304 - INFO - Rate limited. Retry 2/5 after 2.0s
-2026-06-29 16:31:58,685 - INFO - API Response Status: 429
-2026-06-29 16:31:58,685 - INFO - Rate limited. Retry 3/5 after 4.0s
-2026-06-29 16:32:03,109 - INFO - API Response Status: 429
-2026-06-29 16:32:03,109 - INFO - Rate limited. Retry 4/5 after 8.0s
+2026-06-30 15:26:45,625 - INFO - Processing 14238 claims...
+2026-06-30 15:26:45,627 - INFO - ================================================================================
+2026-06-30 15:26:45,628 - INFO - Processing claim #0 (ID: tracer_train_0)
+2026-06-30 15:26:45,628 - INFO - Claim: "In the 1990s, the Biden Crime Bill added 100,000 cops to America's streets. As a result, murder and violent crime rates went down eight years in a ro...
+2026-06-30 15:26:45,628 - INFO - Date: 2007-11-02
+2026-06-30 15:26:45,628 - INFO - Asking model: gpt-4o-mini-2024-07-18 (method: naive)
+2026-06-30 15:26:45,628 - INFO - Claim: "In the 1990s, the Biden Crime Bill added 100,000 cops to America's streets. As a result, murder and violent crime rates went down eight years in a ro...
+2026-06-30 15:26:46,117 - INFO - API Response Status: 429
+2026-06-30 15:26:46,117 - INFO - Rate limited. Retry 1/5 after 1.0s
+2026-06-30 15:26:47,469 - INFO - API Response Status: 429
+2026-06-30 15:26:47,469 - INFO - Rate limited. Retry 2/5 after 2.0s
+2026-06-30 15:26:49,828 - INFO - API Response Status: 429
+2026-06-30 15:26:49,828 - INFO - Rate limited. Retry 3/5 after 4.0s
+2026-06-30 15:26:54,201 - INFO - API Response Status: 429
+2026-06-30 15:26:54,201 - INFO - Rate limited. Retry 4/5 after 8.0s
+2026-06-30 15:27:02,554 - INFO - API Response Status: 429
+2026-06-30 15:27:02,554 - INFO - Rate limited. Retry 5/5 after 16.0s
+2026-06-30 15:27:18,893 - INFO - API Response Status: 429
+2026-06-30 15:27:18,893 - ERROR - Max retries reached for rate limiting
+2026-06-30 15:27:18,895 - WARNING - Failed to get valid prediction
+2026-06-30 15:27:19,197 - INFO - ================================================================================
+2026-06-30 15:27:19,197 - INFO - Processing claim #1 (ID: tracer_train_1)
+2026-06-30 15:27:19,197 - INFO - Claim: "(Ronald Reagan) raised taxes a billion dollars in his first year as governor of California."...
+2026-06-30 15:27:19,197 - INFO - Date: 2008-01-10
+2026-06-30 15:27:19,197 - INFO - Asking model: gpt-4o-mini-2024-07-18 (method: naive)
+2026-06-30 15:27:19,197 - INFO - Claim: "(Ronald Reagan) raised taxes a billion dollars in his first year as governor of California."...
+2026-06-30 15:27:19,830 - INFO - API Response Status: 429
+2026-06-30 15:27:19,830 - INFO - Rate limited. Retry 1/5 after 1.0s
