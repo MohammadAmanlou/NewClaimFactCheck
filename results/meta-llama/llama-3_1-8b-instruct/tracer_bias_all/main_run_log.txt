@@ -1,0 +1,6 @@
+2026-07-26 15:11:52,723 - INFO - ================================================================================
+2026-07-26 15:11:52,723 - INFO - STARTING FACT-CHECK INFERENCE PIPELINE
+2026-07-26 15:11:52,723 - INFO - Dataset: tracer_bias_all, Model: meta-llama/llama-3.1-8b-instruct
+2026-07-26 15:11:52,723 - INFO - Prompt methods: ['naive', 'strong_baseline_short']
+2026-07-26 15:11:53,423 - INFO - Loaded 14994 claims (is_test=False). API key configured: True
+2026-07-26 15:11:53,423 - INFO - Processing LABELED data with temporal split analysis
