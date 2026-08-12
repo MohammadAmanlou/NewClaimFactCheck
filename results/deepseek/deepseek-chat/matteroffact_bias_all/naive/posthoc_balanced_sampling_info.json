@@ -1,0 +1,30 @@
+{
+    "enabled": true,
+    "stage": "post_inference",
+    "strategy": "label_stratified_seen_unseen_balance_after_prediction",
+    "method": "naive",
+    "seed": 42,
+    "original_seen_count": 4888,
+    "original_unseen_count": 3472,
+    "sampled_seen_count": 3472,
+    "sampled_unseen_count": 3472,
+    "labels": [
+        "Supported",
+        "Refuted"
+    ],
+    "per_label_info": {
+        "Supported": {
+            "original_seen": 2444,
+            "original_unseen": 1736,
+            "sampled_seen": 1736,
+            "sampled_unseen": 1736
+        },
+        "Refuted": {
+            "original_seen": 2444,
+            "original_unseen": 1736,
+            "sampled_seen": 1736,
+            "sampled_unseen": 1736
+        }
+    },
+    "timestamp": "2026-08-08T04:40:20.115153"
+}

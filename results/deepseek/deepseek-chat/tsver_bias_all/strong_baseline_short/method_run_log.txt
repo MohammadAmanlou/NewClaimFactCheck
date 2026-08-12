@@ -1,0 +1,31 @@
+2026-08-03 20:01:48,866 - INFO - Prompt method: strong_baseline_short
+2026-08-03 20:29:25,431 - INFO - Metrics: Accuracy=0.4566, Macro-F1=0.6276
+2026-08-03 20:33:58,059 - INFO - Metrics: Accuracy=0.4615, Macro-F1=0.6111
+2026-08-03 20:33:58,060 - INFO - ================================================================================
+2026-08-03 20:33:58,060 - INFO - Comparing seen vs unseen performance...
+2026-08-03 20:33:58,071 - INFO - Metrics: Accuracy=0.4566, Macro-F1=0.6276
+2026-08-03 20:33:58,072 - INFO - Metrics: Accuracy=0.4615, Macro-F1=0.6111
+2026-08-03 20:33:58,078 - INFO - Seen accuracy: 0.4566
+2026-08-03 20:33:58,078 - INFO - Unseen accuracy: 0.4615
+2026-08-03 20:33:58,078 - INFO - Difference: 0.0049
+2026-08-03 20:33:58,078 - INFO - T-test p-value: 0.9541 (not significant)
+2026-08-03 20:33:58,078 - INFO - Chi-square p-value: 1.0000 (not significant)
+2026-08-03 20:33:58,080 - INFO - Summary report saved to results\deepseek\deepseek-chat\tsver_bias_all\strong_baseline_short\summary.json
+2026-08-03 20:33:58,179 - INFO - Metrics: Accuracy=0.3590, Macro-F1=0.5278
+2026-08-03 20:33:58,180 - INFO - Metrics: Accuracy=0.4615, Macro-F1=0.6111
+2026-08-03 20:33:58,180 - INFO - ================================================================================
+2026-08-03 20:33:58,180 - INFO - Comparing seen vs unseen performance...
+2026-08-03 20:33:58,184 - INFO - Metrics: Accuracy=0.3590, Macro-F1=0.5278
+2026-08-03 20:33:58,189 - INFO - Metrics: Accuracy=0.4615, Macro-F1=0.6111
+2026-08-03 20:33:58,196 - INFO - Seen accuracy: 0.359
+2026-08-03 20:33:58,196 - INFO - Unseen accuracy: 0.4615
+2026-08-03 20:33:58,196 - INFO - Difference: 0.1025
+2026-08-03 20:33:58,196 - INFO - T-test p-value: 0.3637 (not significant)
+2026-08-03 20:33:58,196 - INFO - Chi-square p-value: 0.4898 (not significant)
+2026-08-03 20:33:58,206 - INFO - Predictions saved to results\deepseek\deepseek-chat\tsver_bias_all\strong_baseline_short\posthoc_balanced\seen\seen_posthoc_balanced_predictions.csv
+2026-08-03 20:33:58,208 - INFO - Predictions JSON saved to results\deepseek\deepseek-chat\tsver_bias_all\strong_baseline_short\posthoc_balanced\seen\seen_posthoc_balanced_predictions.json
+2026-08-03 20:33:58,212 - INFO - Metrics saved to results\deepseek\deepseek-chat\tsver_bias_all\strong_baseline_short\posthoc_balanced\seen\seen_posthoc_balanced_metrics.json
+2026-08-03 20:33:58,222 - INFO - Predictions saved to results\deepseek\deepseek-chat\tsver_bias_all\strong_baseline_short\posthoc_balanced\unseen\unseen_posthoc_balanced_predictions.csv
+2026-08-03 20:33:58,224 - INFO - Predictions JSON saved to results\deepseek\deepseek-chat\tsver_bias_all\strong_baseline_short\posthoc_balanced\unseen\unseen_posthoc_balanced_predictions.json
+2026-08-03 20:33:58,226 - INFO - Metrics saved to results\deepseek\deepseek-chat\tsver_bias_all\strong_baseline_short\posthoc_balanced\unseen\unseen_posthoc_balanced_metrics.json
+2026-08-03 20:33:58,227 - INFO - Summary report saved to results\deepseek\deepseek-chat\tsver_bias_all\strong_baseline_short\posthoc_balanced\summary.json
