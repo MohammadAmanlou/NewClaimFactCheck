@@ -1,0 +1,167 @@
+[
+    {
+        "claim_id": "tsver_test_218",
+        "claim": "85% Indians trust their government.",
+        "claim_date": "2017-10-17",
+        "speaker": null,
+        "source": "tsver",
+        "label": "Not Enough Information",
+        "detected_biases": "[{\"bias\": \"Availability heuristic\", \"confidence\": 0.3089}]",
+        "prediction": "Not Enough Information",
+        "prediction_error": null
+    },
+    {
+        "claim_id": "tsver_test_294",
+        "claim": "Statistics demonstrate that homicides rates in Australia have increased substantially since the government there instituted a gun buy-back program in 1997.",
+        "claim_date": "2001-08-20",
+        "speaker": null,
+        "source": "tsver",
+        "label": "Refuted",
+        "detected_biases": "",
+        "prediction": "Refuted",
+        "prediction_error": null
+    },
+    {
+        "claim_id": "tsver_test_41",
+        "claim": "Mean sea level height was six centimetres lower in 2019 than in 1919.",
+        "claim_date": "2022-07-12",
+        "speaker": null,
+        "source": "tsver",
+        "label": "Refuted",
+        "detected_biases": "[{\"bias\": \"Availability heuristic\", \"confidence\": 0.5431}]",
+        "prediction": "Refuted",
+        "prediction_error": null
+    },
+    {
+        "claim_id": "tsver_test_152",
+        "claim": "…while Nigeria’s per capita income dropped by 20% between 2010 and 2021.",
+        "claim_date": "2022-12-04",
+        "speaker": null,
+        "source": "tsver",
+        "label": "Not Enough Information",
+        "detected_biases": "",
+        "prediction": "Refuted",
+        "prediction_error": null
+    },
+    {
+        "claim_id": "tsver_test_227",
+        "claim": "Universal Primary Education [launched in 1996] and Universal Secondary Education [launched in 2007] have raised the level of the adult literacy rate [in Uganda] from 43% to 75%.",
+        "claim_date": "2018-12-31",
+        "speaker": null,
+        "source": "tsver",
+        "label": "Not Enough Information",
+        "detected_biases": "",
+        "prediction": "Refuted",
+        "prediction_error": null
+    },
+    {
+        "claim_id": "tsver_test_203",
+        "claim": "Since 1961, Africa has witnessed a one-third reduction in agricultural productivity due to climate change.",
+        "claim_date": "2023-09-01",
+        "speaker": null,
+        "source": "tsver",
+        "label": "Not Enough Information",
+        "detected_biases": "[{\"bias\": \"Just-world hypothesis\", \"confidence\": 0.4348}]",
+        "prediction": "Supported",
+        "prediction_error": null
+    },
+    {
+        "claim_id": "tsver_test_260",
+        "claim": "The UK spends less as a percentage of GDP on the NHS than France or Germany.",
+        "claim_date": "2016-09-23",
+        "speaker": null,
+        "source": "tsver",
+        "label": "Supported",
+        "detected_biases": "",
+        "prediction": "Supported",
+        "prediction_error": null
+    },
+    {
+        "claim_id": "tsver_test_271",
+        "claim": "While western countries have been busy fighting the new coronavirus, international terrorism has stopped.",
+        "claim_date": "2020-04-15",
+        "speaker": null,
+        "source": "tsver",
+        "label": "Refuted",
+        "detected_biases": "",
+        "prediction": "Refuted",
+        "prediction_error": null
+    },
+    {
+        "claim_id": "tsver_test_253",
+        "claim": "“Alarming” rise of measles cases in Europe. Measles infections increased more than 45-fold in one year.",
+        "claim_date": "2024-02-01",
+        "speaker": null,
+        "source": "tsver",
+        "label": "Misleading",
+        "detected_biases": "[{\"bias\": \"Availability heuristic\", \"confidence\": 0.6508}]",
+        "prediction": "Supported",
+        "prediction_error": null
+    },
+    {
+        "claim_id": "tsver_test_54",
+        "claim": "In June 2022, the global population reached 8 billion people.",
+        "claim_date": "2022-06-08",
+        "speaker": null,
+        "source": "tsver",
+        "label": "Supported",
+        "detected_biases": "[{\"bias\": \"Availability heuristic\", \"confidence\": 0.4528}]",
+        "prediction": "Refuted",
+        "prediction_error": null
+    },
+    {
+        "claim_id": "tsver_test_51",
+        "claim": "Sea level rise has been slow and a constant, pre-dating industrialization.",
+        "claim_date": "2020-12-03",
+        "speaker": null,
+        "source": "tsver",
+        "label": "Not Enough Information",
+        "detected_biases": "",
+        "prediction": "Misleading",
+        "prediction_error": null
+    },
+    {
+        "claim_id": "tsver_test_109",
+        "claim": "The fertility rate of women in Niger is 7.5%.",
+        "claim_date": "2021-12-01",
+        "speaker": null,
+        "source": "tsver",
+        "label": "Refuted",
+        "detected_biases": "",
+        "prediction": "Refuted",
+        "prediction_error": null
+    },
+    {
+        "claim_id": "tsver_test_117",
+        "claim": "Ghana's current unemployment rate is the highest in the fourth republic.",
+        "claim_date": "2022-03-22",
+        "speaker": null,
+        "source": "tsver",
+        "label": "Refuted",
+        "detected_biases": "",
+        "prediction": "Misleading",
+        "prediction_error": null
+    },
+    {
+        "claim_id": "tsver_test_66",
+        "claim": "The US hasn't warmed in 18 years, so emissions-driven warming is a hoax.",
+        "claim_date": "2023-02-28",
+        "speaker": null,
+        "source": "tsver",
+        "label": "Refuted",
+        "detected_biases": "",
+        "prediction": "Refuted",
+        "prediction_error": null
+    },
+    {
+        "claim_id": "tsver_test_49",
+        "claim": "Our [Nigeria] young people [ages 15-29] … constitute more than 60% of our population.",
+        "claim_date": "2024-10-01",
+        "speaker": null,
+        "source": "tsver",
+        "label": "Refuted",
+        "detected_biases": "[{\"bias\": \"Availability heuristic\", \"confidence\": 0.3377}]",
+        "prediction": "Refuted",
+        "prediction_error": null
+    }
+]

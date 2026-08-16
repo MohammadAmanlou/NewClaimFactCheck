@@ -1,0 +1,29 @@
+2026-08-09 11:48:10,893 - INFO - Prompt method: naive
+2026-08-09 12:11:10,535 - INFO - Metrics: Accuracy=0.5867, Macro-F1=0.5169
+2026-08-09 12:11:10,537 - WARNING - No valid results for metric calculation
+2026-08-09 12:11:10,537 - INFO - ================================================================================
+2026-08-09 12:11:10,537 - INFO - Comparing seen vs unseen performance...
+2026-08-09 12:11:10,539 - INFO - Metrics: Accuracy=0.5867, Macro-F1=0.5169
+2026-08-09 12:11:10,539 - WARNING - No valid results for metric calculation
+2026-08-09 12:11:10,540 - WARNING - Statistical tests skipped: Need more than one sample per group for statistical tests.
+2026-08-09 12:11:10,540 - INFO - Seen accuracy: 0.5867
+2026-08-09 12:11:10,540 - INFO - Unseen accuracy: N/A
+2026-08-09 12:11:10,540 - INFO - Difference: -0.5867
+2026-08-09 12:11:10,540 - INFO - Summary report saved to results/grok-3-mini/fact5_bias_all/naive/summary.json
+2026-08-09 12:11:10,540 - WARNING - No valid results for metric calculation
+2026-08-09 12:11:10,540 - WARNING - No valid results for metric calculation
+2026-08-09 12:11:10,540 - INFO - ================================================================================
+2026-08-09 12:11:10,540 - INFO - Comparing seen vs unseen performance...
+2026-08-09 12:11:10,540 - WARNING - No valid results for metric calculation
+2026-08-09 12:11:10,540 - WARNING - No valid results for metric calculation
+2026-08-09 12:11:10,540 - WARNING - Statistical tests skipped: Need more than one sample per group for statistical tests.
+2026-08-09 12:11:10,540 - INFO - Seen accuracy: N/A
+2026-08-09 12:11:10,540 - INFO - Unseen accuracy: N/A
+2026-08-09 12:11:10,540 - INFO - Difference: 0.0000
+2026-08-09 12:11:10,541 - INFO - Predictions saved to results/grok-3-mini/fact5_bias_all/naive/posthoc_balanced/seen/seen_posthoc_balanced_predictions.csv
+2026-08-09 12:11:10,541 - INFO - Predictions JSON saved to results/grok-3-mini/fact5_bias_all/naive/posthoc_balanced/seen/seen_posthoc_balanced_predictions.json
+2026-08-09 12:11:10,541 - INFO - Metrics saved to results/grok-3-mini/fact5_bias_all/naive/posthoc_balanced/seen/seen_posthoc_balanced_metrics.json
+2026-08-09 12:11:10,541 - INFO - Predictions saved to results/grok-3-mini/fact5_bias_all/naive/posthoc_balanced/unseen/unseen_posthoc_balanced_predictions.csv
+2026-08-09 12:11:10,541 - INFO - Predictions JSON saved to results/grok-3-mini/fact5_bias_all/naive/posthoc_balanced/unseen/unseen_posthoc_balanced_predictions.json
+2026-08-09 12:11:10,541 - INFO - Metrics saved to results/grok-3-mini/fact5_bias_all/naive/posthoc_balanced/unseen/unseen_posthoc_balanced_metrics.json
+2026-08-09 12:11:10,542 - INFO - Summary report saved to results/grok-3-mini/fact5_bias_all/naive/posthoc_balanced/summary.json

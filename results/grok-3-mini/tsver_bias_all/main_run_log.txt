@@ -1,0 +1,8 @@
+2026-08-10 06:39:36,221 - INFO - ================================================================================
+2026-08-10 06:39:36,221 - INFO - STARTING FACT-CHECK INFERENCE PIPELINE
+2026-08-10 06:39:36,221 - INFO - Dataset: tsver_bias_all, Model: grok-3-mini
+2026-08-10 06:39:36,221 - INFO - Prompt methods: ['naive', 'strong_baseline_short', 'cognitive_bias_aware']
+2026-08-10 06:39:36,244 - INFO - Loaded 304 claims (is_test=False). API key configured: True
+2026-08-10 06:39:36,244 - INFO - Processing LABELED data with temporal split analysis
+2026-08-10 08:28:36,613 - INFO - ================================================================================
+2026-08-10 08:28:36,613 - INFO - PIPELINE COMPLETE

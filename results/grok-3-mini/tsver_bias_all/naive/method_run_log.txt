@@ -1,0 +1,31 @@
+2026-08-10 06:39:36,245 - INFO - Prompt method: naive
+2026-08-10 07:14:30,600 - INFO - Metrics: Accuracy=0.6263, Macro-F1=0.4146
+2026-08-10 07:16:10,357 - INFO - Metrics: Accuracy=0.6000, Macro-F1=0.4445
+2026-08-10 07:16:10,358 - INFO - ================================================================================
+2026-08-10 07:16:10,358 - INFO - Comparing seen vs unseen performance...
+2026-08-10 07:16:10,361 - INFO - Metrics: Accuracy=0.6263, Macro-F1=0.4146
+2026-08-10 07:16:10,361 - INFO - Metrics: Accuracy=0.6000, Macro-F1=0.4445
+2026-08-10 07:16:10,366 - INFO - Seen accuracy: 0.6263
+2026-08-10 07:16:10,366 - INFO - Unseen accuracy: 0.6
+2026-08-10 07:16:10,366 - INFO - Difference: -0.0263
+2026-08-10 07:16:10,366 - INFO - T-test p-value: 0.8381 (not significant)
+2026-08-10 07:16:10,366 - INFO - Chi-square p-value: 1.0000 (not significant)
+2026-08-10 07:16:10,366 - INFO - Summary report saved to results/grok-3-mini/tsver_bias_all/naive/summary.json
+2026-08-10 07:16:10,367 - INFO - Metrics: Accuracy=0.5333, Macro-F1=0.2944
+2026-08-10 07:16:10,367 - INFO - Metrics: Accuracy=0.6000, Macro-F1=0.4445
+2026-08-10 07:16:10,367 - INFO - ================================================================================
+2026-08-10 07:16:10,367 - INFO - Comparing seen vs unseen performance...
+2026-08-10 07:16:10,367 - INFO - Metrics: Accuracy=0.5333, Macro-F1=0.2944
+2026-08-10 07:16:10,368 - INFO - Metrics: Accuracy=0.6000, Macro-F1=0.4445
+2026-08-10 07:16:10,368 - INFO - Seen accuracy: 0.5333
+2026-08-10 07:16:10,368 - INFO - Unseen accuracy: 0.6
+2026-08-10 07:16:10,368 - INFO - Difference: 0.0667
+2026-08-10 07:16:10,368 - INFO - T-test p-value: 0.7240 (not significant)
+2026-08-10 07:16:10,368 - INFO - Chi-square p-value: 1.0000 (not significant)
+2026-08-10 07:16:10,369 - INFO - Predictions saved to results/grok-3-mini/tsver_bias_all/naive/posthoc_balanced/seen/seen_posthoc_balanced_predictions.csv
+2026-08-10 07:16:10,370 - INFO - Predictions JSON saved to results/grok-3-mini/tsver_bias_all/naive/posthoc_balanced/seen/seen_posthoc_balanced_predictions.json
+2026-08-10 07:16:10,370 - INFO - Metrics saved to results/grok-3-mini/tsver_bias_all/naive/posthoc_balanced/seen/seen_posthoc_balanced_metrics.json
+2026-08-10 07:16:10,370 - INFO - Predictions saved to results/grok-3-mini/tsver_bias_all/naive/posthoc_balanced/unseen/unseen_posthoc_balanced_predictions.csv
+2026-08-10 07:16:10,371 - INFO - Predictions JSON saved to results/grok-3-mini/tsver_bias_all/naive/posthoc_balanced/unseen/unseen_posthoc_balanced_predictions.json
+2026-08-10 07:16:10,371 - INFO - Metrics saved to results/grok-3-mini/tsver_bias_all/naive/posthoc_balanced/unseen/unseen_posthoc_balanced_metrics.json
+2026-08-10 07:16:10,371 - INFO - Summary report saved to results/grok-3-mini/tsver_bias_all/naive/posthoc_balanced/summary.json

@@ -1,0 +1,44 @@
+{
+    "enabled": true,
+    "stage": "post_inference",
+    "strategy": "label_stratified_seen_unseen_balance_after_prediction",
+    "method": "cognitive_bias_aware",
+    "seed": 42,
+    "original_seen_count": 289,
+    "original_unseen_count": 15,
+    "sampled_seen_count": 15,
+    "sampled_unseen_count": 15,
+    "labels": [
+        "Supported",
+        "Refuted",
+        "Misleading",
+        "Not Enough Information"
+    ],
+    "per_label_info": {
+        "Supported": {
+            "original_seen": 90,
+            "original_unseen": 2,
+            "sampled_seen": 2,
+            "sampled_unseen": 2
+        },
+        "Refuted": {
+            "original_seen": 157,
+            "original_unseen": 7,
+            "sampled_seen": 7,
+            "sampled_unseen": 7
+        },
+        "Misleading": {
+            "original_seen": 11,
+            "original_unseen": 1,
+            "sampled_seen": 1,
+            "sampled_unseen": 1
+        },
+        "Not Enough Information": {
+            "original_seen": 31,
+            "original_unseen": 5,
+            "sampled_seen": 5,
+            "sampled_unseen": 5
+        }
+    },
+    "timestamp": "2026-08-10T08:28:36.605543"
+}
