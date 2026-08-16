@@ -1,0 +1,44 @@
+{
+    "experiment_info": {
+        "dataset": "crp_bias_all",
+        "model": "qwen/qwen-2.5-72b-instruct",
+        "temporal_split_date": "2024-09-01",
+        "canonical_labels": [
+            "Supported",
+            "Half-True",
+            "Refuted"
+        ],
+        "balanced_sampling": false,
+        "sampling_seed": null,
+        "prompt_method": "congnitive_bias_aware",
+        "timestamp": "2026-08-14T01:18:56.013552"
+    },
+    "seen_data": {
+        "error": "No valid results"
+    },
+    "unseen_data": {
+        "error": "No valid results"
+    },
+    "comparison": {
+        "seen_metrics": {
+            "error": "No valid results"
+        },
+        "unseen_metrics": {
+            "error": "No valid results"
+        },
+        "statistical_tests": "Insufficient data for statistical testing",
+        "accuracy_difference": 0.0,
+        "sampling_info": {
+            "enabled": false,
+            "stage": "full_data_before_inference",
+            "strategy": "no_pre_inference_sampling",
+            "posthoc_balanced_metrics": true,
+            "reason": "balanced_sampling is false, so full seen/unseen data is processed first. A post-hoc label-stratified balanced evaluation is computed after prediction.",
+            "original_seen_count": 122,
+            "original_unseen_count": 178,
+            "timestamp": "2026-08-13T23:57:09.802514"
+        },
+        "prompt_method": "congnitive_bias_aware",
+        "evaluation_mode": "full_data"
+    }
+}

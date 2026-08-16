@@ -1,0 +1,523 @@
+2026-08-13 22:56:31,833 - INFO - Processing 86 claims...
+2026-08-13 22:56:31,838 - INFO - ================================================================================
+2026-08-13 22:56:31,838 - INFO - Processing claim #0 (ID: fact5_unknown_0)
+2026-08-13 22:56:31,838 - INFO - Claim: "House Republicans took numerous votes that would have damaged economic growth and harmed our national security, like attempting to eliminate over 2,0...
+2026-08-13 22:56:31,838 - INFO - Date: 2024-01-10
+2026-08-13 22:56:41,266 - INFO - Prediction: Misleading
+2026-08-13 22:56:41,267 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-08-13 22:56:44,271 - INFO - ================================================================================
+2026-08-13 22:56:44,271 - INFO - Processing claim #1 (ID: fact5_unknown_1)
+2026-08-13 22:56:44,271 - INFO - Claim: "Former U.S. President Donald Trump's margin of victory in the 2024 Republican Iowa caucuses was the smallest of any GOP candidate in history."...
+2026-08-13 22:56:44,271 - INFO - Date: 2024-01-15
+2026-08-13 22:56:45,869 - INFO - Prediction: Refuted
+2026-08-13 22:56:45,869 - INFO - ✓ Correct prediction
+2026-08-13 22:56:48,872 - INFO - ================================================================================
+2026-08-13 22:56:48,872 - INFO - Processing claim #2 (ID: fact5_unknown_2)
+2026-08-13 22:56:48,872 - INFO - Claim: “[Nikki Haley] spent 100% of her money attacking me, and not one red cent attacking Donald Trump,” DeSantis claimed. “And I faced almost $50 million i...
+2026-08-13 22:56:48,873 - INFO - Date: 2024-01-16
+2026-08-13 22:56:50,192 - INFO - Prediction: Misleading
+2026-08-13 22:56:50,193 - INFO - ✗ Incorrect (True: Supported, Pred: Misleading)
+2026-08-13 22:56:53,199 - INFO - ================================================================================
+2026-08-13 22:56:53,199 - INFO - Processing claim #3 (ID: fact5_unknown_3)
+2026-08-13 22:56:53,199 - INFO - Claim: "Look, folks, you know how many billionaires we have in America today? One thousand. You know what their average rate — tax rate — federal tax rate is...
+2026-08-13 22:56:53,199 - INFO - Date: 2024-01-18
+2026-08-13 22:56:56,740 - INFO - Prediction: Misleading
+2026-08-13 22:56:56,740 - INFO - ✓ Correct prediction
+2026-08-13 22:56:59,746 - INFO - ================================================================================
+2026-08-13 22:56:59,747 - INFO - Processing claim #4 (ID: fact5_unknown_4)
+2026-08-13 22:56:59,747 - INFO - Claim: "Former U.S. President Donald Trump is the first presidential candidate to win the New Hampshire primary three times."...
+2026-08-13 22:56:59,747 - INFO - Date: 2024-01-23
+2026-08-13 22:57:00,990 - INFO - Prediction: Refuted
+2026-08-13 22:57:00,991 - INFO - ✓ Correct prediction
+2026-08-13 22:57:03,993 - INFO - ================================================================================
+2026-08-13 22:57:03,994 - INFO - Processing claim #5 (ID: fact5_unknown_5)
+2026-08-13 22:57:03,994 - INFO - Claim: “Tens of thousands of auto jobs were lost nationwide during Trump's presidency,” but during Biden’s presidency, “we've created more than 250,000 auto ...
+2026-08-13 22:57:03,994 - INFO - Date: 2024-01-24
+2026-08-13 22:57:05,917 - INFO - Prediction: Misleading
+2026-08-13 22:57:05,918 - INFO - ✓ Correct prediction
+2026-08-13 22:57:08,920 - INFO - ================================================================================
+2026-08-13 22:57:08,921 - INFO - Processing claim #6 (ID: fact5_unknown_6)
+2026-08-13 22:57:08,921 - INFO - Claim: The Obamas were "secretly plotting" for U.S. President Joe Biden to drop out of the 2024 election so that former first lady Michelle Obama could take ...
+2026-08-13 22:57:08,921 - INFO - Date: 2024-01-27
+2026-08-13 22:57:10,030 - INFO - Prediction: Refuted
+2026-08-13 22:57:10,031 - INFO - ✗ Incorrect (True: Not Enough Information, Pred: Refuted)
+2026-08-13 22:57:13,037 - INFO - ================================================================================
+2026-08-13 22:57:13,037 - INFO - Processing claim #7 (ID: fact5_unknown_7)
+2026-08-13 22:57:13,038 - INFO - Claim: "The top donor to a major super PAC supporting Donald Trump for president in 2024 is also the top donor to the super PAC supporting Robert F. Kennedy ...
+2026-08-13 22:57:13,038 - INFO - Date: 2024-02-01
+2026-08-13 22:57:15,337 - INFO - Prediction: Refuted
+2026-08-13 22:57:15,338 - INFO - ✗ Incorrect (True: Supported, Pred: Refuted)
+2026-08-13 22:57:18,343 - INFO - ================================================================================
+2026-08-13 22:57:18,343 - INFO - Processing claim #8 (ID: fact5_unknown_8)
+2026-08-13 22:57:18,343 - INFO - Claim: "In February 2024, Nikki Haley lost the Nevada presidential primary to 'None of These Candidates.' "...
+2026-08-13 22:57:18,344 - INFO - Date: 2024-02-07
+2026-08-13 22:57:19,445 - INFO - Prediction: Refuted
+2026-08-13 22:57:19,446 - INFO - ✗ Incorrect (True: Supported, Pred: Refuted)
+2026-08-13 22:57:22,452 - INFO - ================================================================================
+2026-08-13 22:57:22,452 - INFO - Processing claim #9 (ID: fact5_unknown_9)
+2026-08-13 22:57:22,452 - INFO - Claim: “We're having the largest classes of correctional officers we've ever had before.”...
+2026-08-13 22:57:22,452 - INFO - Date: 2024-02-11
+2026-08-13 22:57:26,721 - INFO - Prediction: Misleading
+2026-08-13 22:57:26,722 - INFO - ✗ Incorrect (True: Supported, Pred: Misleading)
+2026-08-13 22:57:29,727 - INFO - ================================================================================
+2026-08-13 22:57:29,727 - INFO - Processing claim #10 (ID: fact5_unknown_10)
+2026-08-13 22:57:29,728 - INFO - Claim: After a 2022 law, “The vast majority of colleges in New York State do not have on-campus poll sites.”...
+2026-08-13 22:57:29,728 - INFO - Date: 2024-02-16
+2026-08-13 22:57:51,482 - INFO - Prediction: Misleading
+2026-08-13 22:57:51,482 - INFO - ✗ Incorrect (True: Supported, Pred: Misleading)
+2026-08-13 22:57:54,485 - INFO - ================================================================================
+2026-08-13 22:57:54,485 - INFO - Processing claim #11 (ID: fact5_unknown_11)
+2026-08-13 22:57:54,485 - INFO - Claim: "In New York, there are no barriers to law enforcement to work with the federal government on immigration laws, and there are 100 crimes where migrant...
+2026-08-13 22:57:54,485 - INFO - Date: 2024-02-22
+2026-08-13 22:58:02,261 - INFO - Prediction: Misleading
+2026-08-13 22:58:02,262 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-08-13 22:58:05,269 - INFO - ================================================================================
+2026-08-13 22:58:05,269 - INFO - Processing claim #12 (ID: fact5_unknown_12)
+2026-08-13 22:58:05,269 - INFO - Claim: "And then you wonder why we have a $2 trillion deficit. If you look at it now, it’s gotten to a level that nobody can even believe; it’s so bad under ...
+2026-08-13 22:58:05,269 - INFO - Date: 2024-02-24
+2026-08-13 22:58:16,540 - INFO - Prediction: Misleading
+2026-08-13 22:58:16,541 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-08-13 22:58:19,546 - INFO - ================================================================================
+2026-08-13 22:58:19,546 - INFO - Processing claim #13 (ID: fact5_unknown_13)
+2026-08-13 22:58:19,546 - INFO - Claim: "And President Xi – I told him this – said, ‘All right, well, we won’t do it. We won’t do it.’ They didn’t buy. By the way, they’re buying billions an...
+2026-08-13 22:58:19,546 - INFO - Date: 2024-02-24
+2026-08-13 22:58:26,900 - INFO - Prediction: Refuted
+2026-08-13 22:58:26,900 - INFO - ✓ Correct prediction
+2026-08-13 22:58:29,906 - INFO - ================================================================================
+2026-08-13 22:58:29,906 - INFO - Processing claim #14 (ID: fact5_unknown_14)
+2026-08-13 22:58:29,906 - INFO - Claim: "I ended Nord Stream” and that “I stopped it, it was over."...
+2026-08-13 22:58:29,906 - INFO - Date: 2024-02-24
+2026-08-13 22:58:35,495 - INFO - Prediction: Refuted
+2026-08-13 22:58:35,496 - INFO - ✓ Correct prediction
+2026-08-13 22:58:38,501 - INFO - ================================================================================
+2026-08-13 22:58:38,501 - INFO - Processing claim #15 (ID: fact5_unknown_15)
+2026-08-13 22:58:38,501 - INFO - Claim: "I’ll tell you what: If I didn’t bring in the National Guard – ’cause the governor didn’t want to do it, they’d never want to do it … I wish I didn’t ...
+2026-08-13 22:58:38,501 - INFO - Date: 2024-02-24
+2026-08-13 22:58:41,486 - INFO - Prediction: Misleading
+2026-08-13 22:58:41,487 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-08-13 22:58:44,492 - INFO - ================================================================================
+2026-08-13 22:58:44,493 - INFO - Processing claim #16 (ID: fact5_unknown_16)
+2026-08-13 22:58:44,493 - INFO - Claim: "Remember I used to say a long time ago, ‘Don’t go into Iraq. Don’t do it!’ But I was only a civilian, so I didn’t get that much press. I said, ‘Don’t...
+2026-08-13 22:58:44,493 - INFO - Date: 2024-02-24
+2026-08-13 22:59:03,935 - INFO - Prediction: Misleading
+2026-08-13 22:59:03,935 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-08-13 22:59:06,938 - INFO - ================================================================================
+2026-08-13 22:59:06,938 - INFO - Processing claim #17 (ID: fact5_unknown_17)
+2026-08-13 22:59:06,938 - INFO - Claim: “We built 571 miles of border wall.”...
+2026-08-13 22:59:06,938 - INFO - Date: 2024-02-24
+2026-08-13 22:59:08,676 - INFO - Prediction: Misleading
+2026-08-13 22:59:08,676 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-08-13 22:59:11,683 - INFO - ================================================================================
+2026-08-13 22:59:11,683 - INFO - Processing claim #18 (ID: fact5_unknown_18)
+2026-08-13 22:59:11,683 - INFO - Claim: The Great Lakes account for “over 20% of the world’s freshwater and over 80% of North America’s freshwater.”...
+2026-08-13 22:59:11,683 - INFO - Date: 2024-03-02
+2026-08-13 22:59:14,312 - INFO - Prediction: Supported
+2026-08-13 22:59:14,313 - INFO - ✓ Correct prediction
+2026-08-13 22:59:17,319 - INFO - ================================================================================
+2026-08-13 22:59:17,320 - INFO - Processing claim #19 (ID: fact5_unknown_19)
+2026-08-13 22:59:17,320 - INFO - Claim: “When it comes to how many votes (President) Joe Biden won, it was literally less than a few votes per ward.”...
+2026-08-13 22:59:17,320 - INFO - Date: 2024-03-03
+2026-08-13 22:59:25,359 - INFO - Prediction: Refuted
+2026-08-13 22:59:25,359 - INFO - ✗ Incorrect (True: Supported, Pred: Refuted)
+2026-08-13 22:59:28,366 - INFO - ================================================================================
+2026-08-13 22:59:28,366 - INFO - Processing claim #20 (ID: fact5_unknown_20)
+2026-08-13 22:59:28,367 - INFO - Claim: "We’ve had 12 elections in 24 years in Wisconsin that have been decided by less than 30,000 votes.”...
+2026-08-13 22:59:28,367 - INFO - Date: 2024-03-06
+2026-08-13 22:59:29,631 - INFO - Prediction: Misleading
+2026-08-13 22:59:29,631 - INFO - ✗ Incorrect (True: Supported, Pred: Misleading)
+2026-08-13 22:59:32,637 - INFO - ================================================================================
+2026-08-13 22:59:32,638 - INFO - Processing claim #21 (ID: fact5_unknown_21)
+2026-08-13 22:59:32,638 - INFO - Claim: “We’re facing situations these days where you have to have two officers in the evidence room in case there’s an accidental (fentanyl) exposure.”...
+2026-08-13 22:59:32,638 - INFO - Date: 2024-03-07
+2026-08-13 22:59:33,626 - INFO - Prediction: Supported
+2026-08-13 22:59:33,626 - INFO - ✓ Correct prediction
+2026-08-13 22:59:36,630 - INFO - ================================================================================
+2026-08-13 22:59:36,631 - INFO - Processing claim #22 (ID: fact5_unknown_22)
+2026-08-13 22:59:36,631 - INFO - Claim: "We know that President Biden didn’t just create this border crisis. He invited it with 94 executive actions in his first 100 days. When I took office...
+2026-08-13 22:59:36,631 - INFO - Date: 2024-03-07
+2026-08-13 22:59:38,596 - INFO - Prediction: Refuted
+2026-08-13 22:59:38,596 - INFO - ✓ Correct prediction
+2026-08-13 22:59:41,601 - INFO - ================================================================================
+2026-08-13 22:59:41,601 - INFO - Processing claim #23 (ID: fact5_unknown_23)
+2026-08-13 22:59:41,602 - INFO - Claim: "[The Trump Administration] added more to the national debt than any presidential term in American history. Check the numbers.”...
+2026-08-13 22:59:41,602 - INFO - Date: 2024-03-07
+2026-08-13 22:59:42,990 - INFO - Prediction: Supported
+2026-08-13 22:59:42,990 - INFO - ✗ Incorrect (True: Misleading, Pred: Supported)
+2026-08-13 22:59:45,993 - INFO - ================================================================================
+2026-08-13 22:59:45,993 - INFO - Processing claim #24 (ID: fact5_unknown_24)
+2026-08-13 22:59:45,993 - INFO - Claim: "Biden claimed the economy created a record 15 million jobs in the first three years of his term."...
+2026-08-13 22:59:45,993 - INFO - Date: 2024-03-07
+2026-08-13 22:59:51,003 - INFO - Prediction: Supported
+2026-08-13 22:59:51,004 - INFO - ✓ Correct prediction
+2026-08-13 22:59:54,007 - INFO - ================================================================================
+2026-08-13 22:59:54,007 - INFO - Processing claim #25 (ID: fact5_unknown_25)
+2026-08-13 22:59:54,007 - INFO - Claim: “I have been delivering real results in fiscally responsible ways. We’ve already cut the federal deficit – we’ve already cut the federal deficit of ov...
+2026-08-13 22:59:54,007 - INFO - Date: 2024-03-07
+2026-08-13 22:59:54,960 - INFO - Prediction: Misleading
+2026-08-13 22:59:54,961 - INFO - ✗ Incorrect (True: Supported, Pred: Misleading)
+2026-08-13 22:59:57,963 - INFO - ================================================================================
+2026-08-13 22:59:57,964 - INFO - Processing claim #26 (ID: fact5_unknown_26)
+2026-08-13 22:59:57,964 - INFO - Claim: "President Biden inherited the most secure border of all time. But minutes after taking office, he suspended all deportations."...
+2026-08-13 22:59:57,964 - INFO - Date: 2024-03-07
+2026-08-13 22:59:59,013 - INFO - Prediction: Misleading
+2026-08-13 22:59:59,014 - INFO - ✓ Correct prediction
+2026-08-13 23:00:02,018 - INFO - ================================================================================
+2026-08-13 23:00:02,018 - INFO - Processing claim #27 (ID: fact5_unknown_27)
+2026-08-13 23:00:02,019 - INFO - Claim: “Remember in 2020, 55 of the biggest companies in America made $40 billion and paid zero in federal income taxes. Zero. Not anymore. Thanks to the law...
+2026-08-13 23:00:02,019 - INFO - Date: 2024-03-07
+2026-08-13 23:00:06,510 - INFO - Prediction: Supported
+2026-08-13 23:00:06,511 - INFO - ✗ Incorrect (True: Refuted, Pred: Supported)
+2026-08-13 23:00:09,517 - INFO - ================================================================================
+2026-08-13 23:00:09,517 - INFO - Processing claim #28 (ID: fact5_unknown_28)
+2026-08-13 23:00:09,518 - INFO - Claim: "The economy has added “800,000 new manufacturing jobs” during his administration."...
+2026-08-13 23:00:09,518 - INFO - Date: 2024-03-07
+2026-08-13 23:00:10,503 - INFO - Prediction: Misleading
+2026-08-13 23:00:10,504 - INFO - ✗ Incorrect (True: Supported, Pred: Misleading)
+2026-08-13 23:00:13,509 - INFO - ================================================================================
+2026-08-13 23:00:13,510 - INFO - Processing claim #29 (ID: fact5_unknown_29)
+2026-08-13 23:00:13,510 - INFO - Claim: "Violent crime has fallen to lowest levels in ‘more than 50 years’"...
+2026-08-13 23:00:13,510 - INFO - Date: 2024-03-07
+2026-08-13 23:00:14,609 - INFO - Prediction: Misleading
+2026-08-13 23:00:14,610 - INFO - ✗ Incorrect (True: Supported, Pred: Misleading)
+2026-08-13 23:00:17,613 - INFO - ================================================================================
+2026-08-13 23:00:17,614 - INFO - Processing claim #30 (ID: fact5_unknown_30)
+2026-08-13 23:00:17,614 - INFO - Claim: "We have the worst inflation in 40 years"...
+2026-08-13 23:00:17,614 - INFO - Date: 2024-03-07
+2026-08-13 23:00:19,892 - INFO - Prediction: Misleading
+2026-08-13 23:00:19,893 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-08-13 23:00:22,899 - INFO - ================================================================================
+2026-08-13 23:00:22,900 - INFO - Processing claim #31 (ID: fact5_unknown_31)
+2026-08-13 23:00:22,900 - INFO - Claim: Former U.S. President Donald Trump said Adolf Hitler "did some good things."...
+2026-08-13 23:00:22,900 - INFO - Date: 2024-03-11
+2026-08-13 23:00:23,999 - INFO - Prediction: Refuted
+2026-08-13 23:00:24,000 - INFO - ✗ Incorrect (True: Not Enough Information, Pred: Refuted)
+2026-08-13 23:00:27,004 - INFO - ================================================================================
+2026-08-13 23:00:27,004 - INFO - Processing claim #32 (ID: fact5_unknown_32)
+2026-08-13 23:00:27,004 - INFO - Claim: "Now, if I don’t get elected, it’s going to be a bloodbath for the whole — that’s gonna be the least of it. It’s going to be a bloodbath for the count...
+2026-08-13 23:00:27,004 - INFO - Date: 2024-03-17
+2026-08-13 23:00:28,981 - INFO - Prediction: Refuted
+2026-08-13 23:00:28,981 - INFO - ✗ Incorrect (True: Supported, Pred: Refuted)
+2026-08-13 23:00:31,985 - INFO - ================================================================================
+2026-08-13 23:00:31,985 - INFO - Processing claim #33 (ID: fact5_unknown_33)
+2026-08-13 23:00:31,985 - INFO - Claim: Gaza has “the highest number of people facing catastrophic hunger ever recorded by the Integrated Food Security Classification system — anywhere, anyt...
+2026-08-13 23:00:31,985 - INFO - Date: 2024-03-18
+2026-08-13 23:00:34,145 - INFO - Prediction: Supported
+2026-08-13 23:00:34,145 - INFO - ✓ Correct prediction
+2026-08-13 23:00:37,151 - INFO - ================================================================================
+2026-08-13 23:00:37,151 - INFO - Processing claim #34 (ID: fact5_unknown_34)
+2026-08-13 23:00:37,151 - INFO - Claim: "Insulin for Medicare beneficiaries "was costing 400 bucks a month on average. It now costs $35 a month."...
+2026-08-13 23:00:37,151 - INFO - Date: 2024-03-19
+2026-08-13 23:00:46,896 - INFO - Prediction: Misleading
+2026-08-13 23:00:46,897 - INFO - ✓ Correct prediction
+2026-08-13 23:00:49,903 - INFO - ================================================================================
+2026-08-13 23:00:49,903 - INFO - Processing claim #35 (ID: fact5_unknown_35)
+2026-08-13 23:00:49,904 - INFO - Claim: "Unlike the Democrats, who are KILLING SOCIAL SECURITY AND MEDICARE by allowing the INVASION OF THE MIGRANTS, I will NOT, under any circumstance, allo...
+2026-08-13 23:00:49,904 - INFO - Date: 2024-03-21
+2026-08-13 23:00:54,583 - INFO - Prediction: Refuted
+2026-08-13 23:00:54,583 - INFO - ✓ Correct prediction
+2026-08-13 23:00:57,590 - INFO - ================================================================================
+2026-08-13 23:00:57,590 - INFO - Processing claim #36 (ID: fact5_unknown_36)
+2026-08-13 23:00:57,590 - INFO - Claim: King Charles III has been diagnosed with pancreatic cancer and has two years to live, as of late March 2024....
+2026-08-13 23:00:57,590 - INFO - Date: 2024-03-22
+2026-08-13 23:01:01,451 - INFO - Prediction: Refuted
+2026-08-13 23:01:01,452 - INFO - ✗ Incorrect (True: Not Enough Information, Pred: Refuted)
+2026-08-13 23:01:04,455 - INFO - ================================================================================
+2026-08-13 23:01:04,455 - INFO - Processing claim #37 (ID: fact5_unknown_37)
+2026-08-13 23:01:04,455 - INFO - Claim: “It is a fact that Obama created ISIS.”...
+2026-08-13 23:01:04,456 - INFO - Date: 2024-03-23
+2026-08-13 23:01:06,177 - INFO - Prediction: Refuted
+2026-08-13 23:01:06,177 - INFO - ✓ Correct prediction
+2026-08-13 23:01:09,178 - INFO - ================================================================================
+2026-08-13 23:01:09,178 - INFO - Processing claim #38 (ID: fact5_unknown_38)
+2026-08-13 23:01:09,179 - INFO - Claim: "The current Congress is “the least productive in our lifetime.”...
+2026-08-13 23:01:09,179 - INFO - Date: 2024-03-24
+2026-08-13 23:01:14,244 - INFO - Prediction: Misleading
+2026-08-13 23:01:14,245 - INFO - ✗ Incorrect (True: Supported, Pred: Misleading)
+2026-08-13 23:01:17,251 - INFO - ================================================================================
+2026-08-13 23:01:17,251 - INFO - Processing claim #39 (ID: fact5_unknown_39)
+2026-08-13 23:01:17,251 - INFO - Claim: "Pharmaceutical medicine has its place, but no single safety study can assess the cumulative impact of one prescription on top of another prescription...
+2026-08-13 23:01:17,251 - INFO - Date: 2024-03-26
+2026-08-13 23:01:18,774 - INFO - Prediction: Misleading
+2026-08-13 23:01:18,774 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-08-13 23:01:21,780 - INFO - ================================================================================
+2026-08-13 23:01:21,781 - INFO - Processing claim #40 (ID: fact5_unknown_40)
+2026-08-13 23:01:21,781 - INFO - Claim: "Joe Biden graduated 76th academically in a class of 85 students at Syracuse University College of Law in 1968."...
+2026-08-13 23:01:21,781 - INFO - Date: 2024-03-27
+2026-08-13 23:01:27,056 - INFO - Prediction: Supported
+2026-08-13 23:01:27,056 - INFO - ✓ Correct prediction
+2026-08-13 23:01:30,062 - INFO - ================================================================================
+2026-08-13 23:01:30,063 - INFO - Processing claim #41 (ID: fact5_unknown_41)
+2026-08-13 23:01:30,063 - INFO - Claim: "Video shows “New York Governor Kathy Hochul being denied entry into the wake for slain NYPD officer Jonathan Diller.”...
+2026-08-13 23:01:30,063 - INFO - Date: 2024-03-30
+2026-08-13 23:01:30,944 - INFO - Prediction: Refuted
+2026-08-13 23:01:30,945 - INFO - ✓ Correct prediction
+2026-08-13 23:01:33,949 - INFO - ================================================================================
+2026-08-13 23:01:33,949 - INFO - Processing claim #42 (ID: fact5_unknown_42)
+2026-08-13 23:01:33,949 - INFO - Claim: "President Biden is the first candidate in history, the first president in history, that has used the federal agencies to censor political speech ... ...
+2026-08-13 23:01:33,949 - INFO - Date: 2024-04-01
+2026-08-13 23:01:35,330 - INFO - Prediction: Refuted
+2026-08-13 23:01:35,330 - INFO - ✓ Correct prediction
+2026-08-13 23:01:38,337 - INFO - ================================================================================
+2026-08-13 23:01:38,337 - INFO - Processing claim #43 (ID: fact5_unknown_43)
+2026-08-13 23:01:38,338 - INFO - Claim: "Crime is down in Venezuela by 67% because they're taking their gangs and their criminals and depositing them very nicely into the United States.”...
+2026-08-13 23:01:38,338 - INFO - Date: 2024-04-02
+2026-08-13 23:01:40,989 - INFO - Prediction: Refuted
+2026-08-13 23:01:40,989 - INFO - ✓ Correct prediction
+2026-08-13 23:01:43,995 - INFO - ================================================================================
+2026-08-13 23:01:43,995 - INFO - Processing claim #44 (ID: fact5_unknown_44)
+2026-08-13 23:01:43,995 - INFO - Claim: "Have you had to cancel or rethink any upcoming summer trips because of high prices? Don’t worry — your taxpayer dollars will be used to pay for illeg...
+2026-08-13 23:01:43,996 - INFO - Date: 2024-04-02
+2026-08-13 23:01:45,421 - INFO - Prediction: Refuted
+2026-08-13 23:01:45,421 - INFO - ✓ Correct prediction
+2026-08-13 23:01:48,424 - INFO - ================================================================================
+2026-08-13 23:01:48,424 - INFO - Processing claim #45 (ID: fact5_unknown_45)
+2026-08-13 23:01:48,424 - INFO - Claim: "326,000 migrants were flown to Florida with taxpayer dollars under President Joe Biden’s secret migrant flight program."...
+2026-08-13 23:01:48,425 - INFO - Date: 2024-04-04
+2026-08-13 23:01:53,177 - INFO - Prediction: Refuted
+2026-08-13 23:01:53,178 - INFO - ✓ Correct prediction
+2026-08-13 23:01:56,185 - INFO - ================================================================================
+2026-08-13 23:01:56,185 - INFO - Processing claim #46 (ID: fact5_unknown_46)
+2026-08-13 23:01:56,185 - INFO - Claim: "On Jan. 6, 2021, U.S. Capitol 'protestors carried no weapons.' "...
+2026-08-13 23:01:56,185 - INFO - Date: 2024-04-05
+2026-08-13 23:01:58,049 - INFO - Prediction: Refuted
+2026-08-13 23:01:58,050 - INFO - ✓ Correct prediction
+2026-08-13 23:02:01,055 - INFO - ================================================================================
+2026-08-13 23:02:01,055 - INFO - Processing claim #47 (ID: fact5_unknown_47)
+2026-08-13 23:02:01,056 - INFO - Claim: "Speaking of semiconductor industry jobs, "Know what the average salary is? $110,000. You don't need a college degree."...
+2026-08-13 23:02:01,056 - INFO - Date: 2024-04-08
+2026-08-13 23:02:02,326 - INFO - Prediction: Misleading
+2026-08-13 23:02:02,326 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-08-13 23:02:05,332 - INFO - ================================================================================
+2026-08-13 23:02:05,332 - INFO - Processing claim #48 (ID: fact5_unknown_48)
+2026-08-13 23:02:05,332 - INFO - Claim: “Support for Roe is higher today in America than it has ever been."...
+2026-08-13 23:02:05,332 - INFO - Date: 2024-04-08
+2026-08-13 23:02:06,246 - INFO - Prediction: Misleading
+2026-08-13 23:02:06,246 - INFO - ✗ Incorrect (True: Supported, Pred: Misleading)
+2026-08-13 23:02:09,251 - INFO - ================================================================================
+2026-08-13 23:02:09,251 - INFO - Processing claim #49 (ID: fact5_unknown_49)
+2026-08-13 23:02:09,251 - INFO - Claim: "Starting in 2025 "no matter what your total bills are for prescription drugs,” Medicare Part D users will never pay “more than $2,000 a year, because...
+2026-08-13 23:02:09,251 - INFO - Date: 2024-04-09
+2026-08-13 23:02:15,354 - INFO - Prediction: Supported
+2026-08-13 23:02:15,355 - INFO - ✓ Correct prediction
+2026-08-13 23:02:18,360 - INFO - ================================================================================
+2026-08-13 23:02:18,360 - INFO - Processing claim #50 (ID: fact5_unknown_50)
+2026-08-13 23:02:18,360 - INFO - Claim: "In Michigan, radical, left Democrat governor Gretchen Whitmer is handing out $500 a month in cash to anyone who accepts illegal aliens into your home...
+2026-08-13 23:02:18,360 - INFO - Date: 2024-04-11
+2026-08-13 23:02:25,535 - INFO - Prediction: Refuted
+2026-08-13 23:02:25,536 - INFO - ✓ Correct prediction
+2026-08-13 23:02:28,542 - INFO - ================================================================================
+2026-08-13 23:02:28,542 - INFO - Processing claim #51 (ID: fact5_unknown_51)
+2026-08-13 23:02:28,542 - INFO - Claim: "Not even one rocket (from Iran) hit Israel."...
+2026-08-13 23:02:28,542 - INFO - Date: 2024-04-14
+2026-08-13 23:02:34,813 - INFO - Prediction: Refuted
+2026-08-13 23:02:34,814 - INFO - ✓ Correct prediction
+2026-08-13 23:02:37,818 - INFO - ================================================================================
+2026-08-13 23:02:37,818 - INFO - Processing claim #52 (ID: fact5_unknown_52)
+2026-08-13 23:02:37,819 - INFO - Claim: Gov. Tony Evers is asking the GOP to release money for PFAS, but "vetoed (a bill outlining) how to spend the money."...
+2026-08-13 23:02:37,819 - INFO - Date: 2024-04-15
+2026-08-13 23:02:47,706 - INFO - Prediction: Misleading
+2026-08-13 23:02:47,707 - INFO - ✗ Incorrect (True: Supported, Pred: Misleading)
+2026-08-13 23:02:50,713 - INFO - ================================================================================
+2026-08-13 23:02:50,714 - INFO - Processing claim #53 (ID: fact5_unknown_53)
+2026-08-13 23:02:50,714 - INFO - Claim: "Only two presidents in American history left office with fewer jobs than when they entered office. Herbert Hoover and yes, Donald Herbert Hoover Trum...
+2026-08-13 23:02:50,714 - INFO - Date: 2024-04-16
+2026-08-13 23:02:56,692 - INFO - Prediction: Refuted
+2026-08-13 23:02:56,693 - INFO - ✗ Incorrect (True: Supported, Pred: Refuted)
+2026-08-13 23:02:59,697 - INFO - ================================================================================
+2026-08-13 23:02:59,697 - INFO - Processing claim #54 (ID: fact5_unknown_54)
+2026-08-13 23:02:59,697 - INFO - Claim: I have to say, there are a lot of things that Donald Trump has said and done that I find extremely offensive. But one that offends me the most is when...
+2026-08-13 23:02:59,697 - INFO - Date: 2024-04-16
+2026-08-13 23:03:01,211 - INFO - Prediction: Refuted
+2026-08-13 23:03:01,211 - INFO - ✗ Incorrect (True: Not Enough Information, Pred: Refuted)
+2026-08-13 23:03:04,217 - INFO - ================================================================================
+2026-08-13 23:03:04,218 - INFO - Processing claim #55 (ID: fact5_unknown_55)
+2026-08-13 23:03:04,218 - INFO - Claim: "Dollar Tree, Walgreens, Macy’s, Foot Locker, Gap, Burger King, Regal Cinemas and Kroger have had mass store closures during Joe Biden’s presidency."...
+2026-08-13 23:03:04,218 - INFO - Date: 2024-04-19
+2026-08-13 23:03:10,273 - INFO - Prediction: Misleading
+2026-08-13 23:03:10,273 - INFO - ✓ Correct prediction
+2026-08-13 23:03:13,276 - INFO - ================================================================================
+2026-08-13 23:03:13,276 - INFO - Processing claim #56 (ID: fact5_unknown_56)
+2026-08-13 23:03:13,276 - INFO - Claim: "[Rep. Adam Schiff] won’t tell you that he just voted to send $100 billion to foreign countries. We have a $35 trillion national debt in America."...
+2026-08-13 23:03:13,276 - INFO - Date: 2024-04-20
+2026-08-13 23:03:17,257 - INFO - Prediction: Misleading
+2026-08-13 23:03:17,257 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-08-13 23:03:20,264 - INFO - ================================================================================
+2026-08-13 23:03:20,264 - INFO - Processing claim #57 (ID: fact5_unknown_57)
+2026-08-13 23:03:20,264 - INFO - Claim: U.S. Sen. Tammy Baldwin "believes taxpayer dollars should be used for abortion."...
+2026-08-13 23:03:20,264 - INFO - Date: 2024-04-28
+2026-08-13 23:03:22,152 - INFO - Prediction: Misleading
+2026-08-13 23:03:22,152 - INFO - ✓ Correct prediction
+2026-08-13 23:03:25,154 - INFO - ================================================================================
+2026-08-13 23:03:25,154 - INFO - Processing claim #58 (ID: fact5_unknown_58)
+2026-08-13 23:03:25,154 - INFO - Claim: "Billionaire investor and philanthropist, George Soros, was paying students to organize the protests."...
+2026-08-13 23:03:25,154 - INFO - Date: 2024-04-29
+2026-08-13 23:03:30,143 - INFO - Prediction: Refuted
+2026-08-13 23:03:30,143 - INFO - ✓ Correct prediction
+2026-08-13 23:03:33,149 - INFO - ================================================================================
+2026-08-13 23:03:33,150 - INFO - Processing claim #59 (ID: fact5_unknown_59)
+2026-08-13 23:03:33,150 - INFO - Claim: "President Donald Trump "just told TIME Magazine that in his second term as president he'd force every pregnant woman to submit to constant government...
+2026-08-13 23:03:33,150 - INFO - Date: 2024-05-01
+2026-08-13 23:03:34,902 - INFO - Prediction: Refuted
+2026-08-13 23:03:34,902 - INFO - ✓ Correct prediction
+2026-08-13 23:03:37,909 - INFO - ================================================================================
+2026-08-13 23:03:37,909 - INFO - Processing claim #60 (ID: fact5_unknown_60)
+2026-08-13 23:03:37,909 - INFO - Claim: "Former U.S. President Donald Trump stated that he would not defend NATO allies if they were attacked by Russia."...
+2026-08-13 23:03:37,909 - INFO - Date: 2024-05-02
+2026-08-13 23:03:40,637 - INFO - Prediction: Supported
+2026-08-13 23:03:40,638 - INFO - ✗ Incorrect (True: Misleading, Pred: Supported)
+2026-08-13 23:03:43,645 - INFO - ================================================================================
+2026-08-13 23:03:43,645 - INFO - Processing claim #61 (ID: fact5_unknown_61)
+2026-08-13 23:03:43,645 - INFO - Claim: “Under (the Biden) administration we have witnessed the fastest growth of Black-owned small businesses in more than 30 years.”...
+2026-08-13 23:03:43,645 - INFO - Date: 2024-05-16
+2026-08-13 23:03:46,190 - INFO - Prediction: Misleading
+2026-08-13 23:03:46,190 - INFO - ✗ Incorrect (True: Supported, Pred: Misleading)
+2026-08-13 23:03:49,193 - INFO - ================================================================================
+2026-08-13 23:03:49,194 - INFO - Processing claim #62 (ID: fact5_unknown_62)
+2026-08-13 23:03:49,194 - INFO - Claim: Wisconsin had a “record-breaking year” for tourism in 2023....
+2026-08-13 23:03:49,194 - INFO - Date: 2024-06-11
+2026-08-13 23:03:57,154 - INFO - Prediction: Misleading
+2026-08-13 23:03:57,155 - INFO - ✗ Incorrect (True: Supported, Pred: Misleading)
+2026-08-13 23:04:00,161 - INFO - ================================================================================
+2026-08-13 23:04:00,162 - INFO - Processing claim #63 (ID: fact5_unknown_63)
+2026-08-13 23:04:00,162 - INFO - Claim: In 2020, “only nine NATO allies were spending 2%” of their GDP on defense. “This year, 23 will spend at least 2%.”...
+2026-08-13 23:04:00,162 - INFO - Date: 2024-07-09
+2026-08-13 23:04:04,614 - INFO - Prediction: Misleading
+2026-08-13 23:04:04,614 - INFO - ✗ Incorrect (True: Supported, Pred: Misleading)
+2026-08-13 23:04:07,615 - INFO - ================================================================================
+2026-08-13 23:04:07,616 - INFO - Processing claim #64 (ID: fact5_unknown_64)
+2026-08-13 23:04:07,616 - INFO - Claim: “The most recent State Budget increased funding for the Department of Tourism by 98 percent.”...
+2026-08-13 23:04:07,616 - INFO - Date: 2024-07-12
+2026-08-13 23:04:08,864 - INFO - Prediction: Misleading
+2026-08-13 23:04:08,864 - INFO - ✗ Incorrect (True: Supported, Pred: Misleading)
+2026-08-13 23:04:11,866 - INFO - ================================================================================
+2026-08-13 23:04:11,866 - INFO - Processing claim #65 (ID: fact5_unknown_65)
+2026-08-13 23:04:11,866 - INFO - Claim: After being shot at a Milwaukee rally in 1912, former President Teddy Roosevelt “finished his speech and he kept fighting.”...
+2026-08-13 23:04:11,866 - INFO - Date: 2024-07-17
+2026-08-13 23:04:13,050 - INFO - Prediction: Supported
+2026-08-13 23:04:13,051 - INFO - ✓ Correct prediction
+2026-08-13 23:04:16,056 - INFO - ================================================================================
+2026-08-13 23:04:16,056 - INFO - Processing claim #66 (ID: fact5_unknown_66)
+2026-08-13 23:04:16,056 - INFO - Claim: Sam Brown “said abortion should be banned without any exceptions for rape or incest.”...
+2026-08-13 23:04:16,056 - INFO - Date: 2024-07-17
+2026-08-13 23:04:19,927 - INFO - Prediction: Misleading
+2026-08-13 23:04:19,927 - INFO - ✓ Correct prediction
+2026-08-13 23:04:22,931 - INFO - ================================================================================
+2026-08-13 23:04:22,932 - INFO - Processing claim #67 (ID: fact5_unknown_67)
+2026-08-13 23:04:22,932 - INFO - Claim: Donald Trump “took away protections against discrimination for LGBTQ patients under the Affordable Care Act.”...
+2026-08-13 23:04:22,932 - INFO - Date: 2024-07-20
+2026-08-13 23:04:25,642 - INFO - Prediction: Supported
+2026-08-13 23:04:25,642 - INFO - ✓ Correct prediction
+2026-08-13 23:04:28,644 - INFO - ================================================================================
+2026-08-13 23:04:28,645 - INFO - Processing claim #68 (ID: fact5_unknown_68)
+2026-08-13 23:04:28,645 - INFO - Claim: Author Kurt Vonnegut once said: "We'll go down in history as the first society that wouldn't save itself because it wasn't cost-effective."...
+2026-08-13 23:04:28,645 - INFO - Date: 2024-07-25
+2026-08-13 23:04:31,503 - INFO - Prediction: Supported
+2026-08-13 23:04:31,504 - INFO - ✗ Incorrect (True: Not Enough Information, Pred: Supported)
+2026-08-13 23:04:34,510 - INFO - ================================================================================
+2026-08-13 23:04:34,510 - INFO - Processing claim #69 (ID: fact5_unknown_69)
+2026-08-13 23:04:34,511 - INFO - Claim: “Even before the pandemic, America went into a manufacturing recession.”...
+2026-08-13 23:04:34,511 - INFO - Date: 2024-07-28
+2026-08-13 23:04:35,864 - INFO - Prediction: Supported
+2026-08-13 23:04:35,865 - INFO - ✓ Correct prediction
+2026-08-13 23:04:38,871 - INFO - ================================================================================
+2026-08-13 23:04:38,871 - INFO - Processing claim #70 (ID: fact5_unknown_70)
+2026-08-13 23:04:38,871 - INFO - Claim: “[Kamala Harris] wants to take away your gas stoves.”...
+2026-08-13 23:04:38,871 - INFO - Date: 2024-08-03
+2026-08-13 23:04:41,824 - INFO - Prediction: Refuted
+2026-08-13 23:04:41,825 - INFO - ✓ Correct prediction
+2026-08-13 23:04:44,830 - INFO - ================================================================================
+2026-08-13 23:04:44,831 - INFO - Processing claim #71 (ID: fact5_unknown_71)
+2026-08-13 23:04:44,831 - INFO - Claim: “[Kamala Harris] even wants to take away your ability to eat red meat. That’s how out there she is. That’s real. The fake news will fact-check it. The...
+2026-08-13 23:04:44,831 - INFO - Date: 2024-08-03
+2026-08-13 23:04:46,149 - INFO - Prediction: Refuted
+2026-08-13 23:04:46,149 - INFO - ✓ Correct prediction
+2026-08-13 23:04:49,153 - INFO - ================================================================================
+2026-08-13 23:04:49,154 - INFO - Processing claim #72 (ID: fact5_unknown_72)
+2026-08-13 23:04:49,154 - INFO - Claim: JD Vance “literally wrote the foreword for the architect of the Project 2025 agenda."...
+2026-08-13 23:04:49,154 - INFO - Date: 2024-08-06
+2026-08-13 23:04:53,114 - INFO - Prediction: Refuted
+2026-08-13 23:04:53,115 - INFO - ✗ Incorrect (True: Supported, Pred: Refuted)
+2026-08-13 23:04:56,117 - INFO - ================================================================================
+2026-08-13 23:04:56,117 - INFO - Processing claim #73 (ID: fact5_unknown_73)
+2026-08-13 23:04:56,117 - INFO - Claim: Minnesota Gov. Tim Walz signed “legislation giving free college … to illegal immigrants.”...
+2026-08-13 23:04:56,117 - INFO - Date: 2024-08-06
+2026-08-13 23:04:57,367 - INFO - Prediction: Refuted
+2026-08-13 23:04:57,368 - INFO - ✗ Incorrect (True: Supported, Pred: Refuted)
+2026-08-13 23:05:00,372 - INFO - ================================================================================
+2026-08-13 23:05:00,372 - INFO - Processing claim #74 (ID: fact5_unknown_74)
+2026-08-13 23:05:00,372 - INFO - Claim: "Tim Walz signed into law driver's licenses for illegal immigrants in Minnesota."...
+2026-08-13 23:05:00,373 - INFO - Date: 2024-08-06
+2026-08-13 23:05:01,187 - INFO - Prediction: Supported
+2026-08-13 23:05:01,188 - INFO - ✓ Correct prediction
+2026-08-13 23:05:04,194 - INFO - ================================================================================
+2026-08-13 23:05:04,195 - INFO - Processing claim #75 (ID: fact5_unknown_75)
+2026-08-13 23:05:04,195 - INFO - Claim: Tim Walz said he carried weapons in war, but “he has not spent a day in a combat zone.”...
+2026-08-13 23:05:04,195 - INFO - Date: 2024-08-07
+2026-08-13 23:05:07,617 - INFO - Prediction: Refuted
+2026-08-13 23:05:07,617 - INFO - ✗ Incorrect (True: Supported, Pred: Refuted)
+2026-08-13 23:05:10,621 - INFO - ================================================================================
+2026-08-13 23:05:10,622 - INFO - Processing claim #76 (ID: fact5_unknown_76)
+2026-08-13 23:05:10,622 - INFO - Claim: In the 1980s, U.S. Vice President Kamala Harris worked at McDonald's while completing her undergraduate degree....
+2026-08-13 23:05:10,622 - INFO - Date: 2024-08-10
+2026-08-13 23:05:13,025 - INFO - Prediction: Refuted
+2026-08-13 23:05:13,025 - INFO - ✗ Incorrect (True: Not Enough Information, Pred: Refuted)
+2026-08-13 23:05:16,032 - INFO - ================================================================================
+2026-08-13 23:05:16,032 - INFO - Processing claim #77 (ID: fact5_unknown_77)
+2026-08-13 23:05:16,032 - INFO - Claim: “[Kamala Harris] has said things like, ‘it’s reasonable not to have children over climate change.’ I think that’s the exact opposite message we should...
+2026-08-13 23:05:16,032 - INFO - Date: 2024-08-11
+2026-08-13 23:05:17,079 - INFO - Prediction: Supported
+2026-08-13 23:05:17,079 - INFO - ✗ Incorrect (True: Refuted, Pred: Supported)
+2026-08-13 23:05:20,086 - INFO - ================================================================================
+2026-08-13 23:05:20,086 - INFO - Processing claim #78 (ID: fact5_unknown_78)
+2026-08-13 23:05:20,087 - INFO - Claim: “Sam Brown publicly supported forcing massive cuts to Social Security and Medicare and was caught on tape saying he admires the plan to phase out Soci...
+2026-08-13 23:05:20,087 - INFO - Date: 2024-08-13
+2026-08-13 23:05:23,486 - INFO - Prediction: Refuted
+2026-08-13 23:05:23,486 - INFO - ✓ Correct prediction
+2026-08-13 23:05:26,492 - INFO - ================================================================================
+2026-08-13 23:05:26,492 - INFO - Processing claim #79 (ID: fact5_unknown_79)
+2026-08-13 23:05:26,492 - INFO - Claim: “400,000 workers are now in a union that were not in a union when (Biden) became president.”...
+2026-08-13 23:05:26,492 - INFO - Date: 2024-08-15
+2026-08-13 23:05:27,627 - INFO - Prediction: Misleading
+2026-08-13 23:05:27,627 - INFO - ✗ Incorrect (True: Supported, Pred: Misleading)
+2026-08-13 23:05:30,633 - INFO - ================================================================================
+2026-08-13 23:05:30,634 - INFO - Processing claim #80 (ID: fact5_unknown_80)
+2026-08-13 23:05:30,634 - INFO - Claim: Nevada Sen. Jacky Rosen said the Biden administration did a "tremendous job" on the U.S. military’s Afghanistan withdrawal....
+2026-08-13 23:05:30,634 - INFO - Date: 2024-08-15
+2026-08-13 23:05:31,783 - INFO - Prediction: Refuted
+2026-08-13 23:05:31,783 - INFO - ✓ Correct prediction
+2026-08-13 23:05:34,790 - INFO - ================================================================================
+2026-08-13 23:05:34,790 - INFO - Processing claim #81 (ID: fact5_unknown_81)
+2026-08-13 23:05:34,790 - INFO - Claim: “MAGA Republicans like Kari Lake support Project 2025, which would raise the retirement age for 73% of Arizonans.”...
+2026-08-13 23:05:34,790 - INFO - Date: 2024-08-17
+2026-08-13 23:05:42,375 - INFO - Prediction: Misleading
+2026-08-13 23:05:42,375 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-08-13 23:05:45,382 - INFO - ================================================================================
+2026-08-13 23:05:45,382 - INFO - Processing claim #82 (ID: fact5_unknown_82)
+2026-08-13 23:05:45,382 - INFO - Claim: In a phone call with Benjamin Netanyahu, Donald Trump told the Israeli prime minister to stop a Gaza ceasefire deal because it would help Vice Preside...
+2026-08-13 23:05:45,382 - INFO - Date: 2024-08-20
+2026-08-13 23:05:46,325 - INFO - Prediction: Refuted
+2026-08-13 23:05:46,325 - INFO - ✗ Incorrect (True: Not Enough Information, Pred: Refuted)
+2026-08-13 23:05:49,330 - INFO - ================================================================================
+2026-08-13 23:05:49,331 - INFO - Processing claim #83 (ID: fact5_unknown_83)
+2026-08-13 23:05:49,331 - INFO - Claim: “JD Vance actually sent a letter last year to the Department of Justice saying, ‘enforce the Comstock Act.’”...
+2026-08-13 23:05:49,331 - INFO - Date: 2024-08-25
+2026-08-13 23:05:54,474 - INFO - Prediction: Refuted
+2026-08-13 23:05:54,474 - INFO - ✗ Incorrect (True: Supported, Pred: Refuted)
+2026-08-13 23:05:57,480 - INFO - ================================================================================
+2026-08-13 23:05:57,480 - INFO - Processing claim #84 (ID: fact5_unknown_84)
+2026-08-13 23:05:57,480 - INFO - Claim: “This month alone, more than 16,000 non-citizens have been removed from the voter rolls in 3 states.”...
+2026-08-13 23:05:57,480 - INFO - Date: 2024-08-28
+2026-08-13 23:05:58,820 - INFO - Prediction: Misleading
+2026-08-13 23:05:58,821 - INFO - ✓ Correct prediction
+2026-08-13 23:06:01,823 - INFO - ================================================================================
+2026-08-13 23:06:01,823 - INFO - Processing claim #85 (ID: fact5_unknown_85)
+2026-08-13 23:06:01,823 - INFO - Claim: “We didn’t lose one person in 18 months. And then they took over that disaster.” — Former president Donald Trump, in a video of him at Arlington Natio...
+2026-08-13 23:06:01,824 - INFO - Date: 2024-08-28
+2026-08-13 23:06:04,080 - INFO - Prediction: Refuted
+2026-08-13 23:06:04,081 - INFO - ✗ Incorrect (True: Misleading, Pred: Refuted)
+2026-08-13 23:06:07,088 - INFO - ================================================================================
+2026-08-13 23:06:07,088 - INFO - Processing complete: 86 predictions (39 correct, 47 incorrect), 0 failed
+2026-08-13 23:06:07,092 - INFO - Metrics: Accuracy=0.4535, Macro-F1=0.5455
+2026-08-13 23:06:07,107 - INFO - Predictions saved to results/qwen/qwen-2_5-72b-instruct/fact5_bias_all/naive/seen/seen_predictions.csv
+2026-08-13 23:06:07,109 - INFO - Predictions JSON saved to results/qwen/qwen-2_5-72b-instruct/fact5_bias_all/naive/seen/seen_predictions.json
+2026-08-13 23:06:07,110 - INFO - Metrics saved to results/qwen/qwen-2_5-72b-instruct/fact5_bias_all/naive/seen/seen_metrics.json
