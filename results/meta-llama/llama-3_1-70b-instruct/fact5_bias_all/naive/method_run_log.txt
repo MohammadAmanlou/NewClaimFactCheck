@@ -1,0 +1,29 @@
+2026-07-31 02:51:09,917 - INFO - Prompt method: naive
+2026-07-31 02:51:09,954 - WARNING - No valid results for metric calculation
+2026-07-31 02:54:22,510 - INFO - Metrics: Accuracy=0.5467, Macro-F1=0.7014
+2026-07-31 02:54:22,510 - INFO - ================================================================================
+2026-07-31 02:54:22,511 - INFO - Comparing seen vs unseen performance...
+2026-07-31 02:54:22,511 - WARNING - No valid results for metric calculation
+2026-07-31 02:54:22,515 - INFO - Metrics: Accuracy=0.5467, Macro-F1=0.7014
+2026-07-31 02:54:22,518 - WARNING - Statistical tests skipped: Need more than one sample per group for statistical tests.
+2026-07-31 02:54:22,519 - INFO - Seen accuracy: N/A
+2026-07-31 02:54:22,520 - INFO - Unseen accuracy: 0.5467
+2026-07-31 02:54:22,520 - INFO - Difference: 0.5467
+2026-07-31 02:54:22,522 - INFO - Summary report saved to results\meta-llama\llama-3_1-70b-instruct\fact5_bias_all\naive\summary.json
+2026-07-31 02:54:22,562 - WARNING - No valid results for metric calculation
+2026-07-31 02:54:22,565 - WARNING - No valid results for metric calculation
+2026-07-31 02:54:22,565 - INFO - ================================================================================
+2026-07-31 02:54:22,565 - INFO - Comparing seen vs unseen performance...
+2026-07-31 02:54:22,566 - WARNING - No valid results for metric calculation
+2026-07-31 02:54:22,573 - WARNING - No valid results for metric calculation
+2026-07-31 02:54:22,573 - WARNING - Statistical tests skipped: Need more than one sample per group for statistical tests.
+2026-07-31 02:54:22,578 - INFO - Seen accuracy: N/A
+2026-07-31 02:54:22,578 - INFO - Unseen accuracy: N/A
+2026-07-31 02:54:22,578 - INFO - Difference: 0.0000
+2026-07-31 02:54:22,580 - INFO - Predictions saved to results\meta-llama\llama-3_1-70b-instruct\fact5_bias_all\naive\posthoc_balanced\seen\seen_posthoc_balanced_predictions.csv
+2026-07-31 02:54:22,581 - INFO - Predictions JSON saved to results\meta-llama\llama-3_1-70b-instruct\fact5_bias_all\naive\posthoc_balanced\seen\seen_posthoc_balanced_predictions.json
+2026-07-31 02:54:22,582 - INFO - Metrics saved to results\meta-llama\llama-3_1-70b-instruct\fact5_bias_all\naive\posthoc_balanced\seen\seen_posthoc_balanced_metrics.json
+2026-07-31 02:54:22,585 - INFO - Predictions saved to results\meta-llama\llama-3_1-70b-instruct\fact5_bias_all\naive\posthoc_balanced\unseen\unseen_posthoc_balanced_predictions.csv
+2026-07-31 02:54:22,586 - INFO - Predictions JSON saved to results\meta-llama\llama-3_1-70b-instruct\fact5_bias_all\naive\posthoc_balanced\unseen\unseen_posthoc_balanced_predictions.json
+2026-07-31 02:54:22,587 - INFO - Metrics saved to results\meta-llama\llama-3_1-70b-instruct\fact5_bias_all\naive\posthoc_balanced\unseen\unseen_posthoc_balanced_metrics.json
+2026-07-31 02:54:22,588 - INFO - Summary report saved to results\meta-llama\llama-3_1-70b-instruct\fact5_bias_all\naive\posthoc_balanced\summary.json

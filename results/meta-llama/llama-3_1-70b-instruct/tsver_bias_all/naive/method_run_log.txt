@@ -1,0 +1,31 @@
+2026-08-01 19:14:56,452 - INFO - Prompt method: naive
+2026-08-01 20:27:14,476 - INFO - Metrics: Accuracy=0.6224, Macro-F1=0.7339
+2026-08-01 20:33:53,817 - INFO - Metrics: Accuracy=0.5397, Macro-F1=0.6550
+2026-08-01 20:33:53,818 - INFO - ================================================================================
+2026-08-01 20:33:53,818 - INFO - Comparing seen vs unseen performance...
+2026-08-01 20:33:53,827 - INFO - Metrics: Accuracy=0.6224, Macro-F1=0.7339
+2026-08-01 20:33:53,829 - INFO - Metrics: Accuracy=0.5397, Macro-F1=0.6550
+2026-08-01 20:33:53,838 - INFO - Seen accuracy: 0.6224
+2026-08-01 20:33:53,838 - INFO - Unseen accuracy: 0.5397
+2026-08-01 20:33:53,838 - INFO - Difference: -0.0827
+2026-08-01 20:33:53,839 - INFO - T-test p-value: 0.2331 (not significant)
+2026-08-01 20:33:53,839 - INFO - Chi-square p-value: 0.2931 (not significant)
+2026-08-01 20:33:53,840 - INFO - Summary report saved to results\meta-llama\llama-3_1-70b-instruct\tsver_bias_all\naive\summary.json
+2026-08-01 20:33:53,892 - INFO - Metrics: Accuracy=0.4921, Macro-F1=0.5951
+2026-08-01 20:33:53,893 - INFO - Metrics: Accuracy=0.5397, Macro-F1=0.6550
+2026-08-01 20:33:53,893 - INFO - ================================================================================
+2026-08-01 20:33:53,893 - INFO - Comparing seen vs unseen performance...
+2026-08-01 20:33:53,894 - INFO - Metrics: Accuracy=0.4921, Macro-F1=0.5951
+2026-08-01 20:33:53,895 - INFO - Metrics: Accuracy=0.5397, Macro-F1=0.6550
+2026-08-01 20:33:53,898 - INFO - Seen accuracy: 0.4921
+2026-08-01 20:33:53,898 - INFO - Unseen accuracy: 0.5397
+2026-08-01 20:33:53,898 - INFO - Difference: 0.0476
+2026-08-01 20:33:53,898 - INFO - T-test p-value: 0.5963 (not significant)
+2026-08-01 20:33:53,898 - INFO - Chi-square p-value: 0.7214 (not significant)
+2026-08-01 20:33:53,901 - INFO - Predictions saved to results\meta-llama\llama-3_1-70b-instruct\tsver_bias_all\naive\posthoc_balanced\seen\seen_posthoc_balanced_predictions.csv
+2026-08-01 20:33:53,905 - INFO - Predictions JSON saved to results\meta-llama\llama-3_1-70b-instruct\tsver_bias_all\naive\posthoc_balanced\seen\seen_posthoc_balanced_predictions.json
+2026-08-01 20:33:53,905 - INFO - Metrics saved to results\meta-llama\llama-3_1-70b-instruct\tsver_bias_all\naive\posthoc_balanced\seen\seen_posthoc_balanced_metrics.json
+2026-08-01 20:33:53,909 - INFO - Predictions saved to results\meta-llama\llama-3_1-70b-instruct\tsver_bias_all\naive\posthoc_balanced\unseen\unseen_posthoc_balanced_predictions.csv
+2026-08-01 20:33:53,911 - INFO - Predictions JSON saved to results\meta-llama\llama-3_1-70b-instruct\tsver_bias_all\naive\posthoc_balanced\unseen\unseen_posthoc_balanced_predictions.json
+2026-08-01 20:33:53,912 - INFO - Metrics saved to results\meta-llama\llama-3_1-70b-instruct\tsver_bias_all\naive\posthoc_balanced\unseen\unseen_posthoc_balanced_metrics.json
+2026-08-01 20:33:53,912 - INFO - Summary report saved to results\meta-llama\llama-3_1-70b-instruct\tsver_bias_all\naive\posthoc_balanced\summary.json

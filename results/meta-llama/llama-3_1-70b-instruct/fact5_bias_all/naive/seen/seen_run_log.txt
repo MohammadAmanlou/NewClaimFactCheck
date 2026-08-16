@@ -1,0 +1,7 @@
+2026-07-31 02:51:09,918 - INFO - Processing 0 claims...
+2026-07-31 02:51:09,949 - INFO - ================================================================================
+2026-07-31 02:51:09,949 - INFO - Processing complete: 0 predictions (0 correct, 0 incorrect), 0 failed
+2026-07-31 02:51:09,949 - WARNING - No valid results for metric calculation
+2026-07-31 02:51:09,953 - INFO - Predictions saved to results\meta-llama\llama-3_1-70b-instruct\fact5_bias_all\naive\seen\seen_predictions.csv
+2026-07-31 02:51:09,953 - INFO - Predictions JSON saved to results\meta-llama\llama-3_1-70b-instruct\fact5_bias_all\naive\seen\seen_predictions.json
+2026-07-31 02:51:09,953 - INFO - Metrics saved to results\meta-llama\llama-3_1-70b-instruct\fact5_bias_all\naive\seen\seen_metrics.json
