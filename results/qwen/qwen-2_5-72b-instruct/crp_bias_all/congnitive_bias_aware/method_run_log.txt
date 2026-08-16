@@ -1,0 +1,29 @@
+2026-08-14 01:03:54,259 - INFO - Prompt method: congnitive_bias_aware
+2026-08-14 01:10:00,986 - WARNING - No valid results for metric calculation
+2026-08-14 01:18:56,012 - WARNING - No valid results for metric calculation
+2026-08-14 01:18:56,012 - INFO - ================================================================================
+2026-08-14 01:18:56,013 - INFO - Comparing seen vs unseen performance...
+2026-08-14 01:18:56,013 - WARNING - No valid results for metric calculation
+2026-08-14 01:18:56,013 - WARNING - No valid results for metric calculation
+2026-08-14 01:18:56,013 - WARNING - Statistical tests skipped: Need more than one sample per group for statistical tests.
+2026-08-14 01:18:56,013 - INFO - Seen accuracy: N/A
+2026-08-14 01:18:56,013 - INFO - Unseen accuracy: N/A
+2026-08-14 01:18:56,013 - INFO - Difference: 0.0000
+2026-08-14 01:18:56,014 - INFO - Summary report saved to results/qwen/qwen-2_5-72b-instruct/crp_bias_all/congnitive_bias_aware/summary.json
+2026-08-14 01:18:56,016 - WARNING - No valid results for metric calculation
+2026-08-14 01:18:56,016 - WARNING - No valid results for metric calculation
+2026-08-14 01:18:56,016 - INFO - ================================================================================
+2026-08-14 01:18:56,016 - INFO - Comparing seen vs unseen performance...
+2026-08-14 01:18:56,016 - WARNING - No valid results for metric calculation
+2026-08-14 01:18:56,016 - WARNING - No valid results for metric calculation
+2026-08-14 01:18:56,016 - WARNING - Statistical tests skipped: Need more than one sample per group for statistical tests.
+2026-08-14 01:18:56,016 - INFO - Seen accuracy: N/A
+2026-08-14 01:18:56,016 - INFO - Unseen accuracy: N/A
+2026-08-14 01:18:56,016 - INFO - Difference: 0.0000
+2026-08-14 01:18:56,021 - INFO - Predictions saved to results/qwen/qwen-2_5-72b-instruct/crp_bias_all/congnitive_bias_aware/posthoc_balanced/seen/seen_posthoc_balanced_predictions.csv
+2026-08-14 01:18:56,023 - INFO - Predictions JSON saved to results/qwen/qwen-2_5-72b-instruct/crp_bias_all/congnitive_bias_aware/posthoc_balanced/seen/seen_posthoc_balanced_predictions.json
+2026-08-14 01:18:56,023 - INFO - Metrics saved to results/qwen/qwen-2_5-72b-instruct/crp_bias_all/congnitive_bias_aware/posthoc_balanced/seen/seen_posthoc_balanced_metrics.json
+2026-08-14 01:18:56,026 - INFO - Predictions saved to results/qwen/qwen-2_5-72b-instruct/crp_bias_all/congnitive_bias_aware/posthoc_balanced/unseen/unseen_posthoc_balanced_predictions.csv
+2026-08-14 01:18:56,028 - INFO - Predictions JSON saved to results/qwen/qwen-2_5-72b-instruct/crp_bias_all/congnitive_bias_aware/posthoc_balanced/unseen/unseen_posthoc_balanced_predictions.json
+2026-08-14 01:18:56,028 - INFO - Metrics saved to results/qwen/qwen-2_5-72b-instruct/crp_bias_all/congnitive_bias_aware/posthoc_balanced/unseen/unseen_posthoc_balanced_metrics.json
+2026-08-14 01:18:56,029 - INFO - Summary report saved to results/qwen/qwen-2_5-72b-instruct/crp_bias_all/congnitive_bias_aware/posthoc_balanced/summary.json

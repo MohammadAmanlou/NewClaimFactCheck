@@ -1,0 +1,212 @@
+{
+    "dataset": "crp_bias_all",
+    "model": "qwen/qwen-2.5-72b-instruct",
+    "prompt_method": "strong_baseline_short",
+    "temporal_split": "2024-09-01",
+    "evaluation_mode": "posthoc_label_stratified_balanced",
+    "sampling_info": {
+        "enabled": true,
+        "stage": "post_inference",
+        "strategy": "label_stratified_seen_unseen_balance_after_prediction",
+        "method": "strong_baseline_short",
+        "seed": 42,
+        "original_seen_count": 122,
+        "original_unseen_count": 178,
+        "sampled_seen_count": 97,
+        "sampled_unseen_count": 97,
+        "labels": [
+            "Supported",
+            "Refuted",
+            "Misleading",
+            "Not Enough Information"
+        ],
+        "per_label_info": {
+            "Supported": {
+                "original_seen": 57,
+                "original_unseen": 34,
+                "sampled_seen": 34,
+                "sampled_unseen": 34
+            },
+            "Refuted": {
+                "original_seen": 31,
+                "original_unseen": 103,
+                "sampled_seen": 31,
+                "sampled_unseen": 31
+            },
+            "Misleading": {
+                "original_seen": 23,
+                "original_unseen": 32,
+                "sampled_seen": 23,
+                "sampled_unseen": 23
+            },
+            "Not Enough Information": {
+                "original_seen": 11,
+                "original_unseen": 9,
+                "sampled_seen": 9,
+                "sampled_unseen": 9
+            }
+        },
+        "timestamp": "2026-08-14T01:03:54.247317"
+    },
+    "seen_metrics": {
+        "accuracy": 0.3814,
+        "macro_precision": 0.7286,
+        "macro_recall": 0.4753,
+        "macro_f1": 0.4844,
+        "total_samples": 97,
+        "correct_predictions": 37,
+        "per_label_metrics": {
+            "Supported": {
+                "precision": 0.8571,
+                "recall": 0.1765,
+                "f1": 0.2927,
+                "support": 34
+            },
+            "Refuted": {
+                "precision": 0.6,
+                "recall": 0.7742,
+                "f1": 0.6761,
+                "support": 31
+            }
+        },
+        "nei_prediction_rate": 0.0,
+        "false_nei_rate": 0.0
+    },
+    "unseen_metrics": {
+        "accuracy": 0.4536,
+        "macro_precision": 0.8625,
+        "macro_recall": 0.556,
+        "macro_f1": 0.5585,
+        "total_samples": 97,
+        "correct_predictions": 44,
+        "per_label_metrics": {
+            "Supported": {
+                "precision": 1.0,
+                "recall": 0.1765,
+                "f1": 0.3,
+                "support": 34
+            },
+            "Refuted": {
+                "precision": 0.725,
+                "recall": 0.9355,
+                "f1": 0.8169,
+                "support": 31
+            }
+        },
+        "nei_prediction_rate": 0.0,
+        "false_nei_rate": 0.0
+    },
+    "comparison": {
+        "seen_metrics": {
+            "accuracy": 0.3814,
+            "macro_precision": 0.7286,
+            "macro_recall": 0.4753,
+            "macro_f1": 0.4844,
+            "total_samples": 97,
+            "correct_predictions": 37,
+            "per_label_metrics": {
+                "Supported": {
+                    "precision": 0.8571,
+                    "recall": 0.1765,
+                    "f1": 0.2927,
+                    "support": 34
+                },
+                "Refuted": {
+                    "precision": 0.6,
+                    "recall": 0.7742,
+                    "f1": 0.6761,
+                    "support": 31
+                }
+            },
+            "nei_prediction_rate": 0.0,
+            "false_nei_rate": 0.0
+        },
+        "unseen_metrics": {
+            "accuracy": 0.4536,
+            "macro_precision": 0.8625,
+            "macro_recall": 0.556,
+            "macro_f1": 0.5585,
+            "total_samples": 97,
+            "correct_predictions": 44,
+            "per_label_metrics": {
+                "Supported": {
+                    "precision": 1.0,
+                    "recall": 0.1765,
+                    "f1": 0.3,
+                    "support": 34
+                },
+                "Refuted": {
+                    "precision": 0.725,
+                    "recall": 0.9355,
+                    "f1": 0.8169,
+                    "support": 31
+                }
+            },
+            "nei_prediction_rate": 0.0,
+            "false_nei_rate": 0.0
+        },
+        "statistical_tests": {
+            "t_test": {
+                "t_statistic": -1.0166,
+                "p_value": 0.3106,
+                "significant_at_0.05": false,
+                "interpretation": "No significant difference"
+            },
+            "chi_square_test": {
+                "chi2_statistic": 0.763,
+                "p_value": 0.3824,
+                "degrees_of_freedom": 1,
+                "significant_at_0.05": false,
+                "interpretation": "No significant difference"
+            }
+        },
+        "accuracy_difference": 0.0722,
+        "sampling_info": {
+            "enabled": true,
+            "stage": "post_inference",
+            "strategy": "label_stratified_seen_unseen_balance_after_prediction",
+            "method": "strong_baseline_short",
+            "seed": 42,
+            "original_seen_count": 122,
+            "original_unseen_count": 178,
+            "sampled_seen_count": 97,
+            "sampled_unseen_count": 97,
+            "labels": [
+                "Supported",
+                "Refuted",
+                "Misleading",
+                "Not Enough Information"
+            ],
+            "per_label_info": {
+                "Supported": {
+                    "original_seen": 57,
+                    "original_unseen": 34,
+                    "sampled_seen": 34,
+                    "sampled_unseen": 34
+                },
+                "Refuted": {
+                    "original_seen": 31,
+                    "original_unseen": 103,
+                    "sampled_seen": 31,
+                    "sampled_unseen": 31
+                },
+                "Misleading": {
+                    "original_seen": 23,
+                    "original_unseen": 32,
+                    "sampled_seen": 23,
+                    "sampled_unseen": 23
+                },
+                "Not Enough Information": {
+                    "original_seen": 11,
+                    "original_unseen": 9,
+                    "sampled_seen": 9,
+                    "sampled_unseen": 9
+                }
+            },
+            "timestamp": "2026-08-14T01:03:54.247317"
+        },
+        "prompt_method": "strong_baseline_short",
+        "evaluation_mode": "posthoc_label_stratified_balanced"
+    },
+    "timestamp": "2026-08-14T01:03:54.259315"
+}

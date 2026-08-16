@@ -1,0 +1,31 @@
+2026-08-13 23:12:50,465 - INFO - Prompt method: strong_baseline_short
+2026-08-13 23:25:18,430 - INFO - Metrics: Accuracy=0.4070, Macro-F1=0.5131
+2026-08-13 23:35:52,150 - INFO - Metrics: Accuracy=0.4688, Macro-F1=0.5867
+2026-08-13 23:35:52,151 - INFO - ================================================================================
+2026-08-13 23:35:52,151 - INFO - Comparing seen vs unseen performance...
+2026-08-13 23:35:52,154 - INFO - Metrics: Accuracy=0.4070, Macro-F1=0.5131
+2026-08-13 23:35:52,155 - INFO - Metrics: Accuracy=0.4688, Macro-F1=0.5867
+2026-08-13 23:35:52,159 - INFO - Seen accuracy: 0.407
+2026-08-13 23:35:52,159 - INFO - Unseen accuracy: 0.4688
+2026-08-13 23:35:52,159 - INFO - Difference: 0.0618
+2026-08-13 23:35:52,159 - INFO - T-test p-value: 0.4535 (not significant)
+2026-08-13 23:35:52,159 - INFO - Chi-square p-value: 0.5562 (not significant)
+2026-08-13 23:35:52,160 - INFO - Summary report saved to results/qwen/qwen-2_5-72b-instruct/fact5_bias_all/strong_baseline_short/summary.json
+2026-08-13 23:35:52,163 - INFO - Metrics: Accuracy=0.4918, Macro-F1=0.5518
+2026-08-13 23:35:52,165 - INFO - Metrics: Accuracy=0.4918, Macro-F1=0.5867
+2026-08-13 23:35:52,165 - INFO - ================================================================================
+2026-08-13 23:35:52,165 - INFO - Comparing seen vs unseen performance...
+2026-08-13 23:35:52,167 - INFO - Metrics: Accuracy=0.4918, Macro-F1=0.5518
+2026-08-13 23:35:52,168 - INFO - Metrics: Accuracy=0.4918, Macro-F1=0.5867
+2026-08-13 23:35:52,171 - INFO - Seen accuracy: 0.4918
+2026-08-13 23:35:52,171 - INFO - Unseen accuracy: 0.4918
+2026-08-13 23:35:52,171 - INFO - Difference: 0.0000
+2026-08-13 23:35:52,171 - INFO - T-test p-value: 1.0000 (not significant)
+2026-08-13 23:35:52,172 - INFO - Chi-square p-value: 1.0000 (not significant)
+2026-08-13 23:35:52,175 - INFO - Predictions saved to results/qwen/qwen-2_5-72b-instruct/fact5_bias_all/strong_baseline_short/posthoc_balanced/seen/seen_posthoc_balanced_predictions.csv
+2026-08-13 23:35:52,176 - INFO - Predictions JSON saved to results/qwen/qwen-2_5-72b-instruct/fact5_bias_all/strong_baseline_short/posthoc_balanced/seen/seen_posthoc_balanced_predictions.json
+2026-08-13 23:35:52,176 - INFO - Metrics saved to results/qwen/qwen-2_5-72b-instruct/fact5_bias_all/strong_baseline_short/posthoc_balanced/seen/seen_posthoc_balanced_metrics.json
+2026-08-13 23:35:52,178 - INFO - Predictions saved to results/qwen/qwen-2_5-72b-instruct/fact5_bias_all/strong_baseline_short/posthoc_balanced/unseen/unseen_posthoc_balanced_predictions.csv
+2026-08-13 23:35:52,179 - INFO - Predictions JSON saved to results/qwen/qwen-2_5-72b-instruct/fact5_bias_all/strong_baseline_short/posthoc_balanced/unseen/unseen_posthoc_balanced_predictions.json
+2026-08-13 23:35:52,179 - INFO - Metrics saved to results/qwen/qwen-2_5-72b-instruct/fact5_bias_all/strong_baseline_short/posthoc_balanced/unseen/unseen_posthoc_balanced_metrics.json
+2026-08-13 23:35:52,180 - INFO - Summary report saved to results/qwen/qwen-2_5-72b-instruct/fact5_bias_all/strong_baseline_short/posthoc_balanced/summary.json

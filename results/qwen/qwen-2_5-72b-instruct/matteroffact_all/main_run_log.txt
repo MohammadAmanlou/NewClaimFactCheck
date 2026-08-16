@@ -1,0 +1,4 @@
+2026-08-14 01:35:56,542 - INFO - ================================================================================
+2026-08-14 01:35:56,542 - INFO - STARTING FACT-CHECK INFERENCE PIPELINE
+2026-08-14 01:35:56,542 - INFO - Dataset: matteroffact_all, Model: qwen/qwen-2.5-72b-instruct
+2026-08-14 01:35:56,542 - INFO - Prompt methods: ['strong_baseline_short', 'congnitive_bias_aware']

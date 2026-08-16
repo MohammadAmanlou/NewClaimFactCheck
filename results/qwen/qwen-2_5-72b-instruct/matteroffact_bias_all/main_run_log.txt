@@ -1,0 +1,6 @@
+2026-08-15 00:51:45,269 - INFO - ================================================================================
+2026-08-15 00:51:45,269 - INFO - STARTING FACT-CHECK INFERENCE PIPELINE
+2026-08-15 00:51:45,269 - INFO - Dataset: matteroffact_bias_all, Model: qwen/qwen-2.5-72b-instruct
+2026-08-15 00:51:45,269 - INFO - Prompt methods: ['congnitive_bias_aware']
+2026-08-15 00:51:45,624 - INFO - Loaded 8360 claims (is_test=False). API key configured: True
+2026-08-15 00:51:45,624 - INFO - Processing LABELED data with temporal split analysis
