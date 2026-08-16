@@ -1,0 +1,6 @@
+2026-08-03 17:44:17,185 - INFO - ================================================================================
+2026-08-03 17:44:17,185 - INFO - STARTING FACT-CHECK INFERENCE PIPELINE
+2026-08-03 17:44:17,185 - INFO - Dataset: tsver_bias_all, Model: meta-llama/llama-3.1-70b-instruct
+2026-08-03 17:44:17,185 - INFO - Prompt methods: ['cognitive_bias_aware']
+2026-08-03 17:44:17,262 - INFO - Loaded 304 claims (is_test=False). API key configured: True
+2026-08-03 17:44:17,262 - INFO - Processing LABELED data with temporal split analysis

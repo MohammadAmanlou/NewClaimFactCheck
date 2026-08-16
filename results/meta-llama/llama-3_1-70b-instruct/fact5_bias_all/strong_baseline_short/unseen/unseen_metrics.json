@@ -1,0 +1,24 @@
+{
+    "accuracy": 0.4779,
+    "macro_precision": 0.6513,
+    "macro_recall": 0.5597,
+    "macro_f1": 0.5101,
+    "total_samples": 113,
+    "correct_predictions": 54,
+    "per_label_metrics": {
+        "Supported": {
+            "precision": 0.7,
+            "recall": 0.1795,
+            "f1": 0.2857,
+            "support": 39
+        },
+        "Refuted": {
+            "precision": 0.6026,
+            "recall": 0.94,
+            "f1": 0.7344,
+            "support": 50
+        }
+    },
+    "nei_prediction_rate": 0.0,
+    "false_nei_rate": 0.0
+}
