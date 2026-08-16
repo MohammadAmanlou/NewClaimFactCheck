@@ -1,0 +1,31 @@
+2026-08-10 07:16:10,372 - INFO - Prompt method: strong_baseline_short
+2026-08-10 07:51:00,744 - INFO - Metrics: Accuracy=0.6159, Macro-F1=0.3896
+2026-08-10 07:52:40,223 - INFO - Metrics: Accuracy=0.5333, Macro-F1=0.3431
+2026-08-10 07:52:40,223 - INFO - ================================================================================
+2026-08-10 07:52:40,224 - INFO - Comparing seen vs unseen performance...
+2026-08-10 07:52:40,226 - INFO - Metrics: Accuracy=0.6159, Macro-F1=0.3896
+2026-08-10 07:52:40,227 - INFO - Metrics: Accuracy=0.5333, Macro-F1=0.3431
+2026-08-10 07:52:40,230 - INFO - Seen accuracy: 0.6159
+2026-08-10 07:52:40,230 - INFO - Unseen accuracy: 0.5333
+2026-08-10 07:52:40,230 - INFO - Difference: -0.0826
+2026-08-10 07:52:40,230 - INFO - T-test p-value: 0.5238 (not significant)
+2026-08-10 07:52:40,230 - INFO - Chi-square p-value: 0.7127 (not significant)
+2026-08-10 07:52:40,230 - INFO - Summary report saved to results/grok-3-mini/tsver_bias_all/strong_baseline_short/summary.json
+2026-08-10 07:52:40,231 - INFO - Metrics: Accuracy=0.5333, Macro-F1=0.3708
+2026-08-10 07:52:40,231 - INFO - Metrics: Accuracy=0.5333, Macro-F1=0.3431
+2026-08-10 07:52:40,231 - INFO - ================================================================================
+2026-08-10 07:52:40,231 - INFO - Comparing seen vs unseen performance...
+2026-08-10 07:52:40,231 - INFO - Metrics: Accuracy=0.5333, Macro-F1=0.3708
+2026-08-10 07:52:40,231 - INFO - Metrics: Accuracy=0.5333, Macro-F1=0.3431
+2026-08-10 07:52:40,232 - INFO - Seen accuracy: 0.5333
+2026-08-10 07:52:40,232 - INFO - Unseen accuracy: 0.5333
+2026-08-10 07:52:40,232 - INFO - Difference: 0.0000
+2026-08-10 07:52:40,232 - INFO - T-test p-value: 1.0000 (not significant)
+2026-08-10 07:52:40,232 - INFO - Chi-square p-value: 1.0000 (not significant)
+2026-08-10 07:52:40,233 - INFO - Predictions saved to results/grok-3-mini/tsver_bias_all/strong_baseline_short/posthoc_balanced/seen/seen_posthoc_balanced_predictions.csv
+2026-08-10 07:52:40,233 - INFO - Predictions JSON saved to results/grok-3-mini/tsver_bias_all/strong_baseline_short/posthoc_balanced/seen/seen_posthoc_balanced_predictions.json
+2026-08-10 07:52:40,233 - INFO - Metrics saved to results/grok-3-mini/tsver_bias_all/strong_baseline_short/posthoc_balanced/seen/seen_posthoc_balanced_metrics.json
+2026-08-10 07:52:40,234 - INFO - Predictions saved to results/grok-3-mini/tsver_bias_all/strong_baseline_short/posthoc_balanced/unseen/unseen_posthoc_balanced_predictions.csv
+2026-08-10 07:52:40,234 - INFO - Predictions JSON saved to results/grok-3-mini/tsver_bias_all/strong_baseline_short/posthoc_balanced/unseen/unseen_posthoc_balanced_predictions.json
+2026-08-10 07:52:40,234 - INFO - Metrics saved to results/grok-3-mini/tsver_bias_all/strong_baseline_short/posthoc_balanced/unseen/unseen_posthoc_balanced_metrics.json
+2026-08-10 07:52:40,235 - INFO - Summary report saved to results/grok-3-mini/tsver_bias_all/strong_baseline_short/posthoc_balanced/summary.json

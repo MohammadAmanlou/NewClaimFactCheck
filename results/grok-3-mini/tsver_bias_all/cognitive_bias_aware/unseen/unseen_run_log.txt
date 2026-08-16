@@ -1,0 +1,172 @@
+2026-08-10 08:26:54,947 - INFO - Processing 15 claims...
+2026-08-10 08:26:54,947 - INFO - ================================================================================
+2026-08-10 08:26:54,947 - INFO - Processing claim #0 (ID: tsver_test_20)
+2026-08-10 08:26:54,947 - INFO - Claim: Renewables have overtaken fossil fuels as the largest source of electricity in India....
+2026-08-10 08:26:54,947 - INFO - Date: 2025-08-08
+2026-08-10 08:26:54,947 - INFO - Asking model: grok-3-mini (method: cognitive_bias_aware)
+2026-08-10 08:26:54,947 - INFO - Claim: Renewables have overtaken fossil fuels as the largest source of electricity in India....
+2026-08-10 08:27:00,141 - INFO - API Response Status: 200
+2026-08-10 08:27:00,141 - INFO - Raw model response: {"label": "Refuted", "brief_reason": "Fossil fuels (mainly coal) remain India's dominant electricity source as of 2025; renewables have not overtaken them."}
+2026-08-10 08:27:00,142 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2026-08-10 08:27:00,143 - INFO - Prediction: Refuted
+2026-08-10 08:27:00,143 - INFO - ✓ Correct prediction
+2026-08-10 08:27:00,647 - INFO - ================================================================================
+2026-08-10 08:27:00,648 - INFO - Processing claim #1 (ID: tsver_test_126)
+2026-08-10 08:27:00,648 - INFO - Claim: In Iran, the female literacy rate is 98.9% and 70% of STEM university graduates are women, as of the most recent data available in June 2025....
+2026-08-10 08:27:00,648 - INFO - Date: 2025-06-25
+2026-08-10 08:27:00,648 - INFO - Asking model: grok-3-mini (method: cognitive_bias_aware)
+2026-08-10 08:27:00,648 - INFO - Claim: In Iran, the female literacy rate is 98.9% and 70% of STEM university graduates are women, as of the most recent data available in June 2025....
+2026-08-10 08:27:09,974 - INFO - API Response Status: 200
+2026-08-10 08:27:09,974 - INFO - Raw model response: {"label": "Refuted", "brief_reason": "98.9% figure applies only to youth literacy, not the standard adult female rate (~81-85%), and the 2025 date makes the claim unverifiable or inaccurate."}
+2026-08-10 08:27:09,974 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2026-08-10 08:27:09,976 - INFO - Prediction: Refuted
+2026-08-10 08:27:09,976 - INFO - ✗ Incorrect (True: Not Enough Information, Pred: Refuted)
+2026-08-10 08:27:10,485 - INFO - ================================================================================
+2026-08-10 08:27:10,485 - INFO - Processing claim #2 (ID: tsver_test_177)
+2026-08-10 08:27:10,485 - INFO - Claim: Germany is "back to coal," coal plants are being opened “all over Germany.”...
+2026-08-10 08:27:10,485 - INFO - Date: 2025-04-08
+2026-08-10 08:27:10,485 - INFO - Asking model: grok-3-mini (method: cognitive_bias_aware)
+2026-08-10 08:27:10,485 - INFO - Claim: Germany is "back to coal," coal plants are being opened “all over Germany.”...
+2026-08-10 08:27:16,730 - INFO - API Response Status: 200
+2026-08-10 08:27:16,731 - INFO - Raw model response: {"label": "Misleading", "brief_reason": "Exaggerates temporary reserve reactivations into a false narrative of new plants opening 'all over' Germany while ignoring ongoing phase-out."}
+2026-08-10 08:27:16,731 - INFO - Extracted label: Misleading -> Normalized: Misleading
+2026-08-10 08:27:16,733 - INFO - Prediction: Misleading
+2026-08-10 08:27:16,733 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-08-10 08:27:17,235 - INFO - ================================================================================
+2026-08-10 08:27:17,235 - INFO - Processing claim #3 (ID: tsver_test_183)
+2026-08-10 08:27:17,235 - INFO - Claim: I [Donald Trump] have stopped all government censorship and brought back free speech in America. It’s back....
+2026-08-10 08:27:17,235 - INFO - Date: 2025-03-04
+2026-08-10 08:27:17,235 - INFO - Asking model: grok-3-mini (method: cognitive_bias_aware)
+2026-08-10 08:27:17,235 - INFO - Claim: I [Donald Trump] have stopped all government censorship and brought back free speech in America. It’s back....
+2026-08-10 08:27:23,282 - INFO - API Response Status: 200
+2026-08-10 08:27:23,282 - INFO - Raw model response: {"label": "Misleading", "brief_reason": "Absolute phrasing ('stopped all', 'it's back') exaggerates partial policy shifts into a total reversal while ignoring ongoing limits and private-sector factors."}
+2026-08-10 08:27:23,282 - INFO - Extracted label: Misleading -> Normalized: Misleading
+2026-08-10 08:27:23,284 - INFO - Prediction: Misleading
+2026-08-10 08:27:23,285 - INFO - ✗ Incorrect (True: Not Enough Information, Pred: Misleading)
+2026-08-10 08:27:23,791 - INFO - ================================================================================
+2026-08-10 08:27:23,791 - INFO - Processing claim #4 (ID: tsver_test_188)
+2026-08-10 08:27:23,791 - INFO - Claim: China doesn’t have a lot of wind farms. … Very, very few....
+2026-08-10 08:27:23,791 - INFO - Date: 2025-07-08
+2026-08-10 08:27:23,791 - INFO - Asking model: grok-3-mini (method: cognitive_bias_aware)
+2026-08-10 08:27:23,791 - INFO - Claim: China doesn’t have a lot of wind farms. … Very, very few....
+2026-08-10 08:27:27,378 - INFO - API Response Status: 200
+2026-08-10 08:27:27,378 - INFO - Raw model response: {"label": "Refuted", "brief_reason": "China has the world's largest wind power capacity by far, with hundreds of GW installed across thousands of farms."}
+2026-08-10 08:27:27,378 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2026-08-10 08:27:27,380 - INFO - Prediction: Refuted
+2026-08-10 08:27:27,380 - INFO - ✓ Correct prediction
+2026-08-10 08:27:27,891 - INFO - ================================================================================
+2026-08-10 08:27:27,891 - INFO - Processing claim #5 (ID: tsver_test_189)
+2026-08-10 08:27:27,891 - INFO - Claim: [Kenya's] GDP growth improved from 4.9% in 2022 to 5.6% in 2023 …...
+2026-08-10 08:27:27,891 - INFO - Date: 2025-03-01
+2026-08-10 08:27:27,891 - INFO - Asking model: grok-3-mini (method: cognitive_bias_aware)
+2026-08-10 08:27:27,891 - INFO - Claim: [Kenya's] GDP growth improved from 4.9% in 2022 to 5.6% in 2023 …...
+2026-08-10 08:27:34,543 - INFO - API Response Status: 200
+2026-08-10 08:27:34,544 - INFO - Raw model response: {"label": "Supported", "brief_reason": "Official Kenyan statistics confirm GDP growth rose from 4.9% (2022) to 5.6% (2023)."}
+2026-08-10 08:27:34,544 - INFO - Extracted label: Supported -> Normalized: Supported
+2026-08-10 08:27:34,545 - INFO - Prediction: Supported
+2026-08-10 08:27:34,545 - INFO - ✓ Correct prediction
+2026-08-10 08:27:35,048 - INFO - ================================================================================
+2026-08-10 08:27:35,049 - INFO - Processing claim #6 (ID: tsver_test_193)
+2026-08-10 08:27:35,049 - INFO - Claim: ... homophobic views declined in countries around the world from 1993 to 2022....
+2026-08-10 08:27:35,049 - INFO - Date: 2025-08-15
+2026-08-10 08:27:35,049 - INFO - Asking model: grok-3-mini (method: cognitive_bias_aware)
+2026-08-10 08:27:35,049 - INFO - Claim: ... homophobic views declined in countries around the world from 1993 to 2022....
+2026-08-10 08:27:44,581 - INFO - API Response Status: 200
+2026-08-10 08:27:44,581 - INFO - Raw model response: {"label": "Supported", "brief_reason": "Global survey trends (e.g., World Values Survey, Pew) show net decline in homophobic attitudes across many countries 1993-2022."}
+2026-08-10 08:27:44,582 - INFO - Extracted label: Supported -> Normalized: Supported
+2026-08-10 08:27:44,584 - INFO - Prediction: Supported
+2026-08-10 08:27:44,584 - INFO - ✓ Correct prediction
+2026-08-10 08:27:45,093 - INFO - ================================================================================
+2026-08-10 08:27:45,093 - INFO - Processing claim #7 (ID: tsver_test_209)
+2026-08-10 08:27:45,093 - INFO - Claim: 300,000 or 350,000 people died last year from drugs [in the USA]....
+2026-08-10 08:27:45,093 - INFO - Date: 2025-09-05
+2026-08-10 08:27:45,093 - INFO - Asking model: grok-3-mini (method: cognitive_bias_aware)
+2026-08-10 08:27:45,093 - INFO - Claim: 300,000 or 350,000 people died last year from drugs [in the USA]....
+2026-08-10 08:27:50,626 - INFO - API Response Status: 200
+2026-08-10 08:27:50,626 - INFO - Raw model response: {"label": "Refuted", "brief_reason": "US drug overdose deaths in 2024 totaled ~100k, not 300-350k."}
+2026-08-10 08:27:50,626 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2026-08-10 08:27:50,628 - INFO - Prediction: Refuted
+2026-08-10 08:27:50,628 - INFO - ✗ Incorrect (True: Not Enough Information, Pred: Refuted)
+2026-08-10 08:27:51,136 - INFO - ================================================================================
+2026-08-10 08:27:51,137 - INFO - Processing claim #8 (ID: tsver_test_210)
+2026-08-10 08:27:51,137 - INFO - Claim: Cocoa production in West and Central Africa is increasing, there is no impact of climate change....
+2026-08-10 08:27:51,137 - INFO - Date: 2025-04-16
+2026-08-10 08:27:51,137 - INFO - Asking model: grok-3-mini (method: cognitive_bias_aware)
+2026-08-10 08:27:51,137 - INFO - Claim: Cocoa production in West and Central Africa is increasing, there is no impact of climate change....
+2026-08-10 08:27:56,090 - INFO - API Response Status: 200
+2026-08-10 08:27:56,090 - INFO - Raw model response: {"label": "Refuted", "brief_reason": "The assertion that climate change has no impact on cocoa production in West/Central Africa is factually false, as multiple studies document negative effects on yields."}
+2026-08-10 08:27:56,090 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2026-08-10 08:27:56,092 - INFO - Prediction: Refuted
+2026-08-10 08:27:56,092 - INFO - ✗ Incorrect (True: Misleading, Pred: Refuted)
+2026-08-10 08:27:56,597 - INFO - ================================================================================
+2026-08-10 08:27:56,597 - INFO - Processing claim #9 (ID: tsver_test_214)
+2026-08-10 08:27:56,598 - INFO - Claim: India ranks fourth globally in income inequality....
+2026-08-10 08:27:56,598 - INFO - Date: 2025-07-05
+2026-08-10 08:27:56,598 - INFO - Asking model: grok-3-mini (method: cognitive_bias_aware)
+2026-08-10 08:27:56,598 - INFO - Claim: India ranks fourth globally in income inequality....
+2026-08-10 08:28:02,501 - INFO - API Response Status: 200
+2026-08-10 08:28:02,501 - INFO - Raw model response: {"label": "Refuted", "brief_reason": "India's income Gini coefficient (~35-36) places it far outside the global top ranks, which are dominated by countries like South Africa and Brazil with Ginis above 50."}
+2026-08-10 08:28:02,501 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2026-08-10 08:28:02,503 - INFO - Prediction: Refuted
+2026-08-10 08:28:02,503 - INFO - ✓ Correct prediction
+2026-08-10 08:28:03,014 - INFO - ================================================================================
+2026-08-10 08:28:03,015 - INFO - Processing claim #10 (ID: tsver_test_249)
+2026-08-10 08:28:03,015 - INFO - Claim: India surpassed Japan to become the fourth largest economy; India is currently a $4 trillion economy....
+2026-08-10 08:28:03,015 - INFO - Date: 2025-05-24
+2026-08-10 08:28:03,015 - INFO - Asking model: grok-3-mini (method: cognitive_bias_aware)
+2026-08-10 08:28:03,015 - INFO - Claim: India surpassed Japan to become the fourth largest economy; India is currently a $4 trillion economy....
+2026-08-10 08:28:11,839 - INFO - API Response Status: 200
+2026-08-10 08:28:11,839 - INFO - Raw model response: {"label": "Supported", "brief_reason": "By May 2025, nominal GDP data confirm India overtook Japan (~$4.1T vs. India's ~$4.0T+), becoming the fourth-largest economy and reaching the $4T threshold."}
+2026-08-10 08:28:11,839 - INFO - Extracted label: Supported -> Normalized: Supported
+2026-08-10 08:28:11,841 - INFO - Prediction: Supported
+2026-08-10 08:28:11,841 - INFO - ✗ Incorrect (True: Refuted, Pred: Supported)
+2026-08-10 08:28:12,349 - INFO - ================================================================================
+2026-08-10 08:28:12,349 - INFO - Processing claim #11 (ID: tsver_test_269)
+2026-08-10 08:28:12,349 - INFO - Claim: Russia's defence spending is at 43% of its GDP....
+2026-08-10 08:28:12,349 - INFO - Date: 2025-05-11
+2026-08-10 08:28:12,349 - INFO - Asking model: grok-3-mini (method: cognitive_bias_aware)
+2026-08-10 08:28:12,349 - INFO - Claim: Russia's defence spending is at 43% of its GDP....
+2026-08-10 08:28:17,042 - INFO - API Response Status: 200
+2026-08-10 08:28:17,042 - INFO - Raw model response: {"label": "Refuted", "brief_reason": "Russia's defense spending is ~6-8% of GDP; 43% figure confuses federal budget share with GDP share."}
+2026-08-10 08:28:17,042 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2026-08-10 08:28:17,044 - INFO - Prediction: Refuted
+2026-08-10 08:28:17,044 - INFO - ✓ Correct prediction
+2026-08-10 08:28:17,554 - INFO - ================================================================================
+2026-08-10 08:28:17,554 - INFO - Processing claim #12 (ID: tsver_test_285)
+2026-08-10 08:28:17,554 - INFO - Claim: The murder rate in South Africa is behind only Jamaica and Ecuador....
+2026-08-10 08:28:17,554 - INFO - Date: 2025-09-01
+2026-08-10 08:28:17,554 - INFO - Asking model: grok-3-mini (method: cognitive_bias_aware)
+2026-08-10 08:28:17,554 - INFO - Claim: The murder rate in South Africa is behind only Jamaica and Ecuador....
+2026-08-10 08:28:23,727 - INFO - API Response Status: 200
+2026-08-10 08:28:23,728 - INFO - Raw model response: {"label": "Refuted", "brief_reason": "South Africa's murder rate ranks well below third globally, with multiple countries (e.g., Jamaica, Honduras, Trinidad & Tobago, Belize) showing higher rates in recent UNODC/World Bank data."}
+2026-08-10 08:28:23,728 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2026-08-10 08:28:23,730 - INFO - Prediction: Refuted
+2026-08-10 08:28:23,730 - INFO - ✗ Incorrect (True: Not Enough Information, Pred: Refuted)
+2026-08-10 08:28:24,232 - INFO - ================================================================================
+2026-08-10 08:28:24,232 - INFO - Processing claim #13 (ID: tsver_test_286)
+2026-08-10 08:28:24,232 - INFO - Claim: The mass of ice in Antarctica has rebounded after increasing in recent years....
+2026-08-10 08:28:24,232 - INFO - Date: 2025-08-26
+2026-08-10 08:28:24,232 - INFO - Asking model: grok-3-mini (method: cognitive_bias_aware)
+2026-08-10 08:28:24,232 - INFO - Claim: The mass of ice in Antarctica has rebounded after increasing in recent years....
+2026-08-10 08:28:31,731 - INFO - API Response Status: 200
+2026-08-10 08:28:31,733 - INFO - Raw model response: {"label": "Refuted", "brief_reason": "Antarctic ice sheet mass has shown net loss over recent decades with no verified rebound to net gain."}
+2026-08-10 08:28:31,733 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2026-08-10 08:28:31,735 - INFO - Prediction: Refuted
+2026-08-10 08:28:31,735 - INFO - ✗ Incorrect (True: Not Enough Information, Pred: Refuted)
+2026-08-10 08:28:32,241 - INFO - ================================================================================
+2026-08-10 08:28:32,241 - INFO - Processing claim #14 (ID: tsver_test_297)
+2026-08-10 08:28:32,241 - INFO - Claim: On average, the area of Arctic sea ice during summer and winter has never changed....
+2026-08-10 08:28:32,241 - INFO - Date: 2025-05-16
+2026-08-10 08:28:32,241 - INFO - Asking model: grok-3-mini (method: cognitive_bias_aware)
+2026-08-10 08:28:32,241 - INFO - Claim: On average, the area of Arctic sea ice during summer and winter has never changed....
+2026-08-10 08:28:36,081 - INFO - API Response Status: 200
+2026-08-10 08:28:36,081 - INFO - Raw model response: {"label": "Refuted", "brief_reason": "Arctic sea ice extent has declined substantially in both summer and winter since satellite records began."}
+2026-08-10 08:28:36,081 - INFO - Extracted label: Refuted -> Normalized: Refuted
+2026-08-10 08:28:36,083 - INFO - Prediction: Refuted
+2026-08-10 08:28:36,083 - INFO - ✓ Correct prediction
+2026-08-10 08:28:36,590 - INFO - ================================================================================
+2026-08-10 08:28:36,590 - INFO - Processing complete: 15 predictions (7 correct, 8 incorrect), 0 failed
+2026-08-10 08:28:36,591 - INFO - Metrics: Accuracy=0.4667, Macro-F1=0.3470
+2026-08-10 08:28:36,595 - INFO - Predictions saved to results/grok-3-mini/tsver_bias_all/cognitive_bias_aware/unseen/unseen_predictions.csv
+2026-08-10 08:28:36,596 - INFO - Predictions JSON saved to results/grok-3-mini/tsver_bias_all/cognitive_bias_aware/unseen/unseen_predictions.json
+2026-08-10 08:28:36,596 - INFO - Metrics saved to results/grok-3-mini/tsver_bias_all/cognitive_bias_aware/unseen/unseen_metrics.json
