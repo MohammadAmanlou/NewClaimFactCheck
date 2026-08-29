@@ -1,0 +1,1573 @@
+2026-08-20 22:06:00,040 - INFO - Processing 261 claims...
+2026-08-20 22:06:00,041 - INFO - ================================================================================
+2026-08-20 22:06:00,041 - INFO - Processing claim #0 (ID: tracer_test_14733)
+2026-08-20 22:06:00,041 - INFO - Claim: Sen. Jon Tester “voted to let men compete against our girls in their sports.”...
+2026-08-20 22:06:00,041 - INFO - Date: 2024-09-01
+2026-08-20 22:06:01,135 - INFO - Prediction: Refuted
+2026-08-20 22:06:01,136 - INFO - ✓ Correct prediction
+2026-08-20 22:06:04,142 - INFO - ================================================================================
+2026-08-20 22:06:04,143 - INFO - Processing claim #1 (ID: tracer_test_14734)
+2026-08-20 22:06:04,143 - INFO - Claim: "Typically you have three to four debates in a U.S. Senate race. (Sen. Tammy Baldwin, D-Wis. has) given me one debate, almost a month after early voti...
+2026-08-20 22:06:04,143 - INFO - Date: 2024-09-03
+2026-08-20 22:06:05,352 - INFO - Prediction: Misleading
+2026-08-20 22:06:05,352 - INFO - ✓ Correct prediction
+2026-08-20 22:06:08,359 - INFO - ================================================================================
+2026-08-20 22:06:08,359 - INFO - Processing claim #2 (ID: tracer_test_14735)
+2026-08-20 22:06:08,359 - INFO - Claim: “Dave McCormick is fully against abortion.”...
+2026-08-20 22:06:08,360 - INFO - Date: 2024-09-03
+2026-08-20 22:06:09,523 - INFO - Prediction: Misleading
+2026-08-20 22:06:09,524 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-08-20 22:06:12,536 - INFO - ================================================================================
+2026-08-20 22:06:12,536 - INFO - Processing claim #3 (ID: tracer_test_14736)
+2026-08-20 22:06:12,536 - INFO - Claim: U.S. Sen. Sherrod Brown “supported allowing puberty blockers and sex-change surgeries for minor children.”...
+2026-08-20 22:06:12,536 - INFO - Date: 2024-09-03
+2026-08-20 22:06:13,646 - INFO - Prediction: Misleading
+2026-08-20 22:06:13,647 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-08-20 22:06:16,652 - INFO - ================================================================================
+2026-08-20 22:06:16,653 - INFO - Processing claim #4 (ID: tracer_test_14737)
+2026-08-20 22:06:16,653 - INFO - Claim: On June 7, 2011, Kamala Harris was involved in a San Francisco hit-and-run crash that injured a woman named Alicia Brown....
+2026-08-20 22:06:16,653 - INFO - Date: 2024-09-03
+2026-08-20 22:06:17,719 - INFO - Prediction: Refuted
+2026-08-20 22:06:17,720 - INFO - ✓ Correct prediction
+2026-08-20 22:06:20,731 - INFO - ================================================================================
+2026-08-20 22:06:20,732 - INFO - Processing claim #5 (ID: tracer_test_14738)
+2026-08-20 22:06:20,732 - INFO - Claim: Of Bernie Moreno, “Now, he’s arguing for a national abortion ban, no exceptions.”...
+2026-08-20 22:06:20,732 - INFO - Date: 2024-09-04
+2026-08-20 22:06:21,554 - INFO - Prediction: Refuted
+2026-08-20 22:06:21,554 - INFO - ✗ Incorrect (True: Misleading, Pred: Refuted)
+2026-08-20 22:06:24,566 - INFO - ================================================================================
+2026-08-20 22:06:24,566 - INFO - Processing claim #6 (ID: tracer_test_14739)
+2026-08-20 22:06:24,566 - INFO - Claim: The Inflation Reduction Act, which Rep. Elissa Slotkin supported, “drove inflation higher.”...
+2026-08-20 22:06:24,567 - INFO - Date: 2024-09-04
+2026-08-20 22:06:25,993 - INFO - Prediction: Refuted
+2026-08-20 22:06:25,993 - INFO - ✓ Correct prediction
+2026-08-20 22:06:29,005 - INFO - ================================================================================
+2026-08-20 22:06:29,005 - INFO - Processing claim #7 (ID: tracer_test_14740)
+2026-08-20 22:06:29,005 - INFO - Claim: “Mark Robinson skips Board of Education vote on teacher bonuses to hold campaign event.”...
+2026-08-20 22:06:29,006 - INFO - Date: 2024-09-05
+2026-08-20 22:06:31,318 - INFO - Prediction: Misleading
+2026-08-20 22:06:31,318 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-08-20 22:06:34,330 - INFO - ================================================================================
+2026-08-20 22:06:34,330 - INFO - Processing claim #8 (ID: tracer_test_14741)
+2026-08-20 22:06:34,330 - INFO - Claim: Says Democratic opponent Tammy Baldwin "gave stimulus checks to illegals."...
+2026-08-20 22:06:34,330 - INFO - Date: 2024-09-05
+2026-08-20 22:06:35,180 - INFO - Prediction: Refuted
+2026-08-20 22:06:35,180 - INFO - ✓ Correct prediction
+2026-08-20 22:06:38,184 - INFO - ================================================================================
+2026-08-20 22:06:38,184 - INFO - Processing claim #9 (ID: tracer_test_14742)
+2026-08-20 22:06:38,184 - INFO - Claim: “Tim Sheehy told us his health care plan: ‘We need to return health care to pure privatization.’ That would eliminate Medicare.”...
+2026-08-20 22:06:38,185 - INFO - Date: 2024-09-06
+2026-08-20 22:06:39,576 - INFO - Prediction: Misleading
+2026-08-20 22:06:39,577 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-08-20 22:06:42,588 - INFO - ================================================================================
+2026-08-20 22:06:42,589 - INFO - Processing claim #10 (ID: tracer_test_14743)
+2026-08-20 22:06:42,589 - INFO - Claim: Haitian immigrants are eating pets and wildlife in Springfield, Ohio....
+2026-08-20 22:06:42,589 - INFO - Date: 2024-09-06
+2026-08-20 22:06:43,655 - INFO - Prediction: Refuted
+2026-08-20 22:06:43,655 - INFO - ✓ Correct prediction
+2026-08-20 22:06:46,659 - INFO - ================================================================================
+2026-08-20 22:06:46,659 - INFO - Processing claim #11 (ID: tracer_test_14744)
+2026-08-20 22:06:46,659 - INFO - Claim: Vice President Kamala Harris “cast the tiebreaking votes that caused the worst inflation in American history, costing a typical American family $28,00...
+2026-08-20 22:06:46,659 - INFO - Date: 2024-09-07
+2026-08-20 22:06:47,591 - INFO - Prediction: Refuted
+2026-08-20 22:06:47,591 - INFO - ✓ Correct prediction
+2026-08-20 22:06:50,595 - INFO - ================================================================================
+2026-08-20 22:06:50,595 - INFO - Processing claim #12 (ID: tracer_test_14745)
+2026-08-20 22:06:50,596 - INFO - Claim: Florida’s Amendment 3 is “the monopoly amendment.”...
+2026-08-20 22:06:50,596 - INFO - Date: 2024-09-07
+2026-08-20 22:06:51,976 - INFO - Prediction: Refuted
+2026-08-20 22:06:51,977 - INFO - ✓ Correct prediction
+2026-08-20 22:06:54,984 - INFO - ================================================================================
+2026-08-20 22:06:54,984 - INFO - Processing claim #13 (ID: tracer_test_14746)
+2026-08-20 22:06:54,984 - INFO - Claim: Tim Sheehy “would let politicians like him ban abortion, with no exceptions for rape or to save a woman’s life, and criminalize women.”...
+2026-08-20 22:06:54,984 - INFO - Date: 2024-09-08
+2026-08-20 22:06:55,860 - INFO - Prediction: Refuted
+2026-08-20 22:06:55,861 - INFO - ✓ Correct prediction
+2026-08-20 22:06:58,872 - INFO - ================================================================================
+2026-08-20 22:06:58,872 - INFO - Processing claim #14 (ID: tracer_test_14747)
+2026-08-20 22:06:58,873 - INFO - Claim: Laurie Buckhout is “trying to get to Congress to pass a national abortion ban, allowing politicians to ban abortions with no exceptions and prosecute ...
+2026-08-20 22:06:58,873 - INFO - Date: 2024-09-09
+2026-08-20 22:07:01,985 - INFO - Prediction: Refuted
+2026-08-20 22:07:01,985 - INFO - ✓ Correct prediction
+2026-08-20 22:07:04,996 - INFO - ================================================================================
+2026-08-20 22:07:04,997 - INFO - Processing claim #15 (ID: tracer_test_14748)
+2026-08-20 22:07:04,997 - INFO - Claim: “Less than three months ago, Kamala Harris and her administration blocked 300,000 unvetted Haitian migrants from being deported out of our country."...
+2026-08-20 22:07:04,997 - INFO - Date: 2024-09-09
+2026-08-20 22:07:06,121 - INFO - Prediction: Refuted
+2026-08-20 22:07:06,121 - INFO - ✓ Correct prediction
+2026-08-20 22:07:09,133 - INFO - ================================================================================
+2026-08-20 22:07:09,133 - INFO - Processing claim #16 (ID: tracer_test_14749)
+2026-08-20 22:07:09,133 - INFO - Claim: “Illegal” Haitians in Springfield, Ohio, are “reportedly killing and eating pets.”...
+2026-08-20 22:07:09,134 - INFO - Date: 2024-09-09
+2026-08-20 22:07:13,194 - INFO - Prediction: Refuted
+2026-08-20 22:07:13,195 - INFO - ✓ Correct prediction
+2026-08-20 22:07:16,206 - INFO - ================================================================================
+2026-08-20 22:07:16,207 - INFO - Processing claim #17 (ID: tracer_test_14750)
+2026-08-20 22:07:16,207 - INFO - Claim: "Dallas County Texas (tells) election workers to (illegally) lie on registration & use a church address to register homeless people to vote!”...
+2026-08-20 22:07:16,207 - INFO - Date: 2024-09-09
+2026-08-20 22:07:17,014 - INFO - Prediction: Refuted
+2026-08-20 22:07:17,014 - INFO - ✓ Correct prediction
+2026-08-20 22:07:20,025 - INFO - ================================================================================
+2026-08-20 22:07:20,026 - INFO - Processing claim #18 (ID: tracer_test_14751)
+2026-08-20 22:07:20,026 - INFO - Claim: “Donald Trump said he was going to allow Medicare to negotiate drug prices. He never did. We did.”...
+2026-08-20 22:07:20,026 - INFO - Date: 2024-09-10
+2026-08-20 22:07:21,303 - INFO - Prediction: Misleading
+2026-08-20 22:07:21,303 - INFO - ✗ Incorrect (True: Supported, Pred: Misleading)
+2026-08-20 22:07:24,312 - INFO - ================================================================================
+2026-08-20 22:07:24,312 - INFO - Processing claim #19 (ID: tracer_test_14752)
+2026-08-20 22:07:24,312 - INFO - Claim: “Communicable diseases like HIV and TB (tuberculosis) have skyrocketed” after Haitian migrants came to Springfield, Ohio....
+2026-08-20 22:07:24,312 - INFO - Date: 2024-09-10
+2026-08-20 22:07:25,082 - INFO - Prediction: Refuted
+2026-08-20 22:07:25,082 - INFO - ✓ Correct prediction
+2026-08-20 22:07:28,094 - INFO - ================================================================================
+2026-08-20 22:07:28,094 - INFO - Processing claim #20 (ID: tracer_test_14753)
+2026-08-20 22:07:28,094 - INFO - Claim: “Unlike other amendments, Amendment 4 has no definitions. … Without definitions these words can mean almost anything.”...
+2026-08-20 22:07:28,094 - INFO - Date: 2024-09-10
+2026-08-20 22:07:31,022 - INFO - Prediction: Refuted
+2026-08-20 22:07:31,023 - INFO - ✓ Correct prediction
+2026-08-20 22:07:34,034 - INFO - ================================================================================
+2026-08-20 22:07:34,035 - INFO - Processing claim #21 (ID: tracer_test_14754)
+2026-08-20 22:07:34,035 - INFO - Claim: Florida’s six-week abortion law has “no real exceptions. Not for her health. Not even for rape.”...
+2026-08-20 22:07:34,035 - INFO - Date: 2024-09-10
+2026-08-20 22:07:40,047 - INFO - Prediction: Refuted
+2026-08-20 22:07:40,048 - INFO - ✓ Correct prediction
+2026-08-20 22:07:43,059 - INFO - ================================================================================
+2026-08-20 22:07:43,059 - INFO - Processing claim #22 (ID: tracer_test_14755)
+2026-08-20 22:07:43,059 - INFO - Claim: “As of today, there is not one member of the United States military who is in active duty in a combat zone, in any war zone around the world, for the ...
+2026-08-20 22:07:43,059 - INFO - Date: 2024-09-10
+2026-08-20 22:07:45,123 - INFO - Prediction: Refuted
+2026-08-20 22:07:45,124 - INFO - ✓ Correct prediction
+2026-08-20 22:07:48,128 - INFO - ================================================================================
+2026-08-20 22:07:48,129 - INFO - Processing claim #23 (ID: tracer_test_14756)
+2026-08-20 22:07:48,129 - INFO - Claim: Jon Tester “supported slashing Social Security benefits”...
+2026-08-20 22:07:48,129 - INFO - Date: 2024-09-10
+2026-08-20 22:07:49,216 - INFO - Prediction: Refuted
+2026-08-20 22:07:49,216 - INFO - ✓ Correct prediction
+2026-08-20 22:07:52,225 - INFO - ================================================================================
+2026-08-20 22:07:52,226 - INFO - Processing claim #24 (ID: tracer_test_14757)
+2026-08-20 22:07:52,226 - INFO - Claim: "In Springfield (Ohio), they're eating the dogs, the people that came in, they're eating the cats. They're eating, they're eating the pets of the peop...
+2026-08-20 22:07:52,226 - INFO - Date: 2024-09-10
+2026-08-20 22:07:54,079 - INFO - Prediction: Refuted
+2026-08-20 22:07:54,079 - INFO - ✓ Correct prediction
+2026-08-20 22:07:57,089 - INFO - ================================================================================
+2026-08-20 22:07:57,090 - INFO - Processing claim #25 (ID: tracer_test_14758)
+2026-08-20 22:07:57,090 - INFO - Claim: Mike Rogers supported “laws that could eliminate IVF and birth control.”...
+2026-08-20 22:07:57,090 - INFO - Date: 2024-09-11
+2026-08-20 22:07:57,913 - INFO - Prediction: Misleading
+2026-08-20 22:07:57,913 - INFO - ✓ Correct prediction
+2026-08-20 22:08:00,925 - INFO - ================================================================================
+2026-08-20 22:08:00,925 - INFO - Processing claim #26 (ID: tracer_test_14759)
+2026-08-20 22:08:00,925 - INFO - Claim: “In 12 states, children born alive after a failed abortion have no legal protection, and in three more states children born alive after an abortion ha...
+2026-08-20 22:08:00,926 - INFO - Date: 2024-09-11
+2026-08-20 22:08:02,162 - INFO - Prediction: Misleading
+2026-08-20 22:08:02,162 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-08-20 22:08:05,167 - INFO - ================================================================================
+2026-08-20 22:08:05,168 - INFO - Processing claim #27 (ID: tracer_test_14760)
+2026-08-20 22:08:05,168 - INFO - Claim: In Manchester, N.H., gubernatorial candidate Joyce Craig “pushed for a city sales tax. Then, Joyce Craig overrode the tax cap and tried to raise taxes...
+2026-08-20 22:08:05,168 - INFO - Date: 2024-09-12
+2026-08-20 22:08:06,108 - INFO - Prediction: Misleading
+2026-08-20 22:08:06,108 - INFO - ✓ Correct prediction
+2026-08-20 22:08:09,116 - INFO - ================================================================================
+2026-08-20 22:08:09,116 - INFO - Processing claim #28 (ID: tracer_test_14761)
+2026-08-20 22:08:09,116 - INFO - Claim: Former President Donald Trump “started out with $400 million on a silver platter and then filed for bankruptcy six times.”...
+2026-08-20 22:08:09,117 - INFO - Date: 2024-09-12
+2026-08-20 22:08:10,312 - INFO - Prediction: Misleading
+2026-08-20 22:08:10,312 - INFO - ✓ Correct prediction
+2026-08-20 22:08:13,318 - INFO - ================================================================================
+2026-08-20 22:08:13,318 - INFO - Processing claim #29 (ID: tracer_test_14762)
+2026-08-20 22:08:13,319 - INFO - Claim: Charleroi, Pennsylvania, “has grown by 2,000% due to an influx in migrants.”...
+2026-08-20 22:08:13,319 - INFO - Date: 2024-09-13
+2026-08-20 22:08:15,079 - INFO - Prediction: Refuted
+2026-08-20 22:08:15,079 - INFO - ✓ Correct prediction
+2026-08-20 22:08:18,086 - INFO - ================================================================================
+2026-08-20 22:08:18,086 - INFO - Processing claim #30 (ID: tracer_test_14763)
+2026-08-20 22:08:18,087 - INFO - Claim: Rep. Ruben Gallego’s “first act in Congress was to propose legislation to BAN the use of the term ‘illegal alien.’”...
+2026-08-20 22:08:18,087 - INFO - Date: 2024-09-13
+2026-08-20 22:08:19,174 - INFO - Prediction: Refuted
+2026-08-20 22:08:19,175 - INFO - ✓ Correct prediction
+2026-08-20 22:08:22,186 - INFO - ================================================================================
+2026-08-20 22:08:22,187 - INFO - Processing claim #31 (ID: tracer_test_14764)
+2026-08-20 22:08:22,187 - INFO - Claim: Vice President Kamala Harris is “talking about bringing back the draft.”...
+2026-08-20 22:08:22,187 - INFO - Date: 2024-09-13
+2026-08-20 22:08:24,023 - INFO - Prediction: Refuted
+2026-08-20 22:08:24,023 - INFO - ✓ Correct prediction
+2026-08-20 22:08:27,026 - INFO - ================================================================================
+2026-08-20 22:08:27,026 - INFO - Processing claim #32 (ID: tracer_test_14765)
+2026-08-20 22:08:27,027 - INFO - Claim: “In Project 2025, you’re going to have to register with a new federal agency when you get pregnant.”...
+2026-08-20 22:08:27,027 - INFO - Date: 2024-09-14
+2026-08-20 22:08:28,650 - INFO - Prediction: Refuted
+2026-08-20 22:08:28,651 - INFO - ✓ Correct prediction
+2026-08-20 22:08:31,655 - INFO - ================================================================================
+2026-08-20 22:08:31,656 - INFO - Processing claim #33 (ID: tracer_test_14766)
+2026-08-20 22:08:31,656 - INFO - Claim: Gubernatorial candidate Kelly Ayotte “has voted for national abortion bans, she has voted to defund Planned Parenthood, and she shepherded Neil Gorsuc...
+2026-08-20 22:08:31,656 - INFO - Date: 2024-09-15
+2026-08-20 22:08:33,013 - INFO - Prediction: Misleading
+2026-08-20 22:08:33,013 - INFO - ✓ Correct prediction
+2026-08-20 22:08:36,019 - INFO - ================================================================================
+2026-08-20 22:08:36,020 - INFO - Processing claim #34 (ID: tracer_test_14767)
+2026-08-20 22:08:36,020 - INFO - Claim: In Springfield, Ohio, “murders are up by 81%.”...
+2026-08-20 22:08:36,020 - INFO - Date: 2024-09-15
+2026-08-20 22:08:37,118 - INFO - Prediction: Misleading
+2026-08-20 22:08:37,119 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-08-20 22:08:40,128 - INFO - ================================================================================
+2026-08-20 22:08:40,128 - INFO - Processing claim #35 (ID: tracer_test_14768)
+2026-08-20 22:08:40,128 - INFO - Claim: Ryan Routh's Instagram bio says he is a "proud LGBTQ+ member"...
+2026-08-20 22:08:40,129 - INFO - Date: 2024-09-15
+2026-08-20 22:08:41,344 - INFO - Prediction: Misleading
+2026-08-20 22:08:41,344 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-08-20 22:08:44,356 - INFO - ================================================================================
+2026-08-20 22:08:44,356 - INFO - Processing claim #36 (ID: tracer_test_14769)
+2026-08-20 22:08:44,357 - INFO - Claim: Former President Donald Trump could have destroyed the Affordable Care Act, but “he chose to build upon (it)."...
+2026-08-20 22:08:44,357 - INFO - Date: 2024-09-15
+2026-08-20 22:08:45,247 - INFO - Prediction: Refuted
+2026-08-20 22:08:45,247 - INFO - ✓ Correct prediction
+2026-08-20 22:08:48,259 - INFO - ================================================================================
+2026-08-20 22:08:48,259 - INFO - Processing claim #37 (ID: tracer_test_14770)
+2026-08-20 22:08:48,259 - INFO - Claim: The apparent assassination attempt against former President Donald Trump on Sept. 15, 2024, was “staged.”...
+2026-08-20 22:08:48,259 - INFO - Date: 2024-09-15
+2026-08-20 22:08:49,055 - INFO - Prediction: Refuted
+2026-08-20 22:08:49,055 - INFO - ✓ Correct prediction
+2026-08-20 22:08:52,058 - INFO - ================================================================================
+2026-08-20 22:08:52,059 - INFO - Processing claim #38 (ID: tracer_test_14771)
+2026-08-20 22:08:52,059 - INFO - Claim: Says opponent Sen. Tammy Baldwin “gave our taxpayer money to a transgender-affirming clinic … that does it without even telling parents."...
+2026-08-20 22:08:52,059 - INFO - Date: 2024-09-16
+2026-08-20 22:08:54,029 - INFO - Prediction: Refuted
+2026-08-20 22:08:54,029 - INFO - ✓ Correct prediction
+2026-08-20 22:08:57,034 - INFO - ================================================================================
+2026-08-20 22:08:57,034 - INFO - Processing claim #39 (ID: tracer_test_14772)
+2026-08-20 22:08:57,034 - INFO - Claim: “If you make less than $100,000, Trump is about to raise your taxes. Currently, you’re taxed at 10% and then 12%. He would raise that to a flat rate o...
+2026-08-20 22:08:57,034 - INFO - Date: 2024-09-16
+2026-08-20 22:08:58,315 - INFO - Prediction: Refuted
+2026-08-20 22:08:58,316 - INFO - ✓ Correct prediction
+2026-08-20 22:09:01,327 - INFO - ================================================================================
+2026-08-20 22:09:01,328 - INFO - Processing claim #40 (ID: tracer_test_14773)
+2026-08-20 22:09:01,328 - INFO - Claim: The plus in LGBTQ+ includes pedophilia....
+2026-08-20 22:09:01,328 - INFO - Date: 2024-09-16
+2026-08-20 22:09:02,120 - INFO - Prediction: Refuted
+2026-08-20 22:09:02,120 - INFO - ✓ Correct prediction
+2026-08-20 22:09:05,125 - INFO - ================================================================================
+2026-08-20 22:09:05,125 - INFO - Processing claim #41 (ID: tracer_test_14774)
+2026-08-20 22:09:05,126 - INFO - Claim: “Two years ago, Bob Casey promised us his vote will reduce inflation. ... Casey’s vote for reckless spending” made inflation worse....
+2026-08-20 22:09:05,126 - INFO - Date: 2024-09-17
+2026-08-20 22:09:06,828 - INFO - Prediction: Refuted
+2026-08-20 22:09:06,828 - INFO - ✓ Correct prediction
+2026-08-20 22:09:09,836 - INFO - ================================================================================
+2026-08-20 22:09:09,836 - INFO - Processing claim #42 (ID: tracer_test_14775)
+2026-08-20 22:09:09,836 - INFO - Claim: “We're bankrupting a lot of hospitals by forcing these hospitals  to provide care for people who don't have the legal right to be in our country.”...
+2026-08-20 22:09:09,837 - INFO - Date: 2024-09-17
+2026-08-20 22:09:12,128 - INFO - Prediction: Misleading
+2026-08-20 22:09:12,128 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-08-20 22:09:15,139 - INFO - ================================================================================
+2026-08-20 22:09:15,140 - INFO - Processing claim #43 (ID: tracer_test_14776)
+2026-08-20 22:09:15,140 - INFO - Claim: When Haitians go to school in Springfield, Ohio, they “take the place of our children in school” and “each one will have a private interpreter."...
+2026-08-20 22:09:15,140 - INFO - Date: 2024-09-18
+2026-08-20 22:09:19,991 - INFO - Prediction: Refuted
+2026-08-20 22:09:19,991 - INFO - ✓ Correct prediction
+2026-08-20 22:09:22,995 - INFO - ================================================================================
+2026-08-20 22:09:22,995 - INFO - Processing claim #44 (ID: tracer_test_14777)
+2026-08-20 22:09:22,995 - INFO - Claim: “Project 2025 wants to get rid of NOAA” and the National Weather Service....
+2026-08-20 22:09:22,995 - INFO - Date: 2024-09-19
+2026-08-20 22:09:24,201 - INFO - Prediction: Refuted
+2026-08-20 22:09:24,201 - INFO - ✗ Incorrect (True: Misleading, Pred: Refuted)
+2026-08-20 22:09:27,213 - INFO - ================================================================================
+2026-08-20 22:09:27,213 - INFO - Processing claim #45 (ID: tracer_test_14778)
+2026-08-20 22:09:27,214 - INFO - Claim: Kamala Harris “supports taxpayer-funded sex changes for prisoners and illegal aliens.”...
+2026-08-20 22:09:27,214 - INFO - Date: 2024-09-20
+2026-08-20 22:09:28,212 - INFO - Prediction: Refuted
+2026-08-20 22:09:28,213 - INFO - ✗ Incorrect (True: Misleading, Pred: Refuted)
+2026-08-20 22:09:31,224 - INFO - ================================================================================
+2026-08-20 22:09:31,225 - INFO - Processing claim #46 (ID: tracer_test_14779)
+2026-08-20 22:09:31,225 - INFO - Claim: Says Wisconsin GOP U.S. Senate candidate Eric Hovde "brags about being in the 1%."...
+2026-08-20 22:09:31,225 - INFO - Date: 2024-09-20
+2026-08-20 22:09:32,209 - INFO - Prediction: Misleading
+2026-08-20 22:09:32,210 - INFO - ✓ Correct prediction
+2026-08-20 22:09:35,221 - INFO - ================================================================================
+2026-08-20 22:09:35,222 - INFO - Processing claim #47 (ID: tracer_test_14780)
+2026-08-20 22:09:35,222 - INFO - Claim: First lady Jill Biden led a Cabinet meeting for President Joe Biden and her signature appears on presidential stationery....
+2026-08-20 22:09:35,222 - INFO - Date: 2024-09-20
+2026-08-20 22:09:36,226 - INFO - Prediction: Refuted
+2026-08-20 22:09:36,226 - INFO - ✓ Correct prediction
+2026-08-20 22:09:39,229 - INFO - ================================================================================
+2026-08-20 22:09:39,229 - INFO - Processing claim #48 (ID: tracer_test_14781)
+2026-08-20 22:09:39,229 - INFO - Claim: “Donald Trump added more to the national debt than any other president, ever.”...
+2026-08-20 22:09:39,230 - INFO - Date: 2024-09-21
+2026-08-20 22:09:40,598 - INFO - Prediction: Misleading
+2026-08-20 22:09:40,598 - INFO - ✓ Correct prediction
+2026-08-20 22:09:43,610 - INFO - ================================================================================
+2026-08-20 22:09:43,610 - INFO - Processing claim #49 (ID: tracer_test_14782)
+2026-08-20 22:09:43,611 - INFO - Claim: “The last union member on a national ticket (was) Ronald Reagan.”...
+2026-08-20 22:09:43,611 - INFO - Date: 2024-09-21
+2026-08-20 22:09:44,649 - INFO - Prediction: Refuted
+2026-08-20 22:09:44,649 - INFO - ✓ Correct prediction
+2026-08-20 22:09:47,658 - INFO - ================================================================================
+2026-08-20 22:09:47,659 - INFO - Processing claim #50 (ID: tracer_test_14783)
+2026-08-20 22:09:47,659 - INFO - Claim: Florida "put Tom Walz instead of Tim Walz" on its ballots....
+2026-08-20 22:09:47,659 - INFO - Date: 2024-09-22
+2026-08-20 22:09:48,864 - INFO - Prediction: Refuted
+2026-08-20 22:09:48,864 - INFO - ✗ Incorrect (True: Misleading, Pred: Refuted)
+2026-08-20 22:09:51,867 - INFO - ================================================================================
+2026-08-20 22:09:51,867 - INFO - Processing claim #51 (ID: tracer_test_14784)
+2026-08-20 22:09:51,867 - INFO - Claim: “The Montana Secretary of State left Kamala Harris off the ballot.”...
+2026-08-20 22:09:51,867 - INFO - Date: 2024-09-22
+2026-08-20 22:09:52,721 - INFO - Prediction: Refuted
+2026-08-20 22:09:52,722 - INFO - ✗ Incorrect (True: Misleading, Pred: Refuted)
+2026-08-20 22:09:55,725 - INFO - ================================================================================
+2026-08-20 22:09:55,725 - INFO - Processing claim #52 (ID: tracer_test_14785)
+2026-08-20 22:09:55,726 - INFO - Claim: Project 2025 would “cut” the Federal Emergency Management Agency and “kill federal-backed flood insurance.”...
+2026-08-20 22:09:55,726 - INFO - Date: 2024-09-24
+2026-08-20 22:09:56,844 - INFO - Prediction: Misleading
+2026-08-20 22:09:56,845 - INFO - ✗ Incorrect (True: Supported, Pred: Misleading)
+2026-08-20 22:09:59,855 - INFO - ================================================================================
+2026-08-20 22:09:59,856 - INFO - Processing claim #53 (ID: tracer_test_14786)
+2026-08-20 22:09:59,856 - INFO - Claim: U.S. Sen. Sherrod Brown voted to “allow transgender biological men to compete in girls’ sports.”...
+2026-08-20 22:09:59,856 - INFO - Date: 2024-09-24
+2026-08-20 22:10:01,209 - INFO - Prediction: Refuted
+2026-08-20 22:10:01,209 - INFO - ✓ Correct prediction
+2026-08-20 22:10:04,217 - INFO - ================================================================================
+2026-08-20 22:10:04,217 - INFO - Processing claim #54 (ID: tracer_test_14787)
+2026-08-20 22:10:04,218 - INFO - Claim: "Missouri registered 78,421 in just one week of February of this year. Out of that number, 23,253 were dead people!"...
+2026-08-20 22:10:04,218 - INFO - Date: 2024-09-24
+2026-08-20 22:10:06,026 - INFO - Prediction: Refuted
+2026-08-20 22:10:06,027 - INFO - ✓ Correct prediction
+2026-08-20 22:10:09,038 - INFO - ================================================================================
+2026-08-20 22:10:09,039 - INFO - Processing claim #55 (ID: tracer_test_14788)
+2026-08-20 22:10:09,039 - INFO - Claim: “There was a bill to basically create a ban to make sure we never become a sanctuary state, that no locality passes those regulations, and (former Man...
+2026-08-20 22:10:09,039 - INFO - Date: 2024-09-25
+2026-08-20 22:10:10,065 - INFO - Prediction: Supported
+2026-08-20 22:10:10,066 - INFO - ✗ Incorrect (True: Misleading, Pred: Supported)
+2026-08-20 22:10:13,072 - INFO - ================================================================================
+2026-08-20 22:10:13,073 - INFO - Processing claim #56 (ID: tracer_test_14789)
+2026-08-20 22:10:13,073 - INFO - Claim: “Even before the pandemic, (Donald Trump) lost manufacturing jobs, by most people’s estimates at least 200,000.”...
+2026-08-20 22:10:13,073 - INFO - Date: 2024-09-25
+2026-08-20 22:10:14,046 - INFO - Prediction: Misleading
+2026-08-20 22:10:14,046 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-08-20 22:10:17,058 - INFO - ================================================================================
+2026-08-20 22:10:17,058 - INFO - Processing claim #57 (ID: tracer_test_14790)
+2026-08-20 22:10:17,058 - INFO - Claim: North Carolina removed 747,000 voters from the voter rolls to try to “steal the election.”...
+2026-08-20 22:10:17,058 - INFO - Date: 2024-09-26
+2026-08-20 22:10:19,691 - INFO - Prediction: Refuted
+2026-08-20 22:10:19,691 - INFO - ✓ Correct prediction
+2026-08-20 22:10:22,703 - INFO - ================================================================================
+2026-08-20 22:10:22,703 - INFO - Processing claim #58 (ID: tracer_test_14791)
+2026-08-20 22:10:22,703 - INFO - Claim: Former President Donald Trump wants to take away the Affordable Care Act....
+2026-08-20 22:10:22,703 - INFO - Date: 2024-09-27
+2026-08-20 22:10:23,718 - INFO - Prediction: Supported
+2026-08-20 22:10:23,718 - INFO - ✗ Incorrect (True: Misleading, Pred: Supported)
+2026-08-20 22:10:26,720 - INFO - ================================================================================
+2026-08-20 22:10:26,721 - INFO - Processing claim #59 (ID: tracer_test_14792)
+2026-08-20 22:10:26,721 - INFO - Claim: When New Hampshire gubernatorial nominee Kelly Ayotte served on two companies’ boards, one “laid off 18,000 workers” and the other “laid off 1,200 Ame...
+2026-08-20 22:10:26,721 - INFO - Date: 2024-09-27
+2026-08-20 22:10:28,410 - INFO - Prediction: Misleading
+2026-08-20 22:10:28,410 - INFO - ✓ Correct prediction
+2026-08-20 22:10:31,417 - INFO - ================================================================================
+2026-08-20 22:10:31,417 - INFO - Processing claim #60 (ID: tracer_test_14793)
+2026-08-20 22:10:31,417 - INFO - Claim: U.S. Sen. Jon Tester “voted to give taxpayer-funded health care to illegal immigrants."...
+2026-08-20 22:10:31,417 - INFO - Date: 2024-09-27
+2026-08-20 22:10:32,696 - INFO - Prediction: Refuted
+2026-08-20 22:10:32,697 - INFO - ✓ Correct prediction
+2026-08-20 22:10:35,700 - INFO - ================================================================================
+2026-08-20 22:10:35,700 - INFO - Processing claim #61 (ID: tracer_test_14794)
+2026-08-20 22:10:35,700 - INFO - Claim: Rep. Ruben Gallego is “controlled by the cartels. His own father was a Colombian drug trafficker, and so he’s got links to the cartel.”...
+2026-08-20 22:10:35,701 - INFO - Date: 2024-09-27
+2026-08-20 22:10:37,234 - INFO - Prediction: Refuted
+2026-08-20 22:10:37,235 - INFO - ✓ Correct prediction
+2026-08-20 22:10:40,246 - INFO - ================================================================================
+2026-08-20 22:10:40,247 - INFO - Processing claim #62 (ID: tracer_test_14795)
+2026-08-20 22:10:40,247 - INFO - Claim: Video shows “the bunker-busting bombs that ended the lives of (Hassan) Nasrallah and Hezbollah’s leadership.”...
+2026-08-20 22:10:40,247 - INFO - Date: 2024-09-28
+2026-08-20 22:10:41,875 - INFO - Prediction: Refuted
+2026-08-20 22:10:41,876 - INFO - ✓ Correct prediction
+2026-08-20 22:10:44,878 - INFO - ================================================================================
+2026-08-20 22:10:44,878 - INFO - Processing claim #63 (ID: tracer_test_14796)
+2026-08-20 22:10:44,878 - INFO - Claim: "The ERA could also mandate that schools allow biological males to compete in girls' sports."...
+2026-08-20 22:10:44,879 - INFO - Date: 2024-09-29
+2026-08-20 22:10:46,156 - INFO - Prediction: Misleading
+2026-08-20 22:10:46,156 - INFO - ✓ Correct prediction
+2026-08-20 22:10:49,158 - INFO - ================================================================================
+2026-08-20 22:10:49,158 - INFO - Processing claim #64 (ID: tracer_test_14797)
+2026-08-20 22:10:49,158 - INFO - Claim: Kamala Harris "let in the 13,099 convicted murderers and opposes all efforts to find them and to remove them."...
+2026-08-20 22:10:49,158 - INFO - Date: 2024-09-29
+2026-08-20 22:10:50,380 - INFO - Prediction: Refuted
+2026-08-20 22:10:50,380 - INFO - ✓ Correct prediction
+2026-08-20 22:10:53,382 - INFO - ================================================================================
+2026-08-20 22:10:53,383 - INFO - Processing claim #65 (ID: tracer_test_14798)
+2026-08-20 22:10:53,383 - INFO - Claim: Vice President Kamala Harris “even wants to legalize fentanyl.”...
+2026-08-20 22:10:53,383 - INFO - Date: 2024-09-29
+2026-08-20 22:10:54,432 - INFO - Prediction: Refuted
+2026-08-20 22:10:54,432 - INFO - ✓ Correct prediction
+2026-08-20 22:10:57,441 - INFO - ================================================================================
+2026-08-20 22:10:57,441 - INFO - Processing claim #66 (ID: tracer_test_14799)
+2026-08-20 22:10:57,441 - INFO - Claim: U.S. Senate candidate Mike Rogers “believes he should make that decision” about whether to end pregnancies....
+2026-08-20 22:10:57,441 - INFO - Date: 2024-09-30
+2026-08-20 22:10:58,502 - INFO - Prediction: Misleading
+2026-08-20 22:10:58,502 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-08-20 22:11:01,514 - INFO - ================================================================================
+2026-08-20 22:11:01,514 - INFO - Processing claim #67 (ID: tracer_test_14800)
+2026-08-20 22:11:01,514 - INFO - Claim: Photo shows President Joe Biden lounging on the beach "while towns all over America were being wiped out” by Hurricane Helene....
+2026-08-20 22:11:01,514 - INFO - Date: 2024-09-30
+2026-08-20 22:11:02,437 - INFO - Prediction: Refuted
+2026-08-20 22:11:02,438 - INFO - ✓ Correct prediction
+2026-08-20 22:11:05,447 - INFO - ================================================================================
+2026-08-20 22:11:05,448 - INFO - Processing claim #68 (ID: tracer_test_14801)
+2026-08-20 22:11:05,448 - INFO - Claim: “Biden Announces: ‘2.4 billion more to Ukraine’ but ‘no more aid for Hurricane Helene.’”...
+2026-08-20 22:11:05,448 - INFO - Date: 2024-09-30
+2026-08-20 22:11:06,361 - INFO - Prediction: Refuted
+2026-08-20 22:11:06,361 - INFO - ✓ Correct prediction
+2026-08-20 22:11:09,372 - INFO - ================================================================================
+2026-08-20 22:11:09,373 - INFO - Processing claim #69 (ID: tracer_test_14802)
+2026-08-20 22:11:09,373 - INFO - Claim: Georgia Gov. Brian Kemp was calling President Joe Biden after Hurricane Helene but "hasn't been able to get him.”...
+2026-08-20 22:11:09,373 - INFO - Date: 2024-09-30
+2026-08-20 22:11:10,197 - INFO - Prediction: Refuted
+2026-08-20 22:11:10,197 - INFO - ✓ Correct prediction
+2026-08-20 22:11:13,209 - INFO - ================================================================================
+2026-08-20 22:11:13,209 - INFO - Processing claim #70 (ID: tracer_test_14803)
+2026-08-20 22:11:13,209 - INFO - Claim: Says immigrants with temporary protections in Springfield, Ohio, are “illegal immigrants.”...
+2026-08-20 22:11:13,210 - INFO - Date: 2024-10-01
+2026-08-20 22:11:14,112 - INFO - Prediction: Refuted
+2026-08-20 22:11:14,113 - INFO - ✓ Correct prediction
+2026-08-20 22:11:17,124 - INFO - ================================================================================
+2026-08-20 22:11:17,124 - INFO - Processing claim #71 (ID: tracer_test_14804)
+2026-08-20 22:11:17,124 - INFO - Claim: The Federal Emergency Management Agency “is confiscating supplies and donations!”...
+2026-08-20 22:11:17,124 - INFO - Date: 2024-10-02
+2026-08-20 22:11:18,148 - INFO - Prediction: Refuted
+2026-08-20 22:11:18,149 - INFO - ✓ Correct prediction
+2026-08-20 22:11:21,155 - INFO - ================================================================================
+2026-08-20 22:11:21,156 - INFO - Processing claim #72 (ID: tracer_test_14805)
+2026-08-20 22:11:21,156 - INFO - Claim: With U.S. Customs and Border Protection’s CBP One app, it “takes less than 5 minutes and zero documentation to get approved as an illegal immigrant an...
+2026-08-20 22:11:21,156 - INFO - Date: 2024-10-02
+2026-08-20 22:11:24,222 - INFO - Prediction: Refuted
+2026-08-20 22:11:24,222 - INFO - ✓ Correct prediction
+2026-08-20 22:11:27,227 - INFO - ================================================================================
+2026-08-20 22:11:27,227 - INFO - Processing claim #73 (ID: tracer_test_14806)
+2026-08-20 22:11:27,227 - INFO - Claim: U.S. Transportation Secretary Pete Buttigieg banned private drones from flying over areas affected by Hurricane Helene....
+2026-08-20 22:11:27,228 - INFO - Date: 2024-10-03
+2026-08-20 22:11:28,485 - INFO - Prediction: Refuted
+2026-08-20 22:11:28,485 - INFO - ✓ Correct prediction
+2026-08-20 22:11:31,490 - INFO - ================================================================================
+2026-08-20 22:11:31,491 - INFO - Processing claim #74 (ID: tracer_test_14807)
+2026-08-20 22:11:31,491 - INFO - Claim: The U.S. government is offering Americans loans to pay for flights out of Lebanon while they have been flying Israeli citizens out of Israel on charte...
+2026-08-20 22:11:31,491 - INFO - Date: 2024-10-03
+2026-08-20 22:11:32,769 - INFO - Prediction: Refuted
+2026-08-20 22:11:32,769 - INFO - ✓ Correct prediction
+2026-08-20 22:11:35,781 - INFO - ================================================================================
+2026-08-20 22:11:35,781 - INFO - Processing claim #75 (ID: tracer_test_14808)
+2026-08-20 22:11:35,782 - INFO - Claim: "FEMA is out of money and doesn't have money to transfer to those people affected by the hurricane ... they used the money to assist illegal immigrant...
+2026-08-20 22:11:35,782 - INFO - Date: 2024-10-03
+2026-08-20 22:11:37,874 - INFO - Prediction: Refuted
+2026-08-20 22:11:37,874 - INFO - ✓ Correct prediction
+2026-08-20 22:11:40,886 - INFO - ================================================================================
+2026-08-20 22:11:40,886 - INFO - Processing claim #76 (ID: tracer_test_14809)
+2026-08-20 22:11:40,886 - INFO - Claim: FEMA, FAA are “blocking” delivery of Starlink devices and supplies to North Carolina’s hurricane-hit areas....
+2026-08-20 22:11:40,886 - INFO - Date: 2024-10-04
+2026-08-20 22:11:41,977 - INFO - Prediction: Refuted
+2026-08-20 22:11:41,978 - INFO - ✓ Correct prediction
+2026-08-20 22:11:44,986 - INFO - ================================================================================
+2026-08-20 22:11:44,986 - INFO - Processing claim #77 (ID: tracer_test_14810)
+2026-08-20 22:11:44,987 - INFO - Claim: The Biden administration stole $1 billion “from FEMA to use it for illegal migrants. … And FEMA is now busted. They don’t have any money.”...
+2026-08-20 22:11:44,987 - INFO - Date: 2024-10-04
+2026-08-20 22:11:46,410 - INFO - Prediction: Refuted
+2026-08-20 22:11:46,411 - INFO - ✓ Correct prediction
+2026-08-20 22:11:49,415 - INFO - ================================================================================
+2026-08-20 22:11:49,416 - INFO - Processing claim #78 (ID: tracer_test_14811)
+2026-08-20 22:11:49,416 - INFO - Claim: “The $750 from FEMA that Kamala Harris is offering them is actually a loan, not real relief. And that if they don’t pay it back the feds can seize the...
+2026-08-20 22:11:49,416 - INFO - Date: 2024-10-04
+2026-08-20 22:11:50,500 - INFO - Prediction: Refuted
+2026-08-20 22:11:50,501 - INFO - ✓ Correct prediction
+2026-08-20 22:11:53,512 - INFO - ================================================================================
+2026-08-20 22:11:53,512 - INFO - Processing claim #79 (ID: tracer_test_14812)
+2026-08-20 22:11:53,512 - INFO - Claim: “With your Democrat governor, you have some of the highest electricity prices and highest energy costs. It’s just about at the top in Wisconsin.”...
+2026-08-20 22:11:53,512 - INFO - Date: 2024-10-06
+2026-08-20 22:11:54,535 - INFO - Prediction: Refuted
+2026-08-20 22:11:54,535 - INFO - ✓ Correct prediction
+2026-08-20 22:11:57,547 - INFO - ================================================================================
+2026-08-20 22:11:57,547 - INFO - Processing claim #80 (ID: tracer_test_14813)
+2026-08-20 22:11:57,547 - INFO - Claim: 2023 FEMA webinar shows the agency is prioritizing its relief efforts around LGBTQ+ people...
+2026-08-20 22:11:57,547 - INFO - Date: 2024-10-06
+2026-08-20 22:11:58,434 - INFO - Prediction: Misleading
+2026-08-20 22:11:58,435 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-08-20 22:12:01,444 - INFO - ================================================================================
+2026-08-20 22:12:01,444 - INFO - Processing claim #81 (ID: tracer_test_14814)
+2026-08-20 22:12:01,444 - INFO - Claim: FEMA “blocked a runway” at a South Carolina airport and “halted” hurricane relief flights....
+2026-08-20 22:12:01,444 - INFO - Date: 2024-10-06
+2026-08-20 22:12:02,506 - INFO - Prediction: Refuted
+2026-08-20 22:12:02,506 - INFO - ✓ Correct prediction
+2026-08-20 22:12:05,518 - INFO - ================================================================================
+2026-08-20 22:12:05,518 - INFO - Processing claim #82 (ID: tracer_test_14815)
+2026-08-20 22:12:05,518 - INFO - Claim: "We now have historic low unemployment in America among all groups of people."...
+2026-08-20 22:12:05,519 - INFO - Date: 2024-10-07
+2026-08-20 22:12:06,742 - INFO - Prediction: Misleading
+2026-08-20 22:12:06,743 - INFO - ✓ Correct prediction
+2026-08-20 22:12:09,754 - INFO - ================================================================================
+2026-08-20 22:12:09,755 - INFO - Processing claim #83 (ID: tracer_test_14816)
+2026-08-20 22:12:09,755 - INFO - Claim: Says opponent Eric Hovde “just proposed cutting Social Security by 28%.”...
+2026-08-20 22:12:09,755 - INFO - Date: 2024-10-07
+2026-08-20 22:12:10,592 - INFO - Prediction: Refuted
+2026-08-20 22:12:10,592 - INFO - ✓ Correct prediction
+2026-08-20 22:12:13,603 - INFO - ================================================================================
+2026-08-20 22:12:13,603 - INFO - Processing claim #84 (ID: tracer_test_14817)
+2026-08-20 22:12:13,603 - INFO - Claim: "Teachers and nurses and firefighters are paying a higher tax rate than billionaires and the biggest corporations."...
+2026-08-20 22:12:13,604 - INFO - Date: 2024-10-07
+2026-08-20 22:12:14,611 - INFO - Prediction: Misleading
+2026-08-20 22:12:14,612 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-08-20 22:12:17,618 - INFO - ================================================================================
+2026-08-20 22:12:17,619 - INFO - Processing claim #85 (ID: tracer_test_14818)
+2026-08-20 22:12:17,619 - INFO - Claim: “We have cut the flow of fentanyl by half.”...
+2026-08-20 22:12:17,619 - INFO - Date: 2024-10-07
+2026-08-20 22:12:18,735 - INFO - Prediction: Misleading
+2026-08-20 22:12:18,735 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-08-20 22:12:21,740 - INFO - ================================================================================
+2026-08-20 22:12:21,741 - INFO - Processing claim #86 (ID: tracer_test_14819)
+2026-08-20 22:12:21,741 - INFO - Claim: Hurricane Milton article is evidence they "control and plan these storms."...
+2026-08-20 22:12:21,741 - INFO - Date: 2024-10-07
+2026-08-20 22:12:23,701 - INFO - Prediction: Refuted
+2026-08-20 22:12:23,701 - INFO - ✓ Correct prediction
+2026-08-20 22:12:26,713 - INFO - ================================================================================
+2026-08-20 22:12:26,713 - INFO - Processing claim #87 (ID: tracer_test_14820)
+2026-08-20 22:12:26,713 - INFO - Claim: Of Gaza, “I’ve been there.”...
+2026-08-20 22:12:26,714 - INFO - Date: 2024-10-07
+2026-08-20 22:12:28,698 - INFO - Prediction: Misleading
+2026-08-20 22:12:28,698 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-08-20 22:12:31,709 - INFO - ================================================================================
+2026-08-20 22:12:31,709 - INFO - Processing claim #88 (ID: tracer_test_14821)
+2026-08-20 22:12:31,709 - INFO - Claim: Patents dating back to the 1800s show that people can control the weather....
+2026-08-20 22:12:31,709 - INFO - Date: 2024-10-07
+2026-08-20 22:12:32,702 - INFO - Prediction: Refuted
+2026-08-20 22:12:32,703 - INFO - ✓ Correct prediction
+2026-08-20 22:12:35,714 - INFO - ================================================================================
+2026-08-20 22:12:35,715 - INFO - Processing claim #89 (ID: tracer_test_14822)
+2026-08-20 22:12:35,715 - INFO - Claim: “Milwaukee is one of the sex trafficking capitals in our country.”...
+2026-08-20 22:12:35,715 - INFO - Date: 2024-10-08
+2026-08-20 22:12:37,030 - INFO - Prediction: Misleading
+2026-08-20 22:12:37,030 - INFO - ✓ Correct prediction
+2026-08-20 22:12:40,040 - INFO - ================================================================================
+2026-08-20 22:12:40,040 - INFO - Processing claim #90 (ID: tracer_test_14823)
+2026-08-20 22:12:40,041 - INFO - Claim: “Two weeks ago 100 GOP lawmakers voted against additional FEMA funding.”...
+2026-08-20 22:12:40,041 - INFO - Date: 2024-10-08
+2026-08-20 22:12:42,700 - INFO - Prediction: Misleading
+2026-08-20 22:12:42,700 - INFO - ✓ Correct prediction
+2026-08-20 22:12:45,711 - INFO - ================================================================================
+2026-08-20 22:12:45,712 - INFO - Processing claim #91 (ID: tracer_test_14824)
+2026-08-20 22:12:45,712 - INFO - Claim: Elissa Slotkin “signed a secret agreement with a CCP-linked Chinese battery company.”...
+2026-08-20 22:12:45,712 - INFO - Date: 2024-10-08
+2026-08-20 22:12:47,022 - INFO - Prediction: Refuted
+2026-08-20 22:12:47,023 - INFO - ✓ Correct prediction
+2026-08-20 22:12:50,034 - INFO - ================================================================================
+2026-08-20 22:12:50,034 - INFO - Processing claim #92 (ID: tracer_test_14825)
+2026-08-20 22:12:50,035 - INFO - Claim: Arizona U.S. Senate candidate Kari Lake “was against” the child tax credit expansion “when the bill was on the floor.”...
+2026-08-20 22:12:50,035 - INFO - Date: 2024-10-09
+2026-08-20 22:12:50,873 - INFO - Prediction: Supported
+2026-08-20 22:12:50,873 - INFO - ✗ Incorrect (True: Refuted, Pred: Supported)
+2026-08-20 22:12:53,885 - INFO - ================================================================================
+2026-08-20 22:12:53,885 - INFO - Processing claim #93 (ID: tracer_test_14826)
+2026-08-20 22:12:53,885 - INFO - Claim: Vice President Kamala Harris’ “60 Minutes” interview may be “a major Campaign Finance Violation.”...
+2026-08-20 22:12:53,885 - INFO - Date: 2024-10-09
+2026-08-20 22:12:55,168 - INFO - Prediction: Refuted
+2026-08-20 22:12:55,169 - INFO - ✓ Correct prediction
+2026-08-20 22:12:58,171 - INFO - ================================================================================
+2026-08-20 22:12:58,171 - INFO - Processing claim #94 (ID: tracer_test_14827)
+2026-08-20 22:12:58,171 - INFO - Claim: “Arizona was safe” when she moved to the state in 1994, but has become “unsafe.”...
+2026-08-20 22:12:58,171 - INFO - Date: 2024-10-09
+2026-08-20 22:12:59,002 - INFO - Prediction: Misleading
+2026-08-20 22:12:59,003 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-08-20 22:13:02,007 - INFO - ================================================================================
+2026-08-20 22:13:02,007 - INFO - Processing claim #95 (ID: tracer_test_14828)
+2026-08-20 22:13:02,007 - INFO - Claim: North Carolina’s new voting rules in response to Hurricane Helene amount to “cheating” or “stealing.”...
+2026-08-20 22:13:02,007 - INFO - Date: 2024-10-09
+2026-08-20 22:13:02,843 - INFO - Prediction: Refuted
+2026-08-20 22:13:02,843 - INFO - ✓ Correct prediction
+2026-08-20 22:13:05,855 - INFO - ================================================================================
+2026-08-20 22:13:05,855 - INFO - Processing claim #96 (ID: tracer_test_14829)
+2026-08-20 22:13:05,855 - INFO - Claim: To pay for extending the Trump tax cuts, Dave McCormick has “made clear he’ll slash your Medicare and Social Security, and cut Medicaid for nursing ho...
+2026-08-20 22:13:05,856 - INFO - Date: 2024-10-10
+2026-08-20 22:13:06,904 - INFO - Prediction: Refuted
+2026-08-20 22:13:06,904 - INFO - ✓ Correct prediction
+2026-08-20 22:13:09,910 - INFO - ================================================================================
+2026-08-20 22:13:09,910 - INFO - Processing claim #97 (ID: tracer_test_14830)
+2026-08-20 22:13:09,910 - INFO - Claim: Says opponent Eric Hovde “supports a $4 trillion tax plan that would disproportionately advantage the well-off and profitable corporations”...
+2026-08-20 22:13:09,910 - INFO - Date: 2024-10-11
+2026-08-20 22:13:10,912 - INFO - Prediction: Misleading
+2026-08-20 22:13:10,913 - INFO - ✓ Correct prediction
+2026-08-20 22:13:13,924 - INFO - ================================================================================
+2026-08-20 22:13:13,925 - INFO - Processing claim #98 (ID: tracer_test_14831)
+2026-08-20 22:13:13,925 - INFO - Claim: Republican state Senate candidate Ashlee Adams “campaigned for Mark Robinson and his radical agenda.”...
+2026-08-20 22:13:13,925 - INFO - Date: 2024-10-11
+2026-08-20 22:13:15,070 - INFO - Prediction: Misleading
+2026-08-20 22:13:15,071 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-08-20 22:13:18,082 - INFO - ================================================================================
+2026-08-20 22:13:18,082 - INFO - Processing claim #99 (ID: tracer_test_14832)
+2026-08-20 22:13:18,082 - INFO - Claim: “It has just come out that Democrats in Washington and the Democrat Governor’s Office of North Carolina (Roy Cooper) were blocking people and money fr...
+2026-08-20 22:13:18,082 - INFO - Date: 2024-10-11
+2026-08-20 22:13:19,034 - INFO - Prediction: Refuted
+2026-08-20 22:13:19,034 - INFO - ✓ Correct prediction
+2026-08-20 22:13:22,040 - INFO - ================================================================================
+2026-08-20 22:13:22,040 - INFO - Processing claim #100 (ID: tracer_test_14833)
+2026-08-20 22:13:22,041 - INFO - Claim: Scott Lassiter “repeatedly campaigned to promote” North Carolina's “largest-ever” school funding cut, sending public school money to “unaccountable pr...
+2026-08-20 22:13:22,041 - INFO - Date: 2024-10-12
+2026-08-20 22:13:22,940 - INFO - Prediction: Refuted
+2026-08-20 22:13:22,940 - INFO - ✓ Correct prediction
+2026-08-20 22:13:25,948 - INFO - ================================================================================
+2026-08-20 22:13:25,949 - INFO - Processing claim #101 (ID: tracer_test_14834)
+2026-08-20 22:13:25,949 - INFO - Claim: “Wages adjusted for inflation were massively up under Donald Trump for Black men. … The (Black-white) wage gap in 2019 was actually shrinking under Do...
+2026-08-20 22:13:25,949 - INFO - Date: 2024-10-13
+2026-08-20 22:13:27,093 - INFO - Prediction: Misleading
+2026-08-20 22:13:27,094 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-08-20 22:13:30,097 - INFO - ================================================================================
+2026-08-20 22:13:30,097 - INFO - Processing claim #102 (ID: tracer_test_14835)
+2026-08-20 22:13:30,097 - INFO - Claim: Screenshots of documents show a former student of Democratic vice presidential candidate Tim Walz has lodged sexual abuse allegations against him....
+2026-08-20 22:13:30,097 - INFO - Date: 2024-10-13
+2026-08-20 22:13:31,155 - INFO - Prediction: Refuted
+2026-08-20 22:13:31,155 - INFO - ✓ Correct prediction
+2026-08-20 22:13:34,158 - INFO - ================================================================================
+2026-08-20 22:13:34,158 - INFO - Processing claim #103 (ID: tracer_test_14836)
+2026-08-20 22:13:34,158 - INFO - Claim: “About 400,000 manufacturing jobs in the state of Michigan will go away with EV mandates.”...
+2026-08-20 22:13:34,158 - INFO - Date: 2024-10-14
+2026-08-20 22:13:35,161 - INFO - Prediction: Refuted
+2026-08-20 22:13:35,162 - INFO - ✓ Correct prediction
+2026-08-20 22:13:38,172 - INFO - ================================================================================
+2026-08-20 22:13:38,172 - INFO - Processing claim #104 (ID: tracer_test_14837)
+2026-08-20 22:13:38,173 - INFO - Claim: Sen. Bob Casey "has voted in lockstep with his liberal party to defund the police."...
+2026-08-20 22:13:38,173 - INFO - Date: 2024-10-15
+2026-08-20 22:13:38,988 - INFO - Prediction: Refuted
+2026-08-20 22:13:38,988 - INFO - ✓ Correct prediction
+2026-08-20 22:13:42,000 - INFO - ================================================================================
+2026-08-20 22:13:42,001 - INFO - Processing claim #105 (ID: tracer_test_14838)
+2026-08-20 22:13:42,001 - INFO - Claim: "The Defense Department, with the stroke of a pen, has quietly codified its right to deploy lethal force against its own citizens.”...
+2026-08-20 22:13:42,001 - INFO - Date: 2024-10-15
+2026-08-20 22:13:42,809 - INFO - Prediction: Refuted
+2026-08-20 22:13:42,810 - INFO - ✓ Correct prediction
+2026-08-20 22:13:45,821 - INFO - ================================================================================
+2026-08-20 22:13:45,821 - INFO - Processing claim #106 (ID: tracer_test_14839)
+2026-08-20 22:13:45,822 - INFO - Claim: Detroit’s Oct.15, 2024, absentee ballot return rate proves election fraud....
+2026-08-20 22:13:45,822 - INFO - Date: 2024-10-15
+2026-08-20 22:13:46,802 - INFO - Prediction: Refuted
+2026-08-20 22:13:46,802 - INFO - ✓ Correct prediction
+2026-08-20 22:13:49,807 - INFO - ================================================================================
+2026-08-20 22:13:49,807 - INFO - Processing claim #107 (ID: tracer_test_14840)
+2026-08-20 22:13:49,807 - INFO - Claim: Vice President Kamala Harris' plan “will raise taxes for the typical American family by an estimated $3,000."...
+2026-08-20 22:13:49,807 - INFO - Date: 2024-10-15
+2026-08-20 22:13:50,920 - INFO - Prediction: Refuted
+2026-08-20 22:13:50,920 - INFO - ✓ Correct prediction
+2026-08-20 22:13:53,932 - INFO - ================================================================================
+2026-08-20 22:13:53,932 - INFO - Processing claim #108 (ID: tracer_test_14841)
+2026-08-20 22:13:53,933 - INFO - Claim: Says former President Donald Trump did not lose the 2020 election....
+2026-08-20 22:13:53,933 - INFO - Date: 2024-10-16
+2026-08-20 22:13:54,707 - INFO - Prediction: Refuted
+2026-08-20 22:13:54,707 - INFO - ✓ Correct prediction
+2026-08-20 22:13:57,719 - INFO - ================================================================================
+2026-08-20 22:13:57,719 - INFO - Processing claim #109 (ID: tracer_test_14842)
+2026-08-20 22:13:57,719 - INFO - Claim: Vice President Kamala Harris “wants struggling seniors to pay more Social Security taxes while she gives Medicare and Social Security to illegals.”...
+2026-08-20 22:13:57,719 - INFO - Date: 2024-10-17
+2026-08-20 22:13:58,555 - INFO - Prediction: Refuted
+2026-08-20 22:13:58,556 - INFO - ✓ Correct prediction
+2026-08-20 22:14:01,567 - INFO - ================================================================================
+2026-08-20 22:14:01,567 - INFO - Processing claim #110 (ID: tracer_test_14843)
+2026-08-20 22:14:01,567 - INFO - Claim: Says opponent Eric Hovde “opposes efforts to negotiate with the big pharmaceutical companies to lower the price of prescription drugs.”...
+2026-08-20 22:14:01,567 - INFO - Date: 2024-10-18
+2026-08-20 22:14:02,754 - INFO - Prediction: Misleading
+2026-08-20 22:14:02,754 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-08-20 22:14:05,765 - INFO - ================================================================================
+2026-08-20 22:14:05,766 - INFO - Processing claim #111 (ID: tracer_test_14844)
+2026-08-20 22:14:05,766 - INFO - Claim: Says Eric Hovde “claims anyone who believes in transitioning to a clean energy economy is ‘smoking crack cocaine.’”...
+2026-08-20 22:14:05,766 - INFO - Date: 2024-10-18
+2026-08-20 22:14:06,598 - INFO - Prediction: Refuted
+2026-08-20 22:14:06,599 - INFO - ✓ Correct prediction
+2026-08-20 22:14:09,603 - INFO - ================================================================================
+2026-08-20 22:14:09,603 - INFO - Processing claim #112 (ID: tracer_test_14845)
+2026-08-20 22:14:09,603 - INFO - Claim: Ballot drop boxes 'were only used for a pandemic.'...
+2026-08-20 22:14:09,603 - INFO - Date: 2024-10-18
+2026-08-20 22:14:10,399 - INFO - Prediction: Refuted
+2026-08-20 22:14:10,399 - INFO - ✓ Correct prediction
+2026-08-20 22:14:13,411 - INFO - ================================================================================
+2026-08-20 22:14:13,411 - INFO - Processing claim #113 (ID: tracer_test_14846)
+2026-08-20 22:14:13,411 - INFO - Claim: As part of his “charitable donations,” in 1990 Donald Trump “chartered a private plane to get Nelson Mandela to America when the U.S. government would...
+2026-08-20 22:14:13,411 - INFO - Date: 2024-10-18
+2026-08-20 22:14:14,250 - INFO - Prediction: Refuted
+2026-08-20 22:14:14,250 - INFO - ✓ Correct prediction
+2026-08-20 22:14:17,257 - INFO - ================================================================================
+2026-08-20 22:14:17,257 - INFO - Processing claim #114 (ID: tracer_test_14847)
+2026-08-20 22:14:17,257 - INFO - Claim: Michigan has “more registered voters than eligible citizens. This creates a huge risk of election fraud.”...
+2026-08-20 22:14:17,257 - INFO - Date: 2024-10-19
+2026-08-20 22:14:18,634 - INFO - Prediction: Refuted
+2026-08-20 22:14:18,635 - INFO - ✓ Correct prediction
+2026-08-20 22:14:21,646 - INFO - ================================================================================
+2026-08-20 22:14:21,646 - INFO - Processing claim #115 (ID: tracer_test_14848)
+2026-08-20 22:14:21,647 - INFO - Claim: Voting machines in Shelby County, Tennessee, are swapping votes from Kamala Harris to Donald Trump....
+2026-08-20 22:14:21,647 - INFO - Date: 2024-10-20
+2026-08-20 22:14:22,836 - INFO - Prediction: Refuted
+2026-08-20 22:14:22,837 - INFO - ✓ Correct prediction
+2026-08-20 22:14:25,840 - INFO - ================================================================================
+2026-08-20 22:14:25,840 - INFO - Processing claim #116 (ID: tracer_test_14849)
+2026-08-20 22:14:25,840 - INFO - Claim: “I’ve not gotten a single call from the White House.”...
+2026-08-20 22:14:25,840 - INFO - Date: 2024-10-21
+2026-08-20 22:14:28,197 - INFO - Prediction: Misleading
+2026-08-20 22:14:28,197 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-08-20 22:14:31,200 - INFO - ================================================================================
+2026-08-20 22:14:31,200 - INFO - Processing claim #117 (ID: tracer_test_14850)
+2026-08-20 22:14:31,201 - INFO - Claim: “Jacky Rosen voted to allow biological men to compete in women’s sports.”...
+2026-08-20 22:14:31,201 - INFO - Date: 2024-10-21
+2026-08-20 22:14:32,029 - INFO - Prediction: Refuted
+2026-08-20 22:14:32,030 - INFO - ✓ Correct prediction
+2026-08-20 22:14:35,041 - INFO - ================================================================================
+2026-08-20 22:14:35,042 - INFO - Processing claim #118 (ID: tracer_test_14851)
+2026-08-20 22:14:35,042 - INFO - Claim: A pro-Kamala Harris website shows she supports a mandatory gun buyback program....
+2026-08-20 22:14:35,042 - INFO - Date: 2024-10-21
+2026-08-20 22:14:36,663 - INFO - Prediction: Misleading
+2026-08-20 22:14:36,663 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-08-20 22:14:39,670 - INFO - ================================================================================
+2026-08-20 22:14:39,670 - INFO - Processing claim #119 (ID: tracer_test_14852)
+2026-08-20 22:14:39,670 - INFO - Claim: A photo shows The Atlantic published a story headlined “Trump is Literally Hitler.”...
+2026-08-20 22:14:39,671 - INFO - Date: 2024-10-22
+2026-08-20 22:14:40,688 - INFO - Prediction: Refuted
+2026-08-20 22:14:40,689 - INFO - ✓ Correct prediction
+2026-08-20 22:14:43,700 - INFO - ================================================================================
+2026-08-20 22:14:43,701 - INFO - Processing claim #120 (ID: tracer_test_14853)
+2026-08-20 22:14:43,701 - INFO - Claim: "As of today, we have cut the flow of immigration by over half."...
+2026-08-20 22:14:43,701 - INFO - Date: 2024-10-23
+2026-08-20 22:14:44,674 - INFO - Prediction: Refuted
+2026-08-20 22:14:44,675 - INFO - ✗ Incorrect (True: Supported, Pred: Refuted)
+2026-08-20 22:14:47,681 - INFO - ================================================================================
+2026-08-20 22:14:47,682 - INFO - Processing claim #121 (ID: tracer_test_14854)
+2026-08-20 22:14:47,682 - INFO - Claim: "Ruben Gallego wanted to defund the police. He actually co-sponsored legislation to defund the police.”...
+2026-08-20 22:14:47,682 - INFO - Date: 2024-10-23
+2026-08-20 22:14:50,071 - INFO - Prediction: Refuted
+2026-08-20 22:14:50,072 - INFO - ✓ Correct prediction
+2026-08-20 22:14:53,080 - INFO - ================================================================================
+2026-08-20 22:14:53,080 - INFO - Processing claim #122 (ID: tracer_test_14855)
+2026-08-20 22:14:53,080 - INFO - Claim: Vice President Kamala Harris has been “going so far as to call me Adolf Hitler.”...
+2026-08-20 22:14:53,081 - INFO - Date: 2024-10-23
+2026-08-20 22:14:54,578 - INFO - Prediction: Refuted
+2026-08-20 22:14:54,579 - INFO - ✓ Correct prediction
+2026-08-20 22:14:57,581 - INFO - ================================================================================
+2026-08-20 22:14:57,582 - INFO - Processing claim #123 (ID: tracer_test_14856)
+2026-08-20 22:14:57,582 - INFO - Claim: Michigan U.S. Senate candidate Mike Rogers “wants to cut Medicare and Social Security.”...
+2026-08-20 22:14:57,582 - INFO - Date: 2024-10-23
+2026-08-20 22:14:58,665 - INFO - Prediction: Refuted
+2026-08-20 22:14:58,665 - INFO - ✓ Correct prediction
+2026-08-20 22:15:01,677 - INFO - ================================================================================
+2026-08-20 22:15:01,677 - INFO - Processing claim #124 (ID: tracer_test_14857)
+2026-08-20 22:15:01,677 - INFO - Claim: “Kari Lake is threatening Social Security and Medicare.”...
+2026-08-20 22:15:01,677 - INFO - Date: 2024-10-24
+2026-08-20 22:15:02,513 - INFO - Prediction: Refuted
+2026-08-20 22:15:02,513 - INFO - ✗ Incorrect (True: Misleading, Pred: Refuted)
+2026-08-20 22:15:05,518 - INFO - ================================================================================
+2026-08-20 22:15:05,518 - INFO - Processing claim #125 (ID: tracer_test_14858)
+2026-08-20 22:15:05,518 - INFO - Claim: “The United States Postal Service recently changed the delivery method of absentee mail-in ballots” to hide “the evidence of absentee mail-in ballot f...
+2026-08-20 22:15:05,518 - INFO - Date: 2024-10-27
+2026-08-20 22:15:07,156 - INFO - Prediction: Refuted
+2026-08-20 22:15:07,156 - INFO - ✓ Correct prediction
+2026-08-20 22:15:10,165 - INFO - ================================================================================
+2026-08-20 22:15:10,165 - INFO - Processing claim #126 (ID: tracer_test_14859)
+2026-08-20 22:15:10,165 - INFO - Claim: “As California attorney general, (Kamala Harris) redefined child sex trafficking, assault with a deadly weapon, and rape of an unconscious person as a...
+2026-08-20 22:15:10,165 - INFO - Date: 2024-10-27
+2026-08-20 22:15:11,495 - INFO - Prediction: Refuted
+2026-08-20 22:15:11,496 - INFO - ✓ Correct prediction
+2026-08-20 22:15:14,501 - INFO - ================================================================================
+2026-08-20 22:15:14,501 - INFO - Processing claim #127 (ID: tracer_test_14860)
+2026-08-20 22:15:14,501 - INFO - Claim: Republican Senate candidate Sam Brown “wants to cut Medicaid and Social Security.”...
+2026-08-20 22:15:14,501 - INFO - Date: 2024-10-28
+2026-08-20 22:15:16,033 - INFO - Prediction: Misleading
+2026-08-20 22:15:16,033 - INFO - ✓ Correct prediction
+2026-08-20 22:15:19,043 - INFO - ================================================================================
+2026-08-20 22:15:19,043 - INFO - Processing claim #128 (ID: tracer_test_14861)
+2026-08-20 22:15:19,043 - INFO - Claim: Video shows a ‘Democratic operative’ making credible allegations of fraud during the 2020 presidential election in Georgia....
+2026-08-20 22:15:19,043 - INFO - Date: 2024-10-28
+2026-08-20 22:15:20,195 - INFO - Prediction: Refuted
+2026-08-20 22:15:20,195 - INFO - ✓ Correct prediction
+2026-08-20 22:15:23,207 - INFO - ================================================================================
+2026-08-20 22:15:23,207 - INFO - Processing claim #129 (ID: tracer_test_14862)
+2026-08-20 22:15:23,207 - INFO - Claim: Former President Donald Trump would “force states to monitor women's pregnancies.”...
+2026-08-20 22:15:23,208 - INFO - Date: 2024-10-29
+2026-08-20 22:15:24,004 - INFO - Prediction: Refuted
+2026-08-20 22:15:24,004 - INFO - ✓ Correct prediction
+2026-08-20 22:15:27,016 - INFO - ================================================================================
+2026-08-20 22:15:27,016 - INFO - Processing claim #130 (ID: tracer_test_14863)
+2026-08-20 22:15:27,016 - INFO - Claim: In Lancaster, Pa., “We caught them with 2,600 votes. We caught them cold, 2,600 votes. ... And every vote was written by the same person."...
+2026-08-20 22:15:27,016 - INFO - Date: 2024-10-29
+2026-08-20 22:15:29,883 - INFO - Prediction: Refuted
+2026-08-20 22:15:29,884 - INFO - ✓ Correct prediction
+2026-08-20 22:15:32,895 - INFO - ================================================================================
+2026-08-20 22:15:32,895 - INFO - Processing claim #131 (ID: tracer_test_14864)
+2026-08-20 22:15:32,896 - INFO - Claim: “The lady who leaked passwords for voting systems in Colorado is the same person who tried to remove Trump from the ballot.”...
+2026-08-20 22:15:32,896 - INFO - Date: 2024-10-30
+2026-08-20 22:15:33,893 - INFO - Prediction: Refuted
+2026-08-20 22:15:33,894 - INFO - ✓ Correct prediction
+2026-08-20 22:15:36,898 - INFO - ================================================================================
+2026-08-20 22:15:36,898 - INFO - Processing claim #132 (ID: tracer_test_14865)
+2026-08-20 22:15:36,899 - INFO - Claim: “It’s now been confirmed by Dominion that their voting machines have a programming issue that will affect vote counts.”...
+2026-08-20 22:15:36,899 - INFO - Date: 2024-10-30
+2026-08-20 22:15:37,997 - INFO - Prediction: Refuted
+2026-08-20 22:15:37,997 - INFO - ✓ Correct prediction
+2026-08-20 22:15:41,009 - INFO - ================================================================================
+2026-08-20 22:15:41,009 - INFO - Processing claim #133 (ID: tracer_test_14866)
+2026-08-20 22:15:41,009 - INFO - Claim: Data shows some voters cast multiple votes, meaning "at least 164,568 illegal votes have been cast” in Michigan....
+2026-08-20 22:15:41,009 - INFO - Date: 2024-10-30
+2026-08-20 22:15:42,133 - INFO - Prediction: Refuted
+2026-08-20 22:15:42,133 - INFO - ✓ Correct prediction
+2026-08-20 22:15:45,138 - INFO - ================================================================================
+2026-08-20 22:15:45,139 - INFO - Processing claim #134 (ID: tracer_test_14867)
+2026-08-20 22:15:45,139 - INFO - Claim: Video shows “ballot mule in Northampton County, Pennsylvania, (dropping) off a large amount of ballots.”...
+2026-08-20 22:15:45,139 - INFO - Date: 2024-10-30
+2026-08-20 22:15:45,931 - INFO - Prediction: Refuted
+2026-08-20 22:15:45,931 - INFO - ✓ Correct prediction
+2026-08-20 22:15:48,943 - INFO - ================================================================================
+2026-08-20 22:15:48,943 - INFO - Processing claim #135 (ID: tracer_test_14868)
+2026-08-20 22:15:48,943 - INFO - Claim: “I never mentioned” wanting to end the Affordable Care Act....
+2026-08-20 22:15:48,943 - INFO - Date: 2024-10-31
+2026-08-20 22:15:50,288 - INFO - Prediction: Refuted
+2026-08-20 22:15:50,288 - INFO - ✓ Correct prediction
+2026-08-20 22:15:53,300 - INFO - ================================================================================
+2026-08-20 22:15:53,300 - INFO - Processing claim #136 (ID: tracer_test_14869)
+2026-08-20 22:15:53,300 - INFO - Claim: Video shows “voting machines in Kentucky are not allowing voters to select” Donald Trump for president....
+2026-08-20 22:15:53,301 - INFO - Date: 2024-10-31
+2026-08-20 22:15:54,563 - INFO - Prediction: Refuted
+2026-08-20 22:15:54,564 - INFO - ✓ Correct prediction
+2026-08-20 22:15:57,571 - INFO - ================================================================================
+2026-08-20 22:15:57,572 - INFO - Processing claim #137 (ID: tracer_test_14870)
+2026-08-20 22:15:57,572 - INFO - Claim: "The Pentagon reportedly failed to send absentee ballots to active military service members before the election.”...
+2026-08-20 22:15:57,572 - INFO - Date: 2024-11-03
+2026-08-20 22:15:58,827 - INFO - Prediction: Misleading
+2026-08-20 22:15:58,827 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-08-20 22:16:01,839 - INFO - ================================================================================
+2026-08-20 22:16:01,839 - INFO - Processing claim #138 (ID: tracer_test_14871)
+2026-08-20 22:16:01,839 - INFO - Claim: If a ballot has a small dot in the box for Vice President Kamala Harris, “any other box filled in, will be void.”...
+2026-08-20 22:16:01,840 - INFO - Date: 2024-11-03
+2026-08-20 22:16:04,705 - INFO - Prediction: Refuted
+2026-08-20 22:16:04,706 - INFO - ✓ Correct prediction
+2026-08-20 22:16:07,709 - INFO - ================================================================================
+2026-08-20 22:16:07,710 - INFO - Processing claim #139 (ID: tracer_test_14872)
+2026-08-20 22:16:07,710 - INFO - Claim: “In Nevada, the GOP is succeeding in throwing out the votes of thousands of young people.”...
+2026-08-20 22:16:07,710 - INFO - Date: 2024-11-05
+2026-08-20 22:16:08,991 - INFO - Prediction: Refuted
+2026-08-20 22:16:08,991 - INFO - ✓ Correct prediction
+2026-08-20 22:16:11,998 - INFO - ================================================================================
+2026-08-20 22:16:11,998 - INFO - Processing claim #140 (ID: tracer_test_14873)
+2026-08-20 22:16:11,998 - INFO - Claim: “Paper ballots and hand counting never breaks down.”...
+2026-08-20 22:16:11,999 - INFO - Date: 2024-11-05
+2026-08-20 22:16:12,899 - INFO - Prediction: Refuted
+2026-08-20 22:16:12,899 - INFO - ✓ Correct prediction
+2026-08-20 22:16:15,911 - INFO - ================================================================================
+2026-08-20 22:16:15,911 - INFO - Processing claim #141 (ID: tracer_test_14874)
+2026-08-20 22:16:15,911 - INFO - Claim: Vans filled with 50,000 ballots show up in Philadelphia during live MSNBC report....
+2026-08-20 22:16:15,911 - INFO - Date: 2024-11-05
+2026-08-20 22:16:16,918 - INFO - Prediction: Refuted
+2026-08-20 22:16:16,918 - INFO - ✓ Correct prediction
+2026-08-20 22:16:19,929 - INFO - ================================================================================
+2026-08-20 22:16:19,930 - INFO - Processing claim #142 (ID: tracer_test_14875)
+2026-08-20 22:16:19,930 - INFO - Claim: “CCTV captures the moment a Trump voter in (Wisconsin) is assaulted by two Kamala Harris thugs at a voting station.”...
+2026-08-20 22:16:19,930 - INFO - Date: 2024-11-05
+2026-08-20 22:16:21,208 - INFO - Prediction: Refuted
+2026-08-20 22:16:21,208 - INFO - ✓ Correct prediction
+2026-08-20 22:16:24,220 - INFO - ================================================================================
+2026-08-20 22:16:24,220 - INFO - Processing claim #143 (ID: tracer_test_14876)
+2026-08-20 22:16:24,221 - INFO - Claim: “Every single county in America, every single county, Kamala Harris did worse than Joe Biden did.”...
+2026-08-20 22:16:24,221 - INFO - Date: 2024-11-06
+2026-08-20 22:16:25,502 - INFO - Prediction: Refuted
+2026-08-20 22:16:25,502 - INFO - ✓ Correct prediction
+2026-08-20 22:16:28,509 - INFO - ================================================================================
+2026-08-20 22:16:28,510 - INFO - Processing claim #144 (ID: tracer_test_14877)
+2026-08-20 22:16:28,510 - INFO - Claim: “Abortion is never medically necessary in the last trimester. Literally never. They just do a C-section.”...
+2026-08-20 22:16:28,510 - INFO - Date: 2024-11-06
+2026-08-20 22:16:29,584 - INFO - Prediction: Refuted
+2026-08-20 22:16:29,585 - INFO - ✓ Correct prediction
+2026-08-20 22:16:32,596 - INFO - ================================================================================
+2026-08-20 22:16:32,597 - INFO - Processing claim #145 (ID: tracer_test_14878)
+2026-08-20 22:16:32,597 - INFO - Claim: President-elect Donald Trump “has been to Epstein’s island”...
+2026-08-20 22:16:32,597 - INFO - Date: 2024-11-06
+2026-08-20 22:16:33,898 - INFO - Prediction: Misleading
+2026-08-20 22:16:33,899 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-08-20 22:16:36,900 - INFO - ================================================================================
+2026-08-20 22:16:36,901 - INFO - Processing claim #146 (ID: tracer_test_14879)
+2026-08-20 22:16:36,901 - INFO - Claim: 20 million Democratic votes “disappeared” in 2024....
+2026-08-20 22:16:36,901 - INFO - Date: 2024-11-06
+2026-08-20 22:16:38,506 - INFO - Prediction: Refuted
+2026-08-20 22:16:38,506 - INFO - ✓ Correct prediction
+2026-08-20 22:16:41,514 - INFO - ================================================================================
+2026-08-20 22:16:41,514 - INFO - Processing claim #147 (ID: tracer_test_14880)
+2026-08-20 22:16:41,515 - INFO - Claim: “I think they found a way to target Democratic districts and send millions of votes into a black hole. The numbers aren't adding up.”...
+2026-08-20 22:16:41,515 - INFO - Date: 2024-11-06
+2026-08-20 22:16:42,731 - INFO - Prediction: Refuted
+2026-08-20 22:16:42,731 - INFO - ✓ Correct prediction
+2026-08-20 22:16:45,740 - INFO - ================================================================================
+2026-08-20 22:16:45,740 - INFO - Processing claim #148 (ID: tracer_test_14881)
+2026-08-20 22:16:45,740 - INFO - Claim: The 2024 election results show that Joe Biden’s 80 million votes in 2020 were a “lie.”...
+2026-08-20 22:16:45,740 - INFO - Date: 2024-11-06
+2026-08-20 22:16:46,752 - INFO - Prediction: Refuted
+2026-08-20 22:16:46,752 - INFO - ✓ Correct prediction
+2026-08-20 22:16:49,760 - INFO - ================================================================================
+2026-08-20 22:16:49,760 - INFO - Processing claim #149 (ID: tracer_test_14882)
+2026-08-20 22:16:49,760 - INFO - Claim: “Something stinks” that Donald Trump won in several battleground states while Democrats won Senate or governor races in those states....
+2026-08-20 22:16:49,760 - INFO - Date: 2024-11-07
+2026-08-20 22:16:51,162 - INFO - Prediction: Misleading
+2026-08-20 22:16:51,163 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-08-20 22:16:54,173 - INFO - ================================================================================
+2026-08-20 22:16:54,173 - INFO - Processing claim #150 (ID: tracer_test_14883)
+2026-08-20 22:16:54,173 - INFO - Claim: "BREAKING: Zillow CEO just said on CNBC Trump's deportation plan will help with housing affordability.”...
+2026-08-20 22:16:54,173 - INFO - Date: 2024-11-08
+2026-08-20 22:16:56,275 - INFO - Prediction: Refuted
+2026-08-20 22:16:56,276 - INFO - ✓ Correct prediction
+2026-08-20 22:16:59,281 - INFO - ================================================================================
+2026-08-20 22:16:59,281 - INFO - Processing claim #151 (ID: tracer_test_14884)
+2026-08-20 22:16:59,281 - INFO - Claim: “Fewer people came in under President Biden than came under Donald Trump.”...
+2026-08-20 22:16:59,281 - INFO - Date: 2024-11-09
+2026-08-20 22:17:00,584 - INFO - Prediction: Misleading
+2026-08-20 22:17:00,584 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-08-20 22:17:03,592 - INFO - ================================================================================
+2026-08-20 22:17:03,593 - INFO - Processing claim #152 (ID: tracer_test_14885)
+2026-08-20 22:17:03,593 - INFO - Claim: "Arizona officials caught changing ballots, have been arrested.”...
+2026-08-20 22:17:03,593 - INFO - Date: 2024-11-09
+2026-08-20 22:17:04,524 - INFO - Prediction: Refuted
+2026-08-20 22:17:04,524 - INFO - ✓ Correct prediction
+2026-08-20 22:17:07,536 - INFO - ================================================================================
+2026-08-20 22:17:07,536 - INFO - Processing claim #153 (ID: tracer_test_14886)
+2026-08-20 22:17:07,536 - INFO - Claim: Inflation-adjusted weekly wages “are lower today than they were 50 years ago.”...
+2026-08-20 22:17:07,536 - INFO - Date: 2024-11-10
+2026-08-20 22:17:09,302 - INFO - Prediction: Misleading
+2026-08-20 22:17:09,303 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-08-20 22:17:12,309 - INFO - ================================================================================
+2026-08-20 22:17:12,309 - INFO - Processing claim #154 (ID: tracer_test_14887)
+2026-08-20 22:17:12,310 - INFO - Claim: Elon Musk’s Starlink technology manipulated votes in the 2024 election to benefit Donald Trump....
+2026-08-20 22:17:12,310 - INFO - Date: 2024-11-10
+2026-08-20 22:17:13,817 - INFO - Prediction: Refuted
+2026-08-20 22:17:13,818 - INFO - ✓ Correct prediction
+2026-08-20 22:17:16,829 - INFO - ================================================================================
+2026-08-20 22:17:16,830 - INFO - Processing claim #155 (ID: tracer_test_14888)
+2026-08-20 22:17:16,830 - INFO - Claim: “Every state that does not require voter ID, Kamala won.”...
+2026-08-20 22:17:16,830 - INFO - Date: 2024-11-11
+2026-08-20 22:17:17,876 - INFO - Prediction: Refuted
+2026-08-20 22:17:17,877 - INFO - ✓ Correct prediction
+2026-08-20 22:17:20,879 - INFO - ================================================================================
+2026-08-20 22:17:20,879 - INFO - Processing claim #156 (ID: tracer_test_14889)
+2026-08-20 22:17:20,879 - INFO - Claim: A “ballot dump” around 4 a.m. in Milwaukee shows the Wisconsin Senate election was stolen from the Republican candidate....
+2026-08-20 22:17:20,879 - INFO - Date: 2024-11-11
+2026-08-20 22:17:22,187 - INFO - Prediction: Refuted
+2026-08-20 22:17:22,187 - INFO - ✓ Correct prediction
+2026-08-20 22:17:25,189 - INFO - ================================================================================
+2026-08-20 22:17:25,190 - INFO - Processing claim #157 (ID: tracer_test_14890)
+2026-08-20 22:17:25,190 - INFO - Claim: “Red Cross is set to close shelters across North Carolina on Nov. 15. Families staying in these shelters are being told: ‘If you don’t have a safe pla...
+2026-08-20 22:17:25,190 - INFO - Date: 2024-11-12
+2026-08-20 22:18:29,873 - INFO - Prediction: Refuted
+2026-08-20 22:18:29,874 - INFO - ✓ Correct prediction
+2026-08-20 22:18:32,880 - INFO - ================================================================================
+2026-08-20 22:18:32,881 - INFO - Processing claim #158 (ID: tracer_test_14891)
+2026-08-20 22:18:32,881 - INFO - Claim: Says the election results are suspicious because opponent U.S. Sen. Baldwin won “nearly 90%” of absentee ballots in Milwaukee....
+2026-08-20 22:18:32,881 - INFO - Date: 2024-11-12
+2026-08-20 22:18:33,962 - INFO - Prediction: Refuted
+2026-08-20 22:18:33,963 - INFO - ✓ Correct prediction
+2026-08-20 22:18:36,969 - INFO - ================================================================================
+2026-08-20 22:18:36,970 - INFO - Processing claim #159 (ID: tracer_test_14892)
+2026-08-20 22:18:36,970 - INFO - Claim: Says Sen. Bob Casey, D-Pa., “is trying to change the outcome of the election by counting NON-CITIZEN votes.”...
+2026-08-20 22:18:36,970 - INFO - Date: 2024-11-13
+2026-08-20 22:18:38,410 - INFO - Prediction: Refuted
+2026-08-20 22:18:38,410 - INFO - ✓ Correct prediction
+2026-08-20 22:18:41,417 - INFO - ================================================================================
+2026-08-20 22:18:41,417 - INFO - Processing claim #160 (ID: tracer_test_14893)
+2026-08-20 22:18:41,417 - INFO - Claim: Nissan just announced 9,000 layoffs in Tennessee “to avoid severe losses due to expected tariffs.”...
+2026-08-20 22:18:41,417 - INFO - Date: 2024-11-13
+2026-08-20 22:18:42,556 - INFO - Prediction: Refuted
+2026-08-20 22:18:42,557 - INFO - ✓ Correct prediction
+2026-08-20 22:18:45,563 - INFO - ================================================================================
+2026-08-20 22:18:45,563 - INFO - Processing claim #161 (ID: tracer_test_14894)
+2026-08-20 22:18:45,564 - INFO - Claim: “There's never been a placebo-controlled study on childhood vaccines.”...
+2026-08-20 22:18:45,564 - INFO - Date: 2024-11-17
+2026-08-20 22:18:46,878 - INFO - Prediction: Refuted
+2026-08-20 22:18:46,879 - INFO - ✓ Correct prediction
+2026-08-20 22:18:49,885 - INFO - ================================================================================
+2026-08-20 22:18:49,886 - INFO - Processing claim #162 (ID: tracer_test_14895)
+2026-08-20 22:18:49,886 - INFO - Claim: "Ballot dumps" in Pennsylvania, California, North Carolina, Alaska and Wisconsin show election officials are improperly “flipping" down-ballot seats f...
+2026-08-20 22:18:49,886 - INFO - Date: 2024-11-18
+2026-08-20 22:18:51,005 - INFO - Prediction: Refuted
+2026-08-20 22:18:51,006 - INFO - ✓ Correct prediction
+2026-08-20 22:18:54,012 - INFO - ================================================================================
+2026-08-20 22:18:54,013 - INFO - Processing claim #163 (ID: tracer_test_14896)
+2026-08-20 22:18:54,013 - INFO - Claim: We’ve created 732,000 jobs since I've been governor....
+2026-08-20 22:18:54,013 - INFO - Date: 2024-11-19
+2026-08-20 22:18:55,346 - INFO - Prediction: Misleading
+2026-08-20 22:18:55,347 - INFO - ✓ Correct prediction
+2026-08-20 22:18:58,353 - INFO - ================================================================================
+2026-08-20 22:18:58,354 - INFO - Processing claim #164 (ID: tracer_test_14897)
+2026-08-20 22:18:58,354 - INFO - Claim: “The U.S Senate accidentally passed a bill banning Trump from becoming President, and Biden is planning to sign it.”...
+2026-08-20 22:18:58,354 - INFO - Date: 2024-11-19
+2026-08-20 22:18:59,485 - INFO - Prediction: Refuted
+2026-08-20 22:18:59,485 - INFO - ✓ Correct prediction
+2026-08-20 22:19:02,492 - INFO - ================================================================================
+2026-08-20 22:19:02,492 - INFO - Processing claim #165 (ID: tracer_test_14898)
+2026-08-20 22:19:02,492 - INFO - Claim: FEMA delivered “only four” temporary housing units to Helene victims in North Carolina as of Nov. 20....
+2026-08-20 22:19:02,493 - INFO - Date: 2024-11-20
+2026-08-20 22:19:03,536 - INFO - Prediction: Refuted
+2026-08-20 22:19:03,536 - INFO - ✗ Incorrect (True: Misleading, Pred: Refuted)
+2026-08-20 22:19:06,543 - INFO - ================================================================================
+2026-08-20 22:19:06,543 - INFO - Processing claim #166 (ID: tracer_test_14899)
+2026-08-20 22:19:06,543 - INFO - Claim: “Rachel Maddow MELTS DOWN over Elon Musk posting memes about buying MSNBC.”...
+2026-08-20 22:19:06,543 - INFO - Date: 2024-11-24
+2026-08-20 22:19:07,581 - INFO - Prediction: Refuted
+2026-08-20 22:19:07,581 - INFO - ✓ Correct prediction
+2026-08-20 22:19:10,588 - INFO - ================================================================================
+2026-08-20 22:19:10,588 - INFO - Processing claim #167 (ID: tracer_test_14900)
+2026-08-20 22:19:10,589 - INFO - Claim: "Half of all Ukrainian aid was laundered and sent back to Democrat candidates for re-election."...
+2026-08-20 22:19:10,589 - INFO - Date: 2024-11-25
+2026-08-20 22:19:12,232 - INFO - Prediction: Refuted
+2026-08-20 22:19:12,232 - INFO - ✓ Correct prediction
+2026-08-20 22:19:15,238 - INFO - ================================================================================
+2026-08-20 22:19:15,239 - INFO - Processing claim #168 (ID: tracer_test_14901)
+2026-08-20 22:19:15,239 - INFO - Claim: “Elon Musk said he might run for governor of California.”...
+2026-08-20 22:19:15,239 - INFO - Date: 2024-11-26
+2026-08-20 22:19:16,502 - INFO - Prediction: Refuted
+2026-08-20 22:19:16,502 - INFO - ✓ Correct prediction
+2026-08-20 22:19:19,509 - INFO - ================================================================================
+2026-08-20 22:19:19,509 - INFO - Processing claim #169 (ID: tracer_test_14902)
+2026-08-20 22:19:19,509 - INFO - Claim: "The famed ship at the bottom of the North Atlantic is actually not The Titanic. It is her near-identical sister ship The Olympic."...
+2026-08-20 22:19:19,509 - INFO - Date: 2024-11-29
+2026-08-20 22:19:21,516 - INFO - Prediction: Refuted
+2026-08-20 22:19:21,516 - INFO - ✓ Correct prediction
+2026-08-20 22:19:24,523 - INFO - ================================================================================
+2026-08-20 22:19:24,523 - INFO - Processing claim #170 (ID: tracer_test_14903)
+2026-08-20 22:19:24,523 - INFO - Claim: “The Universities of Wisconsin are 43rd out of 50 states in the nation, in terms of public support for our universities. The $855 million (budget requ...
+2026-08-20 22:19:24,523 - INFO - Date: 2024-12-01
+2026-08-20 22:19:25,501 - INFO - Prediction: Misleading
+2026-08-20 22:19:25,501 - INFO - ✗ Incorrect (True: Supported, Pred: Misleading)
+2026-08-20 22:19:28,507 - INFO - ================================================================================
+2026-08-20 22:19:28,508 - INFO - Processing claim #171 (ID: tracer_test_14904)
+2026-08-20 22:19:28,508 - INFO - Claim: “Trump won 18-to-24-year-olds in Wisconsin."...
+2026-08-20 22:19:28,508 - INFO - Date: 2024-12-01
+2026-08-20 22:19:29,551 - INFO - Prediction: Refuted
+2026-08-20 22:19:29,551 - INFO - ✗ Incorrect (True: Misleading, Pred: Refuted)
+2026-08-20 22:19:32,555 - INFO - ================================================================================
+2026-08-20 22:19:32,555 - INFO - Processing claim #172 (ID: tracer_test_14905)
+2026-08-20 22:19:32,556 - INFO - Claim: “New $40K AIDS cure is nearly 100% effective and requires two shots yearly.”...
+2026-08-20 22:19:32,556 - INFO - Date: 2024-12-02
+2026-08-20 22:19:33,521 - INFO - Prediction: Refuted
+2026-08-20 22:19:33,521 - INFO - ✓ Correct prediction
+2026-08-20 22:19:36,527 - INFO - ================================================================================
+2026-08-20 22:19:36,528 - INFO - Processing claim #173 (ID: tracer_test_14906)
+2026-08-20 22:19:36,528 - INFO - Claim: "President Trump has announced a plan to prosecute the Biden administration for the 325,000 kids that went ‘missing’ into human trafficking & sex slav...
+2026-08-20 22:19:36,528 - INFO - Date: 2024-12-02
+2026-08-20 22:19:37,576 - INFO - Prediction: Refuted
+2026-08-20 22:19:37,577 - INFO - ✓ Correct prediction
+2026-08-20 22:19:40,583 - INFO - ================================================================================
+2026-08-20 22:19:40,584 - INFO - Processing claim #174 (ID: tracer_test_14907)
+2026-08-20 22:19:40,584 - INFO - Claim: North Carolina Republicans “took money out of western North Carolina” with Hurricane Helene relief bill....
+2026-08-20 22:19:40,584 - INFO - Date: 2024-12-03
+2026-08-20 22:19:42,027 - INFO - Prediction: Refuted
+2026-08-20 22:19:42,028 - INFO - ✗ Incorrect (True: Misleading, Pred: Refuted)
+2026-08-20 22:19:45,030 - INFO - ================================================================================
+2026-08-20 22:19:45,030 - INFO - Processing claim #175 (ID: tracer_test_14908)
+2026-08-20 22:19:45,031 - INFO - Claim: Mitchell County, North Carolina, sheriff’s deputies “stole” generators intended for Hurricane Helene victims....
+2026-08-20 22:19:45,031 - INFO - Date: 2024-12-04
+2026-08-20 22:19:46,116 - INFO - Prediction: Refuted
+2026-08-20 22:19:46,117 - INFO - ✓ Correct prediction
+2026-08-20 22:19:49,122 - INFO - ================================================================================
+2026-08-20 22:19:49,122 - INFO - Processing claim #176 (ID: tracer_test_14909)
+2026-08-20 22:19:49,122 - INFO - Claim: "The city of… is being warned to be alert & vigilant as there is a serial killer on the run,”  Robert Thibodeau....
+2026-08-20 22:19:49,122 - INFO - Date: 2024-12-04
+2026-08-20 22:19:50,235 - INFO - Prediction: Refuted
+2026-08-20 22:19:50,235 - INFO - ✓ Correct prediction
+2026-08-20 22:19:53,238 - INFO - ================================================================================
+2026-08-20 22:19:53,238 - INFO - Processing claim #177 (ID: tracer_test_14910)
+2026-08-20 22:19:53,239 - INFO - Claim: “After meeting with Elon Musk, Republican leader Sen. John Thune announces plans to cut Social Security.”...
+2026-08-20 22:19:53,239 - INFO - Date: 2024-12-05
+2026-08-20 22:19:54,088 - INFO - Prediction: Refuted
+2026-08-20 22:19:54,089 - INFO - ✓ Correct prediction
+2026-08-20 22:19:57,093 - INFO - ================================================================================
+2026-08-20 22:19:57,093 - INFO - Processing claim #178 (ID: tracer_test_14911)
+2026-08-20 22:19:57,093 - INFO - Claim: About 1% of federal employees are “actually working in the office.”...
+2026-08-20 22:19:57,093 - INFO - Date: 2024-12-05
+2026-08-20 22:19:58,359 - INFO - Prediction: Refuted
+2026-08-20 22:19:58,359 - INFO - ✓ Correct prediction
+2026-08-20 22:20:01,366 - INFO - ================================================================================
+2026-08-20 22:20:01,366 - INFO - Processing claim #179 (ID: tracer_test_14912)
+2026-08-20 22:20:01,366 - INFO - Claim: The 14th Amendment “has never been challenged at SCOTUS.”...
+2026-08-20 22:20:01,366 - INFO - Date: 2024-12-08
+2026-08-20 22:20:02,778 - INFO - Prediction: Refuted
+2026-08-20 22:20:02,778 - INFO - ✓ Correct prediction
+2026-08-20 22:20:05,781 - INFO - ================================================================================
+2026-08-20 22:20:05,781 - INFO - Processing claim #180 (ID: tracer_test_14913)
+2026-08-20 22:20:05,782 - INFO - Claim: President-elect Donald Trump’s “plan to end birthright citizenship would mean (four) of his children wouldn't be considered US citizens.”...
+2026-08-20 22:20:05,782 - INFO - Date: 2024-12-08
+2026-08-20 22:20:06,829 - INFO - Prediction: Refuted
+2026-08-20 22:20:06,829 - INFO - ✓ Correct prediction
+2026-08-20 22:20:09,835 - INFO - ================================================================================
+2026-08-20 22:20:09,835 - INFO - Processing claim #181 (ID: tracer_test_14914)
+2026-08-20 22:20:09,835 - INFO - Claim: Drones reported in the U.S., including around the U.S. Capitol, have directed-energy weapons that have a “space-based laser generating system that can...
+2026-08-20 22:20:09,835 - INFO - Date: 2024-12-09
+2026-08-20 22:20:10,925 - INFO - Prediction: Refuted
+2026-08-20 22:20:10,925 - INFO - ✓ Correct prediction
+2026-08-20 22:20:13,932 - INFO - ================================================================================
+2026-08-20 22:20:13,932 - INFO - Processing claim #182 (ID: tracer_test_14915)
+2026-08-20 22:20:13,932 - INFO - Claim: “A $7.20 an hour McDonalds employee … now gets a cool 1/2 million dollar reward” for helping police find the suspected UnitedHealthcare CEO shooter....
+2026-08-20 22:20:13,933 - INFO - Date: 2024-12-09
+2026-08-20 22:20:15,545 - INFO - Prediction: Refuted
+2026-08-20 22:20:15,545 - INFO - ✓ Correct prediction
+2026-08-20 22:20:18,550 - INFO - ================================================================================
+2026-08-20 22:20:18,550 - INFO - Processing claim #183 (ID: tracer_test_14916)
+2026-08-20 22:20:18,550 - INFO - Claim: “Dr. Assad will return to ophthalmology after being deposed as president of Syria and plans to set up an eye clinic in Russia.”...
+2026-08-20 22:20:18,550 - INFO - Date: 2024-12-10
+2026-08-20 22:20:23,050 - INFO - Prediction: Refuted
+2026-08-20 22:20:23,050 - INFO - ✓ Correct prediction
+2026-08-20 22:20:26,057 - INFO - ================================================================================
+2026-08-20 22:20:26,057 - INFO - Processing claim #184 (ID: tracer_test_14917)
+2026-08-20 22:20:26,057 - INFO - Claim: Photos show mysterious drones reported flying over parts of New Jersey in November and December 2024....
+2026-08-20 22:20:26,057 - INFO - Date: 2024-12-11
+2026-08-20 22:20:27,135 - INFO - Prediction: Misleading
+2026-08-20 22:20:27,136 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-08-20 22:20:30,142 - INFO - ================================================================================
+2026-08-20 22:20:30,142 - INFO - Processing claim #185 (ID: tracer_test_14918)
+2026-08-20 22:20:30,143 - INFO - Claim: New Jersey drones are searching for missing radioactive material....
+2026-08-20 22:20:30,143 - INFO - Date: 2024-12-16
+2026-08-20 22:20:31,094 - INFO - Prediction: Misleading
+2026-08-20 22:20:31,094 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-08-20 22:20:34,097 - INFO - ================================================================================
+2026-08-20 22:20:34,097 - INFO - Processing claim #186 (ID: tracer_test_14919)
+2026-08-20 22:20:34,097 - INFO - Claim: Government shutdowns in 2013 and 2018 “cost our economy billions of dollars each.”...
+2026-08-20 22:20:34,097 - INFO - Date: 2024-12-18
+2026-08-20 22:20:35,045 - INFO - Prediction: Supported
+2026-08-20 22:20:35,046 - INFO - ✓ Correct prediction
+2026-08-20 22:20:38,052 - INFO - ================================================================================
+2026-08-20 22:20:38,053 - INFO - Processing claim #187 (ID: tracer_test_14920)
+2026-08-20 22:20:38,053 - INFO - Claim: Spending plan to prevent a government shutdown includes “a pay increase for members of Congress from $174,000 to $243,000 per year.”...
+2026-08-20 22:20:38,053 - INFO - Date: 2024-12-18
+2026-08-20 22:20:39,159 - INFO - Prediction: Refuted
+2026-08-20 22:20:39,160 - INFO - ✓ Correct prediction
+2026-08-20 22:20:42,166 - INFO - ================================================================================
+2026-08-20 22:20:42,167 - INFO - Processing claim #188 (ID: tracer_test_14921)
+2026-08-20 22:20:42,167 - INFO - Claim: “The subway burning victim's name was Amelia Carter.”...
+2026-08-20 22:20:42,167 - INFO - Date: 2024-12-23
+2026-08-20 22:20:43,282 - INFO - Prediction: Refuted
+2026-08-20 22:20:43,282 - INFO - ✓ Correct prediction
+2026-08-20 22:20:46,289 - INFO - ================================================================================
+2026-08-20 22:20:46,289 - INFO - Processing claim #189 (ID: tracer_test_14922)
+2026-08-20 22:20:46,289 - INFO - Claim: “After 30 years of Wisconsin’s checking account running a deficit, we've ended every fiscal year I've been governor with a positive balance. Today, we...
+2026-08-20 22:20:46,289 - INFO - Date: 2024-12-28
+2026-08-20 22:20:47,410 - INFO - Prediction: Misleading
+2026-08-20 22:20:47,410 - INFO - ✓ Correct prediction
+2026-08-20 22:20:50,415 - INFO - ================================================================================
+2026-08-20 22:20:50,415 - INFO - Processing claim #190 (ID: tracer_test_14923)
+2026-08-20 22:20:50,415 - INFO - Claim: H-1B guest workers are “being employed as dog trainers, massage therapists, cooks, and English teachers.”...
+2026-08-20 22:20:50,415 - INFO - Date: 2025-01-02
+2026-08-20 22:20:51,164 - INFO - Prediction: Refuted
+2026-08-20 22:20:51,164 - INFO - ✓ Correct prediction
+2026-08-20 22:20:54,171 - INFO - ================================================================================
+2026-08-20 22:20:54,171 - INFO - Processing claim #191 (ID: tracer_test_14924)
+2026-08-20 22:20:54,171 - INFO - Claim: China has “a mystery disease outbreak” and has declared a “state of emergency.”...
+2026-08-20 22:20:54,171 - INFO - Date: 2025-01-03
+2026-08-20 22:20:55,384 - INFO - Prediction: Refuted
+2026-08-20 22:20:55,385 - INFO - ✓ Correct prediction
+2026-08-20 22:20:58,387 - INFO - ================================================================================
+2026-08-20 22:20:58,387 - INFO - Processing claim #192 (ID: tracer_test_14925)
+2026-08-20 22:20:58,387 - INFO - Claim: “BREAKING: A second attack in New Orleans has been uncovered, police are searching.”...
+2026-08-20 22:20:58,387 - INFO - Date: 2025-01-04
+2026-08-20 22:21:00,166 - INFO - Prediction: Misleading
+2026-08-20 22:21:00,167 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-08-20 22:21:03,171 - INFO - ================================================================================
+2026-08-20 22:21:03,171 - INFO - Processing claim #193 (ID: tracer_test_14926)
+2026-08-20 22:21:03,172 - INFO - Claim: Buncombe County “is still demanding property taxes on homes destroyed by Hurricane Helene based on pre-Helene assessments that no longer apply.”...
+2026-08-20 22:21:03,172 - INFO - Date: 2025-01-06
+2026-08-20 22:21:04,322 - INFO - Prediction: Refuted
+2026-08-20 22:21:04,323 - INFO - ✗ Incorrect (True: Misleading, Pred: Refuted)
+2026-08-20 22:21:07,329 - INFO - ================================================================================
+2026-08-20 22:21:07,330 - INFO - Processing claim #194 (ID: tracer_test_14927)
+2026-08-20 22:21:07,330 - INFO - Claim: California wildfires “are a deliberate criminal land grab in preparation for Agenda 2030 and smart cities.”...
+2026-08-20 22:21:07,330 - INFO - Date: 2025-01-07
+2026-08-20 22:21:08,280 - INFO - Prediction: Refuted
+2026-08-20 22:21:08,280 - INFO - ✓ Correct prediction
+2026-08-20 22:21:11,286 - INFO - ================================================================================
+2026-08-20 22:21:11,287 - INFO - Processing claim #195 (ID: tracer_test_14928)
+2026-08-20 22:21:11,287 - INFO - Claim: “They’re still counting the (2024 election) vote in some areas.”...
+2026-08-20 22:21:11,287 - INFO - Date: 2025-01-07
+2026-08-20 22:21:12,759 - INFO - Prediction: Refuted
+2026-08-20 22:21:12,759 - INFO - ✓ Correct prediction
+2026-08-20 22:21:15,766 - INFO - ================================================================================
+2026-08-20 22:21:15,766 - INFO - Processing claim #196 (ID: tracer_test_14929)
+2026-08-20 22:21:15,766 - INFO - Claim: Wisconsin makes it more difficult for its citizens to vote than almost any state in the nation....
+2026-08-20 22:21:15,766 - INFO - Date: 2025-01-08
+2026-08-20 22:21:16,752 - INFO - Prediction: Misleading
+2026-08-20 22:21:16,753 - INFO - ✗ Incorrect (True: Supported, Pred: Misleading)
+2026-08-20 22:21:19,755 - INFO - ================================================================================
+2026-08-20 22:21:19,755 - INFO - Processing claim #197 (ID: tracer_test_14930)
+2026-08-20 22:21:19,755 - INFO - Claim: Voter ID "is supported, if you look at any poll, by 70 to 80% of the public."...
+2026-08-20 22:21:19,756 - INFO - Date: 2025-01-08
+2026-08-20 22:21:21,083 - INFO - Prediction: Supported
+2026-08-20 22:21:21,083 - INFO - ✓ Correct prediction
+2026-08-20 22:21:24,088 - INFO - ================================================================================
+2026-08-20 22:21:24,088 - INFO - Processing claim #198 (ID: tracer_test_14931)
+2026-08-20 22:21:24,089 - INFO - Claim: “One billionaire couple owns almost all the water in California."...
+2026-08-20 22:21:24,089 - INFO - Date: 2025-01-08
+2026-08-20 22:21:25,133 - INFO - Prediction: Refuted
+2026-08-20 22:21:25,133 - INFO - ✓ Correct prediction
+2026-08-20 22:21:28,138 - INFO - ================================================================================
+2026-08-20 22:21:28,138 - INFO - Processing claim #199 (ID: tracer_test_14932)
+2026-08-20 22:21:28,138 - INFO - Claim: “Blue items that survive” California wildfires are “indicative of DEW's (Directed Energy Weapons).”...
+2026-08-20 22:21:28,138 - INFO - Date: 2025-01-08
+2026-08-20 22:21:29,242 - INFO - Prediction: Refuted
+2026-08-20 22:21:29,242 - INFO - ✓ Correct prediction
+2026-08-20 22:21:32,249 - INFO - ================================================================================
+2026-08-20 22:21:32,249 - INFO - Processing claim #200 (ID: tracer_test_14933)
+2026-08-20 22:21:32,250 - INFO - Claim: “So (Los Angeles), Hollywood, and California (get) 100% aid for the next 180 days while Western North Carolina got $750.”...
+2026-08-20 22:21:32,250 - INFO - Date: 2025-01-10
+2026-08-20 22:21:33,542 - INFO - Prediction: Refuted
+2026-08-20 22:21:33,542 - INFO - ✓ Correct prediction
+2026-08-20 22:21:36,548 - INFO - ================================================================================
+2026-08-20 22:21:36,548 - INFO - Processing claim #201 (ID: tracer_test_14934)
+2026-08-20 22:21:36,549 - INFO - Claim: “P Diddy’s California mansion has been completely consumed by fire.”...
+2026-08-20 22:21:36,549 - INFO - Date: 2025-01-10
+2026-08-20 22:21:37,827 - INFO - Prediction: Refuted
+2026-08-20 22:21:37,827 - INFO - ✓ Correct prediction
+2026-08-20 22:21:40,830 - INFO - ================================================================================
+2026-08-20 22:21:40,830 - INFO - Processing claim #202 (ID: tracer_test_14935)
+2026-08-20 22:21:40,830 - INFO - Claim: Video claims to show the Los Angeles fires....
+2026-08-20 22:21:40,830 - INFO - Date: 2025-01-11
+2026-08-20 22:21:42,227 - INFO - Prediction: Misleading
+2026-08-20 22:21:42,228 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-08-20 22:21:45,233 - INFO - ================================================================================
+2026-08-20 22:21:45,233 - INFO - Processing claim #203 (ID: tracer_test_14936)
+2026-08-20 22:21:45,233 - INFO - Claim: “​​Oregon sent 60 fire trucks to California to help with the fires, but they’re being held in Sacramento for emissions testing.”...
+2026-08-20 22:21:45,233 - INFO - Date: 2025-01-11
+2026-08-20 22:21:46,679 - INFO - Prediction: Refuted
+2026-08-20 22:21:46,679 - INFO - ✓ Correct prediction
+2026-08-20 22:21:49,686 - INFO - ================================================================================
+2026-08-20 22:21:49,686 - INFO - Processing claim #204 (ID: tracer_test_14937)
+2026-08-20 22:21:49,686 - INFO - Claim: “Some of these (California) reservoirs have been dry for 15, 20 years."...
+2026-08-20 22:21:49,686 - INFO - Date: 2025-01-12
+2026-08-20 22:21:50,641 - INFO - Prediction: Refuted
+2026-08-20 22:21:50,642 - INFO - ✓ Correct prediction
+2026-08-20 22:21:53,648 - INFO - ================================================================================
+2026-08-20 22:21:53,649 - INFO - Processing claim #205 (ID: tracer_test_14938)
+2026-08-20 22:21:53,649 - INFO - Claim: California wildfires have “nothing to do with climate change.”...
+2026-08-20 22:21:53,649 - INFO - Date: 2025-01-13
+2026-08-20 22:21:54,460 - INFO - Prediction: Refuted
+2026-08-20 22:21:54,460 - INFO - ✓ Correct prediction
+2026-08-20 22:21:57,467 - INFO - ================================================================================
+2026-08-20 22:21:57,467 - INFO - Processing claim #206 (ID: tracer_test_14939)
+2026-08-20 22:21:57,467 - INFO - Claim: “The Equal Rights Amendment has become part of our Constitution.”...
+2026-08-20 22:21:57,467 - INFO - Date: 2025-01-17
+2026-08-20 22:21:58,708 - INFO - Prediction: Refuted
+2026-08-20 22:21:58,708 - INFO - ✓ Correct prediction
+2026-08-20 22:22:01,713 - INFO - ================================================================================
+2026-08-20 22:22:01,714 - INFO - Processing claim #207 (ID: tracer_test_14940)
+2026-08-20 22:22:01,714 - INFO - Claim: “After the referendum, Milwaukee Public Schools has a larger tax levy than the City of Milwaukee.”...
+2026-08-20 22:22:01,714 - INFO - Date: 2025-01-19
+2026-08-20 22:22:02,816 - INFO - Prediction: Misleading
+2026-08-20 22:22:02,817 - INFO - ✗ Incorrect (True: Supported, Pred: Misleading)
+2026-08-20 22:22:05,823 - INFO - ================================================================================
+2026-08-20 22:22:05,824 - INFO - Processing claim #208 (ID: tracer_test_14941)
+2026-08-20 22:22:05,824 - INFO - Claim: "Our nation’s tallest mountain … has been called Denali for thousands of years."...
+2026-08-20 22:22:05,824 - INFO - Date: 2025-01-20
+2026-08-20 22:22:07,539 - INFO - Prediction: Misleading
+2026-08-20 22:22:07,539 - INFO - ✓ Correct prediction
+2026-08-20 22:22:10,545 - INFO - ================================================================================
+2026-08-20 22:22:10,546 - INFO - Processing claim #209 (ID: tracer_test_14942)
+2026-08-20 22:22:10,546 - INFO - Claim: Second lady Usha Vance “will have her citizenship revoked if (President Donald) Trump signs his executive order banning birthright citizenship.”...
+2026-08-20 22:22:10,546 - INFO - Date: 2025-01-20
+2026-08-20 22:22:11,346 - INFO - Prediction: Refuted
+2026-08-20 22:22:11,346 - INFO - ✓ Correct prediction
+2026-08-20 22:22:14,350 - INFO - ================================================================================
+2026-08-20 22:22:14,350 - INFO - Processing claim #210 (ID: tracer_test_14943)
+2026-08-20 22:22:14,351 - INFO - Claim: The United States is the only country with unrestricted birthright citizenship....
+2026-08-20 22:22:14,351 - INFO - Date: 2025-01-20
+2026-08-20 22:22:15,360 - INFO - Prediction: Refuted
+2026-08-20 22:22:15,361 - INFO - ✓ Correct prediction
+2026-08-20 22:22:18,367 - INFO - ================================================================================
+2026-08-20 22:22:18,367 - INFO - Processing claim #211 (ID: tracer_test_14944)
+2026-08-20 22:22:18,367 - INFO - Claim: “Under Trump's executive order, every single person in America is now legally classified as female.”...
+2026-08-20 22:22:18,367 - INFO - Date: 2025-01-21
+2026-08-20 22:22:19,339 - INFO - Prediction: Refuted
+2026-08-20 22:22:19,339 - INFO - ✓ Correct prediction
+2026-08-20 22:22:22,343 - INFO - ================================================================================
+2026-08-20 22:22:22,343 - INFO - Processing claim #212 (ID: tracer_test_14945)
+2026-08-20 22:22:22,343 - INFO - Claim: “The removal of birthright citizenship only applies to the children of those that are here ILLEGALLY.”...
+2026-08-20 22:22:22,344 - INFO - Date: 2025-01-21
+2026-08-20 22:22:23,444 - INFO - Prediction: Refuted
+2026-08-20 22:22:23,445 - INFO - ✓ Correct prediction
+2026-08-20 22:22:26,450 - INFO - ================================================================================
+2026-08-20 22:22:26,450 - INFO - Processing claim #213 (ID: tracer_test_14946)
+2026-08-20 22:22:26,450 - INFO - Claim: President Donald Trump signed an executive order to replace the IRS with the External Revenue Service, eliminating tax returns and income tax....
+2026-08-20 22:22:26,450 - INFO - Date: 2025-01-22
+2026-08-20 22:22:27,531 - INFO - Prediction: Refuted
+2026-08-20 22:22:27,531 - INFO - ✓ Correct prediction
+2026-08-20 22:22:30,535 - INFO - ================================================================================
+2026-08-20 22:22:30,535 - INFO - Processing claim #214 (ID: tracer_test_14947)
+2026-08-20 22:22:30,535 - INFO - Claim: “The U.S. Senate has the votes to remove Trump from office if the House votes to impeach.”...
+2026-08-20 22:22:30,536 - INFO - Date: 2025-01-22
+2026-08-20 22:22:31,705 - INFO - Prediction: Misleading
+2026-08-20 22:22:31,705 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-08-20 22:22:34,709 - INFO - ================================================================================
+2026-08-20 22:22:34,710 - INFO - Processing claim #215 (ID: tracer_test_14948)
+2026-08-20 22:22:34,710 - INFO - Claim: The U.S. House Select Committee that investigated the Jan. 6, 2021, attack on the U.S. Capitol “deleted and destroyed all of the information that they...
+2026-08-20 22:22:34,710 - INFO - Date: 2025-01-22
+2026-08-20 22:22:36,073 - INFO - Prediction: Refuted
+2026-08-20 22:22:36,073 - INFO - ✓ Correct prediction
+2026-08-20 22:22:39,080 - INFO - ================================================================================
+2026-08-20 22:22:39,080 - INFO - Processing claim #216 (ID: tracer_test_14949)
+2026-08-20 22:22:39,080 - INFO - Claim: President Donald Trump "just reversed all the cost caps Biden negotiated for anyone on Medicare or Medicaid."...
+2026-08-20 22:22:39,080 - INFO - Date: 2025-01-23
+2026-08-20 22:22:40,237 - INFO - Prediction: Refuted
+2026-08-20 22:22:40,237 - INFO - ✓ Correct prediction
+2026-08-20 22:22:43,244 - INFO - ================================================================================
+2026-08-20 22:22:43,244 - INFO - Processing claim #217 (ID: tracer_test_14950)
+2026-08-20 22:22:43,244 - INFO - Claim: "The Biden administration kicked 2,000 displaced North Carolinians out of their temporary housing into freezing 20-degree weather," earlier in January...
+2026-08-20 22:22:43,244 - INFO - Date: 2025-01-24
+2026-08-20 22:22:44,088 - INFO - Prediction: Refuted
+2026-08-20 22:22:44,088 - INFO - ✓ Correct prediction
+2026-08-20 22:22:47,093 - INFO - ================================================================================
+2026-08-20 22:22:47,093 - INFO - Processing claim #218 (ID: tracer_test_14951)
+2026-08-20 22:22:47,093 - INFO - Claim: We’re one of the very few nations that allowed birthright citizenship.”...
+2026-08-20 22:22:47,093 - INFO - Date: 2025-01-26
+2026-08-20 22:22:48,094 - INFO - Prediction: Refuted
+2026-08-20 22:22:48,094 - INFO - ✗ Incorrect (True: Misleading, Pred: Refuted)
+2026-08-20 22:22:51,096 - INFO - ================================================================================
+2026-08-20 22:22:51,097 - INFO - Processing claim #219 (ID: tracer_test_14952)
+2026-08-20 22:22:51,097 - INFO - Claim: “As a Californian, we have given more to the recovery of other states than any other state in the union.”...
+2026-08-20 22:22:51,097 - INFO - Date: 2025-01-26
+2026-08-20 22:22:52,826 - INFO - Prediction: Misleading
+2026-08-20 22:22:52,826 - INFO - ✓ Correct prediction
+2026-08-20 22:22:55,833 - INFO - ================================================================================
+2026-08-20 22:22:55,833 - INFO - Processing claim #220 (ID: tracer_test_14953)
+2026-08-20 22:22:55,834 - INFO - Claim: The words “help” and “trafico” in a Google Maps aerial view of Los Angeles are connected to human trafficking....
+2026-08-20 22:22:55,834 - INFO - Date: 2025-01-26
+2026-08-20 22:22:57,279 - INFO - Prediction: Refuted
+2026-08-20 22:22:57,279 - INFO - ✓ Correct prediction
+2026-08-20 22:23:00,286 - INFO - ================================================================================
+2026-08-20 22:23:00,286 - INFO - Processing claim #221 (ID: tracer_test_14954)
+2026-08-20 22:23:00,286 - INFO - Claim: The U.S. has an egg shortage because the “Biden administration and the Department of Agriculture directed the mass killing of more than 100 million ch...
+2026-08-20 22:23:00,286 - INFO - Date: 2025-01-28
+2026-08-20 22:23:01,468 - INFO - Prediction: Refuted
+2026-08-20 22:23:01,468 - INFO - ✗ Incorrect (True: Misleading, Pred: Refuted)
+2026-08-20 22:23:04,475 - INFO - ================================================================================
+2026-08-20 22:23:04,475 - INFO - Processing claim #222 (ID: tracer_test_14955)
+2026-08-20 22:23:04,475 - INFO - Claim: Florida’s in-state college tuition waiver for immigrants in the country illegally costs the state $41 million....
+2026-08-20 22:23:04,476 - INFO - Date: 2025-01-28
+2026-08-20 22:23:05,602 - INFO - Prediction: Misleading
+2026-08-20 22:23:05,602 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-08-20 22:23:08,609 - INFO - ================================================================================
+2026-08-20 22:23:08,609 - INFO - Processing claim #223 (ID: tracer_test_14956)
+2026-08-20 22:23:08,609 - INFO - Claim: “DOGE and OMB also found that there was about to be $50 million taxpayer dollars that went out the door to fund condoms in Gaza.”...
+2026-08-20 22:23:08,609 - INFO - Date: 2025-01-28
+2026-08-20 22:23:09,587 - INFO - Prediction: Refuted
+2026-08-20 22:23:09,587 - INFO - ✓ Correct prediction
+2026-08-20 22:23:12,594 - INFO - ================================================================================
+2026-08-20 22:23:12,594 - INFO - Processing claim #224 (ID: tracer_test_14957)
+2026-08-20 22:23:12,594 - INFO - Claim: Robert F. Kennedy Jr. “made $2.5 million off suing one of the entities that (he would be regulating) and plans to keep getting a take of every lawsuit...
+2026-08-20 22:23:12,595 - INFO - Date: 2025-01-29
+2026-08-20 22:23:14,492 - INFO - Prediction: Refuted
+2026-08-20 22:23:14,492 - INFO - ✗ Incorrect (True: Misleading, Pred: Refuted)
+2026-08-20 22:23:17,497 - INFO - ================================================================================
+2026-08-20 22:23:17,497 - INFO - Processing claim #225 (ID: tracer_test_14958)
+2026-08-20 22:23:17,497 - INFO - Claim: Early reports of four survivors show “this DC plane crash story isn’t adding up.”...
+2026-08-20 22:23:17,498 - INFO - Date: 2025-01-30
+2026-08-20 22:23:18,354 - INFO - Prediction: Misleading
+2026-08-20 22:23:18,355 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-08-20 22:23:21,366 - INFO - ================================================================================
+2026-08-20 22:23:21,367 - INFO - Processing claim #226 (ID: tracer_test_14959)
+2026-08-20 22:23:21,367 - INFO - Claim: The National Human Trafficking Hotline “in the last four years decided that they would no longer report tips to law enforcement, that they would take ...
+2026-08-20 22:23:21,367 - INFO - Date: 2025-01-30
+2026-08-20 22:23:22,882 - INFO - Prediction: Refuted
+2026-08-20 22:23:22,883 - INFO - ✓ Correct prediction
+2026-08-20 22:23:25,894 - INFO - ================================================================================
+2026-08-20 22:23:25,895 - INFO - Processing claim #227 (ID: tracer_test_14960)
+2026-08-20 22:23:25,895 - INFO - Claim: “I changed the Obama policy (on hiring air traffic controllers) ... And then Biden came in and he changed it.”...
+2026-08-20 22:23:25,895 - INFO - Date: 2025-01-30
+2026-08-20 22:23:26,751 - INFO - Prediction: Misleading
+2026-08-20 22:23:26,752 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-08-20 22:23:29,756 - INFO - ================================================================================
+2026-08-20 22:23:29,756 - INFO - Processing claim #228 (ID: tracer_test_14961)
+2026-08-20 22:23:29,756 - INFO - Claim: CNN reported on the Potomac River plane and helicopter crash “hours before it happened.”...
+2026-08-20 22:23:29,756 - INFO - Date: 2025-01-31
+2026-08-20 22:23:30,718 - INFO - Prediction: Refuted
+2026-08-20 22:23:30,718 - INFO - ✓ Correct prediction
+2026-08-20 22:23:33,730 - INFO - ================================================================================
+2026-08-20 22:23:33,730 - INFO - Processing claim #229 (ID: tracer_test_14962)
+2026-08-20 22:23:33,730 - INFO - Claim: At Guantánamo Bay, “we'll have the capacity to continue to do there what we've always done. We've always had a presence of illegal immigrants there th...
+2026-08-20 22:23:33,730 - INFO - Date: 2025-02-02
+2026-08-20 22:23:34,927 - INFO - Prediction: Refuted
+2026-08-20 22:23:34,928 - INFO - ✗ Incorrect (True: Misleading, Pred: Refuted)
+2026-08-20 22:23:37,939 - INFO - ================================================================================
+2026-08-20 22:23:37,939 - INFO - Processing claim #230 (ID: tracer_test_14963)
+2026-08-20 22:23:37,939 - INFO - Claim: Ring is “alerting people about (Immigration and Customs Enforcement) raids.”...
+2026-08-20 22:23:37,939 - INFO - Date: 2025-02-02
+2026-08-20 22:23:40,115 - INFO - Prediction: Refuted
+2026-08-20 22:23:40,116 - INFO - ✓ Correct prediction
+2026-08-20 22:23:43,127 - INFO - ================================================================================
+2026-08-20 22:23:43,127 - INFO - Processing claim #231 (ID: tracer_test_14964)
+2026-08-20 22:23:43,128 - INFO - Claim: Federal websites updated with a nine-star flag that represents the Confederacy....
+2026-08-20 22:23:43,128 - INFO - Date: 2025-02-02
+2026-08-20 22:23:44,609 - INFO - Prediction: Refuted
+2026-08-20 22:23:44,610 - INFO - ✓ Correct prediction
+2026-08-20 22:23:47,621 - INFO - ================================================================================
+2026-08-20 22:23:47,622 - INFO - Processing claim #232 (ID: tracer_test_14965)
+2026-08-20 22:23:47,622 - INFO - Claim: From the U.S. Agency for International Development funding, “10 to 30 cents on the dollar is what actually goes to aid.”...
+2026-08-20 22:23:47,622 - INFO - Date: 2025-02-02
+2026-08-20 22:23:48,900 - INFO - Prediction: Refuted
+2026-08-20 22:23:48,900 - INFO - ✓ Correct prediction
+2026-08-20 22:23:51,905 - INFO - ================================================================================
+2026-08-20 22:23:51,905 - INFO - Processing claim #233 (ID: tracer_test_14966)
+2026-08-20 22:23:51,906 - INFO - Claim: Ukrainian President Volodymyr Zelenskyy “just threw the whole Ukraine money laundering operation under the bus … by stating he’s received less than ha...
+2026-08-20 22:23:51,906 - INFO - Date: 2025-02-02
+2026-08-20 22:23:53,341 - INFO - Prediction: Refuted
+2026-08-20 22:23:53,341 - INFO - ✓ Correct prediction
+2026-08-20 22:23:56,352 - INFO - ================================================================================
+2026-08-20 22:23:56,353 - INFO - Processing claim #234 (ID: tracer_test_14967)
+2026-08-20 22:23:56,353 - INFO - Claim: As head football coach at Texas Tech University, “I recruited (Patrick Mahomes) ... I’ve got to be very good friends with him.”...
+2026-08-20 22:23:56,353 - INFO - Date: 2025-02-03
+2026-08-20 22:23:57,468 - INFO - Prediction: Refuted
+2026-08-20 22:23:57,469 - INFO - ✓ Correct prediction
+2026-08-20 22:24:00,476 - INFO - ================================================================================
+2026-08-20 22:24:00,476 - INFO - Processing claim #235 (ID: tracer_test_14968)
+2026-08-20 22:24:00,477 - INFO - Claim: “Elon Musk officially cancelled USAID and fired all the staff. In his words, ‘we just toppled one of the biggest globalist terror organizations in his...
+2026-08-20 22:24:00,477 - INFO - Date: 2025-02-04
+2026-08-20 22:24:02,848 - INFO - Prediction: Refuted
+2026-08-20 22:24:02,848 - INFO - ✓ Correct prediction
+2026-08-20 22:24:05,859 - INFO - ================================================================================
+2026-08-20 22:24:05,859 - INFO - Processing claim #236 (ID: tracer_test_14969)
+2026-08-20 22:24:05,859 - INFO - Claim: CBS News and “60 Minutes” “replaced” former Vice President Kamala Harris’ interview answers “with completely different, and far better, answers, taken...
+2026-08-20 22:24:05,860 - INFO - Date: 2025-02-06
+2026-08-20 22:24:07,182 - INFO - Prediction: Refuted
+2026-08-20 22:24:07,183 - INFO - ✓ Correct prediction
+2026-08-20 22:24:10,194 - INFO - ================================================================================
+2026-08-20 22:24:10,195 - INFO - Processing claim #237 (ID: tracer_test_14970)
+2026-08-20 22:24:10,195 - INFO - Claim: “US Debt Clock” numbers prove “DOGE has saved taxpayers $64 billion dollars in just 17 days.”...
+2026-08-20 22:24:10,195 - INFO - Date: 2025-02-07
+2026-08-20 22:24:11,332 - INFO - Prediction: Refuted
+2026-08-20 22:24:11,332 - INFO - ✓ Correct prediction
+2026-08-20 22:24:14,338 - INFO - ================================================================================
+2026-08-20 22:24:14,339 - INFO - Processing claim #238 (ID: tracer_test_14971)
+2026-08-20 22:24:14,339 - INFO - Claim: Wisconsin does not “require judges to automatically recuse just because they have done some kind of legal work in the past as a lawyer.”...
+2026-08-20 22:24:14,339 - INFO - Date: 2025-02-09
+2026-08-20 22:24:16,137 - INFO - Prediction: Supported
+2026-08-20 22:24:16,137 - INFO - ✓ Correct prediction
+2026-08-20 22:24:19,149 - INFO - ================================================================================
+2026-08-20 22:24:19,149 - INFO - Processing claim #239 (ID: tracer_test_14972)
+2026-08-20 22:24:19,149 - INFO - Claim: “FEMA sent $59M LAST WEEK to luxury hotels in New York City to house illegal migrants… That money is meant for American disaster relief.”...
+2026-08-20 22:24:19,150 - INFO - Date: 2025-02-10
+2026-08-20 22:24:21,299 - INFO - Prediction: Refuted
+2026-08-20 22:24:21,299 - INFO - ✓ Correct prediction
+2026-08-20 22:24:24,311 - INFO - ================================================================================
+2026-08-20 22:24:24,311 - INFO - Processing claim #240 (ID: tracer_test_14973)
+2026-08-20 22:24:24,311 - INFO - Claim: The United States is “last in education out of 40 states … but we're number one in cost per pupil."...
+2026-08-20 22:24:24,311 - INFO - Date: 2025-02-10
+2026-08-20 22:24:25,398 - INFO - Prediction: Refuted
+2026-08-20 22:24:25,399 - INFO - ✓ Correct prediction
+2026-08-20 22:24:28,404 - INFO - ================================================================================
+2026-08-20 22:24:28,405 - INFO - Processing claim #241 (ID: tracer_test_14974)
+2026-08-20 22:24:28,405 - INFO - Claim: Rep. Nancy Pelosi has a $223,000 salary and a $202 million net worth. Sen. Mitch McConnell has a $200,000 salary and a $95 million net worth. Sen. Chu...
+2026-08-20 22:24:28,405 - INFO - Date: 2025-02-11
+2026-08-20 22:24:29,485 - INFO - Prediction: Misleading
+2026-08-20 22:24:29,486 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-08-20 22:24:32,497 - INFO - ================================================================================
+2026-08-20 22:24:32,498 - INFO - Processing claim #242 (ID: tracer_test_14975)
+2026-08-20 22:24:32,498 - INFO - Claim: Under the SAVE Act, “if you are a woman that has changed your name from your birth certificate, let’s say through marriage … you are no longer eligibl...
+2026-08-20 22:24:32,498 - INFO - Date: 2025-02-11
+2026-08-20 22:24:33,528 - INFO - Prediction: Refuted
+2026-08-20 22:24:33,528 - INFO - ✓ Correct prediction
+2026-08-20 22:24:36,540 - INFO - ================================================================================
+2026-08-20 22:24:36,540 - INFO - Processing claim #243 (ID: tracer_test_14976)
+2026-08-20 22:24:36,540 - INFO - Claim: The federal workforce grew from 2.1 to 3 million under President Joe Biden, “a 46% increase since Biden took office.”...
+2026-08-20 22:24:36,540 - INFO - Date: 2025-02-16
+2026-08-20 22:24:37,413 - INFO - Prediction: Refuted
+2026-08-20 22:24:37,413 - INFO - ✓ Correct prediction
+2026-08-20 22:24:40,425 - INFO - ================================================================================
+2026-08-20 22:24:40,425 - INFO - Processing claim #244 (ID: tracer_test_14977)
+2026-08-20 22:24:40,426 - INFO - Claim: The Chicago Cubs owner is bankrolling Brad Schimel....
+2026-08-20 22:24:40,426 - INFO - Date: 2025-02-18
+2026-08-20 22:24:41,699 - INFO - Prediction: Refuted
+2026-08-20 22:24:41,700 - INFO - ✗ Incorrect (True: Misleading, Pred: Refuted)
+2026-08-20 22:24:44,708 - INFO - ================================================================================
+2026-08-20 22:24:44,708 - INFO - Processing claim #245 (ID: tracer_test_14978)
+2026-08-20 22:24:44,709 - INFO - Claim: Former President Joe Biden “fired” 14,000 Keystone XL pipeline workers “​​on day one” of his administration....
+2026-08-20 22:24:44,709 - INFO - Date: 2025-02-18
+2026-08-20 22:24:45,675 - INFO - Prediction: Refuted
+2026-08-20 22:24:45,675 - INFO - ✓ Correct prediction
+2026-08-20 22:24:48,683 - INFO - ================================================================================
+2026-08-20 22:24:48,683 - INFO - Processing claim #246 (ID: tracer_test_14979)
+2026-08-20 22:24:48,683 - INFO - Claim: “I am not making this up: Republicans have introduced legislation … to increase your bank fees."...
+2026-08-20 22:24:48,684 - INFO - Date: 2025-02-18
+2026-08-20 22:24:50,020 - INFO - Prediction: Refuted
+2026-08-20 22:24:50,021 - INFO - ✓ Correct prediction
+2026-08-20 22:24:53,030 - INFO - ================================================================================
+2026-08-20 22:24:53,030 - INFO - Processing claim #247 (ID: tracer_test_14980)
+2026-08-20 22:24:53,031 - INFO - Claim: Volodymyr Zelenskyy “started” the war in Ukraine with Russia....
+2026-08-20 22:24:53,031 - INFO - Date: 2025-02-18
+2026-08-20 22:24:54,870 - INFO - Prediction: Refuted
+2026-08-20 22:24:54,870 - INFO - ✓ Correct prediction
+2026-08-20 22:24:57,882 - INFO - ================================================================================
+2026-08-20 22:24:57,882 - INFO - Processing claim #248 (ID: tracer_test_14981)
+2026-08-20 22:24:57,882 - INFO - Claim: “90% of the (school) districts in Wisconsin already have a policy” banning cellphones during class time....
+2026-08-20 22:24:57,882 - INFO - Date: 2025-02-19
+2026-08-20 22:24:58,913 - INFO - Prediction: Misleading
+2026-08-20 22:24:58,914 - INFO - ✗ Incorrect (True: Supported, Pred: Misleading)
+2026-08-20 22:25:01,919 - INFO - ================================================================================
+2026-08-20 22:25:01,919 - INFO - Processing claim #249 (ID: tracer_test_14982)
+2026-08-20 22:25:01,919 - INFO - Claim: “Stacey Abrams stole $2 BILLION from taxpayers.”...
+2026-08-20 22:25:01,919 - INFO - Date: 2025-02-19
+2026-08-20 22:25:02,833 - INFO - Prediction: Refuted
+2026-08-20 22:25:02,834 - INFO - ✓ Correct prediction
+2026-08-20 22:25:05,838 - INFO - ================================================================================
+2026-08-20 22:25:05,839 - INFO - Processing claim #250 (ID: tracer_test_14983)
+2026-08-20 22:25:05,839 - INFO - Claim: “The single biggest driver of our national debt since 2001 has been Republican tax cuts.”...
+2026-08-20 22:25:05,839 - INFO - Date: 2025-02-20
+2026-08-20 22:25:07,103 - INFO - Prediction: Misleading
+2026-08-20 22:25:07,103 - INFO - ✓ Correct prediction
+2026-08-20 22:25:10,113 - INFO - ================================================================================
+2026-08-20 22:25:10,114 - INFO - Processing claim #251 (ID: tracer_test_14984)
+2026-08-20 22:25:10,114 - INFO - Claim: “You either have XX or XY chromosomes. Those are the options.”...
+2026-08-20 22:25:10,114 - INFO - Date: 2025-02-20
+2026-08-20 22:25:11,912 - INFO - Prediction: Refuted
+2026-08-20 22:25:11,912 - INFO - ✓ Correct prediction
+2026-08-20 22:25:14,916 - INFO - ================================================================================
+2026-08-20 22:25:14,916 - INFO - Processing claim #252 (ID: tracer_test_14985)
+2026-08-20 22:25:14,916 - INFO - Claim: President Joe Biden’s immigration policy was “a giant voter importation scam.”...
+2026-08-20 22:25:14,916 - INFO - Date: 2025-02-20
+2026-08-20 22:25:16,800 - INFO - Prediction: Refuted
+2026-08-20 22:25:16,800 - INFO - ✓ Correct prediction
+2026-08-20 22:25:19,805 - INFO - ================================================================================
+2026-08-20 22:25:19,805 - INFO - Processing claim #253 (ID: tracer_test_14986)
+2026-08-20 22:25:19,805 - INFO - Claim: “71 out of 72 Wisconsin counties filed lawsuits against Purdue Pharma. Brad Schimel refused to join them.”...
+2026-08-20 22:25:19,805 - INFO - Date: 2025-02-24
+2026-08-20 22:25:22,045 - INFO - Prediction: Misleading
+2026-08-20 22:25:22,045 - INFO - ✓ Correct prediction
+2026-08-20 22:25:25,049 - INFO - ================================================================================
+2026-08-20 22:25:25,049 - INFO - Processing claim #254 (ID: tracer_test_14987)
+2026-08-20 22:25:25,050 - INFO - Claim: Zero votes for 2024 Democratic presidential nominee Kamala Harris in Rockland County, New York, precinct proves Elon Musk hacked 2024 presidential ele...
+2026-08-20 22:25:25,050 - INFO - Date: 2025-02-24
+2026-08-20 22:25:26,077 - INFO - Prediction: Refuted
+2026-08-20 22:25:26,078 - INFO - ✓ Correct prediction
+2026-08-20 22:25:29,088 - INFO - ================================================================================
+2026-08-20 22:25:29,089 - INFO - Processing claim #255 (ID: tracer_test_14988)
+2026-08-20 22:25:29,089 - INFO - Claim: “We've never audited government for 100 years.”...
+2026-08-20 22:25:29,089 - INFO - Date: 2025-02-24
+2026-08-20 22:25:30,164 - INFO - Prediction: Refuted
+2026-08-20 22:25:30,165 - INFO - ✓ Correct prediction
+2026-08-20 22:25:33,175 - INFO - ================================================================================
+2026-08-20 22:25:33,175 - INFO - Processing claim #256 (ID: tracer_test_14989)
+2026-08-20 22:25:33,175 - INFO - Claim: "All armed services are having among the best recruiting results ever” because of Trump policies, and “it was just a few months ago where the results ...
+2026-08-20 22:25:33,175 - INFO - Date: 2025-03-04
+2026-08-20 22:25:34,568 - INFO - Prediction: Misleading
+2026-08-20 22:25:34,568 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-08-20 22:25:37,572 - INFO - ================================================================================
+2026-08-20 22:25:37,572 - INFO - Processing claim #257 (ID: tracer_test_14990)
+2026-08-20 22:25:37,572 - INFO - Claim: Elon Musk’s Department of Government Efficiency is “polling very well. It’s very popular.”...
+2026-08-20 22:25:37,572 - INFO - Date: 2025-03-04
+2026-08-20 22:25:39,201 - INFO - Prediction: Refuted
+2026-08-20 22:25:39,201 - INFO - ✓ Correct prediction
+2026-08-20 22:25:42,213 - INFO - ================================================================================
+2026-08-20 22:25:42,213 - INFO - Processing claim #258 (ID: tracer_test_14991)
+2026-08-20 22:25:42,213 - INFO - Claim: The Trump administration identified $1.9 billion in federal dollars going to a “decarbonization of homes” group Stacey Abrams “headed up.”...
+2026-08-20 22:25:42,213 - INFO - Date: 2025-03-04
+2026-08-20 22:25:43,196 - INFO - Prediction: Refuted
+2026-08-20 22:25:43,197 - INFO - ✓ Correct prediction
+2026-08-20 22:25:46,208 - INFO - ================================================================================
+2026-08-20 22:25:46,209 - INFO - Processing claim #259 (ID: tracer_test_14992)
+2026-08-20 22:25:46,209 - INFO - Claim: During President Joe Biden’s four years in office, “31% of U.S. job growth” came from public-sector jobs....
+2026-08-20 22:25:46,209 - INFO - Date: 2025-03-07
+2026-08-20 22:25:47,502 - INFO - Prediction: Misleading
+2026-08-20 22:25:47,502 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-08-20 22:25:50,513 - INFO - ================================================================================
+2026-08-20 22:25:50,514 - INFO - Processing claim #260 (ID: tracer_test_14993)
+2026-08-20 22:25:50,514 - INFO - Claim: “The number of full-time jobs (was) dropping almost the entire Biden administration.”...
+2026-08-20 22:25:50,514 - INFO - Date: 2025-03-09
+2026-08-20 22:25:52,907 - INFO - Prediction: Refuted
+2026-08-20 22:25:52,908 - INFO - ✓ Correct prediction
+2026-08-20 22:25:55,916 - INFO - ================================================================================
+2026-08-20 22:25:55,917 - INFO - Processing complete: 261 predictions (200 correct, 61 incorrect), 0 failed
+2026-08-20 22:25:55,926 - INFO - Metrics: Accuracy=0.7663, Macro-F1=0.6659
+2026-08-20 22:25:55,930 - INFO - Predictions saved to results/qwen/qwen-2_5-72b-instruct/tracer_bias_all/naive/unseen/unseen_predictions.csv
+2026-08-20 22:25:55,933 - INFO - Predictions JSON saved to results/qwen/qwen-2_5-72b-instruct/tracer_bias_all/naive/unseen/unseen_predictions.json
+2026-08-20 22:25:55,933 - INFO - Metrics saved to results/qwen/qwen-2_5-72b-instruct/tracer_bias_all/naive/unseen/unseen_metrics.json
