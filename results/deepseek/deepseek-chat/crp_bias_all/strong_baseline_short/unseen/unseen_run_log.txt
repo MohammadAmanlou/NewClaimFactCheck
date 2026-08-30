@@ -1,0 +1,1363 @@
+2026-08-03 18:22:57,578 - INFO - Processing 226 claims...
+2026-08-03 18:22:57,591 - INFO - ================================================================================
+2026-08-03 18:22:57,591 - INFO - Processing claim #0 (ID: crp_0)
+2026-08-03 18:22:57,592 - INFO - Claim: 'Cow farts [methane emissions from cattle] are blamed for climate change, but there are bigger issues like people burning millions of tires in the des...
+2026-08-03 18:22:57,592 - INFO - Date: 2024-11-23
+2026-08-03 18:22:59,945 - INFO - Prediction: Misleading
+2026-08-03 18:22:59,945 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-08-03 18:23:02,948 - INFO - ================================================================================
+2026-08-03 18:23:02,949 - INFO - Processing claim #1 (ID: crp_1)
+2026-08-03 18:23:02,949 - INFO - Claim: 'New study shows that climate change is greatly overestimated because oceans are cooling Earth far more than we thought.'...
+2026-08-03 18:23:02,949 - INFO - Date: 2024-11-23
+2026-08-03 18:23:05,446 - INFO - Prediction: Refuted
+2026-08-03 18:23:05,446 - INFO - ✓ Correct prediction
+2026-08-03 18:23:08,450 - INFO - ================================================================================
+2026-08-03 18:23:08,450 - INFO - Processing claim #2 (ID: crp_2)
+2026-08-03 18:23:08,451 - INFO - Claim: 'Climate change has only had 'positive effects' on global food production.'...
+2026-08-03 18:23:08,451 - INFO - Date: 2024-10-20
+2026-08-03 18:23:10,629 - INFO - Prediction: Refuted
+2026-08-03 18:23:10,630 - INFO - ✓ Correct prediction
+2026-08-03 18:23:13,634 - INFO - ================================================================================
+2026-08-03 18:23:13,634 - INFO - Processing claim #3 (ID: crp_3)
+2026-08-03 18:23:13,635 - INFO - Claim: 'Cows' burps are a non-existent problem for climate change'...
+2026-08-03 18:23:13,635 - INFO - Date: 2024-11-27
+2026-08-03 18:23:15,373 - INFO - Prediction: Refuted
+2026-08-03 18:23:15,374 - INFO - ✓ Correct prediction
+2026-08-03 18:23:18,378 - INFO - ================================================================================
+2026-08-03 18:23:18,379 - INFO - Processing claim #4 (ID: crp_4)
+2026-08-03 18:23:18,379 - INFO - Claim: 'The UK government is to fund “Bill Gates’ geoengineering experiments” to explore combatting global warming by cooling the earth.'...
+2026-08-03 18:23:18,379 - INFO - Date: 2024-11-24
+2026-08-03 18:23:20,436 - INFO - Prediction: Half-True
+2026-08-03 18:23:20,436 - INFO - ✗ Incorrect (True: Misleading, Pred: Half-True)
+2026-08-03 18:23:23,438 - INFO - ================================================================================
+2026-08-03 18:23:23,438 - INFO - Processing claim #5 (ID: crp_5)
+2026-08-03 18:23:23,438 - INFO - Claim: 'First-ever snowfall on record in the Al-Jouf (or Al-Jawf) desert in Saudi Arabia occurred in early November 2024.'...
+2026-08-03 18:23:23,438 - INFO - Date: 2024-11-03
+2026-08-03 18:23:26,834 - INFO - Prediction: Refuted
+2026-08-03 18:23:26,835 - INFO - ✓ Correct prediction
+2026-08-03 18:23:29,838 - INFO - ================================================================================
+2026-08-03 18:23:29,838 - INFO - Processing claim #6 (ID: crp_6)
+2026-08-03 18:23:29,838 - INFO - Claim: 'A staggering $41 billion has gone missing from the globalist World Bank’s Climate Change fund under the watch of Ajay Banga.'...
+2026-08-03 18:23:29,839 - INFO - Date: 2024-10-28
+2026-08-03 18:23:33,839 - INFO - Prediction: Refuted
+2026-08-03 18:23:33,839 - INFO - ✓ Correct prediction
+2026-08-03 18:23:36,841 - INFO - ================================================================================
+2026-08-03 18:23:36,841 - INFO - Processing claim #7 (ID: crp_7)
+2026-08-03 18:23:36,841 - INFO - Claim: 'Impact of human-induced CO2 is insignificant when compared to natural climate variations.'...
+2026-08-03 18:23:36,842 - INFO - Date: 2024-11-10
+2026-08-03 18:23:38,713 - INFO - Prediction: Refuted
+2026-08-03 18:23:38,713 - INFO - ✓ Correct prediction
+2026-08-03 18:23:41,721 - INFO - ================================================================================
+2026-08-03 18:23:41,722 - INFO - Processing claim #8 (ID: crp_8)
+2026-08-03 18:23:41,722 - INFO - Claim: 'Rising CO2 and temperatures are behind the global boost in grain production over the last 60 years.'...
+2026-08-03 18:23:41,723 - INFO - Date: 2024-10-28
+2026-08-03 18:23:44,473 - INFO - Prediction: Misleading
+2026-08-03 18:23:44,474 - INFO - ✓ Correct prediction
+2026-08-03 18:23:47,477 - INFO - ================================================================================
+2026-08-03 18:23:47,477 - INFO - Processing claim #9 (ID: crp_9)
+2026-08-03 18:23:47,477 - INFO - Claim: 'A study into global warming proves it is a hoax.'...
+2026-08-03 18:23:47,477 - INFO - Date: 2024-10-15
+2026-08-03 18:23:50,416 - INFO - Prediction: Refuted
+2026-08-03 18:23:50,416 - INFO - ✓ Correct prediction
+2026-08-03 18:23:53,435 - INFO - ================================================================================
+2026-08-03 18:23:53,435 - INFO - Processing claim #10 (ID: crp_10)
+2026-08-03 18:23:53,435 - INFO - Claim: 'HAARP is responsible for recent floods in Spain, New Mexico, and elsewhere.'...
+2026-08-03 18:23:53,435 - INFO - Date: 2024-10-30
+2026-08-03 18:23:55,797 - INFO - Prediction: Refuted
+2026-08-03 18:23:55,798 - INFO - ✓ Correct prediction
+2026-08-03 18:23:58,799 - INFO - ================================================================================
+2026-08-03 18:23:58,799 - INFO - Processing claim #11 (ID: crp_11)
+2026-08-03 18:23:58,799 - INFO - Claim: 'The World Economic Forum (WEF) demanded a ban on homegrown plants to check global warming.'...
+2026-08-03 18:23:58,799 - INFO - Date: 2024-10-09
+2026-08-03 18:24:00,596 - INFO - Prediction: Refuted
+2026-08-03 18:24:00,597 - INFO - ✓ Correct prediction
+2026-08-03 18:24:03,599 - INFO - ================================================================================
+2026-08-03 18:24:03,599 - INFO - Processing claim #12 (ID: crp_12)
+2026-08-03 18:24:03,599 - INFO - Claim: 'There were no hurricanes this season even despite forecasts for a high activity; it has been a light hurricane season.'...
+2026-08-03 18:24:03,599 - INFO - Date: 2024-09-09
+2026-08-03 18:24:06,113 - INFO - Prediction: Refuted
+2026-08-03 18:24:06,114 - INFO - ✗ Incorrect (True: Misleading, Pred: Refuted)
+2026-08-03 18:24:09,119 - INFO - ================================================================================
+2026-08-03 18:24:09,120 - INFO - Processing claim #13 (ID: crp_13)
+2026-08-03 18:24:09,120 - INFO - Claim: 'A Centers for Disease Control and Prevention study finds children who received the Pfizer covid vaccine are more likely to get covid infection than u...
+2026-08-03 18:24:09,120 - INFO - Date: 2025-01-03
+2026-08-03 18:24:11,343 - INFO - Prediction: Refuted
+2026-08-03 18:24:11,344 - INFO - ✓ Correct prediction
+2026-08-03 18:24:14,346 - INFO - ================================================================================
+2026-08-03 18:24:14,346 - INFO - Processing claim #14 (ID: crp_14)
+2026-08-03 18:24:14,346 - INFO - Claim: 'Japan named COVID-19 mRNA vaccine the 'deadliest drug in history''...
+2026-08-03 18:24:14,346 - INFO - Date: 2024-11-12
+2026-08-03 18:24:16,825 - INFO - Prediction: Refuted
+2026-08-03 18:24:16,826 - INFO - ✓ Correct prediction
+2026-08-03 18:24:19,829 - INFO - ================================================================================
+2026-08-03 18:24:19,829 - INFO - Processing claim #15 (ID: crp_15)
+2026-08-03 18:24:19,829 - INFO - Claim: 'The CEO of BioNTech, which developed a COVID-19 vaccine with Pfizer, did not get vaccinated.'...
+2026-08-03 18:24:19,829 - INFO - Date: 2024-12-19
+2026-08-03 18:24:24,234 - INFO - Prediction: Refuted
+2026-08-03 18:24:24,234 - INFO - ✓ Correct prediction
+2026-08-03 18:24:27,235 - INFO - ================================================================================
+2026-08-03 18:24:27,235 - INFO - Processing claim #16 (ID: crp_16)
+2026-08-03 18:24:27,235 - INFO - Claim: 'Australian officials have warned that vaccine-linked turbo cancers will kill billions.'...
+2026-08-03 18:24:27,235 - INFO - Date: 2024-12-13
+2026-08-03 18:24:29,898 - INFO - Prediction: Refuted
+2026-08-03 18:24:29,898 - INFO - ✓ Correct prediction
+2026-08-03 18:24:32,900 - INFO - ================================================================================
+2026-08-03 18:24:32,900 - INFO - Processing claim #17 (ID: crp_17)
+2026-08-03 18:24:32,900 - INFO - Claim: “Ivermectin is a treatment after Covid and after vaccination, it is an effective medicine in all phases of Covid 19.”...
+2026-08-03 18:24:32,900 - INFO - Date: 2024-12-10
+2026-08-03 18:24:35,398 - INFO - Prediction: Refuted
+2026-08-03 18:24:35,398 - INFO - ✓ Correct prediction
+2026-08-03 18:24:38,400 - INFO - ================================================================================
+2026-08-03 18:24:38,401 - INFO - Processing claim #18 (ID: crp_18)
+2026-08-03 18:24:38,401 - INFO - Claim: 'RFK Jr's only statement on vaccines is that they need to be studied.'...
+2026-08-03 18:24:38,401 - INFO - Date: 2024-12-10
+2026-08-03 18:24:42,413 - INFO - Prediction: Refuted
+2026-08-03 18:24:42,413 - INFO - ✓ Correct prediction
+2026-08-03 18:24:45,420 - INFO - ================================================================================
+2026-08-03 18:24:45,422 - INFO - Processing claim #19 (ID: crp_19)
+2026-08-03 18:24:45,423 - INFO - Claim: 'Vaccine researcher warned ‘multiple viruses will be unleashed’ in January'...
+2026-08-03 18:24:45,424 - INFO - Date: 2024-12-04
+2026-08-03 18:24:48,641 - INFO - Prediction: Misleading
+2026-08-03 18:24:48,641 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-08-03 18:24:51,661 - INFO - ================================================================================
+2026-08-03 18:24:51,661 - INFO - Processing claim #20 (ID: crp_20)
+2026-08-03 18:24:51,662 - INFO - Claim: 'South African trauma surgeon Dr Vicky Jennings die after suffering a sudden heart attack due to COVID19 vaccine'...
+2026-08-03 18:24:51,662 - INFO - Date: 2024-12-12
+2026-08-03 18:24:54,146 - INFO - Prediction: Refuted
+2026-08-03 18:24:54,146 - INFO - ✓ Correct prediction
+2026-08-03 18:24:57,147 - INFO - ================================================================================
+2026-08-03 18:24:57,148 - INFO - Processing claim #21 (ID: crp_21)
+2026-08-03 18:24:57,148 - INFO - Claim: “79.4% of babies who die of SIDS had a vaccine the same day”...
+2026-08-03 18:24:57,148 - INFO - Date: 2024-12-12
+2026-08-03 18:24:58,926 - INFO - Prediction: Refuted
+2026-08-03 18:24:58,927 - INFO - ✓ Correct prediction
+2026-08-03 18:25:01,931 - INFO - ================================================================================
+2026-08-03 18:25:01,932 - INFO - Processing claim #22 (ID: crp_23)
+2026-08-03 18:25:01,932 - INFO - Claim: 'Recurring ear infections in children are a vaccine side effect.'...
+2026-08-03 18:25:01,932 - INFO - Date: 2024-11-27
+2026-08-03 18:25:05,549 - INFO - Prediction: Refuted
+2026-08-03 18:25:05,549 - INFO - ✓ Correct prediction
+2026-08-03 18:25:08,553 - INFO - ================================================================================
+2026-08-03 18:25:08,553 - INFO - Processing claim #23 (ID: crp_24)
+2026-08-03 18:25:08,553 - INFO - Claim: 'Dr. Anthony Fauci said that 72 mandatory childhood vaccines were never safety tested.'...
+2026-08-03 18:25:08,554 - INFO - Date: 2024-12-06
+2026-08-03 18:25:11,378 - INFO - Prediction: Refuted
+2026-08-03 18:25:11,379 - INFO - ✓ Correct prediction
+2026-08-03 18:25:14,382 - INFO - ================================================================================
+2026-08-03 18:25:14,382 - INFO - Processing claim #24 (ID: crp_25)
+2026-08-03 18:25:14,382 - INFO - Claim: 'Now Fauci admits that COVID vaccines cause MYOCARDlTlS, particularly in young men.'...
+2026-08-03 18:25:14,383 - INFO - Date: 2024-11-08
+2026-08-03 18:25:17,240 - INFO - Prediction: Half-True
+2026-08-03 18:25:17,241 - INFO - ✗ Incorrect (True: Refuted, Pred: Half-True)
+2026-08-03 18:25:20,243 - INFO - ================================================================================
+2026-08-03 18:25:20,246 - INFO - Processing claim #25 (ID: crp_26)
+2026-08-03 18:25:20,247 - INFO - Claim: 'Zimbabwe's economic grew a steady 3-6%.'...
+2026-08-03 18:25:20,248 - INFO - Date: 2024-11-02
+2026-08-03 18:25:22,681 - INFO - Prediction: Half-True
+2026-08-03 18:25:22,683 - INFO - ✗ Incorrect (True: Refuted, Pred: Half-True)
+2026-08-03 18:25:25,687 - INFO - ================================================================================
+2026-08-03 18:25:25,687 - INFO - Processing claim #26 (ID: crp_27)
+2026-08-03 18:25:25,689 - INFO - Claim: 'Kamala Harris “destroyed our economy.”'...
+2026-08-03 18:25:25,689 - INFO - Date: 2024-10-19
+2026-08-03 18:25:27,437 - INFO - Prediction: Refuted
+2026-08-03 18:25:27,437 - INFO - ✓ Correct prediction
+2026-08-03 18:25:30,441 - INFO - ================================================================================
+2026-08-03 18:25:30,442 - INFO - Processing claim #27 (ID: crp_28)
+2026-08-03 18:25:30,442 - INFO - Claim: 'A viral claim on X suggests that 159 out of 195 countries are to join a new BRICS settlement system, implying a significant shift toward BRICS domina...
+2026-08-03 18:25:30,443 - INFO - Date: 2024-10-23
+2026-08-03 18:25:32,449 - INFO - Prediction: Misleading
+2026-08-03 18:25:32,450 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-08-03 18:25:35,454 - INFO - ================================================================================
+2026-08-03 18:25:35,455 - INFO - Processing claim #28 (ID: crp_29)
+2026-08-03 18:25:35,455 - INFO - Claim: 'There’s a £22 billion black hole in the economy.'...
+2026-08-03 18:25:35,455 - INFO - Date: 2024-10-09
+2026-08-03 18:25:37,362 - INFO - Prediction: Misleading
+2026-08-03 18:25:37,363 - INFO - ✓ Correct prediction
+2026-08-03 18:25:40,366 - INFO - ================================================================================
+2026-08-03 18:25:40,366 - INFO - Processing claim #29 (ID: crp_30)
+2026-08-03 18:25:40,366 - INFO - Claim: 'Within one year, our government has eliminated Boko Haram and bandit commanders faster than ever, over 300 as of the last count.'...
+2026-08-03 18:25:40,367 - INFO - Date: 2024-10-01
+2026-08-03 18:25:42,649 - INFO - Prediction: Misleading
+2026-08-03 18:25:42,650 - INFO - ✗ Incorrect (True: Not Enough Information, Pred: Misleading)
+2026-08-03 18:25:45,918 - INFO - ================================================================================
+2026-08-03 18:25:45,918 - INFO - Processing claim #30 (ID: crp_31)
+2026-08-03 18:25:45,918 - INFO - Claim: 'We have managed to keep our foreign reserves at $37 billion.'...
+2026-08-03 18:25:45,918 - INFO - Date: 2024-10-01
+2026-08-03 18:25:47,646 - INFO - Prediction: Supported
+2026-08-03 18:25:47,646 - INFO - ✓ Correct prediction
+2026-08-03 18:25:50,654 - INFO - ================================================================================
+2026-08-03 18:25:50,655 - INFO - Processing claim #31 (ID: crp_32)
+2026-08-03 18:25:50,655 - INFO - Claim: 'We have reduced the debt service ratio from 97 % to 68 %.'...
+2026-08-03 18:25:50,655 - INFO - Date: 2024-10-01
+2026-08-03 18:25:53,600 - INFO - Prediction: Misleading
+2026-08-03 18:25:53,601 - INFO - ✗ Incorrect (True: Not Enough Information, Pred: Misleading)
+2026-08-03 18:25:56,607 - INFO - ================================================================================
+2026-08-03 18:25:56,607 - INFO - Processing claim #32 (ID: crp_33)
+2026-08-03 18:25:56,607 - INFO - Claim: 'We inherited a reserve of over $33 billion 16 months ago.'...
+2026-08-03 18:25:56,607 - INFO - Date: 2024-10-01
+2026-08-03 18:25:58,376 - INFO - Prediction: Supported
+2026-08-03 18:25:58,376 - INFO - ✗ Incorrect (True: Refuted, Pred: Supported)
+2026-08-03 18:26:01,382 - INFO - ================================================================================
+2026-08-03 18:26:01,382 - INFO - Processing claim #33 (ID: crp_34)
+2026-08-03 18:26:01,383 - INFO - Claim: 'Our country attracted foreign direct investments worth more than US$30 billion in the last year.'...
+2026-08-03 18:26:01,384 - INFO - Date: 2024-10-01
+2026-08-03 18:26:03,452 - INFO - Prediction: Misleading
+2026-08-03 18:26:03,452 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-08-03 18:26:06,456 - INFO - ================================================================================
+2026-08-03 18:26:06,458 - INFO - Processing claim #34 (ID: crp_35)
+2026-08-03 18:26:06,459 - INFO - Claim: 'Our young people … constitute more than 60% of our population.'...
+2026-08-03 18:26:06,459 - INFO - Date: 2024-10-01
+2026-08-03 18:26:09,614 - INFO - Prediction: Refuted
+2026-08-03 18:26:09,615 - INFO - ✓ Correct prediction
+2026-08-03 18:26:12,617 - INFO - ================================================================================
+2026-08-03 18:26:12,617 - INFO - Processing claim #35 (ID: crp_36)
+2026-08-03 18:26:12,617 - INFO - Claim: 'The Prime Minister inherited the fastest growing economy in the G7.'...
+2026-08-03 18:26:12,617 - INFO - Date: 2024-09-04
+2026-08-03 18:26:15,254 - INFO - Prediction: Supported
+2026-08-03 18:26:15,255 - INFO - ✗ Incorrect (True: Misleading, Pred: Supported)
+2026-08-03 18:26:18,262 - INFO - ================================================================================
+2026-08-03 18:26:18,263 - INFO - Processing claim #36 (ID: crp_37)
+2026-08-03 18:26:18,263 - INFO - Claim: '22 states failed to upload their Electoral College certifications, which are needed to certify election results on January 6, 2025.'...
+2026-08-03 18:26:18,263 - INFO - Date: 2025-01-06
+2026-08-03 18:26:20,771 - INFO - Prediction: Refuted
+2026-08-03 18:26:20,776 - INFO - ✓ Correct prediction
+2026-08-03 18:26:23,782 - INFO - ================================================================================
+2026-08-03 18:26:23,783 - INFO - Processing claim #37 (ID: crp_38)
+2026-08-03 18:26:23,783 - INFO - Claim: 'S. Korea's National Election Commission's falsehoods were revealed in court'...
+2026-08-03 18:26:23,783 - INFO - Date: 2024-12-20
+2026-08-03 18:26:25,355 - INFO - Prediction: Refuted
+2026-08-03 18:26:25,356 - INFO - ✓ Correct prediction
+2026-08-03 18:26:28,359 - INFO - ================================================================================
+2026-08-03 18:26:28,361 - INFO - Processing claim #38 (ID: crp_39)
+2026-08-03 18:26:28,362 - INFO - Claim: 'Clip shows Hasina congratulating Trump after 2024 US election'...
+2026-08-03 18:26:28,362 - INFO - Date: 2024-11-11
+2026-08-03 18:26:30,157 - INFO - Prediction: Refuted
+2026-08-03 18:26:30,158 - INFO - ✓ Correct prediction
+2026-08-03 18:26:33,164 - INFO - ================================================================================
+2026-08-03 18:26:33,165 - INFO - Processing claim #39 (ID: crp_40)
+2026-08-03 18:26:33,165 - INFO - Claim: 'Michelle Obama has urged Congress to recount election votes saying that the 2024 presidential election result was influenced by ‘Russian disinformati...
+2026-08-03 18:26:33,166 - INFO - Date: 2024-12-13
+2026-08-03 18:26:35,543 - INFO - Prediction: Refuted
+2026-08-03 18:26:35,544 - INFO - ✓ Correct prediction
+2026-08-03 18:26:38,577 - INFO - ================================================================================
+2026-08-03 18:26:38,577 - INFO - Processing claim #40 (ID: crp_41)
+2026-08-03 18:26:38,577 - INFO - Claim: 'ABP Opinion poll states BJP will win in the upcoming Delhi election.'...
+2026-08-03 18:26:38,577 - INFO - Date: 2024-12-19
+2026-08-03 18:26:40,445 - INFO - Prediction: Refuted
+2026-08-03 18:26:40,445 - INFO - ✓ Correct prediction
+2026-08-03 18:26:43,457 - INFO - ================================================================================
+2026-08-03 18:26:43,458 - INFO - Processing claim #41 (ID: crp_42)
+2026-08-03 18:26:43,458 - INFO - Claim: '‘One Nation One Election’ Bill got Lok Sabha nod'...
+2026-08-03 18:26:43,458 - INFO - Date: 2024-12-19
+2026-08-03 18:26:45,773 - INFO - Prediction: Refuted
+2026-08-03 18:26:45,775 - INFO - ✓ Correct prediction
+2026-08-03 18:26:48,781 - INFO - ================================================================================
+2026-08-03 18:26:48,781 - INFO - Processing claim #42 (ID: crp_43)
+2026-08-03 18:26:48,781 - INFO - Claim: 'A letter dated 7 October 2024, from the Swapo Party secretary general Sophia Shaningwa, reads that the party was "fully relying" on Electoral Commiss...
+2026-08-03 18:26:48,781 - INFO - Date: 2024-12-16
+2026-08-03 18:26:51,827 - INFO - Prediction: Refuted
+2026-08-03 18:26:51,827 - INFO - ✓ Correct prediction
+2026-08-03 18:26:54,831 - INFO - ================================================================================
+2026-08-03 18:26:54,832 - INFO - Processing claim #43 (ID: crp_44)
+2026-08-03 18:26:54,832 - INFO - Claim: 'North Maluku politician will give out financial aid after winning election.'...
+2026-08-03 18:26:54,832 - INFO - Date: 2024-12-03
+2026-08-03 18:26:57,829 - INFO - Prediction: Misleading
+2026-08-03 18:26:57,830 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-08-03 18:27:00,836 - INFO - ================================================================================
+2026-08-03 18:27:00,837 - INFO - Processing claim #44 (ID: crp_45)
+2026-08-03 18:27:00,838 - INFO - Claim: 'Oprah Winfrey Said She Is Leaving The US Over The 2024 Presidential Election Results'...
+2026-08-03 18:27:00,838 - INFO - Date: 2024-12-13
+2026-08-03 18:27:04,307 - INFO - Prediction: Refuted
+2026-08-03 18:27:04,308 - INFO - ✓ Correct prediction
+2026-08-03 18:27:07,318 - INFO - ================================================================================
+2026-08-03 18:27:07,318 - INFO - Processing claim #45 (ID: crp_46)
+2026-08-03 18:27:07,319 - INFO - Claim: 'Indian election commission said opposition candidate got 0 votes'...
+2026-08-03 18:27:07,319 - INFO - Date: 2024-11-25
+2026-08-03 18:27:09,283 - INFO - Prediction: Refuted
+2026-08-03 18:27:09,284 - INFO - ✓ Correct prediction
+2026-08-03 18:27:12,287 - INFO - ================================================================================
+2026-08-03 18:27:12,287 - INFO - Processing claim #46 (ID: crp_47)
+2026-08-03 18:27:12,288 - INFO - Claim: 'India Today magazine's cover dated Nov 23 featured Rahul Gandhi with a title: "Maha-Raja of Mishap" after Congress defeat in Maharashtra elections.'...
+2026-08-03 18:27:12,288 - INFO - Date: 2024-11-25
+2026-08-03 18:27:15,529 - INFO - Prediction: Refuted
+2026-08-03 18:27:15,536 - INFO - ✓ Correct prediction
+2026-08-03 18:27:18,541 - INFO - ================================================================================
+2026-08-03 18:27:18,542 - INFO - Processing claim #47 (ID: crp_48)
+2026-08-03 18:27:18,542 - INFO - Claim: 'Kurt Russell quote saying Biden cheated election'...
+2026-08-03 18:27:18,542 - INFO - Date: 2024-12-05
+2026-08-03 18:27:20,781 - INFO - Prediction: Refuted
+2026-08-03 18:27:20,782 - INFO - ✓ Correct prediction
+2026-08-03 18:27:23,794 - INFO - ================================================================================
+2026-08-03 18:27:23,795 - INFO - Processing claim #48 (ID: crp_49)
+2026-08-03 18:27:23,795 - INFO - Claim: 'Jason Momoa Said He Is Leaving the U.S. In Response To The 2024 U.S. Presidential Election Results'...
+2026-08-03 18:27:23,796 - INFO - Date: 2024-12-05
+2026-08-03 18:27:26,507 - INFO - Prediction: Refuted
+2026-08-03 18:27:26,507 - INFO - ✓ Correct prediction
+2026-08-03 18:27:29,510 - INFO - ================================================================================
+2026-08-03 18:27:29,510 - INFO - Processing claim #49 (ID: crp_50)
+2026-08-03 18:27:29,510 - INFO - Claim: 'Cristiano Ronaldo has converted to Islam.'...
+2026-08-03 18:27:29,511 - INFO - Date: 2024-12-24
+2026-08-03 18:27:32,089 - INFO - Prediction: Refuted
+2026-08-03 18:27:32,090 - INFO - ✓ Correct prediction
+2026-08-03 18:27:35,113 - INFO - ================================================================================
+2026-08-03 18:27:35,114 - INFO - Processing claim #50 (ID: crp_51)
+2026-08-03 18:27:35,114 - INFO - Claim: 'UnitedHealthcare uses an artificial intelligence (AI) tool with a 90% error rate to deny insurance claims.'...
+2026-08-03 18:27:35,114 - INFO - Date: 2024-12-13
+2026-08-03 18:27:37,528 - INFO - Prediction: Misleading
+2026-08-03 18:27:37,529 - INFO - ✗ Incorrect (True: Not Enough Information, Pred: Misleading)
+2026-08-03 18:27:40,532 - INFO - ================================================================================
+2026-08-03 18:27:40,533 - INFO - Processing claim #51 (ID: crp_52)
+2026-08-03 18:27:40,533 - INFO - Claim: 'Facebook users must post a statement on their profiles to bar Meta and its generative artificial intelligence (AI) models from using their “photos, i...
+2026-08-03 18:27:40,533 - INFO - Date: 2024-12-10
+2026-08-03 18:27:42,478 - INFO - Prediction: Refuted
+2026-08-03 18:27:42,479 - INFO - ✓ Correct prediction
+2026-08-03 18:27:45,483 - INFO - ================================================================================
+2026-08-03 18:27:45,484 - INFO - Processing claim #52 (ID: crp_53)
+2026-08-03 18:27:45,484 - INFO - Claim: 'Swiss church is having confessions heard by ‘AI Jesus’'...
+2026-08-03 18:27:45,484 - INFO - Date: 2024-11-20
+2026-08-03 18:27:47,594 - INFO - Prediction: Supported
+2026-08-03 18:27:47,596 - INFO - ✗ Incorrect (True: Refuted, Pred: Supported)
+2026-08-03 18:27:50,599 - INFO - ================================================================================
+2026-08-03 18:27:50,600 - INFO - Processing claim #53 (ID: crp_54)
+2026-08-03 18:27:50,600 - INFO - Claim: 'A video shows a life-like AI robot strolling through public areas in China.'...
+2026-08-03 18:27:50,600 - INFO - Date: 2024-11-05
+2026-08-03 18:27:53,179 - INFO - Prediction: Half-True
+2026-08-03 18:27:53,179 - INFO - ✗ Incorrect (True: Refuted, Pred: Half-True)
+2026-08-03 18:27:56,183 - INFO - ================================================================================
+2026-08-03 18:27:56,183 - INFO - Processing claim #54 (ID: crp_55)
+2026-08-03 18:27:56,183 - INFO - Claim: 'There is a statement one can post that will prevent Meta AI from collecting your data'...
+2026-08-03 18:27:56,183 - INFO - Date: 2024-10-14
+2026-08-03 18:27:58,410 - INFO - Prediction: Refuted
+2026-08-03 18:27:58,410 - INFO - ✓ Correct prediction
+2026-08-03 18:28:01,416 - INFO - ================================================================================
+2026-08-03 18:28:01,417 - INFO - Processing claim #55 (ID: crp_56)
+2026-08-03 18:28:01,418 - INFO - Claim: 'By posting a statement on Facebook or Instagram that begins with "Goodbye Meta AI," users are blocking the company from scraping their data to train ...
+2026-08-03 18:28:01,419 - INFO - Date: 2024-09-27
+2026-08-03 18:28:02,975 - INFO - Prediction: Refuted
+2026-08-03 18:28:02,976 - INFO - ✓ Correct prediction
+2026-08-03 18:28:05,984 - INFO - ================================================================================
+2026-08-03 18:28:05,984 - INFO - Processing claim #56 (ID: crp_57)
+2026-08-03 18:28:05,986 - INFO - Claim: 'Sudha Murthy endorsed an online investment app.'...
+2026-08-03 18:28:05,986 - INFO - Date: 2024-09-26
+2026-08-03 18:28:08,869 - INFO - Prediction: Refuted
+2026-08-03 18:28:08,869 - INFO - ✓ Correct prediction
+2026-08-03 18:28:11,879 - INFO - ================================================================================
+2026-08-03 18:28:11,879 - INFO - Processing claim #57 (ID: crp_58)
+2026-08-03 18:28:11,879 - INFO - Claim: 'Bill Gates is planning to weaponize AI to silence anyone opposing his vaccine.'...
+2026-08-03 18:28:11,879 - INFO - Date: 2024-09-21
+2026-08-03 18:28:14,299 - INFO - Prediction: Refuted
+2026-08-03 18:28:14,299 - INFO - ✓ Correct prediction
+2026-08-03 18:28:17,303 - INFO - ================================================================================
+2026-08-03 18:28:17,304 - INFO - Processing claim #58 (ID: crp_59)
+2026-08-03 18:28:17,304 - INFO - Claim: 'Bangladesh Chief Adviser Muhammad Yunus announced his retirement.'...
+2026-08-03 18:28:17,304 - INFO - Date: 2024-09-23
+2026-08-03 18:28:20,351 - INFO - Prediction: Refuted
+2026-08-03 18:28:20,351 - INFO - ✓ Correct prediction
+2026-08-03 18:28:23,356 - INFO - ================================================================================
+2026-08-03 18:28:23,356 - INFO - Processing claim #59 (ID: crp_62)
+2026-08-03 18:28:23,357 - INFO - Claim: 'Renewable energy isn’t green; by 2050, 78 million metric tonnes of solar panels will reach the end of their lives and can't be recycled.'...
+2026-08-03 18:28:23,357 - INFO - Date: 2024-09-29
+2026-08-03 18:28:26,189 - INFO - Prediction: Misleading
+2026-08-03 18:28:26,189 - INFO - ✓ Correct prediction
+2026-08-03 18:28:29,210 - INFO - ================================================================================
+2026-08-03 18:28:29,210 - INFO - Processing claim #60 (ID: crp_63)
+2026-08-03 18:28:29,211 - INFO - Claim: 'The government has secured a record-breaking number of clean energy projects in the latest renewables auction, after “Labour came in and fixed” last ...
+2026-08-03 18:28:29,211 - INFO - Date: 2024-09-03
+2026-08-03 18:28:31,642 - INFO - Prediction: Misleading
+2026-08-03 18:28:31,642 - INFO - ✓ Correct prediction
+2026-08-03 18:28:34,644 - INFO - ================================================================================
+2026-08-03 18:28:34,644 - INFO - Processing claim #61 (ID: crp_64)
+2026-08-03 18:28:34,644 - INFO - Claim: Kamala Harris cast the deciding vote for the so-called Inflation Reduction Act that sent a lot of our resources to China.”...
+2026-08-03 18:28:34,644 - INFO - Date: 2024-08-07
+2026-08-03 18:28:37,315 - INFO - Prediction: Misleading
+2026-08-03 18:28:37,316 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-08-03 18:28:40,321 - INFO - ================================================================================
+2026-08-03 18:28:40,321 - INFO - Processing claim #62 (ID: crp_65)
+2026-08-03 18:28:40,321 - INFO - Claim: “Our electricity generation is almost 95% renewable, from geothermal, hydro, wind, and solar energy.”...
+2026-08-03 18:28:40,321 - INFO - Date: 2024-05-01
+2026-08-03 18:28:43,006 - INFO - Prediction: Misleading
+2026-08-03 18:28:43,006 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-08-03 18:28:46,015 - INFO - ================================================================================
+2026-08-03 18:28:46,017 - INFO - Processing claim #63 (ID: crp_66)
+2026-08-03 18:28:46,018 - INFO - Claim: 'Sweden, France, Finland, the UK and Germany have abandoned renewable energy.'...
+2026-08-03 18:28:46,018 - INFO - Date: 2024-05-22
+2026-08-03 18:28:48,730 - INFO - Prediction: Refuted
+2026-08-03 18:28:48,730 - INFO - ✓ Correct prediction
+2026-08-03 18:28:51,734 - INFO - ================================================================================
+2026-08-03 18:28:51,735 - INFO - Processing claim #64 (ID: crp_67)
+2026-08-03 18:28:51,736 - INFO - Claim: 'More than 100% of Scotland’s electricity needs come from renewable sources.'...
+2026-08-03 18:28:51,737 - INFO - Date: 2024-05-31
+2026-08-03 18:28:54,545 - INFO - Prediction: Supported
+2026-08-03 18:28:54,545 - INFO - ✓ Correct prediction
+2026-08-03 18:28:57,552 - INFO - ================================================================================
+2026-08-03 18:28:57,553 - INFO - Processing claim #65 (ID: crp_69)
+2026-08-03 18:28:57,553 - INFO - Claim: 'Lok Sabha passed bills related ‘One Nation, One Election’ on December 17, 2024.'...
+2026-08-03 18:28:57,554 - INFO - Date: 2024-12-17
+2026-08-03 18:28:59,640 - INFO - Prediction: Refuted
+2026-08-03 18:28:59,640 - INFO - ✗ Incorrect (True: Misleading, Pred: Refuted)
+2026-08-03 18:29:02,643 - INFO - ================================================================================
+2026-08-03 18:29:02,643 - INFO - Processing claim #66 (ID: crp_70)
+2026-08-03 18:29:02,644 - INFO - Claim: Coal plant construction shows CO2 doesn't cause climate change...
+2026-08-03 18:29:02,644 - INFO - Date: 2025-01-14
+2026-08-03 18:29:04,925 - INFO - Prediction: Refuted
+2026-08-03 18:29:04,925 - INFO - ✓ Correct prediction
+2026-08-03 18:29:07,932 - INFO - ================================================================================
+2026-08-03 18:29:07,935 - INFO - Processing claim #67 (ID: crp_71)
+2026-08-03 18:29:07,935 - INFO - Claim: New study shows that climate change is greatly overestimated because oceans are cooling Earth far more than we thought...
+2026-08-03 18:29:07,935 - INFO - Date: 2024-12-10
+2026-08-03 18:29:10,393 - INFO - Prediction: Refuted
+2026-08-03 18:29:10,394 - INFO - ✓ Correct prediction
+2026-08-03 18:29:13,396 - INFO - ================================================================================
+2026-08-03 18:29:13,397 - INFO - Processing claim #68 (ID: crp_72)
+2026-08-03 18:29:13,397 - INFO - Claim: Video shows former Delhi Chief Minister Arvind Kejriwal admitting that he won’t clean the Yamuna River because it won’t help him win the upcoming 2025...
+2026-08-03 18:29:13,397 - INFO - Date: 2024-12-29
+2026-08-03 18:29:15,331 - INFO - Prediction: Refuted
+2026-08-03 18:29:15,332 - INFO - ✗ Incorrect (True: Misleading, Pred: Refuted)
+2026-08-03 18:29:18,335 - INFO - ================================================================================
+2026-08-03 18:29:18,336 - INFO - Processing claim #69 (ID: crp_73)
+2026-08-03 18:29:18,336 - INFO - Claim: 2021 photo of former PM Manmohan Singh shared on social media as his last picture from Delhi’s AIIMS...
+2026-08-03 18:29:18,338 - INFO - Date: 2024-12-30
+2026-08-03 18:29:20,829 - INFO - Prediction: Refuted
+2026-08-03 18:29:20,829 - INFO - ✓ Correct prediction
+2026-08-03 18:29:23,841 - INFO - ================================================================================
+2026-08-03 18:29:23,842 - INFO - Processing claim #70 (ID: crp_74)
+2026-08-03 18:29:23,842 - INFO - Claim: A GMA News report shows cardiologist and online health personality Dr. Willie Ong endorsing a hypertension cure....
+2026-08-03 18:29:23,842 - INFO - Date: 2024-12-02
+2026-08-03 18:29:25,600 - INFO - Prediction: Refuted
+2026-08-03 18:29:25,600 - INFO - ✓ Correct prediction
+2026-08-03 18:29:28,603 - INFO - ================================================================================
+2026-08-03 18:29:28,603 - INFO - Processing claim #71 (ID: crp_75)
+2026-08-03 18:29:28,604 - INFO - Claim: The FDA stated that there is no scientific evidence that mpox exists....
+2026-08-03 18:29:28,604 - INFO - Date: 2024-08-28
+2026-08-03 18:29:31,803 - INFO - Prediction: Refuted
+2026-08-03 18:29:31,803 - INFO - ✓ Correct prediction
+2026-08-03 18:29:34,806 - INFO - ================================================================================
+2026-08-03 18:29:34,806 - INFO - Processing claim #72 (ID: crp_76)
+2026-08-03 18:29:34,806 - INFO - Claim: This picture shows the December 22 plane crash in Gramado, Brazil, that killed 10 members of a business family....
+2026-08-03 18:29:34,806 - INFO - Date: 2024-12-24
+2026-08-03 18:29:36,504 - INFO - Prediction: Refuted
+2026-08-03 18:29:36,505 - INFO - ✓ Correct prediction
+2026-08-03 18:29:39,506 - INFO - ================================================================================
+2026-08-03 18:29:39,506 - INFO - Processing claim #73 (ID: crp_77)
+2026-08-03 18:29:39,506 - INFO - Claim: Wind turbines are a colossal failure for the environment. So, they bury the evidence...
+2026-08-03 18:29:39,506 - INFO - Date: 2024-12-30
+2026-08-03 18:29:41,244 - INFO - Prediction: Refuted
+2026-08-03 18:29:41,251 - INFO - ✓ Correct prediction
+2026-08-03 18:29:44,259 - INFO - ================================================================================
+2026-08-03 18:29:44,261 - INFO - Processing claim #74 (ID: crp_78)
+2026-08-03 18:29:44,261 - INFO - Claim: 'A photo shared online on Nov. 7, 2024, shows Hillary Clinton and Kamala Harris after the latter's 2024 presidential election loss.'...
+2026-08-03 18:29:44,261 - INFO - Date: 2024-12-07
+2026-08-03 18:29:47,278 - INFO - Prediction: Refuted
+2026-08-03 18:29:47,278 - INFO - ✗ Incorrect (True: Not Enough Information, Pred: Refuted)
+2026-08-03 18:29:50,283 - INFO - ================================================================================
+2026-08-03 18:29:50,284 - INFO - Processing claim #75 (ID: crp_79)
+2026-08-03 18:29:50,285 - INFO - Claim: 'A period of great change in technology Artificial Intelligence (AI) based domestic robot Optimus cut Elon Musk's hair. That too perfectly and on time...
+2026-08-03 18:29:50,288 - INFO - Date: 2024-12-20
+2026-08-03 18:29:52,544 - INFO - Prediction: Refuted
+2026-08-03 18:29:52,545 - INFO - ✓ Correct prediction
+2026-08-03 18:29:55,548 - INFO - ================================================================================
+2026-08-03 18:29:55,548 - INFO - Processing claim #76 (ID: crp_80)
+2026-08-03 18:29:55,548 - INFO - Claim: 'There is a lovely photo of Sania Mirza with Mohammed Shami in Dubai.'...
+2026-08-03 18:29:55,548 - INFO - Date: 2024-12-23
+2026-08-03 18:29:59,584 - INFO - Prediction: Supported
+2026-08-03 18:29:59,584 - INFO - ✗ Incorrect (True: Refuted, Pred: Supported)
+2026-08-03 18:30:02,587 - INFO - ================================================================================
+2026-08-03 18:30:02,588 - INFO - Processing claim #77 (ID: crp_81)
+2026-08-03 18:30:02,588 - INFO - Claim: 'Photograph documents an actual mask used to block AI-based facial recognition “from all angles."'...
+2026-08-03 18:30:02,588 - INFO - Date: 2024-10-01
+2026-08-03 18:30:05,627 - INFO - Prediction: Misleading
+2026-08-03 18:30:05,627 - INFO - ✗ Incorrect (True: Supported, Pred: Misleading)
+2026-08-03 18:30:08,631 - INFO - ================================================================================
+2026-08-03 18:30:08,632 - INFO - Processing claim #78 (ID: crp_82)
+2026-08-03 18:30:08,632 - INFO - Claim: 'A photo circulating on social media for years showed a 37-million-year-old fossilized whale skeleton discovered in Egypt.'...
+2026-08-03 18:30:08,632 - INFO - Date: 2024-08-03
+2026-08-03 18:30:11,570 - INFO - Prediction: Misleading
+2026-08-03 18:30:11,570 - INFO - ✗ Incorrect (True: Supported, Pred: Misleading)
+2026-08-03 18:30:14,574 - INFO - ================================================================================
+2026-08-03 18:30:14,575 - INFO - Processing claim #79 (ID: crp_83)
+2026-08-03 18:30:14,575 - INFO - Claim: 'Visa image posted to social media belong to Cybertruck Trump hotel bomber.'...
+2026-08-03 18:30:14,575 - INFO - Date: 2025-01-02
+2026-08-03 18:30:18,792 - INFO - Prediction: Refuted
+2026-08-03 18:30:18,792 - INFO - ✓ Correct prediction
+2026-08-03 18:30:21,845 - INFO - ================================================================================
+2026-08-03 18:30:21,845 - INFO - Processing claim #80 (ID: crp_84)
+2026-08-03 18:30:21,846 - INFO - Claim: 'Harbhajan Singh’s daughter identified as Virat Kohli’s child, 2017...
+2026-08-03 18:30:21,875 - INFO - Date: 2025-01-01
+2026-08-03 18:30:24,770 - INFO - Prediction: Refuted
+2026-08-03 18:30:24,771 - INFO - ✓ Correct prediction
+2026-08-03 18:30:27,793 - INFO - ================================================================================
+2026-08-03 18:30:27,794 - INFO - Processing claim #81 (ID: crp_85)
+2026-08-03 18:30:27,794 - INFO - Claim: 'Man travelled 250 km hiding between wheels of train; details inside'...
+2026-08-03 18:30:27,794 - INFO - Date: 2024-12-31
+2026-08-03 18:30:31,453 - INFO - Prediction: Supported
+2026-08-03 18:30:31,455 - INFO - ✗ Incorrect (True: Refuted, Pred: Supported)
+2026-08-03 18:30:34,459 - INFO - ================================================================================
+2026-08-03 18:30:34,459 - INFO - Processing claim #82 (ID: crp_87)
+2026-08-03 18:30:34,459 - INFO - Claim: 'Screenshot of ETV Bharat report stating that the Supreme Court of India did not allow members of the Valmiki Samaj to enter, claiming that their pres...
+2026-08-03 18:30:34,460 - INFO - Date: 2024-08-23
+2026-08-03 18:30:36,881 - INFO - Prediction: Refuted
+2026-08-03 18:30:36,881 - INFO - ✓ Correct prediction
+2026-08-03 18:30:39,884 - INFO - ================================================================================
+2026-08-03 18:30:39,885 - INFO - Processing claim #83 (ID: crp_88)
+2026-08-03 18:30:39,885 - INFO - Claim: Molly Shannon: Catholicism is a cancer, destroying the progressive society we built.”...
+2026-08-03 18:30:39,885 - INFO - Date: 2024-10-19
+2026-08-03 18:30:41,921 - INFO - Prediction: Refuted
+2026-08-03 18:30:41,922 - INFO - ✓ Correct prediction
+2026-08-03 18:30:44,928 - INFO - ================================================================================
+2026-08-03 18:30:44,928 - INFO - Processing claim #84 (ID: crp_90)
+2026-08-03 18:30:44,928 - INFO - Claim: 'Heavy israeli strikes on Damascus, Tartous and Homs in Syria. One of the strikes targeted the Scientific Research Center in Masyaf as the picture sho...
+2026-08-03 18:30:44,929 - INFO - Date: 2024-09-10
+2026-08-03 18:30:46,938 - INFO - Prediction: Misleading
+2026-08-03 18:30:46,939 - INFO - ✓ Correct prediction
+2026-08-03 18:30:49,943 - INFO - ================================================================================
+2026-08-03 18:30:49,943 - INFO - Processing claim #85 (ID: crp_91)
+2026-08-03 18:30:49,943 - INFO - Claim: 'This image authentically shows drones delivering relief materials to those stranded in floods.'...
+2026-08-03 18:30:49,943 - INFO - Date: 2024-09-12
+2026-08-03 18:30:54,485 - INFO - Prediction: Supported
+2026-08-03 18:30:54,485 - INFO - ✗ Incorrect (True: Refuted, Pred: Supported)
+2026-08-03 18:30:57,487 - INFO - ================================================================================
+2026-08-03 18:30:57,487 - INFO - Processing claim #86 (ID: crp_92)
+2026-08-03 18:30:57,487 - INFO - Claim: 'Every American can slash their electricity bill by 90% using this revolutionary technology (Pro Power Save).'...
+2026-08-03 18:30:57,487 - INFO - Date: 2024-09-09
+2026-08-03 18:31:04,487 - INFO - Prediction: Refuted
+2026-08-03 18:31:04,488 - INFO - ✓ Correct prediction
+2026-08-03 18:31:07,492 - INFO - ================================================================================
+2026-08-03 18:31:07,493 - INFO - Processing claim #87 (ID: crp_93)
+2026-08-03 18:31:07,493 - INFO - Claim: Pictures show that Ambedkar’s photo was placed on opposition benches in Parliament...
+2026-08-03 18:31:07,493 - INFO - Date: 2024-12-25
+2026-08-03 18:31:11,639 - INFO - Prediction: Refuted
+2026-08-03 18:31:11,640 - INFO - ✓ Correct prediction
+2026-08-03 18:31:14,645 - INFO - ================================================================================
+2026-08-03 18:31:14,646 - INFO - Processing claim #88 (ID: crp_94)
+2026-08-03 18:31:14,646 - INFO - Claim: 'A picture shows Syria’s former president Bashar al-Assad in Moscow with American conservative political commentator Tucker Carlson.'...
+2026-08-03 18:31:14,646 - INFO - Date: 2024-12-11
+2026-08-03 18:31:17,004 - INFO - Prediction: Supported
+2026-08-03 18:31:17,004 - INFO - ✗ Incorrect (True: Refuted, Pred: Supported)
+2026-08-03 18:31:20,016 - INFO - ================================================================================
+2026-08-03 18:31:20,016 - INFO - Processing claim #89 (ID: crp_95)
+2026-08-03 18:31:20,016 - INFO - Claim: 'Image shows an auto rickshaw with a political graffiti saying, "Drive Kejriwal away from Delhi."'...
+2026-08-03 18:31:20,016 - INFO - Date: 2024-10-29
+2026-08-03 18:31:22,161 - INFO - Prediction: Supported
+2026-08-03 18:31:22,162 - INFO - ✗ Incorrect (True: Refuted, Pred: Supported)
+2026-08-03 18:31:25,185 - INFO - ================================================================================
+2026-08-03 18:31:25,186 - INFO - Processing claim #90 (ID: crp_96)
+2026-08-03 18:31:25,186 - INFO - Claim: 'A memo McDonald’s sent to employees about political involvement after former U.S. President Donald Trump held a campaign event at one of the fast-foo...
+2026-08-03 18:31:25,186 - INFO - Date: 2024-10-21
+2026-08-03 18:31:27,810 - INFO - Prediction: Half-True
+2026-08-03 18:31:27,812 - INFO - ✗ Incorrect (True: Supported, Pred: Half-True)
+2026-08-03 18:31:30,821 - INFO - ================================================================================
+2026-08-03 18:31:30,822 - INFO - Processing claim #91 (ID: crp_97)
+2026-08-03 18:31:30,822 - INFO - Claim: "Sen. Vance has said that there's a climate problem in the past. Donald Trump called it (climate change) a hoax and then joked that these things would...
+2026-08-03 18:31:30,822 - INFO - Date: 2024-10-01
+2026-08-03 18:31:33,357 - INFO - Prediction: Misleading
+2026-08-03 18:31:33,358 - INFO - ✗ Incorrect (True: Supported, Pred: Misleading)
+2026-08-03 18:31:36,363 - INFO - ================================================================================
+2026-08-03 18:31:36,364 - INFO - Processing claim #92 (ID: crp_99)
+2026-08-03 18:31:36,364 - INFO - Claim: 'Government shutdowns in 2013 and 2018 “cost our economy billions of dollars each.”'...
+2026-08-03 18:31:36,364 - INFO - Date: 2024-12-18
+2026-08-03 18:31:38,744 - INFO - Prediction: Supported
+2026-08-03 18:31:38,744 - INFO - ✓ Correct prediction
+2026-08-03 18:31:41,758 - INFO - ================================================================================
+2026-08-03 18:31:41,758 - INFO - Processing claim #93 (ID: crp_100)
+2026-08-03 18:31:41,758 - INFO - Claim: 'Since the end of the Cold War in 1989, Democratic presidents created 50 million of the 51 million jobs added to the economy between then and July 202...
+2026-08-03 18:31:41,758 - INFO - Date: 2024-09-10
+2026-08-03 18:31:45,400 - INFO - Prediction: Half-True
+2026-08-03 18:31:45,400 - INFO - ✗ Incorrect (True: Supported, Pred: Half-True)
+2026-08-03 18:31:48,406 - INFO - ================================================================================
+2026-08-03 18:31:48,406 - INFO - Processing claim #94 (ID: crp_101)
+2026-08-03 18:31:48,407 - INFO - Claim: "Homeownership is now out of reach unless you make over $106,000."...
+2026-08-03 18:31:48,407 - INFO - Date: 2024-07-16
+2026-08-03 18:31:52,036 - INFO - Prediction: Misleading
+2026-08-03 18:31:52,041 - INFO - ✗ Incorrect (True: Supported, Pred: Misleading)
+2026-08-03 18:31:55,051 - INFO - ================================================================================
+2026-08-03 18:31:55,051 - INFO - Processing claim #95 (ID: crp_106)
+2026-08-03 18:31:55,052 - INFO - Claim: 'Russian state TV aired nude photos of Melania Trump shortly after the 2024 U.S. presidential election.'...
+2026-08-03 18:31:55,052 - INFO - Date: 2024-11-12
+2026-08-03 18:31:57,571 - INFO - Prediction: Refuted
+2026-08-03 18:31:57,572 - INFO - ✗ Incorrect (True: Supported, Pred: Refuted)
+2026-08-03 18:32:00,582 - INFO - ================================================================================
+2026-08-03 18:32:00,582 - INFO - Processing claim #96 (ID: crp_107)
+2026-08-03 18:32:00,582 - INFO - Claim: 'Prior to the U.S. presidential election on Nov. 5, 2024, a FEMA official instructed relief workers to skip past homes of residents with pro-Donald Tr...
+2026-08-03 18:32:00,582 - INFO - Date: 2024-11-11
+2026-08-03 18:32:04,666 - INFO - Prediction: Refuted
+2026-08-03 18:32:04,666 - INFO - ✗ Incorrect (True: Supported, Pred: Refuted)
+2026-08-03 18:32:07,669 - INFO - ================================================================================
+2026-08-03 18:32:07,669 - INFO - Processing claim #97 (ID: crp_108)
+2026-08-03 18:32:07,669 - INFO - Claim: 'Following the 2024 election of U.S. President-elect Donald Trump, demonstrators at Texas State University carried signs reading "Women are property" ...
+2026-08-03 18:32:07,669 - INFO - Date: 2024-11-08
+2026-08-03 18:32:10,314 - INFO - Prediction: Refuted
+2026-08-03 18:32:10,315 - INFO - ✗ Incorrect (True: Supported, Pred: Refuted)
+2026-08-03 18:32:13,319 - INFO - ================================================================================
+2026-08-03 18:32:13,320 - INFO - Processing claim #98 (ID: crp_109)
+2026-08-03 18:32:13,320 - INFO - Claim: 'Technical problems prevented the electronic scanning of ballots in Cambria County, Pennsylvania, necessitating an extension of voting hours on Electi...
+2026-08-03 18:32:13,321 - INFO - Date: 2024-11-05
+2026-08-03 18:32:15,889 - INFO - Prediction: Supported
+2026-08-03 18:32:15,890 - INFO - ✓ Correct prediction
+2026-08-03 18:32:18,891 - INFO - ================================================================================
+2026-08-03 18:32:18,891 - INFO - Processing claim #99 (ID: crp_110)
+2026-08-03 18:32:18,891 - INFO - Claim: 'A U.S. presidential election ballots being saved from a ballot drop box fire in Vancouver, Washington, in late October 2024.'...
+2026-08-03 18:32:18,891 - INFO - Date: 2024-10-29
+2026-08-03 18:32:21,561 - INFO - Prediction: Refuted
+2026-08-03 18:32:21,561 - INFO - ✗ Incorrect (True: Supported, Pred: Refuted)
+2026-08-03 18:32:24,587 - INFO - ================================================================================
+2026-08-03 18:32:24,588 - INFO - Processing claim #100 (ID: crp_111)
+2026-08-03 18:32:24,589 - INFO - Claim: 'The US stock market tends to rise regardless of which party wins.'...
+2026-08-03 18:32:24,589 - INFO - Date: 2024-11-07
+2026-08-03 18:32:27,299 - INFO - Prediction: Misleading
+2026-08-03 18:32:27,299 - INFO - ✗ Incorrect (True: Supported, Pred: Misleading)
+2026-08-03 18:32:30,301 - INFO - ================================================================================
+2026-08-03 18:32:30,302 - INFO - Processing claim #101 (ID: crp_112)
+2026-08-03 18:32:30,302 - INFO - Claim: 'Russian leader Vladimir Putin endorsed Democratic nominee Kamala Harris in September 2024 in the buildup to the U.S. presidential election.'...
+2026-08-03 18:32:30,302 - INFO - Date: 2024-09-12
+2026-08-03 18:32:33,019 - INFO - Prediction: Refuted
+2026-08-03 18:32:33,020 - INFO - ✗ Incorrect (True: Supported, Pred: Refuted)
+2026-08-03 18:32:36,022 - INFO - ================================================================================
+2026-08-03 18:32:36,023 - INFO - Processing claim #102 (ID: crp_113)
+2026-08-03 18:32:36,029 - INFO - Claim: 'Amazon Alexa provided an answer to the question of why someone should vote for Vice President Kamala Harris in the 2024 U.S. presidential election bu...
+2026-08-03 18:32:36,030 - INFO - Date: 2024-09-04
+2026-08-03 18:32:38,481 - INFO - Prediction: Misleading
+2026-08-03 18:32:38,482 - INFO - ✗ Incorrect (True: Supported, Pred: Misleading)
+2026-08-03 18:32:41,488 - INFO - ================================================================================
+2026-08-03 18:32:41,488 - INFO - Processing claim #103 (ID: crp_116)
+2026-08-03 18:32:41,489 - INFO - Claim: "Pokémon GO" developer Niantic used location-based player data to build an artificial intelligence navigation system....
+2026-08-03 18:32:41,489 - INFO - Date: 2024-11-30
+2026-08-03 18:32:44,002 - INFO - Prediction: Supported
+2026-08-03 18:32:44,003 - INFO - ✓ Correct prediction
+2026-08-03 18:32:47,010 - INFO - ================================================================================
+2026-08-03 18:32:47,013 - INFO - Processing claim #104 (ID: crp_117)
+2026-08-03 18:32:47,014 - INFO - Claim: 'Gemini, Google’s artificial intelligence chatbot, told a college student, “please die.”'...
+2026-08-03 18:32:47,014 - INFO - Date: 2024-11-19
+2026-08-03 18:32:49,254 - INFO - Prediction: Refuted
+2026-08-03 18:32:49,255 - INFO - ✗ Incorrect (True: Supported, Pred: Refuted)
+2026-08-03 18:32:52,257 - INFO - ================================================================================
+2026-08-03 18:32:52,257 - INFO - Processing claim #105 (ID: crp_120)
+2026-08-03 18:32:52,258 - INFO - Claim: 'A meme shared to social media describes various translations of the word “MAGA.”'...
+2026-08-03 18:32:52,258 - INFO - Date: 2024-12-05
+2026-08-03 18:32:55,726 - INFO - Prediction: Supported
+2026-08-03 18:32:55,727 - INFO - ✓ Correct prediction
+2026-08-03 18:32:58,730 - INFO - ================================================================================
+2026-08-03 18:32:58,730 - INFO - Processing claim #106 (ID: crp_121)
+2026-08-03 18:32:58,730 - INFO - Claim: 'A photograph taken by NASA and showing the planet Jupiter.'...
+2026-08-03 18:32:58,730 - INFO - Date: 2024-11-08
+2026-08-03 18:33:00,927 - INFO - Prediction: Supported
+2026-08-03 18:33:00,928 - INFO - ✓ Correct prediction
+2026-08-03 18:33:03,929 - INFO - ================================================================================
+2026-08-03 18:33:03,929 - INFO - Processing claim #107 (ID: crp_122)
+2026-08-03 18:33:03,930 - INFO - Claim: 'A photograph circulating on social media shows a close-up view of a humpback whale’s eye.'...
+2026-08-03 18:33:03,930 - INFO - Date: 2024-11-06
+2026-08-03 18:33:08,096 - INFO - Prediction: Supported
+2026-08-03 18:33:08,097 - INFO - ✓ Correct prediction
+2026-08-03 18:33:11,100 - INFO - ================================================================================
+2026-08-03 18:33:11,100 - INFO - Processing claim #108 (ID: crp_123)
+2026-08-03 18:33:11,101 - INFO - Claim: 'A "giant horse conch" discovered in the waters of the Gulf of Mexico.'...
+2026-08-03 18:33:11,101 - INFO - Date: 2024-10-28
+2026-08-03 18:33:14,757 - INFO - Prediction: Supported
+2026-08-03 18:33:14,757 - INFO - ✓ Correct prediction
+2026-08-03 18:33:17,761 - INFO - ================================================================================
+2026-08-03 18:33:17,762 - INFO - Processing claim #109 (ID: crp_124)
+2026-08-03 18:33:17,762 - INFO - Claim: 'A 500-year-old teenage mummy preserved during the Incan Empire 500 years ago.'...
+2026-08-03 18:33:17,762 - INFO - Date: 2024-08-07
+2026-08-03 18:33:20,088 - INFO - Prediction: Supported
+2026-08-03 18:33:20,088 - INFO - ✓ Correct prediction
+2026-08-03 18:33:23,115 - INFO - ================================================================================
+2026-08-03 18:33:23,116 - INFO - Processing claim #110 (ID: crp_125)
+2026-08-03 18:33:23,116 - INFO - Claim: 'Princess Diana and Mother Teresa holding hands in 1997.'...
+2026-08-03 18:33:23,116 - INFO - Date: 2024-07-25
+2026-08-03 18:33:25,478 - INFO - Prediction: Supported
+2026-08-03 18:33:25,478 - INFO - ✓ Correct prediction
+2026-08-03 18:33:28,479 - INFO - ================================================================================
+2026-08-03 18:33:28,479 - INFO - Processing claim #111 (ID: crp_126)
+2026-08-03 18:33:28,479 - INFO - Claim: 'Ancestry.com listed a Joseph Robinette Biden Jr. as having died in Guantánamo, Cuba, in 2018.'...
+2026-08-03 18:33:28,479 - INFO - Date: 2024-06-13
+2026-08-03 18:33:32,430 - INFO - Prediction: Refuted
+2026-08-03 18:33:32,431 - INFO - ✗ Incorrect (True: Supported, Pred: Refuted)
+2026-08-03 18:33:35,433 - INFO - ================================================================================
+2026-08-03 18:33:35,434 - INFO - Processing claim #112 (ID: crp_127)
+2026-08-03 18:33:35,435 - INFO - Claim: 'Images shared on social media showed a mailer sent to voters in Texas ahead of a May 28, 2024, runoff election reading, in part: "Your neighbors are ...
+2026-08-03 18:33:35,435 - INFO - Date: 2024-05-29
+2026-08-03 18:33:39,087 - INFO - Prediction: Supported
+2026-08-03 18:33:39,088 - INFO - ✓ Correct prediction
+2026-08-03 18:33:42,101 - INFO - ================================================================================
+2026-08-03 18:33:42,102 - INFO - Processing claim #113 (ID: crp_130)
+2026-08-03 18:33:42,102 - INFO - Claim: 'Each one of those shots is billed as a medical advance. So, our children should be healthier than ever. But the opposite is true.'...
+2026-08-03 18:33:42,102 - INFO - Date: 2024-09-08
+2026-08-03 18:33:44,417 - INFO - Prediction: Refuted
+2026-08-03 18:33:44,417 - INFO - ✗ Incorrect (True: Misleading, Pred: Refuted)
+2026-08-03 18:33:47,419 - INFO - ================================================================================
+2026-08-03 18:33:47,420 - INFO - Processing claim #114 (ID: crp_131)
+2026-08-03 18:33:47,420 - INFO - Claim: 'Picture shows Donald Trump recently invited a Hindu priest to recite Vedic hymns at the White House.'...
+2026-08-03 18:33:47,420 - INFO - Date: 2024-11-08
+2026-08-03 18:33:49,811 - INFO - Prediction: Supported
+2026-08-03 18:33:49,811 - INFO - ✗ Incorrect (True: Misleading, Pred: Supported)
+2026-08-03 18:33:52,814 - INFO - ================================================================================
+2026-08-03 18:33:52,814 - INFO - Processing claim #115 (ID: crp_132)
+2026-08-03 18:33:52,814 - INFO - Claim: 'This picture was taken 3 HOURS ago of people lined up to see Trump at MSG.'...
+2026-08-03 18:33:52,814 - INFO - Date: 2024-10-31
+2026-08-03 18:33:55,686 - INFO - Prediction: Refuted
+2026-08-03 18:33:55,687 - INFO - ✗ Incorrect (True: Misleading, Pred: Refuted)
+2026-08-03 18:33:58,689 - INFO - ================================================================================
+2026-08-03 18:33:58,689 - INFO - Processing claim #116 (ID: crp_133)
+2026-08-03 18:33:58,689 - INFO - Claim: 'Burger King mocked McDonald's with this advert in response to Donald Trump's visit to a McDonald's restaurant.'...
+2026-08-03 18:33:58,689 - INFO - Date: 2024-10-25
+2026-08-03 18:34:01,959 - INFO - Prediction: Supported
+2026-08-03 18:34:01,960 - INFO - ✗ Incorrect (True: Misleading, Pred: Supported)
+2026-08-03 18:34:04,961 - INFO - ================================================================================
+2026-08-03 18:34:04,962 - INFO - Processing claim #117 (ID: crp_134)
+2026-08-03 18:34:04,962 - INFO - Claim: 'Visuals of Akhilesh Yadav recently meeting the Prime Minister during the 2024 Lok Sabha elections.'...
+2026-08-03 18:34:04,963 - INFO - Date: 2024-05-11
+2026-08-03 18:34:08,697 - INFO - Prediction: Supported
+2026-08-03 18:34:08,697 - INFO - ✗ Incorrect (True: Misleading, Pred: Supported)
+2026-08-03 18:34:11,699 - INFO - ================================================================================
+2026-08-03 18:34:11,699 - INFO - Processing claim #118 (ID: crp_135)
+2026-08-03 18:34:11,699 - INFO - Claim: 'These viral photos show Kumbhakarna’s sword from the Ramayana period.'...
+2026-08-03 18:34:11,700 - INFO - Date: 2024-10-07
+2026-08-03 18:34:15,335 - INFO - Prediction: Refuted
+2026-08-03 18:34:15,336 - INFO - ✓ Correct prediction
+2026-08-03 18:34:18,355 - INFO - ================================================================================
+2026-08-03 18:34:18,357 - INFO - Processing claim #119 (ID: crp_137)
+2026-08-03 18:34:18,357 - INFO - Claim: 'Thomas Crooks, the 20-year-old man who attempted to assassinate former U.S. President Donald Trump, once donated money to a political action committe...
+2026-08-03 18:34:18,358 - INFO - Date: 2024-07-15
+2026-08-03 18:34:21,473 - INFO - Prediction: Supported
+2026-08-03 18:34:21,475 - INFO - ✓ Correct prediction
+2026-08-03 18:34:24,484 - INFO - ================================================================================
+2026-08-03 18:34:24,485 - INFO - Processing claim #120 (ID: crp_140)
+2026-08-03 18:34:24,485 - INFO - Claim: 'Project 2025, a conservative coalition's plan for a future U.S. Republican presidency, proposes eliminating the federal Head Start education program....
+2026-08-03 18:34:24,485 - INFO - Date: 2024-11-25
+2026-08-03 18:34:27,453 - INFO - Prediction: Supported
+2026-08-03 18:34:27,453 - INFO - ✓ Correct prediction
+2026-08-03 18:34:30,455 - INFO - ================================================================================
+2026-08-03 18:34:30,455 - INFO - Processing claim #121 (ID: crp_141)
+2026-08-03 18:34:30,455 - INFO - Claim: 'One of Trump’s proposals is "shutting down the Department of Education."'...
+2026-08-03 18:34:30,455 - INFO - Date: 2024-08-20
+2026-08-03 18:34:32,774 - INFO - Prediction: Supported
+2026-08-03 18:34:32,774 - INFO - ✓ Correct prediction
+2026-08-03 18:34:35,776 - INFO - ================================================================================
+2026-08-03 18:34:35,776 - INFO - Processing claim #122 (ID: crp_142)
+2026-08-03 18:34:35,776 - INFO - Claim: 'Project 2025, a proposed conservative blueprint for the next U.S. Republican presidential administration, has called to shut down the U.S. Department...
+2026-08-03 18:34:35,776 - INFO - Date: 2024-08-14
+2026-08-03 18:34:38,211 - INFO - Prediction: Supported
+2026-08-03 18:34:38,211 - INFO - ✓ Correct prediction
+2026-08-03 18:34:41,221 - INFO - ================================================================================
+2026-08-03 18:34:41,221 - INFO - Processing claim #123 (ID: crp_143)
+2026-08-03 18:34:41,221 - INFO - Claim: 'Ovia, an app for tracking reproductive health, requires users to input their country and state.'...
+2026-08-03 18:34:41,222 - INFO - Date: 2024-12-13
+2026-08-03 18:34:43,687 - INFO - Prediction: Supported
+2026-08-03 18:34:43,687 - INFO - ✓ Correct prediction
+2026-08-03 18:34:46,690 - INFO - ================================================================================
+2026-08-03 18:34:46,692 - INFO - Processing claim #124 (ID: crp_144)
+2026-08-03 18:34:46,692 - INFO - Claim: 'Falling back to standard time is good for our health.'...
+2026-08-03 18:34:46,692 - INFO - Date: 2024-10-29
+2026-08-03 18:34:49,295 - INFO - Prediction: Misleading
+2026-08-03 18:34:49,296 - INFO - ✗ Incorrect (True: Supported, Pred: Misleading)
+2026-08-03 18:34:52,301 - INFO - ================================================================================
+2026-08-03 18:34:52,302 - INFO - Processing claim #125 (ID: crp_148)
+2026-08-03 18:34:52,303 - INFO - Claim: 'The first U.S. official coin in circulation said “Mind Your Business” instead of “In God We Trust.”'...
+2026-08-03 18:34:52,305 - INFO - Date: 2024-08-15
+2026-08-03 18:34:56,368 - INFO - Prediction: Supported
+2026-08-03 18:34:56,368 - INFO - ✓ Correct prediction
+2026-08-03 18:34:59,377 - INFO - ================================================================================
+2026-08-03 18:34:59,378 - INFO - Processing claim #126 (ID: crp_151)
+2026-08-03 18:34:59,379 - INFO - Claim: 'Hamas called for end to war because of Trump’s election'...
+2026-08-03 18:34:59,379 - INFO - Date: 2024-11-12
+2026-08-03 18:35:01,955 - INFO - Prediction: Refuted
+2026-08-03 18:35:01,956 - INFO - ✗ Incorrect (True: Misleading, Pred: Refuted)
+2026-08-03 18:35:04,958 - INFO - ================================================================================
+2026-08-03 18:35:04,959 - INFO - Processing claim #127 (ID: crp_152)
+2026-08-03 18:35:04,960 - INFO - Claim: '"These [Moldovan presidential] elections were neither democratic nor fair. They were full of electoral manipulations."'...
+2026-08-03 18:35:04,960 - INFO - Date: 2024-11-07
+2026-08-03 18:35:07,760 - INFO - Prediction: Misleading
+2026-08-03 18:35:07,760 - INFO - ✓ Correct prediction
+2026-08-03 18:35:10,764 - INFO - ================================================================================
+2026-08-03 18:35:10,765 - INFO - Processing claim #128 (ID: crp_153)
+2026-08-03 18:35:10,766 - INFO - Claim: 'A pre-marked dot on the U.S. election ballot makes the vote void.'...
+2026-08-03 18:35:10,766 - INFO - Date: 2024-11-03
+2026-08-03 18:35:13,925 - INFO - Prediction: Refuted
+2026-08-03 18:35:13,925 - INFO - ✗ Incorrect (True: Misleading, Pred: Refuted)
+2026-08-03 18:35:16,927 - INFO - ================================================================================
+2026-08-03 18:35:16,927 - INFO - Processing claim #129 (ID: crp_154)
+2026-08-03 18:35:16,927 - INFO - Claim: 'Rodrigo Duterte is running for senator in the 2025 elections.'...
+2026-08-03 18:35:16,928 - INFO - Date: 2024-10-08
+2026-08-03 18:35:19,581 - INFO - Prediction: Misleading
+2026-08-03 18:35:19,581 - INFO - ✓ Correct prediction
+2026-08-03 18:35:22,594 - INFO - ================================================================================
+2026-08-03 18:35:22,595 - INFO - Processing claim #130 (ID: crp_155)
+2026-08-03 18:35:22,595 - INFO - Claim: 'Wilders and Le Pen “unanimously” win recent elections'...
+2026-08-03 18:35:22,595 - INFO - Date: 2024-05-19
+2026-08-03 18:35:24,997 - INFO - Prediction: Misleading
+2026-08-03 18:35:24,997 - INFO - ✓ Correct prediction
+2026-08-03 18:35:28,000 - INFO - ================================================================================
+2026-08-03 18:35:28,001 - INFO - Processing claim #131 (ID: crp_158)
+2026-08-03 18:35:28,002 - INFO - Claim: 'China declared a state of health emergency following new HMPV outbreak.'...
+2026-08-03 18:35:28,002 - INFO - Date: 2025-01-07
+2026-08-03 18:35:30,336 - INFO - Prediction: Refuted
+2026-08-03 18:35:30,336 - INFO - ✗ Incorrect (True: Misleading, Pred: Refuted)
+2026-08-03 18:35:33,343 - INFO - ================================================================================
+2026-08-03 18:35:33,343 - INFO - Processing claim #132 (ID: crp_159)
+2026-08-03 18:35:33,343 - INFO - Claim: 'Products from cows fed Bovaer causes health issues in humans'...
+2026-08-03 18:35:33,343 - INFO - Date: 2024-12-13
+2026-08-03 18:35:36,887 - INFO - Prediction: Refuted
+2026-08-03 18:35:36,888 - INFO - ✗ Incorrect (True: Misleading, Pred: Refuted)
+2026-08-03 18:35:39,906 - INFO - ================================================================================
+2026-08-03 18:35:39,906 - INFO - Processing claim #133 (ID: crp_160)
+2026-08-03 18:35:39,906 - INFO - Claim: “Rather than respecting her dignity and focusing on the mental health challenges she was facing, these groups saw an opportunity to fuel their anti-go...
+2026-08-03 18:35:39,906 - INFO - Date: 2024-11-13
+2026-08-03 18:35:42,099 - INFO - Prediction: Misleading
+2026-08-03 18:35:42,100 - INFO - ✓ Correct prediction
+2026-08-03 18:35:45,105 - INFO - ================================================================================
+2026-08-03 18:35:45,105 - INFO - Processing claim #134 (ID: crp_161)
+2026-08-03 18:35:45,106 - INFO - Claim: 'Amendment to health act will force Malaysians to be vaccinated.'...
+2026-08-03 18:35:45,106 - INFO - Date: 2024-10-16
+2026-08-03 18:35:47,323 - INFO - Prediction: Misleading
+2026-08-03 18:35:47,324 - INFO - ✓ Correct prediction
+2026-08-03 18:35:50,327 - INFO - ================================================================================
+2026-08-03 18:35:50,327 - INFO - Processing claim #135 (ID: crp_162)
+2026-08-03 18:35:50,327 - INFO - Claim: 'Great Barrier Reef broke coral population record for third year in a row'...
+2026-08-03 18:35:50,327 - INFO - Date: 2024-06-29
+2026-08-03 18:35:53,171 - INFO - Prediction: Refuted
+2026-08-03 18:35:53,172 - INFO - ✗ Incorrect (True: Misleading, Pred: Refuted)
+2026-08-03 18:35:56,176 - INFO - ================================================================================
+2026-08-03 18:35:56,177 - INFO - Processing claim #136 (ID: crp_163)
+2026-08-03 18:35:56,177 - INFO - Claim: 'GRACIA LATTE is a healthy way to lose weight in one week'...
+2026-08-03 18:35:56,177 - INFO - Date: 2024-05-01
+2026-08-03 18:35:58,480 - INFO - Prediction: Refuted
+2026-08-03 18:35:58,481 - INFO - ✗ Incorrect (True: Misleading, Pred: Refuted)
+2026-08-03 18:36:01,484 - INFO - ================================================================================
+2026-08-03 18:36:01,485 - INFO - Processing claim #137 (ID: crp_169)
+2026-08-03 18:36:01,485 - INFO - Claim: 'There is HIV inside some COVID vaccines'...
+2026-08-03 18:36:01,485 - INFO - Date: 2025-01-04
+2026-08-03 18:36:04,880 - INFO - Prediction: Refuted
+2026-08-03 18:36:04,881 - INFO - ✗ Incorrect (True: Misleading, Pred: Refuted)
+2026-08-03 18:36:07,883 - INFO - ================================================================================
+2026-08-03 18:36:07,883 - INFO - Processing claim #138 (ID: crp_170)
+2026-08-03 18:36:07,883 - INFO - Claim: “Mysterious virus HMPV reported in China!”...
+2026-08-03 18:36:07,884 - INFO - Date: 2025-01-07
+2026-08-03 18:36:12,599 - INFO - Prediction: Refuted
+2026-08-03 18:36:12,599 - INFO - ✗ Incorrect (True: Misleading, Pred: Refuted)
+2026-08-03 18:36:15,602 - INFO - ================================================================================
+2026-08-03 18:36:15,603 - INFO - Processing claim #139 (ID: crp_171)
+2026-08-03 18:36:15,603 - INFO - Claim: 'George Soros and Bill Gates owned Mologic Ltd, a company producing rapid COVID-19 tests, prior to the pandemic.'...
+2026-08-03 18:36:15,603 - INFO - Date: 2024-11-10
+2026-08-03 18:36:18,081 - INFO - Prediction: Misleading
+2026-08-03 18:36:18,081 - INFO - ✓ Correct prediction
+2026-08-03 18:36:21,101 - INFO - ================================================================================
+2026-08-03 18:36:21,102 - INFO - Processing claim #140 (ID: crp_172)
+2026-08-03 18:36:21,102 - INFO - Claim: 'The updated COVID-19 vaccines do “not protect against the currently dominant strain.”'...
+2026-08-03 18:36:21,102 - INFO - Date: 2024-09-12
+2026-08-03 18:36:24,058 - INFO - Prediction: Half-True
+2026-08-03 18:36:24,058 - INFO - ✗ Incorrect (True: Misleading, Pred: Half-True)
+2026-08-03 18:36:27,074 - INFO - ================================================================================
+2026-08-03 18:36:27,074 - INFO - Processing claim #141 (ID: crp_173)
+2026-08-03 18:36:27,074 - INFO - Claim: 'COVID-19 vaccines are unsafe, they cause deaths by cardiac arrest and blood clots.'...
+2026-08-03 18:36:27,075 - INFO - Date: 2024-10-20
+2026-08-03 18:36:29,443 - INFO - Prediction: Refuted
+2026-08-03 18:36:29,444 - INFO - ✗ Incorrect (True: Misleading, Pred: Refuted)
+2026-08-03 18:36:32,445 - INFO - ================================================================================
+2026-08-03 18:36:32,445 - INFO - Processing claim #142 (ID: crp_174)
+2026-08-03 18:36:32,445 - INFO - Claim: 'More deaths from COVID-19 occurred during Biden's administration than Trump's.'...
+2026-08-03 18:36:32,445 - INFO - Date: 2024-09-10
+2026-08-03 18:36:37,330 - INFO - Prediction: Supported
+2026-08-03 18:36:37,330 - INFO - ✗ Incorrect (True: Misleading, Pred: Supported)
+2026-08-03 18:36:40,331 - INFO - ================================================================================
+2026-08-03 18:36:40,331 - INFO - Processing claim #143 (ID: crp_175)
+2026-08-03 18:36:40,332 - INFO - Claim: 'mRNA COVID-19 vaccine causes cancer.'...
+2026-08-03 18:36:40,332 - INFO - Date: 2024-09-11
+2026-08-03 18:36:42,400 - INFO - Prediction: Refuted
+2026-08-03 18:36:42,401 - INFO - ✗ Incorrect (True: Misleading, Pred: Refuted)
+2026-08-03 18:36:45,410 - INFO - ================================================================================
+2026-08-03 18:36:45,410 - INFO - Processing claim #144 (ID: crp_176)
+2026-08-03 18:36:45,410 - INFO - Claim: 'Spike protein from Covid-19 vaccines could promote cancer growth.'...
+2026-08-03 18:36:45,410 - INFO - Date: 2024-07-01
+2026-08-03 18:36:47,774 - INFO - Prediction: Refuted
+2026-08-03 18:36:47,774 - INFO - ✗ Incorrect (True: Misleading, Pred: Refuted)
+2026-08-03 18:36:50,778 - INFO - ================================================================================
+2026-08-03 18:36:50,779 - INFO - Processing claim #145 (ID: crp_177)
+2026-08-03 18:36:50,779 - INFO - Claim: 'Study proves link between Covid-19 and sudden death'...
+2026-08-03 18:36:50,779 - INFO - Date: 2024-06-19
+2026-08-03 18:36:53,237 - INFO - Prediction: Half-True
+2026-08-03 18:36:53,237 - INFO - ✗ Incorrect (True: Misleading, Pred: Half-True)
+2026-08-03 18:36:56,247 - INFO - ================================================================================
+2026-08-03 18:36:56,248 - INFO - Processing claim #146 (ID: crp_178)
+2026-08-03 18:36:56,249 - INFO - Claim: 'BMJ reports record excess deaths after Covid vaccine'...
+2026-08-03 18:36:56,250 - INFO - Date: 2024-06-06
+2026-08-03 18:36:58,724 - INFO - Prediction: Misleading
+2026-08-03 18:36:58,724 - INFO - ✓ Correct prediction
+2026-08-03 18:37:01,731 - INFO - ================================================================================
+2026-08-03 18:37:01,732 - INFO - Processing claim #147 (ID: crp_179)
+2026-08-03 18:37:01,732 - INFO - Claim: “Covid vaccines may have helped fuel rise in excess deaths”...
+2026-08-03 18:37:01,732 - INFO - Date: 2024-07-06
+2026-08-03 18:37:04,153 - INFO - Prediction: Refuted
+2026-08-03 18:37:04,153 - INFO - ✗ Incorrect (True: Misleading, Pred: Refuted)
+2026-08-03 18:37:07,160 - INFO - ================================================================================
+2026-08-03 18:37:07,160 - INFO - Processing claim #148 (ID: crp_180)
+2026-08-03 18:37:07,161 - INFO - Claim: “AstraZeneca finally WITHDRAW Covid vaccine worldwide, months after the company admitted rare side effect for the first time in court documents.”...
+2026-08-03 18:37:07,161 - INFO - Date: 2024-05-08
+2026-08-03 18:37:09,715 - INFO - Prediction: Supported
+2026-08-03 18:37:09,716 - INFO - ✗ Incorrect (True: Misleading, Pred: Supported)
+2026-08-03 18:37:12,721 - INFO - ================================================================================
+2026-08-03 18:37:12,723 - INFO - Processing claim #149 (ID: crp_187)
+2026-08-03 18:37:12,723 - INFO - Claim: 'Former U.S. President Donald Trump reneged on an offer he made to help pay the funeral costs of a murdered soldier, saying, "It doesn't cost 60,000 b...
+2026-08-03 18:37:12,723 - INFO - Date: 2024-10-29
+2026-08-03 18:37:14,741 - INFO - Prediction: Refuted
+2026-08-03 18:37:14,742 - INFO - ✗ Incorrect (True: Not Enough Information, Pred: Refuted)
+2026-08-03 18:37:17,780 - INFO - ================================================================================
+2026-08-03 18:37:17,780 - INFO - Processing claim #150 (ID: crp_188)
+2026-08-03 18:37:17,780 - INFO - Claim: 'In 2020, Trump said to two people in a private conversation at the White House: "I need the kind of generals that Hitler had."'...
+2026-08-03 18:37:17,781 - INFO - Date: 2024-10-25
+2026-08-03 18:37:20,848 - INFO - Prediction: Refuted
+2026-08-03 18:37:20,849 - INFO - ✗ Incorrect (True: Not Enough Information, Pred: Refuted)
+2026-08-03 18:37:23,852 - INFO - ================================================================================
+2026-08-03 18:37:23,853 - INFO - Processing claim #151 (ID: crp_190)
+2026-08-03 18:37:23,854 - INFO - Claim: 'A photo authentically depicted an officer who killed a shooter who allegedly opened fire on former U.S. President Donald Trump and "saved" his life.'...
+2026-08-03 18:37:23,854 - INFO - Date: 2024-07-13
+2026-08-03 18:37:25,970 - INFO - Prediction: Refuted
+2026-08-03 18:37:25,970 - INFO - ✗ Incorrect (True: Not Enough Information, Pred: Refuted)
+2026-08-03 18:37:28,973 - INFO - ================================================================================
+2026-08-03 18:37:28,973 - INFO - Processing claim #152 (ID: crp_192)
+2026-08-03 18:37:28,974 - INFO - Claim: 'A Donald Trump animatronic used in Walt Disney World’s Hall of Presidents attraction was originally built to resemble Hillary Clinton, who Disney lea...
+2026-08-03 18:37:28,974 - INFO - Date: 2024-11-24
+2026-08-03 18:37:31,089 - INFO - Prediction: Refuted
+2026-08-03 18:37:31,090 - INFO - ✗ Incorrect (True: Not Enough Information, Pred: Refuted)
+2026-08-03 18:37:34,092 - INFO - ================================================================================
+2026-08-03 18:37:34,093 - INFO - Processing claim #153 (ID: crp_193)
+2026-08-03 18:37:34,093 - INFO - Claim: “The Ondo state governor drew more than 1.2 billion security votes in September 2024 in the week of the Edo election.”...
+2026-08-03 18:37:34,094 - INFO - Date: 2024-11-01
+2026-08-03 18:37:36,809 - INFO - Prediction: Refuted
+2026-08-03 18:37:36,809 - INFO - ✗ Incorrect (True: Not Enough Information, Pred: Refuted)
+2026-08-03 18:37:39,816 - INFO - ================================================================================
+2026-08-03 18:37:39,817 - INFO - Processing claim #154 (ID: crp_195)
+2026-08-03 18:37:39,818 - INFO - Claim: 'Ice extent difference on two dates confirms that climate change is not real.'...
+2026-08-03 18:37:39,819 - INFO - Date: 2025-01-15
+2026-08-03 18:37:42,292 - INFO - Prediction: Refuted
+2026-08-03 18:37:42,292 - INFO - ✗ Incorrect (True: Misleading, Pred: Refuted)
+2026-08-03 18:37:45,295 - INFO - ================================================================================
+2026-08-03 18:37:45,295 - INFO - Processing claim #155 (ID: crp_196)
+2026-08-03 18:37:45,295 - INFO - Claim: 'Donald Trump promoted a unified Korea under North Korean rule.'...
+2026-08-03 18:37:45,295 - INFO - Date: 2025-01-15
+2026-08-03 18:37:47,771 - INFO - Prediction: Refuted
+2026-08-03 18:37:47,771 - INFO - ✓ Correct prediction
+2026-08-03 18:37:50,776 - INFO - ================================================================================
+2026-08-03 18:37:50,776 - INFO - Processing claim #156 (ID: crp_197)
+2026-08-03 18:37:50,777 - INFO - Claim: 'President-elect Donald Trump's ear shows he was not shot.'...
+2026-08-03 18:37:50,778 - INFO - Date: 2025-01-09
+2026-08-03 18:37:53,335 - INFO - Prediction: Refuted
+2026-08-03 18:37:53,335 - INFO - ✓ Correct prediction
+2026-08-03 18:37:56,344 - INFO - ================================================================================
+2026-08-03 18:37:56,345 - INFO - Processing claim #157 (ID: crp_198)
+2026-08-03 18:37:56,345 - INFO - Claim: 'a January 3 tweet from President-Elect Trump reading, 'Free Tony Robinson!''...
+2026-08-03 18:37:56,345 - INFO - Date: 2025-01-03
+2026-08-03 18:37:59,302 - INFO - Prediction: Refuted
+2026-08-03 18:37:59,303 - INFO - ✓ Correct prediction
+2026-08-03 18:38:02,314 - INFO - ================================================================================
+2026-08-03 18:38:02,316 - INFO - Processing claim #158 (ID: crp_199)
+2026-08-03 18:38:02,316 - INFO - Claim: 'U.S. President-elect Donald Trump failed to place his right hand over his heart during former President Jimmy Carter's state funeral.'...
+2026-08-03 18:38:02,317 - INFO - Date: 2025-01-13
+2026-08-03 18:38:04,670 - INFO - Prediction: Refuted
+2026-08-03 18:38:04,670 - INFO - ✓ Correct prediction
+2026-08-03 18:38:07,672 - INFO - ================================================================================
+2026-08-03 18:38:07,674 - INFO - Processing claim #159 (ID: crp_200)
+2026-08-03 18:38:07,674 - INFO - Claim: 'Chinese hospitals overwhelmed during 'state of emergency''...
+2026-08-03 18:38:07,682 - INFO - Date: 2025-01-02
+2026-08-03 18:38:10,117 - INFO - Prediction: Half-True
+2026-08-03 18:38:10,117 - INFO - ✗ Incorrect (True: Refuted, Pred: Half-True)
+2026-08-03 18:38:13,140 - INFO - ================================================================================
+2026-08-03 18:38:13,140 - INFO - Processing claim #160 (ID: crp_201)
+2026-08-03 18:38:13,140 - INFO - Claim: 'Mark Violet, a “known antifa extremist”, who has been identified as the Donald Trump shooter and arrested by Butler Police Department.'...
+2026-08-03 18:38:13,140 - INFO - Date: 2024-07-14
+2026-08-03 18:38:16,691 - INFO - Prediction: Refuted
+2026-08-03 18:38:16,691 - INFO - ✓ Correct prediction
+2026-08-03 18:38:19,693 - INFO - ================================================================================
+2026-08-03 18:38:19,693 - INFO - Processing claim #161 (ID: crp_202)
+2026-08-03 18:38:19,694 - INFO - Claim: 'There is a primary school Social, Personal and Health Education (SPHE) task for 10-year-olds, in which they have to match words related to sexual edu...
+2026-08-03 18:38:19,694 - INFO - Date: 2024-10-16
+2026-08-03 18:38:21,893 - INFO - Prediction: Supported
+2026-08-03 18:38:21,893 - INFO - ✓ Correct prediction
+2026-08-03 18:38:24,898 - INFO - ================================================================================
+2026-08-03 18:38:24,899 - INFO - Processing claim #162 (ID: crp_203)
+2026-08-03 18:38:24,899 - INFO - Claim: 'Manifesto of Luigi Mangione, the suspect in health care executive's killing.'...
+2026-08-03 18:38:24,899 - INFO - Date: 2024-12-09
+2026-08-03 18:38:27,174 - INFO - Prediction: Refuted
+2026-08-03 18:38:27,174 - INFO - ✓ Correct prediction
+2026-08-03 18:38:30,177 - INFO - ================================================================================
+2026-08-03 18:38:30,178 - INFO - Processing claim #163 (ID: crp_204)
+2026-08-03 18:38:30,178 - INFO - Claim: 'Speaker Emerita Nancy Pelosi fall down while using a walker on the House floor during the recent certification of the 2024 election'...
+2026-08-03 18:38:30,178 - INFO - Date: 2025-01-07
+2026-08-03 18:38:32,314 - INFO - Prediction: Refuted
+2026-08-03 18:38:32,315 - INFO - ✓ Correct prediction
+2026-08-03 18:38:35,317 - INFO - ================================================================================
+2026-08-03 18:38:35,317 - INFO - Processing claim #164 (ID: crp_205)
+2026-08-03 18:38:35,317 - INFO - Claim: 'All white people picnicking at Black church where Trump spoke'...
+2026-08-03 18:38:35,317 - INFO - Date: 2024-06-17
+2026-08-03 18:38:37,653 - INFO - Prediction: Refuted
+2026-08-03 18:38:37,660 - INFO - ✓ Correct prediction
+2026-08-03 18:38:40,667 - INFO - ================================================================================
+2026-08-03 18:38:40,668 - INFO - Processing claim #165 (ID: crp_206)
+2026-08-03 18:38:40,668 - INFO - Claim: 'Indian national named "Bhuvesh Patel," who was caught attempting to start a fire for looting in Woodland Hills, Los Angeles.'...
+2026-08-03 18:38:40,669 - INFO - Date: 2025-01-15
+2026-08-03 18:38:43,003 - INFO - Prediction: Refuted
+2026-08-03 18:38:43,003 - INFO - ✓ Correct prediction
+2026-08-03 18:38:46,006 - INFO - ================================================================================
+2026-08-03 18:38:46,007 - INFO - Processing claim #166 (ID: crp_207)
+2026-08-03 18:38:46,007 - INFO - Claim: 'Molestation of South Korean YouTuber by two men in Mumbai'...
+2026-08-03 18:38:46,007 - INFO - Date: 2025-01-02
+2026-08-03 18:38:48,468 - INFO - Prediction: Refuted
+2026-08-03 18:38:48,469 - INFO - ✓ Correct prediction
+2026-08-03 18:38:51,473 - INFO - ================================================================================
+2026-08-03 18:38:51,473 - INFO - Processing claim #167 (ID: crp_208)
+2026-08-03 18:38:51,473 - INFO - Claim: 'Christmas tree decorated with Ukrainian flags displayed in Berlin, Germany.'...
+2026-08-03 18:38:51,473 - INFO - Date: 2024-12-03
+2026-08-03 18:38:54,254 - INFO - Prediction: Supported
+2026-08-03 18:38:54,255 - INFO - ✗ Incorrect (True: Refuted, Pred: Supported)
+2026-08-03 18:38:57,260 - INFO - ================================================================================
+2026-08-03 18:38:57,261 - INFO - Processing claim #168 (ID: crp_209)
+2026-08-03 18:38:57,261 - INFO - Claim: 'U.S. soldier in Germany during World War II replacing a street sign that read “Adolf-Hitler-Str.” with another that read “Roosevelt Blvd.”'...
+2026-08-03 18:38:57,261 - INFO - Date: 2024-10-05
+2026-08-03 18:38:59,988 - INFO - Prediction: Supported
+2026-08-03 18:38:59,989 - INFO - ✓ Correct prediction
+2026-08-03 18:39:02,995 - INFO - ================================================================================
+2026-08-03 18:39:02,995 - INFO - Processing claim #169 (ID: crp_210)
+2026-08-03 18:39:02,996 - INFO - Claim: 'French union workers grilling food on a barbecue fitted to tram tracks during a protest march.'...
+2026-08-03 18:39:02,996 - INFO - Date: 2024-12-02
+2026-08-03 18:39:05,977 - INFO - Prediction: Supported
+2026-08-03 18:39:05,977 - INFO - ✓ Correct prediction
+2026-08-03 18:39:08,997 - INFO - ================================================================================
+2026-08-03 18:39:08,997 - INFO - Processing claim #170 (ID: crp_211)
+2026-08-03 18:39:08,998 - INFO - Claim: 'UK Prime Minister Kier Starmer as a child with alleged pedophile Jimmy Savile.'...
+2026-08-03 18:39:08,999 - INFO - Date: 2025-01-14
+2026-08-03 18:39:11,533 - INFO - Prediction: Refuted
+2026-08-03 18:39:11,534 - INFO - ✓ Correct prediction
+2026-08-03 18:39:14,536 - INFO - ================================================================================
+2026-08-03 18:39:14,536 - INFO - Processing claim #171 (ID: crp_212)
+2026-08-03 18:39:14,536 - INFO - Claim: 'Russian passport of deposed Syrian dictator Bashar al-Assad.'...
+2026-08-03 18:39:14,536 - INFO - Date: 2024-12-19
+2026-08-03 18:39:17,296 - INFO - Prediction: Refuted
+2026-08-03 18:39:17,296 - INFO - ✓ Correct prediction
+2026-08-03 18:39:20,302 - INFO - ================================================================================
+2026-08-03 18:39:20,303 - INFO - Processing claim #172 (ID: crp_213)
+2026-08-03 18:39:20,303 - INFO - Claim: 'China has declared a state of emergency'...
+2026-08-03 18:39:20,303 - INFO - Date: 2025-01-02
+2026-08-03 18:39:23,636 - INFO - Prediction: Refuted
+2026-08-03 18:39:23,637 - INFO - ✓ Correct prediction
+2026-08-03 18:39:26,639 - INFO - ================================================================================
+2026-08-03 18:39:26,639 - INFO - Processing claim #173 (ID: crp_214)
+2026-08-03 18:39:26,639 - INFO - Claim: 'Jensen Huang got drunk in Vietnam in December 2024 after China's probe on Nvidia.'...
+2026-08-03 18:39:26,639 - INFO - Date: 2024-12-15
+2026-08-03 18:39:29,878 - INFO - Prediction: Refuted
+2026-08-03 18:39:29,879 - INFO - ✓ Correct prediction
+2026-08-03 18:39:32,885 - INFO - ================================================================================
+2026-08-03 18:39:32,886 - INFO - Processing claim #174 (ID: crp_215)
+2026-08-03 18:39:32,886 - INFO - Claim: 'Evidence of vote-rigging more votes in 2020'...
+2026-08-03 18:39:32,886 - INFO - Date: 2024-11-06
+2026-08-03 18:39:36,628 - INFO - Prediction: Refuted
+2026-08-03 18:39:36,628 - INFO - ✓ Correct prediction
+2026-08-03 18:39:39,630 - INFO - ================================================================================
+2026-08-03 18:39:39,631 - INFO - Processing claim #175 (ID: crp_216)
+2026-08-03 18:39:39,631 - INFO - Claim: 'Truck with ballots is from 2024, proof of election fraud.'...
+2026-08-03 18:39:39,631 - INFO - Date: 2024-11-05
+2026-08-03 18:39:41,997 - INFO - Prediction: Refuted
+2026-08-03 18:39:41,997 - INFO - ✓ Correct prediction
+2026-08-03 18:39:45,002 - INFO - ================================================================================
+2026-08-03 18:39:45,003 - INFO - Processing claim #176 (ID: crp_217)
+2026-08-03 18:39:45,003 - INFO - Claim: 'Trump's name on second page of CA ballot is evidence of 'election fraud''...
+2026-08-03 18:39:45,003 - INFO - Date: 2024-10-31
+2026-08-03 18:39:47,480 - INFO - Prediction: Refuted
+2026-08-03 18:39:47,480 - INFO - ✓ Correct prediction
+2026-08-03 18:39:50,483 - INFO - ================================================================================
+2026-08-03 18:39:50,483 - INFO - Processing claim #177 (ID: crp_218)
+2026-08-03 18:39:50,483 - INFO - Claim: 'A misspelling of Donald Trump's name on a ballot viewing screen shows "election fraud" in Virginia.'...
+2026-08-03 18:39:50,483 - INFO - Date: 2024-10-29
+2026-08-03 18:39:52,936 - INFO - Prediction: Refuted
+2026-08-03 18:39:52,937 - INFO - ✓ Correct prediction
+2026-08-03 18:39:55,939 - INFO - ================================================================================
+2026-08-03 18:39:55,939 - INFO - Processing claim #178 (ID: crp_219)
+2026-08-03 18:39:55,940 - INFO - Claim: 'Michigan has “more registered voters than eligible citizens. This creates a huge risk of election fraud.”'...
+2026-08-03 18:39:55,940 - INFO - Date: 2024-10-19
+2026-08-03 18:39:57,805 - INFO - Prediction: Refuted
+2026-08-03 18:39:57,806 - INFO - ✓ Correct prediction
+2026-08-03 18:40:00,811 - INFO - ================================================================================
+2026-08-03 18:40:00,812 - INFO - Processing claim #179 (ID: crp_220)
+2026-08-03 18:40:00,812 - INFO - Claim: 'Fraudulently discarded Republican ballots in US election'...
+2026-08-03 18:40:00,812 - INFO - Date: 2024-11-06
+2026-08-03 18:40:04,718 - INFO - Prediction: Refuted
+2026-08-03 18:40:04,719 - INFO - ✓ Correct prediction
+2026-08-03 18:40:07,763 - INFO - ================================================================================
+2026-08-03 18:40:07,764 - INFO - Processing claim #180 (ID: crp_221)
+2026-08-03 18:40:07,769 - INFO - Claim: 'CNN broadcasting poll results before Election Day 2024.'...
+2026-08-03 18:40:07,770 - INFO - Date: 2024-11-02
+2026-08-03 18:40:10,657 - INFO - Prediction: Supported
+2026-08-03 18:40:10,657 - INFO - ✗ Incorrect (True: Refuted, Pred: Supported)
+2026-08-03 18:40:13,659 - INFO - ================================================================================
+2026-08-03 18:40:13,660 - INFO - Processing claim #181 (ID: crp_222)
+2026-08-03 18:40:13,661 - INFO - Claim: 'A Russian textbook claiming former U.S. President Donald Trump lost the 2020 presidential election due to voter fraud.'...
+2026-08-03 18:40:13,661 - INFO - Date: 2024-08-12
+2026-08-03 18:40:16,234 - INFO - Prediction: Refuted
+2026-08-03 18:40:16,236 - INFO - ✗ Incorrect (True: Supported, Pred: Refuted)
+2026-08-03 18:40:19,239 - INFO - ================================================================================
+2026-08-03 18:40:19,240 - INFO - Processing claim #182 (ID: crp_223)
+2026-08-03 18:40:19,240 - INFO - Claim: 'Fake fingers used for voter fraud in Indian election 2024'...
+2026-08-03 18:40:19,240 - INFO - Date: 2024-05-01
+2026-08-03 18:40:21,709 - INFO - Prediction: Refuted
+2026-08-03 18:40:21,710 - INFO - ✓ Correct prediction
+2026-08-03 18:40:24,714 - INFO - ================================================================================
+2026-08-03 18:40:24,715 - INFO - Processing claim #183 (ID: crp_224)
+2026-08-03 18:40:24,716 - INFO - Claim: 'Voting fraud where the polling agent is seen casting votes on behalf of three women.'...
+2026-08-03 18:40:24,716 - INFO - Date: 2024-05-27
+2026-08-03 18:40:27,150 - INFO - Prediction: Refuted
+2026-08-03 18:40:27,150 - INFO - ✗ Incorrect (True: Not Enough Information, Pred: Refuted)
+2026-08-03 18:40:30,152 - INFO - ================================================================================
+2026-08-03 18:40:30,152 - INFO - Processing claim #184 (ID: crp_228)
+2026-08-03 18:40:30,153 - INFO - Claim: 'Study Finds 1.7 Million Vaccinated Kids Now Have ‘Severe Heart Defects’'...
+2026-08-03 18:40:30,153 - INFO - Date: 2024-11-19
+2026-08-03 18:40:32,108 - INFO - Prediction: Refuted
+2026-08-03 18:40:32,109 - INFO - ✓ Correct prediction
+2026-08-03 18:40:35,115 - INFO - ================================================================================
+2026-08-03 18:40:35,115 - INFO - Processing claim #185 (ID: crp_230)
+2026-08-03 18:40:35,115 - INFO - Claim: 'Spain floods made worse by weather control, removed dams'...
+2026-08-03 18:40:35,116 - INFO - Date: 2024-11-14
+2026-08-03 18:40:37,417 - INFO - Prediction: Refuted
+2026-08-03 18:40:37,417 - INFO - ✓ Correct prediction
+2026-08-03 18:40:40,422 - INFO - ================================================================================
+2026-08-03 18:40:40,423 - INFO - Processing claim #186 (ID: crp_231)
+2026-08-03 18:40:40,423 - INFO - Claim: 'Chemicals being sprayed in Florida skies'...
+2026-08-03 18:40:40,423 - INFO - Date: 2024-11-30
+2026-08-03 18:40:42,867 - INFO - Prediction: Refuted
+2026-08-03 18:40:42,868 - INFO - ✓ Correct prediction
+2026-08-03 18:40:45,872 - INFO - ================================================================================
+2026-08-03 18:40:45,873 - INFO - Processing claim #187 (ID: crp_232)
+2026-08-03 18:40:45,873 - INFO - Claim: 'A 360-degree image on Google Maps shows weather modification apparatus.'...
+2026-08-03 18:40:45,873 - INFO - Date: 2024-11-07
+2026-08-03 18:40:48,638 - INFO - Prediction: Refuted
+2026-08-03 18:40:48,638 - INFO - ✗ Incorrect (True: Misleading, Pred: Refuted)
+2026-08-03 18:40:51,647 - INFO - ================================================================================
+2026-08-03 18:40:51,648 - INFO - Processing claim #188 (ID: crp_233)
+2026-08-03 18:40:51,659 - INFO - Claim: 'Two white dome structures prove weather control techniques.'...
+2026-08-03 18:40:51,663 - INFO - Date: 2024-10-15
+2026-08-03 18:40:54,404 - INFO - Prediction: Refuted
+2026-08-03 18:40:54,404 - INFO - ✓ Correct prediction
+2026-08-03 18:40:57,414 - INFO - ================================================================================
+2026-08-03 18:40:57,415 - INFO - Processing claim #189 (ID: crp_234)
+2026-08-03 18:40:57,416 - INFO - Claim: 'Weather control systems pushing Helene up the east coast with Nexrad, Doppler and HAARP'...
+2026-08-03 18:40:57,416 - INFO - Date: 2024-10-01
+2026-08-03 18:41:00,156 - INFO - Prediction: Refuted
+2026-08-03 18:41:00,156 - INFO - ✓ Correct prediction
+2026-08-03 18:41:03,167 - INFO - ================================================================================
+2026-08-03 18:41:03,168 - INFO - Processing claim #190 (ID: crp_237)
+2026-08-03 18:41:03,168 - INFO - Claim: “Oprah is a sex trafficker. She’s been caught and now has to be escorted around by U.S. marshals.”...
+2026-08-03 18:41:03,168 - INFO - Date: 2024-09-20
+2026-08-03 18:41:06,486 - INFO - Prediction: Refuted
+2026-08-03 18:41:06,487 - INFO - ✓ Correct prediction
+2026-08-03 18:41:09,491 - INFO - ================================================================================
+2026-08-03 18:41:09,492 - INFO - Processing claim #191 (ID: crp_238)
+2026-08-03 18:41:09,493 - INFO - Claim: 'Two victims of the Jeju Air crash in an embrace'...
+2026-08-03 18:41:09,493 - INFO - Date: 2025-01-06
+2026-08-03 18:41:11,852 - INFO - Prediction: Refuted
+2026-08-03 18:41:11,852 - INFO - ✓ Correct prediction
+2026-08-03 18:41:14,854 - INFO - ================================================================================
+2026-08-03 18:41:14,854 - INFO - Processing claim #192 (ID: crp_239)
+2026-08-03 18:41:14,854 - INFO - Claim: 'Ancient Greek mosaics of the 2nd century BC discovered in Zeugma, Turkey.'...
+2026-08-03 18:41:14,854 - INFO - Date: 2024-12-10
+2026-08-03 18:41:17,879 - INFO - Prediction: Supported
+2026-08-03 18:41:17,880 - INFO - ✗ Incorrect (True: Refuted, Pred: Supported)
+2026-08-03 18:41:20,886 - INFO - ================================================================================
+2026-08-03 18:41:20,886 - INFO - Processing claim #193 (ID: crp_240)
+2026-08-03 18:41:20,886 - INFO - Claim: 'US Moon landing is staged'...
+2026-08-03 18:41:20,886 - INFO - Date: 2024-06-26
+2026-08-03 18:41:23,819 - INFO - Prediction: Refuted
+2026-08-03 18:41:23,820 - INFO - ✓ Correct prediction
+2026-08-03 18:41:26,823 - INFO - ================================================================================
+2026-08-03 18:41:26,824 - INFO - Processing claim #194 (ID: crp_242)
+2026-08-03 18:41:26,824 - INFO - Claim: 'Image shows NASA astronauts posing for picture on the moon without helmets.'...
+2026-08-03 18:41:26,825 - INFO - Date: 2024-05-25
+2026-08-03 18:41:29,153 - INFO - Prediction: Refuted
+2026-08-03 18:41:29,153 - INFO - ✓ Correct prediction
+2026-08-03 18:41:32,193 - INFO - ================================================================================
+2026-08-03 18:41:32,193 - INFO - Processing claim #195 (ID: crp_244)
+2026-08-03 18:41:32,193 - INFO - Claim: 'US Moon landing was faked.'...
+2026-08-03 18:41:32,193 - INFO - Date: 2024-05-07
+2026-08-03 18:41:34,633 - INFO - Prediction: Refuted
+2026-08-03 18:41:34,633 - INFO - ✓ Correct prediction
+2026-08-03 18:41:37,642 - INFO - ================================================================================
+2026-08-03 18:41:37,643 - INFO - Processing claim #196 (ID: crp_245)
+2026-08-03 18:41:37,643 - INFO - Claim: 'Pilot in Siberia accidentally switches on stratospheric aerosol injection during takeoff creating ground Chemtrail'...
+2026-08-03 18:41:37,643 - INFO - Date: 2024-08-02
+2026-08-03 18:41:40,326 - INFO - Prediction: Refuted
+2026-08-03 18:41:40,328 - INFO - ✓ Correct prediction
+2026-08-03 18:41:43,331 - INFO - ================================================================================
+2026-08-03 18:41:43,331 - INFO - Processing claim #197 (ID: crp_246)
+2026-08-03 18:41:43,331 - INFO - Claim: 'Tubular clouds seen over NSW were dangerous ‘chemtrails’ released from an aircraft.'...
+2026-08-03 18:41:43,331 - INFO - Date: 2024-06-04
+2026-08-03 18:41:45,863 - INFO - Prediction: Refuted
+2026-08-03 18:41:45,864 - INFO - ✓ Correct prediction
+2026-08-03 18:41:48,865 - INFO - ================================================================================
+2026-08-03 18:41:48,866 - INFO - Processing claim #198 (ID: crp_253)
+2026-08-03 18:41:48,866 - INFO - Claim: 'Trump said "A vaccination that is like 38 different vaccines, and it looks like it’s meant for a horse, not a, you know, 10-pound or 20-pound baby. ....
+2026-08-03 18:41:48,866 - INFO - Date: 2024-07-16
+2026-08-03 18:41:51,736 - INFO - Prediction: Refuted
+2026-08-03 18:41:51,737 - INFO - ✗ Incorrect (True: Supported, Pred: Refuted)
+2026-08-03 18:41:54,740 - INFO - ================================================================================
+2026-08-03 18:41:54,741 - INFO - Processing claim #199 (ID: crp_254)
+2026-08-03 18:41:54,741 - INFO - Claim: 'Clip shows 2024 anti-government protest in northern Ethiopia'...
+2026-08-03 18:41:54,742 - INFO - Date: 2024-10-16
+2026-08-03 18:41:57,452 - INFO - Prediction: Misleading
+2026-08-03 18:41:57,453 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-08-03 18:42:00,476 - INFO - ================================================================================
+2026-08-03 18:42:00,476 - INFO - Processing claim #200 (ID: crp_256)
+2026-08-03 18:42:00,477 - INFO - Claim: 'Former Italian Prime Minister Benito Mussolini after his attempted assassination in 1926.'...
+2026-08-03 18:42:00,477 - INFO - Date: 2024-08-29
+2026-08-03 18:42:03,625 - INFO - Prediction: Supported
+2026-08-03 18:42:03,625 - INFO - ✓ Correct prediction
+2026-08-03 18:42:06,628 - INFO - ================================================================================
+2026-08-03 18:42:06,628 - INFO - Processing claim #201 (ID: crp_257)
+2026-08-03 18:42:06,628 - INFO - Claim: 'Pileup of cars on a road after flash floods hit Valencia, Spain, in October 2024.'...
+2026-08-03 18:42:06,628 - INFO - Date: 2024-10-31
+2026-08-03 18:42:09,059 - INFO - Prediction: Refuted
+2026-08-03 18:42:09,059 - INFO - ✗ Incorrect (True: Supported, Pred: Refuted)
+2026-08-03 18:42:12,063 - INFO - ================================================================================
+2026-08-03 18:42:12,064 - INFO - Processing claim #202 (ID: crp_258)
+2026-08-03 18:42:12,064 - INFO - Claim: 'Italian dictator Benito Mussolini participating in a wheat harvest.'...
+2026-08-03 18:42:12,064 - INFO - Date: 2024-10-26
+2026-08-03 18:42:15,415 - INFO - Prediction: Supported
+2026-08-03 18:42:15,416 - INFO - ✓ Correct prediction
+2026-08-03 18:42:18,419 - INFO - ================================================================================
+2026-08-03 18:42:18,420 - INFO - Processing claim #203 (ID: crp_259)
+2026-08-03 18:42:18,421 - INFO - Claim: 'Italian police cooking pasta for an 87-year-old woman after she called them saying she was hungry and felt alone.'...
+2026-08-03 18:42:18,421 - INFO - Date: 2024-07-08
+2026-08-03 18:42:21,136 - INFO - Prediction: Supported
+2026-08-03 18:42:21,136 - INFO - ✓ Correct prediction
+2026-08-03 18:42:24,138 - INFO - ================================================================================
+2026-08-03 18:42:24,138 - INFO - Processing claim #204 (ID: crp_260)
+2026-08-03 18:42:24,138 - INFO - Claim: 'Louis Armstrong drawing on a fan’s forehead.'...
+2026-08-03 18:42:24,138 - INFO - Date: 2024-09-16
+2026-08-03 18:42:26,782 - INFO - Prediction: Refuted
+2026-08-03 18:42:26,782 - INFO - ✗ Incorrect (True: Supported, Pred: Refuted)
+2026-08-03 18:42:29,789 - INFO - ================================================================================
+2026-08-03 18:42:29,789 - INFO - Processing claim #205 (ID: crp_261)
+2026-08-03 18:42:29,789 - INFO - Claim: 'Migrant in France urinating on a girl while she sat on a bench.'...
+2026-08-03 18:42:29,790 - INFO - Date: 2024-05-28
+2026-08-03 18:42:31,732 - INFO - Prediction: Refuted
+2026-08-03 18:42:31,733 - INFO - ✗ Incorrect (True: Not Enough Information, Pred: Refuted)
+2026-08-03 18:42:34,734 - INFO - ================================================================================
+2026-08-03 18:42:34,734 - INFO - Processing claim #206 (ID: crp_268)
+2026-08-03 18:42:34,735 - INFO - Claim: 'In 2023, two people used an excavator to clear a path through the Great Wall of China.'...
+2026-08-03 18:42:34,735 - INFO - Date: 2024-09-01
+2026-08-03 18:42:37,452 - INFO - Prediction: Supported
+2026-08-03 18:42:37,452 - INFO - ✓ Correct prediction
+2026-08-03 18:42:40,465 - INFO - ================================================================================
+2026-08-03 18:42:40,466 - INFO - Processing claim #207 (ID: crp_269)
+2026-08-03 18:42:40,466 - INFO - Claim: 'Circular "experimental forestry" project in Japan.'...
+2026-08-03 18:42:40,467 - INFO - Date: 2024-10-04
+2026-08-03 18:42:42,956 - INFO - Prediction: Supported
+2026-08-03 18:42:42,956 - INFO - ✓ Correct prediction
+2026-08-03 18:42:45,960 - INFO - ================================================================================
+2026-08-03 18:42:45,960 - INFO - Processing claim #208 (ID: crp_271)
+2026-08-03 18:42:45,960 - INFO - Claim: 'An estimated 280-million-year-old fossil found in Australia.'...
+2026-08-03 18:42:45,961 - INFO - Date: 2024-06-12
+2026-08-03 18:42:47,750 - INFO - Prediction: Supported
+2026-08-03 18:42:47,750 - INFO - ✓ Correct prediction
+2026-08-03 18:42:50,753 - INFO - ================================================================================
+2026-08-03 18:42:50,754 - INFO - Processing claim #209 (ID: crp_273)
+2026-08-03 18:42:50,754 - INFO - Claim: 'A lake in Finland is shaped like Finland itself.'...
+2026-08-03 18:42:50,755 - INFO - Date: 2024-06-21
+2026-08-03 18:42:53,495 - INFO - Prediction: Supported
+2026-08-03 18:42:53,495 - INFO - ✓ Correct prediction
+2026-08-03 18:42:56,518 - INFO - ================================================================================
+2026-08-03 18:42:56,518 - INFO - Processing claim #210 (ID: crp_275)
+2026-08-03 18:42:56,519 - INFO - Claim: 'The gravesites of a Catholic wife and Protestant husband, situated in separate cemeteries because the couple was not permitted to be buried together....
+2026-08-03 18:42:56,519 - INFO - Date: 2024-05-27
+2026-08-03 18:42:58,268 - INFO - Prediction: Supported
+2026-08-03 18:42:58,268 - INFO - ✓ Correct prediction
+2026-08-03 18:43:01,270 - INFO - ================================================================================
+2026-08-03 18:43:01,270 - INFO - Processing claim #211 (ID: crp_276)
+2026-08-03 18:43:01,270 - INFO - Claim: 'A "suicide pod" designed for assisted suicide sitting in a Swiss forest, where it was used by a U.S. woman to take her own life.'...
+2026-08-03 18:43:01,270 - INFO - Date: 2024-09-25
+2026-08-03 18:43:04,849 - INFO - Prediction: Supported
+2026-08-03 18:43:04,849 - INFO - ✓ Correct prediction
+2026-08-03 18:43:07,853 - INFO - ================================================================================
+2026-08-03 18:43:07,854 - INFO - Processing claim #212 (ID: crp_277)
+2026-08-03 18:43:07,854 - INFO - Claim: 'Slovakian Prime Minister Robert Fico being dragged into a car after being shot.'...
+2026-08-03 18:43:07,854 - INFO - Date: 2024-05-16
+2026-08-03 18:43:10,652 - INFO - Prediction: Supported
+2026-08-03 18:43:10,653 - INFO - ✓ Correct prediction
+2026-08-03 18:43:13,656 - INFO - ================================================================================
+2026-08-03 18:43:13,658 - INFO - Processing claim #213 (ID: crp_279)
+2026-08-03 18:43:13,658 - INFO - Claim: 'Turkish flag doodled by Drone over Raisi helicopter crash site'...
+2026-08-03 18:43:13,659 - INFO - Date: 2024-05-21
+2026-08-03 18:43:15,975 - INFO - Prediction: Refuted
+2026-08-03 18:43:15,975 - INFO - ✗ Incorrect (True: Supported, Pred: Refuted)
+2026-08-03 18:43:18,977 - INFO - ================================================================================
+2026-08-03 18:43:18,977 - INFO - Processing claim #214 (ID: crp_280)
+2026-08-03 18:43:18,977 - INFO - Claim: 'Vandalism of Hindu Goddess Kali Idol in Bangladesh'...
+2026-08-03 18:43:18,977 - INFO - Date: 2024-12-02
+2026-08-03 18:43:21,657 - INFO - Prediction: Supported
+2026-08-03 18:43:21,657 - INFO - ✗ Incorrect (True: Refuted, Pred: Supported)
+2026-08-03 18:43:24,663 - INFO - ================================================================================
+2026-08-03 18:43:24,664 - INFO - Processing claim #215 (ID: crp_282)
+2026-08-03 18:43:24,665 - INFO - Claim: 'Jazz legend Louis Armstrong drawing a trumpet on a fan’s head in France.'...
+2026-08-03 18:43:24,665 - INFO - Date: 2024-09-16
+2026-08-03 18:43:27,295 - INFO - Prediction: Supported
+2026-08-03 18:43:27,296 - INFO - ✓ Correct prediction
+2026-08-03 18:43:30,299 - INFO - ================================================================================
+2026-08-03 18:43:30,299 - INFO - Processing claim #216 (ID: crp_283)
+2026-08-03 18:43:30,299 - INFO - Claim: 'The world's shortest international bridge connects a homeowner's property that spans both Canada and the U.S.'...
+2026-08-03 18:43:30,299 - INFO - Date: 2024-05-28
+2026-08-03 18:43:33,640 - INFO - Prediction: Supported
+2026-08-03 18:43:33,641 - INFO - ✗ Incorrect (True: Refuted, Pred: Supported)
+2026-08-03 18:43:36,644 - INFO - ================================================================================
+2026-08-03 18:43:36,645 - INFO - Processing claim #217 (ID: crp_284)
+2026-08-03 18:43:36,645 - INFO - Claim: 'ISIS transporting oil to Turkey.'...
+2026-08-03 18:43:36,645 - INFO - Date: 2025-01-05
+2026-08-03 18:43:38,370 - INFO - Prediction: Refuted
+2026-08-03 18:43:38,370 - INFO - ✗ Incorrect (True: Misleading, Pred: Refuted)
+2026-08-03 18:43:41,375 - INFO - ================================================================================
+2026-08-03 18:43:41,376 - INFO - Processing claim #218 (ID: crp_285)
+2026-08-03 18:43:41,376 - INFO - Claim: 'Dire state of an inmate at infamous Saydnaya prison in Syria.'...
+2026-08-03 18:43:41,377 - INFO - Date: 2024-12-10
+2026-08-03 18:43:43,324 - INFO - Prediction: Supported
+2026-08-03 18:43:43,324 - INFO - ✗ Incorrect (True: Refuted, Pred: Supported)
+2026-08-03 18:43:46,326 - INFO - ================================================================================
+2026-08-03 18:43:46,326 - INFO - Processing claim #219 (ID: crp_286)
+2026-08-03 18:43:46,326 - INFO - Claim: 'A woman burns a French flag during a pro-Palestinian rally in France.'...
+2026-08-03 18:43:46,326 - INFO - Date: 2024-06-19
+2026-08-03 18:43:49,212 - INFO - Prediction: Supported
+2026-08-03 18:43:49,213 - INFO - ✗ Incorrect (True: Refuted, Pred: Supported)
+2026-08-03 18:43:52,223 - INFO - ================================================================================
+2026-08-03 18:43:52,224 - INFO - Processing claim #220 (ID: crp_294)
+2026-08-03 18:43:52,224 - INFO - Claim: 'Republican vice presidential nominee and Ohio Sen. JD Vance once said parents should have a bigger say in U.S. democracy than non-parents.'...
+2026-08-03 18:43:52,224 - INFO - Date: 2024-07-19
+2026-08-03 18:43:54,689 - INFO - Prediction: Supported
+2026-08-03 18:43:54,689 - INFO - ✓ Correct prediction
+2026-08-03 18:43:57,695 - INFO - ================================================================================
+2026-08-03 18:43:57,705 - INFO - Processing claim #221 (ID: crp_295)
+2026-08-03 18:43:57,708 - INFO - Claim: 'British statesman Winston Churchill once said, “The best argument against democracy is a five-minute conversation with the average voter.”'...
+2026-08-03 18:43:57,708 - INFO - Date: 2024-12-03
+2026-08-03 18:44:00,235 - INFO - Prediction: Supported
+2026-08-03 18:44:00,237 - INFO - ✗ Incorrect (True: Refuted, Pred: Supported)
+2026-08-03 18:44:03,244 - INFO - ================================================================================
+2026-08-03 18:44:03,245 - INFO - Processing claim #222 (ID: crp_296)
+2026-08-03 18:44:03,245 - INFO - Claim: 'U.S. President-elect Donald Trump said that if Israeli hostages held by Hamas "are not back by the time I get into office, all hell will break out in...
+2026-08-03 18:44:03,246 - INFO - Date: 2025-01-15
+2026-08-03 18:44:16,938 - INFO - Prediction: Refuted
+2026-08-03 18:44:16,938 - INFO - ✗ Incorrect (True: Supported, Pred: Refuted)
+2026-08-03 18:44:19,941 - INFO - ================================================================================
+2026-08-03 18:44:19,941 - INFO - Processing claim #223 (ID: crp_297)
+2026-08-03 18:44:19,942 - INFO - Claim: 'Kamala Harris Failed To Top Joe Biden's 2020 Election Results In Any County'...
+2026-08-03 18:44:19,942 - INFO - Date: 2024-11-06
+2026-08-03 18:44:22,128 - INFO - Prediction: Refuted
+2026-08-03 18:44:22,128 - INFO - ✓ Correct prediction
+2026-08-03 18:44:25,137 - INFO - ================================================================================
+2026-08-03 18:44:25,137 - INFO - Processing claim #224 (ID: crp_298)
+2026-08-03 18:44:25,138 - INFO - Claim: 'Trump Deported More Migrants Than Biden'...
+2026-08-03 18:44:25,138 - INFO - Date: 2024-12-10
+2026-08-03 18:44:27,621 - INFO - Prediction: Supported
+2026-08-03 18:44:27,622 - INFO - ✗ Incorrect (True: Refuted, Pred: Supported)
+2026-08-03 18:44:30,625 - INFO - ================================================================================
+2026-08-03 18:44:30,625 - INFO - Processing claim #225 (ID: crp_299)
+2026-08-03 18:44:30,625 - INFO - Claim: 'Hunter Biden was "singled out" and "unfairly" prosecuted "only because he is my son."'...
+2026-08-03 18:44:30,625 - INFO - Date: 2024-12-01
+2026-08-03 18:44:32,993 - INFO - Prediction: Misleading
+2026-08-03 18:44:32,993 - INFO - ✗ Incorrect (True: Not Enough Information, Pred: Misleading)
+2026-08-03 18:44:35,996 - INFO - ================================================================================
+2026-08-03 18:44:35,997 - INFO - Processing complete: 226 predictions (135 correct, 91 incorrect), 0 failed
+2026-08-03 18:44:36,021 - INFO - Metrics: Accuracy=0.5973, Macro-F1=0.7246
+2026-08-03 18:44:36,054 - INFO - Predictions saved to results\deepseek\deepseek-chat\crp_bias_all\strong_baseline_short\unseen\unseen_predictions.csv
+2026-08-03 18:44:36,086 - INFO - Predictions JSON saved to results\deepseek\deepseek-chat\crp_bias_all\strong_baseline_short\unseen\unseen_predictions.json
+2026-08-03 18:44:36,089 - INFO - Metrics saved to results\deepseek\deepseek-chat\crp_bias_all\strong_baseline_short\unseen\unseen_metrics.json

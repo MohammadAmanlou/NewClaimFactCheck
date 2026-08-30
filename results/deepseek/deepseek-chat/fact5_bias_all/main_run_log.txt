@@ -1,0 +1,8 @@
+2026-08-03 16:58:00,271 - INFO - ================================================================================
+2026-08-03 16:58:00,271 - INFO - STARTING FACT-CHECK INFERENCE PIPELINE
+2026-08-03 16:58:00,271 - INFO - Dataset: fact5_bias_all, Model: deepseek/deepseek-chat
+2026-08-03 16:58:00,272 - INFO - Prompt methods: ['naive', 'strong_baseline_short', 'cognitive_bias_aware']
+2026-08-03 16:58:00,799 - INFO - Loaded 150 claims (is_test=False). API key configured: True
+2026-08-03 16:58:00,800 - INFO - Processing LABELED data with temporal split analysis
+2026-08-03 17:41:20,273 - INFO - ================================================================================
+2026-08-03 17:41:20,280 - INFO - PIPELINE COMPLETE

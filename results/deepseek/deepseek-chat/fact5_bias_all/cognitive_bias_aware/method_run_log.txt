@@ -1,0 +1,31 @@
+2026-08-03 17:27:12,977 - INFO - Prompt method: cognitive_bias_aware
+2026-08-03 17:32:37,022 - INFO - Metrics: Accuracy=0.4746, Macro-F1=0.5993
+2026-08-03 17:41:19,812 - INFO - Metrics: Accuracy=0.4615, Macro-F1=0.6131
+2026-08-03 17:41:19,812 - INFO - ================================================================================
+2026-08-03 17:41:19,812 - INFO - Comparing seen vs unseen performance...
+2026-08-03 17:41:19,817 - INFO - Metrics: Accuracy=0.4746, Macro-F1=0.5993
+2026-08-03 17:41:19,828 - INFO - Metrics: Accuracy=0.4615, Macro-F1=0.6131
+2026-08-03 17:41:19,839 - INFO - Seen accuracy: 0.4746
+2026-08-03 17:41:19,840 - INFO - Unseen accuracy: 0.4615
+2026-08-03 17:41:19,840 - INFO - Difference: -0.0131
+2026-08-03 17:41:19,840 - INFO - T-test p-value: 0.8768 (not significant)
+2026-08-03 17:41:19,840 - INFO - Chi-square p-value: 1.0000 (not significant)
+2026-08-03 17:41:19,846 - INFO - Summary report saved to results\deepseek\deepseek-chat\fact5_bias_all\cognitive_bias_aware\summary.json
+2026-08-03 17:41:19,982 - INFO - Metrics: Accuracy=0.4746, Macro-F1=0.5993
+2026-08-03 17:41:19,992 - INFO - Metrics: Accuracy=0.4407, Macro-F1=0.5752
+2026-08-03 17:41:19,993 - INFO - ================================================================================
+2026-08-03 17:41:19,995 - INFO - Comparing seen vs unseen performance...
+2026-08-03 17:41:19,998 - INFO - Metrics: Accuracy=0.4746, Macro-F1=0.5993
+2026-08-03 17:41:20,014 - INFO - Metrics: Accuracy=0.4407, Macro-F1=0.5752
+2026-08-03 17:41:20,028 - INFO - Seen accuracy: 0.4746
+2026-08-03 17:41:20,028 - INFO - Unseen accuracy: 0.4407
+2026-08-03 17:41:20,028 - INFO - Difference: -0.0339
+2026-08-03 17:41:20,028 - INFO - T-test p-value: 0.7146 (not significant)
+2026-08-03 17:41:20,029 - INFO - Chi-square p-value: 0.8534 (not significant)
+2026-08-03 17:41:20,048 - INFO - Predictions saved to results\deepseek\deepseek-chat\fact5_bias_all\cognitive_bias_aware\posthoc_balanced\seen\seen_posthoc_balanced_predictions.csv
+2026-08-03 17:41:20,063 - INFO - Predictions JSON saved to results\deepseek\deepseek-chat\fact5_bias_all\cognitive_bias_aware\posthoc_balanced\seen\seen_posthoc_balanced_predictions.json
+2026-08-03 17:41:20,066 - INFO - Metrics saved to results\deepseek\deepseek-chat\fact5_bias_all\cognitive_bias_aware\posthoc_balanced\seen\seen_posthoc_balanced_metrics.json
+2026-08-03 17:41:20,096 - INFO - Predictions saved to results\deepseek\deepseek-chat\fact5_bias_all\cognitive_bias_aware\posthoc_balanced\unseen\unseen_posthoc_balanced_predictions.csv
+2026-08-03 17:41:20,105 - INFO - Predictions JSON saved to results\deepseek\deepseek-chat\fact5_bias_all\cognitive_bias_aware\posthoc_balanced\unseen\unseen_posthoc_balanced_predictions.json
+2026-08-03 17:41:20,109 - INFO - Metrics saved to results\deepseek\deepseek-chat\fact5_bias_all\cognitive_bias_aware\posthoc_balanced\unseen\unseen_posthoc_balanced_metrics.json
+2026-08-03 17:41:20,115 - INFO - Summary report saved to results\deepseek\deepseek-chat\fact5_bias_all\cognitive_bias_aware\posthoc_balanced\summary.json

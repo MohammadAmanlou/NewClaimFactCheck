@@ -1,0 +1,1597 @@
+2026-08-03 19:32:12,427 - INFO - Processing 265 claims...
+2026-08-03 19:32:12,432 - INFO - ================================================================================
+2026-08-03 19:32:12,432 - INFO - Processing claim #0 (ID: tsver_test_0)
+2026-08-03 19:32:12,432 - INFO - Claim: Nigeria’s doctor-to-population ratio falls far short of the WHO recommended doctor-to-population ratio of 1:600....
+2026-08-03 19:32:12,432 - INFO - Date: 2022-04-01
+2026-08-03 19:32:21,480 - INFO - Prediction: Supported
+2026-08-03 19:32:21,480 - INFO - ✓ Correct prediction
+2026-08-03 19:32:24,484 - INFO - ================================================================================
+2026-08-03 19:32:24,485 - INFO - Processing claim #1 (ID: tsver_test_1)
+2026-08-03 19:32:24,485 - INFO - Claim: Only about 20% of Africans have access to electricity....
+2026-08-03 19:32:24,485 - INFO - Date: 2017-05-03
+2026-08-03 19:32:26,961 - INFO - Prediction: Misleading
+2026-08-03 19:32:26,962 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-08-03 19:32:29,964 - INFO - ================================================================================
+2026-08-03 19:32:29,964 - INFO - Processing claim #2 (ID: tsver_test_3)
+2026-08-03 19:32:29,964 - INFO - Claim: Nigeria has a doctor-to-population ratio of about 1:4,000-5,000....
+2026-08-03 19:32:29,964 - INFO - Date: 2022-04-01
+2026-08-03 19:32:34,852 - INFO - Prediction: Misleading
+2026-08-03 19:32:34,852 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-08-03 19:32:37,854 - INFO - ================================================================================
+2026-08-03 19:32:37,854 - INFO - Processing claim #3 (ID: tsver_test_4)
+2026-08-03 19:32:37,855 - INFO - Claim: In 1994, only 36% of the population in our country had access to electricity. Today, eight out of 10 South Africans have electricity in their homes....
+2026-08-03 19:32:37,855 - INFO - Date: 2019-03-21
+2026-08-03 19:32:42,136 - INFO - Prediction: Misleading
+2026-08-03 19:32:42,136 - INFO - ✗ Incorrect (True: Not Enough Information, Pred: Misleading)
+2026-08-03 19:32:45,138 - INFO - ================================================================================
+2026-08-03 19:32:45,139 - INFO - Processing claim #4 (ID: tsver_test_5)
+2026-08-03 19:32:45,139 - INFO - Claim: The ratio of one police officer for every 242 citizens in a population [in South Africa] is alarmingly low....
+2026-08-03 19:32:45,139 - INFO - Date: 2024-02-01
+2026-08-03 19:32:47,628 - INFO - Prediction: Misleading
+2026-08-03 19:32:47,629 - INFO - ✗ Incorrect (True: Not Enough Information, Pred: Misleading)
+2026-08-03 19:32:50,632 - INFO - ================================================================================
+2026-08-03 19:32:50,632 - INFO - Processing claim #5 (ID: tsver_test_6)
+2026-08-03 19:32:50,633 - INFO - Claim: [India's] annual milk production enhanced by 12%. It was 146.3MT between 2011-14 and it was 163.7 MT between 2014-17....
+2026-08-03 19:32:50,633 - INFO - Date: 2018-05-26
+2026-08-03 19:32:52,851 - INFO - Prediction: Supported
+2026-08-03 19:32:52,851 - INFO - ✗ Incorrect (True: Refuted, Pred: Supported)
+2026-08-03 19:32:55,854 - INFO - ================================================================================
+2026-08-03 19:32:55,854 - INFO - Processing claim #6 (ID: tsver_test_7)
+2026-08-03 19:32:55,854 - INFO - Claim: Wind and solar power contribute less than two per cent of the National Electricity Market's (NEM) total energy [in Australia]....
+2026-08-03 19:32:55,854 - INFO - Date: 2022-06-19
+2026-08-03 19:32:58,282 - INFO - Prediction: Refuted
+2026-08-03 19:32:58,282 - INFO - ✓ Correct prediction
+2026-08-03 19:33:01,285 - INFO - ================================================================================
+2026-08-03 19:33:01,285 - INFO - Processing claim #7 (ID: tsver_test_8)
+2026-08-03 19:33:01,285 - INFO - Claim: [India's] capture fish production increased from 186.18 lakh tonnes during 2012-14 to 210.2 lakh tonnes during 2014-16....
+2026-08-03 19:33:01,285 - INFO - Date: 2018-05-26
+2026-08-03 19:33:06,782 - INFO - Prediction: Misleading
+2026-08-03 19:33:06,782 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-08-03 19:33:09,785 - INFO - ================================================================================
+2026-08-03 19:33:09,785 - INFO - Processing claim #8 (ID: tsver_test_9)
+2026-08-03 19:33:09,785 - INFO - Claim: Today, eight out of 10 South Africans have electricity in their homes....
+2026-08-03 19:33:09,785 - INFO - Date: 2019-03-21
+2026-08-03 19:33:16,591 - INFO - Prediction: Misleading
+2026-08-03 19:33:16,591 - INFO - ✗ Incorrect (True: Supported, Pred: Misleading)
+2026-08-03 19:33:19,593 - INFO - ================================================================================
+2026-08-03 19:33:19,593 - INFO - Processing claim #9 (ID: tsver_test_10)
+2026-08-03 19:33:19,593 - INFO - Claim: Zero civilian deaths were reported [in India] due to terror attacks in the country after Prime Minister Narendra Modi came into power in 2014....
+2026-08-03 19:33:19,593 - INFO - Date: 2024-01-05
+2026-08-03 19:33:25,244 - INFO - Prediction: Refuted
+2026-08-03 19:33:25,244 - INFO - ✓ Correct prediction
+2026-08-03 19:33:28,252 - INFO - ================================================================================
+2026-08-03 19:33:28,253 - INFO - Processing claim #10 (ID: tsver_test_11)
+2026-08-03 19:33:28,253 - INFO - Claim: In the United States alone we lose more than 3,000 people a day to cancer....
+2026-08-03 19:33:28,253 - INFO - Date: 2016-04-29
+2026-08-03 19:33:30,281 - INFO - Prediction: Supported
+2026-08-03 19:33:30,282 - INFO - ✗ Incorrect (True: Refuted, Pred: Supported)
+2026-08-03 19:33:33,284 - INFO - ================================================================================
+2026-08-03 19:33:33,284 - INFO - Processing claim #11 (ID: tsver_test_12)
+2026-08-03 19:33:33,284 - INFO - Claim: A quarter of the energy we use in Britain today comes from wind....
+2026-08-03 19:33:33,285 - INFO - Date: 2018-03-01
+2026-08-03 19:33:39,044 - INFO - Prediction: Misleading
+2026-08-03 19:33:39,044 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-08-03 19:33:42,047 - INFO - ================================================================================
+2026-08-03 19:33:42,048 - INFO - Processing claim #12 (ID: tsver_test_13)
+2026-08-03 19:33:42,048 - INFO - Claim: Wind and solar are less than one percent of Australian electricity sources....
+2026-08-03 19:33:42,048 - INFO - Date: 2022-06-20
+2026-08-03 19:33:43,901 - INFO - Prediction: Refuted
+2026-08-03 19:33:43,901 - INFO - ✓ Correct prediction
+2026-08-03 19:33:46,904 - INFO - ================================================================================
+2026-08-03 19:33:46,904 - INFO - Processing claim #13 (ID: tsver_test_14)
+2026-08-03 19:33:46,904 - INFO - Claim: At least 10 Nigerians die from cancer every hour....
+2026-08-03 19:33:46,904 - INFO - Date: 2018-05-10
+2026-08-03 19:33:51,755 - INFO - Prediction: Misleading
+2026-08-03 19:33:51,755 - INFO - ✗ Incorrect (True: Supported, Pred: Misleading)
+2026-08-03 19:33:54,757 - INFO - ================================================================================
+2026-08-03 19:33:54,757 - INFO - Processing claim #14 (ID: tsver_test_16)
+2026-08-03 19:33:54,757 - INFO - Claim: The UK spends 0.7% of its GNI on aid, which is more than any other G7 country....
+2026-08-03 19:33:54,757 - INFO - Date: 2018-06-15
+2026-08-03 19:33:57,721 - INFO - Prediction: Supported
+2026-08-03 19:33:57,721 - INFO - ✓ Correct prediction
+2026-08-03 19:34:00,722 - INFO - ================================================================================
+2026-08-03 19:34:00,723 - INFO - Processing claim #15 (ID: tsver_test_18)
+2026-08-03 19:34:00,723 - INFO - Claim: Wind generates about 10% of the UK's power....
+2026-08-03 19:34:00,723 - INFO - Date: 2016-01-18
+2026-08-03 19:34:04,370 - INFO - Prediction: Supported
+2026-08-03 19:34:04,371 - INFO - ✓ Correct prediction
+2026-08-03 19:34:07,372 - INFO - ================================================================================
+2026-08-03 19:34:07,372 - INFO - Processing claim #16 (ID: tsver_test_19)
+2026-08-03 19:34:07,372 - INFO - Claim: Labour's share in the GDP [of Australia] is at its lowest level; it hasn't been at this point since 1960....
+2026-08-03 19:34:07,372 - INFO - Date: 2022-07-11
+2026-08-03 19:34:09,076 - INFO - Prediction: Misleading
+2026-08-03 19:34:09,076 - INFO - ✗ Incorrect (True: Not Enough Information, Pred: Misleading)
+2026-08-03 19:34:12,079 - INFO - ================================================================================
+2026-08-03 19:34:12,079 - INFO - Processing claim #17 (ID: tsver_test_21)
+2026-08-03 19:34:12,079 - INFO - Claim: Obesity affects two in every five Kenyan adults....
+2026-08-03 19:34:12,079 - INFO - Date: 2020-07-27
+2026-08-03 19:34:14,075 - INFO - Prediction: Misleading
+2026-08-03 19:34:14,075 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-08-03 19:34:17,078 - INFO - ================================================================================
+2026-08-03 19:34:17,078 - INFO - Processing claim #18 (ID: tsver_test_22)
+2026-08-03 19:34:17,078 - INFO - Claim: South Africa is the most obese country in Africa....
+2026-08-03 19:34:17,078 - INFO - Date: 2022-03-01
+2026-08-03 19:34:21,304 - INFO - Prediction: Misleading
+2026-08-03 19:34:21,304 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-08-03 19:34:24,307 - INFO - ================================================================================
+2026-08-03 19:34:24,308 - INFO - Processing claim #19 (ID: tsver_test_23)
+2026-08-03 19:34:24,308 - INFO - Claim: More than a quarter of British adults are now obese....
+2026-08-03 19:34:24,308 - INFO - Date: 2018-04-05
+2026-08-03 19:34:25,877 - INFO - Prediction: Supported
+2026-08-03 19:34:25,878 - INFO - ✓ Correct prediction
+2026-08-03 19:34:28,886 - INFO - ================================================================================
+2026-08-03 19:34:28,886 - INFO - Processing claim #20 (ID: tsver_test_24)
+2026-08-03 19:34:28,886 - INFO - Claim: The 2019 Kenya population and housing census recorded the youth (below 35 years) to be 35,700,787, accounting for 75.1% of the total population....
+2026-08-03 19:34:28,886 - INFO - Date: 2022-06-06
+2026-08-03 19:34:31,156 - INFO - Prediction: Supported
+2026-08-03 19:34:31,156 - INFO - ✗ Incorrect (True: Refuted, Pred: Supported)
+2026-08-03 19:34:34,158 - INFO - ================================================================================
+2026-08-03 19:34:34,158 - INFO - Processing claim #21 (ID: tsver_test_25)
+2026-08-03 19:34:34,158 - INFO - Claim: The entry of the Democratic Republic of the Congo into the East African Community increases the population of the regional bloc to “over 300 million”....
+2026-08-03 19:34:34,158 - INFO - Date: 2022-03-01
+2026-08-03 19:34:36,695 - INFO - Prediction: Supported
+2026-08-03 19:34:36,696 - INFO - ✓ Correct prediction
+2026-08-03 19:34:39,699 - INFO - ================================================================================
+2026-08-03 19:34:39,700 - INFO - Processing claim #22 (ID: tsver_test_26)
+2026-08-03 19:34:39,700 - INFO - Claim: UK carbon dioxide emissions have fallen 42% since 1990....
+2026-08-03 19:34:39,700 - INFO - Date: 2020-01-29
+2026-08-03 19:34:41,700 - INFO - Prediction: Supported
+2026-08-03 19:34:41,701 - INFO - ✓ Correct prediction
+2026-08-03 19:34:44,702 - INFO - ================================================================================
+2026-08-03 19:34:44,703 - INFO - Processing claim #23 (ID: tsver_test_27)
+2026-08-03 19:34:44,703 - INFO - Claim: Best available data show sea-level rise is not accelerating....
+2026-08-03 19:34:44,703 - INFO - Date: 2017-08-05
+2026-08-03 19:34:47,045 - INFO - Prediction: Refuted
+2026-08-03 19:34:47,045 - INFO - ✓ Correct prediction
+2026-08-03 19:34:50,046 - INFO - ================================================================================
+2026-08-03 19:34:50,046 - INFO - Processing claim #24 (ID: tsver_test_28)
+2026-08-03 19:34:50,047 - INFO - Claim: We [the UK] have cut our greenhouse-gas emissions by 44% in the last 30 years while expanding our GDP by 78%....
+2026-08-03 19:34:50,047 - INFO - Date: 2021-09-22
+2026-08-03 19:34:51,908 - INFO - Prediction: Supported
+2026-08-03 19:34:51,908 - INFO - ✗ Incorrect (True: Refuted, Pred: Supported)
+2026-08-03 19:34:54,911 - INFO - ================================================================================
+2026-08-03 19:34:54,911 - INFO - Processing claim #25 (ID: tsver_test_29)
+2026-08-03 19:34:54,912 - INFO - Claim: Russia has entered into a difficult demographic period. The birth rate is falling....At the beginning of the 2000s we managed to reverse the negative ...
+2026-08-03 19:34:54,912 - INFO - Date: 2019-02-22
+2026-08-03 19:34:57,284 - INFO - Prediction: Misleading
+2026-08-03 19:34:57,284 - INFO - ✗ Incorrect (True: Supported, Pred: Misleading)
+2026-08-03 19:35:00,288 - INFO - ================================================================================
+2026-08-03 19:35:00,288 - INFO - Processing claim #26 (ID: tsver_test_30)
+2026-08-03 19:35:00,288 - INFO - Claim: “Kenya has an estimated population of 40 million ...”...
+2026-08-03 19:35:00,288 - INFO - Date: 2024-01-01
+2026-08-03 19:35:02,607 - INFO - Prediction: Refuted
+2026-08-03 19:35:02,608 - INFO - ✓ Correct prediction
+2026-08-03 19:35:05,611 - INFO - ================================================================================
+2026-08-03 19:35:05,611 - INFO - Processing claim #27 (ID: tsver_test_31)
+2026-08-03 19:35:05,611 - INFO - Claim: More South Africans are living longer with average life expectancy increasing to 64 years in 2018 from a low of 53 years in 2005....
+2026-08-03 19:35:05,611 - INFO - Date: 2019-01-08
+2026-08-03 19:35:07,352 - INFO - Prediction: Supported
+2026-08-03 19:35:07,352 - INFO - ✓ Correct prediction
+2026-08-03 19:35:10,354 - INFO - ================================================================================
+2026-08-03 19:35:10,354 - INFO - Processing claim #28 (ID: tsver_test_32)
+2026-08-03 19:35:10,355 - INFO - Claim: The youth population [in Kenya] of economic age (between 18-34 years) were 13,777,600 (29%)....
+2026-08-03 19:35:10,355 - INFO - Date: 2022-06-06
+2026-08-03 19:35:12,698 - INFO - Prediction: Misleading
+2026-08-03 19:35:12,699 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-08-03 19:35:15,701 - INFO - ================================================================================
+2026-08-03 19:35:15,702 - INFO - Processing claim #29 (ID: tsver_test_33)
+2026-08-03 19:35:15,702 - INFO - Claim: Australia has reduced greenhouse gas emissions by around 20 per cent - more than the US, Japan, Canada, and New Zealand....
+2026-08-03 19:35:15,702 - INFO - Date: 2022-03-25
+2026-08-03 19:35:18,016 - INFO - Prediction: Misleading
+2026-08-03 19:35:18,016 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-08-03 19:35:21,029 - INFO - ================================================================================
+2026-08-03 19:35:21,030 - INFO - Processing claim #30 (ID: tsver_test_34)
+2026-08-03 19:35:21,030 - INFO - Claim: Ghana’s unemployment rate is estimated at 14%....
+2026-08-03 19:35:21,030 - INFO - Date: 2022-03-22
+2026-08-03 19:35:24,996 - INFO - Prediction: Misleading
+2026-08-03 19:35:24,997 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-08-03 19:35:28,000 - INFO - ================================================================================
+2026-08-03 19:35:28,000 - INFO - Processing claim #31 (ID: tsver_test_35)
+2026-08-03 19:35:28,000 - INFO - Claim: 52% of Nigeria’s current population lives in urban areas....
+2026-08-03 19:35:28,000 - INFO - Date: 2020-10-01
+2026-08-03 19:35:29,911 - INFO - Prediction: Supported
+2026-08-03 19:35:29,911 - INFO - ✓ Correct prediction
+2026-08-03 19:35:32,914 - INFO - ================================================================================
+2026-08-03 19:35:32,914 - INFO - Processing claim #32 (ID: tsver_test_36)
+2026-08-03 19:35:32,914 - INFO - Claim: Sea levels are rising negligibly or decreasing in various locations....
+2026-08-03 19:35:32,914 - INFO - Date: 2023-03-14
+2026-08-03 19:35:34,295 - INFO - Prediction: Misleading
+2026-08-03 19:35:34,295 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-08-03 19:35:37,297 - INFO - ================================================================================
+2026-08-03 19:35:37,297 - INFO - Processing claim #33 (ID: tsver_test_37)
+2026-08-03 19:35:37,298 - INFO - Claim: In 2019 the United States "led the world" in reducing carbon dioxide emissions....
+2026-08-03 19:35:37,298 - INFO - Date: 2020-03-15
+2026-08-03 19:35:41,055 - INFO - Prediction: Misleading
+2026-08-03 19:35:41,055 - INFO - ✓ Correct prediction
+2026-08-03 19:35:44,057 - INFO - ================================================================================
+2026-08-03 19:35:44,057 - INFO - Processing claim #34 (ID: tsver_test_38)
+2026-08-03 19:35:44,058 - INFO - Claim: Life expectancy [in the USA] is significantly longer today than it was when Social Security was created in the 1930s....
+2026-08-03 19:35:44,058 - INFO - Date: 2024-01-10
+2026-08-03 19:35:45,793 - INFO - Prediction: Supported
+2026-08-03 19:35:45,794 - INFO - ✓ Correct prediction
+2026-08-03 19:35:48,796 - INFO - ================================================================================
+2026-08-03 19:35:48,797 - INFO - Processing claim #35 (ID: tsver_test_39)
+2026-08-03 19:35:48,797 - INFO - Claim: Nigeria's population is over 240 million....
+2026-08-03 19:35:48,797 - INFO - Date: 2024-03-03
+2026-08-03 19:35:51,317 - INFO - Prediction: Supported
+2026-08-03 19:35:51,317 - INFO - ✗ Incorrect (True: Not Enough Information, Pred: Supported)
+2026-08-03 19:35:54,320 - INFO - ================================================================================
+2026-08-03 19:35:54,320 - INFO - Processing claim #36 (ID: tsver_test_40)
+2026-08-03 19:35:54,320 - INFO - Claim: Unemployment dipped below 4% by the end of my first year in office. Now it’s been below 4% for the longest stretch in 50 years in American history....
+2026-08-03 19:35:54,321 - INFO - Date: 2023-06-28
+2026-08-03 19:36:01,810 - INFO - Prediction: Supported
+2026-08-03 19:36:01,810 - INFO - ✗ Incorrect (True: Not Enough Information, Pred: Supported)
+2026-08-03 19:36:04,813 - INFO - ================================================================================
+2026-08-03 19:36:04,814 - INFO - Processing claim #37 (ID: tsver_test_41)
+2026-08-03 19:36:04,814 - INFO - Claim: Mean sea level height was six centimetres lower in 2019 than in 1919....
+2026-08-03 19:36:04,814 - INFO - Date: 2022-07-12
+2026-08-03 19:36:07,521 - INFO - Prediction: Refuted
+2026-08-03 19:36:07,521 - INFO - ✓ Correct prediction
+2026-08-03 19:36:10,523 - INFO - ================================================================================
+2026-08-03 19:36:10,523 - INFO - Processing claim #38 (ID: tsver_test_42)
+2026-08-03 19:36:10,524 - INFO - Claim: 19% of the Kenyan population is between 15 and 24....
+2026-08-03 19:36:10,524 - INFO - Date: 2024-01-01
+2026-08-03 19:36:12,775 - INFO - Prediction: Misleading
+2026-08-03 19:36:12,775 - INFO - ✗ Incorrect (True: Supported, Pred: Misleading)
+2026-08-03 19:36:15,776 - INFO - ================================================================================
+2026-08-03 19:36:15,777 - INFO - Processing claim #39 (ID: tsver_test_43)
+2026-08-03 19:36:15,777 - INFO - Claim: Germany has not reduced emissions in the past decade....
+2026-08-03 19:36:15,777 - INFO - Date: 2022-06-20
+2026-08-03 19:36:18,411 - INFO - Prediction: Refuted
+2026-08-03 19:36:18,411 - INFO - ✓ Correct prediction
+2026-08-03 19:36:21,422 - INFO - ================================================================================
+2026-08-03 19:36:21,422 - INFO - Processing claim #40 (ID: tsver_test_44)
+2026-08-03 19:36:21,422 - INFO - Claim: There are more homeless UK citizens than the entire population of Iceland....
+2026-08-03 19:36:21,423 - INFO - Date: 2019-02-15
+2026-08-03 19:36:26,971 - INFO - Prediction: Supported
+2026-08-03 19:36:26,971 - INFO - ✗ Incorrect (True: Not Enough Information, Pred: Supported)
+2026-08-03 19:36:29,972 - INFO - ================================================================================
+2026-08-03 19:36:29,973 - INFO - Processing claim #41 (ID: tsver_test_45)
+2026-08-03 19:36:29,973 - INFO - Claim: Meanwhile, as South Africa’s current unemployment rate is 33%, Kenya’s is 5%....
+2026-08-03 19:36:29,973 - INFO - Date: 2023-07-01
+2026-08-03 19:36:32,291 - INFO - Prediction: Misleading
+2026-08-03 19:36:32,291 - INFO - ✗ Incorrect (True: Supported, Pred: Misleading)
+2026-08-03 19:36:35,295 - INFO - ================================================================================
+2026-08-03 19:36:35,295 - INFO - Processing claim #42 (ID: tsver_test_46)
+2026-08-03 19:36:35,296 - INFO - Claim: There has not been a long-term distinctive change in sea level rise rates in the last 120 years....
+2026-08-03 19:36:35,296 - INFO - Date: 2021-01-15
+2026-08-03 19:36:37,500 - INFO - Prediction: Refuted
+2026-08-03 19:36:37,500 - INFO - ✓ Correct prediction
+2026-08-03 19:36:40,502 - INFO - ================================================================================
+2026-08-03 19:36:40,502 - INFO - Processing claim #43 (ID: tsver_test_47)
+2026-08-03 19:36:40,502 - INFO - Claim: U.S. Unemployment Rate Lowest in 50 years....
+2026-08-03 19:36:40,502 - INFO - Date: 2022-07-18
+2026-08-03 19:36:42,818 - INFO - Prediction: Supported
+2026-08-03 19:36:42,819 - INFO - ✗ Incorrect (True: Not Enough Information, Pred: Supported)
+2026-08-03 19:36:45,822 - INFO - ================================================================================
+2026-08-03 19:36:45,822 - INFO - Processing claim #44 (ID: tsver_test_48)
+2026-08-03 19:36:45,822 - INFO - Claim: Life expectancy in the UK is falling....
+2026-08-03 19:36:45,822 - INFO - Date: 2019-08-30
+2026-08-03 19:36:47,905 - INFO - Prediction: Misleading
+2026-08-03 19:36:47,906 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-08-03 19:36:50,908 - INFO - ================================================================================
+2026-08-03 19:36:50,908 - INFO - Processing claim #45 (ID: tsver_test_50)
+2026-08-03 19:36:50,908 - INFO - Claim: Greenhouse effect is a hoax, global warming uncorrelated with CO2 levels....
+2026-08-03 19:36:50,908 - INFO - Date: 2022-12-17
+2026-08-03 19:36:54,141 - INFO - Prediction: Refuted
+2026-08-03 19:36:54,141 - INFO - ✓ Correct prediction
+2026-08-03 19:36:57,143 - INFO - ================================================================================
+2026-08-03 19:36:57,143 - INFO - Processing claim #46 (ID: tsver_test_51)
+2026-08-03 19:36:57,143 - INFO - Claim: Sea level rise has been slow and a constant, pre-dating industrialization....
+2026-08-03 19:36:57,143 - INFO - Date: 2020-12-03
+2026-08-03 19:36:59,358 - INFO - Prediction: Misleading
+2026-08-03 19:36:59,358 - INFO - ✗ Incorrect (True: Not Enough Information, Pred: Misleading)
+2026-08-03 19:37:02,360 - INFO - ================================================================================
+2026-08-03 19:37:02,360 - INFO - Processing claim #47 (ID: tsver_test_52)
+2026-08-03 19:37:02,360 - INFO - Claim: Sea levels haven't risen in centuries, proving climate change is a hoax....
+2026-08-03 19:37:02,360 - INFO - Date: 2023-04-20
+2026-08-03 19:37:04,824 - INFO - Prediction: Refuted
+2026-08-03 19:37:04,824 - INFO - ✓ Correct prediction
+2026-08-03 19:37:07,825 - INFO - ================================================================================
+2026-08-03 19:37:07,825 - INFO - Processing claim #48 (ID: tsver_test_54)
+2026-08-03 19:37:07,826 - INFO - Claim: In June 2022, the global population reached 8 billion people....
+2026-08-03 19:37:07,826 - INFO - Date: 2022-06-08
+2026-08-03 19:37:09,923 - INFO - Prediction: Misleading
+2026-08-03 19:37:09,923 - INFO - ✗ Incorrect (True: Supported, Pred: Misleading)
+2026-08-03 19:37:12,926 - INFO - ================================================================================
+2026-08-03 19:37:12,926 - INFO - Processing claim #49 (ID: tsver_test_55)
+2026-08-03 19:37:12,926 - INFO - Claim: The UK has made huge progress in cutting greenhouse gas emissions....
+2026-08-03 19:37:12,926 - INFO - Date: 2019-06-12
+2026-08-03 19:37:16,767 - INFO - Prediction: Supported
+2026-08-03 19:37:16,767 - INFO - ✓ Correct prediction
+2026-08-03 19:37:19,779 - INFO - ================================================================================
+2026-08-03 19:37:19,780 - INFO - Processing claim #50 (ID: tsver_test_56)
+2026-08-03 19:37:19,780 - INFO - Claim: Nigeria has the highest unemployment rate in the world....
+2026-08-03 19:37:19,780 - INFO - Date: 2023-06-01
+2026-08-03 19:37:22,316 - INFO - Prediction: Refuted
+2026-08-03 19:37:22,316 - INFO - ✓ Correct prediction
+2026-08-03 19:37:25,319 - INFO - ================================================================================
+2026-08-03 19:37:25,319 - INFO - Processing claim #51 (ID: tsver_test_57)
+2026-08-03 19:37:25,319 - INFO - Claim: Prime Minister Scott Morrison claims Australia’s greenhouse gas emissions have fallen by 17 per cent since 2005 to their lowest levels since 1998....
+2026-08-03 19:37:25,319 - INFO - Date: 2021-02-01
+2026-08-03 19:37:28,182 - INFO - Prediction: Supported
+2026-08-03 19:37:28,183 - INFO - ✗ Incorrect (True: Refuted, Pred: Supported)
+2026-08-03 19:37:31,184 - INFO - ================================================================================
+2026-08-03 19:37:31,184 - INFO - Processing claim #52 (ID: tsver_test_58)
+2026-08-03 19:37:31,184 - INFO - Claim: World’s population stands at 7.8 billion people with 5.6 billion women and 2.2 billion men – United Nations first quarter demography report 2019....
+2026-08-03 19:37:31,184 - INFO - Date: 2021-07-18
+2026-08-03 19:37:33,685 - INFO - Prediction: Refuted
+2026-08-03 19:37:33,686 - INFO - ✓ Correct prediction
+2026-08-03 19:37:36,687 - INFO - ================================================================================
+2026-08-03 19:37:36,687 - INFO - Processing claim #53 (ID: tsver_test_59)
+2026-08-03 19:37:36,687 - INFO - Claim: India's population has overtake that of China....
+2026-08-03 19:37:36,688 - INFO - Date: 2022-07-05
+2026-08-03 19:37:38,889 - INFO - Prediction: Supported
+2026-08-03 19:37:38,890 - INFO - ✓ Correct prediction
+2026-08-03 19:37:41,891 - INFO - ================================================================================
+2026-08-03 19:37:41,891 - INFO - Processing claim #54 (ID: tsver_test_60)
+2026-08-03 19:37:41,891 - INFO - Claim: ‘No correlation’ between carbon dioxide emissions and the climate....
+2026-08-03 19:37:41,891 - INFO - Date: 2023-02-10
+2026-08-03 19:37:44,846 - INFO - Prediction: Refuted
+2026-08-03 19:37:44,846 - INFO - ✓ Correct prediction
+2026-08-03 19:37:47,848 - INFO - ================================================================================
+2026-08-03 19:37:47,848 - INFO - Processing claim #55 (ID: tsver_test_61)
+2026-08-03 19:37:47,849 - INFO - Claim: [UK's] greenhouse gas emissions fell by 15% between 2010 and 2014, one of the biggest reductions in a single parliament....
+2026-08-03 19:37:47,849 - INFO - Date: 2016-01-18
+2026-08-03 19:37:50,114 - INFO - Prediction: Supported
+2026-08-03 19:37:50,114 - INFO - ✓ Correct prediction
+2026-08-03 19:37:53,116 - INFO - ================================================================================
+2026-08-03 19:37:53,116 - INFO - Processing claim #56 (ID: tsver_test_63)
+2026-08-03 19:37:53,116 - INFO - Claim: In its last term, the Labour party [UK] left office with unemployment higher than when it entered government....
+2026-08-03 19:37:53,116 - INFO - Date: 2023-06-14
+2026-08-03 19:37:55,212 - INFO - Prediction: Supported
+2026-08-03 19:37:55,212 - INFO - ✓ Correct prediction
+2026-08-03 19:37:58,213 - INFO - ================================================================================
+2026-08-03 19:37:58,213 - INFO - Processing claim #57 (ID: tsver_test_64)
+2026-08-03 19:37:58,213 - INFO - Claim: Nigeria has one of the highest birth rates in the world....
+2026-08-03 19:37:58,213 - INFO - Date: 2021-08-15
+2026-08-03 19:38:00,040 - INFO - Prediction: Supported
+2026-08-03 19:38:00,040 - INFO - ✓ Correct prediction
+2026-08-03 19:38:03,042 - INFO - ================================================================================
+2026-08-03 19:38:03,042 - INFO - Processing claim #58 (ID: tsver_test_65)
+2026-08-03 19:38:03,042 - INFO - Claim: Greenhouse gas emissions have effectively been put under control in 2020. China’s carbon emission intensity reduced by 18.8 percent … basically revers...
+2026-08-03 19:38:03,042 - INFO - Date: 2021-10-28
+2026-08-03 19:38:05,210 - INFO - Prediction: Misleading
+2026-08-03 19:38:05,210 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-08-03 19:38:08,213 - INFO - ================================================================================
+2026-08-03 19:38:08,213 - INFO - Processing claim #59 (ID: tsver_test_66)
+2026-08-03 19:38:08,213 - INFO - Claim: The US hasn't warmed in 18 years, so emissions-driven warming is a hoax....
+2026-08-03 19:38:08,213 - INFO - Date: 2023-02-28
+2026-08-03 19:38:11,654 - INFO - Prediction: Refuted
+2026-08-03 19:38:11,654 - INFO - ✓ Correct prediction
+2026-08-03 19:38:14,665 - INFO - ================================================================================
+2026-08-03 19:38:14,665 - INFO - Processing claim #60 (ID: tsver_test_67)
+2026-08-03 19:38:14,666 - INFO - Claim: Our life expectancy [in Kenya] has increased from 35 years at independence to 67 years currently....
+2026-08-03 19:38:14,666 - INFO - Date: 2019-10-01
+2026-08-03 19:38:19,066 - INFO - Prediction: Misleading
+2026-08-03 19:38:19,066 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-08-03 19:38:22,068 - INFO - ================================================================================
+2026-08-03 19:38:22,068 - INFO - Processing claim #61 (ID: tsver_test_68)
+2026-08-03 19:38:22,068 - INFO - Claim: Immigration adds a city the size of Cardiff [approx. 357,000 in mid-2015] to the UK’s population every year....
+2026-08-03 19:38:22,068 - INFO - Date: 2016-10-06
+2026-08-03 19:38:29,820 - INFO - Prediction: Misleading
+2026-08-03 19:38:29,820 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-08-03 19:38:32,822 - INFO - ================================================================================
+2026-08-03 19:38:32,822 - INFO - Processing claim #62 (ID: tsver_test_69)
+2026-08-03 19:38:32,822 - INFO - Claim: Our country [USA] has succeeded in reducing greenhouse emissions in previous years....
+2026-08-03 19:38:32,822 - INFO - Date: 2019-02-11
+2026-08-03 19:38:34,840 - INFO - Prediction: Supported
+2026-08-03 19:38:34,840 - INFO - ✓ Correct prediction
+2026-08-03 19:38:37,844 - INFO - ================================================================================
+2026-08-03 19:38:37,844 - INFO - Processing claim #63 (ID: tsver_test_70)
+2026-08-03 19:38:37,844 - INFO - Claim: The unemployment rate in the country [Nigeria] has more than quadrupled between 2015 and 2020....
+2026-08-03 19:38:37,844 - INFO - Date: 2023-03-01
+2026-08-03 19:38:40,046 - INFO - Prediction: Misleading
+2026-08-03 19:38:40,046 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-08-03 19:38:43,048 - INFO - ================================================================================
+2026-08-03 19:38:43,048 - INFO - Processing claim #64 (ID: tsver_test_71)
+2026-08-03 19:38:43,049 - INFO - Claim: 49% of men and 34.1% of women in South Africa smoke tobacco....
+2026-08-03 19:38:43,049 - INFO - Date: 2018-10-15
+2026-08-03 19:38:45,378 - INFO - Prediction: Supported
+2026-08-03 19:38:45,378 - INFO - ✗ Incorrect (True: Refuted, Pred: Supported)
+2026-08-03 19:38:48,381 - INFO - ================================================================================
+2026-08-03 19:38:48,381 - INFO - Processing claim #65 (ID: tsver_test_72)
+2026-08-03 19:38:48,381 - INFO - Claim: Under President Trump [USA's] greenhouse gas emissions are down....
+2026-08-03 19:38:48,386 - INFO - Date: 2018-06-13
+2026-08-03 19:38:50,230 - INFO - Prediction: Misleading
+2026-08-03 19:38:50,230 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-08-03 19:38:53,231 - INFO - ================================================================================
+2026-08-03 19:38:53,232 - INFO - Processing claim #66 (ID: tsver_test_73)
+2026-08-03 19:38:53,232 - INFO - Claim: Twelve years of Conservative government has left Britain with high unemployment....
+2026-08-03 19:38:53,232 - INFO - Date: 2022-12-13
+2026-08-03 19:38:55,385 - INFO - Prediction: Refuted
+2026-08-03 19:38:55,385 - INFO - ✓ Correct prediction
+2026-08-03 19:38:58,388 - INFO - ================================================================================
+2026-08-03 19:38:58,388 - INFO - Processing claim #67 (ID: tsver_test_74)
+2026-08-03 19:38:58,388 - INFO - Claim: Net migration into the UK is over 300,000 a year....
+2026-08-03 19:38:58,388 - INFO - Date: 2015-11-10
+2026-08-03 19:39:01,223 - INFO - Prediction: Supported
+2026-08-03 19:39:01,223 - INFO - ✗ Incorrect (True: Refuted, Pred: Supported)
+2026-08-03 19:39:04,225 - INFO - ================================================================================
+2026-08-03 19:39:04,225 - INFO - Processing claim #68 (ID: tsver_test_75)
+2026-08-03 19:39:04,225 - INFO - Claim: 56% of the urban population [in Kenya] (approximately 6.4 million people) live in slums....
+2026-08-03 19:39:04,226 - INFO - Date: 2022-06-06
+2026-08-03 19:39:06,459 - INFO - Prediction: Misleading
+2026-08-03 19:39:06,460 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-08-03 19:39:09,462 - INFO - ================================================================================
+2026-08-03 19:39:09,462 - INFO - Processing claim #69 (ID: tsver_test_76)
+2026-08-03 19:39:09,462 - INFO - Claim: Record low unemployment [in the USA] — 2 years of unemployment below 4%....
+2026-08-03 19:39:09,462 - INFO - Date: 2023-12-05
+2026-08-03 19:39:11,684 - INFO - Prediction: Supported
+2026-08-03 19:39:11,685 - INFO - ✓ Correct prediction
+2026-08-03 19:39:14,703 - INFO - ================================================================================
+2026-08-03 19:39:14,703 - INFO - Processing claim #70 (ID: tsver_test_77)
+2026-08-03 19:39:14,703 - INFO - Claim: Recent migrants account for a small proportion of the UK population....
+2026-08-03 19:39:14,703 - INFO - Date: 2024-03-15
+2026-08-03 19:39:17,028 - INFO - Prediction: Supported
+2026-08-03 19:39:17,029 - INFO - ✗ Incorrect (True: Refuted, Pred: Supported)
+2026-08-03 19:39:20,030 - INFO - ================================================================================
+2026-08-03 19:39:20,030 - INFO - Processing claim #71 (ID: tsver_test_78)
+2026-08-03 19:39:20,031 - INFO - Claim: The rural areas of this country [Nigeria] have about 53% of our population....
+2026-08-03 19:39:20,031 - INFO - Date: 2019-01-19
+2026-08-03 19:39:22,661 - INFO - Prediction: Misleading
+2026-08-03 19:39:22,661 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-08-03 19:39:25,664 - INFO - ================================================================================
+2026-08-03 19:39:25,664 - INFO - Processing claim #72 (ID: tsver_test_79)
+2026-08-03 19:39:25,664 - INFO - Claim: The population [in the UK] is living a lot longer....
+2026-08-03 19:39:25,665 - INFO - Date: 2018-01-11
+2026-08-03 19:39:27,531 - INFO - Prediction: Supported
+2026-08-03 19:39:27,532 - INFO - ✓ Correct prediction
+2026-08-03 19:39:30,533 - INFO - ================================================================================
+2026-08-03 19:39:30,533 - INFO - Processing claim #73 (ID: tsver_test_80)
+2026-08-03 19:39:30,533 - INFO - Claim: The UK unemployment rate is about half the Eurozone average....
+2026-08-03 19:39:30,533 - INFO - Date: 2017-11-09
+2026-08-03 19:39:32,485 - INFO - Prediction: Supported
+2026-08-03 19:39:32,486 - INFO - ✓ Correct prediction
+2026-08-03 19:39:35,488 - INFO - ================================================================================
+2026-08-03 19:39:35,488 - INFO - Processing claim #74 (ID: tsver_test_81)
+2026-08-03 19:39:35,488 - INFO - Claim: Australia's greenhouse gas emissions have fallen since 2005....
+2026-08-03 19:39:35,488 - INFO - Date: 2019-11-15
+2026-08-03 19:39:37,951 - INFO - Prediction: Misleading
+2026-08-03 19:39:37,951 - INFO - ✗ Incorrect (True: Supported, Pred: Misleading)
+2026-08-03 19:39:40,953 - INFO - ================================================================================
+2026-08-03 19:39:40,953 - INFO - Processing claim #75 (ID: tsver_test_82)
+2026-08-03 19:39:40,953 - INFO - Claim: The US leads the world in actual emissions reductions by orders of magnitude compared to any other country since 2005....
+2026-08-03 19:39:40,954 - INFO - Date: 2019-08-13
+2026-08-03 19:39:42,933 - INFO - Prediction: Misleading
+2026-08-03 19:39:42,933 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-08-03 19:39:45,936 - INFO - ================================================================================
+2026-08-03 19:39:45,936 - INFO - Processing claim #76 (ID: tsver_test_83)
+2026-08-03 19:39:45,936 - INFO - Claim: Seven and a half years have passed since there was any trend in global warming at all. If global warming was caused by human emissions, temperature wo...
+2026-08-03 19:39:45,936 - INFO - Date: 2022-11-04
+2026-08-03 19:39:48,884 - INFO - Prediction: Refuted
+2026-08-03 19:39:48,884 - INFO - ✗ Incorrect (True: Misleading, Pred: Refuted)
+2026-08-03 19:39:51,886 - INFO - ================================================================================
+2026-08-03 19:39:51,886 - INFO - Processing claim #77 (ID: tsver_test_84)
+2026-08-03 19:39:51,887 - INFO - Claim: Australia has "reduced our emissions by more than 20 per cent. There are only four countries in the G20 that have actually done better than Australia ...
+2026-08-03 19:39:51,887 - INFO - Date: 2021-11-11
+2026-08-03 19:39:54,327 - INFO - Prediction: Misleading
+2026-08-03 19:39:54,327 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-08-03 19:39:57,329 - INFO - ================================================================================
+2026-08-03 19:39:57,329 - INFO - Processing claim #78 (ID: tsver_test_85)
+2026-08-03 19:39:57,329 - INFO - Claim: Migration has amounted to 80% of UK population growth....
+2026-08-03 19:39:57,329 - INFO - Date: 2020-01-15
+2026-08-03 19:39:59,451 - INFO - Prediction: Misleading
+2026-08-03 19:39:59,451 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-08-03 19:40:02,452 - INFO - ================================================================================
+2026-08-03 19:40:02,452 - INFO - Processing claim #79 (ID: tsver_test_86)
+2026-08-03 19:40:02,453 - INFO - Claim: On 04 March 2022, India has overtaken China as the most populous country in the world....
+2026-08-03 19:40:02,453 - INFO - Date: 2022-07-08
+2026-08-03 19:40:05,173 - INFO - Prediction: Refuted
+2026-08-03 19:40:05,173 - INFO - ✗ Incorrect (True: Not Enough Information, Pred: Refuted)
+2026-08-03 19:40:08,183 - INFO - ================================================================================
+2026-08-03 19:40:08,184 - INFO - Processing claim #80 (ID: tsver_test_87)
+2026-08-03 19:40:08,184 - INFO - Claim: Japan has a larger and older population, and a higher population density, than the UK....
+2026-08-03 19:40:08,184 - INFO - Date: 2020-05-10
+2026-08-03 19:40:10,065 - INFO - Prediction: Misleading
+2026-08-03 19:40:10,065 - INFO - ✗ Incorrect (True: Supported, Pred: Misleading)
+2026-08-03 19:40:13,067 - INFO - ================================================================================
+2026-08-03 19:40:13,067 - INFO - Processing claim #81 (ID: tsver_test_88)
+2026-08-03 19:40:13,068 - INFO - Claim: America’s life expectancy has declined for the last three years in a row, the first time in a hundred years....
+2026-08-03 19:40:13,068 - INFO - Date: 2018-03-22
+2026-08-03 19:40:15,946 - INFO - Prediction: Supported
+2026-08-03 19:40:15,946 - INFO - ✓ Correct prediction
+2026-08-03 19:40:18,949 - INFO - ================================================================================
+2026-08-03 19:40:18,949 - INFO - Processing claim #82 (ID: tsver_test_89)
+2026-08-03 19:40:18,949 - INFO - Claim: We [UK] have an expanding population....
+2026-08-03 19:40:18,949 - INFO - Date: 2018-05-03
+2026-08-03 19:40:20,854 - INFO - Prediction: Supported
+2026-08-03 19:40:20,854 - INFO - ✓ Correct prediction
+2026-08-03 19:40:23,856 - INFO - ================================================================================
+2026-08-03 19:40:23,856 - INFO - Processing claim #83 (ID: tsver_test_90)
+2026-08-03 19:40:23,856 - INFO - Claim: The largest emitter in cumulative terms is the U.S....
+2026-08-03 19:40:23,856 - INFO - Date: 2021-10-19
+2026-08-03 19:40:28,650 - INFO - Prediction: Supported
+2026-08-03 19:40:28,650 - INFO - ✓ Correct prediction
+2026-08-03 19:40:31,651 - INFO - ================================================================================
+2026-08-03 19:40:31,651 - INFO - Processing claim #84 (ID: tsver_test_91)
+2026-08-03 19:40:31,651 - INFO - Claim: In Africa, over 60% of the population is below 25....
+2026-08-03 19:40:31,651 - INFO - Date: 2024-01-01
+2026-08-03 19:40:33,699 - INFO - Prediction: Supported
+2026-08-03 19:40:33,700 - INFO - ✓ Correct prediction
+2026-08-03 19:40:36,701 - INFO - ================================================================================
+2026-08-03 19:40:36,701 - INFO - Processing claim #85 (ID: tsver_test_92)
+2026-08-03 19:40:36,702 - INFO - Claim: Australia's greenhouse gas emissions have fallen since 2005. They are the lowest they have ever been....
+2026-08-03 19:40:36,702 - INFO - Date: 2019-11-15
+2026-08-03 19:40:39,059 - INFO - Prediction: Misleading
+2026-08-03 19:40:39,059 - INFO - ✓ Correct prediction
+2026-08-03 19:40:42,061 - INFO - ================================================================================
+2026-08-03 19:40:42,062 - INFO - Processing claim #86 (ID: tsver_test_93)
+2026-08-03 19:40:42,062 - INFO - Claim: Half of the nation’s [Kenya] population comprises children....
+2026-08-03 19:40:42,062 - INFO - Date: 2024-02-01
+2026-08-03 19:40:44,127 - INFO - Prediction: Misleading
+2026-08-03 19:40:44,128 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-08-03 19:40:47,131 - INFO - ================================================================================
+2026-08-03 19:40:47,132 - INFO - Processing claim #87 (ID: tsver_test_94)
+2026-08-03 19:40:47,132 - INFO - Claim: Nigeria has the third highest birth rate in the world....
+2026-08-03 19:40:47,132 - INFO - Date: 2024-04-01
+2026-08-03 19:40:48,904 - INFO - Prediction: Misleading
+2026-08-03 19:40:48,904 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-08-03 19:40:51,905 - INFO - ================================================================================
+2026-08-03 19:40:51,906 - INFO - Processing claim #88 (ID: tsver_test_95)
+2026-08-03 19:40:51,906 - INFO - Claim: We [UK] have an ageing population....
+2026-08-03 19:40:51,906 - INFO - Date: 2017-10-19
+2026-08-03 19:40:53,794 - INFO - Prediction: Supported
+2026-08-03 19:40:53,794 - INFO - ✓ Correct prediction
+2026-08-03 19:40:56,796 - INFO - ================================================================================
+2026-08-03 19:40:56,796 - INFO - Processing claim #89 (ID: tsver_test_96)
+2026-08-03 19:40:56,796 - INFO - Claim: A recent hiatus in sea level rise conflicts with the scientific consensus regarding global warming....
+2026-08-03 19:40:56,797 - INFO - Date: 2017-07-26
+2026-08-03 19:40:58,907 - INFO - Prediction: Refuted
+2026-08-03 19:40:58,907 - INFO - ✗ Incorrect (True: Misleading, Pred: Refuted)
+2026-08-03 19:41:01,918 - INFO - ================================================================================
+2026-08-03 19:41:01,918 - INFO - Processing claim #90 (ID: tsver_test_97)
+2026-08-03 19:41:01,918 - INFO - Claim: New Zealand has the planet’s lowest carbon footprint....
+2026-08-03 19:41:01,918 - INFO - Date: 2022-06-01
+2026-08-03 19:41:06,596 - INFO - Prediction: Refuted
+2026-08-03 19:41:06,597 - INFO - ✓ Correct prediction
+2026-08-03 19:41:09,599 - INFO - ================================================================================
+2026-08-03 19:41:09,599 - INFO - Processing claim #91 (ID: tsver_test_98)
+2026-08-03 19:41:09,600 - INFO - Claim: The jobless or unemployment rate went down to 20% during President Rodrigo Duterte’s term....
+2026-08-03 19:41:09,600 - INFO - Date: 2021-10-13
+2026-08-03 19:41:11,521 - INFO - Prediction: Refuted
+2026-08-03 19:41:11,521 - INFO - ✓ Correct prediction
+2026-08-03 19:41:14,523 - INFO - ================================================================================
+2026-08-03 19:41:14,523 - INFO - Processing claim #92 (ID: tsver_test_99)
+2026-08-03 19:41:14,524 - INFO - Claim: The US supposedly saw the "best" carbon emission numbers in 35 years under President Donald Trump's administration....
+2026-08-03 19:41:14,524 - INFO - Date: 2020-10-28
+2026-08-03 19:41:16,303 - INFO - Prediction: Misleading
+2026-08-03 19:41:16,304 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-08-03 19:41:19,305 - INFO - ================================================================================
+2026-08-03 19:41:19,305 - INFO - Processing claim #93 (ID: tsver_test_101)
+2026-08-03 19:41:19,305 - INFO - Claim: At independence, Nigeria had a population of 45 million....
+2026-08-03 19:41:19,306 - INFO - Date: 2020-10-01
+2026-08-03 19:41:21,976 - INFO - Prediction: Misleading
+2026-08-03 19:41:21,976 - INFO - ✗ Incorrect (True: Supported, Pred: Misleading)
+2026-08-03 19:41:24,978 - INFO - ================================================================================
+2026-08-03 19:41:24,978 - INFO - Processing claim #94 (ID: tsver_test_102)
+2026-08-03 19:41:24,978 - INFO - Claim: The birth rate in Australia decreased by 63% since the COVID vaccine was introduced....
+2026-08-03 19:41:24,978 - INFO - Date: 2022-11-21
+2026-08-03 19:41:27,407 - INFO - Prediction: Refuted
+2026-08-03 19:41:27,407 - INFO - ✓ Correct prediction
+2026-08-03 19:41:30,408 - INFO - ================================================================================
+2026-08-03 19:41:30,408 - INFO - Processing claim #95 (ID: tsver_test_103)
+2026-08-03 19:41:30,408 - INFO - Claim: The U.S. Centers for Disease Control and Prevention (CDC) estimated that life expectancy fell by 1.5 years between 2019 and 2020, the biggest annual d...
+2026-08-03 19:41:30,408 - INFO - Date: 2021-07-15
+2026-08-03 19:41:32,531 - INFO - Prediction: Supported
+2026-08-03 19:41:32,531 - INFO - ✓ Correct prediction
+2026-08-03 19:41:35,532 - INFO - ================================================================================
+2026-08-03 19:41:35,533 - INFO - Processing claim #96 (ID: tsver_test_104)
+2026-08-03 19:41:35,533 - INFO - Claim: The problem now in the last five years is life expectancy [in the USA] is going down....
+2026-08-03 19:41:35,533 - INFO - Date: 2023-01-15
+2026-08-03 19:41:39,095 - INFO - Prediction: Supported
+2026-08-03 19:41:39,095 - INFO - ✗ Incorrect (True: Misleading, Pred: Supported)
+2026-08-03 19:41:42,096 - INFO - ================================================================================
+2026-08-03 19:41:42,097 - INFO - Processing claim #97 (ID: tsver_test_105)
+2026-08-03 19:41:42,097 - INFO - Claim: [UK's] life expectancy is going down....
+2026-08-03 19:41:42,097 - INFO - Date: 2018-03-22
+2026-08-03 19:41:44,074 - INFO - Prediction: Misleading
+2026-08-03 19:41:44,074 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-08-03 19:41:47,075 - INFO - ================================================================================
+2026-08-03 19:41:47,075 - INFO - Processing claim #98 (ID: tsver_test_106)
+2026-08-03 19:41:47,075 - INFO - Claim: Life expectancy [in the UK] has decreased 3 years since 2010....
+2026-08-03 19:41:47,076 - INFO - Date: 2023-04-08
+2026-08-03 19:41:49,237 - INFO - Prediction: Misleading
+2026-08-03 19:41:49,237 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-08-03 19:41:52,239 - INFO - ================================================================================
+2026-08-03 19:41:52,239 - INFO - Processing claim #99 (ID: tsver_test_107)
+2026-08-03 19:41:52,240 - INFO - Claim: Life expectancy [in South Africa] has increased from 54 years in 2003 to 65 years in 2023....
+2026-08-03 19:41:52,240 - INFO - Date: 2024-02-08
+2026-08-03 19:41:54,924 - INFO - Prediction: Supported
+2026-08-03 19:41:54,925 - INFO - ✓ Correct prediction
+2026-08-03 19:41:57,935 - INFO - ================================================================================
+2026-08-03 19:41:57,936 - INFO - Processing claim #100 (ID: tsver_test_108)
+2026-08-03 19:41:57,936 - INFO - Claim: The population [in the UK] has grown by a third since the start of the NHS....
+2026-08-03 19:41:57,936 - INFO - Date: 2018-01-11
+2026-08-03 19:41:59,993 - INFO - Prediction: Supported
+2026-08-03 19:41:59,993 - INFO - ✓ Correct prediction
+2026-08-03 19:42:02,996 - INFO - ================================================================================
+2026-08-03 19:42:02,996 - INFO - Processing claim #101 (ID: tsver_test_109)
+2026-08-03 19:42:02,996 - INFO - Claim: The fertility rate of women in Niger is 7.5%....
+2026-08-03 19:42:02,996 - INFO - Date: 2021-12-01
+2026-08-03 19:42:05,651 - INFO - Prediction: Misleading
+2026-08-03 19:42:05,651 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-08-03 19:42:08,653 - INFO - ================================================================================
+2026-08-03 19:42:08,653 - INFO - Processing claim #102 (ID: tsver_test_110)
+2026-08-03 19:42:08,653 - INFO - Claim: At the present rate, we [Australia] have a 1.6 per cent population growth rate....
+2026-08-03 19:42:08,654 - INFO - Date: 2018-09-09
+2026-08-03 19:42:11,278 - INFO - Prediction: Supported
+2026-08-03 19:42:11,278 - INFO - ✓ Correct prediction
+2026-08-03 19:42:14,282 - INFO - ================================================================================
+2026-08-03 19:42:14,282 - INFO - Processing claim #103 (ID: tsver_test_111)
+2026-08-03 19:42:14,282 - INFO - Claim: China Has Overtaken U.S. in Life Expectancy for First Time....
+2026-08-03 19:42:14,283 - INFO - Date: 2022-09-08
+2026-08-03 19:42:17,254 - INFO - Prediction: Misleading
+2026-08-03 19:42:17,254 - INFO - ✗ Incorrect (True: Supported, Pred: Misleading)
+2026-08-03 19:42:20,256 - INFO - ================================================================================
+2026-08-03 19:42:20,256 - INFO - Processing claim #104 (ID: tsver_test_112)
+2026-08-03 19:42:20,256 - INFO - Claim: Cuts to Australia’s greenhouse gas emissions since 2005 are similar to those achieved in the EU....
+2026-08-03 19:42:20,256 - INFO - Date: 2021-11-10
+2026-08-03 19:42:23,008 - INFO - Prediction: Misleading
+2026-08-03 19:42:23,008 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-08-03 19:42:26,010 - INFO - ================================================================================
+2026-08-03 19:42:26,011 - INFO - Processing claim #105 (ID: tsver_test_113)
+2026-08-03 19:42:26,011 - INFO - Claim: The United States accounts … for less than 15 percent of carbon emissions. The rest of the world accounts for 85 percent....
+2026-08-03 19:42:26,011 - INFO - Date: 2021-04-30
+2026-08-03 19:42:28,492 - INFO - Prediction: Misleading
+2026-08-03 19:42:28,492 - INFO - ✗ Incorrect (True: Supported, Pred: Misleading)
+2026-08-03 19:42:31,494 - INFO - ================================================================================
+2026-08-03 19:42:31,494 - INFO - Processing claim #106 (ID: tsver_test_114)
+2026-08-03 19:42:31,495 - INFO - Claim: Emissions are coming down in Australia....
+2026-08-03 19:42:31,495 - INFO - Date: 2018-12-03
+2026-08-03 19:42:33,678 - INFO - Prediction: Misleading
+2026-08-03 19:42:33,678 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-08-03 19:42:36,681 - INFO - ================================================================================
+2026-08-03 19:42:36,682 - INFO - Processing claim #107 (ID: tsver_test_115)
+2026-08-03 19:42:36,682 - INFO - Claim: New Zealand's greenhouse gas emissions have increased, while Australia's have decreased....
+2026-08-03 19:42:36,682 - INFO - Date: 2020-12-15
+2026-08-03 19:42:39,201 - INFO - Prediction: Misleading
+2026-08-03 19:42:39,201 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-08-03 19:42:42,204 - INFO - ================================================================================
+2026-08-03 19:42:42,204 - INFO - Processing claim #108 (ID: tsver_test_116)
+2026-08-03 19:42:42,204 - INFO - Claim: China produces 90% of the world’s carbon emissions pollution....
+2026-08-03 19:42:42,204 - INFO - Date: 2019-12-26
+2026-08-03 19:42:44,664 - INFO - Prediction: Refuted
+2026-08-03 19:42:44,664 - INFO - ✓ Correct prediction
+2026-08-03 19:42:47,666 - INFO - ================================================================================
+2026-08-03 19:42:47,667 - INFO - Processing claim #109 (ID: tsver_test_117)
+2026-08-03 19:42:47,667 - INFO - Claim: Ghana's current unemployment rate is the highest in the fourth republic....
+2026-08-03 19:42:47,667 - INFO - Date: 2022-03-22
+2026-08-03 19:42:49,814 - INFO - Prediction: Misleading
+2026-08-03 19:42:49,814 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-08-03 19:42:52,825 - INFO - ================================================================================
+2026-08-03 19:42:52,825 - INFO - Processing claim #110 (ID: tsver_test_118)
+2026-08-03 19:42:52,826 - INFO - Claim: In early 2000s our [Russia] life expectancy was 65 years, and now it’s almost 73....
+2026-08-03 19:42:52,826 - INFO - Date: 2018-05-18
+2026-08-03 19:42:54,889 - INFO - Prediction: Supported
+2026-08-03 19:42:54,889 - INFO - ✓ Correct prediction
+2026-08-03 19:42:57,892 - INFO - ================================================================================
+2026-08-03 19:42:57,893 - INFO - Processing claim #111 (ID: tsver_test_119)
+2026-08-03 19:42:57,893 - INFO - Claim: Australia’s population is the highest-growing in the world....
+2026-08-03 19:42:57,893 - INFO - Date: 2018-05-09
+2026-08-03 19:42:59,881 - INFO - Prediction: Refuted
+2026-08-03 19:42:59,881 - INFO - ✓ Correct prediction
+2026-08-03 19:43:02,883 - INFO - ================================================================================
+2026-08-03 19:43:02,883 - INFO - Processing claim #112 (ID: tsver_test_120)
+2026-08-03 19:43:02,883 - INFO - Claim: The UK population is 61.6 million, of whom 194,000 are refugees....
+2026-08-03 19:43:02,883 - INFO - Date: 2015-06-15
+2026-08-03 19:43:04,946 - INFO - Prediction: Misleading
+2026-08-03 19:43:04,946 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-08-03 19:43:07,948 - INFO - ================================================================================
+2026-08-03 19:43:07,948 - INFO - Processing claim #113 (ID: tsver_test_121)
+2026-08-03 19:43:07,948 - INFO - Claim: 45% of the Kenyan population is below 15 years....
+2026-08-03 19:43:07,948 - INFO - Date: 2024-01-01
+2026-08-03 19:43:12,208 - INFO - Prediction: Misleading
+2026-08-03 19:43:12,208 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-08-03 19:43:15,211 - INFO - ================================================================================
+2026-08-03 19:43:15,211 - INFO - Processing claim #114 (ID: tsver_test_122)
+2026-08-03 19:43:15,211 - INFO - Claim: The coalition government has reduced Australia’s greenhouse gas emissions by 20 per cent....
+2026-08-03 19:43:15,211 - INFO - Date: 2022-02-16
+2026-08-03 19:43:18,636 - INFO - Prediction: Refuted
+2026-08-03 19:43:18,636 - INFO - ✓ Correct prediction
+2026-08-03 19:43:21,638 - INFO - ================================================================================
+2026-08-03 19:43:21,638 - INFO - Processing claim #115 (ID: tsver_test_123)
+2026-08-03 19:43:21,638 - INFO - Claim: [UK's] greenhouse gas emissions fell by 8% in 2014, the largest fall in a single year....
+2026-08-03 19:43:21,639 - INFO - Date: 2016-01-18
+2026-08-03 19:43:23,978 - INFO - Prediction: Misleading
+2026-08-03 19:43:23,978 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-08-03 19:43:26,980 - INFO - ================================================================================
+2026-08-03 19:43:26,980 - INFO - Processing claim #116 (ID: tsver_test_124)
+2026-08-03 19:43:26,981 - INFO - Claim: We [Australia] have now reduced our emissions by 20 per cent. In comparison, Canada has seen emissions down by just 1 per cent, New Zealand by just 4 ...
+2026-08-03 19:43:26,981 - INFO - Date: 2022-05-15
+2026-08-03 19:43:29,091 - INFO - Prediction: Misleading
+2026-08-03 19:43:29,092 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-08-03 19:43:32,094 - INFO - ================================================================================
+2026-08-03 19:43:32,094 - INFO - Processing claim #117 (ID: tsver_test_125)
+2026-08-03 19:43:32,094 - INFO - Claim: [Graph by BJP on its social media channels] shows India’s GDP growth at 8% in 2020....
+2026-08-03 19:43:32,094 - INFO - Date: 2021-01-27
+2026-08-03 19:43:34,404 - INFO - Prediction: Refuted
+2026-08-03 19:43:34,404 - INFO - ✓ Correct prediction
+2026-08-03 19:43:37,407 - INFO - ================================================================================
+2026-08-03 19:43:37,407 - INFO - Processing claim #118 (ID: tsver_test_127)
+2026-08-03 19:43:37,408 - INFO - Claim: “We [USA] are a nation that no longer has a free and fair press. Fake news is about all you get. We are a nation where free speech is no longer allowe...
+2026-08-03 19:43:37,408 - INFO - Date: 2022-08-09
+2026-08-03 19:43:39,906 - INFO - Prediction: Refuted
+2026-08-03 19:43:39,906 - INFO - ✓ Correct prediction
+2026-08-03 19:43:42,907 - INFO - ================================================================================
+2026-08-03 19:43:42,909 - INFO - Processing claim #119 (ID: tsver_test_129)
+2026-08-03 19:43:42,909 - INFO - Claim: Statistics demonstrate that crime rates in Australia have increased substantially since the government there instituted a gun buy-back program in 1997...
+2026-08-03 19:43:42,909 - INFO - Date: 2001-08-20
+2026-08-03 19:43:44,838 - INFO - Prediction: Refuted
+2026-08-03 19:43:44,838 - INFO - ✗ Incorrect (True: Not Enough Information, Pred: Refuted)
+2026-08-03 19:43:47,850 - INFO - ================================================================================
+2026-08-03 19:43:47,850 - INFO - Processing claim #120 (ID: tsver_test_130)
+2026-08-03 19:43:47,850 - INFO - Claim: The UK has the fastest economic growth in the G7....
+2026-08-03 19:43:47,850 - INFO - Date: 2022-05-03
+2026-08-03 19:43:49,900 - INFO - Prediction: Refuted
+2026-08-03 19:43:49,900 - INFO - ✓ Correct prediction
+2026-08-03 19:43:52,903 - INFO - ================================================================================
+2026-08-03 19:43:52,903 - INFO - Processing claim #121 (ID: tsver_test_131)
+2026-08-03 19:43:52,903 - INFO - Claim: As soon as Biden took office, he eliminated all subsidies for fossil fuels....
+2026-08-03 19:43:52,903 - INFO - Date: 2022-03-15
+2026-08-03 19:43:55,011 - INFO - Prediction: Misleading
+2026-08-03 19:43:55,011 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-08-03 19:43:58,013 - INFO - ================================================================================
+2026-08-03 19:43:58,014 - INFO - Processing claim #122 (ID: tsver_test_132)
+2026-08-03 19:43:58,014 - INFO - Claim: The United States spends "more per student than almost any other major country in the world."...
+2026-08-03 19:43:58,014 - INFO - Date: 2016-09-08
+2026-08-03 19:43:59,909 - INFO - Prediction: Supported
+2026-08-03 19:43:59,909 - INFO - ✓ Correct prediction
+2026-08-03 19:44:02,914 - INFO - ================================================================================
+2026-08-03 19:44:02,914 - INFO - Processing claim #123 (ID: tsver_test_133)
+2026-08-03 19:44:02,914 - INFO - Claim: Ghana has not recorded cholera cases under President Akufo-Addo....
+2026-08-03 19:44:02,914 - INFO - Date: 2020-10-14
+2026-08-03 19:44:04,810 - INFO - Prediction: Refuted
+2026-08-03 19:44:04,811 - INFO - ✓ Correct prediction
+2026-08-03 19:44:07,812 - INFO - ================================================================================
+2026-08-03 19:44:07,812 - INFO - Processing claim #124 (ID: tsver_test_135)
+2026-08-03 19:44:07,812 - INFO - Claim: In the 70 years since Independence, 64 lakh hectare of land became cultivable, but under the Pradhan Mantri Krishi Sinchayee Yojana, 64 lakh hectares ...
+2026-08-03 19:44:07,812 - INFO - Date: 2022-07-22
+2026-08-03 19:44:13,054 - INFO - Prediction: Misleading
+2026-08-03 19:44:13,055 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-08-03 19:44:16,057 - INFO - ================================================================================
+2026-08-03 19:44:16,058 - INFO - Processing claim #125 (ID: tsver_test_136)
+2026-08-03 19:44:16,058 - INFO - Claim: The UK spends more than the average rich country on health services....
+2026-08-03 19:44:16,058 - INFO - Date: 2017-01-09
+2026-08-03 19:44:17,893 - INFO - Prediction: Supported
+2026-08-03 19:44:17,893 - INFO - ✓ Correct prediction
+2026-08-03 19:44:20,895 - INFO - ================================================================================
+2026-08-03 19:44:20,895 - INFO - Processing claim #126 (ID: tsver_test_138)
+2026-08-03 19:44:20,895 - INFO - Claim: "... we're [Australia] giving $10 billion a year in handouts to big coal and gas corporations and the fossil fuel industry ..."...
+2026-08-03 19:44:20,895 - INFO - Date: 2022-05-01
+2026-08-03 19:44:22,815 - INFO - Prediction: Misleading
+2026-08-03 19:44:22,815 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-08-03 19:44:25,819 - INFO - ================================================================================
+2026-08-03 19:44:25,819 - INFO - Processing claim #127 (ID: tsver_test_139)
+2026-08-03 19:44:25,820 - INFO - Claim: Drug overdose deaths [in the USA] decreased in 2018 for the first time in 30 years....
+2026-08-03 19:44:25,820 - INFO - Date: 2020-08-26
+2026-08-03 19:44:27,889 - INFO - Prediction: Supported
+2026-08-03 19:44:27,889 - INFO - ✗ Incorrect (True: Not Enough Information, Pred: Supported)
+2026-08-03 19:44:30,890 - INFO - ================================================================================
+2026-08-03 19:44:30,890 - INFO - Processing claim #128 (ID: tsver_test_140)
+2026-08-03 19:44:30,891 - INFO - Claim: Sub-Saharan Africa accounts for 24% of the global burden of disease....
+2026-08-03 19:44:30,891 - INFO - Date: 2022-04-01
+2026-08-03 19:44:32,997 - INFO - Prediction: Supported
+2026-08-03 19:44:32,997 - INFO - ✗ Incorrect (True: Refuted, Pred: Supported)
+2026-08-03 19:44:35,999 - INFO - ================================================================================
+2026-08-03 19:44:36,000 - INFO - Processing claim #129 (ID: tsver_test_141)
+2026-08-03 19:44:36,000 - INFO - Claim: The United States is now the No. 1 energy producer in the world. That happened just recently....
+2026-08-03 19:44:36,000 - INFO - Date: 2018-09-29
+2026-08-03 19:44:37,923 - INFO - Prediction: Supported
+2026-08-03 19:44:37,923 - INFO - ✓ Correct prediction
+2026-08-03 19:44:40,936 - INFO - ================================================================================
+2026-08-03 19:44:40,937 - INFO - Processing claim #130 (ID: tsver_test_142)
+2026-08-03 19:44:40,937 - INFO - Claim: Overdoses [in the USA] reached an all-time high in 2021....
+2026-08-03 19:44:40,937 - INFO - Date: 2022-08-23
+2026-08-03 19:44:45,753 - INFO - Prediction: Supported
+2026-08-03 19:44:45,753 - INFO - ✓ Correct prediction
+2026-08-03 19:44:48,755 - INFO - ================================================================================
+2026-08-03 19:44:48,755 - INFO - Processing claim #131 (ID: tsver_test_143)
+2026-08-03 19:44:48,755 - INFO - Claim: GDP growth was 3.1 percent, the first time in 14 years that we cracked 3, but the press tried to make it 2.9....
+2026-08-03 19:44:48,755 - INFO - Date: 2019-03-20
+2026-08-03 19:44:51,910 - INFO - Prediction: Misleading
+2026-08-03 19:44:51,910 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-08-03 19:44:54,912 - INFO - ================================================================================
+2026-08-03 19:44:54,913 - INFO - Processing claim #132 (ID: tsver_test_145)
+2026-08-03 19:44:54,913 - INFO - Claim: Republican North Dakota Gov. Doug Burgum said during a July 9 interview that there were 110,000 overdose deaths in 2022....
+2026-08-03 19:44:54,913 - INFO - Date: 2023-07-09
+2026-08-03 19:44:59,423 - INFO - Prediction: Supported
+2026-08-03 19:44:59,423 - INFO - ✗ Incorrect (True: Not Enough Information, Pred: Supported)
+2026-08-03 19:45:02,424 - INFO - ================================================================================
+2026-08-03 19:45:02,425 - INFO - Processing claim #133 (ID: tsver_test_146)
+2026-08-03 19:45:02,425 - INFO - Claim: Median income in this country [USA] is … $35,000 a year....
+2026-08-03 19:45:02,425 - INFO - Date: 2023-06-21
+2026-08-03 19:45:04,431 - INFO - Prediction: Misleading
+2026-08-03 19:45:04,432 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-08-03 19:45:07,433 - INFO - ================================================================================
+2026-08-03 19:45:07,433 - INFO - Processing claim #134 (ID: tsver_test_147)
+2026-08-03 19:45:07,433 - INFO - Claim: Our broad-based economic growth averaged 5.6% over the last 5 years......
+2026-08-03 19:45:07,433 - INFO - Date: 2019-04-04
+2026-08-03 19:45:14,099 - INFO - Prediction: Misleading
+2026-08-03 19:45:14,099 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-08-03 19:45:17,103 - INFO - ================================================================================
+2026-08-03 19:45:17,103 - INFO - Processing claim #135 (ID: tsver_test_148)
+2026-08-03 19:45:17,103 - INFO - Claim: Ethiopia's economy held up under pressure & reached $127.6 B, demonstrating that our economy is unbreakable & will continue to grow. The per capita in...
+2026-08-03 19:45:17,103 - INFO - Date: 2022-11-22
+2026-08-03 19:45:19,209 - INFO - Prediction: Misleading
+2026-08-03 19:45:19,209 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-08-03 19:45:22,212 - INFO - ================================================================================
+2026-08-03 19:45:22,213 - INFO - Processing claim #136 (ID: tsver_test_149)
+2026-08-03 19:45:22,213 - INFO - Claim: Income Inequality [in the USA] grew to largest in 50 years....
+2026-08-03 19:45:22,213 - INFO - Date: 2019-10-12
+2026-08-03 19:45:24,161 - INFO - Prediction: Supported
+2026-08-03 19:45:24,162 - INFO - ✓ Correct prediction
+2026-08-03 19:45:27,164 - INFO - ================================================================================
+2026-08-03 19:45:27,164 - INFO - Processing claim #137 (ID: tsver_test_151)
+2026-08-03 19:45:27,164 - INFO - Claim: Cows are a major source of greenhouse gas emissions....
+2026-08-03 19:45:27,164 - INFO - Date: 2021-04-27
+2026-08-03 19:45:29,423 - INFO - Prediction: Supported
+2026-08-03 19:45:29,423 - INFO - ✗ Incorrect (True: Refuted, Pred: Supported)
+2026-08-03 19:45:32,424 - INFO - ================================================================================
+2026-08-03 19:45:32,424 - INFO - Processing claim #138 (ID: tsver_test_152)
+2026-08-03 19:45:32,425 - INFO - Claim: …while Nigeria’s per capita income dropped by 20% between 2010 and 2021....
+2026-08-03 19:45:32,425 - INFO - Date: 2022-12-04
+2026-08-03 19:45:34,804 - INFO - Prediction: Supported
+2026-08-03 19:45:34,804 - INFO - ✗ Incorrect (True: Not Enough Information, Pred: Supported)
+2026-08-03 19:45:37,806 - INFO - ================================================================================
+2026-08-03 19:45:37,806 - INFO - Processing claim #139 (ID: tsver_test_153)
+2026-08-03 19:45:37,806 - INFO - Claim: China responsible for 90 per cent of the world’s carbon emissions....
+2026-08-03 19:45:37,806 - INFO - Date: 2019-12-07
+2026-08-03 19:45:41,068 - INFO - Prediction: Refuted
+2026-08-03 19:45:41,068 - INFO - ✓ Correct prediction
+2026-08-03 19:45:44,083 - INFO - ================================================================================
+2026-08-03 19:45:44,084 - INFO - Processing claim #140 (ID: tsver_test_154)
+2026-08-03 19:45:44,084 - INFO - Claim: No other country on the planet witnesses the number of gun deaths that we do here in the United States, and it’s not even close....
+2026-08-03 19:45:44,084 - INFO - Date: 2021-09-03
+2026-08-03 19:45:46,368 - INFO - Prediction: Misleading
+2026-08-03 19:45:46,368 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-08-03 19:45:49,370 - INFO - ================================================================================
+2026-08-03 19:45:49,371 - INFO - Processing claim #141 (ID: tsver_test_155)
+2026-08-03 19:45:49,371 - INFO - Claim: The UK has the lowest literacy rates in its history....
+2026-08-03 19:45:49,371 - INFO - Date: 2021-06-03
+2026-08-03 19:45:51,500 - INFO - Prediction: Refuted
+2026-08-03 19:45:51,500 - INFO - ✓ Correct prediction
+2026-08-03 19:45:54,501 - INFO - ================================================================================
+2026-08-03 19:45:54,501 - INFO - Processing claim #142 (ID: tsver_test_156)
+2026-08-03 19:45:54,501 - INFO - Claim: Democrats, including President Joe Biden, “stopped domestic drilling” for oil....
+2026-08-03 19:45:54,501 - INFO - Date: 2022-07-13
+2026-08-03 19:45:58,200 - INFO - Prediction: Misleading
+2026-08-03 19:45:58,201 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-08-03 19:46:01,203 - INFO - ================================================================================
+2026-08-03 19:46:01,204 - INFO - Processing claim #143 (ID: tsver_test_157)
+2026-08-03 19:46:01,204 - INFO - Claim: [Australia's] economic growth hasn't been this slow for 10 years since the global financial crisis....
+2026-08-03 19:46:01,204 - INFO - Date: 2019-07-02
+2026-08-03 19:46:03,406 - INFO - Prediction: Supported
+2026-08-03 19:46:03,406 - INFO - ✓ Correct prediction
+2026-08-03 19:46:06,408 - INFO - ================================================================================
+2026-08-03 19:46:06,408 - INFO - Processing claim #144 (ID: tsver_test_158)
+2026-08-03 19:46:06,408 - INFO - Claim: You know the murder rate in the United States, I don’t know if you know this because the press never talks about it, is the highest it’s been, think o...
+2026-08-03 19:46:06,408 - INFO - Date: 2016-10-26
+2026-08-03 19:46:12,471 - INFO - Prediction: Refuted
+2026-08-03 19:46:12,471 - INFO - ✓ Correct prediction
+2026-08-03 19:46:15,473 - INFO - ================================================================================
+2026-08-03 19:46:15,473 - INFO - Processing claim #145 (ID: tsver_test_159)
+2026-08-03 19:46:15,473 - INFO - Claim: In Canada, for a number of decades, they have provided quality care to all people without out-of-pocket expenses. You go in for cancer therapy, you do...
+2026-08-03 19:46:15,473 - INFO - Date: 2019-02-19
+2026-08-03 19:46:18,383 - INFO - Prediction: Supported
+2026-08-03 19:46:18,383 - INFO - ✗ Incorrect (True: Refuted, Pred: Supported)
+2026-08-03 19:46:21,386 - INFO - ================================================================================
+2026-08-03 19:46:21,386 - INFO - Processing claim #146 (ID: tsver_test_160)
+2026-08-03 19:46:21,386 - INFO - Claim: Since 1994, South Africa’s average GDP growth per year has been below 2.5%....
+2026-08-03 19:46:21,386 - INFO - Date: 2023-07-01
+2026-08-03 19:46:28,698 - INFO - Prediction: Misleading
+2026-08-03 19:46:28,698 - INFO - ✗ Incorrect (True: Supported, Pred: Misleading)
+2026-08-03 19:46:31,701 - INFO - ================================================================================
+2026-08-03 19:46:31,702 - INFO - Processing claim #147 (ID: tsver_test_161)
+2026-08-03 19:46:31,702 - INFO - Claim: The death toll from terrorism in Nigeria is far higher than 7,512 in the past year. It is at least 50,000....
+2026-08-03 19:46:31,702 - INFO - Date: 2018-01-15
+2026-08-03 19:46:34,223 - INFO - Prediction: Refuted
+2026-08-03 19:46:34,223 - INFO - ✓ Correct prediction
+2026-08-03 19:46:37,225 - INFO - ================================================================================
+2026-08-03 19:46:37,225 - INFO - Processing claim #148 (ID: tsver_test_162)
+2026-08-03 19:46:37,225 - INFO - Claim: Trump is the only U.S. president in the last 72 years (since 1952) not to "have any wars."...
+2026-08-03 19:46:37,225 - INFO - Date: 2024-01-11
+2026-08-03 19:46:39,297 - INFO - Prediction: Misleading
+2026-08-03 19:46:39,297 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-08-03 19:46:42,299 - INFO - ================================================================================
+2026-08-03 19:46:42,300 - INFO - Processing claim #149 (ID: tsver_test_163)
+2026-08-03 19:46:42,300 - INFO - Claim: The Philippines was the “most literate country” in Asia during the Ferdinand Marcos regime, and the literacy rate of the country dropped after he was ...
+2026-08-03 19:46:42,300 - INFO - Date: 2020-10-21
+2026-08-03 19:46:44,431 - INFO - Prediction: Misleading
+2026-08-03 19:46:44,432 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-08-03 19:46:47,443 - INFO - ================================================================================
+2026-08-03 19:46:47,443 - INFO - Processing claim #150 (ID: tsver_test_164)
+2026-08-03 19:46:47,443 - INFO - Claim: Poland has not been the target of any terror attacks....
+2026-08-03 19:46:47,443 - INFO - Date: 2023-06-26
+2026-08-03 19:46:49,856 - INFO - Prediction: Misleading
+2026-08-03 19:46:49,856 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-08-03 19:46:52,859 - INFO - ================================================================================
+2026-08-03 19:46:52,860 - INFO - Processing claim #151 (ID: tsver_test_165)
+2026-08-03 19:46:52,860 - INFO - Claim: No one has died of cancer or heart disease since the COVID-19 thing started....
+2026-08-03 19:46:52,860 - INFO - Date: 2020-08-14
+2026-08-03 19:46:55,373 - INFO - Prediction: Refuted
+2026-08-03 19:46:55,373 - INFO - ✓ Correct prediction
+2026-08-03 19:46:58,377 - INFO - ================================================================================
+2026-08-03 19:46:58,377 - INFO - Processing claim #152 (ID: tsver_test_167)
+2026-08-03 19:46:58,377 - INFO - Claim: Says the United States has doubled our use of renewable energy....
+2026-08-03 19:46:58,378 - INFO - Date: 2012-09-06
+2026-08-03 19:47:00,532 - INFO - Prediction: Misleading
+2026-08-03 19:47:00,532 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-08-03 19:47:03,534 - INFO - ================================================================================
+2026-08-03 19:47:03,534 - INFO - Processing claim #153 (ID: tsver_test_168)
+2026-08-03 19:47:03,534 - INFO - Claim: Income inequality [in the UK] is falling....
+2026-08-03 19:47:03,534 - INFO - Date: 2022-01-05
+2026-08-03 19:47:06,448 - INFO - Prediction: Refuted
+2026-08-03 19:47:06,448 - INFO - ✗ Incorrect (True: Supported, Pred: Refuted)
+2026-08-03 19:47:09,449 - INFO - ================================================================================
+2026-08-03 19:47:09,450 - INFO - Processing claim #154 (ID: tsver_test_169)
+2026-08-03 19:47:09,450 - INFO - Claim: They’ve [Palestinians] gotten more aid than any group of people in history....
+2026-08-03 19:47:09,450 - INFO - Date: 2019-05-02
+2026-08-03 19:47:12,133 - INFO - Prediction: Misleading
+2026-08-03 19:47:12,133 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-08-03 19:47:15,135 - INFO - ================================================================================
+2026-08-03 19:47:15,136 - INFO - Processing claim #155 (ID: tsver_test_170)
+2026-08-03 19:47:15,136 - INFO - Claim: Americans “currently are making less than at the height of the Great Depression.”...
+2026-08-03 19:47:15,136 - INFO - Date: 2023-08-23
+2026-08-03 19:47:17,652 - INFO - Prediction: Refuted
+2026-08-03 19:47:17,652 - INFO - ✗ Incorrect (True: Not Enough Information, Pred: Refuted)
+2026-08-03 19:47:20,653 - INFO - ================================================================================
+2026-08-03 19:47:20,653 - INFO - Processing claim #156 (ID: tsver_test_171)
+2026-08-03 19:47:20,653 - INFO - Claim: Kenya had a 7% GDP growth rate in 2007....
+2026-08-03 19:47:20,654 - INFO - Date: 2021-08-01
+2026-08-03 19:47:23,118 - INFO - Prediction: Refuted
+2026-08-03 19:47:23,118 - INFO - ✗ Incorrect (True: Supported, Pred: Refuted)
+2026-08-03 19:47:26,119 - INFO - ================================================================================
+2026-08-03 19:47:26,120 - INFO - Processing claim #157 (ID: tsver_test_172)
+2026-08-03 19:47:26,120 - INFO - Claim: Methane claims against cattle are overblown because all emissions from all livestock is only 3.9% of total US greenhouse gas emissions....
+2026-08-03 19:47:26,120 - INFO - Date: 2023-12-19
+2026-08-03 19:47:28,386 - INFO - Prediction: Misleading
+2026-08-03 19:47:28,386 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-08-03 19:47:31,389 - INFO - ================================================================================
+2026-08-03 19:47:31,389 - INFO - Processing claim #158 (ID: tsver_test_173)
+2026-08-03 19:47:31,389 - INFO - Claim: There's no subsidisation of Australia's fossil fuel industries....
+2026-08-03 19:47:31,390 - INFO - Date: 2020-06-01
+2026-08-03 19:47:33,509 - INFO - Prediction: Refuted
+2026-08-03 19:47:33,509 - INFO - ✓ Correct prediction
+2026-08-03 19:47:36,511 - INFO - ================================================================================
+2026-08-03 19:47:36,512 - INFO - Processing claim #159 (ID: tsver_test_174)
+2026-08-03 19:47:36,512 - INFO - Claim: Cardiovascular disease is the leading cause of death in South Africa after HIV/Aids....
+2026-08-03 19:47:36,512 - INFO - Date: 2020-09-29
+2026-08-03 19:47:43,600 - INFO - Prediction: Supported
+2026-08-03 19:47:43,601 - INFO - ✗ Incorrect (True: Not Enough Information, Pred: Supported)
+2026-08-03 19:47:46,606 - INFO - ================================================================================
+2026-08-03 19:47:46,606 - INFO - Processing claim #160 (ID: tsver_test_175)
+2026-08-03 19:47:46,606 - INFO - Claim: The number of drug-related deaths is the highest it’s ever been in this country [the UK] since the 90s....
+2026-08-03 19:47:46,606 - INFO - Date: 2018-06-21
+2026-08-03 19:47:49,028 - INFO - Prediction: Supported
+2026-08-03 19:47:49,028 - INFO - ✗ Incorrect (True: Not Enough Information, Pred: Supported)
+2026-08-03 19:47:52,030 - INFO - ================================================================================
+2026-08-03 19:47:52,031 - INFO - Processing claim #161 (ID: tsver_test_176)
+2026-08-03 19:47:52,031 - INFO - Claim: The OECD has ranked the UK as the third highest for education funding....
+2026-08-03 19:47:52,031 - INFO - Date: 2018-10-10
+2026-08-03 19:47:56,823 - INFO - Prediction: Misleading
+2026-08-03 19:47:56,823 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-08-03 19:47:59,825 - INFO - ================================================================================
+2026-08-03 19:47:59,825 - INFO - Processing claim #162 (ID: tsver_test_178)
+2026-08-03 19:47:59,825 - INFO - Claim: [India had] more terrorist attacks under NDA than UPA....
+2026-08-03 19:47:59,825 - INFO - Date: 2019-04-15
+2026-08-03 19:48:02,650 - INFO - Prediction: Misleading
+2026-08-03 19:48:02,650 - INFO - ✗ Incorrect (True: Supported, Pred: Misleading)
+2026-08-03 19:48:05,652 - INFO - ================================================================================
+2026-08-03 19:48:05,653 - INFO - Processing claim #163 (ID: tsver_test_179)
+2026-08-03 19:48:05,653 - INFO - Claim: I had no wars. I’m the only president in 72 years, I didn’t have any wars....
+2026-08-03 19:48:05,653 - INFO - Date: 2024-01-10
+2026-08-03 19:48:08,440 - INFO - Prediction: Refuted
+2026-08-03 19:48:08,440 - INFO - ✓ Correct prediction
+2026-08-03 19:48:11,442 - INFO - ================================================================================
+2026-08-03 19:48:11,443 - INFO - Processing claim #164 (ID: tsver_test_180)
+2026-08-03 19:48:11,443 - INFO - Claim: Ghana recorded average annual GDP growth rates of 7% between 2017 and 2019....
+2026-08-03 19:48:11,443 - INFO - Date: 2022-03-30
+2026-08-03 19:48:14,606 - INFO - Prediction: Supported
+2026-08-03 19:48:14,606 - INFO - ✓ Correct prediction
+2026-08-03 19:48:17,608 - INFO - ================================================================================
+2026-08-03 19:48:17,608 - INFO - Processing claim #165 (ID: tsver_test_181)
+2026-08-03 19:48:17,609 - INFO - Claim: Cocoa Production, which was at 960,000 metric tonnes in the 2016/2017 season, has now declined to below 500,000 metric tonnes....
+2026-08-03 19:48:17,609 - INFO - Date: 2024-02-15
+2026-08-03 19:48:20,103 - INFO - Prediction: Misleading
+2026-08-03 19:48:20,103 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-08-03 19:48:23,105 - INFO - ================================================================================
+2026-08-03 19:48:23,105 - INFO - Processing claim #166 (ID: tsver_test_182)
+2026-08-03 19:48:23,105 - INFO - Claim: The U.S. is “the largest energy producer in the world.”...
+2026-08-03 19:48:23,105 - INFO - Date: 2018-06-06
+2026-08-03 19:48:25,031 - INFO - Prediction: Supported
+2026-08-03 19:48:25,032 - INFO - ✓ Correct prediction
+2026-08-03 19:48:28,034 - INFO - ================================================================================
+2026-08-03 19:48:28,034 - INFO - Processing claim #167 (ID: tsver_test_184)
+2026-08-03 19:48:28,034 - INFO - Claim: We [USA] end up spending as a nation twice as much per capita on health care as do the people of any other country....
+2026-08-03 19:48:28,034 - INFO - Date: 2017-02-07
+2026-08-03 19:48:33,849 - INFO - Prediction: Supported
+2026-08-03 19:48:33,849 - INFO - ✗ Incorrect (True: Refuted, Pred: Supported)
+2026-08-03 19:48:36,852 - INFO - ================================================================================
+2026-08-03 19:48:36,852 - INFO - Processing claim #168 (ID: tsver_test_186)
+2026-08-03 19:48:36,852 - INFO - Claim: As president, Donald Trump “marshaled the full power of government to stop deadly drugs, opioids, and fentanyl from coming into our country. As a resu...
+2026-08-03 19:48:36,852 - INFO - Date: 2023-01-06
+2026-08-03 19:48:39,183 - INFO - Prediction: Misleading
+2026-08-03 19:48:39,183 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-08-03 19:48:42,185 - INFO - ================================================================================
+2026-08-03 19:48:42,185 - INFO - Processing claim #169 (ID: tsver_test_187)
+2026-08-03 19:48:42,186 - INFO - Claim: I want China to do well [in economic growth], and I hope they do well, but they’ve had now the worst year in 57 years....
+2026-08-03 19:48:42,186 - INFO - Date: 2019-09-09
+2026-08-03 19:48:46,087 - INFO - Prediction: Misleading
+2026-08-03 19:48:46,087 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-08-03 19:48:49,100 - INFO - ================================================================================
+2026-08-03 19:48:49,100 - INFO - Processing claim #170 (ID: tsver_test_190)
+2026-08-03 19:48:49,100 - INFO - Claim: We [Australia] are spending record amounts on hospitals, we are spending record amounts on health....
+2026-08-03 19:48:49,100 - INFO - Date: 2018-06-22
+2026-08-03 19:48:51,316 - INFO - Prediction: Supported
+2026-08-03 19:48:51,316 - INFO - ✓ Correct prediction
+2026-08-03 19:48:54,318 - INFO - ================================================================================
+2026-08-03 19:48:54,318 - INFO - Processing claim #171 (ID: tsver_test_191)
+2026-08-03 19:48:54,318 - INFO - Claim: [Russian's economic] development continues here ... Despite the difficult times, the country is developing and will continue to develop....
+2026-08-03 19:48:54,318 - INFO - Date: 2022-10-24
+2026-08-03 19:48:56,253 - INFO - Prediction: Misleading
+2026-08-03 19:48:56,253 - INFO - ✓ Correct prediction
+2026-08-03 19:48:59,255 - INFO - ================================================================================
+2026-08-03 19:48:59,255 - INFO - Processing claim #172 (ID: tsver_test_192)
+2026-08-03 19:48:59,256 - INFO - Claim: Statistics show the gap in [the UK's] income inequality is narrowing....
+2026-08-03 19:48:59,256 - INFO - Date: 2017-02-02
+2026-08-03 19:49:01,223 - INFO - Prediction: Misleading
+2026-08-03 19:49:01,224 - INFO - ✗ Incorrect (True: Supported, Pred: Misleading)
+2026-08-03 19:49:04,225 - INFO - ================================================================================
+2026-08-03 19:49:04,226 - INFO - Processing claim #173 (ID: tsver_test_194)
+2026-08-03 19:49:04,226 - INFO - Claim: The United States is "#1 in oil consumption" in the world....
+2026-08-03 19:49:04,226 - INFO - Date: 2019-08-25
+2026-08-03 19:49:06,440 - INFO - Prediction: Supported
+2026-08-03 19:49:06,441 - INFO - ✓ Correct prediction
+2026-08-03 19:49:09,443 - INFO - ================================================================================
+2026-08-03 19:49:09,443 - INFO - Processing claim #174 (ID: tsver_test_195)
+2026-08-03 19:49:09,444 - INFO - Claim: We [Kenya] have grown … our power generation 40 times....
+2026-08-03 19:49:09,444 - INFO - Date: 2022-06-01
+2026-08-03 19:49:13,821 - INFO - Prediction: Misleading
+2026-08-03 19:49:13,821 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-08-03 19:49:16,824 - INFO - ================================================================================
+2026-08-03 19:49:16,825 - INFO - Processing claim #175 (ID: tsver_test_198)
+2026-08-03 19:49:16,825 - INFO - Claim: The United States has “dropped off” a list of the 20 most democratic countries in the world....
+2026-08-03 19:49:16,825 - INFO - Date: 2018-10-12
+2026-08-03 19:49:20,831 - INFO - Prediction: Misleading
+2026-08-03 19:49:20,831 - INFO - ✗ Incorrect (True: Supported, Pred: Misleading)
+2026-08-03 19:49:23,833 - INFO - ================================================================================
+2026-08-03 19:49:23,834 - INFO - Processing claim #176 (ID: tsver_test_199)
+2026-08-03 19:49:23,834 - INFO - Claim: A World Health Organization report: "More people are dying of TB."...
+2026-08-03 19:49:23,834 - INFO - Date: 2016-10-12
+2026-08-03 19:49:28,015 - INFO - Prediction: Supported
+2026-08-03 19:49:28,015 - INFO - ✗ Incorrect (True: Refuted, Pred: Supported)
+2026-08-03 19:49:31,017 - INFO - ================================================================================
+2026-08-03 19:49:31,017 - INFO - Processing claim #177 (ID: tsver_test_200)
+2026-08-03 19:49:31,017 - INFO - Claim: Former president Mwai Kibaki raised GDP growth to 7%....
+2026-08-03 19:49:31,017 - INFO - Date: 2023-02-01
+2026-08-03 19:49:33,679 - INFO - Prediction: Misleading
+2026-08-03 19:49:33,679 - INFO - ✓ Correct prediction
+2026-08-03 19:49:36,682 - INFO - ================================================================================
+2026-08-03 19:49:36,683 - INFO - Processing claim #178 (ID: tsver_test_201)
+2026-08-03 19:49:36,683 - INFO - Claim: The average rate of growth of the [Uganda's] economy ever since 1986 has been 6.3% per annum....
+2026-08-03 19:49:36,683 - INFO - Date: 2018-12-31
+2026-08-03 19:49:39,871 - INFO - Prediction: Misleading
+2026-08-03 19:49:39,871 - INFO - ✗ Incorrect (True: Supported, Pred: Misleading)
+2026-08-03 19:49:42,873 - INFO - ================================================================================
+2026-08-03 19:49:42,873 - INFO - Processing claim #179 (ID: tsver_test_202)
+2026-08-03 19:49:42,873 - INFO - Claim: Nigeria has more people living in multidimensional poverty than India....
+2026-08-03 19:49:42,873 - INFO - Date: 2022-12-04
+2026-08-03 19:49:45,609 - INFO - Prediction: Misleading
+2026-08-03 19:49:45,609 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-08-03 19:49:48,624 - INFO - ================================================================================
+2026-08-03 19:49:48,624 - INFO - Processing claim #180 (ID: tsver_test_203)
+2026-08-03 19:49:48,624 - INFO - Claim: Since 1961, Africa has witnessed a one-third reduction in agricultural productivity due to climate change....
+2026-08-03 19:49:48,624 - INFO - Date: 2023-09-01
+2026-08-03 19:49:50,642 - INFO - Prediction: Supported
+2026-08-03 19:49:50,642 - INFO - ✗ Incorrect (True: Not Enough Information, Pred: Supported)
+2026-08-03 19:49:53,644 - INFO - ================================================================================
+2026-08-03 19:49:53,644 - INFO - Processing claim #181 (ID: tsver_test_204)
+2026-08-03 19:49:53,644 - INFO - Claim: The range of freedom of speech actually practiced in Russia is greater than anywhere else on the planet....
+2026-08-03 19:49:53,644 - INFO - Date: 2019-06-11
+2026-08-03 19:49:55,706 - INFO - Prediction: Refuted
+2026-08-03 19:49:55,706 - INFO - ✓ Correct prediction
+2026-08-03 19:49:58,707 - INFO - ================================================================================
+2026-08-03 19:49:58,707 - INFO - Processing claim #182 (ID: tsver_test_205)
+2026-08-03 19:49:58,708 - INFO - Claim: We [USA] had no terrorist attacks at all during my four years....
+2026-08-03 19:49:58,708 - INFO - Date: 2024-01-10
+2026-08-03 19:50:00,215 - INFO - Prediction: Refuted
+2026-08-03 19:50:00,215 - INFO - ✓ Correct prediction
+2026-08-03 19:50:03,217 - INFO - ================================================================================
+2026-08-03 19:50:03,217 - INFO - Processing claim #183 (ID: tsver_test_206)
+2026-08-03 19:50:03,217 - INFO - Claim: Drowning is the second leading cause of accidental death in South Africa after road accidents....
+2026-08-03 19:50:03,217 - INFO - Date: 2021-07-01
+2026-08-03 19:50:05,345 - INFO - Prediction: Supported
+2026-08-03 19:50:05,345 - INFO - ✗ Incorrect (True: Refuted, Pred: Supported)
+2026-08-03 19:50:08,346 - INFO - ================================================================================
+2026-08-03 19:50:08,346 - INFO - Processing claim #184 (ID: tsver_test_207)
+2026-08-03 19:50:08,346 - INFO - Claim: The UK’s child literacy and numeracy rates consistently languish either at or near the bottom of every international table....
+2026-08-03 19:50:08,346 - INFO - Date: 2021-06-03
+2026-08-03 19:50:11,745 - INFO - Prediction: Refuted
+2026-08-03 19:50:11,745 - INFO - ✓ Correct prediction
+2026-08-03 19:50:14,748 - INFO - ================================================================================
+2026-08-03 19:50:14,748 - INFO - Processing claim #185 (ID: tsver_test_208)
+2026-08-03 19:50:14,748 - INFO - Claim: Over a million Africans die in road accidents every year....
+2026-08-03 19:50:14,748 - INFO - Date: 2021-05-26
+2026-08-03 19:50:19,763 - INFO - Prediction: Refuted
+2026-08-03 19:50:19,763 - INFO - ✓ Correct prediction
+2026-08-03 19:50:22,765 - INFO - ================================================================================
+2026-08-03 19:50:22,766 - INFO - Processing claim #186 (ID: tsver_test_211)
+2026-08-03 19:50:22,766 - INFO - Claim: Bangladesh tripled its per capita income between 2010 and 2021 ......
+2026-08-03 19:50:22,766 - INFO - Date: 2022-12-04
+2026-08-03 19:50:24,700 - INFO - Prediction: Supported
+2026-08-03 19:50:24,700 - INFO - ✗ Incorrect (True: Not Enough Information, Pred: Supported)
+2026-08-03 19:50:27,703 - INFO - ================================================================================
+2026-08-03 19:50:27,703 - INFO - Processing claim #187 (ID: tsver_test_212)
+2026-08-03 19:50:27,703 - INFO - Claim: [South Africa's multidimensional poverty] is also continuing to move further down....
+2026-08-03 19:50:27,703 - INFO - Date: 2023-07-01
+2026-08-03 19:50:30,665 - INFO - Prediction: Supported
+2026-08-03 19:50:30,666 - INFO - ✗ Incorrect (True: Not Enough Information, Pred: Supported)
+2026-08-03 19:50:33,668 - INFO - ================================================================================
+2026-08-03 19:50:33,669 - INFO - Processing claim #188 (ID: tsver_test_213)
+2026-08-03 19:50:33,669 - INFO - Claim: In economic growth, Obama's best year was slower than Bill Clinton's worst year....
+2026-08-03 19:50:33,669 - INFO - Date: 2017-07-23
+2026-08-03 19:50:36,004 - INFO - Prediction: Misleading
+2026-08-03 19:50:36,004 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-08-03 19:50:39,006 - INFO - ================================================================================
+2026-08-03 19:50:39,006 - INFO - Processing claim #189 (ID: tsver_test_215)
+2026-08-03 19:50:39,006 - INFO - Claim: More soldiers killed [in India] due to terrorist activities under NDA than UPA....
+2026-08-03 19:50:39,006 - INFO - Date: 2019-04-15
+2026-08-03 19:50:41,416 - INFO - Prediction: Misleading
+2026-08-03 19:50:41,416 - INFO - ✗ Incorrect (True: Supported, Pred: Misleading)
+2026-08-03 19:50:44,430 - INFO - ================================================================================
+2026-08-03 19:50:44,430 - INFO - Processing claim #190 (ID: tsver_test_217)
+2026-08-03 19:50:44,430 - INFO - Claim: [USA] coal production up 7% in past year. Down 31.5% last 10 years. #endingwaroncoal....
+2026-08-03 19:50:44,430 - INFO - Date: 2017-10-31
+2026-08-03 19:50:46,115 - INFO - Prediction: Misleading
+2026-08-03 19:50:46,115 - INFO - ✗ Incorrect (True: Supported, Pred: Misleading)
+2026-08-03 19:50:49,118 - INFO - ================================================================================
+2026-08-03 19:50:49,118 - INFO - Processing claim #191 (ID: tsver_test_218)
+2026-08-03 19:50:49,118 - INFO - Claim: 85% Indians trust their government....
+2026-08-03 19:50:49,118 - INFO - Date: 2017-10-17
+2026-08-03 19:50:52,938 - INFO - Prediction: Misleading
+2026-08-03 19:50:52,938 - INFO - ✗ Incorrect (True: Not Enough Information, Pred: Misleading)
+2026-08-03 19:50:55,939 - INFO - ================================================================================
+2026-08-03 19:50:55,939 - INFO - Processing claim #192 (ID: tsver_test_219)
+2026-08-03 19:50:55,939 - INFO - Claim: Americans are 25x more likely to be shot & killed than others in developed countries....
+2026-08-03 19:50:55,939 - INFO - Date: 2017-06-02
+2026-08-03 19:50:57,732 - INFO - Prediction: Supported
+2026-08-03 19:50:57,732 - INFO - ✓ Correct prediction
+2026-08-03 19:51:00,734 - INFO - ================================================================================
+2026-08-03 19:51:00,734 - INFO - Processing claim #193 (ID: tsver_test_220)
+2026-08-03 19:51:00,734 - INFO - Claim: In 2010, Bangladesh’s per capita income was one-third of Nigeria’s....
+2026-08-03 19:51:00,734 - INFO - Date: 2022-12-04
+2026-08-03 19:51:03,291 - INFO - Prediction: Refuted
+2026-08-03 19:51:03,291 - INFO - ✗ Incorrect (True: Not Enough Information, Pred: Refuted)
+2026-08-03 19:51:06,293 - INFO - ================================================================================
+2026-08-03 19:51:06,294 - INFO - Processing claim #194 (ID: tsver_test_221)
+2026-08-03 19:51:06,294 - INFO - Claim: India’s coal production increased recently....
+2026-08-03 19:51:06,294 - INFO - Date: 2022-05-03
+2026-08-03 19:51:08,571 - INFO - Prediction: Supported
+2026-08-03 19:51:08,571 - INFO - ✓ Correct prediction
+2026-08-03 19:51:11,573 - INFO - ================================================================================
+2026-08-03 19:51:11,573 - INFO - Processing claim #195 (ID: tsver_test_222)
+2026-08-03 19:51:11,574 - INFO - Claim: Our [Russian] mass media is free. People are free to speak out and make a name for themselves as representatives of many political movements do....
+2026-08-03 19:51:11,574 - INFO - Date: 2018-06-11
+2026-08-03 19:51:13,848 - INFO - Prediction: Refuted
+2026-08-03 19:51:13,848 - INFO - ✓ Correct prediction
+2026-08-03 19:51:16,850 - INFO - ================================================================================
+2026-08-03 19:51:16,851 - INFO - Processing claim #196 (ID: tsver_test_223)
+2026-08-03 19:51:16,851 - INFO - Claim: Ireland has the fastest growing economy in the Eurozone....
+2026-08-03 19:51:16,851 - INFO - Date: 2021-02-25
+2026-08-03 19:51:19,298 - INFO - Prediction: Supported
+2026-08-03 19:51:19,298 - INFO - ✓ Correct prediction
+2026-08-03 19:51:22,301 - INFO - ================================================================================
+2026-08-03 19:51:22,301 - INFO - Processing claim #197 (ID: tsver_test_224)
+2026-08-03 19:51:22,301 - INFO - Claim: South Africa has one of the highest unemployment rates in the world....
+2026-08-03 19:51:22,301 - INFO - Date: 2013-11-09
+2026-08-03 19:51:24,142 - INFO - Prediction: Supported
+2026-08-03 19:51:24,142 - INFO - ✓ Correct prediction
+2026-08-03 19:51:27,143 - INFO - ================================================================================
+2026-08-03 19:51:27,143 - INFO - Processing claim #198 (ID: tsver_test_225)
+2026-08-03 19:51:27,144 - INFO - Claim: The past [Obama] administration never had a whole year of 3 percent growth....
+2026-08-03 19:51:27,144 - INFO - Date: 2017-03-06
+2026-08-03 19:51:29,376 - INFO - Prediction: Refuted
+2026-08-03 19:51:29,377 - INFO - ✗ Incorrect (True: Supported, Pred: Refuted)
+2026-08-03 19:51:32,378 - INFO - ================================================================================
+2026-08-03 19:51:32,379 - INFO - Processing claim #199 (ID: tsver_test_227)
+2026-08-03 19:51:32,379 - INFO - Claim: Universal Primary Education [launched in 1996] and Universal Secondary Education [launched in 2007] have raised the level of the adult literacy rate [...
+2026-08-03 19:51:32,379 - INFO - Date: 2018-12-31
+2026-08-03 19:51:34,140 - INFO - Prediction: Misleading
+2026-08-03 19:51:34,140 - INFO - ✗ Incorrect (True: Not Enough Information, Pred: Misleading)
+2026-08-03 19:51:37,153 - INFO - ================================================================================
+2026-08-03 19:51:37,153 - INFO - Processing claim #200 (ID: tsver_test_228)
+2026-08-03 19:51:37,153 - INFO - Claim: Today, adult literacy in Singapore is 98%, while adult literacy in Nigeria is just 57%....
+2026-08-03 19:51:37,153 - INFO - Date: 2016-11-28
+2026-08-03 19:51:39,151 - INFO - Prediction: Supported
+2026-08-03 19:51:39,152 - INFO - ✓ Correct prediction
+2026-08-03 19:51:42,154 - INFO - ================================================================================
+2026-08-03 19:51:42,154 - INFO - Processing claim #201 (ID: tsver_test_230)
+2026-08-03 19:51:42,154 - INFO - Claim: Women’s unemployment has been lower under President Trump than it’s been in nearly 70 years....
+2026-08-03 19:51:42,155 - INFO - Date: 2019-08-27
+2026-08-03 19:51:45,050 - INFO - Prediction: Supported
+2026-08-03 19:51:45,050 - INFO - ✗ Incorrect (True: Not Enough Information, Pred: Supported)
+2026-08-03 19:51:48,051 - INFO - ================================================================================
+2026-08-03 19:51:48,051 - INFO - Processing claim #202 (ID: tsver_test_231)
+2026-08-03 19:51:48,051 - INFO - Claim: The United States is “the only major industrial economy to have its unemployment rate more than double” since the coronavirus pandemic began....
+2026-08-03 19:51:48,052 - INFO - Date: 2020-08-19
+2026-08-03 19:51:51,409 - INFO - Prediction: Refuted
+2026-08-03 19:51:51,409 - INFO - ✗ Incorrect (True: Supported, Pred: Refuted)
+2026-08-03 19:51:54,410 - INFO - ================================================================================
+2026-08-03 19:51:54,411 - INFO - Processing claim #203 (ID: tsver_test_232)
+2026-08-03 19:51:54,411 - INFO - Claim: Australia spends twice what Taiwan spends on the military, despite having about the same population and similarly sized economies....
+2026-08-03 19:51:54,411 - INFO - Date: 2024-04-28
+2026-08-03 19:51:59,430 - INFO - Prediction: Misleading
+2026-08-03 19:51:59,431 - INFO - ✗ Incorrect (True: Supported, Pred: Misleading)
+2026-08-03 19:52:02,432 - INFO - ================================================================================
+2026-08-03 19:52:02,433 - INFO - Processing claim #204 (ID: tsver_test_233)
+2026-08-03 19:52:02,433 - INFO - Claim: [USA's] GDP Rate is higher than the Unemployment Rate for the first time in over 10 years!...
+2026-08-03 19:52:02,433 - INFO - Date: 2018-09-10
+2026-08-03 19:52:05,397 - INFO - Prediction: Misleading
+2026-08-03 19:52:05,398 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-08-03 19:52:08,399 - INFO - ================================================================================
+2026-08-03 19:52:08,399 - INFO - Processing claim #205 (ID: tsver_test_234)
+2026-08-03 19:52:08,400 - INFO - Claim: The US has made strides in reducing greenhouse gas emissions that other parts of the world have not....
+2026-08-03 19:52:08,400 - INFO - Date: 2022-02-03
+2026-08-03 19:52:11,153 - INFO - Prediction: Misleading
+2026-08-03 19:52:11,153 - INFO - ✓ Correct prediction
+2026-08-03 19:52:14,156 - INFO - ================================================================================
+2026-08-03 19:52:14,157 - INFO - Processing claim #206 (ID: tsver_test_235)
+2026-08-03 19:52:14,157 - INFO - Claim: In fact the GDP since I’ve taken over has doubled and tripled....
+2026-08-03 19:52:14,157 - INFO - Date: 2018-07-13
+2026-08-03 19:52:16,245 - INFO - Prediction: Misleading
+2026-08-03 19:52:16,245 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-08-03 19:52:19,247 - INFO - ================================================================================
+2026-08-03 19:52:19,247 - INFO - Processing claim #207 (ID: tsver_test_236)
+2026-08-03 19:52:19,247 - INFO - Claim: COVID-19 hasn't increased annual U.S. death rates....
+2026-08-03 19:52:19,247 - INFO - Date: 2020-12-26
+2026-08-03 19:52:25,978 - INFO - Prediction: Refuted
+2026-08-03 19:52:25,979 - INFO - ✓ Correct prediction
+2026-08-03 19:52:28,981 - INFO - ================================================================================
+2026-08-03 19:52:28,982 - INFO - Processing claim #208 (ID: tsver_test_237)
+2026-08-03 19:52:28,982 - INFO - Claim: The U.S. defense budget is 4.2 percent of the nation’s gross domestic product....
+2026-08-03 19:52:28,982 - INFO - Date: 2018-07-11
+2026-08-03 19:52:32,050 - INFO - Prediction: Misleading
+2026-08-03 19:52:32,051 - INFO - ✗ Incorrect (True: Supported, Pred: Misleading)
+2026-08-03 19:52:35,052 - INFO - ================================================================================
+2026-08-03 19:52:35,053 - INFO - Processing claim #209 (ID: tsver_test_238)
+2026-08-03 19:52:35,053 - INFO - Claim: India’s annual GDP growth rate went lower than Pakistan’s annual GDP growth rate for the first time in the last 70 years....
+2026-08-03 19:52:35,053 - INFO - Date: 2019-09-02
+2026-08-03 19:52:38,107 - INFO - Prediction: Refuted
+2026-08-03 19:52:38,108 - INFO - ✓ Correct prediction
+2026-08-03 19:52:41,118 - INFO - ================================================================================
+2026-08-03 19:52:41,118 - INFO - Processing claim #210 (ID: tsver_test_239)
+2026-08-03 19:52:41,118 - INFO - Claim: Brazil is already an example in energy generation, with 83% coming from renewable sources....
+2026-08-03 19:52:41,118 - INFO - Date: 2021-09-21
+2026-08-03 19:52:44,378 - INFO - Prediction: Supported
+2026-08-03 19:52:44,378 - INFO - ✓ Correct prediction
+2026-08-03 19:52:47,381 - INFO - ================================================================================
+2026-08-03 19:52:47,382 - INFO - Processing claim #211 (ID: tsver_test_240)
+2026-08-03 19:52:47,382 - INFO - Claim: America’s economy achieves 3 percent growth for the first time in 13 years....
+2026-08-03 19:52:47,382 - INFO - Date: 2019-02-28
+2026-08-03 19:52:49,330 - INFO - Prediction: Misleading
+2026-08-03 19:52:49,330 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-08-03 19:52:52,332 - INFO - ================================================================================
+2026-08-03 19:52:52,333 - INFO - Processing claim #212 (ID: tsver_test_241)
+2026-08-03 19:52:52,333 - INFO - Claim: Today, we [Nigeria] have the highest unemployment rate in the history of our country....
+2026-08-03 19:52:52,333 - INFO - Date: 2018-07-21
+2026-08-03 19:52:56,576 - INFO - Prediction: Misleading
+2026-08-03 19:52:56,576 - INFO - ✗ Incorrect (True: Not Enough Information, Pred: Misleading)
+2026-08-03 19:52:59,578 - INFO - ================================================================================
+2026-08-03 19:52:59,578 - INFO - Processing claim #213 (ID: tsver_test_242)
+2026-08-03 19:52:59,578 - INFO - Claim: Our [Kenya's] unemployment rate is over 40%....
+2026-08-03 19:52:59,578 - INFO - Date: 2017-07-17
+2026-08-03 19:53:04,072 - INFO - Prediction: Refuted
+2026-08-03 19:53:04,072 - INFO - ✓ Correct prediction
+2026-08-03 19:53:07,074 - INFO - ================================================================================
+2026-08-03 19:53:07,074 - INFO - Processing claim #214 (ID: tsver_test_243)
+2026-08-03 19:53:07,075 - INFO - Claim: BRICS now controls 80% of the world's oil....
+2026-08-03 19:53:07,075 - INFO - Date: 2023-08-27
+2026-08-03 19:53:09,441 - INFO - Prediction: Refuted
+2026-08-03 19:53:09,441 - INFO - ✓ Correct prediction
+2026-08-03 19:53:12,443 - INFO - ================================================================================
+2026-08-03 19:53:12,443 - INFO - Processing claim #215 (ID: tsver_test_244)
+2026-08-03 19:53:12,444 - INFO - Claim: The U.S. recorded its slowest economic growth in five years....
+2026-08-03 19:53:12,444 - INFO - Date: 2017-04-26
+2026-08-03 19:53:14,979 - INFO - Prediction: Misleading
+2026-08-03 19:53:14,979 - INFO - ✗ Incorrect (True: Supported, Pred: Misleading)
+2026-08-03 19:53:17,981 - INFO - ================================================================================
+2026-08-03 19:53:17,982 - INFO - Processing claim #216 (ID: tsver_test_245)
+2026-08-03 19:53:17,982 - INFO - Claim: Tuberculosis cases are rising in the United States....
+2026-08-03 19:53:17,982 - INFO - Date: 2024-04-04
+2026-08-03 19:53:24,248 - INFO - Prediction: Supported
+2026-08-03 19:53:24,248 - INFO - ✓ Correct prediction
+2026-08-03 19:53:27,249 - INFO - ================================================================================
+2026-08-03 19:53:27,250 - INFO - Processing claim #217 (ID: tsver_test_246)
+2026-08-03 19:53:27,250 - INFO - Claim: We [USA] have lost more lives in the last two years due to opioids than all of the lives lost during the Vietnam War [approximately 58,220 U.S. deaths...
+2026-08-03 19:53:27,250 - INFO - Date: 2018-10-24
+2026-08-03 19:53:33,310 - INFO - Prediction: Supported
+2026-08-03 19:53:33,310 - INFO - ✓ Correct prediction
+2026-08-03 19:53:36,312 - INFO - ================================================================================
+2026-08-03 19:53:36,313 - INFO - Processing claim #218 (ID: tsver_test_247)
+2026-08-03 19:53:36,313 - INFO - Claim: Ghana’s economic growth to be one of the fastest in the world, with 7% average growth over the last 3 years....
+2026-08-03 19:53:36,313 - INFO - Date: 2019-12-13
+2026-08-03 19:53:38,520 - INFO - Prediction: Misleading
+2026-08-03 19:53:38,520 - INFO - ✗ Incorrect (True: Supported, Pred: Misleading)
+2026-08-03 19:53:41,522 - INFO - ================================================================================
+2026-08-03 19:53:41,523 - INFO - Processing claim #219 (ID: tsver_test_248)
+2026-08-03 19:53:41,523 - INFO - Claim: The 3.7% unemployment rate is nearly a 50-year low in our country [in the USA]....
+2026-08-03 19:53:41,523 - INFO - Date: 2022-09-13
+2026-08-03 19:53:43,126 - INFO - Prediction: Supported
+2026-08-03 19:53:43,126 - INFO - ✗ Incorrect (True: Not Enough Information, Pred: Supported)
+2026-08-03 19:53:46,136 - INFO - ================================================================================
+2026-08-03 19:53:46,136 - INFO - Processing claim #220 (ID: tsver_test_250)
+2026-08-03 19:53:46,136 - INFO - Claim: 2016 was 3.4% GDP growth [in Ghana]. And you know what that meant? It was the lowest GDP growth for the whole of the fourth republic....
+2026-08-03 19:53:46,137 - INFO - Date: 2020-07-22
+2026-08-03 19:53:48,084 - INFO - Prediction: Misleading
+2026-08-03 19:53:48,085 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-08-03 19:53:51,087 - INFO - ================================================================================
+2026-08-03 19:53:51,087 - INFO - Processing claim #221 (ID: tsver_test_251)
+2026-08-03 19:53:51,088 - INFO - Claim: British workers put in longer hours for lower pay than German workers....
+2026-08-03 19:53:51,088 - INFO - Date: 2016-11-23
+2026-08-03 19:53:52,938 - INFO - Prediction: Supported
+2026-08-03 19:53:52,938 - INFO - ✗ Incorrect (True: Not Enough Information, Pred: Supported)
+2026-08-03 19:53:55,940 - INFO - ================================================================================
+2026-08-03 19:53:55,940 - INFO - Processing claim #222 (ID: tsver_test_252)
+2026-08-03 19:53:55,941 - INFO - Claim: The number of UK deaths was 610,000 in 2000, 612,000 in 2003, 552,000 in 2011, 603,000 in 2015 and 616,000 in 2018....
+2026-08-03 19:53:55,941 - INFO - Date: 2020-10-11
+2026-08-03 19:53:58,340 - INFO - Prediction: Misleading
+2026-08-03 19:53:58,340 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-08-03 19:54:01,341 - INFO - ================================================================================
+2026-08-03 19:54:01,341 - INFO - Processing claim #223 (ID: tsver_test_253)
+2026-08-03 19:54:01,341 - INFO - Claim: “Alarming” rise of measles cases in Europe. Measles infections increased more than 45-fold in one year....
+2026-08-03 19:54:01,342 - INFO - Date: 2024-02-01
+2026-08-03 19:54:03,737 - INFO - Prediction: Supported
+2026-08-03 19:54:03,737 - INFO - ✗ Incorrect (True: Misleading, Pred: Supported)
+2026-08-03 19:54:06,739 - INFO - ================================================================================
+2026-08-03 19:54:06,739 - INFO - Processing claim #224 (ID: tsver_test_254)
+2026-08-03 19:54:06,739 - INFO - Claim: Last year our [South Africa's] unemployment rate reached its highest recorded level since 2008....
+2026-08-03 19:54:06,739 - INFO - Date: 2022-02-01
+2026-08-03 19:54:09,573 - INFO - Prediction: Supported
+2026-08-03 19:54:09,573 - INFO - ✓ Correct prediction
+2026-08-03 19:54:12,574 - INFO - ================================================================================
+2026-08-03 19:54:12,574 - INFO - Processing claim #225 (ID: tsver_test_255)
+2026-08-03 19:54:12,574 - INFO - Claim: The share of [India’s] GDP allocated for education (primary, secondary and tertiary) saw an increase from 3.29 per cent in 2004-2005 to 3.83 per cent ...
+2026-08-03 19:54:12,575 - INFO - Date: 2018-05-18
+2026-08-03 19:54:14,687 - INFO - Prediction: Supported
+2026-08-03 19:54:14,687 - INFO - ✓ Correct prediction
+2026-08-03 19:54:17,689 - INFO - ================================================================================
+2026-08-03 19:54:17,690 - INFO - Processing claim #226 (ID: tsver_test_256)
+2026-08-03 19:54:17,690 - INFO - Claim: The share of public health expenditure to GDP of the country [India] was doubled from a mere 0.13% in 2000-01 to 0.26% in 2010-11 respectively....
+2026-08-03 19:54:17,690 - INFO - Date: 2018-05-18
+2026-08-03 19:54:20,760 - INFO - Prediction: Misleading
+2026-08-03 19:54:20,760 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-08-03 19:54:23,763 - INFO - ================================================================================
+2026-08-03 19:54:23,763 - INFO - Processing claim #227 (ID: tsver_test_257)
+2026-08-03 19:54:23,763 - INFO - Claim: Adult literacy [in South Africa] now stands at 85%....
+2026-08-03 19:54:23,763 - INFO - Date: 2024-01-01
+2026-08-03 19:54:27,612 - INFO - Prediction: Misleading
+2026-08-03 19:54:27,612 - INFO - ✗ Incorrect (True: Not Enough Information, Pred: Misleading)
+2026-08-03 19:54:30,613 - INFO - ================================================================================
+2026-08-03 19:54:30,613 - INFO - Processing claim #228 (ID: tsver_test_258)
+2026-08-03 19:54:30,613 - INFO - Claim: We [the UK] are on course to have a death toll this year in line with recent years....
+2026-08-03 19:54:30,613 - INFO - Date: 2020-10-11
+2026-08-03 19:54:32,546 - INFO - Prediction: Refuted
+2026-08-03 19:54:32,547 - INFO - ✓ Correct prediction
+2026-08-03 19:54:35,548 - INFO - ================================================================================
+2026-08-03 19:54:35,549 - INFO - Processing claim #229 (ID: tsver_test_259)
+2026-08-03 19:54:35,549 - INFO - Claim: If we take the period from 1999 to 2008, the average annual growth rate [in Russia] for this decade was 6.9%. ... But, over the past six years, our GD...
+2026-08-03 19:54:35,549 - INFO - Date: 2019-06-27
+2026-08-03 19:54:40,276 - INFO - Prediction: Misleading
+2026-08-03 19:54:40,276 - INFO - ✗ Incorrect (True: Supported, Pred: Misleading)
+2026-08-03 19:54:43,289 - INFO - ================================================================================
+2026-08-03 19:54:43,289 - INFO - Processing claim #230 (ID: tsver_test_260)
+2026-08-03 19:54:43,289 - INFO - Claim: The UK spends less as a percentage of GDP on the NHS than France or Germany....
+2026-08-03 19:54:43,290 - INFO - Date: 2016-09-23
+2026-08-03 19:54:45,788 - INFO - Prediction: Supported
+2026-08-03 19:54:45,789 - INFO - ✓ Correct prediction
+2026-08-03 19:54:48,791 - INFO - ================================================================================
+2026-08-03 19:54:48,791 - INFO - Processing claim #231 (ID: tsver_test_261)
+2026-08-03 19:54:48,791 - INFO - Claim: U.S. recorded roughly 2.9 million deaths in 2020 — almost the same total as previous years — despite COVID-19....
+2026-08-03 19:54:48,791 - INFO - Date: 2021-01-05
+2026-08-03 19:54:51,157 - INFO - Prediction: Misleading
+2026-08-03 19:54:51,157 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-08-03 19:54:54,159 - INFO - ================================================================================
+2026-08-03 19:54:54,159 - INFO - Processing claim #232 (ID: tsver_test_262)
+2026-08-03 19:54:54,159 - INFO - Claim: When the Conservative party came into government [UK; 2010] it was met with record unemployment....
+2026-08-03 19:54:54,159 - INFO - Date: 2022-10-03
+2026-08-03 19:54:55,990 - INFO - Prediction: Misleading
+2026-08-03 19:54:55,990 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-08-03 19:54:58,992 - INFO - ================================================================================
+2026-08-03 19:54:58,992 - INFO - Processing claim #233 (ID: tsver_test_263)
+2026-08-03 19:54:58,992 - INFO - Claim: The Philippines’ economic growth rates were 3.7%, 3.2%, and 4.2% from 2010 to 2016....
+2026-08-03 19:54:58,993 - INFO - Date: 2021-07-13
+2026-08-03 19:55:01,049 - INFO - Prediction: Refuted
+2026-08-03 19:55:01,050 - INFO - ✓ Correct prediction
+2026-08-03 19:55:04,052 - INFO - ================================================================================
+2026-08-03 19:55:04,053 - INFO - Processing claim #234 (ID: tsver_test_264)
+2026-08-03 19:55:04,053 - INFO - Claim: India’s GDP in current prices increased by 31% between 2013 and 2017 while the global GDP increased by 4%....
+2026-08-03 19:55:04,053 - INFO - Date: 2018-05-26
+2026-08-03 19:55:05,898 - INFO - Prediction: Misleading
+2026-08-03 19:55:05,899 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-08-03 19:55:08,900 - INFO - ================================================================================
+2026-08-03 19:55:08,901 - INFO - Processing claim #235 (ID: tsver_test_265)
+2026-08-03 19:55:08,901 - INFO - Claim: GDP growth rate [in India] was 8.02% during the UPA government’s tenure while it is only 5% under NDA government....
+2026-08-03 19:55:08,901 - INFO - Date: 2019-09-02
+2026-08-03 19:55:11,503 - INFO - Prediction: Misleading
+2026-08-03 19:55:11,503 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-08-03 19:55:14,505 - INFO - ================================================================================
+2026-08-03 19:55:14,505 - INFO - Processing claim #236 (ID: tsver_test_266)
+2026-08-03 19:55:14,506 - INFO - Claim: The annual average export growth rate [in India] is higher during the UPA II compared to the current NDA government....
+2026-08-03 19:55:14,506 - INFO - Date: 2018-06-30
+2026-08-03 19:55:18,592 - INFO - Prediction: Misleading
+2026-08-03 19:55:18,592 - INFO - ✗ Incorrect (True: Supported, Pred: Misleading)
+2026-08-03 19:55:21,593 - INFO - ================================================================================
+2026-08-03 19:55:21,593 - INFO - Processing claim #237 (ID: tsver_test_268)
+2026-08-03 19:55:21,593 - INFO - Claim: Russia and Australia are the only two countries still considered sovereign....
+2026-08-03 19:55:21,593 - INFO - Date: 2023-09-10
+2026-08-03 19:55:23,631 - INFO - Prediction: Refuted
+2026-08-03 19:55:23,631 - INFO - ✓ Correct prediction
+2026-08-03 19:55:26,633 - INFO - ================================================================================
+2026-08-03 19:55:26,633 - INFO - Processing claim #238 (ID: tsver_test_270)
+2026-08-03 19:55:26,633 - INFO - Claim: Unemployment in South Africa has increased by 60% in the past 19 years....
+2026-08-03 19:55:26,633 - INFO - Date: 2013-11-09
+2026-08-03 19:55:30,313 - INFO - Prediction: Misleading
+2026-08-03 19:55:30,314 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-08-03 19:55:33,316 - INFO - ================================================================================
+2026-08-03 19:55:33,316 - INFO - Processing claim #239 (ID: tsver_test_271)
+2026-08-03 19:55:33,316 - INFO - Claim: While western countries have been busy fighting the new coronavirus, international terrorism has stopped....
+2026-08-03 19:55:33,316 - INFO - Date: 2020-04-15
+2026-08-03 19:55:36,162 - INFO - Prediction: Refuted
+2026-08-03 19:55:36,163 - INFO - ✓ Correct prediction
+2026-08-03 19:55:39,182 - INFO - ================================================================================
+2026-08-03 19:55:39,182 - INFO - Processing claim #240 (ID: tsver_test_272)
+2026-08-03 19:55:39,182 - INFO - Claim: We [USA] finished up at 3.1 GDP. Everybody — you know, that hasn’t been done in 14 years, maybe more than that, but 14 years....
+2026-08-03 19:55:39,182 - INFO - Date: 2019-03-22
+2026-08-03 19:55:41,619 - INFO - Prediction: Misleading
+2026-08-03 19:55:41,619 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-08-03 19:55:44,621 - INFO - ================================================================================
+2026-08-03 19:55:44,621 - INFO - Processing claim #241 (ID: tsver_test_273)
+2026-08-03 19:55:44,622 - INFO - Claim: Measles cases [in Europe] rose sharply in 2023, but they did not even reach pre pandemic levels....
+2026-08-03 19:55:44,622 - INFO - Date: 2024-02-01
+2026-08-03 19:55:46,741 - INFO - Prediction: Misleading
+2026-08-03 19:55:46,742 - INFO - ✗ Incorrect (True: Supported, Pred: Misleading)
+2026-08-03 19:55:49,743 - INFO - ================================================================================
+2026-08-03 19:55:49,744 - INFO - Processing claim #242 (ID: tsver_test_274)
+2026-08-03 19:55:49,744 - INFO - Claim: [UK's] unemployment is the lowest it has been since 1975....
+2026-08-03 19:55:49,744 - INFO - Date: 2017-11-16
+2026-08-03 19:55:52,546 - INFO - Prediction: Supported
+2026-08-03 19:55:52,546 - INFO - ✗ Incorrect (True: Not Enough Information, Pred: Supported)
+2026-08-03 19:55:55,548 - INFO - ================================================================================
+2026-08-03 19:55:55,548 - INFO - Processing claim #243 (ID: tsver_test_275)
+2026-08-03 19:55:55,548 - INFO - Claim: Income inequality [in the UK] has fallen in recent years....
+2026-08-03 19:55:55,548 - INFO - Date: 2017-09-14
+2026-08-03 19:55:57,560 - INFO - Prediction: Misleading
+2026-08-03 19:55:57,560 - INFO - ✓ Correct prediction
+2026-08-03 19:56:00,562 - INFO - ================================================================================
+2026-08-03 19:56:00,562 - INFO - Processing claim #244 (ID: tsver_test_276)
+2026-08-03 19:56:00,562 - INFO - Claim: The [United States] unemployment rate may be as high as 42 percent....
+2026-08-03 19:56:00,562 - INFO - Date: 2015-09-28
+2026-08-03 19:56:02,442 - INFO - Prediction: Refuted
+2026-08-03 19:56:02,442 - INFO - ✓ Correct prediction
+2026-08-03 19:56:05,444 - INFO - ================================================================================
+2026-08-03 19:56:05,445 - INFO - Processing claim #245 (ID: tsver_test_277)
+2026-08-03 19:56:05,445 - INFO - Claim: [India's] vaccine hesitancy is as high as 74.53%....
+2026-08-03 19:56:05,445 - INFO - Date: 2021-06-16
+2026-08-03 19:56:09,572 - INFO - Prediction: Misleading
+2026-08-03 19:56:09,572 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-08-03 19:56:12,575 - INFO - ================================================================================
+2026-08-03 19:56:12,575 - INFO - Processing claim #246 (ID: tsver_test_278)
+2026-08-03 19:56:12,576 - INFO - Claim: India's Per Capita GDP Has Gone From ₹79,000 To ₹1.5 lakh. [₹1 INR = $0.0129]...
+2026-08-03 19:56:12,576 - INFO - Date: 2022-06-06
+2026-08-03 19:56:14,660 - INFO - Prediction: Supported
+2026-08-03 19:56:14,660 - INFO - ✓ Correct prediction
+2026-08-03 19:56:17,661 - INFO - ================================================================================
+2026-08-03 19:56:17,661 - INFO - Processing claim #247 (ID: tsver_test_279)
+2026-08-03 19:56:17,662 - INFO - Claim: India’s forest cover has steadily increased over the years. It rose by about 0.1% between 2019 and 2021, and the overall increase over the last decade...
+2026-08-03 19:56:17,662 - INFO - Date: 2022-10-20
+2026-08-03 19:56:24,475 - INFO - Prediction: Supported
+2026-08-03 19:56:24,475 - INFO - ✓ Correct prediction
+2026-08-03 19:56:27,477 - INFO - ================================================================================
+2026-08-03 19:56:27,478 - INFO - Processing claim #248 (ID: tsver_test_280)
+2026-08-03 19:56:27,478 - INFO - Claim: We [USA] used to invest more in research and development than any country in the world and China was ... number nine. We now are number eight and Chin...
+2026-08-03 19:56:27,478 - INFO - Date: 2021-05-18
+2026-08-03 19:56:29,502 - INFO - Prediction: Supported
+2026-08-03 19:56:29,502 - INFO - ✗ Incorrect (True: Refuted, Pred: Supported)
+2026-08-03 19:56:32,504 - INFO - ================================================================================
+2026-08-03 19:56:32,505 - INFO - Processing claim #249 (ID: tsver_test_281)
+2026-08-03 19:56:32,505 - INFO - Claim: Pakistan has 100 nuclear warheads and they’re rushing to build a lot more. Pakistan is on a path to overtake the U.K. in nuclear weapons....
+2026-08-03 19:56:32,505 - INFO - Date: 2012-10-22
+2026-08-03 19:56:36,797 - INFO - Prediction: Misleading
+2026-08-03 19:56:36,797 - INFO - ✗ Incorrect (True: Supported, Pred: Misleading)
+2026-08-03 19:56:39,810 - INFO - ================================================================================
+2026-08-03 19:56:39,810 - INFO - Processing claim #250 (ID: tsver_test_283)
+2026-08-03 19:56:39,811 - INFO - Claim: ... radically different homicide rates in Honduras and Switzerland....
+2026-08-03 19:56:39,811 - INFO - Date: 2015-10-07
+2026-08-03 19:56:43,312 - INFO - Prediction: Supported
+2026-08-03 19:56:43,312 - INFO - ✓ Correct prediction
+2026-08-03 19:56:46,313 - INFO - ================================================================================
+2026-08-03 19:56:46,313 - INFO - Processing claim #251 (ID: tsver_test_284)
+2026-08-03 19:56:46,314 - INFO - Claim: The Greenland Ice Sheet mass balance shows no sign of reduction....
+2026-08-03 19:56:46,314 - INFO - Date: 2022-07-27
+2026-08-03 19:56:48,694 - INFO - Prediction: Refuted
+2026-08-03 19:56:48,695 - INFO - ✓ Correct prediction
+2026-08-03 19:56:51,696 - INFO - ================================================================================
+2026-08-03 19:56:51,696 - INFO - Processing claim #252 (ID: tsver_test_287)
+2026-08-03 19:56:51,696 - INFO - Claim: Recent data show Arctic sea ice isn't declining....
+2026-08-03 19:56:51,696 - INFO - Date: 2023-05-18
+2026-08-03 19:56:53,640 - INFO - Prediction: Refuted
+2026-08-03 19:56:53,641 - INFO - ✗ Incorrect (True: Misleading, Pred: Refuted)
+2026-08-03 19:56:56,642 - INFO - ================================================================================
+2026-08-03 19:56:56,642 - INFO - Processing claim #253 (ID: tsver_test_290)
+2026-08-03 19:56:56,642 - INFO - Claim: Honduras ... has the "highest homicide rate in the entire world." Switzerland ... has the "lowest homicide rate in the entire world."...
+2026-08-03 19:56:56,642 - INFO - Date: 2015-09-25
+2026-08-03 19:57:00,347 - INFO - Prediction: Misleading
+2026-08-03 19:57:00,347 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-08-03 19:57:03,349 - INFO - ================================================================================
+2026-08-03 19:57:03,349 - INFO - Processing claim #254 (ID: tsver_test_291)
+2026-08-03 19:57:03,349 - INFO - Claim: Climate change is a 'scam' because Antarctic sea ice covered more area on March 9 than 27 years earlier....
+2026-08-03 19:57:03,349 - INFO - Date: 2024-03-10
+2026-08-03 19:57:05,470 - INFO - Prediction: Refuted
+2026-08-03 19:57:05,470 - INFO - ✗ Incorrect (True: Not Enough Information, Pred: Refuted)
+2026-08-03 19:57:08,472 - INFO - ================================================================================
+2026-08-03 19:57:08,472 - INFO - Processing claim #255 (ID: tsver_test_293)
+2026-08-03 19:57:08,473 - INFO - Claim: The Arctic sea ice extent is at a 30-year high....
+2026-08-03 19:57:08,473 - INFO - Date: 2022-06-03
+2026-08-03 19:57:10,526 - INFO - Prediction: Refuted
+2026-08-03 19:57:10,527 - INFO - ✓ Correct prediction
+2026-08-03 19:57:13,529 - INFO - ================================================================================
+2026-08-03 19:57:13,529 - INFO - Processing claim #256 (ID: tsver_test_294)
+2026-08-03 19:57:13,529 - INFO - Claim: Statistics demonstrate that homicides rates in Australia have increased substantially since the government there instituted a gun buy-back program in ...
+2026-08-03 19:57:13,529 - INFO - Date: 2001-08-20
+2026-08-03 19:57:15,115 - INFO - Prediction: Refuted
+2026-08-03 19:57:15,116 - INFO - ✓ Correct prediction
+2026-08-03 19:57:18,118 - INFO - ================================================================================
+2026-08-03 19:57:18,118 - INFO - Processing claim #257 (ID: tsver_test_295)
+2026-08-03 19:57:18,118 - INFO - Claim: The United States has the third-highest rate of homicides worldwide....
+2026-08-03 19:57:18,118 - INFO - Date: 2015-10-06
+2026-08-03 19:57:20,566 - INFO - Prediction: Refuted
+2026-08-03 19:57:20,567 - INFO - ✓ Correct prediction
+2026-08-03 19:57:23,568 - INFO - ================================================================================
+2026-08-03 19:57:23,569 - INFO - Processing claim #258 (ID: tsver_test_296)
+2026-08-03 19:57:23,569 - INFO - Claim: The EU has shrunk as a percentage of the world economy....
+2026-08-03 19:57:23,569 - INFO - Date: 2015-06-05
+2026-08-03 19:57:25,862 - INFO - Prediction: Supported
+2026-08-03 19:57:25,862 - INFO - ✓ Correct prediction
+2026-08-03 19:57:28,864 - INFO - ================================================================================
+2026-08-03 19:57:28,864 - INFO - Processing claim #259 (ID: tsver_test_298)
+2026-08-03 19:57:28,864 - INFO - Claim: Almost a third of children aged 2 to 15 are overweight or obese [in the UK]....
+2026-08-03 19:57:28,864 - INFO - Date: 2018-04-23
+2026-08-03 19:57:32,020 - INFO - Prediction: Supported
+2026-08-03 19:57:32,020 - INFO - ✗ Incorrect (True: Not Enough Information, Pred: Supported)
+2026-08-03 19:57:35,031 - INFO - ================================================================================
+2026-08-03 19:57:35,031 - INFO - Processing claim #260 (ID: tsver_test_299)
+2026-08-03 19:57:35,032 - INFO - Claim: Greenland's ice loss trend slowed over the last decade, ice mass now growing....
+2026-08-03 19:57:35,032 - INFO - Date: 2021-11-18
+2026-08-03 19:57:40,893 - INFO - Prediction: Refuted
+2026-08-03 19:57:40,894 - INFO - ✓ Correct prediction
+2026-08-03 19:57:43,897 - INFO - ================================================================================
+2026-08-03 19:57:43,897 - INFO - Processing claim #261 (ID: tsver_test_300)
+2026-08-03 19:57:43,897 - INFO - Claim: You know the murder rate in the United States, I don't know if you know this because the press never talks about it, is the highest it's been, think o...
+2026-08-03 19:57:43,898 - INFO - Date: 2016-10-26
+2026-08-03 19:57:46,280 - INFO - Prediction: Refuted
+2026-08-03 19:57:46,280 - INFO - ✓ Correct prediction
+2026-08-03 19:57:49,282 - INFO - ================================================================================
+2026-08-03 19:57:49,283 - INFO - Processing claim #262 (ID: tsver_test_301)
+2026-08-03 19:57:49,283 - INFO - Claim: Measurements indicating that 2017 had relatively more sea ice in the Arctic and less melting of glacial ice in Greenland casts scientific doubt on the...
+2026-08-03 19:57:49,284 - INFO - Date: 2017-10-01
+2026-08-03 19:57:51,797 - INFO - Prediction: Refuted
+2026-08-03 19:57:51,797 - INFO - ✓ Correct prediction
+2026-08-03 19:57:54,799 - INFO - ================================================================================
+2026-08-03 19:57:54,800 - INFO - Processing claim #263 (ID: tsver_test_302)
+2026-08-03 19:57:54,800 - INFO - Claim: It takes a German worker about four days to produce what we make in five, even though British workers are putting in longer hours....
+2026-08-03 19:57:54,800 - INFO - Date: 2016-11-23
+2026-08-03 19:57:56,743 - INFO - Prediction: Misleading
+2026-08-03 19:57:56,744 - INFO - ✗ Incorrect (True: Supported, Pred: Misleading)
+2026-08-03 19:57:59,747 - INFO - ================================================================================
+2026-08-03 19:57:59,747 - INFO - Processing claim #264 (ID: tsver_test_303)
+2026-08-03 19:57:59,747 - INFO - Claim: North Korea "has over two-dozen nuclear warheads."...
+2026-08-03 19:57:59,748 - INFO - Date: 2015-10-30
+2026-08-03 19:58:02,208 - INFO - Prediction: Supported
+2026-08-03 19:58:02,209 - INFO - ✗ Incorrect (True: Refuted, Pred: Supported)
+2026-08-03 19:58:05,212 - INFO - ================================================================================
+2026-08-03 19:58:05,212 - INFO - Processing complete: 265 predictions (112 correct, 153 incorrect), 0 failed
+2026-08-03 19:58:05,228 - INFO - Metrics: Accuracy=0.4226, Macro-F1=0.6155
+2026-08-03 19:58:05,254 - INFO - Predictions saved to results\deepseek\deepseek-chat\tsver_bias_all\naive\seen\seen_predictions.csv
+2026-08-03 19:58:05,263 - INFO - Predictions JSON saved to results\deepseek\deepseek-chat\tsver_bias_all\naive\seen\seen_predictions.json
+2026-08-03 19:58:05,264 - INFO - Metrics saved to results\deepseek\deepseek-chat\tsver_bias_all\naive\seen\seen_metrics.json

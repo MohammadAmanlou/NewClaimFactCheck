@@ -1,0 +1,905 @@
+2026-08-01 18:43:24,244 - INFO - Processing 14550 claims...
+2026-08-01 18:43:24,251 - INFO - ================================================================================
+2026-08-01 18:43:24,252 - INFO - Processing claim #0 (ID: tracer_train_0)
+2026-08-01 18:43:24,252 - INFO - Claim: "In the 1990s, the Biden Crime Bill added 100,000 cops to America's streets. As a result, murder and violent crime rates went down eight years in a ro...
+2026-08-01 18:43:24,253 - INFO - Date: 2007-11-02
+2026-08-01 18:43:26,149 - INFO - Prediction: Misleading
+2026-08-01 18:43:26,150 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-08-01 18:43:29,151 - INFO - ================================================================================
+2026-08-01 18:43:29,151 - INFO - Processing claim #1 (ID: tracer_train_1)
+2026-08-01 18:43:29,151 - INFO - Claim: "(Ronald Reagan) raised taxes a billion dollars in his first year as governor of California."...
+2026-08-01 18:43:29,151 - INFO - Date: 2008-01-10
+2026-08-01 18:43:31,397 - INFO - Prediction: Misleading
+2026-08-01 18:43:31,398 - INFO - ✗ Incorrect (True: Supported, Pred: Misleading)
+2026-08-01 18:43:34,403 - INFO - ================================================================================
+2026-08-01 18:43:34,404 - INFO - Processing claim #2 (ID: tracer_train_2)
+2026-08-01 18:43:34,405 - INFO - Claim: Hillary Clinton "has the only health care plan that covers every American."...
+2026-08-01 18:43:34,405 - INFO - Date: 2008-02-13
+2026-08-01 18:43:36,702 - INFO - Prediction: Misleading
+2026-08-01 18:43:36,703 - INFO - ✗ Incorrect (True: Supported, Pred: Misleading)
+2026-08-01 18:43:39,706 - INFO - ================================================================================
+2026-08-01 18:43:39,706 - INFO - Processing claim #3 (ID: tracer_train_3)
+2026-08-01 18:43:39,707 - INFO - Claim: "Joe Biden brought Republicans and Democrats together to pass the 1994 crime bill, putting 100,000 cops on the streets and starting an eight-year drop...
+2026-08-01 18:43:39,707 - INFO - Date: 2008-08-23
+2026-08-01 18:43:42,071 - INFO - Prediction: Misleading
+2026-08-01 18:43:42,071 - INFO - ✓ Correct prediction
+2026-08-01 18:43:45,073 - INFO - ================================================================================
+2026-08-01 18:43:45,074 - INFO - Processing claim #4 (ID: tracer_train_4)
+2026-08-01 18:43:45,074 - INFO - Claim: "While Sarah was Mayor of Wasilla she tried to fire our highly respected City Librarian because the Librarian refused to consider removing from the li...
+2026-08-01 18:43:45,074 - INFO - Date: 2008-08-31
+2026-08-01 18:43:47,459 - INFO - Prediction: Misleading
+2026-08-01 18:43:47,459 - INFO - ✓ Correct prediction
+2026-08-01 18:43:50,461 - INFO - ================================================================================
+2026-08-01 18:43:50,462 - INFO - Processing claim #5 (ID: tracer_train_5)
+2026-08-01 18:43:50,462 - INFO - Claim: On the economic troubles of 2008, "really the match that lit this fire was Fannie Mae and Freddie Mac."...
+2026-08-01 18:43:50,462 - INFO - Date: 2008-10-07
+2026-08-01 18:43:52,448 - INFO - Prediction: Misleading
+2026-08-01 18:43:52,448 - INFO - ✓ Correct prediction
+2026-08-01 18:43:55,449 - INFO - ================================================================================
+2026-08-01 18:43:55,449 - INFO - Processing claim #6 (ID: tracer_train_6)
+2026-08-01 18:43:55,449 - INFO - Claim: "In April, Sen. McCain came out against helping women earn equal pay for equal work."...
+2026-08-01 18:43:55,449 - INFO - Date: 2008-10-20
+2026-08-01 18:43:57,782 - INFO - Prediction: Misleading
+2026-08-01 18:43:57,783 - INFO - ✓ Correct prediction
+2026-08-01 18:44:00,784 - INFO - ================================================================================
+2026-08-01 18:44:00,784 - INFO - Processing claim #7 (ID: tracer_train_7)
+2026-08-01 18:44:00,784 - INFO - Claim: "There are no earmarks" in the stimulus bill....
+2026-08-01 18:44:00,784 - INFO - Date: 2009-02-02
+2026-08-01 18:44:02,611 - INFO - Prediction: Refuted
+2026-08-01 18:44:02,612 - INFO - ✓ Correct prediction
+2026-08-01 18:44:05,614 - INFO - ================================================================================
+2026-08-01 18:44:05,615 - INFO - Processing claim #8 (ID: tracer_train_8)
+2026-08-01 18:44:05,615 - INFO - Claim: "A new poll shows 62 percent support the president's plan to reform health care. That means ... letting you choose between keeping the private insuran...
+2026-08-01 18:44:05,615 - INFO - Date: 2009-06-14
+2026-08-01 18:44:07,781 - INFO - Prediction: Misleading
+2026-08-01 18:44:07,782 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-08-01 18:44:10,785 - INFO - ================================================================================
+2026-08-01 18:44:10,785 - INFO - Processing claim #9 (ID: tracer_train_9)
+2026-08-01 18:44:10,785 - INFO - Claim: Health insurance companies are "making record profits, right now."...
+2026-08-01 18:44:10,785 - INFO - Date: 2009-07-22
+2026-08-01 18:44:13,683 - INFO - Prediction: Misleading
+2026-08-01 18:44:13,683 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-08-01 18:44:16,693 - INFO - ================================================================================
+2026-08-01 18:44:16,693 - INFO - Processing claim #10 (ID: tracer_train_10)
+2026-08-01 18:44:16,693 - INFO - Claim: "There's no rationing in any of these bills."...
+2026-08-01 18:44:16,693 - INFO - Date: 2009-08-09
+2026-08-01 18:44:18,255 - INFO - Prediction: Misleading
+2026-08-01 18:44:18,256 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-08-01 18:44:21,258 - INFO - ================================================================================
+2026-08-01 18:44:21,260 - INFO - Processing claim #11 (ID: tracer_train_11)
+2026-08-01 18:44:21,260 - INFO - Claim: The health bill's plan for comparative effectiveness research "would be used by the government to ration care."...
+2026-08-01 18:44:21,260 - INFO - Date: 2009-08-18
+2026-08-01 18:44:23,080 - INFO - Prediction: Misleading
+2026-08-01 18:44:23,080 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-08-01 18:44:26,105 - INFO - ================================================================================
+2026-08-01 18:44:26,105 - INFO - Processing claim #12 (ID: tracer_train_12)
+2026-08-01 18:44:26,105 - INFO - Claim: "I signed the largest single tax cut in the history of Florida, a $25 billion tax cut over five years, directed at property tax cuts."...
+2026-08-01 18:44:26,106 - INFO - Date: 2009-09-25
+2026-08-01 18:44:28,093 - INFO - Prediction: Supported
+2026-08-01 18:44:28,094 - INFO - ✗ Incorrect (True: Refuted, Pred: Supported)
+2026-08-01 18:44:31,098 - INFO - ================================================================================
+2026-08-01 18:44:31,098 - INFO - Processing claim #13 (ID: tracer_train_13)
+2026-08-01 18:44:31,098 - INFO - Claim: "Fifty-seven" of  Rubio's 100 ideas "ultimately became law."...
+2026-08-01 18:44:31,099 - INFO - Date: 2009-11-04
+2026-08-01 18:44:33,102 - INFO - Prediction: Misleading
+2026-08-01 18:44:33,102 - INFO - ✓ Correct prediction
+2026-08-01 18:44:36,113 - INFO - ================================================================================
+2026-08-01 18:44:36,113 - INFO - Processing claim #14 (ID: tracer_train_14)
+2026-08-01 18:44:36,114 - INFO - Claim: President Obama "doesn't ... want to admit we're at war."...
+2026-08-01 18:44:36,114 - INFO - Date: 2009-12-30
+2026-08-01 18:44:38,107 - INFO - Prediction: Misleading
+2026-08-01 18:44:38,107 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-08-01 18:44:41,111 - INFO - ================================================================================
+2026-08-01 18:44:41,111 - INFO - Processing claim #15 (ID: tracer_train_15)
+2026-08-01 18:44:41,111 - INFO - Claim: "Governor (Perry), you were a Democrat, having worked for Al Gore as his campaign manager..."...
+2026-08-01 18:44:41,111 - INFO - Date: 2010-01-14
+2026-08-01 18:44:43,689 - INFO - Prediction: Refuted
+2026-08-01 18:44:43,690 - INFO - ✗ Incorrect (True: Misleading, Pred: Refuted)
+2026-08-01 18:44:46,693 - INFO - ================================================================================
+2026-08-01 18:44:46,693 - INFO - Processing claim #16 (ID: tracer_train_16)
+2026-08-01 18:44:46,693 - INFO - Claim: "Amendment 4 will reduce Florida’s economic output by $34 billion annually."...
+2026-08-01 18:44:46,693 - INFO - Date: 2010-01-21
+2026-08-01 18:44:48,498 - INFO - Prediction: Misleading
+2026-08-01 18:44:48,498 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-08-01 18:44:51,501 - INFO - ================================================================================
+2026-08-01 18:44:51,501 - INFO - Processing claim #17 (ID: tracer_train_17)
+2026-08-01 18:44:51,501 - INFO - Claim: "One of the most recent polls said 75 percent of the American people have said either don't do anything or start over (on health care reform)."...
+2026-08-01 18:44:51,502 - INFO - Date: 2010-02-20
+2026-08-01 18:44:53,341 - INFO - Prediction: Misleading
+2026-08-01 18:44:53,342 - INFO - ✓ Correct prediction
+2026-08-01 18:44:56,343 - INFO - ================================================================================
+2026-08-01 18:44:56,344 - INFO - Processing claim #18 (ID: tracer_train_18)
+2026-08-01 18:44:56,344 - INFO - Claim: Several times, Obama "has apologized for what he deems to be American arrogance, dismissiveness, and derision; for dictating solutions, for acting uni...
+2026-08-01 18:44:56,344 - INFO - Date: 2010-03-02
+2026-08-01 18:44:58,796 - INFO - Prediction: Misleading
+2026-08-01 18:44:58,797 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-08-01 18:45:01,803 - INFO - ================================================================================
+2026-08-01 18:45:01,803 - INFO - Processing claim #19 (ID: tracer_train_19)
+2026-08-01 18:45:01,804 - INFO - Claim: Charges on the Republican Party of Florida credit card were made with "my money."...
+2026-08-01 18:45:01,805 - INFO - Date: 2010-03-04
+2026-08-01 18:45:04,313 - INFO - Prediction: Misleading
+2026-08-01 18:45:04,313 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-08-01 18:45:07,331 - INFO - ================================================================================
+2026-08-01 18:45:07,331 - INFO - Processing claim #20 (ID: tracer_train_20)
+2026-08-01 18:45:07,331 - INFO - Claim: St. Pete Beach's experiences are a "fair example" of what could happen if Amendment 4 passes....
+2026-08-01 18:45:07,331 - INFO - Date: 2010-03-15
+2026-08-01 18:45:09,099 - INFO - Prediction: Misleading
+2026-08-01 18:45:09,099 - INFO - ✓ Correct prediction
+2026-08-01 18:45:12,100 - INFO - ================================================================================
+2026-08-01 18:45:12,100 - INFO - Processing claim #21 (ID: tracer_train_21)
+2026-08-01 18:45:12,101 - INFO - Claim: Florida's cost for the Medicaid expansion will be $1.6 billion a year or more....
+2026-08-01 18:45:12,101 - INFO - Date: 2010-03-22
+2026-08-01 18:45:14,356 - INFO - Prediction: Misleading
+2026-08-01 18:45:14,358 - INFO - ✓ Correct prediction
+2026-08-01 18:45:17,368 - INFO - ================================================================================
+2026-08-01 18:45:17,368 - INFO - Processing claim #22 (ID: tracer_train_22)
+2026-08-01 18:45:17,368 - INFO - Claim: "The path to ObamaCare becoming law all started with Charlie Crist supporting President Obama's $787 billion stimulus."...
+2026-08-01 18:45:17,368 - INFO - Date: 2010-03-22
+2026-08-01 18:45:19,891 - INFO - Prediction: Misleading
+2026-08-01 18:45:19,892 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-08-01 18:45:22,896 - INFO - ================================================================================
+2026-08-01 18:45:22,898 - INFO - Processing claim #23 (ID: tracer_train_23)
+2026-08-01 18:45:22,899 - INFO - Claim: U.S. Rep. Bill Young "has accepted $737,000 from lobbyists and recipients of his earmarks."...
+2026-08-01 18:45:22,900 - INFO - Date: 2010-04-14
+2026-08-01 18:45:25,343 - INFO - Prediction: Supported
+2026-08-01 18:45:25,343 - INFO - ✗ Incorrect (True: Misleading, Pred: Supported)
+2026-08-01 18:45:28,350 - INFO - ================================================================================
+2026-08-01 18:45:28,350 - INFO - Processing claim #24 (ID: tracer_train_24)
+2026-08-01 18:45:28,351 - INFO - Claim: New financial regulation "actually guarantees future bailouts of Wall Street banks."...
+2026-08-01 18:45:28,351 - INFO - Date: 2010-04-14
+2026-08-01 18:45:30,245 - INFO - Prediction: Misleading
+2026-08-01 18:45:30,245 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-08-01 18:45:33,246 - INFO - ================================================================================
+2026-08-01 18:45:33,247 - INFO - Processing claim #25 (ID: tracer_train_25)
+2026-08-01 18:45:33,249 - INFO - Claim: The passage of the teacher tenure bill in the Fla. Legislature was like the health care bill in Congress because one party jammed it through....
+2026-08-01 18:45:33,250 - INFO - Date: 2010-04-15
+2026-08-01 18:45:35,666 - INFO - Prediction: Misleading
+2026-08-01 18:45:35,668 - INFO - ✓ Correct prediction
+2026-08-01 18:45:38,675 - INFO - ================================================================================
+2026-08-01 18:45:38,675 - INFO - Processing claim #26 (ID: tracer_train_26)
+2026-08-01 18:45:38,676 - INFO - Claim: I've shut down pill mills....
+2026-08-01 18:45:38,676 - INFO - Date: 2010-04-28
+2026-08-01 18:45:40,839 - INFO - Prediction: Misleading
+2026-08-01 18:45:40,839 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-08-01 18:45:43,844 - INFO - ================================================================================
+2026-08-01 18:45:43,844 - INFO - Processing claim #27 (ID: tracer_train_27)
+2026-08-01 18:45:43,844 - INFO - Claim: Blue Cross’ new $90-million Providence headquarters "was outfitted with $25 million in decor."...
+2026-08-01 18:45:43,844 - INFO - Date: 2010-05-19
+2026-08-01 18:45:45,829 - INFO - Prediction: Misleading
+2026-08-01 18:45:45,829 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-08-01 18:45:48,836 - INFO - ================================================================================
+2026-08-01 18:45:48,841 - INFO - Processing claim #28 (ID: tracer_train_28)
+2026-08-01 18:45:48,846 - INFO - Claim: Says Gov. Rick Perry is "by far and away the highest-paid state employee on an hourly basis."...
+2026-08-01 18:45:48,846 - INFO - Date: 2010-06-17
+2026-08-01 18:45:51,298 - INFO - Prediction: Misleading
+2026-08-01 18:45:51,298 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-08-01 18:45:54,302 - INFO - ================================================================================
+2026-08-01 18:45:54,303 - INFO - Processing claim #29 (ID: tracer_train_29)
+2026-08-01 18:45:54,303 - INFO - Claim: "When I become the nominee, the Democratic nominee, I will be the only pro-choice candidate on the ballot."...
+2026-08-01 18:45:54,303 - INFO - Date: 2010-06-22
+2026-08-01 18:45:55,846 - INFO - Prediction: Misleading
+2026-08-01 18:45:55,847 - INFO - ✓ Correct prediction
+2026-08-01 18:45:58,882 - INFO - ================================================================================
+2026-08-01 18:45:58,882 - INFO - Processing claim #30 (ID: tracer_train_30)
+2026-08-01 18:45:58,882 - INFO - Claim: Jeff Greene "is the king of the undercover Credit Default Swap that brought about the destruction of our economy that we have right now."...
+2026-08-01 18:45:58,882 - INFO - Date: 2010-06-22
+2026-08-01 18:46:01,049 - INFO - Prediction: Misleading
+2026-08-01 18:46:01,050 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-08-01 18:46:04,054 - INFO - ================================================================================
+2026-08-01 18:46:04,054 - INFO - Processing claim #31 (ID: tracer_train_31)
+2026-08-01 18:46:04,054 - INFO - Claim: "Phoenix, Arizona, is the No. 2 kidnapping capital of the world."...
+2026-08-01 18:46:04,054 - INFO - Date: 2010-06-27
+2026-08-01 18:46:06,037 - INFO - Prediction: Misleading
+2026-08-01 18:46:06,038 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-08-01 18:46:09,041 - INFO - ================================================================================
+2026-08-01 18:46:09,041 - INFO - Processing claim #32 (ID: tracer_train_32)
+2026-08-01 18:46:09,042 - INFO - Claim: Dan Gelber's employment by BP's law firm "could disqualify him from representing Florida against BP as Attorney General."...
+2026-08-01 18:46:09,042 - INFO - Date: 2010-07-02
+2026-08-01 18:46:11,195 - INFO - Prediction: Misleading
+2026-08-01 18:46:11,196 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-08-01 18:46:14,199 - INFO - ================================================================================
+2026-08-01 18:46:14,200 - INFO - Processing claim #33 (ID: tracer_train_33)
+2026-08-01 18:46:14,201 - INFO - Claim: "He (Kirk) did violate Pentagon rules, twice actually, for improperly mingling politics with his military service."...
+2026-08-01 18:46:14,205 - INFO - Date: 2010-07-08
+2026-08-01 18:46:16,331 - INFO - Prediction: Misleading
+2026-08-01 18:46:16,331 - INFO - ✗ Incorrect (True: Supported, Pred: Misleading)
+2026-08-01 18:46:19,334 - INFO - ================================================================================
+2026-08-01 18:46:19,334 - INFO - Processing claim #34 (ID: tracer_train_34)
+2026-08-01 18:46:19,335 - INFO - Claim: "A U.S. Government Accountability Office report says Planned Parenthood Federation of America cannot find some $1.3 billion given to it by the federal...
+2026-08-01 18:46:19,341 - INFO - Date: 2010-07-10
+2026-08-01 18:46:21,530 - INFO - Prediction: Refuted
+2026-08-01 18:46:21,531 - INFO - ✓ Correct prediction
+2026-08-01 18:46:24,533 - INFO - ================================================================================
+2026-08-01 18:46:24,533 - INFO - Processing claim #35 (ID: tracer_train_35)
+2026-08-01 18:46:24,533 - INFO - Claim: The Obama administration will give Pennsylvania $160 million to pay for health insurance plans that cover "any legal abortion."...
+2026-08-01 18:46:24,533 - INFO - Date: 2010-07-13
+2026-08-01 18:46:26,585 - INFO - Prediction: Misleading
+2026-08-01 18:46:26,585 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-08-01 18:46:29,587 - INFO - ================================================================================
+2026-08-01 18:46:29,588 - INFO - Processing claim #36 (ID: tracer_train_36)
+2026-08-01 18:46:29,588 - INFO - Claim: Bill McCollum "diverted a state plane to his home 53 times. A state auditor called it: likely a misuse of state resources."...
+2026-08-01 18:46:29,588 - INFO - Date: 2010-07-14
+2026-08-01 18:46:31,371 - INFO - Prediction: Supported
+2026-08-01 18:46:31,372 - INFO - ✗ Incorrect (True: Refuted, Pred: Supported)
+2026-08-01 18:46:34,373 - INFO - ================================================================================
+2026-08-01 18:46:34,373 - INFO - Processing claim #37 (ID: tracer_train_37)
+2026-08-01 18:46:34,373 - INFO - Claim: Marco Rubio's "economic proposals will add $3.5 trillion to the federal deficit."...
+2026-08-01 18:46:34,373 - INFO - Date: 2010-07-19
+2026-08-01 18:46:40,982 - INFO - Prediction: Misleading
+2026-08-01 18:46:40,983 - INFO - ✓ Correct prediction
+2026-08-01 18:46:43,988 - INFO - ================================================================================
+2026-08-01 18:46:43,989 - INFO - Processing claim #38 (ID: tracer_train_38)
+2026-08-01 18:46:43,989 - INFO - Claim: "Ohio lost 400,000 jobs on his (Ted Strickland’s) watch."...
+2026-08-01 18:46:43,989 - INFO - Date: 2010-07-21
+2026-08-01 18:46:45,870 - INFO - Prediction: Misleading
+2026-08-01 18:46:45,870 - INFO - ✓ Correct prediction
+2026-08-01 18:46:48,878 - INFO - ================================================================================
+2026-08-01 18:46:48,879 - INFO - Processing claim #39 (ID: tracer_train_39)
+2026-08-01 18:46:48,879 - INFO - Claim: "Kendrick Meek was named one of the two most corrupt Democrats in Congress by Citizens for Responsibility and Ethics in Washington."...
+2026-08-01 18:46:48,879 - INFO - Date: 2010-07-31
+2026-08-01 18:46:55,829 - INFO - Prediction: Supported
+2026-08-01 18:46:55,829 - INFO - ✗ Incorrect (True: Refuted, Pred: Supported)
+2026-08-01 18:46:58,845 - INFO - ================================================================================
+2026-08-01 18:46:58,845 - INFO - Processing claim #40 (ID: tracer_train_40)
+2026-08-01 18:46:58,846 - INFO - Claim: "Bill McCollum voted for higher taxes and fees 42 times while he was in Congress."...
+2026-08-01 18:46:58,846 - INFO - Date: 2010-08-03
+2026-08-01 18:47:06,187 - INFO - Prediction: Misleading
+2026-08-01 18:47:06,187 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-08-01 18:47:09,188 - INFO - ================================================================================
+2026-08-01 18:47:09,188 - INFO - Processing claim #41 (ID: tracer_train_41)
+2026-08-01 18:47:09,188 - INFO - Claim: "Reporters have uncovered another Scott company accused of criminal acts. But Scott won't come clean."...
+2026-08-01 18:47:09,188 - INFO - Date: 2010-08-17
+2026-08-01 18:47:14,158 - INFO - Prediction: Misleading
+2026-08-01 18:47:14,159 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-08-01 18:47:17,168 - INFO - ================================================================================
+2026-08-01 18:47:17,168 - INFO - Processing claim #42 (ID: tracer_train_42)
+2026-08-01 18:47:17,168 - INFO - Claim: Bill McCollum "backed Jim Greer's effort to hide financial irregularities."...
+2026-08-01 18:47:17,169 - INFO - Date: 2010-08-17
+2026-08-01 18:47:22,339 - INFO - Prediction: Misleading
+2026-08-01 18:47:22,340 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-08-01 18:47:25,342 - INFO - ================================================================================
+2026-08-01 18:47:25,342 - INFO - Processing claim #43 (ID: tracer_train_43)
+2026-08-01 18:47:25,342 - INFO - Claim: "Barbara Boxer voted to cut spending on Medicare benefits by $500 billion, cuts so costly to hospitals and nursing homes that they could stop taking M...
+2026-08-01 18:47:25,342 - INFO - Date: 2010-08-25
+2026-08-01 18:47:27,432 - INFO - Prediction: Misleading
+2026-08-01 18:47:27,433 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-08-01 18:47:30,440 - INFO - ================================================================================
+2026-08-01 18:47:30,440 - INFO - Processing claim #44 (ID: tracer_train_44)
+2026-08-01 18:47:30,440 - INFO - Claim: "Charlie Crist has six different positions on ObamaCare."...
+2026-08-01 18:47:30,441 - INFO - Date: 2010-08-27
+2026-08-01 18:47:32,580 - INFO - Prediction: Misleading
+2026-08-01 18:47:32,580 - INFO - ✓ Correct prediction
+2026-08-01 18:47:35,581 - INFO - ================================================================================
+2026-08-01 18:47:35,581 - INFO - Processing claim #45 (ID: tracer_train_45)
+2026-08-01 18:47:35,581 - INFO - Claim: "When career politician Daniel Webster became speaker of the House, he wasted $32,000 of our money on a spiral staircase for his office."...
+2026-08-01 18:47:35,582 - INFO - Date: 2010-08-27
+2026-08-01 18:47:37,890 - INFO - Prediction: Misleading
+2026-08-01 18:47:37,891 - INFO - ✓ Correct prediction
+2026-08-01 18:47:40,899 - INFO - ================================================================================
+2026-08-01 18:47:40,899 - INFO - Processing claim #46 (ID: tracer_train_46)
+2026-08-01 18:47:40,899 - INFO - Claim: Charlie Crist's "personal approval numbers are plummeting."...
+2026-08-01 18:47:40,900 - INFO - Date: 2010-08-31
+2026-08-01 18:47:42,816 - INFO - Prediction: Misleading
+2026-08-01 18:47:42,817 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-08-01 18:47:45,820 - INFO - ================================================================================
+2026-08-01 18:47:45,820 - INFO - Processing claim #47 (ID: tracer_train_47)
+2026-08-01 18:47:45,820 - INFO - Claim: Alex Sink wants to "cut Medicare."...
+2026-08-01 18:47:45,820 - INFO - Date: 2010-09-01
+2026-08-01 18:47:47,448 - INFO - Prediction: Misleading
+2026-08-01 18:47:47,448 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-08-01 18:47:50,453 - INFO - ================================================================================
+2026-08-01 18:47:50,454 - INFO - Processing claim #48 (ID: tracer_train_48)
+2026-08-01 18:47:50,454 - INFO - Claim: "When these same Republicans –- including Mr. Boehner –- were in charge, the number of earmarks and pet projects went up, not down."...
+2026-08-01 18:47:50,454 - INFO - Date: 2010-09-08
+2026-08-01 18:47:52,771 - INFO - Prediction: Supported
+2026-08-01 18:47:52,771 - INFO - ✗ Incorrect (True: Misleading, Pred: Supported)
+2026-08-01 18:47:55,773 - INFO - ================================================================================
+2026-08-01 18:47:55,773 - INFO - Processing claim #49 (ID: tracer_train_49)
+2026-08-01 18:47:55,773 - INFO - Claim: "For every dollar a county gets in taxes from new development, it costs us 40 to 50 percent more to provide services."...
+2026-08-01 18:47:55,773 - INFO - Date: 2010-09-09
+2026-08-01 18:47:57,975 - INFO - Prediction: Misleading
+2026-08-01 18:47:57,975 - INFO - ✓ Correct prediction
+2026-08-01 18:48:00,992 - INFO - ================================================================================
+2026-08-01 18:48:00,993 - INFO - Processing claim #50 (ID: tracer_train_50)
+2026-08-01 18:48:00,993 - INFO - Claim: "700 jobs (were) lost because Allen Boyd" voted for the health care bill....
+2026-08-01 18:48:00,993 - INFO - Date: 2010-09-12
+2026-08-01 18:48:03,008 - INFO - Prediction: Misleading
+2026-08-01 18:48:03,009 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-08-01 18:48:06,011 - INFO - ================================================================================
+2026-08-01 18:48:06,011 - INFO - Processing claim #51 (ID: tracer_train_51)
+2026-08-01 18:48:06,011 - INFO - Claim: "Do you know that we have pipes carrying natural gas in this country that are made of wood? I'm not joking."...
+2026-08-01 18:48:06,012 - INFO - Date: 2010-09-14
+2026-08-01 18:48:08,217 - INFO - Prediction: Misleading
+2026-08-01 18:48:08,219 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-08-01 18:48:11,230 - INFO - ================================================================================
+2026-08-01 18:48:11,230 - INFO - Processing claim #52 (ID: tracer_train_52)
+2026-08-01 18:48:11,230 - INFO - Claim: Loranne Ausley "voted six times to tax your savings."...
+2026-08-01 18:48:11,230 - INFO - Date: 2010-09-16
+2026-08-01 18:48:13,579 - INFO - Prediction: Misleading
+2026-08-01 18:48:13,579 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-08-01 18:48:16,592 - INFO - ================================================================================
+2026-08-01 18:48:16,593 - INFO - Processing claim #53 (ID: tracer_train_53)
+2026-08-01 18:48:16,596 - INFO - Claim: "It takes as much energy to make a solar panel as it likely generates in its entire life."...
+2026-08-01 18:48:16,598 - INFO - Date: 2010-09-16
+2026-08-01 18:48:18,952 - INFO - Prediction: Refuted
+2026-08-01 18:48:18,952 - INFO - ✓ Correct prediction
+2026-08-01 18:48:21,956 - INFO - ================================================================================
+2026-08-01 18:48:21,956 - INFO - Processing claim #54 (ID: tracer_train_54)
+2026-08-01 18:48:21,956 - INFO - Claim: "Our tax rates are lower now than they were under Ronald Reagan. They're much lower than they were under Dwight Eisenhower."...
+2026-08-01 18:48:21,956 - INFO - Date: 2010-09-20
+2026-08-01 18:48:24,147 - INFO - Prediction: Misleading
+2026-08-01 18:48:24,148 - INFO - ✓ Correct prediction
+2026-08-01 18:48:27,152 - INFO - ================================================================================
+2026-08-01 18:48:27,152 - INFO - Processing claim #55 (ID: tracer_train_55)
+2026-08-01 18:48:27,153 - INFO - Claim: Rep. Paul Hodes, D-N.H., "voted for the pork-filled stimulus bill -- $1.9 million to study ants in Africa, $39 million for office upgrades for politic...
+2026-08-01 18:48:27,154 - INFO - Date: 2010-09-20
+2026-08-01 18:48:29,539 - INFO - Prediction: Misleading
+2026-08-01 18:48:29,539 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-08-01 18:48:32,542 - INFO - ================================================================================
+2026-08-01 18:48:32,542 - INFO - Processing claim #56 (ID: tracer_train_56)
+2026-08-01 18:48:32,543 - INFO - Claim: State pension fund staffers "lost billions. Then Sink gave them bonuses."...
+2026-08-01 18:48:32,543 - INFO - Date: 2010-09-21
+2026-08-01 18:48:36,238 - INFO - Prediction: Misleading
+2026-08-01 18:48:36,238 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-08-01 18:48:39,247 - INFO - ================================================================================
+2026-08-01 18:48:39,247 - INFO - Processing claim #57 (ID: tracer_train_57)
+2026-08-01 18:48:39,248 - INFO - Claim: Rick Scott "doesn't have any ties to a lobbyist."...
+2026-08-01 18:48:39,248 - INFO - Date: 2010-09-27
+2026-08-01 18:48:41,138 - INFO - Prediction: Misleading
+2026-08-01 18:48:41,138 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-08-01 18:48:44,142 - INFO - ================================================================================
+2026-08-01 18:48:44,143 - INFO - Processing claim #58 (ID: tracer_train_58)
+2026-08-01 18:48:44,143 - INFO - Claim: "Newspapers say Florida made bad investments, lost hundreds of millions of dollars, billions in pension funds lost. Who was in charge of Florida's inv...
+2026-08-01 18:48:44,143 - INFO - Date: 2010-09-27
+2026-08-01 18:48:46,847 - INFO - Prediction: Misleading
+2026-08-01 18:48:46,848 - INFO - ✓ Correct prediction
+2026-08-01 18:48:49,850 - INFO - ================================================================================
+2026-08-01 18:48:49,850 - INFO - Processing claim #59 (ID: tracer_train_59)
+2026-08-01 18:48:49,850 - INFO - Claim: "Alex Sink funneled three quarters of a million dollars in no-bid contracts to Bank of America."...
+2026-08-01 18:48:49,850 - INFO - Date: 2010-09-27
+2026-08-01 18:48:53,282 - INFO - Prediction: Misleading
+2026-08-01 18:48:53,283 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-08-01 18:48:56,302 - INFO - ================================================================================
+2026-08-01 18:48:56,303 - INFO - Processing claim #60 (ID: tracer_train_60)
+2026-08-01 18:48:56,303 - INFO - Claim: Says "the headlines … tell the story" of how Walker has "mismanaged" Milwaukee County...
+2026-08-01 18:48:56,303 - INFO - Date: 2010-09-30
+2026-08-01 18:48:58,188 - INFO - Prediction: Misleading
+2026-08-01 18:48:58,188 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-08-01 18:49:01,190 - INFO - ================================================================================
+2026-08-01 18:49:01,190 - INFO - Processing claim #61 (ID: tracer_train_61)
+2026-08-01 18:49:01,190 - INFO - Claim: "The years that I was speaker, the Florida House consistently offered leaner budgets than the governor offered."...
+2026-08-01 18:49:01,190 - INFO - Date: 2010-10-06
+2026-08-01 18:49:03,267 - INFO - Prediction: Misleading
+2026-08-01 18:49:03,267 - INFO - ✓ Correct prediction
+2026-08-01 18:49:06,269 - INFO - ================================================================================
+2026-08-01 18:49:06,270 - INFO - Processing claim #62 (ID: tracer_train_62)
+2026-08-01 18:49:06,270 - INFO - Claim: "Pam Bondi told a group of lobbyists she’ll side with corporate special interests as attorney general."...
+2026-08-01 18:49:06,270 - INFO - Date: 2010-10-08
+2026-08-01 18:49:08,259 - INFO - Prediction: Misleading
+2026-08-01 18:49:08,259 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-08-01 18:49:11,261 - INFO - ================================================================================
+2026-08-01 18:49:11,261 - INFO - Processing claim #63 (ID: tracer_train_63)
+2026-08-01 18:49:11,261 - INFO - Claim: Taking the Fifth Amendment in a deposition about the Columbia/HCA hospital chain he founded "means a truthful answer to the questions that (Rick Scott...
+2026-08-01 18:49:11,261 - INFO - Date: 2010-10-10
+2026-08-01 18:49:13,757 - INFO - Prediction: Misleading
+2026-08-01 18:49:13,757 - INFO - ✓ Correct prediction
+2026-08-01 18:49:16,759 - INFO - ================================================================================
+2026-08-01 18:49:16,759 - INFO - Processing claim #64 (ID: tracer_train_64)
+2026-08-01 18:49:16,759 - INFO - Claim: The Seattle Times called Patty Murray "a 'prolific sponsor of earmarks.' Patty even defended the 'Bridge to Nowhere.' "...
+2026-08-01 18:49:16,759 - INFO - Date: 2010-10-12
+2026-08-01 18:49:18,843 - INFO - Prediction: Misleading
+2026-08-01 18:49:18,844 - INFO - ✓ Correct prediction
+2026-08-01 18:49:21,847 - INFO - ================================================================================
+2026-08-01 18:49:21,847 - INFO - Processing claim #65 (ID: tracer_train_65)
+2026-08-01 18:49:21,847 - INFO - Claim: Says PolitiFact says Amendment 4 "will force counties and cities across Florida to raise taxes and fees."...
+2026-08-01 18:49:21,847 - INFO - Date: 2010-10-17
+2026-08-01 18:49:23,695 - INFO - Prediction: Misleading
+2026-08-01 18:49:23,695 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-08-01 18:49:26,698 - INFO - ================================================================================
+2026-08-01 18:49:26,699 - INFO - Processing claim #66 (ID: tracer_train_66)
+2026-08-01 18:49:26,699 - INFO - Claim: "Dan Gelber: On the record against scholarships to help our needy children attend Jewish private schools."...
+2026-08-01 18:49:26,699 - INFO - Date: 2010-10-18
+2026-08-01 18:49:28,633 - INFO - Prediction: Misleading
+2026-08-01 18:49:28,633 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-08-01 18:49:31,637 - INFO - ================================================================================
+2026-08-01 18:49:31,638 - INFO - Processing claim #67 (ID: tracer_train_67)
+2026-08-01 18:49:31,640 - INFO - Claim: Says Marco Rubio sold a home to a chiropractor who had been lobbying him on automobile insurance legislation and "once he sold the home, for $380,000 ...
+2026-08-01 18:49:31,641 - INFO - Date: 2010-10-19
+2026-08-01 18:49:33,503 - INFO - Prediction: Misleading
+2026-08-01 18:49:33,503 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-08-01 18:49:36,505 - INFO - ================================================================================
+2026-08-01 18:49:36,505 - INFO - Processing claim #68 (ID: tracer_train_68)
+2026-08-01 18:49:36,506 - INFO - Claim: Charlie Crist "attacks me for positions he held, like, six months ago, (when) he was running in the Republican primary."...
+2026-08-01 18:49:36,506 - INFO - Date: 2010-10-24
+2026-08-01 18:49:43,442 - INFO - Prediction: Misleading
+2026-08-01 18:49:43,442 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-08-01 18:49:46,444 - INFO - ================================================================================
+2026-08-01 18:49:46,444 - INFO - Processing claim #69 (ID: tracer_train_69)
+2026-08-01 18:49:46,445 - INFO - Claim: A proposal to reduce the deficit "involved large tax cuts for the top bracket."...
+2026-08-01 18:49:46,445 - INFO - Date: 2010-11-14
+2026-08-01 18:49:49,606 - INFO - Prediction: Misleading
+2026-08-01 18:49:49,607 - INFO - ✓ Correct prediction
+2026-08-01 18:49:52,623 - INFO - ================================================================================
+2026-08-01 18:49:52,624 - INFO - Processing claim #70 (ID: tracer_train_70)
+2026-08-01 18:49:52,624 - INFO - Claim: "On the question on the DREAM Act, no -- no to granting lower tuition to illegals."...
+2026-08-01 18:49:52,624 - INFO - Date: 2010-11-18
+2026-08-01 18:49:54,599 - INFO - Prediction: Misleading
+2026-08-01 18:49:54,599 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-08-01 18:49:57,607 - INFO - ================================================================================
+2026-08-01 18:49:57,607 - INFO - Processing claim #71 (ID: tracer_train_71)
+2026-08-01 18:49:57,607 - INFO - Claim: "Sixteen [federal] programs exist to fight homelessness" and some of them are duplicative....
+2026-08-01 18:49:57,607 - INFO - Date: 2010-11-30
+2026-08-01 18:49:59,967 - INFO - Prediction: Supported
+2026-08-01 18:49:59,967 - INFO - ✗ Incorrect (True: Misleading, Pred: Supported)
+2026-08-01 18:50:02,969 - INFO - ================================================================================
+2026-08-01 18:50:02,969 - INFO - Processing claim #72 (ID: tracer_train_72)
+2026-08-01 18:50:02,969 - INFO - Claim: "No one in the private sector gets unlimited accruals of vacation and sick leave."...
+2026-08-01 18:50:02,969 - INFO - Date: 2010-12-09
+2026-08-01 18:50:05,182 - INFO - Prediction: Misleading
+2026-08-01 18:50:05,183 - INFO - ✓ Correct prediction
+2026-08-01 18:50:08,185 - INFO - ================================================================================
+2026-08-01 18:50:08,185 - INFO - Processing claim #73 (ID: tracer_train_73)
+2026-08-01 18:50:08,185 - INFO - Claim: "We had an amendment in the health care law that said the federal government is going to take over education."...
+2026-08-01 18:50:08,185 - INFO - Date: 2011-01-02
+2026-08-01 18:50:10,087 - INFO - Prediction: Refuted
+2026-08-01 18:50:10,088 - INFO - ✓ Correct prediction
+2026-08-01 18:50:13,093 - INFO - ================================================================================
+2026-08-01 18:50:13,094 - INFO - Processing claim #74 (ID: tracer_train_74)
+2026-08-01 18:50:13,096 - INFO - Claim: "In 1998, nearly half of Florida's fourth-graders were functionally illiterate. Today, 72% of them can read."...
+2026-08-01 18:50:13,096 - INFO - Date: 2011-01-03
+2026-08-01 18:50:14,573 - INFO - Prediction: Misleading
+2026-08-01 18:50:14,573 - INFO - ✓ Correct prediction
+2026-08-01 18:50:17,576 - INFO - ================================================================================
+2026-08-01 18:50:17,576 - INFO - Processing claim #75 (ID: tracer_train_75)
+2026-08-01 18:50:17,578 - INFO - Claim: More people die from "medical misadventures" than firearm accidents nationally and in Florida....
+2026-08-01 18:50:17,581 - INFO - Date: 2011-01-16
+2026-08-01 18:50:19,540 - INFO - Prediction: Misleading
+2026-08-01 18:50:19,540 - INFO - ✓ Correct prediction
+2026-08-01 18:50:22,542 - INFO - ================================================================================
+2026-08-01 18:50:22,542 - INFO - Processing claim #76 (ID: tracer_train_76)
+2026-08-01 18:50:22,542 - INFO - Claim: Says required state septic inspections would cost septic tank owners $100 to $150 every five years....
+2026-08-01 18:50:22,542 - INFO - Date: 2011-01-26
+2026-08-01 18:50:25,645 - INFO - Prediction: Misleading
+2026-08-01 18:50:25,646 - INFO - ✓ Correct prediction
+2026-08-01 18:50:28,648 - INFO - ================================================================================
+2026-08-01 18:50:28,650 - INFO - Processing claim #77 (ID: tracer_train_77)
+2026-08-01 18:50:28,655 - INFO - Claim: Under Hosni Mubarak's rule, "Egypt received more American dollars than any country besides Israel."...
+2026-08-01 18:50:28,655 - INFO - Date: 2011-01-30
+2026-08-01 18:50:30,490 - INFO - Prediction: Supported
+2026-08-01 18:50:30,490 - INFO - ✓ Correct prediction
+2026-08-01 18:50:33,493 - INFO - ================================================================================
+2026-08-01 18:50:33,494 - INFO - Processing claim #78 (ID: tracer_train_78)
+2026-08-01 18:50:33,494 - INFO - Claim: "Before this law was passed, Americans were told they could keep their current health care plans. After it became law, the administration issued regul...
+2026-08-01 18:50:33,494 - INFO - Date: 2011-02-01
+2026-08-01 18:50:35,287 - INFO - Prediction: Misleading
+2026-08-01 18:50:35,288 - INFO - ✓ Correct prediction
+2026-08-01 18:50:38,297 - INFO - ================================================================================
+2026-08-01 18:50:38,297 - INFO - Processing claim #79 (ID: tracer_train_79)
+2026-08-01 18:50:38,297 - INFO - Claim: Americans, in the last 30 years, "have more than doubled the amount of money we are spending per child (on education) … and the results have gotten wo...
+2026-08-01 18:50:38,297 - INFO - Date: 2011-02-09
+2026-08-01 18:50:40,100 - INFO - Prediction: Misleading
+2026-08-01 18:50:40,100 - INFO - ✓ Correct prediction
+2026-08-01 18:50:43,115 - INFO - ================================================================================
+2026-08-01 18:50:43,115 - INFO - Processing claim #80 (ID: tracer_train_80)
+2026-08-01 18:50:43,116 - INFO - Claim: "Across the board, violent crime in jurisdictions that recognize the Right to Carry is lower than in areas that prevent it."...
+2026-08-01 18:50:43,116 - INFO - Date: 2011-02-10
+2026-08-01 18:50:45,548 - INFO - Prediction: Misleading
+2026-08-01 18:50:45,548 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-08-01 18:50:48,553 - INFO - ================================================================================
+2026-08-01 18:50:48,554 - INFO - Processing claim #81 (ID: tracer_train_81)
+2026-08-01 18:50:48,554 - INFO - Claim: "The president promised to close the space gap, but he now seems intent on repeating the events that created the space gap in the first place -- putti...
+2026-08-01 18:50:48,554 - INFO - Date: 2011-02-14
+2026-08-01 18:50:50,454 - INFO - Prediction: Misleading
+2026-08-01 18:50:50,454 - INFO - ✓ Correct prediction
+2026-08-01 18:50:53,457 - INFO - ================================================================================
+2026-08-01 18:50:53,458 - INFO - Processing claim #82 (ID: tracer_train_82)
+2026-08-01 18:50:53,458 - INFO - Claim: Under the White House’s budget proposal, "we will not be adding more to the national debt" by the middle of the decade....
+2026-08-01 18:50:53,458 - INFO - Date: 2011-02-15
+2026-08-01 18:50:55,243 - INFO - Prediction: Misleading
+2026-08-01 18:50:55,244 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-08-01 18:50:58,254 - INFO - ================================================================================
+2026-08-01 18:50:58,255 - INFO - Processing claim #83 (ID: tracer_train_83)
+2026-08-01 18:50:58,256 - INFO - Claim: Under changes being debated, state employees in Wisconsin "who earn $30,000, $40,000, $50,000 a year might have 20 percent of their income just disapp...
+2026-08-01 18:50:58,257 - INFO - Date: 2011-02-15
+2026-08-01 18:51:05,388 - INFO - Prediction: Misleading
+2026-08-01 18:51:05,388 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-08-01 18:51:08,394 - INFO - ================================================================================
+2026-08-01 18:51:08,394 - INFO - Processing claim #84 (ID: tracer_train_84)
+2026-08-01 18:51:08,395 - INFO - Claim: When it comes to urgency on passing a budget repair bill, "there’s no rush on this thing" because the fiscal year doesn’t end until June 30, 2011....
+2026-08-01 18:51:08,395 - INFO - Date: 2011-02-17
+2026-08-01 18:51:10,533 - INFO - Prediction: Misleading
+2026-08-01 18:51:10,533 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-08-01 18:51:13,536 - INFO - ================================================================================
+2026-08-01 18:51:13,537 - INFO - Processing claim #85 (ID: tracer_train_85)
+2026-08-01 18:51:13,537 - INFO - Claim: Says "for the equivalent cost of a single mile of freeway, we have a bike infrastructure."...
+2026-08-01 18:51:13,537 - INFO - Date: 2011-02-22
+2026-08-01 18:51:15,511 - INFO - Prediction: Misleading
+2026-08-01 18:51:15,511 - INFO - ✓ Correct prediction
+2026-08-01 18:51:18,515 - INFO - ================================================================================
+2026-08-01 18:51:18,515 - INFO - Processing claim #86 (ID: tracer_train_86)
+2026-08-01 18:51:18,516 - INFO - Claim: Gov. Rick Scott's sale of the state planes was "not proper."...
+2026-08-01 18:51:18,516 - INFO - Date: 2011-02-23
+2026-08-01 18:51:21,435 - INFO - Prediction: Misleading
+2026-08-01 18:51:21,436 - INFO - ✗ Incorrect (True: Supported, Pred: Misleading)
+2026-08-01 18:51:24,439 - INFO - ================================================================================
+2026-08-01 18:51:24,439 - INFO - Processing claim #87 (ID: tracer_train_87)
+2026-08-01 18:51:24,439 - INFO - Claim: Says Florida's pension plan faces the same long-term funding problems as Social Security....
+2026-08-01 18:51:24,439 - INFO - Date: 2011-02-23
+2026-08-01 18:51:32,432 - INFO - Prediction: Misleading
+2026-08-01 18:51:32,433 - INFO - ✓ Correct prediction
+2026-08-01 18:51:35,437 - INFO - ================================================================================
+2026-08-01 18:51:35,438 - INFO - Processing claim #88 (ID: tracer_train_88)
+2026-08-01 18:51:35,439 - INFO - Claim: Says Tri-Rail shows the potential problems with investing in high-speed rail....
+2026-08-01 18:51:35,441 - INFO - Date: 2011-02-27
+2026-08-01 18:51:37,372 - INFO - Prediction: Misleading
+2026-08-01 18:51:37,372 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-08-01 18:51:40,374 - INFO - ================================================================================
+2026-08-01 18:51:40,375 - INFO - Processing claim #89 (ID: tracer_train_89)
+2026-08-01 18:51:40,375 - INFO - Claim: Says the Obama administration "will no longer enforce the Defense of Marriage Act (DOMA)."...
+2026-08-01 18:51:40,375 - INFO - Date: 2011-03-01
+2026-08-01 18:51:42,276 - INFO - Prediction: Supported
+2026-08-01 18:51:42,277 - INFO - ✗ Incorrect (True: Misleading, Pred: Supported)
+2026-08-01 18:51:45,291 - INFO - ================================================================================
+2026-08-01 18:51:45,291 - INFO - Processing claim #90 (ID: tracer_train_90)
+2026-08-01 18:51:45,291 - INFO - Claim: Says new EPA water regulations would force the state to make drainage canals every bit as clean as pristine Florida river systems....
+2026-08-01 18:51:45,292 - INFO - Date: 2011-03-01
+2026-08-01 18:51:47,462 - INFO - Prediction: Misleading
+2026-08-01 18:51:47,462 - INFO - ✓ Correct prediction
+2026-08-01 18:51:50,464 - INFO - ================================================================================
+2026-08-01 18:51:50,464 - INFO - Processing claim #91 (ID: tracer_train_91)
+2026-08-01 18:51:50,464 - INFO - Claim: A government shutdown "could disrupt ... veterans' benefits."...
+2026-08-01 18:51:50,464 - INFO - Date: 2011-03-01
+2026-08-01 18:51:52,695 - INFO - Prediction: Supported
+2026-08-01 18:51:52,695 - INFO - ✓ Correct prediction
+2026-08-01 18:51:55,703 - INFO - ================================================================================
+2026-08-01 18:51:55,703 - INFO - Processing claim #92 (ID: tracer_train_92)
+2026-08-01 18:51:55,703 - INFO - Claim: "Thirty-five states have accepted high-speed intercity rail money."...
+2026-08-01 18:51:55,703 - INFO - Date: 2011-03-02
+2026-08-01 18:51:57,850 - INFO - Prediction: Supported
+2026-08-01 18:51:57,851 - INFO - ✗ Incorrect (True: Misleading, Pred: Supported)
+2026-08-01 18:52:00,854 - INFO - ================================================================================
+2026-08-01 18:52:00,855 - INFO - Processing claim #93 (ID: tracer_train_93)
+2026-08-01 18:52:00,855 - INFO - Claim: Georgia legislation on immigration is a "copycat" of an Arizona immigration bill....
+2026-08-01 18:52:00,855 - INFO - Date: 2011-03-02
+2026-08-01 18:52:02,741 - INFO - Prediction: Misleading
+2026-08-01 18:52:02,742 - INFO - ✓ Correct prediction
+2026-08-01 18:52:05,754 - INFO - ================================================================================
+2026-08-01 18:52:05,754 - INFO - Processing claim #94 (ID: tracer_train_94)
+2026-08-01 18:52:05,754 - INFO - Claim: "Any child born prematurely, according to the president, in his own words, can be killed."...
+2026-08-01 18:52:05,754 - INFO - Date: 2011-03-07
+2026-08-01 18:52:07,750 - INFO - Prediction: Refuted
+2026-08-01 18:52:07,751 - INFO - ✓ Correct prediction
+2026-08-01 18:52:10,761 - INFO - ================================================================================
+2026-08-01 18:52:10,762 - INFO - Processing claim #95 (ID: tracer_train_95)
+2026-08-01 18:52:10,763 - INFO - Claim: Says Rick Scott's proposed budget "would lay off 20,000 teachers."...
+2026-08-01 18:52:10,764 - INFO - Date: 2011-03-08
+2026-08-01 18:52:12,047 - INFO - Prediction: Misleading
+2026-08-01 18:52:12,047 - INFO - ✓ Correct prediction
+2026-08-01 18:52:15,055 - INFO - ================================================================================
+2026-08-01 18:52:15,055 - INFO - Processing claim #96 (ID: tracer_train_96)
+2026-08-01 18:52:15,057 - INFO - Claim: "Last year, American oil production reached its highest level since 2003."...
+2026-08-01 18:52:15,057 - INFO - Date: 2011-03-11
+2026-08-01 18:52:17,744 - INFO - Prediction: Refuted
+2026-08-01 18:52:17,744 - INFO - ✗ Incorrect (True: Misleading, Pred: Refuted)
+2026-08-01 18:52:20,746 - INFO - ================================================================================
+2026-08-01 18:52:20,746 - INFO - Processing claim #97 (ID: tracer_train_97)
+2026-08-01 18:52:20,746 - INFO - Claim: A proposed revenue smart cap "gives Floridians a voice, requiring a 60 percent vote by citizens in order to impose a new tax, fee, license, fine, char...
+2026-08-01 18:52:20,747 - INFO - Date: 2011-03-15
+2026-08-01 18:52:24,083 - INFO - Prediction: Misleading
+2026-08-01 18:52:24,083 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-08-01 18:52:27,086 - INFO - ================================================================================
+2026-08-01 18:52:27,090 - INFO - Processing claim #98 (ID: tracer_train_98)
+2026-08-01 18:52:27,092 - INFO - Claim: Says his bill, HB 97, would prevent the use of taxpayer dollars on abortions....
+2026-08-01 18:52:27,093 - INFO - Date: 2011-03-16
+2026-08-01 18:52:29,197 - INFO - Prediction: Supported
+2026-08-01 18:52:29,197 - INFO - ✗ Incorrect (True: Refuted, Pred: Supported)
+2026-08-01 18:52:32,201 - INFO - ================================================================================
+2026-08-01 18:52:32,201 - INFO - Processing claim #99 (ID: tracer_train_99)
+2026-08-01 18:52:32,202 - INFO - Claim: Says Allen West helped thwart a terrorist plot by shooting a gun in the direction of an Iraqi detainee, then reported the incident to his superior and...
+2026-08-01 18:52:32,202 - INFO - Date: 2011-03-18
+2026-08-01 18:52:34,166 - INFO - Prediction: Misleading
+2026-08-01 18:52:34,166 - INFO - ✓ Correct prediction
+2026-08-01 18:52:37,188 - INFO - ================================================================================
+2026-08-01 18:52:37,188 - INFO - Processing claim #100 (ID: tracer_train_100)
+2026-08-01 18:52:37,188 - INFO - Claim: "The Congressional Budget Office has this economic model where they measure the economy going forward, and they are now telling us that the entire eco...
+2026-08-01 18:52:37,188 - INFO - Date: 2011-03-18
+2026-08-01 18:52:39,704 - INFO - Prediction: Refuted
+2026-08-01 18:52:39,705 - INFO - ✗ Incorrect (True: Misleading, Pred: Refuted)
+2026-08-01 18:52:42,707 - INFO - ================================================================================
+2026-08-01 18:52:42,707 - INFO - Processing claim #101 (ID: tracer_train_101)
+2026-08-01 18:52:42,708 - INFO - Claim: In a lawsuit between private citizens, a Florida judge "announced the decision was going to be based on Islamic Law."...
+2026-08-01 18:52:42,708 - INFO - Date: 2011-03-20
+2026-08-01 18:52:44,943 - INFO - Prediction: Refuted
+2026-08-01 18:52:44,943 - INFO - ✗ Incorrect (True: Misleading, Pred: Refuted)
+2026-08-01 18:52:47,945 - INFO - ================================================================================
+2026-08-01 18:52:47,948 - INFO - Processing claim #102 (ID: tracer_train_102)
+2026-08-01 18:52:47,949 - INFO - Claim: "Before this (federal health care) law was enacted, Florida parents ... were able to purchase inexpensive 'child-only' coverage for their children. Th...
+2026-08-01 18:52:47,950 - INFO - Date: 2011-03-23
+2026-08-01 18:52:50,196 - INFO - Prediction: Misleading
+2026-08-01 18:52:50,196 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-08-01 18:52:53,197 - INFO - ================================================================================
+2026-08-01 18:52:53,197 - INFO - Processing claim #103 (ID: tracer_train_103)
+2026-08-01 18:52:53,197 - INFO - Claim: Since Oregon’s prescription-only law took effect, meth lab incidents have dropped by 96 percent and meth-related arrests by 32 percent....
+2026-08-01 18:52:53,197 - INFO - Date: 2011-03-28
+2026-08-01 18:52:55,261 - INFO - Prediction: Supported
+2026-08-01 18:52:55,261 - INFO - ✓ Correct prediction
+2026-08-01 18:52:58,264 - INFO - ================================================================================
+2026-08-01 18:52:58,264 - INFO - Processing claim #104 (ID: tracer_train_104)
+2026-08-01 18:52:58,264 - INFO - Claim: Says David Prosser = Scott Walker....
+2026-08-01 18:52:58,265 - INFO - Date: 2011-03-30
+2026-08-01 18:53:00,575 - INFO - Prediction: Refuted
+2026-08-01 18:53:00,575 - INFO - ✗ Incorrect (True: Misleading, Pred: Refuted)
+2026-08-01 18:53:03,581 - INFO - ================================================================================
+2026-08-01 18:53:03,581 - INFO - Processing claim #105 (ID: tracer_train_105)
+2026-08-01 18:53:03,581 - INFO - Claim: "Every person on death row was a foster kid."...
+2026-08-01 18:53:03,581 - INFO - Date: 2011-03-31
+2026-08-01 18:53:05,635 - INFO - Prediction: Refuted
+2026-08-01 18:53:05,635 - INFO - ✓ Correct prediction
+2026-08-01 18:53:08,637 - INFO - ================================================================================
+2026-08-01 18:53:08,637 - INFO - Processing claim #106 (ID: tracer_train_106)
+2026-08-01 18:53:08,637 - INFO - Claim: In Florida, it’s not illegal for an immediate family member of state officials to prosper from legislation supported by a spouse....
+2026-08-01 18:53:08,637 - INFO - Date: 2011-04-02
+2026-08-01 18:53:10,617 - INFO - Prediction: Supported
+2026-08-01 18:53:10,618 - INFO - ✓ Correct prediction
+2026-08-01 18:53:13,620 - INFO - ================================================================================
+2026-08-01 18:53:13,620 - INFO - Processing claim #107 (ID: tracer_train_107)
+2026-08-01 18:53:13,620 - INFO - Claim: Human error, such as skipping a community in the Wisconsin Supreme Court race, "is common in (the vote-tabulation) process....
+2026-08-01 18:53:13,620 - INFO - Date: 2011-04-07
+2026-08-01 18:53:15,541 - INFO - Prediction: Misleading
+2026-08-01 18:53:15,542 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-08-01 18:53:18,552 - INFO - ================================================================================
+2026-08-01 18:53:18,554 - INFO - Processing claim #108 (ID: tracer_train_108)
+2026-08-01 18:53:18,555 - INFO - Claim: A Republican proposal changes Medicare for those under age 55 so that they will  "participate in the same kind of health plan that members of Congress...
+2026-08-01 18:53:18,555 - INFO - Date: 2011-04-10
+2026-08-01 18:53:20,235 - INFO - Prediction: Misleading
+2026-08-01 18:53:20,235 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-08-01 18:53:23,237 - INFO - ================================================================================
+2026-08-01 18:53:23,238 - INFO - Processing claim #109 (ID: tracer_train_109)
+2026-08-01 18:53:23,238 - INFO - Claim: Under a proposal by Rep. Paul Ryan, people on Medicare will only have $15,000 from the federal government to spend on their health care....
+2026-08-01 18:53:23,238 - INFO - Date: 2011-04-15
+2026-08-01 18:53:25,292 - INFO - Prediction: Misleading
+2026-08-01 18:53:25,292 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-08-01 18:53:28,313 - INFO - ================================================================================
+2026-08-01 18:53:28,314 - INFO - Processing claim #110 (ID: tracer_train_110)
+2026-08-01 18:53:28,318 - INFO - Claim: Per-student K-12 state funding for Portland Public Schools has dipped from $6,036 in the 2007-2008 school year to $5,644 in the 2010-2011 school year...
+2026-08-01 18:53:28,319 - INFO - Date: 2011-04-15
+2026-08-01 18:53:30,433 - INFO - Prediction: Supported
+2026-08-01 18:53:30,437 - INFO - ✗ Incorrect (True: Misleading, Pred: Supported)
+2026-08-01 18:53:33,445 - INFO - ================================================================================
+2026-08-01 18:53:33,446 - INFO - Processing claim #111 (ID: tracer_train_111)
+2026-08-01 18:53:33,446 - INFO - Claim: "Large majorities" of the public "oppose major changes to Medicare" and favor higher taxes on the wealthy....
+2026-08-01 18:53:33,446 - INFO - Date: 2011-04-18
+2026-08-01 18:53:35,981 - INFO - Prediction: Supported
+2026-08-01 18:53:35,982 - INFO - ✓ Correct prediction
+2026-08-01 18:53:38,983 - INFO - ================================================================================
+2026-08-01 18:53:38,984 - INFO - Processing claim #112 (ID: tracer_train_112)
+2026-08-01 18:53:38,984 - INFO - Claim: "Seniors will have to find $12,500 for health care because Republicans voted to end Medicare."...
+2026-08-01 18:53:38,984 - INFO - Date: 2011-04-18
+2026-08-01 18:53:40,816 - INFO - Prediction: Misleading
+2026-08-01 18:53:40,817 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-08-01 18:53:43,818 - INFO - ================================================================================
+2026-08-01 18:53:43,819 - INFO - Processing claim #113 (ID: tracer_train_113)
+2026-08-01 18:53:43,819 - INFO - Claim: "Mickey Mouse was registered to vote (in Florida)."...
+2026-08-01 18:53:43,819 - INFO - Date: 2011-04-21
+2026-08-01 18:53:44,976 - INFO - Prediction: Misleading
+2026-08-01 18:53:44,977 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-08-01 18:53:47,982 - INFO - ================================================================================
+2026-08-01 18:53:47,983 - INFO - Processing claim #114 (ID: tracer_train_114)
+2026-08-01 18:53:47,983 - INFO - Claim: Says Florida is one of a few or perhaps the only state "that has a statewide review of local land use and zoning decisions."...
+2026-08-01 18:53:47,984 - INFO - Date: 2011-04-21
+2026-08-01 18:53:49,054 - INFO - Prediction: Misleading
+2026-08-01 18:53:49,054 - INFO - ✓ Correct prediction
+2026-08-01 18:53:52,056 - INFO - ================================================================================
+2026-08-01 18:53:52,056 - INFO - Processing claim #115 (ID: tracer_train_115)
+2026-08-01 18:53:52,057 - INFO - Claim: "Most of your serial killers, most of your people who commit domestic violence, they start off by abusing animals."...
+2026-08-01 18:53:52,057 - INFO - Date: 2011-04-24
+2026-08-01 18:53:53,970 - INFO - Prediction: Supported
+2026-08-01 18:53:53,970 - INFO - ✗ Incorrect (True: Refuted, Pred: Supported)
+2026-08-01 18:53:56,973 - INFO - ================================================================================
+2026-08-01 18:53:56,973 - INFO - Processing claim #116 (ID: tracer_train_116)
+2026-08-01 18:53:56,974 - INFO - Claim: "The people of Rhode Island don't want same-sex marriage."...
+2026-08-01 18:53:56,974 - INFO - Date: 2011-04-29
+2026-08-01 18:53:59,263 - INFO - Prediction: Refuted
+2026-08-01 18:53:59,264 - INFO - ✓ Correct prediction
+2026-08-01 18:54:02,270 - INFO - ================================================================================
+2026-08-01 18:54:02,270 - INFO - Processing claim #117 (ID: tracer_train_117)
+2026-08-01 18:54:02,271 - INFO - Claim: "The only people in this town that have voted to cut Medicare spending are the people who voted in favor of Obamacare. That’s a fact."...
+2026-08-01 18:54:02,271 - INFO - Date: 2011-05-01
+2026-08-01 18:54:03,611 - INFO - Prediction: Refuted
+2026-08-01 18:54:03,611 - INFO - ✓ Correct prediction
+2026-08-01 18:54:06,616 - INFO - ================================================================================
+2026-08-01 18:54:06,617 - INFO - Processing claim #118 (ID: tracer_train_118)
+2026-08-01 18:54:06,617 - INFO - Claim: Rep. Paul Ryan's budget proposal cuts "nothing" from Medicare, Social Security or defense in the next two to three years, and "in three years, he does...
+2026-08-01 18:54:06,617 - INFO - Date: 2011-05-01
+2026-08-01 18:54:09,583 - INFO - Prediction: Misleading
+2026-08-01 18:54:09,583 - INFO - ✗ Incorrect (True: Supported, Pred: Misleading)
+2026-08-01 18:54:12,591 - INFO - ================================================================================
+2026-08-01 18:54:12,591 - INFO - Processing claim #119 (ID: tracer_train_119)
+2026-08-01 18:54:12,591 - INFO - Claim: Promotes a chart saying that Barack Obama has "increased the debt" by 16 percent, compared to George W. Bush, who increased it by 115 percent....
+2026-08-01 18:54:12,592 - INFO - Date: 2011-05-03
+2026-08-01 18:54:14,049 - INFO - Prediction: Misleading
+2026-08-01 18:54:14,050 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-08-01 18:54:17,080 - INFO - ================================================================================
+2026-08-01 18:54:17,081 - INFO - Processing claim #120 (ID: tracer_train_120)
+2026-08-01 18:54:17,081 - INFO - Claim: " 'Scary' fact about our national debt. In 1791 it was $75 million. Today, it rises by that amount in about an hour."...
+2026-08-01 18:54:17,081 - INFO - Date: 2011-05-10
+2026-08-01 18:54:19,104 - INFO - Prediction: Misleading
+2026-08-01 18:54:19,104 - INFO - ✓ Correct prediction
+2026-08-01 18:54:22,108 - INFO - ================================================================================
+2026-08-01 18:54:22,110 - INFO - Processing claim #121 (ID: tracer_train_121)
+2026-08-01 18:54:22,110 - INFO - Claim: "The new beverage tax will increase the cost of sodas, juice drinks, sports drinks, iced teas, and flavored water up to 50%."...
+2026-08-01 18:54:22,110 - INFO - Date: 2011-05-11
+2026-08-01 18:54:23,901 - INFO - Prediction: Misleading
+2026-08-01 18:54:23,902 - INFO - ✓ Correct prediction
+2026-08-01 18:54:26,904 - INFO - ================================================================================
+2026-08-01 18:54:26,905 - INFO - Processing claim #122 (ID: tracer_train_122)
+2026-08-01 18:54:26,905 - INFO - Claim: The Providence teacher contract "is one of the longest in the country."...
+2026-08-01 18:54:26,905 - INFO - Date: 2011-05-15
+2026-08-01 18:54:29,724 - INFO - Prediction: Misleading
+2026-08-01 18:54:29,724 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-08-01 18:54:32,726 - INFO - ================================================================================
+2026-08-01 18:54:32,726 - INFO - Processing claim #123 (ID: tracer_train_123)
+2026-08-01 18:54:32,726 - INFO - Claim: "You can't give a child an aspirin in school without permission. You can't do any kind of medication, but we can secretly take the child off and have ...
+2026-08-01 18:54:32,726 - INFO - Date: 2011-05-17
+2026-08-01 18:54:34,857 - INFO - Prediction: Misleading
+2026-08-01 18:54:34,858 - INFO - ✗ Incorrect (True: Supported, Pred: Misleading)
+2026-08-01 18:54:37,860 - INFO - ================================================================================
+2026-08-01 18:54:37,860 - INFO - Processing claim #124 (ID: tracer_train_124)
+2026-08-01 18:54:37,860 - INFO - Claim: The Paul Ryan budget proposal would leave the country "without Medicare."...
+2026-08-01 18:54:37,860 - INFO - Date: 2011-05-17
+2026-08-01 18:54:39,840 - INFO - Prediction: Misleading
+2026-08-01 18:54:39,841 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-08-01 18:54:42,842 - INFO - ================================================================================
+2026-08-01 18:54:42,842 - INFO - Processing claim #125 (ID: tracer_train_125)
+2026-08-01 18:54:42,843 - INFO - Claim: "Rhode Island continues to have the highest rates of substance abuse in the country."...
+2026-08-01 18:54:42,843 - INFO - Date: 2011-05-18
+2026-08-01 18:54:44,647 - INFO - Prediction: Misleading
+2026-08-01 18:54:44,648 - INFO - ✗ Incorrect (True: Supported, Pred: Misleading)
+2026-08-01 18:54:47,651 - INFO - ================================================================================
+2026-08-01 18:54:47,656 - INFO - Processing claim #126 (ID: tracer_train_126)
+2026-08-01 18:54:47,656 - INFO - Claim: "Unions don’t have to comply with Obamacare."...
+2026-08-01 18:54:47,657 - INFO - Date: 2011-05-18
+2026-08-01 18:54:48,901 - INFO - Prediction: Misleading
+2026-08-01 18:54:48,901 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-08-01 18:54:51,912 - INFO - ================================================================================
+2026-08-01 18:54:51,913 - INFO - Processing claim #127 (ID: tracer_train_127)
+2026-08-01 18:54:51,913 - INFO - Claim: The Central Falls School system "spent $100,000 on a time clock."...
+2026-08-01 18:54:51,913 - INFO - Date: 2011-05-19
+2026-08-01 18:54:54,366 - INFO - Prediction: Misleading
+2026-08-01 18:54:54,366 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-08-01 18:54:57,367 - INFO - ================================================================================
+2026-08-01 18:54:57,368 - INFO - Processing claim #128 (ID: tracer_train_128)
+2026-08-01 18:54:57,368 - INFO - Claim: "750 days since Bill Nelson & the Democrats in the Senate passed a budget. How can this be justified?"...
+2026-08-01 18:54:57,369 - INFO - Date: 2011-05-19
+2026-08-01 18:54:58,840 - INFO - Prediction: Misleading
+2026-08-01 18:54:58,841 - INFO - ✓ Correct prediction
+2026-08-01 18:55:01,853 - INFO - ================================================================================
+2026-08-01 18:55:01,854 - INFO - Processing claim #129 (ID: tracer_train_129)
+2026-08-01 18:55:01,854 - INFO - Claim: "There's a 1.5 percent to 2 percent overhead in Medicare. The insurance companies have a 20 percent to 30 percent overhead."...
+2026-08-01 18:55:01,854 - INFO - Date: 2011-05-24
+2026-08-01 18:55:04,156 - INFO - Prediction: Misleading
+2026-08-01 18:55:04,156 - INFO - ✓ Correct prediction
+2026-08-01 18:55:07,174 - INFO - ================================================================================
+2026-08-01 18:55:07,175 - INFO - Processing claim #130 (ID: tracer_train_130)
+2026-08-01 18:55:07,175 - INFO - Claim: "Do this research … watch how much crime picks up if you take away [football]."...
+2026-08-01 18:55:07,175 - INFO - Date: 2011-05-25
+2026-08-01 18:55:11,450 - INFO - Prediction: Misleading
+2026-08-01 18:55:11,451 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-08-01 18:55:14,454 - INFO - ================================================================================
+2026-08-01 18:55:14,454 - INFO - Processing claim #131 (ID: tracer_train_131)
+2026-08-01 18:55:14,454 - INFO - Claim: "Ten percent of violent deaths in the U.S. each year are due to strangulation."...
+2026-08-01 18:55:14,455 - INFO - Date: 2011-05-25
+2026-08-01 18:55:15,609 - INFO - Prediction: Refuted
+2026-08-01 18:55:15,609 - INFO - ✓ Correct prediction
+2026-08-01 18:55:18,612 - INFO - ================================================================================
+2026-08-01 18:55:18,612 - INFO - Processing claim #132 (ID: tracer_train_132)
+2026-08-01 18:55:18,613 - INFO - Claim: "When I became president and CEO of Godfather’s Pizza, it was supposed to go bankrupt . . . We turned it around with common-sense business principles....
+2026-08-01 18:55:18,613 - INFO - Date: 2011-05-26
+2026-08-01 18:55:19,945 - INFO - Prediction: Supported
+2026-08-01 18:55:19,946 - INFO - ✗ Incorrect (True: Misleading, Pred: Supported)
+2026-08-01 18:55:22,949 - INFO - ================================================================================
+2026-08-01 18:55:22,949 - INFO - Processing claim #133 (ID: tracer_train_133)
+2026-08-01 18:55:22,949 - INFO - Claim: "It is a greater crime to have an untagged alligator than to host an open house party (for kids)."...
+2026-08-01 18:55:22,949 - INFO - Date: 2011-05-30
+2026-08-01 18:55:24,065 - INFO - Prediction: Misleading
+2026-08-01 18:55:24,065 - INFO - ✗ Incorrect (True: Supported, Pred: Misleading)
+2026-08-01 18:55:27,067 - INFO - ================================================================================
+2026-08-01 18:55:27,067 - INFO - Processing claim #134 (ID: tracer_train_134)
+2026-08-01 18:55:27,067 - INFO - Claim: "We had (a bill) in Florida where we now are prohibiting doctors to talk -- particularly pediatricians -- to talk to their patients about gun safety i...
+2026-08-01 18:55:27,067 - INFO - Date: 2011-06-01
+2026-08-01 18:55:29,434 - INFO - Prediction: Misleading
+2026-08-01 18:55:29,435 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-08-01 18:55:32,435 - INFO - ================================================================================
+2026-08-01 18:55:32,435 - INFO - Processing claim #135 (ID: tracer_train_135)
+2026-08-01 18:55:32,435 - INFO - Claim: "Rep. Robert Hurt voted again today to end Medicare and raise health care costs for Virginia seniors."...
+2026-08-01 18:55:32,435 - INFO - Date: 2011-06-01
+2026-08-01 18:55:33,960 - INFO - Prediction: Misleading
+2026-08-01 18:55:33,960 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-08-01 18:55:36,963 - INFO - ================================================================================
+2026-08-01 18:55:36,963 - INFO - Processing claim #136 (ID: tracer_train_136)
+2026-08-01 18:55:36,963 - INFO - Claim: "If you threw a barbecue yesterday for the Memorial weekend, it was 29 percent more expensive than last year because Barack Obama's policies have led ...
+2026-08-01 18:55:36,963 - INFO - Date: 2011-06-01
+2026-08-01 18:55:38,887 - INFO - Prediction: Refuted
+2026-08-01 18:55:38,888 - INFO - ✓ Correct prediction
+2026-08-01 18:55:41,891 - INFO - ================================================================================
+2026-08-01 18:55:41,892 - INFO - Processing claim #137 (ID: tracer_train_137)
+2026-08-01 18:55:41,893 - INFO - Claim: "Voted the ‘best specialty plate in America’"...
+2026-08-01 18:55:41,893 - INFO - Date: 2011-06-01
+2026-08-01 18:55:43,866 - INFO - Prediction: Misleading
+2026-08-01 18:55:43,866 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-08-01 18:55:46,868 - INFO - ================================================================================
+2026-08-01 18:55:46,869 - INFO - Processing claim #138 (ID: tracer_train_138)
+2026-08-01 18:55:46,869 - INFO - Claim: "We already have $23 billion worth of debt."...
+2026-08-01 18:55:46,869 - INFO - Date: 2011-06-02
+2026-08-01 18:55:48,101 - INFO - Prediction: Misleading
+2026-08-01 18:55:48,102 - INFO - ✗ Incorrect (True: Supported, Pred: Misleading)
+2026-08-01 18:55:51,107 - INFO - ================================================================================
+2026-08-01 18:55:51,107 - INFO - Processing claim #139 (ID: tracer_train_139)
+2026-08-01 18:55:51,107 - INFO - Claim: "A few months into office, (President Barack Obama) traveled around the globe to apologize for America."...
+2026-08-01 18:55:51,107 - INFO - Date: 2011-06-02
+2026-08-01 18:55:52,712 - INFO - Prediction: Misleading
+2026-08-01 18:55:52,712 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-08-01 18:55:55,728 - INFO - ================================================================================
+2026-08-01 18:55:55,728 - INFO - Processing claim #140 (ID: tracer_train_140)
+2026-08-01 18:55:55,728 - INFO - Claim: "Studies show that people that are on welfare are higher users of drugs than people not on welfare."...
+2026-08-01 18:55:55,728 - INFO - Date: 2011-06-05
+2026-08-01 18:55:57,846 - INFO - Prediction: Misleading
+2026-08-01 18:55:57,847 - INFO - ✓ Correct prediction
+2026-08-01 18:56:00,848 - INFO - ================================================================================
+2026-08-01 18:56:00,848 - INFO - Processing claim #141 (ID: tracer_train_141)
+2026-08-01 18:56:00,848 - INFO - Claim: Accuses President Barack Obama of making contradictory claims about efforts to kill Osama bin Laden in 2008 and 2011....
+2026-08-01 18:56:00,848 - INFO - Date: 2011-06-07
+2026-08-01 18:56:01,959 - INFO - Prediction: Misleading
+2026-08-01 18:56:01,960 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-08-01 18:56:04,965 - INFO - ================================================================================
+2026-08-01 18:56:04,965 - INFO - Processing claim #142 (ID: tracer_train_142)
+2026-08-01 18:56:04,966 - INFO - Claim: "A couple of hundred American cities are infested by members of the Mexican cartels."...
+2026-08-01 18:56:04,966 - INFO - Date: 2011-06-07
+2026-08-01 18:56:06,765 - INFO - Prediction: Misleading
+2026-08-01 18:56:06,765 - INFO - ✗ Incorrect (True: Supported, Pred: Misleading)
+2026-08-01 18:56:09,767 - INFO - ================================================================================
+2026-08-01 18:56:09,767 - INFO - Processing claim #143 (ID: tracer_train_143)
+2026-08-01 18:56:09,767 - INFO - Claim: Says President Barack Obama promised he would cut the deficit in half, but instead will at least double it....
+2026-08-01 18:56:09,767 - INFO - Date: 2011-06-10
+2026-08-01 18:56:11,909 - INFO - Prediction: Misleading
+2026-08-01 18:56:11,909 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-08-01 18:56:14,918 - INFO - ================================================================================
+2026-08-01 18:56:14,919 - INFO - Processing claim #144 (ID: tracer_train_144)
+2026-08-01 18:56:14,919 - INFO - Claim: Says former Miami-Dade Mayor Carlos Alvarez and current mayoral candidate Carlos Gimenez  both drove fancy European cars at taxpayer expense....
+2026-08-01 18:56:14,919 - INFO - Date: 2011-06-10
+2026-08-01 18:56:17,557 - INFO - Prediction: Supported
+2026-08-01 18:56:17,558 - INFO - ✗ Incorrect (True: Misleading, Pred: Supported)
+2026-08-01 18:56:20,562 - INFO - ================================================================================
+2026-08-01 18:56:20,563 - INFO - Processing claim #145 (ID: tracer_train_145)
+2026-08-01 18:56:20,563 - INFO - Claim: "The cost-of-living increase in Social Security is tied to wage inflation."...
+2026-08-01 18:56:20,563 - INFO - Date: 2011-06-12
+2026-08-01 18:56:22,772 - INFO - Prediction: Misleading
+2026-08-01 18:56:22,772 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-08-01 18:56:25,773 - INFO - ================================================================================
+2026-08-01 18:56:25,774 - INFO - Processing claim #146 (ID: tracer_train_146)
+2026-08-01 18:56:25,774 - INFO - Claim: "Providence is one of the busiest fire departments for its relative size in the country."...
+2026-08-01 18:56:25,774 - INFO - Date: 2011-06-12
+2026-08-01 18:56:28,626 - INFO - Prediction: Misleading
+2026-08-01 18:56:28,626 - INFO - ✗ Incorrect (True: Supported, Pred: Misleading)
+2026-08-01 18:56:31,628 - INFO - ================================================================================
+2026-08-01 18:56:31,628 - INFO - Processing claim #147 (ID: tracer_train_147)
+2026-08-01 18:56:31,628 - INFO - Claim: Says the new Dodd-Frank financial law requires a 20 percent down payment to buy a house....
+2026-08-01 18:56:31,629 - INFO - Date: 2011-06-13
+2026-08-01 18:56:33,481 - INFO - Prediction: Refuted
+2026-08-01 18:56:33,481 - INFO - ✓ Correct prediction
+2026-08-01 18:56:36,482 - INFO - ================================================================================
+2026-08-01 18:56:36,483 - INFO - Processing claim #148 (ID: tracer_train_148)
+2026-08-01 18:56:36,483 - INFO - Claim: "It’s just crazy that the government will ... make it illegal to use the old [incandescent] bulbs."...
+2026-08-01 18:56:36,483 - INFO - Date: 2011-06-13
+2026-08-01 18:56:38,912 - INFO - Prediction: Misleading
+2026-08-01 18:56:38,912 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-08-01 18:56:41,915 - INFO - ================================================================================
+2026-08-01 18:56:41,915 - INFO - Processing claim #149 (ID: tracer_train_149)
+2026-08-01 18:56:41,916 - INFO - Claim: The WIC program "is an incredibly cost effective program, serving nearly 10 million Americans each year and costing less than $100 per person. In my d...
+2026-08-01 18:56:41,916 - INFO - Date: 2011-06-14
+2026-08-01 18:56:43,066 - INFO - Prediction: Misleading
+2026-08-01 18:56:43,067 - INFO - ✗ Incorrect (True: Refuted, Pred: Misleading)
+2026-08-01 18:56:46,088 - INFO - ================================================================================
+2026-08-01 18:56:46,089 - INFO - Processing claim #150 (ID: tracer_train_150)
+2026-08-01 18:56:46,096 - INFO - Claim: In the Republican presidential debate in New Hampshire, none of the candidates mentioned the "middle class" or "education."...
+2026-08-01 18:56:46,096 - INFO - Date: 2011-06-14
