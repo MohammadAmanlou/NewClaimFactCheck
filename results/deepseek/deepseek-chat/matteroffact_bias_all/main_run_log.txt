@@ -1,6 +1,8 @@
-2026-08-06 22:12:25,156 - INFO - ================================================================================
-2026-08-06 22:12:25,157 - INFO - STARTING FACT-CHECK INFERENCE PIPELINE
-2026-08-06 22:12:25,157 - INFO - Dataset: matteroffact_bias_all, Model: deepseek/deepseek-chat
-2026-08-06 22:12:25,157 - INFO - Prompt methods: ['naive', 'strong_baseline_short', 'cognitive_bias_aware']
-2026-08-06 22:12:27,870 - INFO - Loaded 8360 claims (is_test=False). API key configured: True
-2026-08-06 22:12:27,871 - INFO - Processing LABELED data with temporal split analysis
+2026-08-27 20:27:57,479 - INFO - ================================================================================
+2026-08-27 20:27:57,479 - INFO - STARTING FACT-CHECK INFERENCE PIPELINE
+2026-08-27 20:27:57,480 - INFO - Dataset: matteroffact_bias_all, Model: deepseek/deepseek-chat
+2026-08-27 20:27:57,480 - INFO - Prompt methods: ['cognitive_bias_aware']
+2026-08-27 20:27:58,745 - INFO - Loaded 8360 claims (is_test=False). API key configured: True
+2026-08-27 20:27:58,745 - INFO - Processing LABELED data with temporal split analysis
+2026-08-28 10:22:40,953 - INFO - ================================================================================
+2026-08-28 10:22:40,955 - INFO - PIPELINE COMPLETE
