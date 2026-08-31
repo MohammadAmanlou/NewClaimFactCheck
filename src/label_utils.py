@@ -24,6 +24,14 @@ def normalize_label(label: Optional[str]) -> Optional[str]:
     # Clean up JSON-like array strings and typical punctuation (e.g. "['false']" -> "false")
     clean_s = re.sub(r"[\"\'\[\]]+", "", s).strip()
 
+    # Preserve Half-True for three/four-class datasets.
+    if clean_s in {
+        "half-true",
+        "half true",
+        "halftrue",
+    }:
+        return "Half-True"
+
     if clean_s in {
         "not enough information",
         "not enough evidence",

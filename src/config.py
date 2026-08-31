@@ -26,6 +26,8 @@ class Config:
     sampling_seed: int
     display_every_n: int
     output_root: Path
+    chunk_index: Optional[int] = None
+    num_chunks: Optional[int] = None
     api_key: str = ""
     hf_token: str = ""
     prompt_methods: List[str] = field(default_factory=lambda: ["naive"])
@@ -42,6 +44,7 @@ class Config:
 
         rate = cfg.get("rate_limit", {})
         samp = cfg.get("sampling", {})
+        chunk = cfg.get("chunking", {})
         prompt_methods = cfg.get("prompt_methods", ["naive"])
         
 
@@ -60,6 +63,8 @@ class Config:
             sampling_seed=samp.get("seed", 42),
             display_every_n=cfg.get("display_every_n", 10),
             output_root=Path(cfg.get("output_root", "results")),
+            chunk_index=chunk.get("index"),
+            num_chunks=chunk.get("num_chunks"),
             api_key=api_key,
             hf_token=hf_token,
             prompt_methods=prompt_methods,

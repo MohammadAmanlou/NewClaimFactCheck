@@ -19,7 +19,7 @@ def construct_payload(
     prompt: str,
     temperature: float = 0.0,       
     top_p: float = 1.0,             
-    max_tokens: int = 50,
+    max_tokens: int = 128,
 ) -> Dict[str, Any]:
     return {
         "model": model_name,
@@ -153,4 +153,54 @@ def ask_model(
     if response is None:
         return None
 
-    return extract_prediction_from_response(response, logger)
+    prediction = extract_prediction_from_response(
+        response,
+        logger,
+    )
+
+    # Only accept labels valid for the current dataset.
+    if prediction in config.labels:
+        return prediction
+
+    if prediction is None:
+        logger.warning(
+            "Invalid or incomplete model response. Retrying once "
+            "with the same prompt."
+        )
+    else:
+        logger.warning(
+            "Prediction %r is outside allowed labels %s. Retrying once.",
+            prediction,
+            config.labels,
+        )
+
+    time.sleep(1.0)
+
+    response = send_api_request(
+        url=config.api_url,
+        headers=headers,
+        payload=payload,
+        max_retries=config.max_retries,
+        initial_delay=config.initial_retry_delay,
+        logger=logger,
+    )
+
+    if response is None:
+        return None
+
+    prediction = extract_prediction_from_response(
+        response,
+        logger,
+    )
+
+    if prediction in config.labels:
+        return prediction
+
+    if prediction is not None:
+        logger.warning(
+            "Retry prediction %r is outside allowed labels %s.",
+            prediction,
+            config.labels,
+        )
+
+    return None

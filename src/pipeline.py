@@ -127,6 +127,50 @@ class Pipeline:
             claims, self.config.temporal_split, self.config.date_format
         )
 
+        # OPTIONAL CHUNKED INFERENCE
+        if self.config.num_chunks is not None:
+
+            if self.config.chunk_index is None:
+                raise ValueError(
+                    "chunking.index must be provided when "
+                    "chunking.num_chunks is set"
+                )
+
+            chunk_index = self.config.chunk_index
+            num_chunks = self.config.num_chunks
+
+            if num_chunks <= 0:
+                raise ValueError(
+                    "chunking.num_chunks must be greater than zero"
+                )
+
+            if not 0 <= chunk_index < num_chunks:
+                raise ValueError(
+                    f"chunking.index must be between "
+                    f"0 and {num_chunks - 1}"
+                )
+
+            def slice_chunk(items):
+                start = (
+                    len(items) * chunk_index // num_chunks
+                )
+                end = (
+                    len(items) * (chunk_index + 1) // num_chunks
+                )
+                return items[start:end]
+
+            original_seen = len(seen_claims)
+            original_unseen = len(unseen_claims)
+
+            seen_claims = slice_chunk(seen_claims)
+            unseen_claims = slice_chunk(unseen_claims)
+
+            print(
+                f"Chunk {chunk_index + 1}/{num_chunks}: "
+                f"seen {len(seen_claims)}/{original_seen}, "
+                f"unseen {len(unseen_claims)}/{original_unseen}"
+            )
+
         # 2. If balanced sampling is enabled, sample BEFORE inference.
         #    If balanced sampling is disabled, keep the full data here and
         #    compute post-hoc balanced metrics later after prediction.
