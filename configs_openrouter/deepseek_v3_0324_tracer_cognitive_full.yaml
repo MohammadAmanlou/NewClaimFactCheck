@@ -1,0 +1,32 @@
+dataset: "tracer_bias_all"
+
+model: "deepseek/deepseek-chat-v3-0324"
+api_url: "https://openrouter.ai/api/v1/chat/completions"
+
+labels:
+  - Supported
+  - Half-True
+  - Refuted
+
+prompt_methods:
+  - cognitive_bias_aware
+
+temporal_split: "2024-08-01"
+date_format: "%Y-%m-%d"
+
+rate_limit:
+  max_retries: 8
+  initial_retry_delay: 1.0
+  sleep_between_calls: 0.2
+
+sampling:
+  max_samples: null
+  balanced: false
+  seed: 42
+
+display_every_n: 100
+
+output_root: "results_openrouter"
+
+api_key_env: "OPENROUTER_API_KEY"
+datasets_config: "datasets.yaml"
