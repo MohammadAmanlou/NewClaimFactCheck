@@ -1,0 +1,11 @@
+2026-09-03T08:44:54.178521 - INFO - FINAL MERGED RESULT
+2026-09-03T08:44:54.178521 - INFO - Dataset: tracer_bias_all
+2026-09-03T08:44:54.178521 - INFO - Model: qwen/qwen-2.5-72b-instruct
+2026-09-03T08:44:54.178521 - INFO - Prompt: cognitive_bias_aware
+2026-09-03T08:44:54.178521 - INFO - Temporal split: 2024-09-01
+2026-09-03T08:44:54.178521 - INFO - Merged chunk 0 + chunk 1 + retry outputs
+2026-09-03T08:44:54.178521 - INFO - Seen raw rows: 14733
+2026-09-03T08:44:54.178521 - INFO - Unseen raw rows: 261
+2026-09-03T08:44:54.178521 - INFO - Seen remaining failed: 322
+2026-09-03T08:44:54.178521 - INFO - Unseen remaining failed: 0
+2026-09-03T08:44:54.178521 - INFO - Global post-hoc balancing recomputed once after merge

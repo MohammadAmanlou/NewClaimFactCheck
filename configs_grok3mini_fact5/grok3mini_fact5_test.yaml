@@ -1,0 +1,34 @@
+dataset: "fact5_bias_all"
+
+model: "grok-3-mini"
+api_url: "https://api.avalai.ir/v1/chat/completions"
+
+labels:
+  - Supported
+  - Half-True
+  - Refuted
+  - Not Enough Information
+
+prompt_methods:
+  - naive
+  - strong_baseline_short
+  - cognitive_bias_aware
+
+temporal_split: "2025-02-18"
+date_format: "%Y-%m-%d"
+
+rate_limit:
+  max_retries: 5
+  initial_retry_delay: 1.0
+  sleep_between_calls: 0.5
+
+sampling:
+  max_samples: 5
+  balanced: false
+  seed: 42
+
+display_every_n: 1
+
+output_root: "results_grok3mini_fact5_test"
+api_key_env: "AVALAI_API_KEY"
+datasets_config: "datasets.yaml"
