@@ -5,7 +5,7 @@
         "claim_date": "2025-02-18",
         "speaker": null,
         "source": "tracer",
-        "label": "Half-True",
+        "label": "Misleading",
         "detected_biases": "",
         "prediction": null,
         "prediction_error": "Failed to get valid prediction"
@@ -71,7 +71,7 @@
         "claim_date": "2025-02-20",
         "speaker": null,
         "source": "tracer",
-        "label": "Half-True",
+        "label": "Misleading",
         "detected_biases": "",
         "prediction": null,
         "prediction_error": "Failed to get valid prediction"
@@ -104,7 +104,7 @@
         "claim_date": "2025-02-24",
         "speaker": null,
         "source": "tracer",
-        "label": "Half-True",
+        "label": "Misleading",
         "detected_biases": "[{\"bias\": \"Just-world hypothesis\", \"confidence\": 0.3376}]",
         "prediction": null,
         "prediction_error": "Failed to get valid prediction"

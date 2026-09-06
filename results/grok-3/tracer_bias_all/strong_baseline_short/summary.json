@@ -5,7 +5,7 @@
         "temporal_split_date": "2025-02-18",
         "canonical_labels": [
             "Supported",
-            "Half-True",
+            "Misleading",
             "Refuted"
         ],
         "balanced_sampling": false,
@@ -26,7 +26,7 @@
         "unseen_metrics": {
             "error": "No valid results"
         },
-        "statistical_tests": "Insufficient data for statistical testing",
+        "statistical_tests": "Insufficient data for statistical testing (Need more than one sample per group.)",
         "accuracy_difference": 0.0,
         "sampling_info": {
             "enabled": false,

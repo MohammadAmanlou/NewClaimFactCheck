@@ -898,7 +898,7 @@
         "source": "tsver",
         "label": "Refuted",
         "detected_biases": "[{\"bias\": \"Availability heuristic\", \"confidence\": 0.3805}]",
-        "prediction": "Half-True",
+        "prediction": "Misleading",
         "prediction_error": null
     },
     {
@@ -2053,7 +2053,7 @@
         "source": "tsver",
         "label": "Misleading",
         "detected_biases": "",
-        "prediction": "Half-True",
+        "prediction": "Misleading",
         "prediction_error": null
     },
     {

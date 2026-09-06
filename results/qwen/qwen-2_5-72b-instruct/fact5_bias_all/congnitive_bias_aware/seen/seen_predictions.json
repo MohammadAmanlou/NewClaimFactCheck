@@ -38,7 +38,7 @@
         "claim_date": "2024-01-18",
         "speaker": null,
         "source": "fact5",
-        "label": "Half-True",
+        "label": "Misleading",
         "detected_biases": "[{\"bias\": \"framing effect\", \"confidence\": 0.7253}]",
         "prediction": null,
         "prediction_error": "Failed to get valid prediction"
@@ -60,7 +60,7 @@
         "claim_date": "2024-01-24",
         "speaker": null,
         "source": "fact5",
-        "label": "Half-True",
+        "label": "Misleading",
         "detected_biases": "",
         "prediction": null,
         "prediction_error": "Failed to get valid prediction"
@@ -258,7 +258,7 @@
         "claim_date": "2024-03-07",
         "speaker": null,
         "source": "fact5",
-        "label": "Half-True",
+        "label": "Misleading",
         "detected_biases": "[{\"bias\": \"Availability heuristic\", \"confidence\": 0.3261}]",
         "prediction": null,
         "prediction_error": "Failed to get valid prediction"
@@ -291,7 +291,7 @@
         "claim_date": "2024-03-07",
         "speaker": null,
         "source": "fact5",
-        "label": "Half-True",
+        "label": "Misleading",
         "detected_biases": "[{\"bias\": \"Outcome bias\", \"confidence\": 0.3766}]",
         "prediction": null,
         "prediction_error": "Failed to get valid prediction"
@@ -379,7 +379,7 @@
         "claim_date": "2024-03-19",
         "speaker": null,
         "source": "fact5",
-        "label": "Half-True",
+        "label": "Misleading",
         "detected_biases": "[{\"bias\": \"framing effect\", \"confidence\": 0.3177}]",
         "prediction": null,
         "prediction_error": "Failed to get valid prediction"
@@ -610,7 +610,7 @@
         "claim_date": "2024-04-19",
         "speaker": null,
         "source": "fact5",
-        "label": "Half-True",
+        "label": "Misleading",
         "detected_biases": "",
         "prediction": null,
         "prediction_error": "Failed to get valid prediction"
@@ -632,7 +632,7 @@
         "claim_date": "2024-04-28",
         "speaker": null,
         "source": "fact5",
-        "label": "Half-True",
+        "label": "Misleading",
         "detected_biases": "[{\"bias\": \"curse of knowledge\", \"confidence\": 0.4145}]",
         "prediction": null,
         "prediction_error": "Failed to get valid prediction"
@@ -665,7 +665,7 @@
         "claim_date": "2024-05-02",
         "speaker": null,
         "source": "fact5",
-        "label": "Half-True",
+        "label": "Misleading",
         "detected_biases": "",
         "prediction": null,
         "prediction_error": "Failed to get valid prediction"
@@ -731,7 +731,7 @@
         "claim_date": "2024-07-17",
         "speaker": null,
         "source": "fact5",
-        "label": "Half-True",
+        "label": "Misleading",
         "detected_biases": "[{\"bias\": \"Essentialism\", \"confidence\": 0.3974}]",
         "prediction": null,
         "prediction_error": "Failed to get valid prediction"
@@ -929,7 +929,7 @@
         "claim_date": "2024-08-28",
         "speaker": null,
         "source": "fact5",
-        "label": "Half-True",
+        "label": "Misleading",
         "detected_biases": "[{\"bias\": \"Availability heuristic\", \"confidence\": 0.3407}]",
         "prediction": null,
         "prediction_error": "Failed to get valid prediction"
@@ -940,7 +940,7 @@
         "claim_date": "2024-08-28",
         "speaker": null,
         "source": "fact5",
-        "label": "Half-True",
+        "label": "Misleading",
         "detected_biases": "[{\"bias\": \"hindsight bias\", \"confidence\": 0.5387}]",
         "prediction": null,
         "prediction_error": "Failed to get valid prediction"

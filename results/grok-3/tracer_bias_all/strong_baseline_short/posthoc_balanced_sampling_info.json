@@ -10,7 +10,7 @@
     "sampled_unseen_count": 15,
     "labels": [
         "Supported",
-        "Half-True",
+        "Misleading",
         "Refuted"
     ],
     "per_label_info": {
@@ -20,7 +20,7 @@
             "sampled_seen": 1,
             "sampled_unseen": 1
         },
-        "Half-True": {
+        "Misleading": {
             "original_seen": 7,
             "original_unseen": 3,
             "sampled_seen": 3,

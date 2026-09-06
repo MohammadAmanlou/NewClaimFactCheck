@@ -5,7 +5,7 @@
         "claim_date": "2011-06-27",
         "speaker": null,
         "source": "tracer",
-        "label": "Half-True",
+        "label": "Misleading",
         "detected_biases": "",
         "prediction": "Misleading",
         "prediction_error": null
@@ -137,7 +137,7 @@
         "claim_date": "2013-03-06",
         "speaker": null,
         "source": "tracer",
-        "label": "Half-True",
+        "label": "Misleading",
         "detected_biases": "[{\"bias\": \"curse of knowledge\", \"confidence\": 0.3327}]",
         "prediction": "Misleading",
         "prediction_error": null
@@ -225,7 +225,7 @@
         "claim_date": "2018-02-28",
         "speaker": null,
         "source": "tracer",
-        "label": "Half-True",
+        "label": "Misleading",
         "detected_biases": "",
         "prediction": "Misleading",
         "prediction_error": null
@@ -258,7 +258,7 @@
         "claim_date": "2014-09-01",
         "speaker": null,
         "source": "tracer",
-        "label": "Half-True",
+        "label": "Misleading",
         "detected_biases": "",
         "prediction": "Misleading",
         "prediction_error": null
@@ -324,7 +324,7 @@
         "claim_date": "2016-07-27",
         "speaker": null,
         "source": "tracer",
-        "label": "Half-True",
+        "label": "Misleading",
         "detected_biases": "",
         "prediction": "Refuted",
         "prediction_error": null
@@ -346,7 +346,7 @@
         "claim_date": "2020-07-14",
         "speaker": null,
         "source": "tracer",
-        "label": "Half-True",
+        "label": "Misleading",
         "detected_biases": "",
         "prediction": "Misleading",
         "prediction_error": null
@@ -379,7 +379,7 @@
         "claim_date": "2014-09-11",
         "speaker": null,
         "source": "tracer",
-        "label": "Half-True",
+        "label": "Misleading",
         "detected_biases": "[{\"bias\": \"curse of knowledge\", \"confidence\": 0.4123}]",
         "prediction": "Misleading",
         "prediction_error": null
@@ -412,7 +412,7 @@
         "claim_date": "2017-01-10",
         "speaker": null,
         "source": "tracer",
-        "label": "Half-True",
+        "label": "Misleading",
         "detected_biases": "",
         "prediction": "Refuted",
         "prediction_error": null
@@ -467,7 +467,7 @@
         "claim_date": "2014-11-13",
         "speaker": null,
         "source": "tracer",
-        "label": "Half-True",
+        "label": "Misleading",
         "detected_biases": "",
         "prediction": "Supported",
         "prediction_error": null
@@ -511,7 +511,7 @@
         "claim_date": "2020-10-22",
         "speaker": null,
         "source": "tracer",
-        "label": "Half-True",
+        "label": "Misleading",
         "detected_biases": "[{\"bias\": \"curse of knowledge\", \"confidence\": 0.3352}]",
         "prediction": "Misleading",
         "prediction_error": null
@@ -654,7 +654,7 @@
         "claim_date": "2018-10-14",
         "speaker": null,
         "source": "tracer",
-        "label": "Half-True",
+        "label": "Misleading",
         "detected_biases": "[{\"bias\": \"curse of knowledge\", \"confidence\": 0.3451}]",
         "prediction": "Supported",
         "prediction_error": null
@@ -665,7 +665,7 @@
         "claim_date": "2013-06-02",
         "speaker": null,
         "source": "tracer",
-        "label": "Half-True",
+        "label": "Misleading",
         "detected_biases": "[{\"bias\": \"hindsight bias\", \"confidence\": 0.404}]",
         "prediction": "Misleading",
         "prediction_error": null
@@ -698,7 +698,7 @@
         "claim_date": "2018-07-23",
         "speaker": null,
         "source": "tracer",
-        "label": "Half-True",
+        "label": "Misleading",
         "detected_biases": "",
         "prediction": "Misleading",
         "prediction_error": null
@@ -731,7 +731,7 @@
         "claim_date": "2017-06-23",
         "speaker": null,
         "source": "tracer",
-        "label": "Half-True",
+        "label": "Misleading",
         "detected_biases": "",
         "prediction": "Supported",
         "prediction_error": null
@@ -742,7 +742,7 @@
         "claim_date": "2016-04-27",
         "speaker": null,
         "source": "tracer",
-        "label": "Half-True",
+        "label": "Misleading",
         "detected_biases": "[{\"bias\": \"hindsight bias\", \"confidence\": 0.4076}]",
         "prediction": "Misleading",
         "prediction_error": null
@@ -885,7 +885,7 @@
         "claim_date": "2022-02-04",
         "speaker": null,
         "source": "tracer",
-        "label": "Half-True",
+        "label": "Misleading",
         "detected_biases": "",
         "prediction": "Refuted",
         "prediction_error": null
@@ -1006,7 +1006,7 @@
         "claim_date": "2021-08-18",
         "speaker": null,
         "source": "tracer",
-        "label": "Half-True",
+        "label": "Misleading",
         "detected_biases": "[{\"bias\": \"curse of knowledge\", \"confidence\": 0.5911}]",
         "prediction": "Misleading",
         "prediction_error": null
@@ -1028,7 +1028,7 @@
         "claim_date": "2012-08-18",
         "speaker": null,
         "source": "tracer",
-        "label": "Half-True",
+        "label": "Misleading",
         "detected_biases": "",
         "prediction": "Misleading",
         "prediction_error": null
@@ -1083,7 +1083,7 @@
         "claim_date": "2015-06-08",
         "speaker": null,
         "source": "tracer",
-        "label": "Half-True",
+        "label": "Misleading",
         "detected_biases": "",
         "prediction": "Supported",
         "prediction_error": null
@@ -1204,7 +1204,7 @@
         "claim_date": "2014-01-28",
         "speaker": null,
         "source": "tracer",
-        "label": "Half-True",
+        "label": "Misleading",
         "detected_biases": "",
         "prediction": "Refuted",
         "prediction_error": null
@@ -1248,7 +1248,7 @@
         "claim_date": "2013-10-24",
         "speaker": null,
         "source": "tracer",
-        "label": "Half-True",
+        "label": "Misleading",
         "detected_biases": "",
         "prediction": "Misleading",
         "prediction_error": null
@@ -1270,7 +1270,7 @@
         "claim_date": "2013-08-21",
         "speaker": null,
         "source": "tracer",
-        "label": "Half-True",
+        "label": "Misleading",
         "detected_biases": "[{\"bias\": \"curse of knowledge\", \"confidence\": 0.3134}]",
         "prediction": "Misleading",
         "prediction_error": null
@@ -1314,7 +1314,7 @@
         "claim_date": "2015-09-09",
         "speaker": null,
         "source": "tracer",
-        "label": "Half-True",
+        "label": "Misleading",
         "detected_biases": "[{\"bias\": \"curse of knowledge\", \"confidence\": 0.8314}]",
         "prediction": "Misleading",
         "prediction_error": null
@@ -1391,7 +1391,7 @@
         "claim_date": "2020-05-14",
         "speaker": null,
         "source": "tracer",
-        "label": "Half-True",
+        "label": "Misleading",
         "detected_biases": "",
         "prediction": "Misleading",
         "prediction_error": null
@@ -1457,7 +1457,7 @@
         "claim_date": "2018-08-07",
         "speaker": null,
         "source": "tracer",
-        "label": "Half-True",
+        "label": "Misleading",
         "detected_biases": "[{\"bias\": \"Attentional bias\", \"confidence\": 0.3015}]",
         "prediction": "Misleading",
         "prediction_error": null
@@ -1479,7 +1479,7 @@
         "claim_date": "2019-05-16",
         "speaker": null,
         "source": "tracer",
-        "label": "Half-True",
+        "label": "Misleading",
         "detected_biases": "",
         "prediction": "Misleading",
         "prediction_error": null
@@ -1545,7 +1545,7 @@
         "claim_date": "2015-01-04",
         "speaker": null,
         "source": "tracer",
-        "label": "Half-True",
+        "label": "Misleading",
         "detected_biases": "",
         "prediction": "Misleading",
         "prediction_error": null
@@ -1556,7 +1556,7 @@
         "claim_date": "2013-01-17",
         "speaker": null,
         "source": "tracer",
-        "label": "Half-True",
+        "label": "Misleading",
         "detected_biases": "[{\"bias\": \"hindsight bias\", \"confidence\": 0.5999}]",
         "prediction": "Misleading",
         "prediction_error": null
@@ -1754,7 +1754,7 @@
         "claim_date": "2015-05-04",
         "speaker": null,
         "source": "tracer",
-        "label": "Half-True",
+        "label": "Misleading",
         "detected_biases": "[{\"bias\": \"framing effect\", \"confidence\": 0.3071}]",
         "prediction": "Misleading",
         "prediction_error": null
@@ -1787,7 +1787,7 @@
         "claim_date": "2013-03-27",
         "speaker": null,
         "source": "tracer",
-        "label": "Half-True",
+        "label": "Misleading",
         "detected_biases": "[{\"bias\": \"Planning Fallacy\", \"confidence\": 0.3352}]",
         "prediction": "Misleading",
         "prediction_error": null
@@ -1831,7 +1831,7 @@
         "claim_date": "2011-09-07",
         "speaker": null,
         "source": "tracer",
-        "label": "Half-True",
+        "label": "Misleading",
         "detected_biases": "",
         "prediction": "Supported",
         "prediction_error": null
@@ -1864,7 +1864,7 @@
         "claim_date": "2016-06-29",
         "speaker": null,
         "source": "tracer",
-        "label": "Half-True",
+        "label": "Misleading",
         "detected_biases": "",
         "prediction": "Misleading",
         "prediction_error": null
@@ -1908,7 +1908,7 @@
         "claim_date": "2014-07-22",
         "speaker": null,
         "source": "tracer",
-        "label": "Half-True",
+        "label": "Misleading",
         "detected_biases": "",
         "prediction": "Misleading",
         "prediction_error": null
@@ -1919,7 +1919,7 @@
         "claim_date": "2016-02-14",
         "speaker": null,
         "source": "tracer",
-        "label": "Half-True",
+        "label": "Misleading",
         "detected_biases": "",
         "prediction": "Misleading",
         "prediction_error": null
@@ -1941,7 +1941,7 @@
         "claim_date": "2017-06-25",
         "speaker": null,
         "source": "tracer",
-        "label": "Half-True",
+        "label": "Misleading",
         "detected_biases": "",
         "prediction": "Misleading",
         "prediction_error": null
@@ -1963,7 +1963,7 @@
         "claim_date": "2012-05-18",
         "speaker": null,
         "source": "tracer",
-        "label": "Half-True",
+        "label": "Misleading",
         "detected_biases": "",
         "prediction": "Supported",
         "prediction_error": null
@@ -1974,7 +1974,7 @@
         "claim_date": "2019-12-29",
         "speaker": null,
         "source": "tracer",
-        "label": "Half-True",
+        "label": "Misleading",
         "detected_biases": "",
         "prediction": "Refuted",
         "prediction_error": null
@@ -2029,7 +2029,7 @@
         "claim_date": "2020-02-04",
         "speaker": null,
         "source": "tracer",
-        "label": "Half-True",
+        "label": "Misleading",
         "detected_biases": "",
         "prediction": "Supported",
         "prediction_error": null
@@ -2260,7 +2260,7 @@
         "claim_date": "2013-01-28",
         "speaker": null,
         "source": "tracer",
-        "label": "Half-True",
+        "label": "Misleading",
         "detected_biases": "[{\"bias\": \"curse of knowledge\", \"confidence\": 0.3513}]",
         "prediction": "Refuted",
         "prediction_error": null
@@ -2282,7 +2282,7 @@
         "claim_date": "2016-07-26",
         "speaker": null,
         "source": "tracer",
-        "label": "Half-True",
+        "label": "Misleading",
         "detected_biases": "[{\"bias\": \"curse of knowledge\", \"confidence\": 0.7078}]",
         "prediction": "Supported",
         "prediction_error": null
@@ -2326,7 +2326,7 @@
         "claim_date": "2016-04-18",
         "speaker": null,
         "source": "tracer",
-        "label": "Half-True",
+        "label": "Misleading",
         "detected_biases": "",
         "prediction": "Misleading",
         "prediction_error": null
@@ -2337,7 +2337,7 @@
         "claim_date": "2022-02-05",
         "speaker": null,
         "source": "tracer",
-        "label": "Half-True",
+        "label": "Misleading",
         "detected_biases": "[{\"bias\": \"Availability heuristic\", \"confidence\": 0.4109}]",
         "prediction": "Supported",
         "prediction_error": null
@@ -2348,7 +2348,7 @@
         "claim_date": "2019-01-08",
         "speaker": null,
         "source": "tracer",
-        "label": "Half-True",
+        "label": "Misleading",
         "detected_biases": "[{\"bias\": \"Availability heuristic\", \"confidence\": 0.3801}]",
         "prediction": "Supported",
         "prediction_error": null
@@ -2425,7 +2425,7 @@
         "claim_date": "2020-04-22",
         "speaker": null,
         "source": "tracer",
-        "label": "Half-True",
+        "label": "Misleading",
         "detected_biases": "[{\"bias\": \"curse of knowledge\", \"confidence\": 0.3948}, {\"bias\": \"hindsight bias\", \"confidence\": 0.3659}]",
         "prediction": "Misleading",
         "prediction_error": null
@@ -2480,7 +2480,7 @@
         "claim_date": "2015-08-26",
         "speaker": null,
         "source": "tracer",
-        "label": "Half-True",
+        "label": "Misleading",
         "detected_biases": "",
         "prediction": "Supported",
         "prediction_error": null
@@ -2535,7 +2535,7 @@
         "claim_date": "2020-07-19",
         "speaker": null,
         "source": "tracer",
-        "label": "Half-True",
+        "label": "Misleading",
         "detected_biases": "",
         "prediction": "Misleading",
         "prediction_error": null
@@ -2601,7 +2601,7 @@
         "claim_date": "2015-09-08",
         "speaker": null,
         "source": "tracer",
-        "label": "Half-True",
+        "label": "Misleading",
         "detected_biases": "[{\"bias\": \"hindsight bias\", \"confidence\": 0.3469}]",
         "prediction": "Misleading",
         "prediction_error": null
@@ -2667,7 +2667,7 @@
         "claim_date": "2015-02-16",
         "speaker": null,
         "source": "tracer",
-        "label": "Half-True",
+        "label": "Misleading",
         "detected_biases": "",
         "prediction": "Supported",
         "prediction_error": null
@@ -2854,7 +2854,7 @@
         "claim_date": "2015-04-14",
         "speaker": null,
         "source": "tracer",
-        "label": "Half-True",
+        "label": "Misleading",
         "detected_biases": "",
         "prediction": "Supported",
         "prediction_error": null
@@ -2876,7 +2876,7 @@
         "claim_date": "2016-10-18",
         "speaker": null,
         "source": "tracer",
-        "label": "Half-True",
+        "label": "Misleading",
         "detected_biases": "[{\"bias\": \"Just-world hypothesis\", \"confidence\": 0.5137}]",
         "prediction": "Supported",
         "prediction_error": null
@@ -3085,7 +3085,7 @@
         "claim_date": "2017-01-05",
         "speaker": null,
         "source": "tracer",
-        "label": "Half-True",
+        "label": "Misleading",
         "detected_biases": "[{\"bias\": \"Attentional bias\", \"confidence\": 0.3321}]",
         "prediction": "Misleading",
         "prediction_error": null
@@ -3129,7 +3129,7 @@
         "claim_date": "2021-11-30",
         "speaker": null,
         "source": "tracer",
-        "label": "Half-True",
+        "label": "Misleading",
         "detected_biases": "",
         "prediction": "Misleading",
         "prediction_error": null
@@ -3206,7 +3206,7 @@
         "claim_date": "2020-09-29",
         "speaker": null,
         "source": "tracer",
-        "label": "Half-True",
+        "label": "Misleading",
         "detected_biases": "",
         "prediction": "Supported",
         "prediction_error": null
@@ -3228,7 +3228,7 @@
         "claim_date": "2023-06-28",
         "speaker": null,
         "source": "tracer",
-        "label": "Half-True",
+        "label": "Misleading",
         "detected_biases": "[{\"bias\": \"hindsight bias\", \"confidence\": 0.5247}]",
         "prediction": "Misleading",
         "prediction_error": null
@@ -3404,7 +3404,7 @@
         "claim_date": "2021-04-05",
         "speaker": null,
         "source": "tracer",
-        "label": "Half-True",
+        "label": "Misleading",
         "detected_biases": "",
         "prediction": "Misleading",
         "prediction_error": null
@@ -3448,7 +3448,7 @@
         "claim_date": "2012-10-17",
         "speaker": null,
         "source": "tracer",
-        "label": "Half-True",
+        "label": "Misleading",
         "detected_biases": "",
         "prediction": "Misleading",
         "prediction_error": null
@@ -3503,7 +3503,7 @@
         "claim_date": "2020-10-19",
         "speaker": null,
         "source": "tracer",
-        "label": "Half-True",
+        "label": "Misleading",
         "detected_biases": "",
         "prediction": "Misleading",
         "prediction_error": null
@@ -3657,7 +3657,7 @@
         "claim_date": "2019-07-15",
         "speaker": null,
         "source": "tracer",
-        "label": "Half-True",
+        "label": "Misleading",
         "detected_biases": "[{\"bias\": \"curse of knowledge\", \"confidence\": 0.3519}]",
         "prediction": "Misleading",
         "prediction_error": null
@@ -3701,7 +3701,7 @@
         "claim_date": "2012-11-13",
         "speaker": null,
         "source": "tracer",
-        "label": "Half-True",
+        "label": "Misleading",
         "detected_biases": "[{\"bias\": \"hindsight bias\", \"confidence\": 0.6237}]",
         "prediction": "Misleading",
         "prediction_error": null
@@ -3712,7 +3712,7 @@
         "claim_date": "2016-04-05",
         "speaker": null,
         "source": "tracer",
-        "label": "Half-True",
+        "label": "Misleading",
         "detected_biases": "[{\"bias\": \"clustering illusion\", \"confidence\": 0.7265}]",
         "prediction": "Refuted",
         "prediction_error": null
@@ -3745,7 +3745,7 @@
         "claim_date": "2014-07-16",
         "speaker": null,
         "source": "tracer",
-        "label": "Half-True",
+        "label": "Misleading",
         "detected_biases": "",
         "prediction": "Misleading",
         "prediction_error": null
@@ -3756,7 +3756,7 @@
         "claim_date": "2023-01-01",
         "speaker": null,
         "source": "tracer",
-        "label": "Half-True",
+        "label": "Misleading",
         "detected_biases": "[{\"bias\": \"Availability heuristic\", \"confidence\": 0.5474}]",
         "prediction": "Refuted",
         "prediction_error": null
@@ -3767,7 +3767,7 @@
         "claim_date": "2018-03-27",
         "speaker": null,
         "source": "tracer",
-        "label": "Half-True",
+        "label": "Misleading",
         "detected_biases": "",
         "prediction": "Misleading",
         "prediction_error": null
@@ -3998,7 +3998,7 @@
         "claim_date": "2014-12-17",
         "speaker": null,
         "source": "tracer",
-        "label": "Half-True",
+        "label": "Misleading",
         "detected_biases": "[{\"bias\": \"curse of knowledge\", \"confidence\": 0.3603}]",
         "prediction": "Supported",
         "prediction_error": null
@@ -4075,7 +4075,7 @@
         "claim_date": "2013-03-29",
         "speaker": null,
         "source": "tracer",
-        "label": "Half-True",
+        "label": "Misleading",
         "detected_biases": "[{\"bias\": \"curse of knowledge\", \"confidence\": 0.5736}]",
         "prediction": "Refuted",
         "prediction_error": null
@@ -4119,7 +4119,7 @@
         "claim_date": "2018-12-09",
         "speaker": null,
         "source": "tracer",
-        "label": "Half-True",
+        "label": "Misleading",
         "detected_biases": "[{\"bias\": \"framing effect\", \"confidence\": 0.4067}]",
         "prediction": "Misleading",
         "prediction_error": null
@@ -4130,7 +4130,7 @@
         "claim_date": "2022-05-24",
         "speaker": null,
         "source": "tracer",
-        "label": "Half-True",
+        "label": "Misleading",
         "detected_biases": "[{\"bias\": \"curse of knowledge\", \"confidence\": 0.4083}]",
         "prediction": "Misleading",
         "prediction_error": null
@@ -4229,7 +4229,7 @@
         "claim_date": "2021-04-04",
         "speaker": null,
         "source": "tracer",
-        "label": "Half-True",
+        "label": "Misleading",
         "detected_biases": "[{\"bias\": \"Pro-Innovation Bias\", \"confidence\": 0.8564}]",
         "prediction": "Misleading",
         "prediction_error": null
@@ -4240,7 +4240,7 @@
         "claim_date": "2021-05-22",
         "speaker": null,
         "source": "tracer",
-        "label": "Half-True",
+        "label": "Misleading",
         "detected_biases": "[{\"bias\": \"Availability heuristic\", \"confidence\": 0.4881}]",
         "prediction": "Misleading",
         "prediction_error": null
@@ -4262,7 +4262,7 @@
         "claim_date": "2015-05-19",
         "speaker": null,
         "source": "tracer",
-        "label": "Half-True",
+        "label": "Misleading",
         "detected_biases": "",
         "prediction": "Misleading",
         "prediction_error": null
@@ -4328,7 +4328,7 @@
         "claim_date": "2017-08-22",
         "speaker": null,
         "source": "tracer",
-        "label": "Half-True",
+        "label": "Misleading",
         "detected_biases": "",
         "prediction": "Misleading",
         "prediction_error": null
@@ -4361,7 +4361,7 @@
         "claim_date": "2015-06-14",
         "speaker": null,
         "source": "tracer",
-        "label": "Half-True",
+        "label": "Misleading",
         "detected_biases": "[{\"bias\": \"Omission bias\", \"confidence\": 0.5853}]",
         "prediction": "Misleading",
         "prediction_error": null
@@ -4383,7 +4383,7 @@
         "claim_date": "2016-07-26",
         "speaker": null,
         "source": "tracer",
-        "label": "Half-True",
+        "label": "Misleading",
         "detected_biases": "[{\"bias\": \"hindsight bias\", \"confidence\": 0.3199}]",
         "prediction": "Misleading",
         "prediction_error": null
@@ -4394,7 +4394,7 @@
         "claim_date": "2018-10-22",
         "speaker": null,
         "source": "tracer",
-        "label": "Half-True",
+        "label": "Misleading",
         "detected_biases": "[{\"bias\": \"curse of knowledge\", \"confidence\": 0.4247}]",
         "prediction": "Misleading",
         "prediction_error": null
@@ -4471,7 +4471,7 @@
         "claim_date": "2013-07-28",
         "speaker": null,
         "source": "tracer",
-        "label": "Half-True",
+        "label": "Misleading",
         "detected_biases": "",
         "prediction": "Supported",
         "prediction_error": null
@@ -4636,7 +4636,7 @@
         "claim_date": "2015-11-11",
         "speaker": null,
         "source": "tracer",
-        "label": "Half-True",
+        "label": "Misleading",
         "detected_biases": "",
         "prediction": "Misleading",
         "prediction_error": null
@@ -4647,7 +4647,7 @@
         "claim_date": "2015-08-31",
         "speaker": null,
         "source": "tracer",
-        "label": "Half-True",
+        "label": "Misleading",
         "detected_biases": "[{\"bias\": \"curse of knowledge\", \"confidence\": 0.6156}]",
         "prediction": "Refuted",
         "prediction_error": null
@@ -4878,7 +4878,7 @@
         "claim_date": "2015-06-16",
         "speaker": null,
         "source": "tracer",
-        "label": "Half-True",
+        "label": "Misleading",
         "detected_biases": "",
         "prediction": "Supported",
         "prediction_error": null
@@ -4966,7 +4966,7 @@
         "claim_date": "2017-09-24",
         "speaker": null,
         "source": "tracer",
-        "label": "Half-True",
+        "label": "Misleading",
         "detected_biases": "",
         "prediction": "Misleading",
         "prediction_error": null
@@ -5021,7 +5021,7 @@
         "claim_date": "2012-08-27",
         "speaker": null,
         "source": "tracer",
-        "label": "Half-True",
+        "label": "Misleading",
         "detected_biases": "",
         "prediction": "Misleading",
         "prediction_error": null
@@ -5087,7 +5087,7 @@
         "claim_date": "2012-07-23",
         "speaker": null,
         "source": "tracer",
-        "label": "Half-True",
+        "label": "Misleading",
         "detected_biases": "",
         "prediction": "Misleading",
         "prediction_error": null
@@ -5131,7 +5131,7 @@
         "claim_date": "2019-03-10",
         "speaker": null,
         "source": "tracer",
-        "label": "Half-True",
+        "label": "Misleading",
         "detected_biases": "",
         "prediction": "Supported",
         "prediction_error": null
@@ -5384,7 +5384,7 @@
         "claim_date": "2015-09-16",
         "speaker": null,
         "source": "tracer",
-        "label": "Half-True",
+        "label": "Misleading",
         "detected_biases": "",
         "prediction": "Misleading",
         "prediction_error": null
@@ -5406,7 +5406,7 @@
         "claim_date": "2020-04-10",
         "speaker": null,
         "source": "tracer",
-        "label": "Half-True",
+        "label": "Misleading",
         "detected_biases": "[{\"bias\": \"Availability heuristic\", \"confidence\": 0.4258}]",
         "prediction": "Refuted",
         "prediction_error": null
@@ -5417,7 +5417,7 @@
         "claim_date": "2014-01-23",
         "speaker": null,
         "source": "tracer",
-        "label": "Half-True",
+        "label": "Misleading",
         "detected_biases": "[{\"bias\": \"curse of knowledge\", \"confidence\": 0.3481}]",
         "prediction": "Misleading",
         "prediction_error": null
@@ -5439,7 +5439,7 @@
         "claim_date": "2012-09-20",
         "speaker": null,
         "source": "tracer",
-        "label": "Half-True",
+        "label": "Misleading",
         "detected_biases": "[{\"bias\": \"Planning Fallacy\", \"confidence\": 0.6253}]",
         "prediction": "Misleading",
         "prediction_error": null
@@ -5560,7 +5560,7 @@
         "claim_date": "2019-10-07",
         "speaker": null,
         "source": "tracer",
-        "label": "Half-True",
+        "label": "Misleading",
         "detected_biases": "[{\"bias\": \"Just-world hypothesis\", \"confidence\": 0.5566}]",
         "prediction": "Misleading",
         "prediction_error": null
@@ -5593,7 +5593,7 @@
         "claim_date": "2021-02-19",
         "speaker": null,
         "source": "tracer",
-        "label": "Half-True",
+        "label": "Misleading",
         "detected_biases": "[{\"bias\": \"curse of knowledge\", \"confidence\": 0.3837}]",
         "prediction": "Misleading",
         "prediction_error": null
@@ -5626,7 +5626,7 @@
         "claim_date": "2017-03-12",
         "speaker": null,
         "source": "tracer",
-        "label": "Half-True",
+        "label": "Misleading",
         "detected_biases": "",
         "prediction": "Misleading",
         "prediction_error": null
@@ -5637,7 +5637,7 @@
         "claim_date": "2018-12-09",
         "speaker": null,
         "source": "tracer",
-        "label": "Half-True",
+        "label": "Misleading",
         "detected_biases": "[{\"bias\": \"clustering illusion\", \"confidence\": 0.5429}]",
         "prediction": "Misleading",
         "prediction_error": null
@@ -5703,7 +5703,7 @@
         "claim_date": "2022-05-16",
         "speaker": null,
         "source": "tracer",
-        "label": "Half-True",
+        "label": "Misleading",
         "detected_biases": "",
         "prediction": "Misleading",
         "prediction_error": null
@@ -5747,7 +5747,7 @@
         "claim_date": "2009-11-04",
         "speaker": null,
         "source": "tracer",
-        "label": "Half-True",
+        "label": "Misleading",
         "detected_biases": "[{\"bias\": \"hindsight bias\", \"confidence\": 0.482}]",
         "prediction": "Misleading",
         "prediction_error": null
@@ -5769,7 +5769,7 @@
         "claim_date": "2013-04-10",
         "speaker": null,
         "source": "tracer",
-        "label": "Half-True",
+        "label": "Misleading",
         "detected_biases": "",
         "prediction": "Refuted",
         "prediction_error": null
@@ -5802,7 +5802,7 @@
         "claim_date": "2012-12-31",
         "speaker": null,
         "source": "tracer",
-        "label": "Half-True",
+        "label": "Misleading",
         "detected_biases": "[{\"bias\": \"hindsight bias\", \"confidence\": 0.3136}]",
         "prediction": "Refuted",
         "prediction_error": null
@@ -5912,7 +5912,7 @@
         "claim_date": "2017-02-20",
         "speaker": null,
         "source": "tracer",
-        "label": "Half-True",
+        "label": "Misleading",
         "detected_biases": "[{\"bias\": \"curse of knowledge\", \"confidence\": 0.7224}]",
         "prediction": "Supported",
         "prediction_error": null
@@ -5978,7 +5978,7 @@
         "claim_date": "2013-12-16",
         "speaker": null,
         "source": "tracer",
-        "label": "Half-True",
+        "label": "Misleading",
         "detected_biases": "[{\"bias\": \"curse of knowledge\", \"confidence\": 0.6462}]",
         "prediction": "Refuted",
         "prediction_error": null
@@ -6044,7 +6044,7 @@
         "claim_date": "2023-05-05",
         "speaker": null,
         "source": "tracer",
-        "label": "Half-True",
+        "label": "Misleading",
         "detected_biases": "[{\"bias\": \"curse of knowledge\", \"confidence\": 0.4035}]",
         "prediction": "Refuted",
         "prediction_error": null
@@ -6055,7 +6055,7 @@
         "claim_date": "2017-12-31",
         "speaker": null,
         "source": "tracer",
-        "label": "Half-True",
+        "label": "Misleading",
         "detected_biases": "",
         "prediction": "Misleading",
         "prediction_error": null
@@ -6099,7 +6099,7 @@
         "claim_date": "2019-03-18",
         "speaker": null,
         "source": "tracer",
-        "label": "Half-True",
+        "label": "Misleading",
         "detected_biases": "",
         "prediction": "Supported",
         "prediction_error": null
@@ -6143,7 +6143,7 @@
         "claim_date": "2018-04-18",
         "speaker": null,
         "source": "tracer",
-        "label": "Half-True",
+        "label": "Misleading",
         "detected_biases": "",
         "prediction": "Refuted",
         "prediction_error": null
@@ -6198,7 +6198,7 @@
         "claim_date": "2013-10-03",
         "speaker": null,
         "source": "tracer",
-        "label": "Half-True",
+        "label": "Misleading",
         "detected_biases": "[{\"bias\": \"curse of knowledge\", \"confidence\": 0.5668}]",
         "prediction": "Supported",
         "prediction_error": null
@@ -6286,7 +6286,7 @@
         "claim_date": "2013-04-12",
         "speaker": null,
         "source": "tracer",
-        "label": "Half-True",
+        "label": "Misleading",
         "detected_biases": "",
         "prediction": "Refuted",
         "prediction_error": null
@@ -6429,7 +6429,7 @@
         "claim_date": "2015-06-30",
         "speaker": null,
         "source": "tracer",
-        "label": "Half-True",
+        "label": "Misleading",
         "detected_biases": "",
         "prediction": "Supported",
         "prediction_error": null
@@ -6440,7 +6440,7 @@
         "claim_date": "2014-11-05",
         "speaker": null,
         "source": "tracer",
-        "label": "Half-True",
+        "label": "Misleading",
         "detected_biases": "[{\"bias\": \"Just-world hypothesis\", \"confidence\": 0.4795}]",
         "prediction": "Refuted",
         "prediction_error": null
@@ -6462,7 +6462,7 @@
         "claim_date": "2012-01-18",
         "speaker": null,
         "source": "tracer",
-        "label": "Half-True",
+        "label": "Misleading",
         "detected_biases": "[{\"bias\": \"Whole only effect\", \"confidence\": 0.3791}, {\"bias\": \"Bias blind spot\", \"confidence\": 0.3162}]",
         "prediction": "Misleading",
         "prediction_error": null
@@ -6484,7 +6484,7 @@
         "claim_date": "2013-04-28",
         "speaker": null,
         "source": "tracer",
-        "label": "Half-True",
+        "label": "Misleading",
         "detected_biases": "",
         "prediction": "Supported",
         "prediction_error": null
@@ -6539,7 +6539,7 @@
         "claim_date": "2012-08-26",
         "speaker": null,
         "source": "tracer",
-        "label": "Half-True",
+        "label": "Misleading",
         "detected_biases": "",
         "prediction": "Refuted",
         "prediction_error": null
@@ -6638,7 +6638,7 @@
         "claim_date": "2015-01-20",
         "speaker": null,
         "source": "tracer",
-        "label": "Half-True",
+        "label": "Misleading",
         "detected_biases": "[{\"bias\": \"curse of knowledge\", \"confidence\": 0.37}]",
         "prediction": "Misleading",
         "prediction_error": null
@@ -6649,7 +6649,7 @@
         "claim_date": "2012-04-05",
         "speaker": null,
         "source": "tracer",
-        "label": "Half-True",
+        "label": "Misleading",
         "detected_biases": "[{\"bias\": \"Planning Fallacy\", \"confidence\": 0.6707}]",
         "prediction": "Misleading",
         "prediction_error": null
@@ -6682,7 +6682,7 @@
         "claim_date": "2012-07-25",
         "speaker": null,
         "source": "tracer",
-        "label": "Half-True",
+        "label": "Misleading",
         "detected_biases": "[{\"bias\": \"Availability heuristic\", \"confidence\": 0.3493}]",
         "prediction": "Misleading",
         "prediction_error": null
@@ -6693,7 +6693,7 @@
         "claim_date": "2017-07-20",
         "speaker": null,
         "source": "tracer",
-        "label": "Half-True",
+        "label": "Misleading",
         "detected_biases": "[{\"bias\": \"curse of knowledge\", \"confidence\": 0.6976}]",
         "prediction": "Misleading",
         "prediction_error": null
@@ -6759,7 +6759,7 @@
         "claim_date": "2012-07-02",
         "speaker": null,
         "source": "tracer",
-        "label": "Half-True",
+        "label": "Misleading",
         "detected_biases": "",
         "prediction": "Refuted",
         "prediction_error": null
@@ -6946,7 +6946,7 @@
         "claim_date": "2012-08-11",
         "speaker": null,
         "source": "tracer",
-        "label": "Half-True",
+        "label": "Misleading",
         "detected_biases": "",
         "prediction": "Misleading",
         "prediction_error": null
@@ -6990,7 +6990,7 @@
         "claim_date": "2020-07-20",
         "speaker": null,
         "source": "tracer",
-        "label": "Half-True",
+        "label": "Misleading",
         "detected_biases": "[{\"bias\": \"hindsight bias\", \"confidence\": 0.3728}]",
         "prediction": "Misleading",
         "prediction_error": null
@@ -7045,7 +7045,7 @@
         "claim_date": "2017-05-18",
         "speaker": null,
         "source": "tracer",
-        "label": "Half-True",
+        "label": "Misleading",
         "detected_biases": "[{\"bias\": \"hindsight bias\", \"confidence\": 0.5968}]",
         "prediction": "Refuted",
         "prediction_error": null
@@ -7089,7 +7089,7 @@
         "claim_date": "2013-07-09",
         "speaker": null,
         "source": "tracer",
-        "label": "Half-True",
+        "label": "Misleading",
         "detected_biases": "",
         "prediction": "Misleading",
         "prediction_error": null
@@ -7144,7 +7144,7 @@
         "claim_date": "2021-12-19",
         "speaker": null,
         "source": "tracer",
-        "label": "Half-True",
+        "label": "Misleading",
         "detected_biases": "[{\"bias\": \"curse of knowledge\", \"confidence\": 0.3787}]",
         "prediction": "Misleading",
         "prediction_error": null
@@ -7188,7 +7188,7 @@
         "claim_date": "2014-05-13",
         "speaker": null,
         "source": "tracer",
-        "label": "Half-True",
+        "label": "Misleading",
         "detected_biases": "[{\"bias\": \"Availability heuristic\", \"confidence\": 0.4}]",
         "prediction": "Misleading",
         "prediction_error": null
@@ -7210,7 +7210,7 @@
         "claim_date": "2011-01-03",
         "speaker": null,
         "source": "tracer",
-        "label": "Half-True",
+        "label": "Misleading",
         "detected_biases": "",
         "prediction": "Misleading",
         "prediction_error": null
@@ -7221,7 +7221,7 @@
         "claim_date": "2020-06-28",
         "speaker": null,
         "source": "tracer",
-        "label": "Half-True",
+        "label": "Misleading",
         "detected_biases": "",
         "prediction": "Refuted",
         "prediction_error": null
@@ -7232,7 +7232,7 @@
         "claim_date": "2014-01-19",
         "speaker": null,
         "source": "tracer",
-        "label": "Half-True",
+        "label": "Misleading",
         "detected_biases": "",
         "prediction": "Supported",
         "prediction_error": null
@@ -7243,7 +7243,7 @@
         "claim_date": "2019-10-29",
         "speaker": null,
         "source": "tracer",
-        "label": "Half-True",
+        "label": "Misleading",
         "detected_biases": "",
         "prediction": "Refuted",
         "prediction_error": null
@@ -7265,7 +7265,7 @@
         "claim_date": "2012-06-18",
         "speaker": null,
         "source": "tracer",
-        "label": "Half-True",
+        "label": "Misleading",
         "detected_biases": "[{\"bias\": \"Just-world hypothesis\", \"confidence\": 0.7327}]",
         "prediction": "Refuted",
         "prediction_error": null
@@ -7331,7 +7331,7 @@
         "claim_date": "2019-07-31",
         "speaker": null,
         "source": "tracer",
-        "label": "Half-True",
+        "label": "Misleading",
         "detected_biases": "[{\"bias\": \"curse of knowledge\", \"confidence\": 0.5023}]",
         "prediction": "Misleading",
         "prediction_error": null
@@ -7474,7 +7474,7 @@
         "claim_date": "2012-06-09",
         "speaker": null,
         "source": "tracer",
-        "label": "Half-True",
+        "label": "Misleading",
         "detected_biases": "[{\"bias\": \"curse of knowledge\", \"confidence\": 0.5776}]",
         "prediction": "Misleading",
         "prediction_error": null
@@ -7485,7 +7485,7 @@
         "claim_date": "2016-03-07",
         "speaker": null,
         "source": "tracer",
-        "label": "Half-True",
+        "label": "Misleading",
         "detected_biases": "",
         "prediction": "Misleading",
         "prediction_error": null
@@ -7661,7 +7661,7 @@
         "claim_date": "2013-09-26",
         "speaker": null,
         "source": "tracer",
-        "label": "Half-True",
+        "label": "Misleading",
         "detected_biases": "[{\"bias\": \"curse of knowledge\", \"confidence\": 0.4496}]",
         "prediction": "Misleading",
         "prediction_error": null
@@ -7705,7 +7705,7 @@
         "claim_date": "2020-04-16",
         "speaker": null,
         "source": "tracer",
-        "label": "Half-True",
+        "label": "Misleading",
         "detected_biases": "",
         "prediction": "Misleading",
         "prediction_error": null
@@ -7716,7 +7716,7 @@
         "claim_date": "2017-12-10",
         "speaker": null,
         "source": "tracer",
-        "label": "Half-True",
+        "label": "Misleading",
         "detected_biases": "[{\"bias\": \"Whole only effect\", \"confidence\": 0.5427}]",
         "prediction": "Misleading",
         "prediction_error": null
@@ -7749,7 +7749,7 @@
         "claim_date": "2016-06-03",
         "speaker": null,
         "source": "tracer",
-        "label": "Half-True",
+        "label": "Misleading",
         "detected_biases": "[{\"bias\": \"Availability heuristic\", \"confidence\": 0.3609}]",
         "prediction": "Refuted",
         "prediction_error": null
@@ -7804,7 +7804,7 @@
         "claim_date": "2018-02-06",
         "speaker": null,
         "source": "tracer",
-        "label": "Half-True",
+        "label": "Misleading",
         "detected_biases": "",
         "prediction": "Misleading",
         "prediction_error": null
@@ -7936,7 +7936,7 @@
         "claim_date": "2019-04-02",
         "speaker": null,
         "source": "tracer",
-        "label": "Half-True",
+        "label": "Misleading",
         "detected_biases": "[{\"bias\": \"hindsight bias\", \"confidence\": 0.3155}]",
         "prediction": "Supported",
         "prediction_error": null
@@ -8002,7 +8002,7 @@
         "claim_date": "2016-10-17",
         "speaker": null,
         "source": "tracer",
-        "label": "Half-True",
+        "label": "Misleading",
         "detected_biases": "",
         "prediction": "Misleading",
         "prediction_error": null
@@ -8013,7 +8013,7 @@
         "claim_date": "2015-04-25",
         "speaker": null,
         "source": "tracer",
-        "label": "Half-True",
+        "label": "Misleading",
         "detected_biases": "",
         "prediction": "Misleading",
         "prediction_error": null
@@ -8046,7 +8046,7 @@
         "claim_date": "2014-02-16",
         "speaker": null,
         "source": "tracer",
-        "label": "Half-True",
+        "label": "Misleading",
         "detected_biases": "[{\"bias\": \"hindsight bias\", \"confidence\": 0.7258}]",
         "prediction": "Supported",
         "prediction_error": null
@@ -8057,7 +8057,7 @@
         "claim_date": "2018-09-07",
         "speaker": null,
         "source": "tracer",
-        "label": "Half-True",
+        "label": "Misleading",
         "detected_biases": "",
         "prediction": "Refuted",
         "prediction_error": null
@@ -8156,7 +8156,7 @@
         "claim_date": "2014-10-28",
         "speaker": null,
         "source": "tracer",
-        "label": "Half-True",
+        "label": "Misleading",
         "detected_biases": "",
         "prediction": "Supported",
         "prediction_error": null
@@ -8189,7 +8189,7 @@
         "claim_date": "2011-11-02",
         "speaker": null,
         "source": "tracer",
-        "label": "Half-True",
+        "label": "Misleading",
         "detected_biases": "[{\"bias\": \"curse of knowledge\", \"confidence\": 0.3202}]",
         "prediction": "Misleading",
         "prediction_error": null
@@ -8200,7 +8200,7 @@
         "claim_date": "2016-09-19",
         "speaker": null,
         "source": "tracer",
-        "label": "Half-True",
+        "label": "Misleading",
         "detected_biases": "",
         "prediction": "Supported",
         "prediction_error": null
@@ -8233,7 +8233,7 @@
         "claim_date": "2017-12-21",
         "speaker": null,
         "source": "tracer",
-        "label": "Half-True",
+        "label": "Misleading",
         "detected_biases": "",
         "prediction": "Supported",
         "prediction_error": null
@@ -8244,7 +8244,7 @@
         "claim_date": "2011-11-14",
         "speaker": null,
         "source": "tracer",
-        "label": "Half-True",
+        "label": "Misleading",
         "detected_biases": "",
         "prediction": "Refuted",
         "prediction_error": null
@@ -8288,7 +8288,7 @@
         "claim_date": "2015-02-25",
         "speaker": null,
         "source": "tracer",
-        "label": "Half-True",
+        "label": "Misleading",
         "detected_biases": "",
         "prediction": "Misleading",
         "prediction_error": null

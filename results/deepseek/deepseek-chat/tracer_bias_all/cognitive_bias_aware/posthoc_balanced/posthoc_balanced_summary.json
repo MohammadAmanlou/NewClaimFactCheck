@@ -16,7 +16,7 @@
         "sampled_unseen_count": 331,
         "labels": [
             "Supported",
-            "Half-True",
+            "Misleading",
             "Refuted"
         ],
         "per_label_info": {
@@ -26,7 +26,7 @@
                 "sampled_seen": 14,
                 "sampled_unseen": 14
             },
-            "Half-True": {
+            "Misleading": {
                 "original_seen": 5118,
                 "original_unseen": 47,
                 "sampled_seen": 47,
@@ -55,17 +55,17 @@
                 "f1": 0.1429,
                 "support": 14
             },
-            "Half-True": {
-                "precision": 0.1667,
-                "recall": 0.5319,
-                "f1": 0.2538,
-                "support": 47
-            },
             "Refuted": {
                 "precision": 0.9533,
                 "recall": 0.3835,
                 "f1": 0.5469,
                 "support": 266
+            },
+            "Misleading": {
+                "precision": 0.1667,
+                "recall": 0.5319,
+                "f1": 0.2538,
+                "support": 47
             }
         },
         "nei_prediction_rate": 0.0,
@@ -85,17 +85,17 @@
                 "f1": 0.2449,
                 "support": 14
             },
-            "Half-True": {
-                "precision": 0.2132,
-                "recall": 0.617,
-                "f1": 0.3169,
-                "support": 47
-            },
             "Refuted": {
                 "precision": 0.9437,
                 "recall": 0.5593,
                 "f1": 0.7023,
                 "support": 270
+            },
+            "Misleading": {
+                "precision": 0.2132,
+                "recall": 0.617,
+                "f1": 0.3169,
+                "support": 47
             }
         },
         "nei_prediction_rate": 0.0,
@@ -116,17 +116,17 @@
                     "f1": 0.1429,
                     "support": 14
                 },
-                "Half-True": {
-                    "precision": 0.1667,
-                    "recall": 0.5319,
-                    "f1": 0.2538,
-                    "support": 47
-                },
                 "Refuted": {
                     "precision": 0.9533,
                     "recall": 0.3835,
                     "f1": 0.5469,
                     "support": 266
+                },
+                "Misleading": {
+                    "precision": 0.1667,
+                    "recall": 0.5319,
+                    "f1": 0.2538,
+                    "support": 47
                 }
             },
             "nei_prediction_rate": 0.0,
@@ -146,17 +146,17 @@
                     "f1": 0.2449,
                     "support": 14
                 },
-                "Half-True": {
-                    "precision": 0.2132,
-                    "recall": 0.617,
-                    "f1": 0.3169,
-                    "support": 47
-                },
                 "Refuted": {
                     "precision": 0.9437,
                     "recall": 0.5593,
                     "f1": 0.7023,
                     "support": 270
+                },
+                "Misleading": {
+                    "precision": 0.2132,
+                    "recall": 0.617,
+                    "f1": 0.3169,
+                    "support": 47
                 }
             },
             "nei_prediction_rate": 0.0,
@@ -190,7 +190,7 @@
             "sampled_unseen_count": 331,
             "labels": [
                 "Supported",
-                "Half-True",
+                "Misleading",
                 "Refuted"
             ],
             "per_label_info": {
@@ -200,7 +200,7 @@
                     "sampled_seen": 14,
                     "sampled_unseen": 14
                 },
-                "Half-True": {
+                "Misleading": {
                     "original_seen": 5118,
                     "original_unseen": 47,
                     "sampled_seen": 47,

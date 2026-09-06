@@ -19,7 +19,7 @@ tsver_test_101,"At independence, Nigeria had a population of 45 million.",2020-1
 tsver_test_93,Half of the nation’s [Kenya] population comprises children.,2024-02-01,,tsver,Refuted,"[{""bias"": ""curse of knowledge"", ""confidence"": 0.3614}]",Supported,
 tsver_test_280,We [USA] used to invest more in research and development than any country in the world and China was ... number nine. We now are number eight and China is number one.,2021-05-18,,tsver,Refuted,,Misleading,
 tsver_test_3,"Nigeria has a doctor-to-population ratio of about 1:4,000-5,000.",2022-04-01,,tsver,Refuted,,Misleading,
-tsver_test_187,"I want China to do well [in economic growth], and I hope they do well, but they’ve had now the worst year in 57 years.",2019-09-09,,tsver,Refuted,"[{""bias"": ""Just-world hypothesis"", ""confidence"": 0.3707}]",Half-True,
+tsver_test_187,"I want China to do well [in economic growth], and I hope they do well, but they’ve had now the worst year in 57 years.",2019-09-09,,tsver,Refuted,"[{""bias"": ""Just-world hypothesis"", ""confidence"": 0.3707}]",Misleading,
 tsver_test_99,"The US supposedly saw the ""best"" carbon emission numbers in 35 years under President Donald Trump's administration.",2020-10-28,,tsver,Refuted,"[{""bias"": ""Availability heuristic"", ""confidence"": 0.3805}]",Refuted,
 tsver_test_165,No one has died of cancer or heart disease since the COVID-19 thing started.,2020-08-14,,tsver,Refuted,,Refuted,
 tsver_test_61,"[UK's] greenhouse gas emissions fell by 15% between 2010 and 2014, one of the biggest reductions in a single parliament.",2016-01-18,,tsver,Supported,"[{""bias"": ""hindsight bias"", ""confidence"": 0.3417}]",Supported,

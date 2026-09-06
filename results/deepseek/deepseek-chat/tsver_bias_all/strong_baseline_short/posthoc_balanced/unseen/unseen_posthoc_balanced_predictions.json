@@ -95,7 +95,7 @@
         "source": "tsver",
         "label": "Supported",
         "detected_biases": "[{\"bias\": \"curse of knowledge\", \"confidence\": 0.4012}]",
-        "prediction": "Half-True",
+        "prediction": "Misleading",
         "prediction_error": null
     },
     {
@@ -260,7 +260,7 @@
         "source": "tsver",
         "label": "Supported",
         "detected_biases": "[{\"bias\": \"Availability heuristic\", \"confidence\": 0.5267}]",
-        "prediction": "Half-True",
+        "prediction": "Misleading",
         "prediction_error": null
     },
     {
@@ -337,7 +337,7 @@
         "source": "tsver",
         "label": "Refuted",
         "detected_biases": "",
-        "prediction": "Half-True",
+        "prediction": "Misleading",
         "prediction_error": null
     },
     {

@@ -38,7 +38,7 @@
         "claim_date": "2008-08-23",
         "speaker": null,
         "source": "tracer",
-        "label": "Half-True",
+        "label": "Misleading",
         "detected_biases": "",
         "prediction": "Misleading",
         "prediction_error": null
@@ -49,7 +49,7 @@
         "claim_date": "2008-08-31",
         "speaker": null,
         "source": "tracer",
-        "label": "Half-True",
+        "label": "Misleading",
         "detected_biases": "[{\"bias\": \"Just-world hypothesis\", \"confidence\": 0.7247}]",
         "prediction": "Misleading",
         "prediction_error": null
@@ -60,7 +60,7 @@
         "claim_date": "2008-10-07",
         "speaker": null,
         "source": "tracer",
-        "label": "Half-True",
+        "label": "Misleading",
         "detected_biases": "[{\"bias\": \"hindsight bias\", \"confidence\": 0.7833}]",
         "prediction": "Misleading",
         "prediction_error": null
@@ -71,7 +71,7 @@
         "claim_date": "2008-10-20",
         "speaker": null,
         "source": "tracer",
-        "label": "Half-True",
+        "label": "Misleading",
         "detected_biases": "[{\"bias\": \"Essentialism\", \"confidence\": 0.3153}, {\"bias\": \"curse of knowledge\", \"confidence\": 0.3108}]",
         "prediction": "Misleading",
         "prediction_error": null
@@ -148,7 +148,7 @@
         "claim_date": "2009-11-04",
         "speaker": null,
         "source": "tracer",
-        "label": "Half-True",
+        "label": "Misleading",
         "detected_biases": "[{\"bias\": \"hindsight bias\", \"confidence\": 0.482}]",
         "prediction": "Misleading",
         "prediction_error": null
@@ -170,7 +170,7 @@
         "claim_date": "2010-01-14",
         "speaker": null,
         "source": "tracer",
-        "label": "Half-True",
+        "label": "Misleading",
         "detected_biases": "",
         "prediction": "Misleading",
         "prediction_error": null
@@ -192,7 +192,7 @@
         "claim_date": "2010-02-20",
         "speaker": null,
         "source": "tracer",
-        "label": "Half-True",
+        "label": "Misleading",
         "detected_biases": "",
         "prediction": "Misleading",
         "prediction_error": null

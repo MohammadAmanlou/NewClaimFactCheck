@@ -51,7 +51,7 @@
         "source": "claimreview2024plus",
         "label": "Supported",
         "detected_biases": "[{\"bias\": \"hindsight bias\", \"confidence\": 0.4404}]",
-        "prediction": "Half-True",
+        "prediction": "Misleading",
         "prediction_error": null
     },
     {
@@ -106,7 +106,7 @@
         "source": "claimreview2024plus",
         "label": "Supported",
         "detected_biases": "",
-        "prediction": "Half-True",
+        "prediction": "Misleading",
         "prediction_error": null
     },
     {

@@ -16,7 +16,7 @@
         "sampled_unseen_count": 15,
         "labels": [
             "Supported",
-            "Half-True",
+            "Misleading",
             "Refuted"
         ],
         "per_label_info": {
@@ -26,7 +26,7 @@
                 "sampled_seen": 1,
                 "sampled_unseen": 1
             },
-            "Half-True": {
+            "Misleading": {
                 "original_seen": 7,
                 "original_unseen": 3,
                 "sampled_seen": 3,
@@ -43,9 +43,9 @@
     },
     "seen_metrics": {
         "accuracy": 0.5,
-        "macro_precision": 0.75,
-        "macro_recall": 0.65,
-        "macro_f1": 0.5641,
+        "macro_precision": 0.6111,
+        "macro_recall": 0.7667,
+        "macro_f1": 0.5427,
         "total_samples": 14,
         "correct_predictions": 7,
         "per_label_metrics": {
@@ -60,6 +60,12 @@
                 "recall": 0.3,
                 "f1": 0.4615,
                 "support": 10
+            },
+            "Misleading": {
+                "precision": 0.3333,
+                "recall": 1.0,
+                "f1": 0.5,
+                "support": 3
             }
         },
         "nei_prediction_rate": 0.0,
@@ -71,9 +77,9 @@
     "comparison": {
         "seen_metrics": {
             "accuracy": 0.5,
-            "macro_precision": 0.75,
-            "macro_recall": 0.65,
-            "macro_f1": 0.5641,
+            "macro_precision": 0.6111,
+            "macro_recall": 0.7667,
+            "macro_f1": 0.5427,
             "total_samples": 14,
             "correct_predictions": 7,
             "per_label_metrics": {
@@ -88,6 +94,12 @@
                     "recall": 0.3,
                     "f1": 0.4615,
                     "support": 10
+                },
+                "Misleading": {
+                    "precision": 0.3333,
+                    "recall": 1.0,
+                    "f1": 0.5,
+                    "support": 3
                 }
             },
             "nei_prediction_rate": 0.0,
@@ -96,7 +108,7 @@
         "unseen_metrics": {
             "error": "No valid results"
         },
-        "statistical_tests": "Insufficient data for statistical testing",
+        "statistical_tests": "Insufficient data for statistical testing (Need more than one sample per group.)",
         "accuracy_difference": -0.5,
         "sampling_info": {
             "enabled": true,
@@ -110,7 +122,7 @@
             "sampled_unseen_count": 15,
             "labels": [
                 "Supported",
-                "Half-True",
+                "Misleading",
                 "Refuted"
             ],
             "per_label_info": {
@@ -120,7 +132,7 @@
                     "sampled_seen": 1,
                     "sampled_unseen": 1
                 },
-                "Half-True": {
+                "Misleading": {
                     "original_seen": 7,
                     "original_unseen": 3,
                     "sampled_seen": 3,

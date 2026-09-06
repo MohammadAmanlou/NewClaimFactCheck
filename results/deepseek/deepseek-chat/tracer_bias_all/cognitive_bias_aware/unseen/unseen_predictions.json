@@ -7,7 +7,7 @@
         "source": "tracer",
         "label": "Refuted",
         "detected_biases": "",
-        "prediction": "Half-True",
+        "prediction": "Misleading",
         "prediction_error": null
     },
     {
@@ -16,9 +16,9 @@
         "claim_date": "2024-08-02",
         "speaker": null,
         "source": "tracer",
-        "label": "Half-True",
+        "label": "Misleading",
         "detected_biases": "[{\"bias\": \"Availability heuristic\", \"confidence\": 0.3376}]",
-        "prediction": "Half-True",
+        "prediction": "Misleading",
         "prediction_error": null
     },
     {
@@ -29,7 +29,7 @@
         "source": "tracer",
         "label": "Refuted",
         "detected_biases": "[{\"bias\": \"curse of knowledge\", \"confidence\": 0.9632}]",
-        "prediction": "Half-True",
+        "prediction": "Misleading",
         "prediction_error": null
     },
     {
@@ -40,7 +40,7 @@
         "source": "tracer",
         "label": "Refuted",
         "detected_biases": "",
-        "prediction": "Half-True",
+        "prediction": "Misleading",
         "prediction_error": null
     },
     {
@@ -51,7 +51,7 @@
         "source": "tracer",
         "label": "Refuted",
         "detected_biases": "[{\"bias\": \"curse of knowledge\", \"confidence\": 0.599}]",
-        "prediction": "Half-True",
+        "prediction": "Misleading",
         "prediction_error": null
     },
     {
@@ -62,7 +62,7 @@
         "source": "tracer",
         "label": "Refuted",
         "detected_biases": "[{\"bias\": \"curse of knowledge\", \"confidence\": 0.8136}]",
-        "prediction": "Half-True",
+        "prediction": "Misleading",
         "prediction_error": null
     },
     {
@@ -93,9 +93,9 @@
         "claim_date": "2024-08-06",
         "speaker": null,
         "source": "tracer",
-        "label": "Half-True",
+        "label": "Misleading",
         "detected_biases": "[{\"bias\": \"curse of knowledge\", \"confidence\": 0.4296}]",
-        "prediction": "Half-True",
+        "prediction": "Misleading",
         "prediction_error": null
     },
     {
@@ -104,9 +104,9 @@
         "claim_date": "2024-08-06",
         "speaker": null,
         "source": "tracer",
-        "label": "Half-True",
+        "label": "Misleading",
         "detected_biases": "",
-        "prediction": "Half-True",
+        "prediction": "Misleading",
         "prediction_error": null
     },
     {
@@ -115,9 +115,9 @@
         "claim_date": "2024-08-06",
         "speaker": null,
         "source": "tracer",
-        "label": "Half-True",
+        "label": "Misleading",
         "detected_biases": "[{\"bias\": \"Just-world hypothesis\", \"confidence\": 0.4341}]",
-        "prediction": "Half-True",
+        "prediction": "Misleading",
         "prediction_error": null
     },
     {
@@ -139,7 +139,7 @@
         "source": "tracer",
         "label": "Refuted",
         "detected_biases": "[{\"bias\": \"curse of knowledge\", \"confidence\": 0.8125}]",
-        "prediction": "Half-True",
+        "prediction": "Misleading",
         "prediction_error": null
     },
     {
@@ -150,7 +150,7 @@
         "source": "tracer",
         "label": "Supported",
         "detected_biases": "[{\"bias\": \"curse of knowledge\", \"confidence\": 0.3531}]",
-        "prediction": "Half-True",
+        "prediction": "Misleading",
         "prediction_error": null
     },
     {
@@ -161,7 +161,7 @@
         "source": "tracer",
         "label": "Refuted",
         "detected_biases": "",
-        "prediction": "Half-True",
+        "prediction": "Misleading",
         "prediction_error": null
     },
     {
@@ -172,7 +172,7 @@
         "source": "tracer",
         "label": "Refuted",
         "detected_biases": "[{\"bias\": \"Just-world hypothesis\", \"confidence\": 0.3708}]",
-        "prediction": "Half-True",
+        "prediction": "Misleading",
         "prediction_error": null
     },
     {
@@ -216,7 +216,7 @@
         "source": "tracer",
         "label": "Refuted",
         "detected_biases": "",
-        "prediction": "Half-True",
+        "prediction": "Misleading",
         "prediction_error": null
     },
     {
@@ -249,7 +249,7 @@
         "source": "tracer",
         "label": "Refuted",
         "detected_biases": "",
-        "prediction": "Half-True",
+        "prediction": "Misleading",
         "prediction_error": null
     },
     {
@@ -260,7 +260,7 @@
         "source": "tracer",
         "label": "Refuted",
         "detected_biases": "[{\"bias\": \"curse of knowledge\", \"confidence\": 0.7337}]",
-        "prediction": "Half-True",
+        "prediction": "Misleading",
         "prediction_error": null
     },
     {
@@ -269,9 +269,9 @@
         "claim_date": "2024-08-11",
         "speaker": null,
         "source": "tracer",
-        "label": "Half-True",
+        "label": "Misleading",
         "detected_biases": "[{\"bias\": \"Whole only effect\", \"confidence\": 0.4884}]",
-        "prediction": "Half-True",
+        "prediction": "Misleading",
         "prediction_error": null
     },
     {
@@ -280,7 +280,7 @@
         "claim_date": "2024-08-11",
         "speaker": null,
         "source": "tracer",
-        "label": "Half-True",
+        "label": "Misleading",
         "detected_biases": "",
         "prediction": "Supported",
         "prediction_error": null
@@ -359,7 +359,7 @@
         "source": "tracer",
         "label": "Refuted",
         "detected_biases": "",
-        "prediction": "Half-True",
+        "prediction": "Misleading",
         "prediction_error": null
     },
     {
@@ -368,7 +368,7 @@
         "claim_date": "2024-08-15",
         "speaker": null,
         "source": "tracer",
-        "label": "Half-True",
+        "label": "Misleading",
         "detected_biases": "",
         "prediction": "Supported",
         "prediction_error": null
@@ -381,7 +381,7 @@
         "source": "tracer",
         "label": "Refuted",
         "detected_biases": "",
-        "prediction": "Half-True",
+        "prediction": "Misleading",
         "prediction_error": null
     },
     {
@@ -425,7 +425,7 @@
         "source": "tracer",
         "label": "Refuted",
         "detected_biases": "[{\"bias\": \"Pro-Innovation Bias\", \"confidence\": 0.4452}]",
-        "prediction": "Half-True",
+        "prediction": "Misleading",
         "prediction_error": null
     },
     {
@@ -458,7 +458,7 @@
         "source": "tracer",
         "label": "Refuted",
         "detected_biases": "",
-        "prediction": "Half-True",
+        "prediction": "Misleading",
         "prediction_error": null
     },
     {
@@ -469,7 +469,7 @@
         "source": "tracer",
         "label": "Refuted",
         "detected_biases": "[{\"bias\": \"curse of knowledge\", \"confidence\": 0.7218}]",
-        "prediction": "Half-True",
+        "prediction": "Misleading",
         "prediction_error": null
     },
     {
@@ -500,9 +500,9 @@
         "claim_date": "2024-08-22",
         "speaker": null,
         "source": "tracer",
-        "label": "Half-True",
+        "label": "Misleading",
         "detected_biases": "",
-        "prediction": "Half-True",
+        "prediction": "Misleading",
         "prediction_error": null
     },
     {
@@ -513,7 +513,7 @@
         "source": "tracer",
         "label": "Refuted",
         "detected_biases": "[{\"bias\": \"Just-world hypothesis\", \"confidence\": 0.4364}]",
-        "prediction": "Half-True",
+        "prediction": "Misleading",
         "prediction_error": null
     },
     {
@@ -535,7 +535,7 @@
         "source": "tracer",
         "label": "Refuted",
         "detected_biases": "[{\"bias\": \"Just-world hypothesis\", \"confidence\": 0.3518}]",
-        "prediction": "Half-True",
+        "prediction": "Misleading",
         "prediction_error": null
     },
     {
@@ -546,7 +546,7 @@
         "source": "tracer",
         "label": "Refuted",
         "detected_biases": "",
-        "prediction": "Half-True",
+        "prediction": "Misleading",
         "prediction_error": null
     },
     {
@@ -568,7 +568,7 @@
         "source": "tracer",
         "label": "Refuted",
         "detected_biases": "[{\"bias\": \"Omission bias\", \"confidence\": 0.5834}]",
-        "prediction": "Half-True",
+        "prediction": "Misleading",
         "prediction_error": null
     },
     {
@@ -579,7 +579,7 @@
         "source": "tracer",
         "label": "Refuted",
         "detected_biases": "",
-        "prediction": "Half-True",
+        "prediction": "Misleading",
         "prediction_error": null
     },
     {
@@ -590,7 +590,7 @@
         "source": "tracer",
         "label": "Refuted",
         "detected_biases": "",
-        "prediction": "Half-True",
+        "prediction": "Misleading",
         "prediction_error": null
     },
     {
@@ -601,7 +601,7 @@
         "source": "tracer",
         "label": "Refuted",
         "detected_biases": "[{\"bias\": \"curse of knowledge\", \"confidence\": 0.322}]",
-        "prediction": "Half-True",
+        "prediction": "Misleading",
         "prediction_error": null
     },
     {
@@ -656,7 +656,7 @@
         "source": "tracer",
         "label": "Refuted",
         "detected_biases": "",
-        "prediction": "Half-True",
+        "prediction": "Misleading",
         "prediction_error": null
     },
     {
@@ -665,9 +665,9 @@
         "claim_date": "2024-08-28",
         "speaker": null,
         "source": "tracer",
-        "label": "Half-True",
+        "label": "Misleading",
         "detected_biases": "[{\"bias\": \"Pro-Innovation Bias\", \"confidence\": 0.3119}]",
-        "prediction": "Half-True",
+        "prediction": "Misleading",
         "prediction_error": null
     },
     {
@@ -676,9 +676,9 @@
         "claim_date": "2024-08-28",
         "speaker": null,
         "source": "tracer",
-        "label": "Half-True",
+        "label": "Misleading",
         "detected_biases": "[{\"bias\": \"Availability heuristic\", \"confidence\": 0.3407}]",
-        "prediction": "Half-True",
+        "prediction": "Misleading",
         "prediction_error": null
     },
     {
@@ -689,7 +689,7 @@
         "source": "tracer",
         "label": "Refuted",
         "detected_biases": "[{\"bias\": \"hindsight bias\", \"confidence\": 0.5238}]",
-        "prediction": "Half-True",
+        "prediction": "Misleading",
         "prediction_error": null
     },
     {
@@ -711,7 +711,7 @@
         "source": "tracer",
         "label": "Refuted",
         "detected_biases": "[{\"bias\": \"Attentional bias\", \"confidence\": 0.4136}]",
-        "prediction": "Half-True",
+        "prediction": "Misleading",
         "prediction_error": null
     },
     {
@@ -755,7 +755,7 @@
         "source": "tracer",
         "label": "Refuted",
         "detected_biases": "[{\"bias\": \"hindsight bias\", \"confidence\": 0.3601}]",
-        "prediction": "Half-True",
+        "prediction": "Misleading",
         "prediction_error": null
     },
     {
@@ -777,7 +777,7 @@
         "source": "tracer",
         "label": "Refuted",
         "detected_biases": "[{\"bias\": \"curse of knowledge\", \"confidence\": 0.6204}]",
-        "prediction": "Half-True",
+        "prediction": "Misleading",
         "prediction_error": null
     },
     {
@@ -786,9 +786,9 @@
         "claim_date": "2024-09-03",
         "speaker": null,
         "source": "tracer",
-        "label": "Half-True",
+        "label": "Misleading",
         "detected_biases": "",
-        "prediction": "Half-True",
+        "prediction": "Misleading",
         "prediction_error": null
     },
     {
@@ -810,7 +810,7 @@
         "source": "tracer",
         "label": "Refuted",
         "detected_biases": "[{\"bias\": \"curse of knowledge\", \"confidence\": 0.8475}]",
-        "prediction": "Half-True",
+        "prediction": "Misleading",
         "prediction_error": null
     },
     {
@@ -830,7 +830,7 @@
         "claim_date": "2024-09-04",
         "speaker": null,
         "source": "tracer",
-        "label": "Half-True",
+        "label": "Misleading",
         "detected_biases": "[{\"bias\": \"curse of knowledge\", \"confidence\": 0.9025}]",
         "prediction": "Refuted",
         "prediction_error": null
@@ -843,7 +843,7 @@
         "source": "tracer",
         "label": "Refuted",
         "detected_biases": "[{\"bias\": \"hindsight bias\", \"confidence\": 0.5267}]",
-        "prediction": "Half-True",
+        "prediction": "Misleading",
         "prediction_error": null
     },
     {
@@ -854,7 +854,7 @@
         "source": "tracer",
         "label": "Refuted",
         "detected_biases": "",
-        "prediction": "Half-True",
+        "prediction": "Misleading",
         "prediction_error": null
     },
     {
@@ -865,7 +865,7 @@
         "source": "tracer",
         "label": "Refuted",
         "detected_biases": "",
-        "prediction": "Half-True",
+        "prediction": "Misleading",
         "prediction_error": null
     },
     {
@@ -876,7 +876,7 @@
         "source": "tracer",
         "label": "Refuted",
         "detected_biases": "[{\"bias\": \"Essentialism\", \"confidence\": 0.4587}, {\"bias\": \"curse of knowledge\", \"confidence\": 0.3064}]",
-        "prediction": "Half-True",
+        "prediction": "Misleading",
         "prediction_error": null
     },
     {
@@ -909,7 +909,7 @@
         "source": "tracer",
         "label": "Refuted",
         "detected_biases": "[{\"bias\": \"curse of knowledge\", \"confidence\": 0.3888}]",
-        "prediction": "Half-True",
+        "prediction": "Misleading",
         "prediction_error": null
     },
     {
@@ -920,7 +920,7 @@
         "source": "tracer",
         "label": "Refuted",
         "detected_biases": "[{\"bias\": \"Omission bias\", \"confidence\": 0.4036}]",
-        "prediction": "Half-True",
+        "prediction": "Misleading",
         "prediction_error": null
     },
     {
@@ -931,7 +931,7 @@
         "source": "tracer",
         "label": "Refuted",
         "detected_biases": "",
-        "prediction": "Half-True",
+        "prediction": "Misleading",
         "prediction_error": null
     },
     {
@@ -942,7 +942,7 @@
         "source": "tracer",
         "label": "Refuted",
         "detected_biases": "",
-        "prediction": "Half-True",
+        "prediction": "Misleading",
         "prediction_error": null
     },
     {
@@ -975,7 +975,7 @@
         "source": "tracer",
         "label": "Supported",
         "detected_biases": "",
-        "prediction": "Half-True",
+        "prediction": "Misleading",
         "prediction_error": null
     },
     {
@@ -997,7 +997,7 @@
         "source": "tracer",
         "label": "Refuted",
         "detected_biases": "",
-        "prediction": "Half-True",
+        "prediction": "Misleading",
         "prediction_error": null
     },
     {
@@ -1008,7 +1008,7 @@
         "source": "tracer",
         "label": "Refuted",
         "detected_biases": "",
-        "prediction": "Half-True",
+        "prediction": "Misleading",
         "prediction_error": null
     },
     {
@@ -1050,9 +1050,9 @@
         "claim_date": "2024-09-11",
         "speaker": null,
         "source": "tracer",
-        "label": "Half-True",
+        "label": "Misleading",
         "detected_biases": "[{\"bias\": \"curse of knowledge\", \"confidence\": 0.6353}]",
-        "prediction": "Half-True",
+        "prediction": "Misleading",
         "prediction_error": null
     },
     {
@@ -1063,7 +1063,7 @@
         "source": "tracer",
         "label": "Refuted",
         "detected_biases": "[{\"bias\": \"hindsight bias\", \"confidence\": 0.3812}]",
-        "prediction": "Half-True",
+        "prediction": "Misleading",
         "prediction_error": null
     },
     {
@@ -1072,9 +1072,9 @@
         "claim_date": "2024-09-12",
         "speaker": null,
         "source": "tracer",
-        "label": "Half-True",
+        "label": "Misleading",
         "detected_biases": "[{\"bias\": \"hindsight bias\", \"confidence\": 0.3246}]",
-        "prediction": "Half-True",
+        "prediction": "Misleading",
         "prediction_error": null
     },
     {
@@ -1083,9 +1083,9 @@
         "claim_date": "2024-09-12",
         "speaker": null,
         "source": "tracer",
-        "label": "Half-True",
+        "label": "Misleading",
         "detected_biases": "[{\"bias\": \"Just-world hypothesis\", \"confidence\": 0.4511}]",
-        "prediction": "Half-True",
+        "prediction": "Misleading",
         "prediction_error": null
     },
     {
@@ -1138,7 +1138,7 @@
         "claim_date": "2024-09-15",
         "speaker": null,
         "source": "tracer",
-        "label": "Half-True",
+        "label": "Misleading",
         "detected_biases": "",
         "prediction": "Supported",
         "prediction_error": null
@@ -1151,7 +1151,7 @@
         "source": "tracer",
         "label": "Refuted",
         "detected_biases": "",
-        "prediction": "Half-True",
+        "prediction": "Misleading",
         "prediction_error": null
     },
     {
@@ -1173,7 +1173,7 @@
         "source": "tracer",
         "label": "Refuted",
         "detected_biases": "[{\"bias\": \"Outcome bias\", \"confidence\": 0.3738}]",
-        "prediction": "Half-True",
+        "prediction": "Misleading",
         "prediction_error": null
     },
     {
@@ -1195,7 +1195,7 @@
         "source": "tracer",
         "label": "Refuted",
         "detected_biases": "",
-        "prediction": "Half-True",
+        "prediction": "Misleading",
         "prediction_error": null
     },
     {
@@ -1228,7 +1228,7 @@
         "source": "tracer",
         "label": "Refuted",
         "detected_biases": "[{\"bias\": \"Post-purchase rationalization\", \"confidence\": 0.6614}]",
-        "prediction": "Half-True",
+        "prediction": "Misleading",
         "prediction_error": null
     },
     {
@@ -1239,7 +1239,7 @@
         "source": "tracer",
         "label": "Refuted",
         "detected_biases": "[{\"bias\": \"Just-world hypothesis\", \"confidence\": 0.5019}]",
-        "prediction": "Half-True",
+        "prediction": "Misleading",
         "prediction_error": null
     },
     {
@@ -1259,9 +1259,9 @@
         "claim_date": "2024-09-19",
         "speaker": null,
         "source": "tracer",
-        "label": "Half-True",
+        "label": "Misleading",
         "detected_biases": "[{\"bias\": \"Bandwagon effect\", \"confidence\": 0.5892}]",
-        "prediction": "Half-True",
+        "prediction": "Misleading",
         "prediction_error": null
     },
     {
@@ -1270,9 +1270,9 @@
         "claim_date": "2024-09-20",
         "speaker": null,
         "source": "tracer",
-        "label": "Half-True",
+        "label": "Misleading",
         "detected_biases": "",
-        "prediction": "Half-True",
+        "prediction": "Misleading",
         "prediction_error": null
     },
     {
@@ -1281,7 +1281,7 @@
         "claim_date": "2024-09-20",
         "speaker": null,
         "source": "tracer",
-        "label": "Half-True",
+        "label": "Misleading",
         "detected_biases": "[{\"bias\": \"curse of knowledge\", \"confidence\": 0.6024}]",
         "prediction": "Supported",
         "prediction_error": null
@@ -1294,7 +1294,7 @@
         "source": "tracer",
         "label": "Refuted",
         "detected_biases": "[{\"bias\": \"curse of knowledge\", \"confidence\": 0.5571}]",
-        "prediction": "Half-True",
+        "prediction": "Misleading",
         "prediction_error": null
     },
     {
@@ -1303,9 +1303,9 @@
         "claim_date": "2024-09-21",
         "speaker": null,
         "source": "tracer",
-        "label": "Half-True",
+        "label": "Misleading",
         "detected_biases": "",
-        "prediction": "Half-True",
+        "prediction": "Misleading",
         "prediction_error": null
     },
     {
@@ -1325,7 +1325,7 @@
         "claim_date": "2024-09-22",
         "speaker": null,
         "source": "tracer",
-        "label": "Half-True",
+        "label": "Misleading",
         "detected_biases": "[{\"bias\": \"curse of knowledge\", \"confidence\": 0.5965}]",
         "prediction": "Refuted",
         "prediction_error": null
@@ -1336,7 +1336,7 @@
         "claim_date": "2024-09-22",
         "speaker": null,
         "source": "tracer",
-        "label": "Half-True",
+        "label": "Misleading",
         "detected_biases": "[{\"bias\": \"hindsight bias\", \"confidence\": 0.4316}]",
         "prediction": "Refuted",
         "prediction_error": null
@@ -1349,7 +1349,7 @@
         "source": "tracer",
         "label": "Supported",
         "detected_biases": "[{\"bias\": \"Omission bias\", \"confidence\": 0.35}]",
-        "prediction": "Half-True",
+        "prediction": "Misleading",
         "prediction_error": null
     },
     {
@@ -1360,7 +1360,7 @@
         "source": "tracer",
         "label": "Refuted",
         "detected_biases": "[{\"bias\": \"curse of knowledge\", \"confidence\": 0.907}]",
-        "prediction": "Half-True",
+        "prediction": "Misleading",
         "prediction_error": null
     },
     {
@@ -1380,7 +1380,7 @@
         "claim_date": "2024-09-25",
         "speaker": null,
         "source": "tracer",
-        "label": "Half-True",
+        "label": "Misleading",
         "detected_biases": "[{\"bias\": \"Omission bias\", \"confidence\": 0.5092}]",
         "prediction": "Supported",
         "prediction_error": null
@@ -1393,7 +1393,7 @@
         "source": "tracer",
         "label": "Refuted",
         "detected_biases": "[{\"bias\": \"hindsight bias\", \"confidence\": 0.3316}, {\"bias\": \"Availability heuristic\", \"confidence\": 0.3277}]",
-        "prediction": "Half-True",
+        "prediction": "Misleading",
         "prediction_error": null
     },
     {
@@ -1404,7 +1404,7 @@
         "source": "tracer",
         "label": "Refuted",
         "detected_biases": "",
-        "prediction": "Half-True",
+        "prediction": "Misleading",
         "prediction_error": null
     },
     {
@@ -1413,7 +1413,7 @@
         "claim_date": "2024-09-27",
         "speaker": null,
         "source": "tracer",
-        "label": "Half-True",
+        "label": "Misleading",
         "detected_biases": "[{\"bias\": \"Normalcy bias\", \"confidence\": 0.5159}]",
         "prediction": "Supported",
         "prediction_error": null
@@ -1424,9 +1424,9 @@
         "claim_date": "2024-09-27",
         "speaker": null,
         "source": "tracer",
-        "label": "Half-True",
+        "label": "Misleading",
         "detected_biases": "",
-        "prediction": "Half-True",
+        "prediction": "Misleading",
         "prediction_error": null
     },
     {
@@ -1437,7 +1437,7 @@
         "source": "tracer",
         "label": "Refuted",
         "detected_biases": "[{\"bias\": \"curse of knowledge\", \"confidence\": 0.3304}]",
-        "prediction": "Half-True",
+        "prediction": "Misleading",
         "prediction_error": null
     },
     {
@@ -1468,9 +1468,9 @@
         "claim_date": "2024-09-29",
         "speaker": null,
         "source": "tracer",
-        "label": "Half-True",
+        "label": "Misleading",
         "detected_biases": "[{\"bias\": \"curse of knowledge\", \"confidence\": 0.4145}]",
-        "prediction": "Half-True",
+        "prediction": "Misleading",
         "prediction_error": null
     },
     {
@@ -1503,7 +1503,7 @@
         "source": "tracer",
         "label": "Refuted",
         "detected_biases": "[{\"bias\": \"curse of knowledge\", \"confidence\": 0.5237}]",
-        "prediction": "Half-True",
+        "prediction": "Misleading",
         "prediction_error": null
     },
     {
@@ -1525,7 +1525,7 @@
         "source": "tracer",
         "label": "Refuted",
         "detected_biases": "",
-        "prediction": "Half-True",
+        "prediction": "Misleading",
         "prediction_error": null
     },
     {
@@ -1536,7 +1536,7 @@
         "source": "tracer",
         "label": "Refuted",
         "detected_biases": "[{\"bias\": \"curse of knowledge\", \"confidence\": 0.4597}]",
-        "prediction": "Half-True",
+        "prediction": "Misleading",
         "prediction_error": null
     },
     {
@@ -1547,7 +1547,7 @@
         "source": "tracer",
         "label": "Refuted",
         "detected_biases": "",
-        "prediction": "Half-True",
+        "prediction": "Misleading",
         "prediction_error": null
     },
     {
@@ -1591,7 +1591,7 @@
         "source": "tracer",
         "label": "Refuted",
         "detected_biases": "",
-        "prediction": "Half-True",
+        "prediction": "Misleading",
         "prediction_error": null
     },
     {
@@ -1613,7 +1613,7 @@
         "source": "tracer",
         "label": "Refuted",
         "detected_biases": "[{\"bias\": \"Normalcy bias\", \"confidence\": 0.3961}]",
-        "prediction": "Half-True",
+        "prediction": "Misleading",
         "prediction_error": null
     },
     {
@@ -1635,7 +1635,7 @@
         "source": "tracer",
         "label": "Refuted",
         "detected_biases": "[{\"bias\": \"Omission bias\", \"confidence\": 0.6368}]",
-        "prediction": "Half-True",
+        "prediction": "Misleading",
         "prediction_error": null
     },
     {
@@ -1646,7 +1646,7 @@
         "source": "tracer",
         "label": "Refuted",
         "detected_biases": "",
-        "prediction": "Half-True",
+        "prediction": "Misleading",
         "prediction_error": null
     },
     {
@@ -1677,9 +1677,9 @@
         "claim_date": "2024-10-07",
         "speaker": null,
         "source": "tracer",
-        "label": "Half-True",
+        "label": "Misleading",
         "detected_biases": "[{\"bias\": \"curse of knowledge\", \"confidence\": 0.405}]",
-        "prediction": "Half-True",
+        "prediction": "Misleading",
         "prediction_error": null
     },
     {
@@ -1690,7 +1690,7 @@
         "source": "tracer",
         "label": "Refuted",
         "detected_biases": "",
-        "prediction": "Half-True",
+        "prediction": "Misleading",
         "prediction_error": null
     },
     {
@@ -1701,7 +1701,7 @@
         "source": "tracer",
         "label": "Refuted",
         "detected_biases": "",
-        "prediction": "Half-True",
+        "prediction": "Misleading",
         "prediction_error": null
     },
     {
@@ -1712,7 +1712,7 @@
         "source": "tracer",
         "label": "Refuted",
         "detected_biases": "",
-        "prediction": "Half-True",
+        "prediction": "Misleading",
         "prediction_error": null
     },
     {
@@ -1745,7 +1745,7 @@
         "source": "tracer",
         "label": "Refuted",
         "detected_biases": "[{\"bias\": \"curse of knowledge\", \"confidence\": 0.3974}]",
-        "prediction": "Half-True",
+        "prediction": "Misleading",
         "prediction_error": null
     },
     {
@@ -1754,9 +1754,9 @@
         "claim_date": "2024-10-08",
         "speaker": null,
         "source": "tracer",
-        "label": "Half-True",
+        "label": "Misleading",
         "detected_biases": "",
-        "prediction": "Half-True",
+        "prediction": "Misleading",
         "prediction_error": null
     },
     {
@@ -1765,7 +1765,7 @@
         "claim_date": "2024-10-08",
         "speaker": null,
         "source": "tracer",
-        "label": "Half-True",
+        "label": "Misleading",
         "detected_biases": "[{\"bias\": \"Just-world hypothesis\", \"confidence\": 0.3391}]",
         "prediction": "Supported",
         "prediction_error": null
@@ -1800,7 +1800,7 @@
         "source": "tracer",
         "label": "Refuted",
         "detected_biases": "",
-        "prediction": "Half-True",
+        "prediction": "Misleading",
         "prediction_error": null
     },
     {
@@ -1811,7 +1811,7 @@
         "source": "tracer",
         "label": "Refuted",
         "detected_biases": "",
-        "prediction": "Half-True",
+        "prediction": "Misleading",
         "prediction_error": null
     },
     {
@@ -1833,7 +1833,7 @@
         "source": "tracer",
         "label": "Refuted",
         "detected_biases": "[{\"bias\": \"curse of knowledge\", \"confidence\": 0.4385}]",
-        "prediction": "Half-True",
+        "prediction": "Misleading",
         "prediction_error": null
     },
     {
@@ -1842,9 +1842,9 @@
         "claim_date": "2024-10-11",
         "speaker": null,
         "source": "tracer",
-        "label": "Half-True",
+        "label": "Misleading",
         "detected_biases": "",
-        "prediction": "Half-True",
+        "prediction": "Misleading",
         "prediction_error": null
     },
     {
@@ -1855,7 +1855,7 @@
         "source": "tracer",
         "label": "Refuted",
         "detected_biases": "",
-        "prediction": "Half-True",
+        "prediction": "Misleading",
         "prediction_error": null
     },
     {
@@ -1866,7 +1866,7 @@
         "source": "tracer",
         "label": "Refuted",
         "detected_biases": "[{\"bias\": \"Just-world hypothesis\", \"confidence\": 0.5279}]",
-        "prediction": "Half-True",
+        "prediction": "Misleading",
         "prediction_error": null
     },
     {
@@ -1877,7 +1877,7 @@
         "source": "tracer",
         "label": "Refuted",
         "detected_biases": "[{\"bias\": \"curse of knowledge\", \"confidence\": 0.3263}]",
-        "prediction": "Half-True",
+        "prediction": "Misleading",
         "prediction_error": null
     },
     {
@@ -1888,7 +1888,7 @@
         "source": "tracer",
         "label": "Refuted",
         "detected_biases": "[{\"bias\": \"Availability heuristic\", \"confidence\": 0.5569}]",
-        "prediction": "Half-True",
+        "prediction": "Misleading",
         "prediction_error": null
     },
     {
@@ -1899,7 +1899,7 @@
         "source": "tracer",
         "label": "Refuted",
         "detected_biases": "",
-        "prediction": "Half-True",
+        "prediction": "Misleading",
         "prediction_error": null
     },
     {
@@ -1910,7 +1910,7 @@
         "source": "tracer",
         "label": "Refuted",
         "detected_biases": "[{\"bias\": \"Exaggerated expectation bias\", \"confidence\": 0.3991}]",
-        "prediction": "Half-True",
+        "prediction": "Misleading",
         "prediction_error": null
     },
     {
@@ -1932,7 +1932,7 @@
         "source": "tracer",
         "label": "Refuted",
         "detected_biases": "[{\"bias\": \"curse of knowledge\", \"confidence\": 0.3137}]",
-        "prediction": "Half-True",
+        "prediction": "Misleading",
         "prediction_error": null
     },
     {
@@ -1954,7 +1954,7 @@
         "source": "tracer",
         "label": "Refuted",
         "detected_biases": "",
-        "prediction": "Half-True",
+        "prediction": "Misleading",
         "prediction_error": null
     },
     {
@@ -2020,7 +2020,7 @@
         "source": "tracer",
         "label": "Refuted",
         "detected_biases": "[{\"bias\": \"curse of knowledge\", \"confidence\": 0.3154}]",
-        "prediction": "Half-True",
+        "prediction": "Misleading",
         "prediction_error": null
     },
     {
@@ -2064,7 +2064,7 @@
         "source": "tracer",
         "label": "Refuted",
         "detected_biases": "[{\"bias\": \"curse of knowledge\", \"confidence\": 0.3107}]",
-        "prediction": "Half-True",
+        "prediction": "Misleading",
         "prediction_error": null
     },
     {
@@ -2139,9 +2139,9 @@
         "claim_date": "2024-10-24",
         "speaker": null,
         "source": "tracer",
-        "label": "Half-True",
+        "label": "Misleading",
         "detected_biases": "",
-        "prediction": "Half-True",
+        "prediction": "Misleading",
         "prediction_error": null
     },
     {
@@ -2172,9 +2172,9 @@
         "claim_date": "2024-10-28",
         "speaker": null,
         "source": "tracer",
-        "label": "Half-True",
+        "label": "Misleading",
         "detected_biases": "",
-        "prediction": "Half-True",
+        "prediction": "Misleading",
         "prediction_error": null
     },
     {
@@ -2218,7 +2218,7 @@
         "source": "tracer",
         "label": "Refuted",
         "detected_biases": "[{\"bias\": \"Just-world hypothesis\", \"confidence\": 0.3786}]",
-        "prediction": "Half-True",
+        "prediction": "Misleading",
         "prediction_error": null
     },
     {
@@ -2240,7 +2240,7 @@
         "source": "tracer",
         "label": "Refuted",
         "detected_biases": "[{\"bias\": \"Just-world hypothesis\", \"confidence\": 0.3604}]",
-        "prediction": "Half-True",
+        "prediction": "Misleading",
         "prediction_error": null
     },
     {
@@ -2284,7 +2284,7 @@
         "source": "tracer",
         "label": "Refuted",
         "detected_biases": "[{\"bias\": \"Just-world hypothesis\", \"confidence\": 0.5373}]",
-        "prediction": "Half-True",
+        "prediction": "Misleading",
         "prediction_error": null
     },
     {
@@ -2306,7 +2306,7 @@
         "source": "tracer",
         "label": "Refuted",
         "detected_biases": "",
-        "prediction": "Half-True",
+        "prediction": "Misleading",
         "prediction_error": null
     },
     {
@@ -2317,7 +2317,7 @@
         "source": "tracer",
         "label": "Refuted",
         "detected_biases": "[{\"bias\": \"curse of knowledge\", \"confidence\": 0.5057}]",
-        "prediction": "Half-True",
+        "prediction": "Misleading",
         "prediction_error": null
     },
     {
@@ -2372,7 +2372,7 @@
         "source": "tracer",
         "label": "Refuted",
         "detected_biases": "[{\"bias\": \"curse of knowledge\", \"confidence\": 0.4116}]",
-        "prediction": "Half-True",
+        "prediction": "Misleading",
         "prediction_error": null
     },
     {
@@ -2416,7 +2416,7 @@
         "source": "tracer",
         "label": "Refuted",
         "detected_biases": "[{\"bias\": \"Availability heuristic\", \"confidence\": 0.5716}]",
-        "prediction": "Half-True",
+        "prediction": "Misleading",
         "prediction_error": null
     },
     {
@@ -2427,7 +2427,7 @@
         "source": "tracer",
         "label": "Refuted",
         "detected_biases": "",
-        "prediction": "Half-True",
+        "prediction": "Misleading",
         "prediction_error": null
     },
     {
@@ -2482,7 +2482,7 @@
         "source": "tracer",
         "label": "Refuted",
         "detected_biases": "[{\"bias\": \"curse of knowledge\", \"confidence\": 0.3407}]",
-        "prediction": "Half-True",
+        "prediction": "Misleading",
         "prediction_error": null
     },
     {
@@ -2568,9 +2568,9 @@
         "claim_date": "2024-11-19",
         "speaker": null,
         "source": "tracer",
-        "label": "Half-True",
+        "label": "Misleading",
         "detected_biases": "",
-        "prediction": "Half-True",
+        "prediction": "Misleading",
         "prediction_error": null
     },
     {
@@ -2590,7 +2590,7 @@
         "claim_date": "2024-11-20",
         "speaker": null,
         "source": "tracer",
-        "label": "Half-True",
+        "label": "Misleading",
         "detected_biases": "",
         "prediction": "Supported",
         "prediction_error": null
@@ -2647,7 +2647,7 @@
         "source": "tracer",
         "label": "Supported",
         "detected_biases": "[{\"bias\": \"curse of knowledge\", \"confidence\": 0.3103}]",
-        "prediction": "Half-True",
+        "prediction": "Misleading",
         "prediction_error": null
     },
     {
@@ -2656,7 +2656,7 @@
         "claim_date": "2024-12-01",
         "speaker": null,
         "source": "tracer",
-        "label": "Half-True",
+        "label": "Misleading",
         "detected_biases": "",
         "prediction": "Refuted",
         "prediction_error": null
@@ -2689,9 +2689,9 @@
         "claim_date": "2024-12-03",
         "speaker": null,
         "source": "tracer",
-        "label": "Half-True",
+        "label": "Misleading",
         "detected_biases": "[{\"bias\": \"Whole only effect\", \"confidence\": 0.5734}]",
-        "prediction": "Half-True",
+        "prediction": "Misleading",
         "prediction_error": null
     },
     {
@@ -2724,7 +2724,7 @@
         "source": "tracer",
         "label": "Refuted",
         "detected_biases": "[{\"bias\": \"curse of knowledge\", \"confidence\": 0.667}]",
-        "prediction": "Half-True",
+        "prediction": "Misleading",
         "prediction_error": null
     },
     {
@@ -2834,7 +2834,7 @@
         "source": "tracer",
         "label": "Refuted",
         "detected_biases": "[{\"bias\": \"Planning Fallacy\", \"confidence\": 0.3362}]",
-        "prediction": "Half-True",
+        "prediction": "Misleading",
         "prediction_error": null
     },
     {
@@ -2854,7 +2854,7 @@
         "claim_date": "2024-12-28",
         "speaker": null,
         "source": "tracer",
-        "label": "Half-True",
+        "label": "Misleading",
         "detected_biases": "[{\"bias\": \"hindsight bias\", \"confidence\": 0.5553}]",
         "prediction": "Supported",
         "prediction_error": null
@@ -2867,7 +2867,7 @@
         "source": "tracer",
         "label": "Refuted",
         "detected_biases": "[{\"bias\": \"curse of knowledge\", \"confidence\": 0.4749}]",
-        "prediction": "Half-True",
+        "prediction": "Misleading",
         "prediction_error": null
     },
     {
@@ -2898,9 +2898,9 @@
         "claim_date": "2025-01-06",
         "speaker": null,
         "source": "tracer",
-        "label": "Half-True",
+        "label": "Misleading",
         "detected_biases": "",
-        "prediction": "Half-True",
+        "prediction": "Misleading",
         "prediction_error": null
     },
     {
@@ -2933,7 +2933,7 @@
         "source": "tracer",
         "label": "Supported",
         "detected_biases": "",
-        "prediction": "Half-True",
+        "prediction": "Misleading",
         "prediction_error": null
     },
     {
@@ -2944,7 +2944,7 @@
         "source": "tracer",
         "label": "Supported",
         "detected_biases": "[{\"bias\": \"curse of knowledge\", \"confidence\": 0.3576}]",
-        "prediction": "Half-True",
+        "prediction": "Misleading",
         "prediction_error": null
     },
     {
@@ -3010,7 +3010,7 @@
         "source": "tracer",
         "label": "Refuted",
         "detected_biases": "[{\"bias\": \"curse of knowledge\", \"confidence\": 0.4351}]",
-        "prediction": "Half-True",
+        "prediction": "Misleading",
         "prediction_error": null
     },
     {
@@ -3021,7 +3021,7 @@
         "source": "tracer",
         "label": "Refuted",
         "detected_biases": "[{\"bias\": \"hindsight bias\", \"confidence\": 0.3713}]",
-        "prediction": "Half-True",
+        "prediction": "Misleading",
         "prediction_error": null
     },
     {
@@ -3054,7 +3054,7 @@
         "source": "tracer",
         "label": "Supported",
         "detected_biases": "",
-        "prediction": "Half-True",
+        "prediction": "Misleading",
         "prediction_error": null
     },
     {
@@ -3063,9 +3063,9 @@
         "claim_date": "2025-01-20",
         "speaker": null,
         "source": "tracer",
-        "label": "Half-True",
+        "label": "Misleading",
         "detected_biases": "",
-        "prediction": "Half-True",
+        "prediction": "Misleading",
         "prediction_error": null
     },
     {
@@ -3173,9 +3173,9 @@
         "claim_date": "2025-01-26",
         "speaker": null,
         "source": "tracer",
-        "label": "Half-True",
+        "label": "Misleading",
         "detected_biases": "[{\"bias\": \"curse of knowledge\", \"confidence\": 0.3004}]",
-        "prediction": "Half-True",
+        "prediction": "Misleading",
         "prediction_error": null
     },
     {
@@ -3184,7 +3184,7 @@
         "claim_date": "2025-01-26",
         "speaker": null,
         "source": "tracer",
-        "label": "Half-True",
+        "label": "Misleading",
         "detected_biases": "",
         "prediction": "Refuted",
         "prediction_error": null
@@ -3206,7 +3206,7 @@
         "claim_date": "2025-01-28",
         "speaker": null,
         "source": "tracer",
-        "label": "Half-True",
+        "label": "Misleading",
         "detected_biases": "[{\"bias\": \"Just-world hypothesis\", \"confidence\": 0.4151}]",
         "prediction": "Refuted",
         "prediction_error": null
@@ -3239,7 +3239,7 @@
         "claim_date": "2025-01-29",
         "speaker": null,
         "source": "tracer",
-        "label": "Half-True",
+        "label": "Misleading",
         "detected_biases": "",
         "prediction": "Refuted",
         "prediction_error": null
@@ -3252,7 +3252,7 @@
         "source": "tracer",
         "label": "Refuted",
         "detected_biases": "[{\"bias\": \"Availability heuristic\", \"confidence\": 0.4393}]",
-        "prediction": "Half-True",
+        "prediction": "Misleading",
         "prediction_error": null
     },
     {
@@ -3263,7 +3263,7 @@
         "source": "tracer",
         "label": "Refuted",
         "detected_biases": "[{\"bias\": \"curse of knowledge\", \"confidence\": 0.8432}]",
-        "prediction": "Half-True",
+        "prediction": "Misleading",
         "prediction_error": null
     },
     {
@@ -3274,7 +3274,7 @@
         "source": "tracer",
         "label": "Refuted",
         "detected_biases": "",
-        "prediction": "Half-True",
+        "prediction": "Misleading",
         "prediction_error": null
     },
     {
@@ -3294,9 +3294,9 @@
         "claim_date": "2025-02-02",
         "speaker": null,
         "source": "tracer",
-        "label": "Half-True",
+        "label": "Misleading",
         "detected_biases": "[{\"bias\": \"curse of knowledge\", \"confidence\": 0.3011}]",
-        "prediction": "Half-True",
+        "prediction": "Misleading",
         "prediction_error": null
     },
     {
@@ -3329,7 +3329,7 @@
         "source": "tracer",
         "label": "Refuted",
         "detected_biases": "",
-        "prediction": "Half-True",
+        "prediction": "Misleading",
         "prediction_error": null
     },
     {
@@ -3406,7 +3406,7 @@
         "source": "tracer",
         "label": "Refuted",
         "detected_biases": "[{\"bias\": \"hindsight bias\", \"confidence\": 0.3242}]",
-        "prediction": "Half-True",
+        "prediction": "Misleading",
         "prediction_error": null
     },
     {
@@ -3417,7 +3417,7 @@
         "source": "tracer",
         "label": "Refuted",
         "detected_biases": "",
-        "prediction": "Half-True",
+        "prediction": "Misleading",
         "prediction_error": null
     },
     {
@@ -3428,7 +3428,7 @@
         "source": "tracer",
         "label": "Refuted",
         "detected_biases": "",
-        "prediction": "Half-True",
+        "prediction": "Misleading",
         "prediction_error": null
     },
     {
@@ -3450,7 +3450,7 @@
         "source": "tracer",
         "label": "Refuted",
         "detected_biases": "[{\"bias\": \"hindsight bias\", \"confidence\": 0.5417}]",
-        "prediction": "Half-True",
+        "prediction": "Misleading",
         "prediction_error": null
     },
     {
@@ -3459,7 +3459,7 @@
         "claim_date": "2025-02-18",
         "speaker": null,
         "source": "tracer",
-        "label": "Half-True",
+        "label": "Misleading",
         "detected_biases": "",
         "prediction": "Refuted",
         "prediction_error": null
@@ -3472,7 +3472,7 @@
         "source": "tracer",
         "label": "Refuted",
         "detected_biases": "",
-        "prediction": "Half-True",
+        "prediction": "Misleading",
         "prediction_error": null
     },
     {
@@ -3483,7 +3483,7 @@
         "source": "tracer",
         "label": "Refuted",
         "detected_biases": "[{\"bias\": \"Availability heuristic\", \"confidence\": 0.3839}]",
-        "prediction": "Half-True",
+        "prediction": "Misleading",
         "prediction_error": null
     },
     {
@@ -3525,9 +3525,9 @@
         "claim_date": "2025-02-20",
         "speaker": null,
         "source": "tracer",
-        "label": "Half-True",
+        "label": "Misleading",
         "detected_biases": "",
-        "prediction": "Half-True",
+        "prediction": "Misleading",
         "prediction_error": null
     },
     {
@@ -3558,7 +3558,7 @@
         "claim_date": "2025-02-24",
         "speaker": null,
         "source": "tracer",
-        "label": "Half-True",
+        "label": "Misleading",
         "detected_biases": "[{\"bias\": \"Just-world hypothesis\", \"confidence\": 0.3376}]",
         "prediction": "Supported",
         "prediction_error": null
@@ -3626,7 +3626,7 @@
         "source": "tracer",
         "label": "Refuted",
         "detected_biases": "[{\"bias\": \"hindsight bias\", \"confidence\": 0.4194}, {\"bias\": \"Availability heuristic\", \"confidence\": 0.3142}]",
-        "prediction": "Half-True",
+        "prediction": "Misleading",
         "prediction_error": null
     },
     {

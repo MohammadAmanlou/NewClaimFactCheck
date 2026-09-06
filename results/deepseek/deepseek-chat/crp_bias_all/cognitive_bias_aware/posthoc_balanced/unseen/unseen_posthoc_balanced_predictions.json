@@ -260,7 +260,7 @@
         "source": "claimreview2024plus",
         "label": "Not Enough Information",
         "detected_biases": "[{\"bias\": \"hindsight bias\", \"confidence\": 0.3522}, {\"bias\": \"clustering illusion\", \"confidence\": 0.322}]",
-        "prediction": "Half-True",
+        "prediction": "Misleading",
         "prediction_error": null
     },
     {
@@ -304,7 +304,7 @@
         "source": "claimreview2024plus",
         "label": "Misleading",
         "detected_biases": "",
-        "prediction": "Half-True",
+        "prediction": "Misleading",
         "prediction_error": null
     },
     {
@@ -524,7 +524,7 @@
         "source": "claimreview2024plus",
         "label": "Supported",
         "detected_biases": "[{\"bias\": \"Bias blind spot\", \"confidence\": 0.3547}]",
-        "prediction": "Half-True",
+        "prediction": "Misleading",
         "prediction_error": null
     },
     {
@@ -535,7 +535,7 @@
         "source": "claimreview2024plus",
         "label": "Supported",
         "detected_biases": "[{\"bias\": \"Bias blind spot\", \"confidence\": 0.4415}]",
-        "prediction": "Half-True",
+        "prediction": "Misleading",
         "prediction_error": null
     },
     {

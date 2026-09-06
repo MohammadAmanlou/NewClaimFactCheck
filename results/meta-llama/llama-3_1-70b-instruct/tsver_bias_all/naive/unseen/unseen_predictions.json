@@ -326,7 +326,7 @@
         "source": "tsver",
         "label": "Refuted",
         "detected_biases": "[{\"bias\": \"Attentional bias\", \"confidence\": 0.5499}]",
-        "prediction": "Half-True",
+        "prediction": "Misleading",
         "prediction_error": null
     },
     {
@@ -425,7 +425,7 @@
         "source": "tsver",
         "label": "Refuted",
         "detected_biases": "",
-        "prediction": "Half-True",
+        "prediction": "Misleading",
         "prediction_error": null
     },
     {
