@@ -647,5 +647,126 @@
         "detected_biases": "[{\"bias\": \"clustering illusion\", \"confidence\": 0.4327}]",
         "prediction": "Refuted",
         "prediction_error": null
+    },
+    {
+        "claim_id": "fact5_unknown_59",
+        "claim": "\"President Donald Trump \"just told TIME Magazine that in his second term as president he'd force every pregnant woman to submit to constant government monitoring.\"",
+        "claim_date": "2024-05-01",
+        "speaker": null,
+        "source": "fact5",
+        "label": "Refuted",
+        "detected_biases": "",
+        "prediction": "Refuted",
+        "prediction_error": null
+    },
+    {
+        "claim_id": "fact5_unknown_60",
+        "claim": "\"Former U.S. President Donald Trump stated that he would not defend NATO allies if they were attacked by Russia.\"",
+        "claim_date": "2024-05-02",
+        "speaker": null,
+        "source": "fact5",
+        "label": "Misleading",
+        "detected_biases": "",
+        "prediction": "Supported",
+        "prediction_error": null
+    },
+    {
+        "claim_id": "fact5_unknown_61",
+        "claim": "“Under (the Biden) administration we have witnessed the fastest growth of Black-owned small businesses in more than 30 years.”",
+        "claim_date": "2024-05-16",
+        "speaker": null,
+        "source": "fact5",
+        "label": "Supported",
+        "detected_biases": "",
+        "prediction": "Supported",
+        "prediction_error": null
+    },
+    {
+        "claim_id": "fact5_unknown_62",
+        "claim": "Wisconsin had a “record-breaking year” for tourism in 2023.",
+        "claim_date": "2024-06-11",
+        "speaker": null,
+        "source": "fact5",
+        "label": "Supported",
+        "detected_biases": "[{\"bias\": \"Availability heuristic\", \"confidence\": 0.4429}]",
+        "prediction": "Supported",
+        "prediction_error": null
+    },
+    {
+        "claim_id": "fact5_unknown_63",
+        "claim": "In 2020, “only nine NATO allies were spending 2%” of their GDP on defense. “This year, 23 will spend at least 2%.”",
+        "claim_date": "2024-07-09",
+        "speaker": null,
+        "source": "fact5",
+        "label": "Supported",
+        "detected_biases": "",
+        "prediction": "Supported",
+        "prediction_error": null
+    },
+    {
+        "claim_id": "fact5_unknown_64",
+        "claim": "“The most recent State Budget increased funding for the Department of Tourism by 98 percent.”",
+        "claim_date": "2024-07-12",
+        "speaker": null,
+        "source": "fact5",
+        "label": "Supported",
+        "detected_biases": "[{\"bias\": \"hindsight bias\", \"confidence\": 0.4466}]",
+        "prediction": "Supported",
+        "prediction_error": null
+    },
+    {
+        "claim_id": "fact5_unknown_65",
+        "claim": "After being shot at a Milwaukee rally in 1912, former President Teddy Roosevelt “finished his speech and he kept fighting.”",
+        "claim_date": "2024-07-17",
+        "speaker": null,
+        "source": "fact5",
+        "label": "Supported",
+        "detected_biases": "[{\"bias\": \"hindsight bias\", \"confidence\": 0.4598}]",
+        "prediction": "Supported",
+        "prediction_error": null
+    },
+    {
+        "claim_id": "fact5_unknown_66",
+        "claim": "Sam Brown “said abortion should be banned without any exceptions for rape or incest.”",
+        "claim_date": "2024-07-17",
+        "speaker": null,
+        "source": "fact5",
+        "label": "Misleading",
+        "detected_biases": "[{\"bias\": \"Essentialism\", \"confidence\": 0.3974}]",
+        "prediction": "Supported",
+        "prediction_error": null
+    },
+    {
+        "claim_id": "fact5_unknown_67",
+        "claim": "Donald Trump “took away protections against discrimination for LGBTQ patients under the Affordable Care Act.”",
+        "claim_date": "2024-07-20",
+        "speaker": null,
+        "source": "fact5",
+        "label": "Supported",
+        "detected_biases": "",
+        "prediction": "Supported",
+        "prediction_error": null
+    },
+    {
+        "claim_id": "fact5_unknown_68",
+        "claim": "Author Kurt Vonnegut once said: \"We'll go down in history as the first society that wouldn't save itself because it wasn't cost-effective.\"",
+        "claim_date": "2024-07-25",
+        "speaker": null,
+        "source": "fact5",
+        "label": "Not Enough Information",
+        "detected_biases": "[{\"bias\": \"curse of knowledge\", \"confidence\": 0.372}]",
+        "prediction": "Supported",
+        "prediction_error": null
+    },
+    {
+        "claim_id": "fact5_unknown_69",
+        "claim": "“Even before the pandemic, America went into a manufacturing recession.”",
+        "claim_date": "2024-07-28",
+        "speaker": null,
+        "source": "fact5",
+        "label": "Supported",
+        "detected_biases": "",
+        "prediction": "Misleading",
+        "prediction_error": null
     }
 ]

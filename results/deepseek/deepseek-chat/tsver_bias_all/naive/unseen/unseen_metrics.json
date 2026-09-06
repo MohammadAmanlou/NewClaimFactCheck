@@ -1,22 +1,22 @@
 {
-    "accuracy": 0.3333,
-    "macro_precision": 0.7778,
-    "macro_recall": 0.4584,
-    "macro_f1": 0.5199,
-    "total_samples": 39,
-    "correct_predictions": 13,
+    "accuracy": 0.3548,
+    "macro_precision": 0.7857,
+    "macro_recall": 0.5,
+    "macro_f1": 0.5577,
+    "total_samples": 31,
+    "correct_predictions": 11,
     "per_label_metrics": {
         "Supported": {
-            "precision": 0.5556,
-            "recall": 0.625,
-            "f1": 0.5882,
-            "support": 8
+            "precision": 0.5714,
+            "recall": 0.6667,
+            "f1": 0.6154,
+            "support": 6
         },
         "Refuted": {
             "precision": 1.0,
-            "recall": 0.2917,
-            "f1": 0.4516,
-            "support": 24
+            "recall": 0.3333,
+            "f1": 0.5,
+            "support": 18
         }
     },
     "nei_prediction_rate": 0.0,

@@ -2913,5 +2913,93 @@
         "detected_biases": "[{\"bias\": \"curse of knowledge\", \"confidence\": 0.6133}]",
         "prediction": "Supported",
         "prediction_error": null
+    },
+    {
+        "claim_id": "tsver_test_17",
+        "claim": "Australia is the only G20 nation that doesn’t use nuclear power.",
+        "claim_date": "2024-06-18",
+        "speaker": null,
+        "source": "tsver",
+        "label": "Refuted",
+        "detected_biases": "",
+        "prediction": "Supported",
+        "prediction_error": null
+    },
+    {
+        "claim_id": "tsver_test_134",
+        "claim": "Sweden, France, Finland, the UK and Germany have abandoned renewable energy.",
+        "claim_date": "2024-05-22",
+        "speaker": null,
+        "source": "tsver",
+        "label": "Refuted",
+        "detected_biases": "[{\"bias\": \"curse of knowledge\", \"confidence\": 0.5181}]",
+        "prediction": "Refuted",
+        "prediction_error": null
+    },
+    {
+        "claim_id": "tsver_test_137",
+        "claim": "No country in the world has ever planted as many trees as China.",
+        "claim_date": "2024-07-15",
+        "speaker": null,
+        "source": "tsver",
+        "label": "Supported",
+        "detected_biases": "",
+        "prediction": "Supported",
+        "prediction_error": null
+    },
+    {
+        "claim_id": "tsver_test_150",
+        "claim": "Our [Kenya] electricity generation is almost 95% renewable, from geothermal, hydro, wind, and solar energy.",
+        "claim_date": "2024-05-01",
+        "speaker": null,
+        "source": "tsver",
+        "label": "Supported",
+        "detected_biases": "[{\"bias\": \"curse of knowledge\", \"confidence\": 0.4012}]",
+        "prediction": "Misleading",
+        "prediction_error": null
+    },
+    {
+        "claim_id": "tsver_test_166",
+        "claim": "The last administration [USA] oversaw the largest increase in murders ever recorded.",
+        "claim_date": "2024-05-24",
+        "speaker": null,
+        "source": "tsver",
+        "label": "Refuted",
+        "detected_biases": "",
+        "prediction": "Refuted",
+        "prediction_error": null
+    },
+    {
+        "claim_id": "tsver_test_197",
+        "claim": "47.3% of Nigerians were multidimensionally poor in 2021.",
+        "claim_date": "2024-05-01",
+        "speaker": null,
+        "source": "tsver",
+        "label": "Refuted",
+        "detected_biases": "[{\"bias\": \"Availability heuristic\", \"confidence\": 0.7175}]",
+        "prediction": "Supported",
+        "prediction_error": null
+    },
+    {
+        "claim_id": "tsver_test_226",
+        "claim": "The UK economy is growing faster than almost any other major country, including the United States.",
+        "claim_date": "2024-05-23",
+        "speaker": null,
+        "source": "tsver",
+        "label": "Refuted",
+        "detected_biases": "[{\"bias\": \"curse of knowledge\", \"confidence\": 0.344}]",
+        "prediction": "Misleading",
+        "prediction_error": null
+    },
+    {
+        "claim_id": "tsver_test_289",
+        "claim": "The truth is, it is unclear if Antarctica is losing any ice on balance or if it’s currently experiencing a net gain.",
+        "claim_date": "2024-05-21",
+        "speaker": null,
+        "source": "tsver",
+        "label": "Refuted",
+        "detected_biases": "",
+        "prediction": "Misleading",
+        "prediction_error": null
     }
 ]

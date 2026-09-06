@@ -2,7 +2,7 @@
     "dataset": "fact5_bias_all",
     "model": "deepseek/deepseek-chat",
     "prompt_method": "naive",
-    "temporal_split": "2024-05-01",
+    "temporal_split": "2024-08-01",
     "evaluation_mode": "posthoc_label_stratified_balanced",
     "sampling_info": {
         "enabled": true,
@@ -10,10 +10,10 @@
         "strategy": "label_stratified_seen_unseen_balance_after_prediction",
         "method": "naive",
         "seed": 42,
-        "original_seen_count": 59,
-        "original_unseen_count": 91,
-        "sampled_seen_count": 59,
-        "sampled_unseen_count": 59,
+        "original_seen_count": 70,
+        "original_unseen_count": 80,
+        "sampled_seen_count": 64,
+        "sampled_unseen_count": 64,
         "labels": [
             "Supported",
             "Misleading",
@@ -22,99 +22,231 @@
         ],
         "per_label_info": {
             "Supported": {
-                "original_seen": 21,
-                "original_unseen": 29,
-                "sampled_seen": 21,
-                "sampled_unseen": 21
+                "original_seen": 28,
+                "original_unseen": 22,
+                "sampled_seen": 22,
+                "sampled_unseen": 22
             },
             "Misleading": {
-                "original_seen": 7,
-                "original_unseen": 18,
-                "sampled_seen": 7,
-                "sampled_unseen": 7
+                "original_seen": 9,
+                "original_unseen": 16,
+                "sampled_seen": 9,
+                "sampled_unseen": 9
             },
             "Refuted": {
-                "original_seen": 27,
-                "original_unseen": 38,
-                "sampled_seen": 27,
-                "sampled_unseen": 27
+                "original_seen": 28,
+                "original_unseen": 37,
+                "sampled_seen": 28,
+                "sampled_unseen": 28
             },
             "Not Enough Information": {
-                "original_seen": 4,
-                "original_unseen": 6,
-                "sampled_seen": 4,
-                "sampled_unseen": 4
+                "original_seen": 5,
+                "original_unseen": 5,
+                "sampled_seen": 5,
+                "sampled_unseen": 5
             }
         },
-        "timestamp": "2026-08-03T17:12:30.284640"
+        "timestamp": "2026-08-03T17:12:30.284640",
+        "sampled_seen_claim_ids": [
+            "fact5_unknown_38",
+            "fact5_unknown_59",
+            "fact5_unknown_23",
+            "fact5_unknown_4",
+            "fact5_unknown_65",
+            "fact5_unknown_14",
+            "fact5_unknown_6",
+            "fact5_unknown_2",
+            "fact5_unknown_22",
+            "fact5_unknown_28",
+            "fact5_unknown_26",
+            "fact5_unknown_9",
+            "fact5_unknown_3",
+            "fact5_unknown_39",
+            "fact5_unknown_55",
+            "fact5_unknown_42",
+            "fact5_unknown_48",
+            "fact5_unknown_46",
+            "fact5_unknown_63",
+            "fact5_unknown_34",
+            "fact5_unknown_52",
+            "fact5_unknown_47",
+            "fact5_unknown_41",
+            "fact5_unknown_13",
+            "fact5_unknown_68",
+            "fact5_unknown_5",
+            "fact5_unknown_1",
+            "fact5_unknown_20",
+            "fact5_unknown_36",
+            "fact5_unknown_37",
+            "fact5_unknown_21",
+            "fact5_unknown_7",
+            "fact5_unknown_12",
+            "fact5_unknown_33",
+            "fact5_unknown_62",
+            "fact5_unknown_45",
+            "fact5_unknown_32",
+            "fact5_unknown_15",
+            "fact5_unknown_0",
+            "fact5_unknown_44",
+            "fact5_unknown_31",
+            "fact5_unknown_8",
+            "fact5_unknown_66",
+            "fact5_unknown_24",
+            "fact5_unknown_56",
+            "fact5_unknown_18",
+            "fact5_unknown_43",
+            "fact5_unknown_64",
+            "fact5_unknown_17",
+            "fact5_unknown_30",
+            "fact5_unknown_58",
+            "fact5_unknown_10",
+            "fact5_unknown_35",
+            "fact5_unknown_50",
+            "fact5_unknown_53",
+            "fact5_unknown_51",
+            "fact5_unknown_16",
+            "fact5_unknown_29",
+            "fact5_unknown_11",
+            "fact5_unknown_60",
+            "fact5_unknown_27",
+            "fact5_unknown_54",
+            "fact5_unknown_57",
+            "fact5_unknown_67"
+        ],
+        "sampled_unseen_claim_ids": [
+            "fact5_unknown_117",
+            "fact5_unknown_94",
+            "fact5_unknown_91",
+            "fact5_unknown_75",
+            "fact5_unknown_116",
+            "fact5_unknown_127",
+            "fact5_unknown_90",
+            "fact5_unknown_74",
+            "fact5_unknown_97",
+            "fact5_unknown_79",
+            "fact5_unknown_86",
+            "fact5_unknown_105",
+            "fact5_unknown_111",
+            "fact5_unknown_119",
+            "fact5_unknown_136",
+            "fact5_unknown_93",
+            "fact5_unknown_85",
+            "fact5_unknown_88",
+            "fact5_unknown_142",
+            "fact5_unknown_125",
+            "fact5_unknown_113",
+            "fact5_unknown_124",
+            "fact5_unknown_72",
+            "fact5_unknown_106",
+            "fact5_unknown_145",
+            "fact5_unknown_143",
+            "fact5_unknown_148",
+            "fact5_unknown_130",
+            "fact5_unknown_78",
+            "fact5_unknown_104",
+            "fact5_unknown_82",
+            "fact5_unknown_112",
+            "fact5_unknown_126",
+            "fact5_unknown_87",
+            "fact5_unknown_92",
+            "fact5_unknown_81",
+            "fact5_unknown_137",
+            "fact5_unknown_120",
+            "fact5_unknown_138",
+            "fact5_unknown_110",
+            "fact5_unknown_132",
+            "fact5_unknown_147",
+            "fact5_unknown_129",
+            "fact5_unknown_98",
+            "fact5_unknown_118",
+            "fact5_unknown_134",
+            "fact5_unknown_73",
+            "fact5_unknown_108",
+            "fact5_unknown_121",
+            "fact5_unknown_77",
+            "fact5_unknown_133",
+            "fact5_unknown_103",
+            "fact5_unknown_102",
+            "fact5_unknown_139",
+            "fact5_unknown_146",
+            "fact5_unknown_101",
+            "fact5_unknown_107",
+            "fact5_unknown_83",
+            "fact5_unknown_114",
+            "fact5_unknown_131",
+            "fact5_unknown_80",
+            "fact5_unknown_122",
+            "fact5_unknown_76",
+            "fact5_unknown_84"
+        ]
     },
     "seen_metrics": {
-        "accuracy": 0.2881,
-        "macro_precision": 0.3408,
-        "macro_recall": 0.3003,
-        "macro_f1": 0.2272,
-        "total_samples": 59,
-        "correct_predictions": 17,
+        "accuracy": 0.3438,
+        "macro_precision": 0.3832,
+        "macro_recall": 0.3266,
+        "macro_f1": 0.2786,
+        "total_samples": 64,
+        "correct_predictions": 22,
         "per_label_metrics": {
             "Supported": {
-                "precision": 0.5714,
-                "recall": 0.1905,
-                "f1": 0.2857,
-                "support": 21
+                "precision": 0.6364,
+                "recall": 0.3182,
+                "f1": 0.4242,
+                "support": 22
             },
             "Refuted": {
-                "precision": 0.6667,
-                "recall": 0.2963,
-                "f1": 0.4103,
-                "support": 27
+                "precision": 0.75,
+                "recall": 0.3214,
+                "f1": 0.45,
+                "support": 28
             },
             "Misleading": {
-                "precision": 0.125,
-                "recall": 0.7143,
-                "f1": 0.2128,
-                "support": 7
+                "precision": 0.1463,
+                "recall": 0.6667,
+                "f1": 0.24,
+                "support": 9
             },
             "Not Enough Information": {
                 "precision": 0.0,
                 "recall": 0.0,
                 "f1": 0.0,
-                "support": 4
+                "support": 5
             }
         },
         "nei_prediction_rate": 0.0,
         "false_nei_rate": 0.0
     },
     "unseen_metrics": {
-        "accuracy": 0.4407,
-        "macro_precision": 0.4265,
-        "macro_recall": 0.3968,
-        "macro_f1": 0.3433,
-        "total_samples": 59,
-        "correct_predictions": 26,
+        "accuracy": 0.4531,
+        "macro_precision": 0.4467,
+        "macro_recall": 0.4481,
+        "macro_f1": 0.3571,
+        "total_samples": 64,
+        "correct_predictions": 29,
         "per_label_metrics": {
             "Supported": {
+                "precision": 0.8,
+                "recall": 0.3636,
+                "f1": 0.5,
+                "support": 22
+            },
+            "Refuted": {
                 "precision": 0.75,
                 "recall": 0.4286,
                 "f1": 0.5455,
-                "support": 21
-            },
-            "Refuted": {
-                "precision": 0.8,
-                "recall": 0.4444,
-                "f1": 0.5714,
-                "support": 27
+                "support": 28
             },
             "Misleading": {
-                "precision": 0.1562,
-                "recall": 0.7143,
-                "f1": 0.2564,
-                "support": 7
+                "precision": 0.2368,
+                "recall": 1.0,
+                "f1": 0.383,
+                "support": 9
             },
             "Not Enough Information": {
                 "precision": 0.0,
                 "recall": 0.0,
                 "f1": 0.0,
-                "support": 4
+                "support": 5
             }
         },
         "nei_prediction_rate": 0.0,
@@ -122,72 +254,72 @@
     },
     "comparison": {
         "seen_metrics": {
-            "accuracy": 0.2881,
-            "macro_precision": 0.3408,
-            "macro_recall": 0.3003,
-            "macro_f1": 0.2272,
-            "total_samples": 59,
-            "correct_predictions": 17,
+            "accuracy": 0.3438,
+            "macro_precision": 0.3832,
+            "macro_recall": 0.3266,
+            "macro_f1": 0.2786,
+            "total_samples": 64,
+            "correct_predictions": 22,
             "per_label_metrics": {
                 "Supported": {
-                    "precision": 0.5714,
-                    "recall": 0.1905,
-                    "f1": 0.2857,
-                    "support": 21
+                    "precision": 0.6364,
+                    "recall": 0.3182,
+                    "f1": 0.4242,
+                    "support": 22
                 },
                 "Refuted": {
-                    "precision": 0.6667,
-                    "recall": 0.2963,
-                    "f1": 0.4103,
-                    "support": 27
+                    "precision": 0.75,
+                    "recall": 0.3214,
+                    "f1": 0.45,
+                    "support": 28
                 },
                 "Misleading": {
-                    "precision": 0.125,
-                    "recall": 0.7143,
-                    "f1": 0.2128,
-                    "support": 7
+                    "precision": 0.1463,
+                    "recall": 0.6667,
+                    "f1": 0.24,
+                    "support": 9
                 },
                 "Not Enough Information": {
                     "precision": 0.0,
                     "recall": 0.0,
                     "f1": 0.0,
-                    "support": 4
+                    "support": 5
                 }
             },
             "nei_prediction_rate": 0.0,
             "false_nei_rate": 0.0
         },
         "unseen_metrics": {
-            "accuracy": 0.4407,
-            "macro_precision": 0.4265,
-            "macro_recall": 0.3968,
-            "macro_f1": 0.3433,
-            "total_samples": 59,
-            "correct_predictions": 26,
+            "accuracy": 0.4531,
+            "macro_precision": 0.4467,
+            "macro_recall": 0.4481,
+            "macro_f1": 0.3571,
+            "total_samples": 64,
+            "correct_predictions": 29,
             "per_label_metrics": {
                 "Supported": {
+                    "precision": 0.8,
+                    "recall": 0.3636,
+                    "f1": 0.5,
+                    "support": 22
+                },
+                "Refuted": {
                     "precision": 0.75,
                     "recall": 0.4286,
                     "f1": 0.5455,
-                    "support": 21
-                },
-                "Refuted": {
-                    "precision": 0.8,
-                    "recall": 0.4444,
-                    "f1": 0.5714,
-                    "support": 27
+                    "support": 28
                 },
                 "Misleading": {
-                    "precision": 0.1562,
-                    "recall": 0.7143,
-                    "f1": 0.2564,
-                    "support": 7
+                    "precision": 0.2368,
+                    "recall": 1.0,
+                    "f1": 0.383,
+                    "support": 9
                 },
                 "Not Enough Information": {
                     "precision": 0.0,
                     "recall": 0.0,
                     "f1": 0.0,
-                    "support": 4
+                    "support": 5
                 }
             },
             "nei_prediction_rate": 0.0,
@@ -195,20 +327,20 @@
         },
         "statistical_tests": {
             "t_test": {
-                "t_statistic": -1.7287,
-                "p_value": 0.0865,
+                "t_statistic": -1.2618,
+                "p_value": 0.2094,
                 "significant_at_0.05": false,
                 "interpretation": "No significant difference"
             },
             "chi_square_test": {
-                "chi2_statistic": 2.3417,
-                "p_value": 0.126,
+                "chi2_statistic": 1.1734,
+                "p_value": 0.2787,
                 "degrees_of_freedom": 1,
                 "significant_at_0.05": false,
                 "interpretation": "No significant difference"
             }
         },
-        "accuracy_difference": 0.1526,
+        "accuracy_difference": 0.1093,
         "sampling_info": {
             "enabled": true,
             "stage": "post_inference",

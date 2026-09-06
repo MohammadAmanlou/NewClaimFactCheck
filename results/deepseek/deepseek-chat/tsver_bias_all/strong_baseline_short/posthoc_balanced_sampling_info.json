@@ -4,10 +4,10 @@
     "strategy": "label_stratified_seen_unseen_balance_after_prediction",
     "method": "strong_baseline_short",
     "seed": 42,
-    "original_seen_count": 265,
-    "original_unseen_count": 39,
-    "sampled_seen_count": 39,
-    "sampled_unseen_count": 39,
+    "original_seen_count": 273,
+    "original_unseen_count": 31,
+    "sampled_seen_count": 31,
+    "sampled_unseen_count": 31,
     "labels": [
         "Supported",
         "Refuted",
@@ -16,16 +16,16 @@
     ],
     "per_label_info": {
         "Supported": {
-            "original_seen": 84,
-            "original_unseen": 8,
-            "sampled_seen": 8,
-            "sampled_unseen": 8
+            "original_seen": 86,
+            "original_unseen": 6,
+            "sampled_seen": 6,
+            "sampled_unseen": 6
         },
         "Refuted": {
-            "original_seen": 140,
-            "original_unseen": 24,
-            "sampled_seen": 24,
-            "sampled_unseen": 24
+            "original_seen": 146,
+            "original_unseen": 18,
+            "sampled_seen": 18,
+            "sampled_unseen": 18
         },
         "Misleading": {
             "original_seen": 11,

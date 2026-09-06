@@ -682,39 +682,6 @@
         "prediction_error": null
     },
     {
-        "claim_id": "crp_65",
-        "claim": "“Our electricity generation is almost 95% renewable, from geothermal, hydro, wind, and solar energy.”",
-        "claim_date": "2024-05-01",
-        "speaker": null,
-        "source": "claimreview2024plus",
-        "label": "Refuted",
-        "detected_biases": "[{\"bias\": \"curse of knowledge\", \"confidence\": 0.4731}]",
-        "prediction": "Misleading",
-        "prediction_error": null
-    },
-    {
-        "claim_id": "crp_66",
-        "claim": "'Sweden, France, Finland, the UK and Germany have abandoned renewable energy.'",
-        "claim_date": "2024-05-22",
-        "speaker": null,
-        "source": "claimreview2024plus",
-        "label": "Refuted",
-        "detected_biases": "[{\"bias\": \"curse of knowledge\", \"confidence\": 0.4928}]",
-        "prediction": "Refuted",
-        "prediction_error": null
-    },
-    {
-        "claim_id": "crp_67",
-        "claim": "'More than 100% of Scotland’s electricity needs come from renewable sources.'",
-        "claim_date": "2024-05-31",
-        "speaker": null,
-        "source": "claimreview2024plus",
-        "label": "Supported",
-        "detected_biases": "",
-        "prediction": "Supported",
-        "prediction_error": null
-    },
-    {
         "claim_id": "crp_69",
         "claim": "'Lok Sabha passed bills related ‘One Nation, One Election’ on December 17, 2024.'",
         "claim_date": "2024-12-17",
@@ -1034,17 +1001,6 @@
         "prediction_error": null
     },
     {
-        "claim_id": "crp_101",
-        "claim": "\"Homeownership is now out of reach unless you make over $106,000.\"",
-        "claim_date": "2024-07-16",
-        "speaker": null,
-        "source": "claimreview2024plus",
-        "label": "Supported",
-        "detected_biases": "",
-        "prediction": "Misleading",
-        "prediction_error": null
-    },
-    {
         "claim_id": "crp_106",
         "claim": "'Russian state TV aired nude photos of Melania Trump shortly after the 2024 U.S. presidential election.'",
         "claim_date": "2024-11-12",
@@ -1210,39 +1166,6 @@
         "prediction_error": null
     },
     {
-        "claim_id": "crp_125",
-        "claim": "'Princess Diana and Mother Teresa holding hands in 1997.'",
-        "claim_date": "2024-07-25",
-        "speaker": null,
-        "source": "claimreview2024plus",
-        "label": "Supported",
-        "detected_biases": "",
-        "prediction": "Supported",
-        "prediction_error": null
-    },
-    {
-        "claim_id": "crp_126",
-        "claim": "'Ancestry.com listed a Joseph Robinette Biden Jr. as having died in Guantánamo, Cuba, in 2018.'",
-        "claim_date": "2024-06-13",
-        "speaker": null,
-        "source": "claimreview2024plus",
-        "label": "Supported",
-        "detected_biases": "[{\"bias\": \"Just-world hypothesis\", \"confidence\": 0.3409}]",
-        "prediction": "Refuted",
-        "prediction_error": null
-    },
-    {
-        "claim_id": "crp_127",
-        "claim": "'Images shared on social media showed a mailer sent to voters in Texas ahead of a May 28, 2024, runoff election reading, in part: \"Your neighbors are watching and will know if you miss this critical runoff election\" and \"please don't make us report you to President Trump!\"'",
-        "claim_date": "2024-05-29",
-        "speaker": null,
-        "source": "claimreview2024plus",
-        "label": "Supported",
-        "detected_biases": "[{\"bias\": \"curse of knowledge\", \"confidence\": 0.3554}]",
-        "prediction": "Supported",
-        "prediction_error": null
-    },
-    {
         "claim_id": "crp_130",
         "claim": "'Each one of those shots is billed as a medical advance. So, our children should be healthier than ever. But the opposite is true.'",
         "claim_date": "2024-09-08",
@@ -1287,17 +1210,6 @@
         "prediction_error": null
     },
     {
-        "claim_id": "crp_134",
-        "claim": "'Visuals of Akhilesh Yadav recently meeting the Prime Minister during the 2024 Lok Sabha elections.'",
-        "claim_date": "2024-05-11",
-        "speaker": null,
-        "source": "claimreview2024plus",
-        "label": "Misleading",
-        "detected_biases": "",
-        "prediction": "Supported",
-        "prediction_error": null
-    },
-    {
         "claim_id": "crp_135",
         "claim": "'These viral photos show Kumbhakarna’s sword from the Ramayana period.'",
         "claim_date": "2024-10-07",
@@ -1306,17 +1218,6 @@
         "label": "Refuted",
         "detected_biases": "",
         "prediction": "Refuted",
-        "prediction_error": null
-    },
-    {
-        "claim_id": "crp_137",
-        "claim": "'Thomas Crooks, the 20-year-old man who attempted to assassinate former U.S. President Donald Trump, once donated money to a political action committee aligned with the Democratic Party.'",
-        "claim_date": "2024-07-15",
-        "speaker": null,
-        "source": "claimreview2024plus",
-        "label": "Supported",
-        "detected_biases": "[{\"bias\": \"clustering illusion\", \"confidence\": 0.5018}]",
-        "prediction": "Supported",
         "prediction_error": null
     },
     {
@@ -1430,17 +1331,6 @@
         "prediction_error": null
     },
     {
-        "claim_id": "crp_155",
-        "claim": "'Wilders and Le Pen “unanimously” win recent elections'",
-        "claim_date": "2024-05-19",
-        "speaker": null,
-        "source": "claimreview2024plus",
-        "label": "Misleading",
-        "detected_biases": "[{\"bias\": \"Availability heuristic\", \"confidence\": 0.6901}]",
-        "prediction": "Misleading",
-        "prediction_error": null
-    },
-    {
         "claim_id": "crp_158",
         "claim": "'China declared a state of health emergency following new HMPV outbreak.'",
         "claim_date": "2025-01-07",
@@ -1482,28 +1372,6 @@
         "label": "Misleading",
         "detected_biases": "",
         "prediction": "Misleading",
-        "prediction_error": null
-    },
-    {
-        "claim_id": "crp_162",
-        "claim": "'Great Barrier Reef broke coral population record for third year in a row'",
-        "claim_date": "2024-06-29",
-        "speaker": null,
-        "source": "claimreview2024plus",
-        "label": "Misleading",
-        "detected_biases": "[{\"bias\": \"Availability heuristic\", \"confidence\": 0.572}]",
-        "prediction": "Refuted",
-        "prediction_error": null
-    },
-    {
-        "claim_id": "crp_163",
-        "claim": "'GRACIA LATTE is a healthy way to lose weight in one week'",
-        "claim_date": "2024-05-01",
-        "speaker": null,
-        "source": "claimreview2024plus",
-        "label": "Misleading",
-        "detected_biases": "",
-        "prediction": "Refuted",
         "prediction_error": null
     },
     {
@@ -1584,61 +1452,6 @@
         "prediction_error": null
     },
     {
-        "claim_id": "crp_176",
-        "claim": "'Spike protein from Covid-19 vaccines could promote cancer growth.'",
-        "claim_date": "2024-07-01",
-        "speaker": null,
-        "source": "claimreview2024plus",
-        "label": "Misleading",
-        "detected_biases": "",
-        "prediction": "Refuted",
-        "prediction_error": null
-    },
-    {
-        "claim_id": "crp_177",
-        "claim": "'Study proves link between Covid-19 and sudden death'",
-        "claim_date": "2024-06-19",
-        "speaker": null,
-        "source": "claimreview2024plus",
-        "label": "Misleading",
-        "detected_biases": "",
-        "prediction": "Misleading",
-        "prediction_error": null
-    },
-    {
-        "claim_id": "crp_178",
-        "claim": "'BMJ reports record excess deaths after Covid vaccine'",
-        "claim_date": "2024-06-06",
-        "speaker": null,
-        "source": "claimreview2024plus",
-        "label": "Misleading",
-        "detected_biases": "",
-        "prediction": "Misleading",
-        "prediction_error": null
-    },
-    {
-        "claim_id": "crp_179",
-        "claim": "“Covid vaccines may have helped fuel rise in excess deaths”",
-        "claim_date": "2024-07-06",
-        "speaker": null,
-        "source": "claimreview2024plus",
-        "label": "Misleading",
-        "detected_biases": "[{\"bias\": \"Just-world hypothesis\", \"confidence\": 0.4296}]",
-        "prediction": "Refuted",
-        "prediction_error": null
-    },
-    {
-        "claim_id": "crp_180",
-        "claim": "“AstraZeneca finally WITHDRAW Covid vaccine worldwide, months after the company admitted rare side effect for the first time in court documents.”",
-        "claim_date": "2024-05-08",
-        "speaker": null,
-        "source": "claimreview2024plus",
-        "label": "Misleading",
-        "detected_biases": "[{\"bias\": \"curse of knowledge\", \"confidence\": 0.4493}]",
-        "prediction": "Supported",
-        "prediction_error": null
-    },
-    {
         "claim_id": "crp_187",
         "claim": "'Former U.S. President Donald Trump reneged on an offer he made to help pay the funeral costs of a murdered soldier, saying, \"It doesn't cost 60,000 bucks to bury a [expletive] Mexican!\"'",
         "claim_date": "2024-10-29",
@@ -1657,17 +1470,6 @@
         "source": "claimreview2024plus",
         "label": "Not Enough Information",
         "detected_biases": "[{\"bias\": \"curse of knowledge\", \"confidence\": 0.5359}, {\"bias\": \"Essentialism\", \"confidence\": 0.3861}]",
-        "prediction": "Refuted",
-        "prediction_error": null
-    },
-    {
-        "claim_id": "crp_190",
-        "claim": "'A photo authentically depicted an officer who killed a shooter who allegedly opened fire on former U.S. President Donald Trump and \"saved\" his life.'",
-        "claim_date": "2024-07-13",
-        "speaker": null,
-        "source": "claimreview2024plus",
-        "label": "Not Enough Information",
-        "detected_biases": "[{\"bias\": \"hindsight bias\", \"confidence\": 0.3522}, {\"bias\": \"clustering illusion\", \"confidence\": 0.322}]",
         "prediction": "Refuted",
         "prediction_error": null
     },
@@ -1760,17 +1562,6 @@
         "prediction_error": null
     },
     {
-        "claim_id": "crp_201",
-        "claim": "'Mark Violet, a “known antifa extremist”, who has been identified as the Donald Trump shooter and arrested by Butler Police Department.'",
-        "claim_date": "2024-07-14",
-        "speaker": null,
-        "source": "claimreview2024plus",
-        "label": "Refuted",
-        "detected_biases": "[{\"bias\": \"Just-world hypothesis\", \"confidence\": 0.7116}]",
-        "prediction": "Refuted",
-        "prediction_error": null
-    },
-    {
         "claim_id": "crp_202",
         "claim": "'There is a primary school Social, Personal and Health Education (SPHE) task for 10-year-olds, in which they have to match words related to sexual education to the correct definitions.'",
         "claim_date": "2024-10-16",
@@ -1800,17 +1591,6 @@
         "source": "claimreview2024plus",
         "label": "Refuted",
         "detected_biases": "[{\"bias\": \"Just-world hypothesis\", \"confidence\": 0.7387}]",
-        "prediction": "Refuted",
-        "prediction_error": null
-    },
-    {
-        "claim_id": "crp_205",
-        "claim": "'All white people picnicking at Black church where Trump spoke'",
-        "claim_date": "2024-06-17",
-        "speaker": null,
-        "source": "claimreview2024plus",
-        "label": "Refuted",
-        "detected_biases": "[{\"bias\": \"Availability heuristic\", \"confidence\": 0.7322}]",
         "prediction": "Refuted",
         "prediction_error": null
     },
@@ -2002,28 +1782,6 @@
         "prediction_error": null
     },
     {
-        "claim_id": "crp_223",
-        "claim": "'Fake fingers used for voter fraud in Indian election 2024'",
-        "claim_date": "2024-05-01",
-        "speaker": null,
-        "source": "claimreview2024plus",
-        "label": "Refuted",
-        "detected_biases": "",
-        "prediction": "Refuted",
-        "prediction_error": null
-    },
-    {
-        "claim_id": "crp_224",
-        "claim": "'Voting fraud where the polling agent is seen casting votes on behalf of three women.'",
-        "claim_date": "2024-05-27",
-        "speaker": null,
-        "source": "claimreview2024plus",
-        "label": "Not Enough Information",
-        "detected_biases": "[{\"bias\": \"Availability heuristic\", \"confidence\": 0.3062}]",
-        "prediction": "Refuted",
-        "prediction_error": null
-    },
-    {
         "claim_id": "crp_228",
         "claim": "'Study Finds 1.7 Million Vaccinated Kids Now Have ‘Severe Heart Defects’'",
         "claim_date": "2024-11-19",
@@ -2123,39 +1881,6 @@
         "prediction_error": null
     },
     {
-        "claim_id": "crp_240",
-        "claim": "'US Moon landing is staged'",
-        "claim_date": "2024-06-26",
-        "speaker": null,
-        "source": "claimreview2024plus",
-        "label": "Refuted",
-        "detected_biases": "",
-        "prediction": "Refuted",
-        "prediction_error": null
-    },
-    {
-        "claim_id": "crp_242",
-        "claim": "'Image shows NASA astronauts posing for picture on the moon without helmets.'",
-        "claim_date": "2024-05-25",
-        "speaker": null,
-        "source": "claimreview2024plus",
-        "label": "Refuted",
-        "detected_biases": "[{\"bias\": \"curse of knowledge\", \"confidence\": 0.7023}]",
-        "prediction": "Refuted",
-        "prediction_error": null
-    },
-    {
-        "claim_id": "crp_244",
-        "claim": "'US Moon landing was faked.'",
-        "claim_date": "2024-05-07",
-        "speaker": null,
-        "source": "claimreview2024plus",
-        "label": "Refuted",
-        "detected_biases": "",
-        "prediction": "Refuted",
-        "prediction_error": null
-    },
-    {
         "claim_id": "crp_245",
         "claim": "'Pilot in Siberia accidentally switches on stratospheric aerosol injection during takeoff creating ground Chemtrail'",
         "claim_date": "2024-08-02",
@@ -2163,28 +1888,6 @@
         "source": "claimreview2024plus",
         "label": "Refuted",
         "detected_biases": "",
-        "prediction": "Refuted",
-        "prediction_error": null
-    },
-    {
-        "claim_id": "crp_246",
-        "claim": "'Tubular clouds seen over NSW were dangerous ‘chemtrails’ released from an aircraft.'",
-        "claim_date": "2024-06-04",
-        "speaker": null,
-        "source": "claimreview2024plus",
-        "label": "Refuted",
-        "detected_biases": "[{\"bias\": \"Availability heuristic\", \"confidence\": 0.7864}]",
-        "prediction": "Refuted",
-        "prediction_error": null
-    },
-    {
-        "claim_id": "crp_253",
-        "claim": "'Trump said \"A vaccination that is like 38 different vaccines, and it looks like it’s meant for a horse, not a, you know, 10-pound or 20-pound baby. ... And then you see the baby all of a sudden starting to change radically.\"'",
-        "claim_date": "2024-07-16",
-        "speaker": null,
-        "source": "claimreview2024plus",
-        "label": "Supported",
-        "detected_biases": "[{\"bias\": \"hindsight bias\", \"confidence\": 0.735}]",
         "prediction": "Refuted",
         "prediction_error": null
     },
@@ -2233,17 +1936,6 @@
         "prediction_error": null
     },
     {
-        "claim_id": "crp_259",
-        "claim": "'Italian police cooking pasta for an 87-year-old woman after she called them saying she was hungry and felt alone.'",
-        "claim_date": "2024-07-08",
-        "speaker": null,
-        "source": "claimreview2024plus",
-        "label": "Supported",
-        "detected_biases": "[{\"bias\": \"Just-world hypothesis\", \"confidence\": 0.3842}]",
-        "prediction": "Supported",
-        "prediction_error": null
-    },
-    {
         "claim_id": "crp_260",
         "claim": "'Louis Armstrong drawing on a fan’s forehead.'",
         "claim_date": "2024-09-16",
@@ -2251,17 +1943,6 @@
         "source": "claimreview2024plus",
         "label": "Supported",
         "detected_biases": "[{\"bias\": \"Outcome bias\", \"confidence\": 0.3087}]",
-        "prediction": "Refuted",
-        "prediction_error": null
-    },
-    {
-        "claim_id": "crp_261",
-        "claim": "'Migrant in France urinating on a girl while she sat on a bench.'",
-        "claim_date": "2024-05-28",
-        "speaker": null,
-        "source": "claimreview2024plus",
-        "label": "Not Enough Information",
-        "detected_biases": "[{\"bias\": \"Just-world hypothesis\", \"confidence\": 0.8997}]",
         "prediction": "Refuted",
         "prediction_error": null
     },
@@ -2288,39 +1969,6 @@
         "prediction_error": null
     },
     {
-        "claim_id": "crp_271",
-        "claim": "'An estimated 280-million-year-old fossil found in Australia.'",
-        "claim_date": "2024-06-12",
-        "speaker": null,
-        "source": "claimreview2024plus",
-        "label": "Supported",
-        "detected_biases": "[{\"bias\": \"hindsight bias\", \"confidence\": 0.5}]",
-        "prediction": "Supported",
-        "prediction_error": null
-    },
-    {
-        "claim_id": "crp_273",
-        "claim": "'A lake in Finland is shaped like Finland itself.'",
-        "claim_date": "2024-06-21",
-        "speaker": null,
-        "source": "claimreview2024plus",
-        "label": "Supported",
-        "detected_biases": "",
-        "prediction": "Supported",
-        "prediction_error": null
-    },
-    {
-        "claim_id": "crp_275",
-        "claim": "'The gravesites of a Catholic wife and Protestant husband, situated in separate cemeteries because the couple was not permitted to be buried together.'",
-        "claim_date": "2024-05-27",
-        "speaker": null,
-        "source": "claimreview2024plus",
-        "label": "Supported",
-        "detected_biases": "[{\"bias\": \"Subjective validation\", \"confidence\": 0.3353}]",
-        "prediction": "Supported",
-        "prediction_error": null
-    },
-    {
         "claim_id": "crp_276",
         "claim": "'A \"suicide pod\" designed for assisted suicide sitting in a Swiss forest, where it was used by a U.S. woman to take her own life.'",
         "claim_date": "2024-09-25",
@@ -2329,28 +1977,6 @@
         "label": "Supported",
         "detected_biases": "",
         "prediction": "Supported",
-        "prediction_error": null
-    },
-    {
-        "claim_id": "crp_277",
-        "claim": "'Slovakian Prime Minister Robert Fico being dragged into a car after being shot.'",
-        "claim_date": "2024-05-16",
-        "speaker": null,
-        "source": "claimreview2024plus",
-        "label": "Supported",
-        "detected_biases": "[{\"bias\": \"Just-world hypothesis\", \"confidence\": 0.6832}]",
-        "prediction": "Supported",
-        "prediction_error": null
-    },
-    {
-        "claim_id": "crp_279",
-        "claim": "'Turkish flag doodled by Drone over Raisi helicopter crash site'",
-        "claim_date": "2024-05-21",
-        "speaker": null,
-        "source": "claimreview2024plus",
-        "label": "Supported",
-        "detected_biases": "[{\"bias\": \"Availability heuristic\", \"confidence\": 0.5609}]",
-        "prediction": "Refuted",
         "prediction_error": null
     },
     {
@@ -2376,17 +2002,6 @@
         "prediction_error": null
     },
     {
-        "claim_id": "crp_283",
-        "claim": "'The world's shortest international bridge connects a homeowner's property that spans both Canada and the U.S.'",
-        "claim_date": "2024-05-28",
-        "speaker": null,
-        "source": "claimreview2024plus",
-        "label": "Refuted",
-        "detected_biases": "[{\"bias\": \"curse of knowledge\", \"confidence\": 0.3696}]",
-        "prediction": "Supported",
-        "prediction_error": null
-    },
-    {
         "claim_id": "crp_284",
         "claim": "'ISIS transporting oil to Turkey.'",
         "claim_date": "2025-01-05",
@@ -2405,28 +2020,6 @@
         "source": "claimreview2024plus",
         "label": "Refuted",
         "detected_biases": "[{\"bias\": \"Just-world hypothesis\", \"confidence\": 0.5582}]",
-        "prediction": "Supported",
-        "prediction_error": null
-    },
-    {
-        "claim_id": "crp_286",
-        "claim": "'A woman burns a French flag during a pro-Palestinian rally in France.'",
-        "claim_date": "2024-06-19",
-        "speaker": null,
-        "source": "claimreview2024plus",
-        "label": "Refuted",
-        "detected_biases": "",
-        "prediction": "Supported",
-        "prediction_error": null
-    },
-    {
-        "claim_id": "crp_294",
-        "claim": "'Republican vice presidential nominee and Ohio Sen. JD Vance once said parents should have a bigger say in U.S. democracy than non-parents.'",
-        "claim_date": "2024-07-19",
-        "speaker": null,
-        "source": "claimreview2024plus",
-        "label": "Supported",
-        "detected_biases": "[{\"bias\": \"curse of knowledge\", \"confidence\": 0.4011}]",
         "prediction": "Supported",
         "prediction_error": null
     },

@@ -4,10 +4,10 @@
     "strategy": "label_stratified_seen_unseen_balance_after_prediction",
     "method": "naive",
     "seed": 42,
-    "original_seen_count": 14550,
-    "original_unseen_count": 444,
-    "sampled_seen_count": 444,
-    "sampled_unseen_count": 444,
+    "original_seen_count": 14663,
+    "original_unseen_count": 331,
+    "sampled_seen_count": 331,
+    "sampled_unseen_count": 331,
     "labels": [
         "Supported",
         "Misleading",
@@ -15,22 +15,22 @@
     ],
     "per_label_info": {
         "Supported": {
-            "original_seen": 1486,
-            "original_unseen": 23,
-            "sampled_seen": 23,
-            "sampled_unseen": 23
+            "original_seen": 1495,
+            "original_unseen": 14,
+            "sampled_seen": 14,
+            "sampled_unseen": 14
         },
         "Misleading": {
-            "original_seen": 5096,
-            "original_unseen": 69,
-            "sampled_seen": 69,
-            "sampled_unseen": 69
+            "original_seen": 5118,
+            "original_unseen": 47,
+            "sampled_seen": 47,
+            "sampled_unseen": 47
         },
         "Refuted": {
-            "original_seen": 7968,
-            "original_unseen": 352,
-            "sampled_seen": 352,
-            "sampled_unseen": 352
+            "original_seen": 8050,
+            "original_unseen": 270,
+            "sampled_seen": 270,
+            "sampled_unseen": 270
         }
     },
     "timestamp": "2026-07-31T22:28:48.814838"
