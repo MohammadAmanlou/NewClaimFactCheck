@@ -9,22 +9,22 @@
     "sampled_seen_count": 7,
     "sampled_unseen_count": 7,
     "labels": [
-        "Supported",
         "Misleading",
+        "Supported",
         "Not Enough Information"
     ],
     "per_label_info": {
-        "Supported": {
-            "original_seen": 4,
-            "original_unseen": 87,
-            "sampled_seen": 4,
-            "sampled_unseen": 4
-        },
         "Misleading": {
             "original_seen": 1,
             "original_unseen": 54,
             "sampled_seen": 1,
             "sampled_unseen": 1
+        },
+        "Supported": {
+            "original_seen": 4,
+            "original_unseen": 87,
+            "sampled_seen": 4,
+            "sampled_unseen": 4
         },
         "Not Enough Information": {
             "original_seen": 2,
@@ -33,5 +33,5 @@
             "sampled_unseen": 2
         }
     },
-    "timestamp": "2026-09-10T13:12:18.813450"
+    "timestamp": "2026-09-10T17:14:51.510117"
 }

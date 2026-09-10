@@ -1,49 +1,49 @@
-2026-09-10 13:12:18,821 - INFO - Processing 7 claims...
-2026-09-10 13:12:18,822 - INFO - ================================================================================
-2026-09-10 13:12:18,822 - INFO - Processing claim #0 (ID: crp_115)
-2026-09-10 13:12:18,822 - INFO - Claim: 'Former Black Lives Matter Rhode Island leader Mark Fisher endorsed former U.S. President Donald Trump for the 2024 presidential election.'...
-2026-09-10 13:12:18,822 - INFO - Date: 2023-11-28
-2026-09-10 13:12:20,410 - INFO - Prediction: Refuted
-2026-09-10 13:12:20,410 - INFO - ✗ Incorrect (True: Supported, Pred: Refuted)
-2026-09-10 13:12:23,417 - INFO - ================================================================================
-2026-09-10 13:12:23,417 - INFO - Processing claim #1 (ID: crp_150)
-2026-09-10 13:12:23,417 - INFO - Claim: 'It is legal for humane societies in Arizona to transfer animals to breeders.'...
-2026-09-10 13:12:23,417 - INFO - Date: 2023-11-17
-2026-09-10 13:12:24,768 - INFO - Prediction: Refuted
-2026-09-10 13:12:24,769 - INFO - ✗ Incorrect (True: Supported, Pred: Refuted)
-2026-09-10 13:12:27,775 - INFO - ================================================================================
-2026-09-10 13:12:27,775 - INFO - Processing claim #2 (ID: crp_191)
-2026-09-10 13:12:27,776 - INFO - Claim: 'On Jan. 6, 2021, just prior to the start of the U.S. Capitol riot in Washington, D.C., Rep. Mark Green said of Republicans' support of then-President...
-2026-09-10 13:12:27,776 - INFO - Date: 2023-11-29
-2026-09-10 13:12:29,234 - INFO - Prediction: Refuted
-2026-09-10 13:12:29,234 - INFO - ✗ Incorrect (True: Not Enough Information, Pred: Refuted)
-2026-09-10 13:12:32,241 - INFO - ================================================================================
-2026-09-10 13:12:32,241 - INFO - Processing claim #3 (ID: crp_194)
-2026-09-10 13:12:32,241 - INFO - Claim: “We have scaled up our investment in the healthcare workforce [by] employing 20,000 new healthcare workers.”...
-2026-09-10 13:12:32,242 - INFO - Date: 2023-11-01
-2026-09-10 13:12:33,842 - INFO - Prediction: Supported
-2026-09-10 13:12:33,842 - INFO - ✗ Incorrect (True: Not Enough Information, Pred: Supported)
-2026-09-10 13:12:36,848 - INFO - ================================================================================
-2026-09-10 13:12:36,849 - INFO - Processing claim #4 (ID: crp_251)
-2026-09-10 13:12:36,849 - INFO - Claim: 'A CNN broadcast captured an Ohio woman placing multiple ballots into a drop box on Election Day.'...
-2026-09-10 13:12:36,849 - INFO - Date: 2023-11-07
-2026-09-10 13:12:39,166 - INFO - Prediction: Refuted
-2026-09-10 13:12:39,167 - INFO - ✗ Incorrect (True: Misleading, Pred: Refuted)
-2026-09-10 13:12:42,172 - INFO - ================================================================================
-2026-09-10 13:12:42,172 - INFO - Processing claim #5 (ID: crp_281)
-2026-09-10 13:12:42,172 - INFO - Claim: 'In 2005, Britain's Prince Harry was photographed wearing a Nazi costume at a party.'...
-2026-09-10 13:12:42,172 - INFO - Date: 2021-03-12
-2026-09-10 13:12:43,774 - INFO - Prediction: Supported
-2026-09-10 13:12:43,775 - INFO - ✓ Correct prediction
-2026-09-10 13:12:46,781 - INFO - ================================================================================
-2026-09-10 13:12:46,781 - INFO - Processing claim #6 (ID: crp_289)
-2026-09-10 13:12:46,781 - INFO - Claim: 'Elon Musk called Bill Gates “evil” on social media platform X.'...
-2026-09-10 13:12:46,782 - INFO - Date: 2023-11-10
-2026-09-10 13:12:48,345 - INFO - Prediction: Refuted
-2026-09-10 13:12:48,345 - INFO - ✗ Incorrect (True: Supported, Pred: Refuted)
-2026-09-10 13:12:51,352 - INFO - ================================================================================
-2026-09-10 13:12:51,353 - INFO - Processing complete: 7 predictions (1 correct, 6 incorrect), 0 failed
-2026-09-10 13:12:51,353 - INFO - Metrics: Accuracy=0.1429, Macro-F1=0.4000
-2026-09-10 13:12:51,360 - INFO - Predictions saved to results/meta-llama/llama-3_1-70b-instruct/crp_bias_all/cognitive_bias_aware/seen/seen_predictions.csv
-2026-09-10 13:12:51,362 - INFO - Predictions JSON saved to results/meta-llama/llama-3_1-70b-instruct/crp_bias_all/cognitive_bias_aware/seen/seen_predictions.json
-2026-09-10 13:12:51,363 - INFO - Metrics saved to results/meta-llama/llama-3_1-70b-instruct/crp_bias_all/cognitive_bias_aware/seen/seen_metrics.json
+2026-09-10 14:59:29,933 - INFO - Processing 7 claims...
+2026-09-10 14:59:29,942 - INFO - ================================================================================
+2026-09-10 14:59:29,942 - INFO - Processing claim #0 (ID: crp_115)
+2026-09-10 14:59:29,942 - INFO - Claim: 'Former Black Lives Matter Rhode Island leader Mark Fisher endorsed former U.S. President Donald Trump for the 2024 presidential election.'...
+2026-09-10 14:59:29,942 - INFO - Date: 2023-11-28
+2026-09-10 14:59:31,998 - INFO - Prediction: Supported
+2026-09-10 14:59:31,998 - INFO - ✓ Correct prediction
+2026-09-10 14:59:35,005 - INFO - ================================================================================
+2026-09-10 14:59:35,005 - INFO - Processing claim #1 (ID: crp_150)
+2026-09-10 14:59:35,005 - INFO - Claim: 'It is legal for humane societies in Arizona to transfer animals to breeders.'...
+2026-09-10 14:59:35,005 - INFO - Date: 2023-11-17
+2026-09-10 14:59:36,343 - INFO - Prediction: Supported
+2026-09-10 14:59:36,343 - INFO - ✓ Correct prediction
+2026-09-10 14:59:39,350 - INFO - ================================================================================
+2026-09-10 14:59:39,350 - INFO - Processing claim #2 (ID: crp_191)
+2026-09-10 14:59:39,350 - INFO - Claim: 'On Jan. 6, 2021, just prior to the start of the U.S. Capitol riot in Washington, D.C., Rep. Mark Green said of Republicans' support of then-President...
+2026-09-10 14:59:39,350 - INFO - Date: 2023-11-29
+2026-09-10 14:59:40,602 - INFO - Prediction: Refuted
+2026-09-10 14:59:40,603 - INFO - ✗ Incorrect (True: Not Enough Information, Pred: Refuted)
+2026-09-10 14:59:43,606 - INFO - ================================================================================
+2026-09-10 14:59:43,607 - INFO - Processing claim #3 (ID: crp_194)
+2026-09-10 14:59:43,607 - INFO - Claim: “We have scaled up our investment in the healthcare workforce [by] employing 20,000 new healthcare workers.”...
+2026-09-10 14:59:43,607 - INFO - Date: 2023-11-01
+2026-09-10 14:59:44,713 - INFO - Prediction: Supported
+2026-09-10 14:59:44,714 - INFO - ✗ Incorrect (True: Not Enough Information, Pred: Supported)
+2026-09-10 14:59:47,717 - INFO - ================================================================================
+2026-09-10 14:59:47,717 - INFO - Processing claim #4 (ID: crp_251)
+2026-09-10 14:59:47,717 - INFO - Claim: 'A CNN broadcast captured an Ohio woman placing multiple ballots into a drop box on Election Day.'...
+2026-09-10 14:59:47,717 - INFO - Date: 2023-11-07
+2026-09-10 14:59:49,731 - INFO - Prediction: Refuted
+2026-09-10 14:59:49,732 - INFO - ✗ Incorrect (True: Misleading, Pred: Refuted)
+2026-09-10 14:59:52,738 - INFO - ================================================================================
+2026-09-10 14:59:52,738 - INFO - Processing claim #5 (ID: crp_281)
+2026-09-10 14:59:52,738 - INFO - Claim: 'In 2005, Britain's Prince Harry was photographed wearing a Nazi costume at a party.'...
+2026-09-10 14:59:52,738 - INFO - Date: 2021-03-12
+2026-09-10 14:59:54,034 - INFO - Prediction: Supported
+2026-09-10 14:59:54,034 - INFO - ✓ Correct prediction
+2026-09-10 14:59:57,038 - INFO - ================================================================================
+2026-09-10 14:59:57,038 - INFO - Processing claim #6 (ID: crp_289)
+2026-09-10 14:59:57,038 - INFO - Claim: 'Elon Musk called Bill Gates “evil” on social media platform X.'...
+2026-09-10 14:59:57,038 - INFO - Date: 2023-11-10
+2026-09-10 14:59:58,438 - INFO - Prediction: Not Enough Information
+2026-09-10 14:59:58,438 - INFO - ✗ Incorrect (True: Supported, Pred: Not Enough Information)
+2026-09-10 15:00:01,445 - INFO - ================================================================================
+2026-09-10 15:00:01,446 - INFO - Processing complete: 7 predictions (3 correct, 4 incorrect), 0 failed
+2026-09-10 15:00:01,446 - INFO - Metrics: Accuracy=0.4286, Macro-F1=0.4285
+2026-09-10 15:00:01,457 - INFO - Predictions saved to results/meta-llama/llama-3_1-70b-instruct/crp_bias_all/cognitive_bias_aware/seen/seen_predictions.csv
+2026-09-10 15:00:01,458 - INFO - Predictions JSON saved to results/meta-llama/llama-3_1-70b-instruct/crp_bias_all/cognitive_bias_aware/seen/seen_predictions.json
+2026-09-10 15:00:01,459 - INFO - Metrics saved to results/meta-llama/llama-3_1-70b-instruct/crp_bias_all/cognitive_bias_aware/seen/seen_metrics.json

@@ -1,38 +1,5 @@
 [
     {
-        "claim_id": "crp_105",
-        "claim": "'In a 2004 interview on CNN, Donald Trump said, \"The economy does better under the Democrats than the Republicans.\"'",
-        "claim_date": "2023-12-29",
-        "speaker": null,
-        "source": "claimreview2024plus",
-        "label": "Supported",
-        "detected_biases": "[{\"bias\": \"Essentialism\", \"confidence\": 0.3993}, {\"bias\": \"hindsight bias\", \"confidence\": 0.3539}]",
-        "prediction": "Refuted",
-        "prediction_error": null
-    },
-    {
-        "claim_id": "crp_109",
-        "claim": "'Technical problems prevented the electronic scanning of ballots in Cambria County, Pennsylvania, necessitating an extension of voting hours on Election Day 2024.'",
-        "claim_date": "2024-11-05",
-        "speaker": null,
-        "source": "claimreview2024plus",
-        "label": "Supported",
-        "detected_biases": "[{\"bias\": \"Just-world hypothesis\", \"confidence\": 0.8087}]",
-        "prediction": "Refuted",
-        "prediction_error": null
-    },
-    {
-        "claim_id": "crp_121",
-        "claim": "'A photograph taken by NASA and showing the planet Jupiter.'",
-        "claim_date": "2024-11-08",
-        "speaker": null,
-        "source": "claimreview2024plus",
-        "label": "Supported",
-        "detected_biases": "",
-        "prediction": "Refuted",
-        "prediction_error": null
-    },
-    {
         "claim_id": "crp_296",
         "claim": "'U.S. President-elect Donald Trump said that if Israeli hostages held by Hamas \"are not back by the time I get into office, all hell will break out in the Middle East.\"'",
         "claim_date": "2025-01-15",
@@ -44,14 +11,47 @@
         "prediction_error": null
     },
     {
-        "claim_id": "crp_172",
-        "claim": "'The updated COVID-19 vaccines do “not protect against the currently dominant strain.”'",
-        "claim_date": "2024-09-12",
+        "claim_id": "crp_105",
+        "claim": "'In a 2004 interview on CNN, Donald Trump said, \"The economy does better under the Democrats than the Republicans.\"'",
+        "claim_date": "2023-12-29",
+        "speaker": null,
+        "source": "claimreview2024plus",
+        "label": "Supported",
+        "detected_biases": "[{\"bias\": \"Essentialism\", \"confidence\": 0.3993}, {\"bias\": \"hindsight bias\", \"confidence\": 0.3539}]",
+        "prediction": "Supported",
+        "prediction_error": null
+    },
+    {
+        "claim_id": "crp_8",
+        "claim": "'Rising CO2 and temperatures are behind the global boost in grain production over the last 60 years.'",
+        "claim_date": "2024-10-28",
         "speaker": null,
         "source": "claimreview2024plus",
         "label": "Misleading",
+        "detected_biases": "[{\"bias\": \"Just-world hypothesis\", \"confidence\": 0.5982}]",
+        "prediction": "Misleading",
+        "prediction_error": null
+    },
+    {
+        "claim_id": "crp_267",
+        "claim": "'UFC fighter Conor McGregor putting his arm around Russian President Vladimir Putin for a photo-op before removing it after someone in Putin's entourage tells him not to.'",
+        "claim_date": "2024-01-03",
+        "speaker": null,
+        "source": "claimreview2024plus",
+        "label": "Supported",
         "detected_biases": "",
         "prediction": "Refuted",
+        "prediction_error": null
+    },
+    {
+        "claim_id": "crp_103",
+        "claim": "'Cote d’Ivoire’s GDP better than Ghana’s over the last 3 years'",
+        "claim_date": "2024-02-24",
+        "speaker": null,
+        "source": "claimreview2024plus",
+        "label": "Supported",
+        "detected_biases": "[{\"bias\": \"Availability heuristic\", \"confidence\": 0.5574}]",
+        "prediction": "Not Enough Information",
         "prediction_error": null
     },
     {
@@ -73,7 +73,7 @@
         "source": "claimreview2024plus",
         "label": "Not Enough Information",
         "detected_biases": "",
-        "prediction": "Refuted",
+        "prediction": "Not Enough Information",
         "prediction_error": null
     }
 ]

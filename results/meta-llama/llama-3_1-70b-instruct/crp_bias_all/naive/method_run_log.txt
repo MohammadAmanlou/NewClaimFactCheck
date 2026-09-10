@@ -1,31 +1,31 @@
-2026-09-10 10:56:40,024 - INFO - Prompt method: naive
-2026-09-10 10:57:59,746 - INFO - Metrics: Accuracy=0.1429, Macro-F1=0.4000
-2026-09-10 12:25:15,358 - INFO - Metrics: Accuracy=0.5631, Macro-F1=0.6975
-2026-09-10 12:25:15,359 - INFO - ================================================================================
-2026-09-10 12:25:15,359 - INFO - Comparing seen vs unseen performance...
-2026-09-10 12:25:15,359 - INFO - Metrics: Accuracy=0.1429, Macro-F1=0.4000
-2026-09-10 12:25:15,365 - INFO - Metrics: Accuracy=0.5631, Macro-F1=0.6975
-2026-09-10 12:25:15,371 - INFO - Seen accuracy: 0.1429
-2026-09-10 12:25:15,371 - INFO - Unseen accuracy: 0.5631
-2026-09-10 12:25:15,371 - INFO - Difference: 0.4202
-2026-09-10 12:25:15,371 - INFO - T-test p-value: 0.0271 (significant)
-2026-09-10 12:25:15,371 - INFO - Chi-square p-value: 0.0679 (not significant)
-2026-09-10 12:25:15,372 - INFO - Summary report saved to results/meta-llama/llama-3_1-70b-instruct/crp_bias_all/naive/summary.json
-2026-09-10 12:25:15,373 - INFO - Metrics: Accuracy=0.1429, Macro-F1=0.4000
-2026-09-10 12:25:15,373 - INFO - Metrics: Accuracy=0.1429, Macro-F1=0.4000
-2026-09-10 12:25:15,373 - INFO - ================================================================================
-2026-09-10 12:25:15,373 - INFO - Comparing seen vs unseen performance...
-2026-09-10 12:25:15,374 - INFO - Metrics: Accuracy=0.1429, Macro-F1=0.4000
-2026-09-10 12:25:15,374 - INFO - Metrics: Accuracy=0.1429, Macro-F1=0.4000
-2026-09-10 12:25:15,375 - INFO - Seen accuracy: 0.1429
-2026-09-10 12:25:15,375 - INFO - Unseen accuracy: 0.1429
-2026-09-10 12:25:15,375 - INFO - Difference: 0.0000
-2026-09-10 12:25:15,375 - INFO - T-test p-value: 1.0000 (not significant)
-2026-09-10 12:25:15,375 - INFO - Chi-square p-value: 1.0000 (not significant)
-2026-09-10 12:25:15,377 - INFO - Predictions saved to results/meta-llama/llama-3_1-70b-instruct/crp_bias_all/naive/posthoc_balanced/seen/seen_posthoc_balanced_predictions.csv
-2026-09-10 12:25:15,377 - INFO - Predictions JSON saved to results/meta-llama/llama-3_1-70b-instruct/crp_bias_all/naive/posthoc_balanced/seen/seen_posthoc_balanced_predictions.json
-2026-09-10 12:25:15,377 - INFO - Metrics saved to results/meta-llama/llama-3_1-70b-instruct/crp_bias_all/naive/posthoc_balanced/seen/seen_posthoc_balanced_metrics.json
-2026-09-10 12:25:15,378 - INFO - Predictions saved to results/meta-llama/llama-3_1-70b-instruct/crp_bias_all/naive/posthoc_balanced/unseen/unseen_posthoc_balanced_predictions.csv
-2026-09-10 12:25:15,378 - INFO - Predictions JSON saved to results/meta-llama/llama-3_1-70b-instruct/crp_bias_all/naive/posthoc_balanced/unseen/unseen_posthoc_balanced_predictions.json
-2026-09-10 12:25:15,379 - INFO - Metrics saved to results/meta-llama/llama-3_1-70b-instruct/crp_bias_all/naive/posthoc_balanced/unseen/unseen_posthoc_balanced_metrics.json
-2026-09-10 12:25:15,379 - INFO - Summary report saved to results/meta-llama/llama-3_1-70b-instruct/crp_bias_all/naive/posthoc_balanced/summary.json
+2026-09-10 16:08:18,346 - INFO - Prompt method: naive
+2026-09-10 16:09:58,947 - INFO - Metrics: Accuracy=0.4286, Macro-F1=0.3333
+2026-09-10 16:44:22,624 - INFO - Metrics: Accuracy=0.4198, Macro-F1=0.4617
+2026-09-10 16:44:22,624 - INFO - ================================================================================
+2026-09-10 16:44:22,624 - INFO - Comparing seen vs unseen performance...
+2026-09-10 16:44:22,625 - INFO - Metrics: Accuracy=0.4286, Macro-F1=0.3333
+2026-09-10 16:44:22,631 - INFO - Metrics: Accuracy=0.4198, Macro-F1=0.4617
+2026-09-10 16:44:22,635 - INFO - Seen accuracy: 0.4286
+2026-09-10 16:44:22,635 - INFO - Unseen accuracy: 0.4198
+2026-09-10 16:44:22,635 - INFO - Difference: -0.0088
+2026-09-10 16:44:22,635 - INFO - T-test p-value: 0.9631 (not significant)
+2026-09-10 16:44:22,635 - INFO - Chi-square p-value: 1.0000 (not significant)
+2026-09-10 16:44:22,635 - INFO - Summary report saved to results/meta-llama/llama-3_1-70b-instruct/crp_bias_all/naive/summary.json
+2026-09-10 16:44:22,636 - INFO - Metrics: Accuracy=0.4286, Macro-F1=0.3333
+2026-09-10 16:44:22,637 - INFO - Metrics: Accuracy=0.2857, Macro-F1=0.2000
+2026-09-10 16:44:22,637 - INFO - ================================================================================
+2026-09-10 16:44:22,637 - INFO - Comparing seen vs unseen performance...
+2026-09-10 16:44:22,637 - INFO - Metrics: Accuracy=0.4286, Macro-F1=0.3333
+2026-09-10 16:44:22,637 - INFO - Metrics: Accuracy=0.2857, Macro-F1=0.2000
+2026-09-10 16:44:22,638 - INFO - Seen accuracy: 0.4286
+2026-09-10 16:44:22,638 - INFO - Unseen accuracy: 0.2857
+2026-09-10 16:44:22,638 - INFO - Difference: -0.1429
+2026-09-10 16:44:22,638 - INFO - T-test p-value: 0.6110 (not significant)
+2026-09-10 16:44:22,638 - INFO - Chi-square p-value: 1.0000 (not significant)
+2026-09-10 16:44:22,640 - INFO - Predictions saved to results/meta-llama/llama-3_1-70b-instruct/crp_bias_all/naive/posthoc_balanced/seen/seen_posthoc_balanced_predictions.csv
+2026-09-10 16:44:22,640 - INFO - Predictions JSON saved to results/meta-llama/llama-3_1-70b-instruct/crp_bias_all/naive/posthoc_balanced/seen/seen_posthoc_balanced_predictions.json
+2026-09-10 16:44:22,641 - INFO - Metrics saved to results/meta-llama/llama-3_1-70b-instruct/crp_bias_all/naive/posthoc_balanced/seen/seen_posthoc_balanced_metrics.json
+2026-09-10 16:44:22,642 - INFO - Predictions saved to results/meta-llama/llama-3_1-70b-instruct/crp_bias_all/naive/posthoc_balanced/unseen/unseen_posthoc_balanced_predictions.csv
+2026-09-10 16:44:22,642 - INFO - Predictions JSON saved to results/meta-llama/llama-3_1-70b-instruct/crp_bias_all/naive/posthoc_balanced/unseen/unseen_posthoc_balanced_predictions.json
+2026-09-10 16:44:22,643 - INFO - Metrics saved to results/meta-llama/llama-3_1-70b-instruct/crp_bias_all/naive/posthoc_balanced/unseen/unseen_posthoc_balanced_metrics.json
+2026-09-10 16:44:22,643 - INFO - Summary report saved to results/meta-llama/llama-3_1-70b-instruct/crp_bias_all/naive/posthoc_balanced/summary.json

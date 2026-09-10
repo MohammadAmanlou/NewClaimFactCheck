@@ -1,8 +1,8 @@
 claim_id,claim,claim_date,speaker,source,label,detected_biases,prediction,prediction_error
-crp_115,'Former Black Lives Matter Rhode Island leader Mark Fisher endorsed former U.S. President Donald Trump for the 2024 presidential election.',2023-11-28,,claimreview2024plus,Supported,"[{""bias"": ""curse of knowledge"", ""confidence"": 0.3113}]",Refuted,
-crp_150,'It is legal for humane societies in Arizona to transfer animals to breeders.',2023-11-17,,claimreview2024plus,Supported,,Refuted,
+crp_115,'Former Black Lives Matter Rhode Island leader Mark Fisher endorsed former U.S. President Donald Trump for the 2024 presidential election.',2023-11-28,,claimreview2024plus,Supported,"[{""bias"": ""curse of knowledge"", ""confidence"": 0.3113}]",Supported,
+crp_150,'It is legal for humane societies in Arizona to transfer animals to breeders.',2023-11-17,,claimreview2024plus,Supported,,Supported,
 crp_191,"'On Jan. 6, 2021, just prior to the start of the U.S. Capitol riot in Washington, D.C., Rep. Mark Green said of Republicans' support of then-President Donald Trump, ""The things we do for the Orange Jesus.""'",2023-11-29,,claimreview2024plus,Not Enough Information,"[{""bias"": ""curse of knowledge"", ""confidence"": 0.6221}]",Refuted,
 crp_194,"“We have scaled up our investment in the healthcare workforce [by] employing 20,000 new healthcare workers.”",2023-11-01,,claimreview2024plus,Not Enough Information,"[{""bias"": ""curse of knowledge"", ""confidence"": 0.3545}]",Supported,
 crp_251,'A CNN broadcast captured an Ohio woman placing multiple ballots into a drop box on Election Day.',2023-11-07,,claimreview2024plus,Misleading,"[{""bias"": ""Just-world hypothesis"", ""confidence"": 0.3995}]",Refuted,
 crp_281,"'In 2005, Britain's Prince Harry was photographed wearing a Nazi costume at a party.'",2021-03-12,,claimreview2024plus,Supported,"[{""bias"": ""Just-world hypothesis"", ""confidence"": 0.3629}]",Supported,
-crp_289,'Elon Musk called Bill Gates “evil” on social media platform X.',2023-11-10,,claimreview2024plus,Supported,,Refuted,
+crp_289,'Elon Musk called Bill Gates “evil” on social media platform X.',2023-11-10,,claimreview2024plus,Supported,,Not Enough Information,

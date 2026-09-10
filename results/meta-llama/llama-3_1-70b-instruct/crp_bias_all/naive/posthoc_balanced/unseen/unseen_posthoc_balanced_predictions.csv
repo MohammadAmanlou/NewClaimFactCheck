@@ -1,8 +1,8 @@
 claim_id,claim,claim_date,speaker,source,label,detected_biases,prediction,prediction_error
-crp_105,"'In a 2004 interview on CNN, Donald Trump said, ""The economy does better under the Democrats than the Republicans.""'",2023-12-29,,claimreview2024plus,Supported,"[{""bias"": ""Essentialism"", ""confidence"": 0.3993}, {""bias"": ""hindsight bias"", ""confidence"": 0.3539}]",Supported,
-crp_109,"'Technical problems prevented the electronic scanning of ballots in Cambria County, Pennsylvania, necessitating an extension of voting hours on Election Day 2024.'",2024-11-05,,claimreview2024plus,Supported,"[{""bias"": ""Just-world hypothesis"", ""confidence"": 0.8087}]",Refuted,
-crp_121,'A photograph taken by NASA and showing the planet Jupiter.',2024-11-08,,claimreview2024plus,Supported,,Refuted,
 crp_296,"'U.S. President-elect Donald Trump said that if Israeli hostages held by Hamas ""are not back by the time I get into office, all hell will break out in the Middle East.""'",2025-01-15,,claimreview2024plus,Supported,,Refuted,
-crp_172,'The updated COVID-19 vaccines do “not protect against the currently dominant strain.”',2024-09-12,,claimreview2024plus,Misleading,,Refuted,
-crp_51,'UnitedHealthcare uses an artificial intelligence (AI) tool with a 90% error rate to deny insurance claims.',2024-12-13,,claimreview2024plus,Not Enough Information,,Refuted,
+crp_105,"'In a 2004 interview on CNN, Donald Trump said, ""The economy does better under the Democrats than the Republicans.""'",2023-12-29,,claimreview2024plus,Supported,"[{""bias"": ""Essentialism"", ""confidence"": 0.3993}, {""bias"": ""hindsight bias"", ""confidence"": 0.3539}]",Supported,
+crp_8,'Rising CO2 and temperatures are behind the global boost in grain production over the last 60 years.',2024-10-28,,claimreview2024plus,Misleading,"[{""bias"": ""Just-world hypothesis"", ""confidence"": 0.5982}]",Refuted,
+crp_267,'UFC fighter Conor McGregor putting his arm around Russian President Vladimir Putin for a photo-op before removing it after someone in Putin's entourage tells him not to.',2024-01-03,,claimreview2024plus,Supported,,Refuted,
+crp_103,'Cote d’Ivoire’s GDP better than Ghana’s over the last 3 years',2024-02-24,,claimreview2024plus,Supported,"[{""bias"": ""Availability heuristic"", ""confidence"": 0.5574}]",Not Enough Information,
+crp_51,'UnitedHealthcare uses an artificial intelligence (AI) tool with a 90% error rate to deny insurance claims.',2024-12-13,,claimreview2024plus,Not Enough Information,,Not Enough Information,
 crp_30,"'Within one year, our government has eliminated Boko Haram and bandit commanders faster than ever, over 300 as of the last count.'",2024-10-01,,claimreview2024plus,Not Enough Information,,Refuted,

@@ -7,29 +7,18 @@
         "source": "claimreview2024plus",
         "label": "Not Enough Information",
         "detected_biases": "[{\"bias\": \"curse of knowledge\", \"confidence\": 0.3545}]",
-        "prediction": "Refuted",
+        "prediction": "Not Enough Information",
         "prediction_error": null
     },
     {
-        "claim_id": "crp_281",
-        "claim": "'In 2005, Britain's Prince Harry was photographed wearing a Nazi costume at a party.'",
-        "claim_date": "2021-03-12",
-        "speaker": null,
-        "source": "claimreview2024plus",
-        "label": "Supported",
-        "detected_biases": "[{\"bias\": \"Just-world hypothesis\", \"confidence\": 0.3629}]",
-        "prediction": "Supported",
-        "prediction_error": null
-    },
-    {
-        "claim_id": "crp_150",
-        "claim": "'It is legal for humane societies in Arizona to transfer animals to breeders.'",
-        "claim_date": "2023-11-17",
+        "claim_id": "crp_289",
+        "claim": "'Elon Musk called Bill Gates “evil” on social media platform X.'",
+        "claim_date": "2023-11-10",
         "speaker": null,
         "source": "claimreview2024plus",
         "label": "Supported",
         "detected_biases": "",
-        "prediction": "Refuted",
+        "prediction": "Not Enough Information",
         "prediction_error": null
     },
     {
@@ -40,7 +29,7 @@
         "source": "claimreview2024plus",
         "label": "Supported",
         "detected_biases": "[{\"bias\": \"curse of knowledge\", \"confidence\": 0.3113}]",
-        "prediction": "Refuted",
+        "prediction": "Supported",
         "prediction_error": null
     },
     {
@@ -51,6 +40,17 @@
         "source": "claimreview2024plus",
         "label": "Misleading",
         "detected_biases": "[{\"bias\": \"Just-world hypothesis\", \"confidence\": 0.3995}]",
+        "prediction": "Refuted",
+        "prediction_error": null
+    },
+    {
+        "claim_id": "crp_150",
+        "claim": "'It is legal for humane societies in Arizona to transfer animals to breeders.'",
+        "claim_date": "2023-11-17",
+        "speaker": null,
+        "source": "claimreview2024plus",
+        "label": "Supported",
+        "detected_biases": "",
         "prediction": "Refuted",
         "prediction_error": null
     },
@@ -66,14 +66,14 @@
         "prediction_error": null
     },
     {
-        "claim_id": "crp_289",
-        "claim": "'Elon Musk called Bill Gates “evil” on social media platform X.'",
-        "claim_date": "2023-11-10",
+        "claim_id": "crp_281",
+        "claim": "'In 2005, Britain's Prince Harry was photographed wearing a Nazi costume at a party.'",
+        "claim_date": "2021-03-12",
         "speaker": null,
         "source": "claimreview2024plus",
         "label": "Supported",
-        "detected_biases": "",
-        "prediction": "Refuted",
+        "detected_biases": "[{\"bias\": \"Just-world hypothesis\", \"confidence\": 0.3629}]",
+        "prediction": "Supported",
         "prediction_error": null
     }
 ]
