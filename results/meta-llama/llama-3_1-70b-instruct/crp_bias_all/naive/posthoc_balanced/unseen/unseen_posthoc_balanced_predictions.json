@@ -1,0 +1,79 @@
+[
+    {
+        "claim_id": "crp_105",
+        "claim": "'In a 2004 interview on CNN, Donald Trump said, \"The economy does better under the Democrats than the Republicans.\"'",
+        "claim_date": "2023-12-29",
+        "speaker": null,
+        "source": "claimreview2024plus",
+        "label": "Supported",
+        "detected_biases": "[{\"bias\": \"Essentialism\", \"confidence\": 0.3993}, {\"bias\": \"hindsight bias\", \"confidence\": 0.3539}]",
+        "prediction": "Supported",
+        "prediction_error": null
+    },
+    {
+        "claim_id": "crp_109",
+        "claim": "'Technical problems prevented the electronic scanning of ballots in Cambria County, Pennsylvania, necessitating an extension of voting hours on Election Day 2024.'",
+        "claim_date": "2024-11-05",
+        "speaker": null,
+        "source": "claimreview2024plus",
+        "label": "Supported",
+        "detected_biases": "[{\"bias\": \"Just-world hypothesis\", \"confidence\": 0.8087}]",
+        "prediction": "Refuted",
+        "prediction_error": null
+    },
+    {
+        "claim_id": "crp_121",
+        "claim": "'A photograph taken by NASA and showing the planet Jupiter.'",
+        "claim_date": "2024-11-08",
+        "speaker": null,
+        "source": "claimreview2024plus",
+        "label": "Supported",
+        "detected_biases": "",
+        "prediction": "Refuted",
+        "prediction_error": null
+    },
+    {
+        "claim_id": "crp_296",
+        "claim": "'U.S. President-elect Donald Trump said that if Israeli hostages held by Hamas \"are not back by the time I get into office, all hell will break out in the Middle East.\"'",
+        "claim_date": "2025-01-15",
+        "speaker": null,
+        "source": "claimreview2024plus",
+        "label": "Supported",
+        "detected_biases": "",
+        "prediction": "Refuted",
+        "prediction_error": null
+    },
+    {
+        "claim_id": "crp_172",
+        "claim": "'The updated COVID-19 vaccines do “not protect against the currently dominant strain.”'",
+        "claim_date": "2024-09-12",
+        "speaker": null,
+        "source": "claimreview2024plus",
+        "label": "Misleading",
+        "detected_biases": "",
+        "prediction": "Refuted",
+        "prediction_error": null
+    },
+    {
+        "claim_id": "crp_51",
+        "claim": "'UnitedHealthcare uses an artificial intelligence (AI) tool with a 90% error rate to deny insurance claims.'",
+        "claim_date": "2024-12-13",
+        "speaker": null,
+        "source": "claimreview2024plus",
+        "label": "Not Enough Information",
+        "detected_biases": "",
+        "prediction": "Refuted",
+        "prediction_error": null
+    },
+    {
+        "claim_id": "crp_30",
+        "claim": "'Within one year, our government has eliminated Boko Haram and bandit commanders faster than ever, over 300 as of the last count.'",
+        "claim_date": "2024-10-01",
+        "speaker": null,
+        "source": "claimreview2024plus",
+        "label": "Not Enough Information",
+        "detected_biases": "",
+        "prediction": "Refuted",
+        "prediction_error": null
+    }
+]

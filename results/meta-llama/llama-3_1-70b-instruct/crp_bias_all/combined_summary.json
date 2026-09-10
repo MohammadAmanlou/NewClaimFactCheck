@@ -1,0 +1,1106 @@
+{
+    "experiment_info": {
+        "dataset": "crp_bias_all",
+        "model": "meta-llama/llama-3.1-70b-instruct",
+        "temporal_split": "2023-12-01",
+        "balanced_sampling": false,
+        "sampling_seed": 42,
+        "prompt_methods": [
+            "naive",
+            "strong_baseline_short",
+            "cognitive_bias_aware"
+        ],
+        "timestamp": "2026-09-10T13:49:52.321251"
+    },
+    "methods": {
+        "naive": {
+            "seen_metrics": {
+                "accuracy": 0.1429,
+                "macro_precision": 1.0,
+                "macro_recall": 0.25,
+                "macro_f1": 0.4,
+                "total_samples": 7,
+                "correct_predictions": 1,
+                "per_label_metrics": {
+                    "Supported": {
+                        "precision": 1.0,
+                        "recall": 0.25,
+                        "f1": 0.4,
+                        "support": 4
+                    }
+                },
+                "nei_prediction_rate": 0.0,
+                "false_nei_rate": 0.0
+            },
+            "unseen_metrics": {
+                "accuracy": 0.5631,
+                "macro_precision": 0.7939,
+                "macro_recall": 0.6903,
+                "macro_f1": 0.6975,
+                "total_samples": 293,
+                "correct_predictions": 165,
+                "per_label_metrics": {
+                    "Supported": {
+                        "precision": 0.8605,
+                        "recall": 0.4253,
+                        "f1": 0.5692,
+                        "support": 87
+                    },
+                    "Refuted": {
+                        "precision": 0.7273,
+                        "recall": 0.9552,
+                        "f1": 0.8258,
+                        "support": 134
+                    }
+                },
+                "nei_prediction_rate": 0.0,
+                "false_nei_rate": 0.0
+            },
+            "comparison": {
+                "seen_metrics": {
+                    "accuracy": 0.1429,
+                    "macro_precision": 1.0,
+                    "macro_recall": 0.25,
+                    "macro_f1": 0.4,
+                    "total_samples": 7,
+                    "correct_predictions": 1,
+                    "per_label_metrics": {
+                        "Supported": {
+                            "precision": 1.0,
+                            "recall": 0.25,
+                            "f1": 0.4,
+                            "support": 4
+                        }
+                    },
+                    "nei_prediction_rate": 0.0,
+                    "false_nei_rate": 0.0
+                },
+                "unseen_metrics": {
+                    "accuracy": 0.5631,
+                    "macro_precision": 0.7939,
+                    "macro_recall": 0.6903,
+                    "macro_f1": 0.6975,
+                    "total_samples": 293,
+                    "correct_predictions": 165,
+                    "per_label_metrics": {
+                        "Supported": {
+                            "precision": 0.8605,
+                            "recall": 0.4253,
+                            "f1": 0.5692,
+                            "support": 87
+                        },
+                        "Refuted": {
+                            "precision": 0.7273,
+                            "recall": 0.9552,
+                            "f1": 0.8258,
+                            "support": 134
+                        }
+                    },
+                    "nei_prediction_rate": 0.0,
+                    "false_nei_rate": 0.0
+                },
+                "statistical_tests": {
+                    "t_test": {
+                        "t_statistic": -2.2212,
+                        "p_value": 0.0271,
+                        "significant_at_0.05": true,
+                        "interpretation": "Significant difference"
+                    },
+                    "chi_square_test": {
+                        "chi2_statistic": 3.3335,
+                        "p_value": 0.0679,
+                        "degrees_of_freedom": 1,
+                        "significant_at_0.05": false,
+                        "interpretation": "No significant difference"
+                    }
+                },
+                "accuracy_difference": 0.4202,
+                "sampling_info": {
+                    "enabled": false,
+                    "stage": "full_data_before_inference",
+                    "strategy": "no_pre_inference_sampling",
+                    "posthoc_balanced_metrics": true,
+                    "reason": "balanced_sampling is false, so full seen/unseen data is processed first. A post-hoc label-stratified balanced evaluation is computed after prediction.",
+                    "original_seen_count": 7,
+                    "original_unseen_count": 293,
+                    "timestamp": "2026-09-10T10:56:40.023980"
+                },
+                "prompt_method": "naive",
+                "evaluation_mode": "full_data"
+            },
+            "full_data": {
+                "seen_metrics": {
+                    "accuracy": 0.1429,
+                    "macro_precision": 1.0,
+                    "macro_recall": 0.25,
+                    "macro_f1": 0.4,
+                    "total_samples": 7,
+                    "correct_predictions": 1,
+                    "per_label_metrics": {
+                        "Supported": {
+                            "precision": 1.0,
+                            "recall": 0.25,
+                            "f1": 0.4,
+                            "support": 4
+                        }
+                    },
+                    "nei_prediction_rate": 0.0,
+                    "false_nei_rate": 0.0
+                },
+                "unseen_metrics": {
+                    "accuracy": 0.5631,
+                    "macro_precision": 0.7939,
+                    "macro_recall": 0.6903,
+                    "macro_f1": 0.6975,
+                    "total_samples": 293,
+                    "correct_predictions": 165,
+                    "per_label_metrics": {
+                        "Supported": {
+                            "precision": 0.8605,
+                            "recall": 0.4253,
+                            "f1": 0.5692,
+                            "support": 87
+                        },
+                        "Refuted": {
+                            "precision": 0.7273,
+                            "recall": 0.9552,
+                            "f1": 0.8258,
+                            "support": 134
+                        }
+                    },
+                    "nei_prediction_rate": 0.0,
+                    "false_nei_rate": 0.0
+                },
+                "comparison": {
+                    "seen_metrics": {
+                        "accuracy": 0.1429,
+                        "macro_precision": 1.0,
+                        "macro_recall": 0.25,
+                        "macro_f1": 0.4,
+                        "total_samples": 7,
+                        "correct_predictions": 1,
+                        "per_label_metrics": {
+                            "Supported": {
+                                "precision": 1.0,
+                                "recall": 0.25,
+                                "f1": 0.4,
+                                "support": 4
+                            }
+                        },
+                        "nei_prediction_rate": 0.0,
+                        "false_nei_rate": 0.0
+                    },
+                    "unseen_metrics": {
+                        "accuracy": 0.5631,
+                        "macro_precision": 0.7939,
+                        "macro_recall": 0.6903,
+                        "macro_f1": 0.6975,
+                        "total_samples": 293,
+                        "correct_predictions": 165,
+                        "per_label_metrics": {
+                            "Supported": {
+                                "precision": 0.8605,
+                                "recall": 0.4253,
+                                "f1": 0.5692,
+                                "support": 87
+                            },
+                            "Refuted": {
+                                "precision": 0.7273,
+                                "recall": 0.9552,
+                                "f1": 0.8258,
+                                "support": 134
+                            }
+                        },
+                        "nei_prediction_rate": 0.0,
+                        "false_nei_rate": 0.0
+                    },
+                    "statistical_tests": {
+                        "t_test": {
+                            "t_statistic": -2.2212,
+                            "p_value": 0.0271,
+                            "significant_at_0.05": true,
+                            "interpretation": "Significant difference"
+                        },
+                        "chi_square_test": {
+                            "chi2_statistic": 3.3335,
+                            "p_value": 0.0679,
+                            "degrees_of_freedom": 1,
+                            "significant_at_0.05": false,
+                            "interpretation": "No significant difference"
+                        }
+                    },
+                    "accuracy_difference": 0.4202,
+                    "sampling_info": {
+                        "enabled": false,
+                        "stage": "full_data_before_inference",
+                        "strategy": "no_pre_inference_sampling",
+                        "posthoc_balanced_metrics": true,
+                        "reason": "balanced_sampling is false, so full seen/unseen data is processed first. A post-hoc label-stratified balanced evaluation is computed after prediction.",
+                        "original_seen_count": 7,
+                        "original_unseen_count": 293,
+                        "timestamp": "2026-09-10T10:56:40.023980"
+                    },
+                    "prompt_method": "naive",
+                    "evaluation_mode": "full_data"
+                }
+            },
+            "posthoc_balanced": {
+                "seen_metrics": {
+                    "accuracy": 0.1429,
+                    "macro_precision": 1.0,
+                    "macro_recall": 0.25,
+                    "macro_f1": 0.4,
+                    "total_samples": 7,
+                    "correct_predictions": 1,
+                    "per_label_metrics": {
+                        "Supported": {
+                            "precision": 1.0,
+                            "recall": 0.25,
+                            "f1": 0.4,
+                            "support": 4
+                        }
+                    },
+                    "nei_prediction_rate": 0.0,
+                    "false_nei_rate": 0.0
+                },
+                "unseen_metrics": {
+                    "accuracy": 0.1429,
+                    "macro_precision": 1.0,
+                    "macro_recall": 0.25,
+                    "macro_f1": 0.4,
+                    "total_samples": 7,
+                    "correct_predictions": 1,
+                    "per_label_metrics": {
+                        "Supported": {
+                            "precision": 1.0,
+                            "recall": 0.25,
+                            "f1": 0.4,
+                            "support": 4
+                        }
+                    },
+                    "nei_prediction_rate": 0.0,
+                    "false_nei_rate": 0.0
+                },
+                "comparison": {
+                    "seen_metrics": {
+                        "accuracy": 0.1429,
+                        "macro_precision": 1.0,
+                        "macro_recall": 0.25,
+                        "macro_f1": 0.4,
+                        "total_samples": 7,
+                        "correct_predictions": 1,
+                        "per_label_metrics": {
+                            "Supported": {
+                                "precision": 1.0,
+                                "recall": 0.25,
+                                "f1": 0.4,
+                                "support": 4
+                            }
+                        },
+                        "nei_prediction_rate": 0.0,
+                        "false_nei_rate": 0.0
+                    },
+                    "unseen_metrics": {
+                        "accuracy": 0.1429,
+                        "macro_precision": 1.0,
+                        "macro_recall": 0.25,
+                        "macro_f1": 0.4,
+                        "total_samples": 7,
+                        "correct_predictions": 1,
+                        "per_label_metrics": {
+                            "Supported": {
+                                "precision": 1.0,
+                                "recall": 0.25,
+                                "f1": 0.4,
+                                "support": 4
+                            }
+                        },
+                        "nei_prediction_rate": 0.0,
+                        "false_nei_rate": 0.0
+                    },
+                    "statistical_tests": {
+                        "t_test": {
+                            "t_statistic": 0.0,
+                            "p_value": 1.0,
+                            "significant_at_0.05": false,
+                            "interpretation": "No significant difference"
+                        },
+                        "chi_square_test": {
+                            "chi2_statistic": 0.0,
+                            "p_value": 1.0,
+                            "degrees_of_freedom": 1,
+                            "significant_at_0.05": false,
+                            "interpretation": "No significant difference"
+                        }
+                    },
+                    "accuracy_difference": 0.0,
+                    "sampling_info": {
+                        "enabled": true,
+                        "stage": "post_inference",
+                        "strategy": "label_stratified_seen_unseen_balance_after_prediction",
+                        "method": "naive",
+                        "seed": 42,
+                        "original_seen_count": 7,
+                        "original_unseen_count": 293,
+                        "sampled_seen_count": 7,
+                        "sampled_unseen_count": 7,
+                        "labels": [
+                            "Supported",
+                            "Misleading",
+                            "Not Enough Information"
+                        ],
+                        "per_label_info": {
+                            "Supported": {
+                                "original_seen": 4,
+                                "original_unseen": 87,
+                                "sampled_seen": 4,
+                                "sampled_unseen": 4
+                            },
+                            "Misleading": {
+                                "original_seen": 1,
+                                "original_unseen": 54,
+                                "sampled_seen": 1,
+                                "sampled_unseen": 1
+                            },
+                            "Not Enough Information": {
+                                "original_seen": 2,
+                                "original_unseen": 18,
+                                "sampled_seen": 2,
+                                "sampled_unseen": 2
+                            }
+                        },
+                        "timestamp": "2026-09-10T12:25:15.372947"
+                    },
+                    "prompt_method": "naive",
+                    "evaluation_mode": "posthoc_label_stratified_balanced"
+                }
+            }
+        },
+        "strong_baseline_short": {
+            "seen_metrics": {
+                "accuracy": 0.1429,
+                "macro_precision": 1.0,
+                "macro_recall": 0.25,
+                "macro_f1": 0.4,
+                "total_samples": 7,
+                "correct_predictions": 1,
+                "per_label_metrics": {
+                    "Supported": {
+                        "precision": 1.0,
+                        "recall": 0.25,
+                        "f1": 0.4,
+                        "support": 4
+                    }
+                },
+                "nei_prediction_rate": 0.0,
+                "false_nei_rate": 0.0
+            },
+            "unseen_metrics": {
+                "accuracy": 0.5358,
+                "macro_precision": 0.7636,
+                "macro_recall": 0.6463,
+                "macro_f1": 0.6445,
+                "total_samples": 293,
+                "correct_predictions": 157,
+                "per_label_metrics": {
+                    "Supported": {
+                        "precision": 0.8333,
+                        "recall": 0.3448,
+                        "f1": 0.4878,
+                        "support": 87
+                    },
+                    "Refuted": {
+                        "precision": 0.694,
+                        "recall": 0.9478,
+                        "f1": 0.8013,
+                        "support": 134
+                    }
+                },
+                "nei_prediction_rate": 0.0,
+                "false_nei_rate": 0.0
+            },
+            "comparison": {
+                "seen_metrics": {
+                    "accuracy": 0.1429,
+                    "macro_precision": 1.0,
+                    "macro_recall": 0.25,
+                    "macro_f1": 0.4,
+                    "total_samples": 7,
+                    "correct_predictions": 1,
+                    "per_label_metrics": {
+                        "Supported": {
+                            "precision": 1.0,
+                            "recall": 0.25,
+                            "f1": 0.4,
+                            "support": 4
+                        }
+                    },
+                    "nei_prediction_rate": 0.0,
+                    "false_nei_rate": 0.0
+                },
+                "unseen_metrics": {
+                    "accuracy": 0.5358,
+                    "macro_precision": 0.7636,
+                    "macro_recall": 0.6463,
+                    "macro_f1": 0.6445,
+                    "total_samples": 293,
+                    "correct_predictions": 157,
+                    "per_label_metrics": {
+                        "Supported": {
+                            "precision": 0.8333,
+                            "recall": 0.3448,
+                            "f1": 0.4878,
+                            "support": 87
+                        },
+                        "Refuted": {
+                            "precision": 0.694,
+                            "recall": 0.9478,
+                            "f1": 0.8013,
+                            "support": 134
+                        }
+                    },
+                    "nei_prediction_rate": 0.0,
+                    "false_nei_rate": 0.0
+                },
+                "statistical_tests": {
+                    "t_test": {
+                        "t_statistic": -2.0657,
+                        "p_value": 0.0397,
+                        "significant_at_0.05": true,
+                        "interpretation": "Significant difference"
+                    },
+                    "chi_square_test": {
+                        "chi2_statistic": 2.8055,
+                        "p_value": 0.0939,
+                        "degrees_of_freedom": 1,
+                        "significant_at_0.05": false,
+                        "interpretation": "No significant difference"
+                    }
+                },
+                "accuracy_difference": 0.3929,
+                "sampling_info": {
+                    "enabled": false,
+                    "stage": "full_data_before_inference",
+                    "strategy": "no_pre_inference_sampling",
+                    "posthoc_balanced_metrics": true,
+                    "reason": "balanced_sampling is false, so full seen/unseen data is processed first. A post-hoc label-stratified balanced evaluation is computed after prediction.",
+                    "original_seen_count": 7,
+                    "original_unseen_count": 293,
+                    "timestamp": "2026-09-10T10:56:40.023980"
+                },
+                "prompt_method": "strong_baseline_short",
+                "evaluation_mode": "full_data"
+            },
+            "full_data": {
+                "seen_metrics": {
+                    "accuracy": 0.1429,
+                    "macro_precision": 1.0,
+                    "macro_recall": 0.25,
+                    "macro_f1": 0.4,
+                    "total_samples": 7,
+                    "correct_predictions": 1,
+                    "per_label_metrics": {
+                        "Supported": {
+                            "precision": 1.0,
+                            "recall": 0.25,
+                            "f1": 0.4,
+                            "support": 4
+                        }
+                    },
+                    "nei_prediction_rate": 0.0,
+                    "false_nei_rate": 0.0
+                },
+                "unseen_metrics": {
+                    "accuracy": 0.5358,
+                    "macro_precision": 0.7636,
+                    "macro_recall": 0.6463,
+                    "macro_f1": 0.6445,
+                    "total_samples": 293,
+                    "correct_predictions": 157,
+                    "per_label_metrics": {
+                        "Supported": {
+                            "precision": 0.8333,
+                            "recall": 0.3448,
+                            "f1": 0.4878,
+                            "support": 87
+                        },
+                        "Refuted": {
+                            "precision": 0.694,
+                            "recall": 0.9478,
+                            "f1": 0.8013,
+                            "support": 134
+                        }
+                    },
+                    "nei_prediction_rate": 0.0,
+                    "false_nei_rate": 0.0
+                },
+                "comparison": {
+                    "seen_metrics": {
+                        "accuracy": 0.1429,
+                        "macro_precision": 1.0,
+                        "macro_recall": 0.25,
+                        "macro_f1": 0.4,
+                        "total_samples": 7,
+                        "correct_predictions": 1,
+                        "per_label_metrics": {
+                            "Supported": {
+                                "precision": 1.0,
+                                "recall": 0.25,
+                                "f1": 0.4,
+                                "support": 4
+                            }
+                        },
+                        "nei_prediction_rate": 0.0,
+                        "false_nei_rate": 0.0
+                    },
+                    "unseen_metrics": {
+                        "accuracy": 0.5358,
+                        "macro_precision": 0.7636,
+                        "macro_recall": 0.6463,
+                        "macro_f1": 0.6445,
+                        "total_samples": 293,
+                        "correct_predictions": 157,
+                        "per_label_metrics": {
+                            "Supported": {
+                                "precision": 0.8333,
+                                "recall": 0.3448,
+                                "f1": 0.4878,
+                                "support": 87
+                            },
+                            "Refuted": {
+                                "precision": 0.694,
+                                "recall": 0.9478,
+                                "f1": 0.8013,
+                                "support": 134
+                            }
+                        },
+                        "nei_prediction_rate": 0.0,
+                        "false_nei_rate": 0.0
+                    },
+                    "statistical_tests": {
+                        "t_test": {
+                            "t_statistic": -2.0657,
+                            "p_value": 0.0397,
+                            "significant_at_0.05": true,
+                            "interpretation": "Significant difference"
+                        },
+                        "chi_square_test": {
+                            "chi2_statistic": 2.8055,
+                            "p_value": 0.0939,
+                            "degrees_of_freedom": 1,
+                            "significant_at_0.05": false,
+                            "interpretation": "No significant difference"
+                        }
+                    },
+                    "accuracy_difference": 0.3929,
+                    "sampling_info": {
+                        "enabled": false,
+                        "stage": "full_data_before_inference",
+                        "strategy": "no_pre_inference_sampling",
+                        "posthoc_balanced_metrics": true,
+                        "reason": "balanced_sampling is false, so full seen/unseen data is processed first. A post-hoc label-stratified balanced evaluation is computed after prediction.",
+                        "original_seen_count": 7,
+                        "original_unseen_count": 293,
+                        "timestamp": "2026-09-10T10:56:40.023980"
+                    },
+                    "prompt_method": "strong_baseline_short",
+                    "evaluation_mode": "full_data"
+                }
+            },
+            "posthoc_balanced": {
+                "seen_metrics": {
+                    "accuracy": 0.1429,
+                    "macro_precision": 1.0,
+                    "macro_recall": 0.25,
+                    "macro_f1": 0.4,
+                    "total_samples": 7,
+                    "correct_predictions": 1,
+                    "per_label_metrics": {
+                        "Supported": {
+                            "precision": 1.0,
+                            "recall": 0.25,
+                            "f1": 0.4,
+                            "support": 4
+                        }
+                    },
+                    "nei_prediction_rate": 0.0,
+                    "false_nei_rate": 0.0
+                },
+                "unseen_metrics": {
+                    "accuracy": 0.0,
+                    "macro_precision": 0.0,
+                    "macro_recall": 0.0,
+                    "macro_f1": 0.0,
+                    "total_samples": 7,
+                    "correct_predictions": 0,
+                    "per_label_metrics": {
+                        "Supported": {
+                            "precision": 0.0,
+                            "recall": 0.0,
+                            "f1": 0.0,
+                            "support": 4
+                        }
+                    },
+                    "nei_prediction_rate": 0.0,
+                    "false_nei_rate": 0.0
+                },
+                "comparison": {
+                    "seen_metrics": {
+                        "accuracy": 0.1429,
+                        "macro_precision": 1.0,
+                        "macro_recall": 0.25,
+                        "macro_f1": 0.4,
+                        "total_samples": 7,
+                        "correct_predictions": 1,
+                        "per_label_metrics": {
+                            "Supported": {
+                                "precision": 1.0,
+                                "recall": 0.25,
+                                "f1": 0.4,
+                                "support": 4
+                            }
+                        },
+                        "nei_prediction_rate": 0.0,
+                        "false_nei_rate": 0.0
+                    },
+                    "unseen_metrics": {
+                        "accuracy": 0.0,
+                        "macro_precision": 0.0,
+                        "macro_recall": 0.0,
+                        "macro_f1": 0.0,
+                        "total_samples": 7,
+                        "correct_predictions": 0,
+                        "per_label_metrics": {
+                            "Supported": {
+                                "precision": 0.0,
+                                "recall": 0.0,
+                                "f1": 0.0,
+                                "support": 4
+                            }
+                        },
+                        "nei_prediction_rate": 0.0,
+                        "false_nei_rate": 0.0
+                    },
+                    "statistical_tests": {
+                        "t_test": {
+                            "t_statistic": 1.0,
+                            "p_value": 0.337,
+                            "significant_at_0.05": false,
+                            "interpretation": "No significant difference"
+                        },
+                        "chi_square_test": {
+                            "chi2_statistic": 0.0,
+                            "p_value": 1.0,
+                            "degrees_of_freedom": 1,
+                            "significant_at_0.05": false,
+                            "interpretation": "No significant difference"
+                        }
+                    },
+                    "accuracy_difference": -0.1429,
+                    "sampling_info": {
+                        "enabled": true,
+                        "stage": "post_inference",
+                        "strategy": "label_stratified_seen_unseen_balance_after_prediction",
+                        "method": "strong_baseline_short",
+                        "seed": 42,
+                        "original_seen_count": 7,
+                        "original_unseen_count": 293,
+                        "sampled_seen_count": 7,
+                        "sampled_unseen_count": 7,
+                        "labels": [
+                            "Supported",
+                            "Misleading",
+                            "Not Enough Information"
+                        ],
+                        "per_label_info": {
+                            "Supported": {
+                                "original_seen": 4,
+                                "original_unseen": 87,
+                                "sampled_seen": 4,
+                                "sampled_unseen": 4
+                            },
+                            "Misleading": {
+                                "original_seen": 1,
+                                "original_unseen": 54,
+                                "sampled_seen": 1,
+                                "sampled_unseen": 1
+                            },
+                            "Not Enough Information": {
+                                "original_seen": 2,
+                                "original_unseen": 18,
+                                "sampled_seen": 2,
+                                "sampled_unseen": 2
+                            }
+                        },
+                        "timestamp": "2026-09-10T13:12:18.813450"
+                    },
+                    "prompt_method": "strong_baseline_short",
+                    "evaluation_mode": "posthoc_label_stratified_balanced"
+                }
+            }
+        },
+        "cognitive_bias_aware": {
+            "seen_metrics": {
+                "accuracy": 0.1429,
+                "macro_precision": 1.0,
+                "macro_recall": 0.25,
+                "macro_f1": 0.4,
+                "total_samples": 7,
+                "correct_predictions": 1,
+                "per_label_metrics": {
+                    "Supported": {
+                        "precision": 1.0,
+                        "recall": 0.25,
+                        "f1": 0.4,
+                        "support": 4
+                    }
+                },
+                "nei_prediction_rate": 0.0,
+                "false_nei_rate": 0.0
+            },
+            "unseen_metrics": {
+                "accuracy": 0.5734,
+                "macro_precision": 0.7742,
+                "macro_recall": 0.7257,
+                "macro_f1": 0.7378,
+                "total_samples": 293,
+                "correct_predictions": 168,
+                "per_label_metrics": {
+                    "Supported": {
+                        "precision": 0.7903,
+                        "recall": 0.5632,
+                        "f1": 0.6577,
+                        "support": 87
+                    },
+                    "Refuted": {
+                        "precision": 0.758,
+                        "recall": 0.8881,
+                        "f1": 0.8179,
+                        "support": 134
+                    }
+                },
+                "nei_prediction_rate": 0.0,
+                "false_nei_rate": 0.0
+            },
+            "comparison": {
+                "seen_metrics": {
+                    "accuracy": 0.1429,
+                    "macro_precision": 1.0,
+                    "macro_recall": 0.25,
+                    "macro_f1": 0.4,
+                    "total_samples": 7,
+                    "correct_predictions": 1,
+                    "per_label_metrics": {
+                        "Supported": {
+                            "precision": 1.0,
+                            "recall": 0.25,
+                            "f1": 0.4,
+                            "support": 4
+                        }
+                    },
+                    "nei_prediction_rate": 0.0,
+                    "false_nei_rate": 0.0
+                },
+                "unseen_metrics": {
+                    "accuracy": 0.5734,
+                    "macro_precision": 0.7742,
+                    "macro_recall": 0.7257,
+                    "macro_f1": 0.7378,
+                    "total_samples": 293,
+                    "correct_predictions": 168,
+                    "per_label_metrics": {
+                        "Supported": {
+                            "precision": 0.7903,
+                            "recall": 0.5632,
+                            "f1": 0.6577,
+                            "support": 87
+                        },
+                        "Refuted": {
+                            "precision": 0.758,
+                            "recall": 0.8881,
+                            "f1": 0.8179,
+                            "support": 134
+                        }
+                    },
+                    "nei_prediction_rate": 0.0,
+                    "false_nei_rate": 0.0
+                },
+                "statistical_tests": {
+                    "t_test": {
+                        "t_statistic": -2.2817,
+                        "p_value": 0.0232,
+                        "significant_at_0.05": true,
+                        "interpretation": "Significant difference"
+                    },
+                    "chi_square_test": {
+                        "chi2_statistic": 3.5498,
+                        "p_value": 0.0596,
+                        "degrees_of_freedom": 1,
+                        "significant_at_0.05": false,
+                        "interpretation": "No significant difference"
+                    }
+                },
+                "accuracy_difference": 0.4305,
+                "sampling_info": {
+                    "enabled": false,
+                    "stage": "full_data_before_inference",
+                    "strategy": "no_pre_inference_sampling",
+                    "posthoc_balanced_metrics": true,
+                    "reason": "balanced_sampling is false, so full seen/unseen data is processed first. A post-hoc label-stratified balanced evaluation is computed after prediction.",
+                    "original_seen_count": 7,
+                    "original_unseen_count": 293,
+                    "timestamp": "2026-09-10T10:56:40.023980"
+                },
+                "prompt_method": "cognitive_bias_aware",
+                "evaluation_mode": "full_data"
+            },
+            "full_data": {
+                "seen_metrics": {
+                    "accuracy": 0.1429,
+                    "macro_precision": 1.0,
+                    "macro_recall": 0.25,
+                    "macro_f1": 0.4,
+                    "total_samples": 7,
+                    "correct_predictions": 1,
+                    "per_label_metrics": {
+                        "Supported": {
+                            "precision": 1.0,
+                            "recall": 0.25,
+                            "f1": 0.4,
+                            "support": 4
+                        }
+                    },
+                    "nei_prediction_rate": 0.0,
+                    "false_nei_rate": 0.0
+                },
+                "unseen_metrics": {
+                    "accuracy": 0.5734,
+                    "macro_precision": 0.7742,
+                    "macro_recall": 0.7257,
+                    "macro_f1": 0.7378,
+                    "total_samples": 293,
+                    "correct_predictions": 168,
+                    "per_label_metrics": {
+                        "Supported": {
+                            "precision": 0.7903,
+                            "recall": 0.5632,
+                            "f1": 0.6577,
+                            "support": 87
+                        },
+                        "Refuted": {
+                            "precision": 0.758,
+                            "recall": 0.8881,
+                            "f1": 0.8179,
+                            "support": 134
+                        }
+                    },
+                    "nei_prediction_rate": 0.0,
+                    "false_nei_rate": 0.0
+                },
+                "comparison": {
+                    "seen_metrics": {
+                        "accuracy": 0.1429,
+                        "macro_precision": 1.0,
+                        "macro_recall": 0.25,
+                        "macro_f1": 0.4,
+                        "total_samples": 7,
+                        "correct_predictions": 1,
+                        "per_label_metrics": {
+                            "Supported": {
+                                "precision": 1.0,
+                                "recall": 0.25,
+                                "f1": 0.4,
+                                "support": 4
+                            }
+                        },
+                        "nei_prediction_rate": 0.0,
+                        "false_nei_rate": 0.0
+                    },
+                    "unseen_metrics": {
+                        "accuracy": 0.5734,
+                        "macro_precision": 0.7742,
+                        "macro_recall": 0.7257,
+                        "macro_f1": 0.7378,
+                        "total_samples": 293,
+                        "correct_predictions": 168,
+                        "per_label_metrics": {
+                            "Supported": {
+                                "precision": 0.7903,
+                                "recall": 0.5632,
+                                "f1": 0.6577,
+                                "support": 87
+                            },
+                            "Refuted": {
+                                "precision": 0.758,
+                                "recall": 0.8881,
+                                "f1": 0.8179,
+                                "support": 134
+                            }
+                        },
+                        "nei_prediction_rate": 0.0,
+                        "false_nei_rate": 0.0
+                    },
+                    "statistical_tests": {
+                        "t_test": {
+                            "t_statistic": -2.2817,
+                            "p_value": 0.0232,
+                            "significant_at_0.05": true,
+                            "interpretation": "Significant difference"
+                        },
+                        "chi_square_test": {
+                            "chi2_statistic": 3.5498,
+                            "p_value": 0.0596,
+                            "degrees_of_freedom": 1,
+                            "significant_at_0.05": false,
+                            "interpretation": "No significant difference"
+                        }
+                    },
+                    "accuracy_difference": 0.4305,
+                    "sampling_info": {
+                        "enabled": false,
+                        "stage": "full_data_before_inference",
+                        "strategy": "no_pre_inference_sampling",
+                        "posthoc_balanced_metrics": true,
+                        "reason": "balanced_sampling is false, so full seen/unseen data is processed first. A post-hoc label-stratified balanced evaluation is computed after prediction.",
+                        "original_seen_count": 7,
+                        "original_unseen_count": 293,
+                        "timestamp": "2026-09-10T10:56:40.023980"
+                    },
+                    "prompt_method": "cognitive_bias_aware",
+                    "evaluation_mode": "full_data"
+                }
+            },
+            "posthoc_balanced": {
+                "seen_metrics": {
+                    "accuracy": 0.1429,
+                    "macro_precision": 1.0,
+                    "macro_recall": 0.25,
+                    "macro_f1": 0.4,
+                    "total_samples": 7,
+                    "correct_predictions": 1,
+                    "per_label_metrics": {
+                        "Supported": {
+                            "precision": 1.0,
+                            "recall": 0.25,
+                            "f1": 0.4,
+                            "support": 4
+                        }
+                    },
+                    "nei_prediction_rate": 0.0,
+                    "false_nei_rate": 0.0
+                },
+                "unseen_metrics": {
+                    "accuracy": 0.4286,
+                    "macro_precision": 1.0,
+                    "macro_recall": 0.75,
+                    "macro_f1": 0.8571,
+                    "total_samples": 7,
+                    "correct_predictions": 3,
+                    "per_label_metrics": {
+                        "Supported": {
+                            "precision": 1.0,
+                            "recall": 0.75,
+                            "f1": 0.8571,
+                            "support": 4
+                        }
+                    },
+                    "nei_prediction_rate": 0.0,
+                    "false_nei_rate": 0.0
+                },
+                "comparison": {
+                    "seen_metrics": {
+                        "accuracy": 0.1429,
+                        "macro_precision": 1.0,
+                        "macro_recall": 0.25,
+                        "macro_f1": 0.4,
+                        "total_samples": 7,
+                        "correct_predictions": 1,
+                        "per_label_metrics": {
+                            "Supported": {
+                                "precision": 1.0,
+                                "recall": 0.25,
+                                "f1": 0.4,
+                                "support": 4
+                            }
+                        },
+                        "nei_prediction_rate": 0.0,
+                        "false_nei_rate": 0.0
+                    },
+                    "unseen_metrics": {
+                        "accuracy": 0.4286,
+                        "macro_precision": 1.0,
+                        "macro_recall": 0.75,
+                        "macro_f1": 0.8571,
+                        "total_samples": 7,
+                        "correct_predictions": 3,
+                        "per_label_metrics": {
+                            "Supported": {
+                                "precision": 1.0,
+                                "recall": 0.75,
+                                "f1": 0.8571,
+                                "support": 4
+                            }
+                        },
+                        "nei_prediction_rate": 0.0,
+                        "false_nei_rate": 0.0
+                    },
+                    "statistical_tests": {
+                        "t_test": {
+                            "t_statistic": -1.1547,
+                            "p_value": 0.2707,
+                            "significant_at_0.05": false,
+                            "interpretation": "No significant difference"
+                        },
+                        "chi_square_test": {
+                            "chi2_statistic": 0.35,
+                            "p_value": 0.5541,
+                            "degrees_of_freedom": 1,
+                            "significant_at_0.05": false,
+                            "interpretation": "No significant difference"
+                        }
+                    },
+                    "accuracy_difference": 0.2857,
+                    "sampling_info": {
+                        "enabled": true,
+                        "stage": "post_inference",
+                        "strategy": "label_stratified_seen_unseen_balance_after_prediction",
+                        "method": "cognitive_bias_aware",
+                        "seed": 42,
+                        "original_seen_count": 7,
+                        "original_unseen_count": 293,
+                        "sampled_seen_count": 7,
+                        "sampled_unseen_count": 7,
+                        "labels": [
+                            "Supported",
+                            "Misleading",
+                            "Not Enough Information"
+                        ],
+                        "per_label_info": {
+                            "Supported": {
+                                "original_seen": 4,
+                                "original_unseen": 87,
+                                "sampled_seen": 4,
+                                "sampled_unseen": 4
+                            },
+                            "Misleading": {
+                                "original_seen": 1,
+                                "original_unseen": 54,
+                                "sampled_seen": 1,
+                                "sampled_unseen": 1
+                            },
+                            "Not Enough Information": {
+                                "original_seen": 2,
+                                "original_unseen": 18,
+                                "sampled_seen": 2,
+                                "sampled_unseen": 2
+                            }
+                        },
+                        "timestamp": "2026-09-10T13:49:52.315123"
+                    },
+                    "prompt_method": "cognitive_bias_aware",
+                    "evaluation_mode": "posthoc_label_stratified_balanced"
+                }
+            }
+        }
+    }
+}
