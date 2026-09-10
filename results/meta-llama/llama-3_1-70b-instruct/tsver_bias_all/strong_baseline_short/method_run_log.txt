@@ -1,2 +1,31 @@
-2026-08-01 20:33:53,960 - INFO - Prompt method: strong_baseline_short
-2026-08-01 21:35:55,505 - INFO - Metrics: Accuracy=0.6100, Macro-F1=0.7115
+2026-09-10 00:49:56,235 - INFO - Prompt method: strong_baseline_short
+2026-09-10 01:15:16,501 - INFO - Metrics: Accuracy=0.6183, Macro-F1=0.7094
+2026-09-10 01:23:15,107 - INFO - Metrics: Accuracy=0.5873, Macro-F1=0.7083
+2026-09-10 01:23:15,108 - INFO - ================================================================================
+2026-09-10 01:23:15,108 - INFO - Comparing seen vs unseen performance...
+2026-09-10 01:23:15,115 - INFO - Metrics: Accuracy=0.6183, Macro-F1=0.7094
+2026-09-10 01:23:15,117 - INFO - Metrics: Accuracy=0.5873, Macro-F1=0.7083
+2026-09-10 01:23:15,124 - INFO - Seen accuracy: 0.6183
+2026-09-10 01:23:15,124 - INFO - Unseen accuracy: 0.5873
+2026-09-10 01:23:15,124 - INFO - Difference: -0.0310
+2026-09-10 01:23:15,124 - INFO - T-test p-value: 0.6548 (not significant)
+2026-09-10 01:23:15,124 - INFO - Chi-square p-value: 0.7613 (not significant)
+2026-09-10 01:23:15,125 - INFO - Summary report saved to results/meta-llama/llama-3_1-70b-instruct/tsver_bias_all/strong_baseline_short/summary.json
+2026-09-10 01:23:15,128 - INFO - Metrics: Accuracy=0.5873, Macro-F1=0.6903
+2026-09-10 01:23:15,129 - INFO - Metrics: Accuracy=0.5873, Macro-F1=0.7083
+2026-09-10 01:23:15,129 - INFO - ================================================================================
+2026-09-10 01:23:15,129 - INFO - Comparing seen vs unseen performance...
+2026-09-10 01:23:15,131 - INFO - Metrics: Accuracy=0.5873, Macro-F1=0.6903
+2026-09-10 01:23:15,132 - INFO - Metrics: Accuracy=0.5873, Macro-F1=0.7083
+2026-09-10 01:23:15,134 - INFO - Seen accuracy: 0.5873
+2026-09-10 01:23:15,134 - INFO - Unseen accuracy: 0.5873
+2026-09-10 01:23:15,134 - INFO - Difference: 0.0000
+2026-09-10 01:23:15,134 - INFO - T-test p-value: 1.0000 (not significant)
+2026-09-10 01:23:15,134 - INFO - Chi-square p-value: 1.0000 (not significant)
+2026-09-10 01:23:15,137 - INFO - Predictions saved to results/meta-llama/llama-3_1-70b-instruct/tsver_bias_all/strong_baseline_short/posthoc_balanced/seen/seen_posthoc_balanced_predictions.csv
+2026-09-10 01:23:15,138 - INFO - Predictions JSON saved to results/meta-llama/llama-3_1-70b-instruct/tsver_bias_all/strong_baseline_short/posthoc_balanced/seen/seen_posthoc_balanced_predictions.json
+2026-09-10 01:23:15,138 - INFO - Metrics saved to results/meta-llama/llama-3_1-70b-instruct/tsver_bias_all/strong_baseline_short/posthoc_balanced/seen/seen_posthoc_balanced_metrics.json
+2026-09-10 01:23:15,140 - INFO - Predictions saved to results/meta-llama/llama-3_1-70b-instruct/tsver_bias_all/strong_baseline_short/posthoc_balanced/unseen/unseen_posthoc_balanced_predictions.csv
+2026-09-10 01:23:15,141 - INFO - Predictions JSON saved to results/meta-llama/llama-3_1-70b-instruct/tsver_bias_all/strong_baseline_short/posthoc_balanced/unseen/unseen_posthoc_balanced_predictions.json
+2026-09-10 01:23:15,141 - INFO - Metrics saved to results/meta-llama/llama-3_1-70b-instruct/tsver_bias_all/strong_baseline_short/posthoc_balanced/unseen/unseen_posthoc_balanced_metrics.json
+2026-09-10 01:23:15,141 - INFO - Summary report saved to results/meta-llama/llama-3_1-70b-instruct/tsver_bias_all/strong_baseline_short/posthoc_balanced/summary.json
