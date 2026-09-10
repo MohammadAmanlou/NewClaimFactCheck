@@ -29,7 +29,7 @@
         "source": "tsver",
         "label": "Refuted",
         "detected_biases": "",
-        "prediction": "Supported",
+        "prediction": "Refuted",
         "prediction_error": null
     },
     {
@@ -40,7 +40,7 @@
         "source": "tsver",
         "label": "Not Enough Information",
         "detected_biases": "",
-        "prediction": "Supported",
+        "prediction": "Refuted",
         "prediction_error": null
     },
     {
@@ -106,7 +106,7 @@
         "source": "tsver",
         "label": "Refuted",
         "detected_biases": "",
-        "prediction": "Supported",
+        "prediction": "Refuted",
         "prediction_error": null
     },
     {
@@ -139,7 +139,7 @@
         "source": "tsver",
         "label": "Supported",
         "detected_biases": "",
-        "prediction": "Refuted",
+        "prediction": "Supported",
         "prediction_error": null
     },
     {
@@ -172,7 +172,7 @@
         "source": "tsver",
         "label": "Refuted",
         "detected_biases": "",
-        "prediction": "Refuted",
+        "prediction": "Supported",
         "prediction_error": null
     },
     {
@@ -216,7 +216,7 @@
         "source": "tsver",
         "label": "Supported",
         "detected_biases": "[{\"bias\": \"Pro-Innovation Bias\", \"confidence\": 0.4846}]",
-        "prediction": "Supported",
+        "prediction": "Refuted",
         "prediction_error": null
     },
     {
@@ -337,7 +337,7 @@
         "source": "tsver",
         "label": "Misleading",
         "detected_biases": "[{\"bias\": \"Availability heuristic\", \"confidence\": 0.5392}]",
-        "prediction": "Supported",
+        "prediction": "Refuted",
         "prediction_error": null
     },
     {
@@ -381,7 +381,7 @@
         "source": "tsver",
         "label": "Not Enough Information",
         "detected_biases": "",
-        "prediction": "Supported",
+        "prediction": "Refuted",
         "prediction_error": null
     },
     {
@@ -425,7 +425,7 @@
         "source": "tsver",
         "label": "Refuted",
         "detected_biases": "",
-        "prediction": "Supported",
+        "prediction": "Refuted",
         "prediction_error": null
     },
     {
@@ -557,7 +557,7 @@
         "source": "tsver",
         "label": "Supported",
         "detected_biases": "",
-        "prediction": "Supported",
+        "prediction": "Refuted",
         "prediction_error": null
     },
     {
@@ -568,7 +568,7 @@
         "source": "tsver",
         "label": "Supported",
         "detected_biases": "[{\"bias\": \"Availability heuristic\", \"confidence\": 0.4875}]",
-        "prediction": "Supported",
+        "prediction": "Refuted",
         "prediction_error": null
     },
     {
@@ -601,7 +601,7 @@
         "source": "tsver",
         "label": "Refuted",
         "detected_biases": "",
-        "prediction": "Supported",
+        "prediction": "Refuted",
         "prediction_error": null
     },
     {
@@ -623,7 +623,7 @@
         "source": "tsver",
         "label": "Supported",
         "detected_biases": "[{\"bias\": \"Availability heuristic\", \"confidence\": 0.4853}]",
-        "prediction": "Supported",
+        "prediction": "Refuted",
         "prediction_error": null
     },
     {
@@ -645,7 +645,7 @@
         "source": "tsver",
         "label": "Refuted",
         "detected_biases": "",
-        "prediction": "Refuted",
+        "prediction": "Supported",
         "prediction_error": null
     },
     {
@@ -656,7 +656,7 @@
         "source": "tsver",
         "label": "Refuted",
         "detected_biases": "[{\"bias\": \"Availability heuristic\", \"confidence\": 0.4465}]",
-        "prediction": "Supported",
+        "prediction": "Half-True",
         "prediction_error": null
     },
     {
@@ -689,7 +689,7 @@
         "source": "tsver",
         "label": "Refuted",
         "detected_biases": "",
-        "prediction": "Supported",
+        "prediction": "Refuted",
         "prediction_error": null
     },
     {
@@ -777,7 +777,7 @@
         "source": "tsver",
         "label": "Refuted",
         "detected_biases": "[{\"bias\": \"Availability heuristic\", \"confidence\": 0.4196}]",
-        "prediction": "Supported",
+        "prediction": "Refuted",
         "prediction_error": null
     },
     {
@@ -898,7 +898,7 @@
         "source": "tsver",
         "label": "Refuted",
         "detected_biases": "[{\"bias\": \"Availability heuristic\", \"confidence\": 0.3805}]",
-        "prediction": "Misleading",
+        "prediction": "Refuted",
         "prediction_error": null
     },
     {
@@ -953,7 +953,7 @@
         "source": "tsver",
         "label": "Refuted",
         "detected_biases": "[{\"bias\": \"Just-world hypothesis\", \"confidence\": 0.3837}]",
-        "prediction": "Supported",
+        "prediction": "Refuted",
         "prediction_error": null
     },
     {
@@ -986,7 +986,7 @@
         "source": "tsver",
         "label": "Refuted",
         "detected_biases": "",
-        "prediction": "Refuted",
+        "prediction": "Supported",
         "prediction_error": null
     },
     {
@@ -1008,7 +1008,7 @@
         "source": "tsver",
         "label": "Supported",
         "detected_biases": "[{\"bias\": \"Availability heuristic\", \"confidence\": 0.4518}]",
-        "prediction": "Supported",
+        "prediction": "Refuted",
         "prediction_error": null
     },
     {
@@ -1261,7 +1261,7 @@
         "source": "tsver",
         "label": "Not Enough Information",
         "detected_biases": "[{\"bias\": \"Availability heuristic\", \"confidence\": 0.3576}]",
-        "prediction": "Supported",
+        "prediction": "Refuted",
         "prediction_error": null
     },
     {
@@ -1349,7 +1349,7 @@
         "source": "tsver",
         "label": "Refuted",
         "detected_biases": "[{\"bias\": \"Availability heuristic\", \"confidence\": 0.4016}]",
-        "prediction": "Supported",
+        "prediction": "Refuted",
         "prediction_error": null
     },
     {
@@ -1382,7 +1382,7 @@
         "source": "tsver",
         "label": "Not Enough Information",
         "detected_biases": "",
-        "prediction": "Supported",
+        "prediction": "Refuted",
         "prediction_error": null
     },
     {
@@ -1404,7 +1404,7 @@
         "source": "tsver",
         "label": "Refuted",
         "detected_biases": "",
-        "prediction": "Supported",
+        "prediction": "Refuted",
         "prediction_error": null
     },
     {
@@ -1503,7 +1503,7 @@
         "source": "tsver",
         "label": "Refuted",
         "detected_biases": "[{\"bias\": \"Availability heuristic\", \"confidence\": 0.4067}, {\"bias\": \"Just-world hypothesis\", \"confidence\": 0.3364}]",
-        "prediction": "Refuted",
+        "prediction": "Supported",
         "prediction_error": null
     },
     {
@@ -1569,7 +1569,7 @@
         "source": "tsver",
         "label": "Supported",
         "detected_biases": "[{\"bias\": \"Availability heuristic\", \"confidence\": 0.6235}]",
-        "prediction": "Supported",
+        "prediction": "Refuted",
         "prediction_error": null
     },
     {
@@ -1591,7 +1591,7 @@
         "source": "tsver",
         "label": "Not Enough Information",
         "detected_biases": "",
-        "prediction": "Supported",
+        "prediction": "Refuted",
         "prediction_error": null
     },
     {
@@ -1646,7 +1646,7 @@
         "source": "tsver",
         "label": "Supported",
         "detected_biases": "[{\"bias\": \"curse of knowledge\", \"confidence\": 0.6122}]",
-        "prediction": "Supported",
+        "prediction": "Refuted",
         "prediction_error": null
     },
     {
@@ -1679,7 +1679,7 @@
         "source": "tsver",
         "label": "Refuted",
         "detected_biases": "[{\"bias\": \"Just-world hypothesis\", \"confidence\": 0.3707}]",
-        "prediction": "Supported",
+        "prediction": "Refuted",
         "prediction_error": null
     },
     {
@@ -1701,7 +1701,7 @@
         "source": "tsver",
         "label": "Misleading",
         "detected_biases": "",
-        "prediction": "Refuted",
+        "prediction": "Supported",
         "prediction_error": null
     },
     {
@@ -1723,7 +1723,7 @@
         "source": "tsver",
         "label": "Supported",
         "detected_biases": "",
-        "prediction": "Refuted",
+        "prediction": "Supported",
         "prediction_error": null
     },
     {
@@ -1734,7 +1734,7 @@
         "source": "tsver",
         "label": "Refuted",
         "detected_biases": "",
-        "prediction": "Supported",
+        "prediction": "Refuted",
         "prediction_error": null
     },
     {
@@ -1745,7 +1745,7 @@
         "source": "tsver",
         "label": "Supported",
         "detected_biases": "",
-        "prediction": "Supported",
+        "prediction": "Refuted",
         "prediction_error": null
     },
     {
@@ -1789,7 +1789,7 @@
         "source": "tsver",
         "label": "Refuted",
         "detected_biases": "",
-        "prediction": "Supported",
+        "prediction": "Refuted",
         "prediction_error": null
     },
     {
@@ -1855,7 +1855,7 @@
         "source": "tsver",
         "label": "Not Enough Information",
         "detected_biases": "",
-        "prediction": "Supported",
+        "prediction": "Refuted",
         "prediction_error": null
     },
     {
@@ -1866,7 +1866,7 @@
         "source": "tsver",
         "label": "Not Enough Information",
         "detected_biases": "",
-        "prediction": "Refuted",
+        "prediction": "Supported",
         "prediction_error": null
     },
     {
@@ -1899,7 +1899,7 @@
         "source": "tsver",
         "label": "Supported",
         "detected_biases": "",
-        "prediction": "Supported",
+        "prediction": "Refuted",
         "prediction_error": null
     },
     {
@@ -1943,7 +1943,7 @@
         "source": "tsver",
         "label": "Supported",
         "detected_biases": "[{\"bias\": \"Availability heuristic\", \"confidence\": 0.6836}]",
-        "prediction": "Refuted",
+        "prediction": "Supported",
         "prediction_error": null
     },
     {
@@ -1976,7 +1976,7 @@
         "source": "tsver",
         "label": "Supported",
         "detected_biases": "",
-        "prediction": "Supported",
+        "prediction": "Refuted",
         "prediction_error": null
     },
     {
@@ -1987,7 +1987,7 @@
         "source": "tsver",
         "label": "Supported",
         "detected_biases": "[{\"bias\": \"hindsight bias\", \"confidence\": 0.3893}]",
-        "prediction": "Supported",
+        "prediction": "Refuted",
         "prediction_error": null
     },
     {
@@ -2020,7 +2020,7 @@
         "source": "tsver",
         "label": "Not Enough Information",
         "detected_biases": "",
-        "prediction": "Supported",
+        "prediction": "Refuted",
         "prediction_error": null
     },
     {
@@ -2042,7 +2042,7 @@
         "source": "tsver",
         "label": "Refuted",
         "detected_biases": "[{\"bias\": \"Availability heuristic\", \"confidence\": 0.3537}]",
-        "prediction": "Supported",
+        "prediction": "Refuted",
         "prediction_error": null
     },
     {
@@ -2053,7 +2053,7 @@
         "source": "tsver",
         "label": "Misleading",
         "detected_biases": "",
-        "prediction": "Misleading",
+        "prediction": "Refuted",
         "prediction_error": null
     },
     {
@@ -2086,7 +2086,7 @@
         "source": "tsver",
         "label": "Supported",
         "detected_biases": "",
-        "prediction": "Supported",
+        "prediction": "Refuted",
         "prediction_error": null
     },
     {
@@ -2130,7 +2130,7 @@
         "source": "tsver",
         "label": "Not Enough Information",
         "detected_biases": "",
-        "prediction": "Supported",
+        "prediction": "Refuted",
         "prediction_error": null
     },
     {
@@ -2185,7 +2185,7 @@
         "source": "tsver",
         "label": "Supported",
         "detected_biases": "[{\"bias\": \"Availability heuristic\", \"confidence\": 0.5729}]",
-        "prediction": "Refuted",
+        "prediction": "Supported",
         "prediction_error": null
     },
     {
@@ -2262,7 +2262,7 @@
         "source": "tsver",
         "label": "Refuted",
         "detected_biases": "",
-        "prediction": "Supported",
+        "prediction": "Refuted",
         "prediction_error": null
     },
     {
@@ -2273,7 +2273,7 @@
         "source": "tsver",
         "label": "Refuted",
         "detected_biases": "[{\"bias\": \"Normalcy bias\", \"confidence\": 0.6338}]",
-        "prediction": "Refuted",
+        "prediction": "Supported",
         "prediction_error": null
     },
     {
@@ -2284,7 +2284,7 @@
         "source": "tsver",
         "label": "Supported",
         "detected_biases": "",
-        "prediction": "Supported",
+        "prediction": "Refuted",
         "prediction_error": null
     },
     {
@@ -2482,7 +2482,7 @@
         "source": "tsver",
         "label": "Refuted",
         "detected_biases": "",
-        "prediction": "Supported",
+        "prediction": "Refuted",
         "prediction_error": null
     },
     {
