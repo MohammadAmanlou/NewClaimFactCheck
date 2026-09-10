@@ -7,7 +7,7 @@
         "source": "claimreview2024plus",
         "label": "Supported",
         "detected_biases": "[{\"bias\": \"curse of knowledge\", \"confidence\": 0.3113}]",
-        "prediction": "Refuted",
+        "prediction": "Supported",
         "prediction_error": null
     },
     {
@@ -18,7 +18,7 @@
         "source": "claimreview2024plus",
         "label": "Supported",
         "detected_biases": "",
-        "prediction": "Refuted",
+        "prediction": "Supported",
         "prediction_error": null
     },
     {
@@ -73,7 +73,7 @@
         "source": "claimreview2024plus",
         "label": "Supported",
         "detected_biases": "",
-        "prediction": "Refuted",
+        "prediction": "Not Enough Information",
         "prediction_error": null
     }
 ]
