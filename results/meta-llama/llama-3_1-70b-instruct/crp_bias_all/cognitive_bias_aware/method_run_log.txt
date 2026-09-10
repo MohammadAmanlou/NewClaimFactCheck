@@ -1,0 +1,31 @@
+2026-09-10 13:12:18,821 - INFO - Prompt method: cognitive_bias_aware
+2026-09-10 13:12:51,364 - INFO - Metrics: Accuracy=0.1429, Macro-F1=0.4000
+2026-09-10 13:49:52,305 - INFO - Metrics: Accuracy=0.5734, Macro-F1=0.7378
+2026-09-10 13:49:52,305 - INFO - ================================================================================
+2026-09-10 13:49:52,305 - INFO - Comparing seen vs unseen performance...
+2026-09-10 13:49:52,305 - INFO - Metrics: Accuracy=0.1429, Macro-F1=0.4000
+2026-09-10 13:49:52,311 - INFO - Metrics: Accuracy=0.5734, Macro-F1=0.7378
+2026-09-10 13:49:52,314 - INFO - Seen accuracy: 0.1429
+2026-09-10 13:49:52,314 - INFO - Unseen accuracy: 0.5734
+2026-09-10 13:49:52,314 - INFO - Difference: 0.4305
+2026-09-10 13:49:52,314 - INFO - T-test p-value: 0.0232 (significant)
+2026-09-10 13:49:52,314 - INFO - Chi-square p-value: 0.0596 (not significant)
+2026-09-10 13:49:52,314 - INFO - Summary report saved to results/meta-llama/llama-3_1-70b-instruct/crp_bias_all/cognitive_bias_aware/summary.json
+2026-09-10 13:49:52,315 - INFO - Metrics: Accuracy=0.1429, Macro-F1=0.4000
+2026-09-10 13:49:52,315 - INFO - Metrics: Accuracy=0.4286, Macro-F1=0.8571
+2026-09-10 13:49:52,315 - INFO - ================================================================================
+2026-09-10 13:49:52,315 - INFO - Comparing seen vs unseen performance...
+2026-09-10 13:49:52,316 - INFO - Metrics: Accuracy=0.1429, Macro-F1=0.4000
+2026-09-10 13:49:52,316 - INFO - Metrics: Accuracy=0.4286, Macro-F1=0.8571
+2026-09-10 13:49:52,317 - INFO - Seen accuracy: 0.1429
+2026-09-10 13:49:52,317 - INFO - Unseen accuracy: 0.4286
+2026-09-10 13:49:52,317 - INFO - Difference: 0.2857
+2026-09-10 13:49:52,317 - INFO - T-test p-value: 0.2707 (not significant)
+2026-09-10 13:49:52,317 - INFO - Chi-square p-value: 0.5541 (not significant)
+2026-09-10 13:49:52,318 - INFO - Predictions saved to results/meta-llama/llama-3_1-70b-instruct/crp_bias_all/cognitive_bias_aware/posthoc_balanced/seen/seen_posthoc_balanced_predictions.csv
+2026-09-10 13:49:52,318 - INFO - Predictions JSON saved to results/meta-llama/llama-3_1-70b-instruct/crp_bias_all/cognitive_bias_aware/posthoc_balanced/seen/seen_posthoc_balanced_predictions.json
+2026-09-10 13:49:52,318 - INFO - Metrics saved to results/meta-llama/llama-3_1-70b-instruct/crp_bias_all/cognitive_bias_aware/posthoc_balanced/seen/seen_posthoc_balanced_metrics.json
+2026-09-10 13:49:52,319 - INFO - Predictions saved to results/meta-llama/llama-3_1-70b-instruct/crp_bias_all/cognitive_bias_aware/posthoc_balanced/unseen/unseen_posthoc_balanced_predictions.csv
+2026-09-10 13:49:52,320 - INFO - Predictions JSON saved to results/meta-llama/llama-3_1-70b-instruct/crp_bias_all/cognitive_bias_aware/posthoc_balanced/unseen/unseen_posthoc_balanced_predictions.json
+2026-09-10 13:49:52,320 - INFO - Metrics saved to results/meta-llama/llama-3_1-70b-instruct/crp_bias_all/cognitive_bias_aware/posthoc_balanced/unseen/unseen_posthoc_balanced_metrics.json
+2026-09-10 13:49:52,320 - INFO - Summary report saved to results/meta-llama/llama-3_1-70b-instruct/crp_bias_all/cognitive_bias_aware/posthoc_balanced/summary.json
